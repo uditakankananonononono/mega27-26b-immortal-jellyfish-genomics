@@ -93,6 +93,18 @@ build_paper(
             "experiments/analyze.py regenerates every number in this "
             "paper from the fetched FASTAs.",
         ]),
+        ("Appendix - panel definition and audit trail", [
+            "Panel (locked before querying): base-excision and "
+            "double-strand repair ERCC1, ERCC2, XRCC1, XRCC5, RAD51, "
+            "BRCA1, MLH1, MSH2, OGG1, PARP1, FEN1, LIG4; telomerase "
+            "pathway TERT, TERC, DKC1, POT1, TERF1, TERF2. The audit "
+            "script logs every query term, database, and hit count to "
+            "data/manifest.json; the negative for T. dohrnii is thus a "
+            "logged protocol outcome, not an absence of effort. TERC "
+            "is absent from protein-coding mRNA queries by design (it "
+            "is a non-coding RNA) and is handled separately in the "
+            "counts.",
+        ]),
         ("Limitations", [
             "Record counts are database artifacts as much as biology; "
             "bulk k-mer signatures confound species and pathway; the "
