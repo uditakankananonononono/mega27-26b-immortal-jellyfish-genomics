@@ -10,7 +10,7 @@ selfd = R.get("signature_distance_human_halfsplit")
 
 build_paper(
     os.path.join(os.path.dirname(__file__), "..", "paper",
-                 "MEGA27-26b-immortal-jellyfish-genomics.docx"),
+                 "MEGA27-26b-immortal-jellyfish-genomics-v2.docx"),
     "Comparative genomics of DNA-repair and telomerase pathways across "
     "aging-resistance strategies: a public-data audit and a human-vs-Hydra "
     "sequence study",
@@ -74,6 +74,24 @@ build_paper(
             "RefSeq mRNA level, consistent with the hypothesis that "
             "non-aging in Hydra is driven by stem-cell dynamics rather "
             "than repair-gene dosage.",
+        ]),
+        ("Why the gap matters (discussion)", [
+            "A widely-cited immortality-genomics claim resting on "
+            "database-invisible sequences means every downstream "
+            "computational reuse of that claim must re-derive the "
+            "annotations from raw assemblies. Our audit protocol "
+            "(experiments/fetch_data.py) is the reusable artifact: it "
+            "turns 'check the public record' into one command for any "
+            "gene panel and organism, and it is how the boundary was "
+            "established rather than asserted.",
+        ]),
+        ("Reproducibility", [
+            "pytest validates parsers, GC/codon/k-mer math, signature "
+            "distance bounds and copy-number signals on fixtures (7 "
+            "tests); experiments/fetch_data.py rebuilds the sequence "
+            "sets live from NCBI with rate limiting and resume; "
+            "experiments/analyze.py regenerates every number in this "
+            "paper from the fetched FASTAs.",
         ]),
         ("Limitations", [
             "Record counts are database artifacts as much as biology; "
