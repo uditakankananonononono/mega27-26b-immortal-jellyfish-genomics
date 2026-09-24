@@ -1,0 +1,105 @@
+{
+ "per_species_gene_records": {
+  "human": {
+   "ERCC1": 4,
+   "ERCC2": 4,
+   "XRCC1": 4,
+   "XRCC5": 4,
+   "RAD51": 4,
+   "BRCA1": 4,
+   "MLH1": 4,
+   "MSH2": 4,
+   "OGG1": 4,
+   "PARP1": 4,
+   "FEN1": 4,
+   "LIG4": 4,
+   "TERT": 4,
+   "TERC": 0,
+   "DKC1": 4,
+   "POT1": 3,
+   "TERF1": 4,
+   "TERF2": 4
+  },
+  "hvulgaris": {
+   "ERCC1": 2,
+   "ERCC2": 2,
+   "XRCC1": 4,
+   "XRCC5": 2,
+   "RAD51": 4,
+   "BRCA1": 4,
+   "MLH1": 3,
+   "MSH2": 4,
+   "OGG1": 2,
+   "PARP1": 2,
+   "FEN1": 2,
+   "LIG4": 2,
+   "TERT": 3,
+   "TERC": 0,
+   "DKC1": 2,
+   "POT1": 2,
+   "TERF1": 2,
+   "TERF2": 0
+  }
+ },
+ "n_sequences": {
+  "human": 65,
+  "hvulgaris": 42
+ },
+ "database_gap": {
+  "turritopsis_dohrnii": "0 records in NCBI nucleotide/gene/protein for all 18 repair/telomerase genes (synonyms Turritopsis nutricula tried); UniProt: 4 total entries, none repair/telomerase. Only raw genome assemblies exist (e.g. GCA_051903475.1).",
+  "aurelia_aurita": "0 gene-level records for the panel; UniProt 114 entries, none in panel."
+ },
+ "hypothesis_reference": "Pascual-Torner et al. 2022 PNAS: comparative genomics of T. dohrnii vs C. hemisphaerica reported expansions of DNA-repair and replication-associated genes.",
+ "mean_gc": {
+  "human": 0.4914936420543425,
+  "hvulgaris": 0.25288670894498977
+ },
+ "signature_distance_human_vs_hydra": 0.7638998269540794,
+ "signature_distance_human_halfsplit": 0.023574136489912578,
+ "copy_number": {
+  "human": {
+   "ERCC1": 4,
+   "ERCC2": 4,
+   "XRCC1": 4,
+   "XRCC5": 4,
+   "RAD51": 4,
+   "BRCA1": 4,
+   "MLH1": 4,
+   "MSH2": 4,
+   "OGG1": 4,
+   "PARP1": 4,
+   "FEN1": 4,
+   "LIG4": 4,
+   "TERT": 4,
+   "TERC": 0,
+   "DKC1": 4,
+   "POT1": 3,
+   "TERF1": 4,
+   "TERF2": 4
+  },
+  "hvulgaris": {
+   "ERCC1": 2,
+   "ERCC2": 2,
+   "XRCC1": 4,
+   "XRCC5": 2,
+   "RAD51": 4,
+   "BRCA1": 4,
+   "MLH1": 3,
+   "MSH2": 4,
+   "OGG1": 2,
+   "PARP1": 2,
+   "FEN1": 2,
+   "LIG4": 2,
+   "TERT": 3,
+   "TERC": 0,
+   "DKC1": 2,
+   "POT1": 2,
+   "TERF1": 2,
+   "TERF2": 0
+  }
+ },
+ "repair_record_totals": {
+  "hydra": 33,
+  "human": 48
+ }
+}
