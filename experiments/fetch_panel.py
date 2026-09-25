@@ -49,7 +49,7 @@ def main():
     # 2. human reference proteins: resolve current RefSeq live (no stale accessions)
     import xml.etree.ElementTree as ET
     def resolve_and_fetch(sp, sym):
-        term = f'"{sp}"[Organism] AND {sym}[Gene Name] AND refseq[filter]'
+        term = f'"{sp}"[Organism] AND {sym}[All Fields] AND refseq[filter]'
         root = ET.fromstring(eutils("esearch.fcgi", db="protein", term=term, retmax=5))
         ids = [i.text for i in root.findall(".//Id")]
         if not ids:
@@ -78,18 +78,12 @@ def main():
     for sp in CNIDARIA:
         manifest["cnidaria"][sp] = {}
         for sym, grp, refseq, uniprot in PANEL:
-            term = f'"{sp}"[Organism] AND {sym}[Gene Name] AND refseq[filter]'
-            try:
-                c, ids = esearch_count("protein", term)
-            except Exception:
-                c, ids = 0, []
-            time.sleep(0.4)
-            if ids:
-                fa = eutils("efetch.fcgi", db="protein", id=ids[0], rettype="fasta", retmode="text").decode()
+            if sym == "TERC":
+                manifest["cnidaria"][sp][sym] = None; continue
+            acc, fa = resolve_and_fetch(sp, sym)
+            if fa:
                 open(f"data/panel/{sp.split()[0]}_{sym}.faa", "w").write(fa)
-                manifest["cnidaria"][sp][sym] = ids[0]
-            else:
-                manifest["cnidaria"][sp][sym] = None
+            manifest["cnidaria"][sp][sym] = acc
             time.sleep(0.4)
     json.dump(manifest, open("results/panel_manifest.json", "w"), indent=1)
     desert = {j: sum(1 for g in audit[j].values() if g["gene_db"] == 0 and g["protein_db"] == 0) for j in JELLIES}

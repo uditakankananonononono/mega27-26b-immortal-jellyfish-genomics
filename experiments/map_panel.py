@@ -6,7 +6,7 @@ contig, coords, evalue, bitscore, query coverage)
 """
 import json, os, subprocess, glob, sys
 B = "/tmp/ncbi-blast-2.17.0+/bin/tblastn"
-DBS = {"Tdohrnii": "../data/genomes/db/Tdohrnii", "Aaurita": "../data/genomes/db/Aaurita"}
+DBS = {"Tdohrnii": "../data/genomes/db/Tdohrnii", "TdohrniiOviedo": "../data/genomes/db/TdohrniiOviedo", "Aaurita": "../data/genomes/db/Aaurita"}
 OUTFMT = "6 qseqid sseqid pident length evalue bitscore qstart qend sstart send qlen"
 
 def run(genome, db, faa, sym, species):
@@ -35,7 +35,7 @@ def main():
             except Exception as e:
                 res[genome][f"{species}_{sym}"] = {"error": str(e)}
             print(genome, species, sym, len(res[genome][f"{species}_{sym}"]), flush=True)
-    json.dump(res, open("results/tblastn_hits.json", "w"), indent=1)
+        json.dump(res, open("results/tblastn_hits.json", "w"), indent=1)
 
 if __name__ == "__main__":
     main()
