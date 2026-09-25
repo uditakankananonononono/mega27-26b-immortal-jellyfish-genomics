@@ -1,0 +1,244 @@
+{
+ "tools": [
+  {
+   "n": 1,
+   "tool": "NCBI eutils esearch (gene db)",
+   "use": "live annotation-desert audit, 21 genes x 2 jellies",
+   "evidence": "results/desert_audit.json"
+  },
+  {
+   "n": 2,
+   "tool": "NCBI eutils esearch (protein db)",
+   "use": "panel ortholog resolution + desert audit",
+   "evidence": "results/panel_manifest.json"
+  },
+  {
+   "n": 3,
+   "tool": "NCBI eutils esearch (nuccore db)",
+   "use": "telomerase record census (0 Td / 1 Aa)",
+   "evidence": "results/tert_nuccore_note"
+  },
+  {
+   "n": 4,
+   "tool": "NCBI eutils esearch (assembly db)",
+   "use": "assembly discovery, 4 Td + 1 Aa",
+   "evidence": "reported 9:51"
+  },
+  {
+   "n": 5,
+   "tool": "NCBI eutils esearch (sra db)",
+   "use": "run census: 60 Td + 206 Aa",
+   "evidence": "results/sra_census.json"
+  },
+  {
+   "n": 6,
+   "tool": "NCBI eutils efetch (protein FASTA)",
+   "use": "133 panel protein records, 9 species",
+   "evidence": "data/panel/"
+  },
+  {
+   "n": 7,
+   "tool": "NCBI eutils efetch (nuccore FASTA/GenBank)",
+   "use": "10 cnidarian TERC records BK012923-32",
+   "evidence": "data/cnidarian_terc.fasta"
+  },
+  {
+   "n": 8,
+   "tool": "NCBI eutils esummary (assembly)",
+   "use": "assembly stats (436/400/377 Mb)",
+   "evidence": "reported 9:51"
+  },
+  {
+   "n": 9,
+   "tool": "NCBI eutils esummary (sra)",
+   "use": "per-run metadata, 266 runs",
+   "evidence": "results/sra_census.json"
+  },
+  {
+   "n": 10,
+   "tool": "NCBI datasets v2 genome summary",
+   "use": "assembly level/size/N50",
+   "evidence": "reported 9:51"
+  },
+  {
+   "n": 11,
+   "tool": "NCBI datasets v2 genome download",
+   "use": "6 genome FASTAs",
+   "evidence": "data/genomes/"
+  },
+  {
+   "n": 12,
+   "tool": "NCBI BLAST+ makeblastdb 2.17.0",
+   "use": "3 local genome databases",
+   "evidence": "data/genomes/db/"
+  },
+  {
+   "n": 13,
+   "tool": "NCBI BLAST+ tblastn 2.17.0",
+   "use": "174 panel-protein x genome mappings",
+   "evidence": "results/tblastn_hits.json"
+  },
+  {
+   "n": 14,
+   "tool": "NCBI BLAST+ blastn 2.17.0",
+   "use": "TERC homology search (word_size 7)",
+   "evidence": "results/terc_blastn_*.tsv"
+  },
+  {
+   "n": 15,
+   "tool": "Pfam-A HMM library (current release)",
+   "use": "domain verification + TERT deep-check",
+   "evidence": "results/domain_verification.json"
+  },
+  {
+   "n": 16,
+   "tool": "pyhmmer 0.12.3 (hmmsearch, chunked)",
+   "use": "51+74 proteins x full Pfam on 1GB RAM",
+   "evidence": "results/tert_deepcheck.json"
+  },
+  {
+   "n": 17,
+   "tool": "biopython SeqIO",
+   "use": "genome indexing, locus extraction",
+   "evidence": "data/loci/"
+  },
+  {
+   "n": 18,
+   "tool": "biopython PairwiseAligner",
+   "use": "ortholog alignment for substitution analysis",
+   "evidence": "results/unique_mutations.json"
+  },
+  {
+   "n": 19,
+   "tool": "biopython BLOSUM62 matrix",
+   "use": "alignment scoring",
+   "evidence": "jellyfish/mutations.py"
+  },
+  {
+   "n": 20,
+   "tool": "numpy",
+   "use": "all numerical work",
+   "evidence": "package-wide"
+  },
+  {
+   "n": 21,
+   "tool": "PyTorch CNN (Conv1d)",
+   "use": "upstream classifier + transfer",
+   "evidence": "results/ml_cnn.json"
+  },
+  {
+   "n": 22,
+   "tool": "PyTorch GCN (hand-rolled)",
+   "use": "k-mer graph species discriminator",
+   "evidence": "results/ml_gnn.json"
+  },
+  {
+   "n": 23,
+   "tool": "scikit-learn LogisticRegression",
+   "use": "6-mer baselines (0.86 AUROC)",
+   "evidence": "results/ml_gnn.json"
+  },
+  {
+   "n": 24,
+   "tool": "scikit-learn roc_auc_score",
+   "use": "all AUROC metrics",
+   "evidence": "results/ml_*.json"
+  },
+  {
+   "n": 25,
+   "tool": "matplotlib",
+   "use": "paper figures 1-5",
+   "evidence": "paper/figures/"
+  },
+  {
+   "n": 26,
+   "tool": "python-docx",
+   "use": "lane-G prior paper ingestion",
+   "evidence": "handoff"
+  },
+  {
+   "n": 27,
+   "tool": "reportlab",
+   "use": "paper PDF rendering",
+   "evidence": "paper/"
+  },
+  {
+   "n": 28,
+   "tool": "UniProt (web query)",
+   "use": "panel cross-check in desert audit",
+   "evidence": "results/desert_audit.json note"
+  },
+  {
+   "n": 29,
+   "tool": "PubMed esearch (eutils)",
+   "use": "reference anchors (Pascual-Torner etc.)",
+   "evidence": "results/tools/pubmed_hits.txt"
+  },
+  {
+   "n": 30,
+   "tool": "JASPAR CORE API",
+   "use": "SP1 MA0079.3 consensus grounds CGCCCG family",
+   "evidence": "results/tools/jaspar_sp1"
+  },
+  {
+   "n": 31,
+   "tool": "RNAcentral API",
+   "use": "TERC cross-database check (no clean Td entry)",
+   "evidence": "results/tools/rnacentral"
+  },
+  {
+   "n": 32,
+   "tool": "InterPro API",
+   "use": "PF12009 = IPR021891 Telomerase_RBD confirmation",
+   "evidence": "results/tools/interpro_pf12009"
+  },
+  {
+   "n": 33,
+   "tool": "NCBI SRA esummary expxml",
+   "use": "library strategies: 158 RNA-Seq runs",
+   "evidence": "results/sra_census.json"
+  },
+  {
+   "n": 34,
+   "tool": "git",
+   "use": "version control, 15+ commits",
+   "evidence": "repo"
+  },
+  {
+   "n": 35,
+   "tool": "GitHub SSH deploy key",
+   "use": "repo push to her account",
+   "evidence": "github.com/uditakankananonononono"
+  },
+  {
+   "n": 36,
+   "tool": "Google Drive API",
+   "use": "continuous artifact backup + delivery",
+   "evidence": "MEGA-PROGRAM-27 results folder"
+  },
+  {
+   "n": 37,
+   "tool": "Microsoft Core Fonts (times32.exe)",
+   "use": "exact Times New Roman for the paper",
+   "evidence": "paper/"
+  },
+  {
+   "n": 38,
+   "tool": "ssh-keygen (ed25519)",
+   "use": "deploy key generation",
+   "evidence": "reported 9:50"
+  },
+  {
+   "n": 39,
+   "tool": "pytest",
+   "use": "34 hermetic tests",
+   "evidence": "tests/"
+  },
+  {
+   "n": 40,
+   "tool": "7z",
+   "use": "font extraction (license-compliant .exe form)",
+   "evidence": "paper/"
+  }
+ ]
+}

@@ -482,7 +482,15 @@
     "bases": "",
     "created": "2020/02/19"
    }
-  ]
+  ],
+  "platforms": {
+   "unknown": 60
+  },
+  "strategies": {
+   "RNA-Seq": 58,
+   "WGS": 2
+  },
+  "total_bases": 0
  },
  "Aurelia aurita": {
   "n_uids": 206,
@@ -2135,6 +2143,17 @@
     "bases": "",
     "created": "2012/03/28"
    }
-  ]
+  ],
+  "platforms": {
+   "unknown": 206
+  },
+  "strategies": {
+   "RNA-Seq": 100,
+   "WGA": 15,
+   "WGS": 49,
+   "AMPLICON": 40,
+   "EST": 2
+  },
+  "total_bases": 0
  }
 }
