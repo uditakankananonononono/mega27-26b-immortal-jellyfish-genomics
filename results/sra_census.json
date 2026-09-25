@@ -1,0 +1,2140 @@
+{
+ "Turritopsis dohrnii": {
+  "n_uids": 60,
+  "runs": [
+   {
+    "sra_uid": "25951820",
+    "runs": "                                <Run acc=\"DRR267497\" total_spots=\"26884815\" total_bases=\"5392069857\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/><Run acc=\"DRR",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/12/26"
+   },
+   {
+    "sra_uid": "25951819",
+    "runs": "                                <Run acc=\"DRR267485\" total_spots=\"42321348\" total_bases=\"5984192260\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/><Run acc=\"DRR",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/12/26"
+   },
+   {
+    "sra_uid": "25951818",
+    "runs": "                                <Run acc=\"DRR267480\" total_spots=\"1704140\" total_bases=\"11640259904\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/><Run acc=\"DRR",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/12/26"
+   },
+   {
+    "sra_uid": "16857851",
+    "runs": "                                <Run acc=\"SRR16148300\" total_spots=\"22987340\" total_bases=\"6896202000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857850",
+    "runs": "                                <Run acc=\"SRR16148301\" total_spots=\"20384083\" total_bases=\"6115224900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857849",
+    "runs": "                                <Run acc=\"SRR16148302\" total_spots=\"34342994\" total_bases=\"10302898200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857848",
+    "runs": "                                <Run acc=\"SRR16148303\" total_spots=\"23432952\" total_bases=\"7029885600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857847",
+    "runs": "                                <Run acc=\"SRR16148304\" total_spots=\"22634339\" total_bases=\"6790301700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857846",
+    "runs": "                                <Run acc=\"SRR16148305\" total_spots=\"28793079\" total_bases=\"8637923700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857845",
+    "runs": "                                <Run acc=\"SRR16148306\" total_spots=\"21100964\" total_bases=\"6330289200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857844",
+    "runs": "                                <Run acc=\"SRR16148307\" total_spots=\"21765754\" total_bases=\"6529726200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857843",
+    "runs": "                                <Run acc=\"SRR16148308\" total_spots=\"22097275\" total_bases=\"3667537965\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857842",
+    "runs": "                                <Run acc=\"SRR16148309\" total_spots=\"26916717\" total_bases=\"8075015100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857841",
+    "runs": "                                <Run acc=\"SRR16148310\" total_spots=\"22319836\" total_bases=\"6695950800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857840",
+    "runs": "                                <Run acc=\"SRR16148311\" total_spots=\"20414530\" total_bases=\"6124359000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857839",
+    "runs": "                                <Run acc=\"SRR16148312\" total_spots=\"17286442\" total_bases=\"5185932600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857838",
+    "runs": "                                <Run acc=\"SRR16148313\" total_spots=\"26670217\" total_bases=\"8001065100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857837",
+    "runs": "                                <Run acc=\"SRR16148314\" total_spots=\"25078919\" total_bases=\"7523675700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857836",
+    "runs": "                                <Run acc=\"SRR16148315\" total_spots=\"19993366\" total_bases=\"5998009800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857835",
+    "runs": "                                <Run acc=\"SRR16148316\" total_spots=\"24144925\" total_bases=\"7243477500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857834",
+    "runs": "                                <Run acc=\"SRR16148317\" total_spots=\"24535831\" total_bases=\"7360749300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857833",
+    "runs": "                                <Run acc=\"SRR16148318\" total_spots=\"24129603\" total_bases=\"7238880900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857832",
+    "runs": "                                <Run acc=\"SRR16148319\" total_spots=\"19721279\" total_bases=\"5916383700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857831",
+    "runs": "                                <Run acc=\"SRR16148320\" total_spots=\"21883353\" total_bases=\"6565005900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857830",
+    "runs": "                                <Run acc=\"SRR16148321\" total_spots=\"24321092\" total_bases=\"7296327600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857829",
+    "runs": "                                <Run acc=\"SRR16148322\" total_spots=\"20252519\" total_bases=\"6075755700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857828",
+    "runs": "                                <Run acc=\"SRR16148323\" total_spots=\"20898918\" total_bases=\"6269675400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857827",
+    "runs": "                                <Run acc=\"SRR16148324\" total_spots=\"24677151\" total_bases=\"7403145300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857826",
+    "runs": "                                <Run acc=\"SRR16148325\" total_spots=\"24539412\" total_bases=\"7361823600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857825",
+    "runs": "                                <Run acc=\"SRR16148326\" total_spots=\"28772859\" total_bases=\"8631857700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857824",
+    "runs": "                                <Run acc=\"SRR16148327\" total_spots=\"25807711\" total_bases=\"7742313300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857823",
+    "runs": "                                <Run acc=\"SRR16148328\" total_spots=\"20530343\" total_bases=\"6159102900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857822",
+    "runs": "                                <Run acc=\"SRR16148329\" total_spots=\"20030455\" total_bases=\"6009136500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857821",
+    "runs": "                                <Run acc=\"SRR16148330\" total_spots=\"24754297\" total_bases=\"7426289100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857820",
+    "runs": "                                <Run acc=\"SRR16148331\" total_spots=\"21005416\" total_bases=\"6301624800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857819",
+    "runs": "                                <Run acc=\"SRR16148332\" total_spots=\"19907325\" total_bases=\"5972197500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857818",
+    "runs": "                                <Run acc=\"SRR16148333\" total_spots=\"22056240\" total_bases=\"6616872000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857817",
+    "runs": "                                <Run acc=\"SRR16148334\" total_spots=\"22695200\" total_bases=\"6808560000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857816",
+    "runs": "                                <Run acc=\"SRR16148335\" total_spots=\"19491548\" total_bases=\"5847464400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857815",
+    "runs": "                                <Run acc=\"SRR16148336\" total_spots=\"21323324\" total_bases=\"6396997200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857814",
+    "runs": "                                <Run acc=\"SRR16148337\" total_spots=\"16034068\" total_bases=\"4810220400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857813",
+    "runs": "                                <Run acc=\"SRR16148338\" total_spots=\"15278099\" total_bases=\"4583429700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857812",
+    "runs": "                                <Run acc=\"SRR16148339\" total_spots=\"26171964\" total_bases=\"7851589200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857811",
+    "runs": "                                <Run acc=\"SRR16148340\" total_spots=\"23418394\" total_bases=\"7025518200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857810",
+    "runs": "                                <Run acc=\"SRR16148341\" total_spots=\"25459010\" total_bases=\"7637703000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857809",
+    "runs": "                                <Run acc=\"SRR16148342\" total_spots=\"23815703\" total_bases=\"7144710900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "16857808",
+    "runs": "                                <Run acc=\"SRR16148343\" total_spots=\"24368216\" total_bases=\"7310464800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/09/13"
+   },
+   {
+    "sra_uid": "9962636",
+    "runs": "                                <Run acc=\"SRR10967535\" total_spots=\"25649351\" total_bases=\"7694805300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962635",
+    "runs": "                                <Run acc=\"SRR10967536\" total_spots=\"23157929\" total_bases=\"6947378700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962634",
+    "runs": "                                <Run acc=\"SRR10967537\" total_spots=\"25857990\" total_bases=\"7757397000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962633",
+    "runs": "                                <Run acc=\"SRR10967538\" total_spots=\"29266267\" total_bases=\"8779880100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962632",
+    "runs": "                                <Run acc=\"SRR10967539\" total_spots=\"24356626\" total_bases=\"7306987800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962631",
+    "runs": "                                <Run acc=\"SRR10967540\" total_spots=\"27349424\" total_bases=\"8204827200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962630",
+    "runs": "                                <Run acc=\"SRR10967541\" total_spots=\"23779395\" total_bases=\"7133818500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962629",
+    "runs": "                                <Run acc=\"SRR10967542\" total_spots=\"24552128\" total_bases=\"7365638400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "9962628",
+    "runs": "                                <Run acc=\"SRR10967543\" total_spots=\"20100588\" total_bases=\"6030176400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2021/06/25"
+   },
+   {
+    "sra_uid": "8937455",
+    "runs": "                                <Run acc=\"SRR10053756\" total_spots=\"19247906\" total_bases=\"5774371800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/02/19"
+   },
+   {
+    "sra_uid": "8937454",
+    "runs": "                                <Run acc=\"SRR10053757\" total_spots=\"25762003\" total_bases=\"7728600900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/02/19"
+   },
+   {
+    "sra_uid": "8937453",
+    "runs": "                                <Run acc=\"SRR10053758\" total_spots=\"21095435\" total_bases=\"5273858750\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/02/19"
+   },
+   {
+    "sra_uid": "8937452",
+    "runs": "                                <Run acc=\"SRR10053759\" total_spots=\"23504285\" total_bases=\"3901711310\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/02/19"
+   }
+  ]
+ },
+ "Aurelia aurita": {
+  "n_uids": 206,
+  "runs": [
+   {
+    "sra_uid": "44248752",
+    "runs": "                                <Run acc=\"DRR977495\" total_spots=\"282001294\" total_bases=\"84600388200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "44248751",
+    "runs": "                                <Run acc=\"DRR977485\" total_spots=\"69330748\" total_bases=\"20799224400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "44248749",
+    "runs": "                                <Run acc=\"DRR977486\" total_spots=\"106377744\" total_bases=\"31913323200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "44248744",
+    "runs": "                                <Run acc=\"DRR977493\" total_spots=\"98499055\" total_bases=\"29549716500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "44248741",
+    "runs": "                                <Run acc=\"DRR977494\" total_spots=\"154717873\" total_bases=\"46415361900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "44248737",
+    "runs": "                                <Run acc=\"DRR977484\" total_spots=\"134048593\" total_bases=\"40214577900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2026/06/01"
+   },
+   {
+    "sra_uid": "37688460",
+    "runs": "                                <Run acc=\"SRR32702027\" total_spots=\"37241500\" total_bases=\"11172450000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688459",
+    "runs": "                                <Run acc=\"SRR32702028\" total_spots=\"43029195\" total_bases=\"12908758500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688458",
+    "runs": "                                <Run acc=\"SRR32702029\" total_spots=\"46192117\" total_bases=\"13857635100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688457",
+    "runs": "                                <Run acc=\"SRR32702030\" total_spots=\"47179573\" total_bases=\"14153871900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688456",
+    "runs": "                                <Run acc=\"SRR32702031\" total_spots=\"43453681\" total_bases=\"13036104300\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688455",
+    "runs": "                                <Run acc=\"SRR32702032\" total_spots=\"36590644\" total_bases=\"10977193200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688454",
+    "runs": "                                <Run acc=\"SRR32702033\" total_spots=\"32562875\" total_bases=\"9768862500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688448",
+    "runs": "                                <Run acc=\"SRR32702039\" total_spots=\"30034077\" total_bases=\"9010223100\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "37688447",
+    "runs": "                                <Run acc=\"SRR32702040\" total_spots=\"42564634\" total_bases=\"12769390200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2025/03/14"
+   },
+   {
+    "sra_uid": "29148488",
+    "runs": "                                <Run acc=\"SRR25871332\" total_spots=\"18099963\" total_bases=\"3506702498\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "29148487",
+    "runs": "                                <Run acc=\"SRR25871333\" total_spots=\"17222126\" total_bases=\"3636845039\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "29148486",
+    "runs": "                                <Run acc=\"SRR25871334\" total_spots=\"16153120\" total_bases=\"3995814394\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "29148485",
+    "runs": "                                <Run acc=\"SRR25871335\" total_spots=\"11613562\" total_bases=\"2797966199\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "29148484",
+    "runs": "                                <Run acc=\"SRR25871336\" total_spots=\"18953553\" total_bases=\"4488540019\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "29148483",
+    "runs": "                                <Run acc=\"SRR25871337\" total_spots=\"20089424\" total_bases=\"4645363207\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2024/01/17"
+   },
+   {
+    "sra_uid": "26767267",
+    "runs": "                                <Run acc=\"SRR23602332\" total_spots=\"6873558\" total_bases=\"1001571572\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767266",
+    "runs": "                                <Run acc=\"SRR23602333\" total_spots=\"16786302\" total_bases=\"2526335162\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767265",
+    "runs": "                                <Run acc=\"SRR23602334\" total_spots=\"15248818\" total_bases=\"2297770121\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767264",
+    "runs": "                                <Run acc=\"SRR23602335\" total_spots=\"15410175\" total_bases=\"2321341291\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767263",
+    "runs": "                                <Run acc=\"SRR23602336\" total_spots=\"40705118\" total_bases=\"6134710439\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767262",
+    "runs": "                                <Run acc=\"SRR23602337\" total_spots=\"11099887\" total_bases=\"1673298940\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767261",
+    "runs": "                                <Run acc=\"SRR23602338\" total_spots=\"12989916\" total_bases=\"1956311147\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767260",
+    "runs": "                                <Run acc=\"SRR23602339\" total_spots=\"15393642\" total_bases=\"2319040782\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767259",
+    "runs": "                                <Run acc=\"SRR23602340\" total_spots=\"13413721\" total_bases=\"2021356153\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767258",
+    "runs": "                                <Run acc=\"SRR23602341\" total_spots=\"7708609\" total_bases=\"1136399396\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "26767257",
+    "runs": "                                <Run acc=\"SRR23602342\" total_spots=\"11639511\" total_bases=\"1752028822\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2023/08/07"
+   },
+   {
+    "sra_uid": "12278393",
+    "runs": "                                <Run acc=\"SRR12953056\" total_spots=\"27052518\" total_bases=\"1352625900\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278392",
+    "runs": "                                <Run acc=\"SRR12953057\" total_spots=\"24152594\" total_bases=\"1207629700\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278391",
+    "runs": "                                <Run acc=\"SRR12953058\" total_spots=\"13707528\" total_bases=\"1370752800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278390",
+    "runs": "                                <Run acc=\"SRR12953059\" total_spots=\"13235926\" total_bases=\"1323592600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278389",
+    "runs": "                                <Run acc=\"SRR12953060\" total_spots=\"29353523\" total_bases=\"1467676150\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278388",
+    "runs": "                                <Run acc=\"SRR12953061\" total_spots=\"28211968\" total_bases=\"1410598400\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278387",
+    "runs": "                                <Run acc=\"SRR12953062\" total_spots=\"27209817\" total_bases=\"1360490850\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278386",
+    "runs": "                                <Run acc=\"SRR12953063\" total_spots=\"26433627\" total_bases=\"1321681350\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278385",
+    "runs": "                                <Run acc=\"SRR12953064\" total_spots=\"29532832\" total_bases=\"1476641600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "12278384",
+    "runs": "                                <Run acc=\"SRR12953065\" total_spots=\"24594167\" total_bases=\"1229708350\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/10/30"
+   },
+   {
+    "sra_uid": "10386082",
+    "runs": "                                <Run acc=\"SRR11348533\" total_spots=\"2334913\" total_bases=\"30235724678\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/08/29"
+   },
+   {
+    "sra_uid": "10386081",
+    "runs": "                                <Run acc=\"SRR11348534\" total_spots=\"3994123\" total_bases=\"26003817753\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/08/29"
+   },
+   {
+    "sra_uid": "10386080",
+    "runs": "                                <Run acc=\"SRR11348535\" total_spots=\"48929371\" total_bases=\"29169562951\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2022/08/29"
+   },
+   {
+    "sra_uid": "9313399",
+    "runs": "                                <Run acc=\"ERR3610135\" total_spots=\"993829\" total_bases=\"300136358\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313398",
+    "runs": "                                <Run acc=\"ERR3610134\" total_spots=\"1001204\" total_bases=\"302363608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313397",
+    "runs": "                                <Run acc=\"ERR3610133\" total_spots=\"956677\" total_bases=\"288916454\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313396",
+    "runs": "                                <Run acc=\"ERR3610132\" total_spots=\"1001609\" total_bases=\"302485918\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313395",
+    "runs": "                                <Run acc=\"ERR3610131\" total_spots=\"1155701\" total_bases=\"349021702\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313394",
+    "runs": "                                <Run acc=\"ERR3610130\" total_spots=\"1175306\" total_bases=\"354942412\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313393",
+    "runs": "                                <Run acc=\"ERR3610129\" total_spots=\"1111704\" total_bases=\"335734608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313392",
+    "runs": "                                <Run acc=\"ERR3610128\" total_spots=\"1171761\" total_bases=\"353871822\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313391",
+    "runs": "                                <Run acc=\"ERR3610127\" total_spots=\"1369195\" total_bases=\"413496890\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313390",
+    "runs": "                                <Run acc=\"ERR3610126\" total_spots=\"1390027\" total_bases=\"419788154\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313389",
+    "runs": "                                <Run acc=\"ERR3610125\" total_spots=\"1316377\" total_bases=\"397545854\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313388",
+    "runs": "                                <Run acc=\"ERR3610124\" total_spots=\"1387962\" total_bases=\"419164524\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313387",
+    "runs": "                                <Run acc=\"ERR3610123\" total_spots=\"998297\" total_bases=\"301485694\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313386",
+    "runs": "                                <Run acc=\"ERR3610122\" total_spots=\"1011965\" total_bases=\"305613430\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313385",
+    "runs": "                                <Run acc=\"ERR3610121\" total_spots=\"958111\" total_bases=\"289349522\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313384",
+    "runs": "                                <Run acc=\"ERR3610120\" total_spots=\"1008326\" total_bases=\"304514452\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313383",
+    "runs": "                                <Run acc=\"ERR3610119\" total_spots=\"1149262\" total_bases=\"347077124\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313382",
+    "runs": "                                <Run acc=\"ERR3610118\" total_spots=\"1142783\" total_bases=\"345120466\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313381",
+    "runs": "                                <Run acc=\"ERR3610117\" total_spots=\"1107800\" total_bases=\"334555600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313380",
+    "runs": "                                <Run acc=\"ERR3610116\" total_spots=\"1151952\" total_bases=\"347889504\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313101",
+    "runs": "                                <Run acc=\"ERR3609837\" total_spots=\"20467\" total_bases=\"12321134\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313100",
+    "runs": "                                <Run acc=\"ERR3609836\" total_spots=\"20500\" total_bases=\"12341000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313099",
+    "runs": "                                <Run acc=\"ERR3609835\" total_spots=\"18549\" total_bases=\"11166498\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313098",
+    "runs": "                                <Run acc=\"ERR3609834\" total_spots=\"9361\" total_bases=\"5635322\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                   ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313097",
+    "runs": "                                <Run acc=\"ERR3609833\" total_spots=\"17046\" total_bases=\"10261692\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313077",
+    "runs": "                                <Run acc=\"ERR3609813\" total_spots=\"50565\" total_bases=\"30440130\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313076",
+    "runs": "                                <Run acc=\"ERR3609812\" total_spots=\"66300\" total_bases=\"39912600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313075",
+    "runs": "                                <Run acc=\"ERR3609811\" total_spots=\"49193\" total_bases=\"29614186\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313074",
+    "runs": "                                <Run acc=\"ERR3609810\" total_spots=\"64779\" total_bases=\"38996958\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9313073",
+    "runs": "                                <Run acc=\"ERR3609809\" total_spots=\"46507\" total_bases=\"27997214\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312994",
+    "runs": "                                <Run acc=\"ERR3609730\" total_spots=\"217636\" total_bases=\"131016872\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312993",
+    "runs": "                                <Run acc=\"ERR3609729\" total_spots=\"221172\" total_bases=\"133145544\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312992",
+    "runs": "                                <Run acc=\"ERR3609728\" total_spots=\"158752\" total_bases=\"95568704\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312991",
+    "runs": "                                <Run acc=\"ERR3609727\" total_spots=\"137823\" total_bases=\"82969446\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312990",
+    "runs": "                                <Run acc=\"ERR3609726\" total_spots=\"169511\" total_bases=\"102045622\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312970",
+    "runs": "                                <Run acc=\"ERR3609706\" total_spots=\"57269\" total_bases=\"34475938\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312969",
+    "runs": "                                <Run acc=\"ERR3609705\" total_spots=\"151316\" total_bases=\"91092232\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312968",
+    "runs": "                                <Run acc=\"ERR3609704\" total_spots=\"85577\" total_bases=\"51517354\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312967",
+    "runs": "                                <Run acc=\"ERR3609703\" total_spots=\"46891\" total_bases=\"28228382\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312966",
+    "runs": "                                <Run acc=\"ERR3609702\" total_spots=\"98738\" total_bases=\"59440276\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312780",
+    "runs": "                                <Run acc=\"ERR3597995\" total_spots=\"993829\" total_bases=\"300136358\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312779",
+    "runs": "                                <Run acc=\"ERR3597994\" total_spots=\"1001204\" total_bases=\"302363608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312778",
+    "runs": "                                <Run acc=\"ERR3597993\" total_spots=\"956677\" total_bases=\"288916454\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312777",
+    "runs": "                                <Run acc=\"ERR3597992\" total_spots=\"1001609\" total_bases=\"302485918\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312776",
+    "runs": "                                <Run acc=\"ERR3597991\" total_spots=\"1155701\" total_bases=\"349021702\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312775",
+    "runs": "                                <Run acc=\"ERR3597990\" total_spots=\"1175306\" total_bases=\"354942412\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312774",
+    "runs": "                                <Run acc=\"ERR3597989\" total_spots=\"1111704\" total_bases=\"335734608\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312773",
+    "runs": "                                <Run acc=\"ERR3597988\" total_spots=\"1171761\" total_bases=\"353871822\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312772",
+    "runs": "                                <Run acc=\"ERR3597987\" total_spots=\"1369195\" total_bases=\"413496890\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312771",
+    "runs": "                                <Run acc=\"ERR3597986\" total_spots=\"1390027\" total_bases=\"419788154\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312770",
+    "runs": "                                <Run acc=\"ERR3597985\" total_spots=\"1316377\" total_bases=\"397545854\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312769",
+    "runs": "                                <Run acc=\"ERR3597984\" total_spots=\"1387962\" total_bases=\"419164524\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312768",
+    "runs": "                                <Run acc=\"ERR3597983\" total_spots=\"998297\" total_bases=\"301485694\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312767",
+    "runs": "                                <Run acc=\"ERR3597982\" total_spots=\"1011965\" total_bases=\"305613430\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312766",
+    "runs": "                                <Run acc=\"ERR3597981\" total_spots=\"958111\" total_bases=\"289349522\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312765",
+    "runs": "                                <Run acc=\"ERR3597980\" total_spots=\"1008326\" total_bases=\"304514452\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312764",
+    "runs": "                                <Run acc=\"ERR3597979\" total_spots=\"1149262\" total_bases=\"347077124\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312763",
+    "runs": "                                <Run acc=\"ERR3597978\" total_spots=\"1142783\" total_bases=\"345120466\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312762",
+    "runs": "                                <Run acc=\"ERR3597977\" total_spots=\"1107800\" total_bases=\"334555600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312761",
+    "runs": "                                <Run acc=\"ERR3597976\" total_spots=\"1151952\" total_bases=\"347889504\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312482",
+    "runs": "                                <Run acc=\"ERR3597697\" total_spots=\"20467\" total_bases=\"12321134\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312481",
+    "runs": "                                <Run acc=\"ERR3597696\" total_spots=\"20500\" total_bases=\"12341000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312480",
+    "runs": "                                <Run acc=\"ERR3597695\" total_spots=\"18549\" total_bases=\"11166498\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312479",
+    "runs": "                                <Run acc=\"ERR3597694\" total_spots=\"9361\" total_bases=\"5635322\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                   ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312478",
+    "runs": "                                <Run acc=\"ERR3597693\" total_spots=\"17046\" total_bases=\"10261692\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312458",
+    "runs": "                                <Run acc=\"ERR3597673\" total_spots=\"50565\" total_bases=\"30440130\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312457",
+    "runs": "                                <Run acc=\"ERR3597672\" total_spots=\"66300\" total_bases=\"39912600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312456",
+    "runs": "                                <Run acc=\"ERR3597671\" total_spots=\"49193\" total_bases=\"29614186\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312455",
+    "runs": "                                <Run acc=\"ERR3597670\" total_spots=\"64779\" total_bases=\"38996958\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312454",
+    "runs": "                                <Run acc=\"ERR3597669\" total_spots=\"46507\" total_bases=\"27997214\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312375",
+    "runs": "                                <Run acc=\"ERR3597590\" total_spots=\"217636\" total_bases=\"131016872\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312374",
+    "runs": "                                <Run acc=\"ERR3597589\" total_spots=\"221172\" total_bases=\"133145544\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312373",
+    "runs": "                                <Run acc=\"ERR3597588\" total_spots=\"158752\" total_bases=\"95568704\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312372",
+    "runs": "                                <Run acc=\"ERR3597587\" total_spots=\"137823\" total_bases=\"82969446\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312371",
+    "runs": "                                <Run acc=\"ERR3597586\" total_spots=\"169511\" total_bases=\"102045622\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>               ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312351",
+    "runs": "                                <Run acc=\"ERR3597566\" total_spots=\"57269\" total_bases=\"34475938\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312350",
+    "runs": "                                <Run acc=\"ERR3597565\" total_spots=\"151316\" total_bases=\"91092232\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312349",
+    "runs": "                                <Run acc=\"ERR3597564\" total_spots=\"85577\" total_bases=\"51517354\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312348",
+    "runs": "                                <Run acc=\"ERR3597563\" total_spots=\"46891\" total_bases=\"28228382\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9312347",
+    "runs": "                                <Run acc=\"ERR3597562\" total_spots=\"98738\" total_bases=\"59440276\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2019/11/01"
+   },
+   {
+    "sra_uid": "9156145",
+    "runs": "                                <Run acc=\"SRR10240021\" total_spots=\"29588064\" total_bases=\"5917612800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156144",
+    "runs": "                                <Run acc=\"SRR10240022\" total_spots=\"32798274\" total_bases=\"6559654800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156143",
+    "runs": "                                <Run acc=\"SRR10240023\" total_spots=\"31682135\" total_bases=\"6336427000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156142",
+    "runs": "                                <Run acc=\"SRR10240024\" total_spots=\"35908678\" total_bases=\"7181735600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156141",
+    "runs": "                                <Run acc=\"SRR10240025\" total_spots=\"29548386\" total_bases=\"5909677200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156140",
+    "runs": "                                <Run acc=\"SRR10240026\" total_spots=\"33669981\" total_bases=\"6733996200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156139",
+    "runs": "                                <Run acc=\"SRR10240027\" total_spots=\"33964340\" total_bases=\"6792868000\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156138",
+    "runs": "                                <Run acc=\"SRR10240028\" total_spots=\"28755216\" total_bases=\"5751043200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156137",
+    "runs": "                                <Run acc=\"SRR10240029\" total_spots=\"33480763\" total_bases=\"6696152600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156136",
+    "runs": "                                <Run acc=\"SRR10240030\" total_spots=\"29333831\" total_bases=\"5866766200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156135",
+    "runs": "                                <Run acc=\"SRR10240031\" total_spots=\"31074784\" total_bases=\"6214956800\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "9156134",
+    "runs": "                                <Run acc=\"SRR10240032\" total_spots=\"37731856\" total_bases=\"7546371200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2020/01/21"
+   },
+   {
+    "sra_uid": "6618498",
+    "runs": "                                <Run acc=\"SRR8090255\" total_spots=\"16433962\" total_bases=\"3230615111\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618497",
+    "runs": "                                <Run acc=\"SRR8090256\" total_spots=\"16639406\" total_bases=\"4375458793\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618496",
+    "runs": "                                <Run acc=\"SRR8090257\" total_spots=\"12049451\" total_bases=\"2167475550\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618495",
+    "runs": "                                <Run acc=\"SRR8090258\" total_spots=\"12725473\" total_bases=\"2318096618\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618494",
+    "runs": "                                <Run acc=\"SRR8090259\" total_spots=\"21750017\" total_bases=\"5706335306\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618493",
+    "runs": "                                <Run acc=\"SRR8090260\" total_spots=\"17554372\" total_bases=\"4608453922\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618492",
+    "runs": "                                <Run acc=\"SRR8090261\" total_spots=\"12688911\" total_bases=\"2484252411\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618491",
+    "runs": "                                <Run acc=\"SRR8090262\" total_spots=\"29981339\" total_bases=\"7795029226\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618490",
+    "runs": "                                <Run acc=\"SRR8090263\" total_spots=\"39573464\" total_bases=\"10266853372\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618489",
+    "runs": "                                <Run acc=\"SRR8090264\" total_spots=\"22451211\" total_bases=\"4386042078\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618488",
+    "runs": "                                <Run acc=\"SRR8090265\" total_spots=\"19705328\" total_bases=\"5175784546\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6618487",
+    "runs": "                                <Run acc=\"SRR8090266\" total_spots=\"20050062\" total_bases=\"4018242815\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/23"
+   },
+   {
+    "sra_uid": "6523686",
+    "runs": "                                <Run acc=\"SRR7992468\" total_spots=\"38728925\" total_bases=\"10869066484\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523685",
+    "runs": "                                <Run acc=\"SRR7992469\" total_spots=\"44449335\" total_bases=\"12524495079\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523684",
+    "runs": "                                <Run acc=\"SRR7992470\" total_spots=\"10001122\" total_bases=\"3198684752\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523683",
+    "runs": "                                <Run acc=\"SRR7992471\" total_spots=\"2623210\" total_bases=\"916497587\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523682",
+    "runs": "                                <Run acc=\"SRR7992472\" total_spots=\"13000642\" total_bases=\"4389050329\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523681",
+    "runs": "                                <Run acc=\"SRR7992473\" total_spots=\"12842499\" total_bases=\"4518915453\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523680",
+    "runs": "                                <Run acc=\"SRR7992474\" total_spots=\"22540718\" total_bases=\"13996187046\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523679",
+    "runs": "                                <Run acc=\"SRR7992475\" total_spots=\"17369487\" total_bases=\"10693452366\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523678",
+    "runs": "                                <Run acc=\"SRR7992476\" total_spots=\"41631911\" total_bases=\"25705154875\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523677",
+    "runs": "                                <Run acc=\"SRR7992477\" total_spots=\"5085344\" total_bases=\"3105687951\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>             ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523676",
+    "runs": "                                <Run acc=\"SRR7992478\" total_spots=\"4831830\" total_bases=\"1688285734\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>             ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523675",
+    "runs": "                                <Run acc=\"SRR7992479\" total_spots=\"3767820\" total_bases=\"1342915890\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>             ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523674",
+    "runs": "                                <Run acc=\"SRR7992480\" total_spots=\"19004303\" total_bases=\"5374093150\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523673",
+    "runs": "                                <Run acc=\"SRR7992481\" total_spots=\"75893807\" total_bases=\"20951538874\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523672",
+    "runs": "                                <Run acc=\"SRR7992482\" total_spots=\"32419788\" total_bases=\"6340665934\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523671",
+    "runs": "                                <Run acc=\"SRR7992483\" total_spots=\"16577192\" total_bases=\"4671215881\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523670",
+    "runs": "                                <Run acc=\"SRR7992484\" total_spots=\"20800552\" total_bases=\"4061443256\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523669",
+    "runs": "                                <Run acc=\"SRR7992485\" total_spots=\"29424610\" total_bases=\"5737288498\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523668",
+    "runs": "                                <Run acc=\"SRR7992486\" total_spots=\"10982721\" total_bases=\"2151367166\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523667",
+    "runs": "                                <Run acc=\"SRR7992487\" total_spots=\"25127053\" total_bases=\"4943413346\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523666",
+    "runs": "                                <Run acc=\"SRR7992488\" total_spots=\"1595311\" total_bases=\"533052337\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>              ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6523665",
+    "runs": "                                <Run acc=\"SRR7992489\" total_spots=\"6085763\" total_bases=\"2050226353\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>             ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/10/10"
+   },
+   {
+    "sra_uid": "6394898",
+    "runs": "                                <Run acc=\"SRR7889280\" total_spots=\"230838785\" total_bases=\"46629434570\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/21"
+   },
+   {
+    "sra_uid": "6394897",
+    "runs": "                                <Run acc=\"SRR7889281\" total_spots=\"326310907\" total_bases=\"65914803214\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/21"
+   },
+   {
+    "sra_uid": "6394896",
+    "runs": "                                <Run acc=\"SRR7889282\" total_spots=\"419335625\" total_bases=\"84705796250\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/21"
+   },
+   {
+    "sra_uid": "6394895",
+    "runs": "                                <Run acc=\"SRR7889283\" total_spots=\"466796220\" total_bases=\"94292836440\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/22"
+   },
+   {
+    "sra_uid": "6394894",
+    "runs": "                                <Run acc=\"SRR7889284\" total_spots=\"418053908\" total_bases=\"84446889416\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/21"
+   },
+   {
+    "sra_uid": "6386024",
+    "runs": "                                <Run acc=\"SRR7879503\" total_spots=\"77497681\" total_bases=\"3952381731\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386023",
+    "runs": "                                <Run acc=\"SRR7879504\" total_spots=\"48806129\" total_bases=\"2489112579\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386022",
+    "runs": "                                <Run acc=\"SRR7879505\" total_spots=\"84544140\" total_bases=\"4311751140\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386021",
+    "runs": "                                <Run acc=\"SRR7879506\" total_spots=\"72675109\" total_bases=\"3706430559\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386020",
+    "runs": "                                <Run acc=\"SRR7879507\" total_spots=\"31550545\" total_bases=\"6373210090\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386019",
+    "runs": "                                <Run acc=\"SRR7879508\" total_spots=\"80594517\" total_bases=\"4110320367\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386018",
+    "runs": "                                <Run acc=\"SRR7879509\" total_spots=\"94730961\" total_bases=\"4831279011\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386017",
+    "runs": "                                <Run acc=\"SRR7879510\" total_spots=\"100957192\" total_bases=\"20393352784\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386016",
+    "runs": "                                <Run acc=\"SRR7879511\" total_spots=\"227510586\" total_bases=\"45502117200\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386015",
+    "runs": "                                <Run acc=\"SRR7879512\" total_spots=\"50701454\" total_bases=\"10241693708\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386014",
+    "runs": "                                <Run acc=\"SRR7879513\" total_spots=\"84905800\" total_bases=\"17150971600\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386013",
+    "runs": "                                <Run acc=\"SRR7879514\" total_spots=\"56875671\" total_bases=\"11488885542\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>           ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386012",
+    "runs": "                                <Run acc=\"SRR7879515\" total_spots=\"30988926\" total_bases=\"6259763052\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386011",
+    "runs": "                                <Run acc=\"SRR7879516\" total_spots=\"12764628\" total_bases=\"2578454856\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386010",
+    "runs": "                                <Run acc=\"SRR7879517\" total_spots=\"50199336\" total_bases=\"2560166136\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386009",
+    "runs": "                                <Run acc=\"SRR7879518\" total_spots=\"69611757\" total_bases=\"3550199607\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6386008",
+    "runs": "                                <Run acc=\"SRR7879519\" total_spots=\"60846424\" total_bases=\"3103167624\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/19"
+   },
+   {
+    "sra_uid": "6372405",
+    "runs": "                                <Run acc=\"SRR7866923\" total_spots=\"1854020\" total_bases=\"2918179382\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>             ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/17"
+   },
+   {
+    "sra_uid": "6372402",
+    "runs": "                                <Run acc=\"SRR7866920\" total_spots=\"176320899\" total_bases=\"88160449500\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/18"
+   },
+   {
+    "sra_uid": "6371803",
+    "runs": "                                <Run acc=\"SRR7866321\" total_spots=\"187659039\" total_bases=\"37907125878\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>          ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/17"
+   },
+   {
+    "sra_uid": "6345669",
+    "runs": "                                <Run acc=\"SRR7834587\" total_spots=\"65662302\" total_bases=\"6697554804\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2018/09/14"
+   },
+   {
+    "sra_uid": "851486",
+    "runs": "                                <Run acc=\"SRR1425596\" total_spots=\"25589237\" total_bases=\"5169025874\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "856774",
+    "runs": "                                <Run acc=\"SRR1425086\" total_spots=\"33401082\" total_bases=\"6747018564\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "856773",
+    "runs": "                                <Run acc=\"SRR1425085\" total_spots=\"19077586\" total_bases=\"3853672372\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "856771",
+    "runs": "                                <Run acc=\"SRR1425084\" total_spots=\"29114128\" total_bases=\"5881053856\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "856769",
+    "runs": "                                <Run acc=\"SRR1425083\" total_spots=\"25149190\" total_bases=\"5080136380\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "851488",
+    "runs": "                                <Run acc=\"SRR1422358\" total_spots=\"29837580\" total_bases=\"6027191160\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>            ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2015/03/06"
+   },
+   {
+    "sra_uid": "21003",
+    "runs": "                                <Run acc=\"SRR040475\" total_spots=\"170684\" total_bases=\"46977761\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/><Run acc=\"SRR0404",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2012/03/28"
+   },
+   {
+    "sra_uid": "496398",
+    "runs": "                                <Run acc=\"SRR982917\" total_spots=\"515431\" total_bases=\"354632370\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/><Run acc=\"SRR987",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2014/09/13"
+   },
+   {
+    "sra_uid": "21002",
+    "runs": "                                <Run acc=\"SRR040474\" total_spots=\"157412\" total_bases=\"43382280\" load_done=\"true\" is_public=\"true\" cluster_name=\"public\" static_data_available=\"true\"/>                 ",
+    "platform": "",
+    "spots": "",
+    "bases": "",
+    "created": "2012/03/28"
+   }
+  ]
+ }
+}
