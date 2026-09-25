@@ -1,0 +1,1143 @@
+{
+ "Tdohrnii": [
+  {
+   "name": "Tdohrnii_TERTloc0_BQMF02000301.1",
+   "contig": "BQMF02000301.1",
+   "bits": 3308.8,
+   "aa_len": 2143,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc1_BQMF02000043.1",
+   "contig": "BQMF02000043.1",
+   "bits": 1538.4,
+   "aa_len": 3461,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc2_BQMF02000668.1",
+   "contig": "BQMF02000668.1",
+   "bits": 1354.3,
+   "aa_len": 1789,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc3_BQMF02000263.1",
+   "contig": "BQMF02000263.1",
+   "bits": 1321.6,
+   "aa_len": 3269,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc4_BQMF02000010.1",
+   "contig": "BQMF02000010.1",
+   "bits": 1103.0,
+   "aa_len": 2005,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc5_BQMF02000565.1",
+   "contig": "BQMF02000565.1",
+   "bits": 1065.9,
+   "aa_len": 1766,
+   "families": [
+    "Telomerase_RBD"
+   ],
+   "tert_domains": [
+    "Telomerase_RBD"
+   ],
+   "is_telomerase": true
+  },
+  {
+   "name": "Tdohrnii_TERTloc6_BQMF02000154.1",
+   "contig": "BQMF02000154.1",
+   "bits": 898.2,
+   "aa_len": 2085,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc7_BQMF02000231.1",
+   "contig": "BQMF02000231.1",
+   "bits": 773.9,
+   "aa_len": 2327,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc8_BQMF02000024.1",
+   "contig": "BQMF02000024.1",
+   "bits": 734.8,
+   "aa_len": 1610,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc9_BQMF02000513.1",
+   "contig": "BQMF02000513.1",
+   "bits": 723.4,
+   "aa_len": 1540,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc10_BQMF02000273.1",
+   "contig": "BQMF02000273.1",
+   "bits": 717.6,
+   "aa_len": 955,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc11_BQMF02000490.1",
+   "contig": "BQMF02000490.1",
+   "bits": 705.0,
+   "aa_len": 2972,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc12_BQMF02000061.1",
+   "contig": "BQMF02000061.1",
+   "bits": 670.3,
+   "aa_len": 1993,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc13_BQMF02000023.1",
+   "contig": "BQMF02000023.1",
+   "bits": 661.5,
+   "aa_len": 1939,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc14_BQMF02000100.1",
+   "contig": "BQMF02000100.1",
+   "bits": 623.0,
+   "aa_len": 697,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc15_BQMF02000212.1",
+   "contig": "BQMF02000212.1",
+   "bits": 577.6,
+   "aa_len": 1180,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Bactofilin"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc16_BQMF02000273.1",
+   "contig": "BQMF02000273.1",
+   "bits": 524.9,
+   "aa_len": 1204,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc17_BQMF02000380.1",
+   "contig": "BQMF02000380.1",
+   "bits": 507.2,
+   "aa_len": 2136,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc18_BQMF02000093.1",
+   "contig": "BQMF02000093.1",
+   "bits": 428.8,
+   "aa_len": 1830,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc19_BQMF02000043.1",
+   "contig": "BQMF02000043.1",
+   "bits": 386.3,
+   "aa_len": 1263,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc20_BQMF02000200.1",
+   "contig": "BQMF02000200.1",
+   "bits": 374.7,
+   "aa_len": 1097,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc21_BQMF02000231.1",
+   "contig": "BQMF02000231.1",
+   "bits": 333.2,
+   "aa_len": 944,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc22_BQMF02000458.1",
+   "contig": "BQMF02000458.1",
+   "bits": 323.0,
+   "aa_len": 897,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc23_BQMF02000183.1",
+   "contig": "BQMF02000183.1",
+   "bits": 296.6,
+   "aa_len": 1151,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc24_BQMF02000024.1",
+   "contig": "BQMF02000024.1",
+   "bits": 253.4,
+   "aa_len": 492,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc25_BQMF02000263.1",
+   "contig": "BQMF02000263.1",
+   "bits": 248.4,
+   "aa_len": 728,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc26_BQMF02000183.1",
+   "contig": "BQMF02000183.1",
+   "bits": 245.3,
+   "aa_len": 464,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc27_BQMF02000010.1",
+   "contig": "BQMF02000010.1",
+   "bits": 240.0,
+   "aa_len": 548,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc28_BQMF02000093.1",
+   "contig": "BQMF02000093.1",
+   "bits": 190.2,
+   "aa_len": 576,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc29_BQMF02000024.1",
+   "contig": "BQMF02000024.1",
+   "bits": 183.0,
+   "aa_len": 388,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc30_BQMF02000043.1",
+   "contig": "BQMF02000043.1",
+   "bits": 176.8,
+   "aa_len": 453,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc31_BQMF02000024.1",
+   "contig": "BQMF02000024.1",
+   "bits": 119.0,
+   "aa_len": 270,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Tdohrnii_TERTloc32_BQMF02000024.1",
+   "contig": "BQMF02000024.1",
+   "bits": 117.1,
+   "aa_len": 391,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  }
+ ],
+ "TdohrniiOviedo": [
+  {
+   "name": "TdohrniiOviedo_TERTloc0_JAIFHF010001754.1",
+   "contig": "JAIFHF010001754.1",
+   "bits": 3413.1,
+   "aa_len": 2143,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc1_JAIFHF010000795.1",
+   "contig": "JAIFHF010000795.1",
+   "bits": 1195.7,
+   "aa_len": 1724,
+   "families": [
+    "RVT_1",
+    "Telomerase_RBD"
+   ],
+   "tert_domains": [
+    "Telomerase_RBD"
+   ],
+   "is_telomerase": true
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc2_JAIFHF010000565.1",
+   "contig": "JAIFHF010000565.1",
+   "bits": 809.1,
+   "aa_len": 1280,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc3_JAIFHF010005449.1",
+   "contig": "JAIFHF010005449.1",
+   "bits": 711.4,
+   "aa_len": 1983,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc4_JAIFHF010000117.1",
+   "contig": "JAIFHF010000117.1",
+   "bits": 663.7,
+   "aa_len": 1993,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc5_JAIFHF010000819.1",
+   "contig": "JAIFHF010000819.1",
+   "bits": 629.0,
+   "aa_len": 1832,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc6_JAIFHF010039359.1",
+   "contig": "JAIFHF010039359.1",
+   "bits": 598.9,
+   "aa_len": 2153,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc7_JAIFHF010004461.1",
+   "contig": "JAIFHF010004461.1",
+   "bits": 577.6,
+   "aa_len": 1180,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Bactofilin"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc8_JAIFHF010000263.1",
+   "contig": "JAIFHF010000263.1",
+   "bits": 570.6,
+   "aa_len": 1108,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc9_JAIFHF010002025.1",
+   "contig": "JAIFHF010002025.1",
+   "bits": 554.6,
+   "aa_len": 1730,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc10_JAIFHF010016703.1",
+   "contig": "JAIFHF010016703.1",
+   "bits": 550.1,
+   "aa_len": 1637,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc11_JAIFHF010002962.1",
+   "contig": "JAIFHF010002962.1",
+   "bits": 525.5,
+   "aa_len": 1204,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc12_JAIFHF010017659.1",
+   "contig": "JAIFHF010017659.1",
+   "bits": 517.3,
+   "aa_len": 1340,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc13_JAIFHF010000794.1",
+   "contig": "JAIFHF010000794.1",
+   "bits": 514.5,
+   "aa_len": 1156,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc14_JAIFHF010011520.1",
+   "contig": "JAIFHF010011520.1",
+   "bits": 489.7,
+   "aa_len": 1682,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc15_JAIFHF010036037.1",
+   "contig": "JAIFHF010036037.1",
+   "bits": 475.9,
+   "aa_len": 1177,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc16_JAIFHF010025068.1",
+   "contig": "JAIFHF010025068.1",
+   "bits": 445.2,
+   "aa_len": 1683,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc17_JAIFHF010009054.1",
+   "contig": "JAIFHF010009054.1",
+   "bits": 428.8,
+   "aa_len": 1830,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc18_JAIFHF010029131.1",
+   "contig": "JAIFHF010029131.1",
+   "bits": 381.4,
+   "aa_len": 823,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc19_JAIFHF010002442.1",
+   "contig": "JAIFHF010002442.1",
+   "bits": 377.6,
+   "aa_len": 1022,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "TdohrniiOviedo_TERTloc20_JAIFHF010040247.1",
+   "contig": "JAIFHF010040247.1",
+   "bits": 304.4,
+   "aa_len": 419,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  }
+ ],
+ "Aaurita": [
+  {
+   "name": "Aaurita_TERTloc0_REGM01000008.1",
+   "contig": "REGM01000008.1",
+   "bits": 2038.6,
+   "aa_len": 1124,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc1_REGM01000190.1",
+   "contig": "REGM01000190.1",
+   "bits": 954.4,
+   "aa_len": 1101,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc2_REGM01000013.1",
+   "contig": "REGM01000013.1",
+   "bits": 661.5,
+   "aa_len": 1108,
+   "families": [
+    "RVT_1",
+    "Telomerase_RBD"
+   ],
+   "tert_domains": [
+    "Telomerase_RBD"
+   ],
+   "is_telomerase": true
+  },
+  {
+   "name": "Aaurita_TERTloc3_REGM01000015.1",
+   "contig": "REGM01000015.1",
+   "bits": 634.0,
+   "aa_len": 594,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc4_REGM01000003.1",
+   "contig": "REGM01000003.1",
+   "bits": 563.7,
+   "aa_len": 949,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc5_REGM01000001.1",
+   "contig": "REGM01000001.1",
+   "bits": 377.1,
+   "aa_len": 540,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc6_REGM01000003.1",
+   "contig": "REGM01000003.1",
+   "bits": 322.4,
+   "aa_len": 976,
+   "families": [
+    "ANK_LRRK2",
+    "Ank",
+    "Ank_2",
+    "Ank_4",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc7_REGM01000019.1",
+   "contig": "REGM01000019.1",
+   "bits": 294.9,
+   "aa_len": 453,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc8_REGM01000093.1",
+   "contig": "REGM01000093.1",
+   "bits": 294.3,
+   "aa_len": 517,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc9_REGM01000001.1",
+   "contig": "REGM01000001.1",
+   "bits": 292.4,
+   "aa_len": 342,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc10_REGM01000245.1",
+   "contig": "REGM01000245.1",
+   "bits": 289.6,
+   "aa_len": 330,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc11_REGM01000019.1",
+   "contig": "REGM01000019.1",
+   "bits": 287.3,
+   "aa_len": 453,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc12_REGM01000040.1",
+   "contig": "REGM01000040.1",
+   "bits": 235.7,
+   "aa_len": 236,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc13_REGM01000101.1",
+   "contig": "REGM01000101.1",
+   "bits": 220.7,
+   "aa_len": 388,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "Ank_KRIT1"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc14_REGM01000019.1",
+   "contig": "REGM01000019.1",
+   "bits": 188.6,
+   "aa_len": 203,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "T4SS_AnkD"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc15_REGM01000033.1",
+   "contig": "REGM01000033.1",
+   "bits": 181.4,
+   "aa_len": 323,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc16_REGM01000002.1",
+   "contig": "REGM01000002.1",
+   "bits": 127.1,
+   "aa_len": 203,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc17_REGM01000006.1",
+   "contig": "REGM01000006.1",
+   "bits": 120.2,
+   "aa_len": 337,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc18_REGM01000114.1",
+   "contig": "REGM01000114.1",
+   "bits": 119.4,
+   "aa_len": 190,
+   "families": [
+    "ANK_LRRK2",
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  },
+  {
+   "name": "Aaurita_TERTloc19_REGM01002319.1",
+   "contig": "REGM01002319.1",
+   "bits": 112.5,
+   "aa_len": 301,
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5"
+   ],
+   "tert_domains": [],
+   "is_telomerase": false
+  }
+ ]
+}
