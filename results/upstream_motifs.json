@@ -1,0 +1,1264 @@
+{
+ "Tdohrnii": {
+  "DKC1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "CCGTTC",
+     5.52
+    ],
+    [
+     "AAAAAA",
+     4.74
+    ],
+    [
+     "CAGCGG",
+     4.55
+    ],
+    [
+     "AAACTA",
+     4.43
+    ],
+    [
+     "TAGTCA",
+     4.37
+    ],
+    [
+     "GCCCAC",
+     4.35
+    ],
+    [
+     "AAGTAA",
+     4.24
+    ],
+    [
+     "TGAGCA",
+     3.97
+    ],
+    [
+     "AGTAAA",
+     3.95
+    ],
+    [
+     "AGCGGA",
+     3.92
+    ],
+    [
+     "AAAGCA",
+     3.87
+    ],
+    [
+     "AAACCC",
+     3.86
+    ],
+    [
+     "CCCGGA",
+     3.73
+    ],
+    [
+     "ACTAAC",
+     3.69
+    ],
+    [
+     "AAGCCC",
+     3.64
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 1,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 1
+   }
+  },
+  "ERCC1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "AAGGCT",
+     4.58
+    ],
+    [
+     "CAGCGG",
+     4.55
+    ],
+    [
+     "CTCCAG",
+     4.3
+    ],
+    [
+     "CCCCAC",
+     4.08
+    ],
+    [
+     "GAGTAA",
+     3.97
+    ],
+    [
+     "ACTCGA",
+     3.79
+    ],
+    [
+     "AGGCTG",
+     3.71
+    ],
+    [
+     "CGAGTA",
+     3.64
+    ],
+    [
+     "TAAGGA",
+     3.5
+    ],
+    [
+     "ACGCTA",
+     3.45
+    ],
+    [
+     "ACTCCC",
+     3.4
+    ],
+    [
+     "ATCGAA",
+     3.38
+    ],
+    [
+     "ATTTCC",
+     3.34
+    ],
+    [
+     "GCGCGC",
+     3.34
+    ],
+    [
+     "GCTGAA",
+     3.24
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 1,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "LIG4": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GCACGC",
+     5.79
+    ],
+    [
+     "CGCACG",
+     5.35
+    ],
+    [
+     "CACGCC",
+     5.35
+    ],
+    [
+     "CACGCG",
+     4.67
+    ],
+    [
+     "CGTGCA",
+     4.55
+    ],
+    [
+     "ACACAC",
+     4.55
+    ],
+    [
+     "TGACAA",
+     4.38
+    ],
+    [
+     "AGGTCC",
+     4.25
+    ],
+    [
+     "GCTAAC",
+     3.82
+    ],
+    [
+     "GCAACC",
+     3.82
+    ],
+    [
+     "CTTGTC",
+     3.81
+    ],
+    [
+     "ATCGAG",
+     3.79
+    ],
+    [
+     "GCCGGC",
+     3.73
+    ],
+    [
+     "ATCTCG",
+     3.68
+    ],
+    [
+     "CCTAGC",
+     3.51
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 2,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 2
+   }
+  },
+  "MLH1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GATTTA",
+     5.71
+    ],
+    [
+     "AAACTT",
+     5.18
+    ],
+    [
+     "ATGAAT",
+     5.02
+    ],
+    [
+     "AACTGC",
+     4.73
+    ],
+    [
+     "TATCCA",
+     4.23
+    ],
+    [
+     "TCGACA",
+     4.13
+    ],
+    [
+     "AAATCT",
+     4.06
+    ],
+    [
+     "AGGATA",
+     3.86
+    ],
+    [
+     "GGATAC",
+     3.79
+    ],
+    [
+     "ACTTCA",
+     3.78
+    ],
+    [
+     "AAGCCA",
+     3.76
+    ],
+    [
+     "CCCGGA",
+     3.73
+    ],
+    [
+     "ATCGAC",
+     3.61
+    ],
+    [
+     "AACTTA",
+     3.57
+    ],
+    [
+     "CACTTC",
+     3.52
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "MSH2": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "ACCGCG",
+     9.35
+    ],
+    [
+     "CTTAGC",
+     9.3
+    ],
+    [
+     "CGCTAA",
+     8.94
+    ],
+    [
+     "ACGCGG",
+     7.97
+    ],
+    [
+     "CTAAGA",
+     6.69
+    ],
+    [
+     "TAGCGA",
+     6.48
+    ],
+    [
+     "ACTTAG",
+     5.78
+    ],
+    [
+     "AGCGAA",
+     5.48
+    ],
+    [
+     "TAGCTA",
+     5.27
+    ],
+    [
+     "GCGAAA",
+     4.73
+    ],
+    [
+     "CTGCCA",
+     4.41
+    ],
+    [
+     "AGGCTA",
+     4.3
+    ],
+    [
+     "GACCGC",
+     4.16
+    ],
+    [
+     "AGTGTA",
+     4.14
+    ],
+    [
+     "CAAATA",
+     3.89
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "POLD1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GATACA",
+     4.12
+    ],
+    [
+     "AAAATG",
+     3.95
+    ],
+    [
+     "GACAGC",
+     3.68
+    ],
+    [
+     "AACTTA",
+     3.57
+    ],
+    [
+     "GCGGCC",
+     3.34
+    ],
+    [
+     "TCTAGA",
+     3.24
+    ],
+    [
+     "AATGTG",
+     3.17
+    ],
+    [
+     "CTTACC",
+     3.14
+    ],
+    [
+     "CATGAC",
+     3.11
+    ],
+    [
+     "GTATCA",
+     3.05
+    ],
+    [
+     "ATGACA",
+     3.03
+    ],
+    [
+     "ATTTGC",
+     2.98
+    ],
+    [
+     "ATACAA",
+     2.93
+    ],
+    [
+     "GCCTTA",
+     2.92
+    ],
+    [
+     "CGTGCC",
+     2.91
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 1,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "POT1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "CCGTAG",
+     9.12
+    ],
+    [
+     "ACCGTA",
+     7.2
+    ],
+    [
+     "GCACGC",
+     5.79
+    ],
+    [
+     "ACCGAC",
+     5.61
+    ],
+    [
+     "GCACAC",
+     5.58
+    ],
+    [
+     "CGGACC",
+     5.52
+    ],
+    [
+     "CGCACG",
+     5.35
+    ],
+    [
+     "CACGCC",
+     5.35
+    ],
+    [
+     "CCGCAC",
+     5.2
+    ],
+    [
+     "GCCACA",
+     4.67
+    ],
+    [
+     "CCACCG",
+     4.45
+    ],
+    [
+     "CGGTCC",
+     4.35
+    ],
+    [
+     "AATCAC",
+     4.27
+    ],
+    [
+     "CATCCA",
+     4.21
+    ],
+    [
+     "ATAGTA",
+     4.21
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 2,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 2
+   }
+  },
+  "RAD51": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GGCCGA",
+     6.95
+    ],
+    [
+     "AGCCGC",
+     6.88
+    ],
+    [
+     "GCCGCA",
+     6.73
+    ],
+    [
+     "AAGCCG",
+     6.0
+    ],
+    [
+     "CCGTCG",
+     5.71
+    ],
+    [
+     "ATGCGG",
+     5.27
+    ],
+    [
+     "CGCCCG",
+     5.03
+    ],
+    [
+     "CGCATA",
+     4.98
+    ],
+    [
+     "AGCGCC",
+     4.79
+    ],
+    [
+     "GGCTTA",
+     4.3
+    ],
+    [
+     "GCCCGC",
+     3.97
+    ],
+    [
+     "GCTTAA",
+     3.76
+    ],
+    [
+     "ATGCGA",
+     3.71
+    ],
+    [
+     "CTGTAA",
+     3.69
+    ],
+    [
+     "ATCGGC",
+     3.57
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 1,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "XRCC1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "AGACTC",
+     4.67
+    ],
+    [
+     "ACGTAA",
+     3.99
+    ],
+    [
+     "AAAACT",
+     3.85
+    ],
+    [
+     "GACAAC",
+     3.84
+    ],
+    [
+     "AAAATA",
+     3.81
+    ],
+    [
+     "CCGAGA",
+     3.77
+    ],
+    [
+     "ATATAG",
+     3.69
+    ],
+    [
+     "AGACAA",
+     3.58
+    ],
+    [
+     "GATTGC",
+     3.45
+    ],
+    [
+     "AGGCCA",
+     3.4
+    ],
+    [
+     "ATAGCA",
+     3.3
+    ],
+    [
+     "ACTATC",
+     3.21
+    ],
+    [
+     "CTCAAC",
+     3.16
+    ],
+    [
+     "GTGATA",
+     3.13
+    ],
+    [
+     "AACTAT",
+     3.07
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  }
+ },
+ "Aaurita": {
+  "DKC1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "CACTAC",
+     11.17
+    ],
+    [
+     "CCCACA",
+     8.67
+    ],
+    [
+     "GCACTA",
+     8.47
+    ],
+    [
+     "CCATGG",
+     8.01
+    ],
+    [
+     "ACTACC",
+     7.28
+    ],
+    [
+     "CCGAAC",
+     7.03
+    ],
+    [
+     "CTATAG",
+     7.03
+    ],
+    [
+     "ACTCGG",
+     6.59
+    ],
+    [
+     "GTGGGA",
+     6.49
+    ],
+    [
+     "CCGTCG",
+     6.37
+    ],
+    [
+     "ACCATG",
+     6.34
+    ],
+    [
+     "CCCGAG",
+     5.71
+    ],
+    [
+     "CGGTAA",
+     5.27
+    ],
+    [
+     "ACGACG",
+     5.27
+    ],
+    [
+     "CATGGC",
+     4.96
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "ERCC1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "ACACGT",
+     6.0
+    ],
+    [
+     "CACGTG",
+     6.0
+    ],
+    [
+     "CTCGGC",
+     5.71
+    ],
+    [
+     "CTTAAG",
+     5.2
+    ],
+    [
+     "ACTAAG",
+     4.72
+    ],
+    [
+     "GCATAC",
+     4.58
+    ],
+    [
+     "AACACG",
+     4.3
+    ],
+    [
+     "AAGAAC",
+     4.25
+    ],
+    [
+     "ACTCGG",
+     4.25
+    ],
+    [
+     "AGACAG",
+     4.22
+    ],
+    [
+     "ATAGTA",
+     3.99
+    ],
+    [
+     "TCCGGA",
+     3.97
+    ],
+    [
+     "TATATA",
+     3.94
+    ],
+    [
+     "GTACTA",
+     3.94
+    ],
+    [
+     "CTGGTC",
+     3.9
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 3,
+    "Sp1_GGGCGG": 1,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 3
+   }
+  },
+  "LIG4": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GATGCC",
+     5.32
+    ],
+    [
+     "AGGGAC",
+     4.92
+    ],
+    [
+     "CCGAAC",
+     4.55
+    ],
+    [
+     "TCGACA",
+     4.39
+    ],
+    [
+     "AACCTG",
+     4.22
+    ],
+    [
+     "CTCTTC",
+     4.21
+    ],
+    [
+     "GAGAGA",
+     4.1
+    ],
+    [
+     "GGGACA",
+     3.98
+    ],
+    [
+     "AGGATA",
+     3.94
+    ],
+    [
+     "TCTTCA",
+     3.9
+    ],
+    [
+     "GTATAC",
+     3.84
+    ],
+    [
+     "TGGAAA",
+     3.77
+    ],
+    [
+     "GGGACC",
+     3.77
+    ],
+    [
+     "ATGTTA",
+     3.76
+    ],
+    [
+     "ACCTGG",
+     3.75
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "MLH1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "ACTCGG",
+     30.0
+    ],
+    [
+     "ACCGAG",
+     26.87
+    ],
+    [
+     "AAACCG",
+     22.79
+    ],
+    [
+     "AACCGA",
+     22.63
+    ],
+    [
+     "AACCCG",
+     20.13
+    ],
+    [
+     "ACCCGG",
+     18.1
+    ],
+    [
+     "AACTCG",
+     18.03
+    ],
+    [
+     "AAACCC",
+     13.92
+    ],
+    [
+     "AAACTC",
+     13.86
+    ],
+    [
+     "AACCGG",
+     12.66
+    ],
+    [
+     "ACCGGG",
+     10.92
+    ],
+    [
+     "CAGAAA",
+     10.89
+    ],
+    [
+     "AAAACC",
+     10.89
+    ],
+    [
+     "CAGATA",
+     10.78
+    ],
+    [
+     "GAGAAA",
+     10.77
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 1,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 1
+   }
+  },
+  "MSH2": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "GTGCTA",
+     7.51
+    ],
+    [
+     "ACCAGA",
+     6.78
+    ],
+    [
+     "GCACAC",
+     6.42
+    ],
+    [
+     "ACAGTA",
+     5.27
+    ],
+    [
+     "CAATTC",
+     5.17
+    ],
+    [
+     "CTGGTA",
+     5.05
+    ],
+    [
+     "TGCTAA",
+     4.9
+    ],
+    [
+     "AAGGTG",
+     4.41
+    ],
+    [
+     "CCTGAC",
+     4.39
+    ],
+    [
+     "TGAACA",
+     4.25
+    ],
+    [
+     "ACAGGG",
+     4.25
+    ],
+    [
+     "CATTCC",
+     4.16
+    ],
+    [
+     "AAATAC",
+     4.12
+    ],
+    [
+     "CCGTCA",
+     3.99
+    ],
+    [
+     "GAATCA",
+     3.93
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 1,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "POLD1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "ATATGA",
+     6.79
+    ],
+    [
+     "CTTCAC",
+     6.28
+    ],
+    [
+     "GAATTC",
+     6.23
+    ],
+    [
+     "ATATCG",
+     4.96
+    ],
+    [
+     "AACGTT",
+     4.92
+    ],
+    [
+     "CTGTAC",
+     4.65
+    ],
+    [
+     "ACAGGC",
+     4.47
+    ],
+    [
+     "AAGAAT",
+     4.19
+    ],
+    [
+     "CAAGAA",
+     3.91
+    ],
+    [
+     "TTGAAA",
+     3.86
+    ],
+    [
+     "GTCATA",
+     3.81
+    ],
+    [
+     "CAGTAC",
+     3.71
+    ],
+    [
+     "AATATG",
+     3.58
+    ],
+    [
+     "CATATC",
+     3.58
+    ],
+    [
+     "ACCAGT",
+     3.54
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 1,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  },
+  "POT1": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "CGCGAA",
+     11.28
+    ],
+    [
+     "GCGCGA",
+     9.02
+    ],
+    [
+     "CCGGAG",
+     7.56
+    ],
+    [
+     "TCGCGA",
+     6.95
+    ],
+    [
+     "AACAAC",
+     6.76
+    ],
+    [
+     "ACAACA",
+     6.51
+    ],
+    [
+     "CCTAGA",
+     6.43
+    ],
+    [
+     "CGGCGC",
+     6.13
+    ],
+    [
+     "CGCCGA",
+     6.13
+    ],
+    [
+     "AGGACT",
+     5.93
+    ],
+    [
+     "AGGCCT",
+     5.75
+    ],
+    [
+     "ACGGTC",
+     5.52
+    ],
+    [
+     "AGCCGG",
+     5.52
+    ],
+    [
+     "ACCGAA",
+     5.42
+    ],
+    [
+     "CGCGCC",
+     5.35
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 2,
+    "Sp1_GGGCGG": 0,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 2,
+    "Myc_max": 2
+   }
+  },
+  "RAD51": {
+   "upstream_len": 2000,
+   "top_kmers": [
+    [
+     "CGCCCG",
+     11.09
+    ],
+    [
+     "AGTACT",
+     6.92
+    ],
+    [
+     "TAAGAA",
+     5.48
+    ],
+    [
+     "ACGGGC",
+     5.35
+    ],
+    [
+     "AGAAAC",
+     5.11
+    ],
+    [
+     "TCTTAA",
+     5.09
+    ],
+    [
+     "AAGAAA",
+     5.03
+    ],
+    [
+     "AGACGG",
+     4.67
+    ],
+    [
+     "CTTGGA",
+     4.63
+    ],
+    [
+     "AATATT",
+     4.3
+    ],
+    [
+     "CCCGTA",
+     4.08
+    ],
+    [
+     "CAGCGC",
+     4.08
+    ],
+    [
+     "CGCCTC",
+     4.08
+    ],
+    [
+     "AAATTA",
+     4.04
+    ],
+    [
+     "ACGTTG",
+     4.02
+    ]
+   ],
+   "tfbs": {
+    "E-box_CACGTG": 0,
+    "Sp1_GGGCGG": 2,
+    "AP1_TGACTCA": 0,
+    "CREB_TGACGTCA": 0,
+    "NFkB_GGGRNNYYCC_partial": 0,
+    "E2F_TTTSSCGC": 0,
+    "Myc_max": 0
+   }
+  }
+ }
+}
