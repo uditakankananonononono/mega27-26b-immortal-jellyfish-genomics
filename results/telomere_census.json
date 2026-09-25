@@ -1,0 +1,248 @@
+{
+ "Tdohrnii_Kazusa_GCA_027922465.2": {
+  "assembly": "Tdohrnii_Kazusa_GCA_027922465.2",
+  "n_sequences": 891,
+  "n_sequences_end_analysis": 882,
+  "total_bp": 435923997,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 127732,
+    "end_count": 12287,
+    "genome_density_per_kb": 0.293014,
+    "end_density_per_kb": 0.696542,
+    "end_enrichment": 2.38
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 36652,
+    "end_count": 4647,
+    "genome_density_per_kb": 0.084079,
+    "end_density_per_kb": 0.263435,
+    "end_enrichment": 3.13
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 598089,
+    "end_count": 31438,
+    "genome_density_per_kb": 1.372003,
+    "end_density_per_kb": 1.7822,
+    "end_enrichment": 1.3
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 534755,
+    "end_count": 24601,
+    "genome_density_per_kb": 1.226716,
+    "end_density_per_kb": 1.394615,
+    "end_enrichment": 1.14
+   }
+  }
+ },
+ "Tdohrnii_Oviedo_GCA_025167195.1": {
+  "assembly": "Tdohrnii_Oviedo_GCA_025167195.1",
+  "n_sequences": 74835,
+  "n_sequences_end_analysis": 1214,
+  "total_bp": 400131687,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 108782,
+    "end_count": 6636,
+    "genome_density_per_kb": 0.271865,
+    "end_density_per_kb": 0.273311,
+    "end_enrichment": 1.01
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 30307,
+    "end_count": 1888,
+    "genome_density_per_kb": 0.075743,
+    "end_density_per_kb": 0.077759,
+    "end_enrichment": 1.03
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 538033,
+    "end_count": 32640,
+    "genome_density_per_kb": 1.34464,
+    "end_density_per_kb": 1.344316,
+    "end_enrichment": 1.0
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 481897,
+    "end_count": 30071,
+    "genome_density_per_kb": 1.204346,
+    "end_density_per_kb": 1.238509,
+    "end_enrichment": 1.03
+   }
+  }
+ },
+ "Aaurita_GCA_004194415.1": {
+  "assembly": "Aaurita_GCA_004194415.1",
+  "n_sequences": 2709,
+  "n_sequences_end_analysis": 739,
+  "total_bp": 376932402,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 141111,
+    "end_count": 5127,
+    "genome_density_per_kb": 0.374367,
+    "end_density_per_kb": 0.346888,
+    "end_enrichment": 0.93
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 50154,
+    "end_count": 2025,
+    "genome_density_per_kb": 0.133058,
+    "end_density_per_kb": 0.137009,
+    "end_enrichment": 1.03
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 630825,
+    "end_count": 23014,
+    "genome_density_per_kb": 1.673576,
+    "end_density_per_kb": 1.557104,
+    "end_enrichment": 0.93
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 474043,
+    "end_count": 17307,
+    "genome_density_per_kb": 1.257634,
+    "end_density_per_kb": 1.170974,
+    "end_enrichment": 0.93
+   }
+  }
+ },
+ "Clytia_GCF_902728285.1": {
+  "assembly": "Clytia_GCF_902728285.1",
+  "n_sequences": 1396,
+  "n_sequences_end_analysis": 772,
+  "total_bp": 420978673,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 151940,
+    "end_count": 5767,
+    "genome_density_per_kb": 0.360921,
+    "end_density_per_kb": 0.37351,
+    "end_enrichment": 1.03
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 47072,
+    "end_count": 1728,
+    "genome_density_per_kb": 0.111816,
+    "end_density_per_kb": 0.111917,
+    "end_enrichment": 1.0
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 687404,
+    "end_count": 24865,
+    "genome_density_per_kb": 1.632871,
+    "end_density_per_kb": 1.610427,
+    "end_enrichment": 0.99
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 552535,
+    "end_count": 20556,
+    "genome_density_per_kb": 1.312501,
+    "end_density_per_kb": 1.331347,
+    "end_enrichment": 1.01
+   }
+  }
+ },
+ "HydraT2T_GCF_038396675.1": {
+  "assembly": "HydraT2T_GCF_038396675.1",
+  "n_sequences": 15,
+  "n_sequences_end_analysis": 15,
+  "total_bp": 911675201,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 291239,
+    "end_count": 28164,
+    "genome_density_per_kb": 0.319455,
+    "end_density_per_kb": 93.88,
+    "end_enrichment": 293.88
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 91408,
+    "end_count": 14638,
+    "genome_density_per_kb": 0.100264,
+    "end_density_per_kb": 48.793333,
+    "end_enrichment": 486.65
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 1444542,
+    "end_count": 29072,
+    "genome_density_per_kb": 1.584492,
+    "end_density_per_kb": 96.906667,
+    "end_enrichment": 61.16
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 794677,
+    "end_count": 2926,
+    "genome_density_per_kb": 0.871667,
+    "end_density_per_kb": 9.753333,
+    "end_enrichment": 11.19
+   }
+  }
+ },
+ "Nematostella_GCA_932526225.2": {
+  "assembly": "Nematostella_GCA_932526225.2",
+  "n_sequences": 54,
+  "n_sequences_end_analysis": 36,
+  "total_bp": 269889592,
+  "end_window": 10000,
+  "motifs": {
+   "TTAGGG": {
+    "description": "canonical vertebrate/cnidarian",
+    "genome_count": 127215,
+    "end_count": 3810,
+    "genome_density_per_kb": 0.471359,
+    "end_density_per_kb": 5.291667,
+    "end_enrichment": 11.23
+   },
+   "TAACCCT": {
+    "description": "alternative (some invertebrates)",
+    "genome_count": 48118,
+    "end_count": 1869,
+    "genome_density_per_kb": 0.178288,
+    "end_density_per_kb": 2.595833,
+    "end_enrichment": 14.56
+   },
+   "TTAGG": {
+    "description": "insect-type pentamer",
+    "genome_count": 419858,
+    "end_count": 4355,
+    "genome_density_per_kb": 1.555666,
+    "end_density_per_kb": 6.048611,
+    "end_enrichment": 3.89
+   },
+   "TCAGG": {
+    "description": "nematode-type variant",
+    "genome_count": 432686,
+    "end_count": 804,
+    "genome_density_per_kb": 1.603196,
+    "end_density_per_kb": 1.116667,
+    "end_enrichment": 0.7
+   }
+  }
+ }
+}

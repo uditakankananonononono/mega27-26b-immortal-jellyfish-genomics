@@ -56,16 +56,21 @@ def census(path, motifs=None, end_window=END_WINDOW):
     ends = Counter()
     end_len = 0
     n_seqs = 0
+    min_len = 3 * end_window  # shorter sequences would make "ends" overlap the body
+    n_used = 0
     for name, seq in parse_fasta(path):
         n_seqs += 1
         total_len += len(seq)
-        head, tail = seq[:end_window], seq[-end_window:]
-        end_len += len(head) + len(tail)
         for m in motifs:
             body[m] += count_motif(seq, m)
-            ends[m] += count_motif(head, m) + count_motif(tail, m)
-    out = {"assembly": path, "n_sequences": n_seqs, "total_bp": total_len,
-           "end_window": end_window, "motifs": {}}
+        if len(seq) >= min_len:
+            n_used += 1
+            head, tail = seq[:end_window], seq[-end_window:]
+            end_len += len(head) + len(tail)
+            for m in motifs:
+                ends[m] += count_motif(head, m) + count_motif(tail, m)
+    out = {"assembly": path, "n_sequences": n_seqs, "n_sequences_end_analysis": n_used,
+           "total_bp": total_len, "end_window": end_window, "motifs": {}}
     for m in motifs:
         end_density = ends[m] / end_len if end_len else 0
         body_density = body[m] / total_len if total_len else 0
