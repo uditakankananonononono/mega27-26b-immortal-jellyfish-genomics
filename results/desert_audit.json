@@ -1,0 +1,216 @@
+{
+ "Turritopsis dohrnii": {
+  "TERT": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERC": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "DKC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POT1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERF1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERF2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLD1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLD2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLE": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "BRCA1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "RAD51": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "PARP1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "MLH1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "MSH2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "ERCC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "ERCC2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "XRCC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "XRCC5": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "LIG4": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "FEN1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "OGG1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  }
+ },
+ "Aurelia aurita": {
+  "TERT": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERC": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "DKC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POT1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERF1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "TERF2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLD1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLD2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "POLE": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "BRCA1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "RAD51": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "PARP1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "MLH1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "MSH2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "ERCC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "ERCC2": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "XRCC1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "XRCC5": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "LIG4": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "FEN1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  },
+  "OGG1": {
+   "gene_db": 0,
+   "protein_db": 0,
+   "protein_ids": []
+  }
+ }
+}
