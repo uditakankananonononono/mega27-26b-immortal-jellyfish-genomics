@@ -1,0 +1,5187 @@
+{
+ "Tdohrnii": {
+  "BRCA1": {
+   "n_loci": 27,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000190.1",
+     "start": 516420,
+     "end": 518917,
+     "n_hsps": 4,
+     "total_bits": 485.7,
+     "best_pident": 55.326,
+     "best_qcov": 0.503,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_BRCA1.fa",
+     "extracted_range": [
+      496420,
+      538917
+     ]
+    },
+    {
+     "contig": "BQMF02000013.1",
+     "start": 654398,
+     "end": 672764,
+     "n_hsps": 5,
+     "total_bits": 436.2,
+     "best_pident": 65.079,
+     "best_qcov": 0.201,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000001.1",
+     "start": 2701908,
+     "end": 2702276,
+     "n_hsps": 2,
+     "total_bits": 137.9,
+     "best_pident": 43.182,
+     "best_qcov": 0.16,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000008.1",
+     "start": 1215492,
+     "end": 1216551,
+     "n_hsps": 2,
+     "total_bits": 132.4,
+     "best_pident": 54.902,
+     "best_qcov": 0.032,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000304.1",
+     "start": 225205,
+     "end": 225609,
+     "n_hsps": 2,
+     "total_bits": 119.8,
+     "best_pident": 36.19,
+     "best_qcov": 0.158,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000061.1",
+     "start": 337610,
+     "end": 338374,
+     "n_hsps": 2,
+     "total_bits": 119.4,
+     "best_pident": 35.0,
+     "best_qcov": 0.163,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000668.1",
+     "start": 83789,
+     "end": 84488,
+     "n_hsps": 2,
+     "total_bits": 118.7,
+     "best_pident": 34.286,
+     "best_qcov": 0.166,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000263.1",
+     "start": 330322,
+     "end": 330675,
+     "n_hsps": 2,
+     "total_bits": 108.2,
+     "best_pident": 34.444,
+     "best_qcov": 0.139,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000419.1",
+     "start": 235117,
+     "end": 235459,
+     "n_hsps": 2,
+     "total_bits": 105.5,
+     "best_pident": 59.184,
+     "best_qcov": 0.067,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000190.1",
+     "start": 516420,
+     "end": 518917,
+     "n_hsps": 4,
+     "total_bits": 485.7
+    },
+    {
+     "contig": "BQMF02000013.1",
+     "start": 654398,
+     "end": 672764,
+     "n_hsps": 5,
+     "total_bits": 436.2
+    },
+    {
+     "contig": "BQMF02000001.1",
+     "start": 2701908,
+     "end": 2702276,
+     "n_hsps": 2,
+     "total_bits": 137.9
+    },
+    {
+     "contig": "BQMF02000008.1",
+     "start": 1215492,
+     "end": 1216551,
+     "n_hsps": 2,
+     "total_bits": 132.4
+    },
+    {
+     "contig": "BQMF02000304.1",
+     "start": 225205,
+     "end": 225609,
+     "n_hsps": 2,
+     "total_bits": 119.8
+    }
+   ]
+  },
+  "DKC1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000065.1",
+     "start": 772133,
+     "end": 777338,
+     "n_hsps": 23,
+     "total_bits": 1820.8,
+     "best_pident": 96.825,
+     "best_qcov": 0.193,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_DKC1.fa",
+     "extracted_range": [
+      752133,
+      797338
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000065.1",
+     "start": 772133,
+     "end": 777338,
+     "n_hsps": 23,
+     "total_bits": 1820.8
+    }
+   ]
+  },
+  "ERCC1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000178.1",
+     "start": 660234,
+     "end": 666630,
+     "n_hsps": 8,
+     "total_bits": 434.3,
+     "best_pident": 82.609,
+     "best_qcov": 0.122,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_ERCC1.fa",
+     "extracted_range": [
+      640234,
+      686630
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000178.1",
+     "start": 660234,
+     "end": 666630,
+     "n_hsps": 8,
+     "total_bits": 434.3
+    }
+   ]
+  },
+  "FEN1": {
+   "n_loci": 47,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000299.1",
+     "start": 231716,
+     "end": 337395,
+     "n_hsps": 7,
+     "total_bits": 1371.9,
+     "best_pident": 72.321,
+     "best_qcov": 0.823,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_FEN1.fa",
+     "extracted_range": [
+      211716,
+      357395
+     ]
+    },
+    {
+     "contig": "BQMF02000062.1",
+     "start": 20900,
+     "end": 94455,
+     "n_hsps": 9,
+     "total_bits": 929.4,
+     "best_pident": 56.923,
+     "best_qcov": 0.37,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000622.1",
+     "start": 139222,
+     "end": 186437,
+     "n_hsps": 5,
+     "total_bits": 917.7,
+     "best_pident": 83.0,
+     "best_qcov": 0.575,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000062.1",
+     "start": 1092161,
+     "end": 1094146,
+     "n_hsps": 3,
+     "total_bits": 858.0,
+     "best_pident": 83.0,
+     "best_qcov": 0.575,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000107.1",
+     "start": 243291,
+     "end": 313569,
+     "n_hsps": 4,
+     "total_bits": 698.3,
+     "best_pident": 63.158,
+     "best_qcov": 0.897,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000419.1",
+     "start": 260838,
+     "end": 300263,
+     "n_hsps": 11,
+     "total_bits": 628.1,
+     "best_pident": 92.0,
+     "best_qcov": 0.162,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000165.1",
+     "start": 323408,
+     "end": 348533,
+     "n_hsps": 2,
+     "total_bits": 627.0,
+     "best_pident": 49.495,
+     "best_qcov": 0.897,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000334.1",
+     "start": 198066,
+     "end": 199267,
+     "n_hsps": 3,
+     "total_bits": 530.1,
+     "best_pident": 78.774,
+     "best_qcov": 0.365,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000292.1",
+     "start": 218922,
+     "end": 220644,
+     "n_hsps": 2,
+     "total_bits": 523.0,
+     "best_pident": 55.14,
+     "best_qcov": 0.744,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000186.1",
+     "start": 585740,
+     "end": 587465,
+     "n_hsps": 2,
+     "total_bits": 521.0,
+     "best_pident": 54.63,
+     "best_qcov": 0.704,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000515.1",
+     "start": 43769,
+     "end": 45491,
+     "n_hsps": 2,
+     "total_bits": 517.0,
+     "best_pident": 54.206,
+     "best_qcov": 0.744,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000061.1",
+     "start": 562905,
+     "end": 564580,
+     "n_hsps": 2,
+     "total_bits": 514.0,
+     "best_pident": 53.633,
+     "best_qcov": 0.494,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000230.1",
+     "start": 551944,
+     "end": 553623,
+     "n_hsps": 1,
+     "total_bits": 508.0,
+     "best_pident": 47.619,
+     "best_qcov": 0.897,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 942695,
+     "end": 944374,
+     "n_hsps": 1,
+     "total_bits": 508.0,
+     "best_pident": 47.619,
+     "best_qcov": 0.897,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000080.1",
+     "start": 536493,
+     "end": 538154,
+     "n_hsps": 1,
+     "total_bits": 504.0,
+     "best_pident": 47.95,
+     "best_qcov": 0.897,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000205.1",
+     "start": 420457,
+     "end": 422131,
+     "n_hsps": 2,
+     "total_bits": 503.0,
+     "best_pident": 55.14,
+     "best_qcov": 0.716,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000670.1",
+     "start": 36959,
+     "end": 38613,
+     "n_hsps": 2,
+     "total_bits": 503.0,
+     "best_pident": 50.785,
+     "best_qcov": 0.644,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000555.1",
+     "start": 143156,
+     "end": 163245,
+     "n_hsps": 3,
+     "total_bits": 497.7,
+     "best_pident": 58.333,
+     "best_qcov": 0.823,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000063.1",
+     "start": 554072,
+     "end": 555838,
+     "n_hsps": 1,
+     "total_bits": 492.0,
+     "best_pident": 46.477,
+     "best_qcov": 0.912,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000256.1",
+     "start": 566918,
+     "end": 568761,
+     "n_hsps": 2,
+     "total_bits": 472.5,
+     "best_pident": 60.526,
+     "best_qcov": 0.788,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000269.1",
+     "start": 341639,
+     "end": 343411,
+     "n_hsps": 1,
+     "total_bits": 472.0,
+     "best_pident": 45.47,
+     "best_qcov": 0.912,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000759.1",
+     "start": 15014,
+     "end": 16663,
+     "n_hsps": 1,
+     "total_bits": 424.0,
+     "best_pident": 44.123,
+     "best_qcov": 0.828,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000061.1",
+     "start": 1008598,
+     "end": 1039194,
+     "n_hsps": 5,
+     "total_bits": 319.8,
+     "best_pident": 62.195,
+     "best_qcov": 0.33,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 549190,
+     "end": 550477,
+     "n_hsps": 2,
+     "total_bits": 262.0,
+     "best_pident": 38.424,
+     "best_qcov": 0.399,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000555.1",
+     "start": 80425,
+     "end": 81756,
+     "n_hsps": 1,
+     "total_bits": 260.0,
+     "best_pident": 35.217,
+     "best_qcov": 0.783,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000063.1",
+     "start": 730949,
+     "end": 731813,
+     "n_hsps": 3,
+     "total_bits": 254.5,
+     "best_pident": 51.852,
+     "best_qcov": 0.219,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 1131605,
+     "end": 1165616,
+     "n_hsps": 5,
+     "total_bits": 226.8,
+     "best_pident": 54.839,
+     "best_qcov": 0.274,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000205.1",
+     "start": 554755,
+     "end": 556205,
+     "n_hsps": 2,
+     "total_bits": 181.6,
+     "best_pident": 41.333,
+     "best_qcov": 0.613,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 490497,
+     "end": 491295,
+     "n_hsps": 3,
+     "total_bits": 181.0,
+     "best_pident": 50.562,
+     "best_qcov": 0.253,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000061.1",
+     "start": 1203578,
+     "end": 1205200,
+     "n_hsps": 1,
+     "total_bits": 171.0,
+     "best_pident": 27.944,
+     "best_qcov": 0.907,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000292.1",
+     "start": 496840,
+     "end": 497621,
+     "n_hsps": 2,
+     "total_bits": 170.3,
+     "best_pident": 49.438,
+     "best_qcov": 0.318,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000299.1",
+     "start": 455829,
+     "end": 456257,
+     "n_hsps": 1,
+     "total_bits": 164.0,
+     "best_pident": 52.083,
+     "best_qcov": 0.246,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000080.1",
+     "start": 476831,
+     "end": 477188,
+     "n_hsps": 3,
+     "total_bits": 154.1,
+     "best_pident": 63.889,
+     "best_qcov": 0.108,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 692886,
+     "end": 693353,
+     "n_hsps": 1,
+     "total_bits": 151.0,
+     "best_pident": 51.899,
+     "best_qcov": 0.27,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000165.1",
+     "start": 513565,
+     "end": 514016,
+     "n_hsps": 2,
+     "total_bits": 145.6,
+     "best_pident": 64.516,
+     "best_qcov": 0.282,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 2103734,
+     "end": 2104426,
+     "n_hsps": 2,
+     "total_bits": 145.2,
+     "best_pident": 26.582,
+     "best_qcov": 0.639,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000759.1",
+     "start": 70736,
+     "end": 72159,
+     "n_hsps": 2,
+     "total_bits": 125.2,
+     "best_pident": 35.922,
+     "best_qcov": 0.559,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000107.1",
+     "start": 144330,
+     "end": 145427,
+     "n_hsps": 1,
+     "total_bits": 107.0,
+     "best_pident": 27.411,
+     "best_qcov": 0.647,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000299.1",
+     "start": 231716,
+     "end": 337395,
+     "n_hsps": 7,
+     "total_bits": 1371.9
+    },
+    {
+     "contig": "BQMF02000062.1",
+     "start": 20900,
+     "end": 94455,
+     "n_hsps": 9,
+     "total_bits": 929.4
+    },
+    {
+     "contig": "BQMF02000622.1",
+     "start": 139222,
+     "end": 186437,
+     "n_hsps": 5,
+     "total_bits": 917.7
+    },
+    {
+     "contig": "BQMF02000062.1",
+     "start": 1092161,
+     "end": 1094146,
+     "n_hsps": 3,
+     "total_bits": 858.0
+    },
+    {
+     "contig": "BQMF02000107.1",
+     "start": 243291,
+     "end": 313569,
+     "n_hsps": 4,
+     "total_bits": 698.3
+    }
+   ]
+  },
+  "MLH1": {
+   "n_loci": 8,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000039.1",
+     "start": 1072028,
+     "end": 1076840,
+     "n_hsps": 12,
+     "total_bits": 2745.3,
+     "best_pident": 79.747,
+     "best_qcov": 0.421,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_MLH1.fa",
+     "extracted_range": [
+      1052028,
+      1096840
+     ]
+    },
+    {
+     "contig": "BQMF02000032.1",
+     "start": 375782,
+     "end": 395796,
+     "n_hsps": 9,
+     "total_bits": 645.9,
+     "best_pident": 96.774,
+     "best_qcov": 0.104,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000050.1",
+     "start": 701878,
+     "end": 702960,
+     "n_hsps": 3,
+     "total_bits": 459.0,
+     "best_pident": 30.0,
+     "best_qcov": 0.459,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000140.1",
+     "start": 602493,
+     "end": 603152,
+     "n_hsps": 3,
+     "total_bits": 245.8,
+     "best_pident": 32.203,
+     "best_qcov": 0.275,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000531.1",
+     "start": 13587,
+     "end": 15083,
+     "n_hsps": 1,
+     "total_bits": 142.0,
+     "best_pident": 26.168,
+     "best_qcov": 0.54,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000039.1",
+     "start": 1072028,
+     "end": 1076840,
+     "n_hsps": 12,
+     "total_bits": 2745.3
+    },
+    {
+     "contig": "BQMF02000032.1",
+     "start": 375782,
+     "end": 395796,
+     "n_hsps": 9,
+     "total_bits": 645.9
+    },
+    {
+     "contig": "BQMF02000050.1",
+     "start": 701878,
+     "end": 702960,
+     "n_hsps": 3,
+     "total_bits": 459.0
+    },
+    {
+     "contig": "BQMF02000140.1",
+     "start": 602493,
+     "end": 603152,
+     "n_hsps": 3,
+     "total_bits": 245.8
+    },
+    {
+     "contig": "BQMF02000531.1",
+     "start": 13587,
+     "end": 15083,
+     "n_hsps": 1,
+     "total_bits": 142.0
+    }
+   ]
+  },
+  "MSH2": {
+   "n_loci": 5,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000032.1",
+     "start": 375027,
+     "end": 397999,
+     "n_hsps": 54,
+     "total_bits": 3752.5,
+     "best_pident": 100.0,
+     "best_qcov": 0.104,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_MSH2.fa",
+     "extracted_range": [
+      355027,
+      417999
+     ]
+    },
+    {
+     "contig": "BQMF02000531.1",
+     "start": 13587,
+     "end": 15083,
+     "n_hsps": 4,
+     "total_bits": 593.0,
+     "best_pident": 40.244,
+     "best_qcov": 0.54,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000004.1",
+     "start": 100927,
+     "end": 102254,
+     "n_hsps": 10,
+     "total_bits": 391.0,
+     "best_pident": 59.375,
+     "best_qcov": 0.047,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000126.1",
+     "start": 96421,
+     "end": 96700,
+     "n_hsps": 6,
+     "total_bits": 243.8,
+     "best_pident": 55.882,
+     "best_qcov": 0.045,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000011.1",
+     "start": 758439,
+     "end": 758711,
+     "n_hsps": 4,
+     "total_bits": 230.3,
+     "best_pident": 46.667,
+     "best_qcov": 0.092,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000032.1",
+     "start": 375027,
+     "end": 397999,
+     "n_hsps": 54,
+     "total_bits": 3752.5
+    },
+    {
+     "contig": "BQMF02000531.1",
+     "start": 13587,
+     "end": 15083,
+     "n_hsps": 4,
+     "total_bits": 593.0
+    },
+    {
+     "contig": "BQMF02000004.1",
+     "start": 100927,
+     "end": 102254,
+     "n_hsps": 10,
+     "total_bits": 391.0
+    },
+    {
+     "contig": "BQMF02000126.1",
+     "start": 96421,
+     "end": 96700,
+     "n_hsps": 6,
+     "total_bits": 243.8
+    },
+    {
+     "contig": "BQMF02000011.1",
+     "start": 758439,
+     "end": 758711,
+     "n_hsps": 4,
+     "total_bits": 230.3
+    }
+   ]
+  },
+  "POLD2": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000030.1",
+     "start": 29318,
+     "end": 33180,
+     "n_hsps": 19,
+     "total_bits": 1505.3,
+     "best_pident": 83.333,
+     "best_qcov": 0.209,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_POLD2.fa",
+     "extracted_range": [
+      9318,
+      53180
+     ]
+    },
+    {
+     "contig": "BQMF02000068.1",
+     "start": 2111,
+     "end": 5972,
+     "n_hsps": 19,
+     "total_bits": 1503.3,
+     "best_pident": 83.333,
+     "best_qcov": 0.209,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000030.1",
+     "start": 29318,
+     "end": 33180,
+     "n_hsps": 19,
+     "total_bits": 1505.3
+    },
+    {
+     "contig": "BQMF02000068.1",
+     "start": 2111,
+     "end": 5972,
+     "n_hsps": 19,
+     "total_bits": 1503.3
+    }
+   ]
+  },
+  "POLE": {
+   "n_loci": 27,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000022.1",
+     "start": 1120022,
+     "end": 1126262,
+     "n_hsps": 14,
+     "total_bits": 1525.9,
+     "best_pident": 96.875,
+     "best_qcov": 0.118,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_POLE.fa",
+     "extracted_range": [
+      1100022,
+      1146262
+     ]
+    },
+    {
+     "contig": "BQMF02000630.1",
+     "start": 73038,
+     "end": 77537,
+     "n_hsps": 9,
+     "total_bits": 749.5,
+     "best_pident": 96.0,
+     "best_qcov": 0.179,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 1391192,
+     "end": 1393813,
+     "n_hsps": 6,
+     "total_bits": 418.2,
+     "best_pident": 65.217,
+     "best_qcov": 0.124,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000055.1",
+     "start": 544872,
+     "end": 549938,
+     "n_hsps": 6,
+     "total_bits": 394.0,
+     "best_pident": 66.667,
+     "best_qcov": 0.095,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000011.1",
+     "start": 1848739,
+     "end": 1850637,
+     "n_hsps": 6,
+     "total_bits": 334.7,
+     "best_pident": 53.191,
+     "best_qcov": 0.136,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000041.1",
+     "start": 854429,
+     "end": 856901,
+     "n_hsps": 4,
+     "total_bits": 289.2,
+     "best_pident": 59.701,
+     "best_qcov": 0.139,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 623063,
+     "end": 623790,
+     "n_hsps": 4,
+     "total_bits": 251.4,
+     "best_pident": 52.083,
+     "best_qcov": 0.119,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000635.1",
+     "start": 58076,
+     "end": 59568,
+     "n_hsps": 4,
+     "total_bits": 248.4,
+     "best_pident": 64.286,
+     "best_qcov": 0.078,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000020.1",
+     "start": 353232,
+     "end": 354062,
+     "n_hsps": 3,
+     "total_bits": 220.2,
+     "best_pident": 40.496,
+     "best_qcov": 0.118,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000043.1",
+     "start": 970099,
+     "end": 971606,
+     "n_hsps": 3,
+     "total_bits": 206.9,
+     "best_pident": 42.991,
+     "best_qcov": 0.079,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000031.1",
+     "start": 171899,
+     "end": 172204,
+     "n_hsps": 2,
+     "total_bits": 185.2,
+     "best_pident": 49.02,
+     "best_qcov": 0.094,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000075.1",
+     "start": 808961,
+     "end": 809224,
+     "n_hsps": 2,
+     "total_bits": 159.1,
+     "best_pident": 48.864,
+     "best_qcov": 0.079,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000007.1",
+     "start": 1846063,
+     "end": 1846317,
+     "n_hsps": 2,
+     "total_bits": 150.2,
+     "best_pident": 47.059,
+     "best_qcov": 0.08,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000042.1",
+     "start": 707440,
+     "end": 707751,
+     "n_hsps": 2,
+     "total_bits": 149.4,
+     "best_pident": 43.925,
+     "best_qcov": 0.099,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000031.1",
+     "start": 432141,
+     "end": 432424,
+     "n_hsps": 3,
+     "total_bits": 139.7,
+     "best_pident": 62.791,
+     "best_qcov": 0.041,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000026.1",
+     "start": 92895,
+     "end": 93113,
+     "n_hsps": 2,
+     "total_bits": 115.9,
+     "best_pident": 39.726,
+     "best_qcov": 0.069,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000070.1",
+     "start": 828903,
+     "end": 835356,
+     "n_hsps": 2,
+     "total_bits": 112.4,
+     "best_pident": 38.0,
+     "best_qcov": 0.091,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000022.1",
+     "start": 1120022,
+     "end": 1126262,
+     "n_hsps": 14,
+     "total_bits": 1525.9
+    },
+    {
+     "contig": "BQMF02000630.1",
+     "start": 73038,
+     "end": 77537,
+     "n_hsps": 9,
+     "total_bits": 749.5
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 1391192,
+     "end": 1393813,
+     "n_hsps": 6,
+     "total_bits": 418.2
+    },
+    {
+     "contig": "BQMF02000055.1",
+     "start": 544872,
+     "end": 549938,
+     "n_hsps": 6,
+     "total_bits": 394.0
+    },
+    {
+     "contig": "BQMF02000011.1",
+     "start": 1848739,
+     "end": 1850637,
+     "n_hsps": 6,
+     "total_bits": 334.7
+    }
+   ]
+  },
+  "RAD51": {
+   "n_loci": 8,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000062.1",
+     "start": 783222,
+     "end": 784187,
+     "n_hsps": 3,
+     "total_bits": 790.3,
+     "best_pident": 93.789,
+     "best_qcov": 0.958,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_RAD51.fa",
+     "extracted_range": [
+      763222,
+      804187
+     ]
+    },
+    {
+     "contig": "BQMF02000136.1",
+     "start": 130731,
+     "end": 132837,
+     "n_hsps": 4,
+     "total_bits": 291.5,
+     "best_pident": 75.0,
+     "best_qcov": 0.211,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000133.1",
+     "start": 176821,
+     "end": 178080,
+     "n_hsps": 3,
+     "total_bits": 184.0,
+     "best_pident": 76.744,
+     "best_qcov": 0.214,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000008.1",
+     "start": 1215492,
+     "end": 1216551,
+     "n_hsps": 2,
+     "total_bits": 132.4,
+     "best_pident": 54.902,
+     "best_qcov": 0.032,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000062.1",
+     "start": 783222,
+     "end": 784187,
+     "n_hsps": 3,
+     "total_bits": 790.3
+    },
+    {
+     "contig": "BQMF02000136.1",
+     "start": 130731,
+     "end": 132837,
+     "n_hsps": 4,
+     "total_bits": 291.5
+    },
+    {
+     "contig": "BQMF02000133.1",
+     "start": 176821,
+     "end": 178080,
+     "n_hsps": 3,
+     "total_bits": 184.0
+    },
+    {
+     "contig": "BQMF02000008.1",
+     "start": 1215492,
+     "end": 1216551,
+     "n_hsps": 2,
+     "total_bits": 132.4
+    },
+    {
+     "contig": "BQMF02000568.1",
+     "start": 123925,
+     "end": 124056,
+     "n_hsps": 1,
+     "total_bits": 55.8
+    }
+   ]
+  },
+  "TERF1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000328.1",
+     "start": 267801,
+     "end": 271620,
+     "n_hsps": 5,
+     "total_bits": 306.6,
+     "best_pident": 79.412,
+     "best_qcov": 0.104,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_TERF1.fa",
+     "extracted_range": [
+      247801,
+      291620
+     ]
+    },
+    {
+     "contig": "BQMF02000296.1",
+     "start": 74649,
+     "end": 76701,
+     "n_hsps": 4,
+     "total_bits": 253.4,
+     "best_pident": 82.353,
+     "best_qcov": 0.1,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000328.1",
+     "start": 267801,
+     "end": 271620,
+     "n_hsps": 5,
+     "total_bits": 306.6
+    },
+    {
+     "contig": "BQMF02000296.1",
+     "start": 74649,
+     "end": 76701,
+     "n_hsps": 4,
+     "total_bits": 253.4
+    }
+   ]
+  },
+  "TERT": {
+   "n_loci": 33,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000301.1",
+     "start": 94208,
+     "end": 109662,
+     "n_hsps": 46,
+     "total_bits": 3308.8,
+     "best_pident": 100.0,
+     "best_qcov": 0.133,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_TERT.fa",
+     "extracted_range": [
+      74208,
+      129662
+     ]
+    },
+    {
+     "contig": "BQMF02000043.1",
+     "start": 176237,
+     "end": 267294,
+     "n_hsps": 16,
+     "total_bits": 1538.4,
+     "best_pident": 30.435,
+     "best_qcov": 0.628,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000668.1",
+     "start": 83621,
+     "end": 84965,
+     "n_hsps": 17,
+     "total_bits": 1354.3,
+     "best_pident": 37.5,
+     "best_qcov": 0.255,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000263.1",
+     "start": 430774,
+     "end": 432987,
+     "n_hsps": 9,
+     "total_bits": 1321.6,
+     "best_pident": 29.085,
+     "best_qcov": 0.642,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 2162525,
+     "end": 2163759,
+     "n_hsps": 15,
+     "total_bits": 1103.0,
+     "best_pident": 39.326,
+     "best_qcov": 0.329,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000565.1",
+     "start": 129523,
+     "end": 134208,
+     "n_hsps": 10,
+     "total_bits": 1065.9,
+     "best_pident": 49.123,
+     "best_qcov": 0.349,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000154.1",
+     "start": 415194,
+     "end": 416366,
+     "n_hsps": 8,
+     "total_bits": 898.2,
+     "best_pident": 29.744,
+     "best_qcov": 0.406,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000231.1",
+     "start": 420451,
+     "end": 422445,
+     "n_hsps": 7,
+     "total_bits": 773.9,
+     "best_pident": 30.224,
+     "best_qcov": 0.614,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 451596,
+     "end": 453067,
+     "n_hsps": 9,
+     "total_bits": 734.8,
+     "best_pident": 32.667,
+     "best_qcov": 0.362,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000513.1",
+     "start": 116585,
+     "end": 117478,
+     "n_hsps": 8,
+     "total_bits": 723.4,
+     "best_pident": 31.852,
+     "best_qcov": 0.298,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000273.1",
+     "start": 468213,
+     "end": 505905,
+     "n_hsps": 12,
+     "total_bits": 717.6,
+     "best_pident": 39.759,
+     "best_qcov": 0.189,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000490.1",
+     "start": 29045,
+     "end": 30694,
+     "n_hsps": 8,
+     "total_bits": 705.0,
+     "best_pident": 29.843,
+     "best_qcov": 0.531,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000061.1",
+     "start": 336905,
+     "end": 338386,
+     "n_hsps": 6,
+     "total_bits": 670.3,
+     "best_pident": 26.977,
+     "best_qcov": 0.443,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000023.1",
+     "start": 414758,
+     "end": 416488,
+     "n_hsps": 6,
+     "total_bits": 661.5,
+     "best_pident": 27.586,
+     "best_qcov": 0.512,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000100.1",
+     "start": 794936,
+     "end": 813760,
+     "n_hsps": 8,
+     "total_bits": 623.0,
+     "best_pident": 36.885,
+     "best_qcov": 0.275,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000212.1",
+     "start": 508637,
+     "end": 509692,
+     "n_hsps": 6,
+     "total_bits": 577.6,
+     "best_pident": 30.662,
+     "best_qcov": 0.337,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000273.1",
+     "start": 54754,
+     "end": 55782,
+     "n_hsps": 5,
+     "total_bits": 524.9,
+     "best_pident": 35.252,
+     "best_qcov": 0.29,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000380.1",
+     "start": 36053,
+     "end": 37762,
+     "n_hsps": 6,
+     "total_bits": 507.2,
+     "best_pident": 35.652,
+     "best_qcov": 0.459,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000093.1",
+     "start": 57759,
+     "end": 59468,
+     "n_hsps": 5,
+     "total_bits": 428.8,
+     "best_pident": 35.652,
+     "best_qcov": 0.459,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000043.1",
+     "start": 96989,
+     "end": 98533,
+     "n_hsps": 4,
+     "total_bits": 386.3,
+     "best_pident": 31.579,
+     "best_qcov": 0.499,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000200.1",
+     "start": 223928,
+     "end": 226762,
+     "n_hsps": 4,
+     "total_bits": 374.7,
+     "best_pident": 32.787,
+     "best_qcov": 0.585,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000231.1",
+     "start": 474324,
+     "end": 475130,
+     "n_hsps": 5,
+     "total_bits": 333.2,
+     "best_pident": 29.752,
+     "best_qcov": 0.233,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000458.1",
+     "start": 245509,
+     "end": 246513,
+     "n_hsps": 3,
+     "total_bits": 323.0,
+     "best_pident": 30.205,
+     "best_qcov": 0.274,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000183.1",
+     "start": 61909,
+     "end": 63771,
+     "n_hsps": 3,
+     "total_bits": 296.6,
+     "best_pident": 24.088,
+     "best_qcov": 0.562,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 152100,
+     "end": 152501,
+     "n_hsps": 4,
+     "total_bits": 253.4,
+     "best_pident": 38.136,
+     "best_qcov": 0.111,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000263.1",
+     "start": 330049,
+     "end": 330717,
+     "n_hsps": 4,
+     "total_bits": 248.4,
+     "best_pident": 28.351,
+     "best_qcov": 0.168,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000183.1",
+     "start": 607761,
+     "end": 608138,
+     "n_hsps": 4,
+     "total_bits": 245.3,
+     "best_pident": 37.5,
+     "best_qcov": 0.102,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 1571523,
+     "end": 1571975,
+     "n_hsps": 4,
+     "total_bits": 240.0,
+     "best_pident": 33.793,
+     "best_qcov": 0.125,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000093.1",
+     "start": 761060,
+     "end": 761698,
+     "n_hsps": 3,
+     "total_bits": 190.2,
+     "best_pident": 27.835,
+     "best_qcov": 0.16,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 69762,
+     "end": 70184,
+     "n_hsps": 3,
+     "total_bits": 183.0,
+     "best_pident": 34.266,
+     "best_qcov": 0.117,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000043.1",
+     "start": 328055,
+     "end": 328570,
+     "n_hsps": 3,
+     "total_bits": 176.8,
+     "best_pident": 33.065,
+     "best_qcov": 0.161,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 334948,
+     "end": 335412,
+     "n_hsps": 2,
+     "total_bits": 119.0,
+     "best_pident": 32.143,
+     "best_qcov": 0.117,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000024.1",
+     "start": 1581416,
+     "end": 1582237,
+     "n_hsps": 2,
+     "total_bits": 117.1,
+     "best_pident": 31.933,
+     "best_qcov": 0.21,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000301.1",
+     "start": 94208,
+     "end": 109662,
+     "n_hsps": 46,
+     "total_bits": 3308.8
+    },
+    {
+     "contig": "BQMF02000043.1",
+     "start": 176237,
+     "end": 267294,
+     "n_hsps": 16,
+     "total_bits": 1538.4
+    },
+    {
+     "contig": "BQMF02000668.1",
+     "start": 83621,
+     "end": 84965,
+     "n_hsps": 17,
+     "total_bits": 1354.3
+    },
+    {
+     "contig": "BQMF02000263.1",
+     "start": 430774,
+     "end": 432987,
+     "n_hsps": 9,
+     "total_bits": 1321.6
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 2162525,
+     "end": 2163759,
+     "n_hsps": 15,
+     "total_bits": 1103.0
+    }
+   ]
+  },
+  "XRCC1": {
+   "n_loci": 5,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000381.1",
+     "start": 402365,
+     "end": 408035,
+     "n_hsps": 8,
+     "total_bits": 427.8,
+     "best_pident": 78.571,
+     "best_qcov": 0.154,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_XRCC1.fa",
+     "extracted_range": [
+      382365,
+      428035
+     ]
+    },
+    {
+     "contig": "BQMF02000037.1",
+     "start": 27788,
+     "end": 33447,
+     "n_hsps": 8,
+     "total_bits": 426.6,
+     "best_pident": 78.571,
+     "best_qcov": 0.154,
+     "strand": "-"
+    },
+    {
+     "contig": "BQMF02000077.1",
+     "start": 697138,
+     "end": 702618,
+     "n_hsps": 2,
+     "total_bits": 186.0,
+     "best_pident": 65.079,
+     "best_qcov": 0.053,
+     "strand": "+"
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 2103737,
+     "end": 2104414,
+     "n_hsps": 2,
+     "total_bits": 139.4,
+     "best_pident": 35.714,
+     "best_qcov": 0.093,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000381.1",
+     "start": 402365,
+     "end": 408035,
+     "n_hsps": 8,
+     "total_bits": 427.8
+    },
+    {
+     "contig": "BQMF02000037.1",
+     "start": 27788,
+     "end": 33447,
+     "n_hsps": 8,
+     "total_bits": 426.6
+    },
+    {
+     "contig": "BQMF02000077.1",
+     "start": 697138,
+     "end": 702618,
+     "n_hsps": 2,
+     "total_bits": 186.0
+    },
+    {
+     "contig": "BQMF02000010.1",
+     "start": 2103737,
+     "end": 2104414,
+     "n_hsps": 2,
+     "total_bits": 139.4
+    },
+    {
+     "contig": "BQMF02000304.1",
+     "start": 107042,
+     "end": 107206,
+     "n_hsps": 1,
+     "total_bits": 59.7
+    }
+   ]
+  },
+  "LIG4": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000108.1",
+     "start": 160584,
+     "end": 167570,
+     "n_hsps": 26,
+     "total_bits": 1974.2,
+     "best_pident": 74.074,
+     "best_qcov": 0.211,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_LIG4.fa",
+     "extracted_range": [
+      140584,
+      187570
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000108.1",
+     "start": 160584,
+     "end": 167570,
+     "n_hsps": 26,
+     "total_bits": 1974.2
+    }
+   ]
+  },
+  "POT1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000611.1",
+     "start": 34853,
+     "end": 42068,
+     "n_hsps": 4,
+     "total_bits": 428.7,
+     "best_pident": 57.547,
+     "best_qcov": 0.486,
+     "strand": "-",
+     "extracted_file": "data/loci/Tdohrnii_POT1.fa",
+     "extracted_range": [
+      14853,
+      62068
+     ]
+    },
+    {
+     "contig": "BQMF02000072.1",
+     "start": 407544,
+     "end": 416657,
+     "n_hsps": 4,
+     "total_bits": 428.7,
+     "best_pident": 57.547,
+     "best_qcov": 0.486,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000611.1",
+     "start": 34853,
+     "end": 42068,
+     "n_hsps": 4,
+     "total_bits": 428.7
+    },
+    {
+     "contig": "BQMF02000072.1",
+     "start": 407544,
+     "end": 416657,
+     "n_hsps": 4,
+     "total_bits": 428.7
+    }
+   ]
+  },
+  "ERCC2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "OGG1": {
+   "n_loci": 4,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000058.1",
+     "start": 676426,
+     "end": 678923,
+     "n_hsps": 5,
+     "total_bits": 426.4,
+     "best_pident": 79.032,
+     "best_qcov": 0.037,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_OGG1.fa",
+     "extracted_range": [
+      656426,
+      698923
+     ]
+    },
+    {
+     "contig": "BQMF02000227.1",
+     "start": 280359,
+     "end": 280709,
+     "n_hsps": 1,
+     "total_bits": 145.0,
+     "best_pident": 52.137,
+     "best_qcov": 0.038,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000058.1",
+     "start": 676426,
+     "end": 678923,
+     "n_hsps": 5,
+     "total_bits": 426.4
+    },
+    {
+     "contig": "BQMF02000227.1",
+     "start": 280359,
+     "end": 280709,
+     "n_hsps": 1,
+     "total_bits": 145.0
+    },
+    {
+     "contig": "BQMF02000020.1",
+     "start": 310550,
+     "end": 310822,
+     "n_hsps": 1,
+     "total_bits": 58.9
+    },
+    {
+     "contig": "BQMF02000094.1",
+     "start": 425746,
+     "end": 425898,
+     "n_hsps": 1,
+     "total_bits": 55.5
+    }
+   ]
+  },
+  "PARP1": {
+   "n_loci": 3,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000192.1",
+     "start": 382292,
+     "end": 402279,
+     "n_hsps": 5,
+     "total_bits": 343.3,
+     "best_pident": 83.333,
+     "best_qcov": 0.062,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_PARP1.fa",
+     "extracted_range": [
+      362292,
+      422279
+     ]
+    },
+    {
+     "contig": "BQMF02000041.1",
+     "start": 1005822,
+     "end": 1007056,
+     "n_hsps": 2,
+     "total_bits": 128.3,
+     "best_pident": 50.0,
+     "best_qcov": 0.061,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000192.1",
+     "start": 382292,
+     "end": 402279,
+     "n_hsps": 5,
+     "total_bits": 343.3
+    },
+    {
+     "contig": "BQMF02000041.1",
+     "start": 1005822,
+     "end": 1007056,
+     "n_hsps": 2,
+     "total_bits": 128.3
+    },
+    {
+     "contig": "BQMF02000060.1",
+     "start": 984792,
+     "end": 985158,
+     "n_hsps": 2,
+     "total_bits": 74.3
+    }
+   ]
+  },
+  "POLD1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "BQMF02000255.1",
+     "start": 364842,
+     "end": 382879,
+     "n_hsps": 24,
+     "total_bits": 1941.2,
+     "best_pident": 87.879,
+     "best_qcov": 0.087,
+     "strand": "+",
+     "extracted_file": "data/loci/Tdohrnii_POLD1.fa",
+     "extracted_range": [
+      344842,
+      402879
+     ]
+    },
+    {
+     "contig": "BQMF02000450.1",
+     "start": 319267,
+     "end": 337222,
+     "n_hsps": 23,
+     "total_bits": 1913.7,
+     "best_pident": 88.462,
+     "best_qcov": 0.087,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000255.1",
+     "start": 364842,
+     "end": 382879,
+     "n_hsps": 24,
+     "total_bits": 1941.2
+    },
+    {
+     "contig": "BQMF02000450.1",
+     "start": 319267,
+     "end": 337222,
+     "n_hsps": 23,
+     "total_bits": 1913.7
+    }
+   ]
+  },
+  "TERF2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "XRCC5": {
+   "n_loci": 1,
+   "strong_loci": [],
+   "all_loci_summary": [
+    {
+     "contig": "BQMF02000003.1",
+     "start": 1577436,
+     "end": 1578094,
+     "n_hsps": 2,
+     "total_bits": 73.6
+    }
+   ]
+  }
+ },
+ "TdohrniiOviedo": {
+  "BRCA1": {
+   "n_loci": 22,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000260.1",
+     "start": 42521,
+     "end": 45018,
+     "n_hsps": 4,
+     "total_bits": 485.7,
+     "best_pident": 55.326,
+     "best_qcov": 0.503,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_BRCA1.fa",
+     "extracted_range": [
+      22521,
+      46260
+     ]
+    },
+    {
+     "contig": "JAIFHF010004284.1",
+     "start": 3668,
+     "end": 6693,
+     "n_hsps": 3,
+     "total_bits": 312.0,
+     "best_pident": 65.079,
+     "best_qcov": 0.174,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010064267.1",
+     "start": 1,
+     "end": 732,
+     "n_hsps": 2,
+     "total_bits": 228.0,
+     "best_pident": 62.687,
+     "best_qcov": 0.147,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010004039.1",
+     "start": 15547,
+     "end": 15915,
+     "n_hsps": 2,
+     "total_bits": 137.9,
+     "best_pident": 43.182,
+     "best_qcov": 0.16,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010007715.1",
+     "start": 3887,
+     "end": 4946,
+     "n_hsps": 2,
+     "total_bits": 132.4,
+     "best_pident": 54.902,
+     "best_qcov": 0.032,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000605.1",
+     "start": 3661,
+     "end": 5445,
+     "n_hsps": 2,
+     "total_bits": 125.2,
+     "best_pident": 38.384,
+     "best_qcov": 0.201,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010016703.1",
+     "start": 4876,
+     "end": 5304,
+     "n_hsps": 2,
+     "total_bits": 120.2,
+     "best_pident": 33.913,
+     "best_qcov": 0.186,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010004760.1",
+     "start": 6550,
+     "end": 6954,
+     "n_hsps": 2,
+     "total_bits": 119.8,
+     "best_pident": 36.19,
+     "best_qcov": 0.158,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000117.1",
+     "start": 20448,
+     "end": 21212,
+     "n_hsps": 2,
+     "total_bits": 119.4,
+     "best_pident": 35.0,
+     "best_qcov": 0.163,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000794.1",
+     "start": 13247,
+     "end": 14212,
+     "n_hsps": 2,
+     "total_bits": 113.6,
+     "best_pident": 37.288,
+     "best_qcov": 0.166,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009347.1",
+     "start": 2226,
+     "end": 2922,
+     "n_hsps": 2,
+     "total_bits": 110.9,
+     "best_pident": 34.066,
+     "best_qcov": 0.151,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010007826.1",
+     "start": 1026,
+     "end": 1368,
+     "n_hsps": 2,
+     "total_bits": 105.5,
+     "best_pident": 59.184,
+     "best_qcov": 0.067,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000260.1",
+     "start": 42521,
+     "end": 45018,
+     "n_hsps": 4,
+     "total_bits": 485.7
+    },
+    {
+     "contig": "JAIFHF010004284.1",
+     "start": 3668,
+     "end": 6693,
+     "n_hsps": 3,
+     "total_bits": 312.0
+    },
+    {
+     "contig": "JAIFHF010064267.1",
+     "start": 1,
+     "end": 732,
+     "n_hsps": 2,
+     "total_bits": 228.0
+    },
+    {
+     "contig": "JAIFHF010004039.1",
+     "start": 15547,
+     "end": 15915,
+     "n_hsps": 2,
+     "total_bits": 137.9
+    },
+    {
+     "contig": "JAIFHF010007715.1",
+     "start": 3887,
+     "end": 4946,
+     "n_hsps": 2,
+     "total_bits": 132.4
+    }
+   ]
+  },
+  "DKC1": {
+   "n_loci": 4,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010033649.1",
+     "start": 8,
+     "end": 1472,
+     "n_hsps": 15,
+     "total_bits": 1231.1,
+     "best_pident": 96.825,
+     "best_qcov": 0.152,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_DKC1.fa",
+     "extracted_range": [
+      1,
+      2970
+     ]
+    },
+    {
+     "contig": "JAIFHF010007207.1",
+     "start": 9266,
+     "end": 11961,
+     "n_hsps": 11,
+     "total_bits": 771.7,
+     "best_pident": 95.122,
+     "best_qcov": 0.113,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010038606.1",
+     "start": 581,
+     "end": 936,
+     "n_hsps": 6,
+     "total_bits": 558.6,
+     "best_pident": 96.825,
+     "best_qcov": 0.128,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010039805.1",
+     "start": 1720,
+     "end": 2012,
+     "n_hsps": 6,
+     "total_bits": 393.9,
+     "best_pident": 89.286,
+     "best_qcov": 0.098,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010033649.1",
+     "start": 8,
+     "end": 1472,
+     "n_hsps": 15,
+     "total_bits": 1231.1
+    },
+    {
+     "contig": "JAIFHF010007207.1",
+     "start": 9266,
+     "end": 11961,
+     "n_hsps": 11,
+     "total_bits": 771.7
+    },
+    {
+     "contig": "JAIFHF010038606.1",
+     "start": 581,
+     "end": 936,
+     "n_hsps": 6,
+     "total_bits": 558.6
+    },
+    {
+     "contig": "JAIFHF010039805.1",
+     "start": 1720,
+     "end": 2012,
+     "n_hsps": 6,
+     "total_bits": 393.9
+    }
+   ]
+  },
+  "ERCC1": {
+   "n_loci": 4,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010023265.1",
+     "start": 1243,
+     "end": 3356,
+     "n_hsps": 8,
+     "total_bits": 438.8,
+     "best_pident": 82.609,
+     "best_qcov": 0.153,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_ERCC1.fa",
+     "extracted_range": [
+      1,
+      4857
+     ]
+    },
+    {
+     "contig": "JAIFHF010009731.1",
+     "start": 1660,
+     "end": 3843,
+     "n_hsps": 7,
+     "total_bits": 383.1,
+     "best_pident": 82.609,
+     "best_qcov": 0.126,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010023265.1",
+     "start": 1243,
+     "end": 3356,
+     "n_hsps": 8,
+     "total_bits": 438.8
+    },
+    {
+     "contig": "JAIFHF010009731.1",
+     "start": 1660,
+     "end": 3843,
+     "n_hsps": 7,
+     "total_bits": 383.1
+    },
+    {
+     "contig": "JAIFHF010023938.1",
+     "start": 4102,
+     "end": 4182,
+     "n_hsps": 1,
+     "total_bits": 52.4
+    },
+    {
+     "contig": "JAIFHF010025197.1",
+     "start": 2010,
+     "end": 2090,
+     "n_hsps": 1,
+     "total_bits": 52.0
+    }
+   ]
+  },
+  "FEN1": {
+   "n_loci": 29,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010007182.1",
+     "start": 7328,
+     "end": 9662,
+     "n_hsps": 5,
+     "total_bits": 745.0,
+     "best_pident": 61.446,
+     "best_qcov": 0.435,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_FEN1.fa",
+     "extracted_range": [
+      1,
+      13357
+     ]
+    },
+    {
+     "contig": "JAIFHF010037545.1",
+     "start": 1,
+     "end": 1730,
+     "n_hsps": 3,
+     "total_bits": 718.7,
+     "best_pident": 86.842,
+     "best_qcov": 0.575,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010004196.1",
+     "start": 9145,
+     "end": 11256,
+     "n_hsps": 3,
+     "total_bits": 655.0,
+     "best_pident": 63.462,
+     "best_qcov": 0.504,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000088.1",
+     "start": 7606,
+     "end": 20060,
+     "n_hsps": 2,
+     "total_bits": 592.0,
+     "best_pident": 49.495,
+     "best_qcov": 0.823,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010007219.1",
+     "start": 10197,
+     "end": 12034,
+     "n_hsps": 4,
+     "total_bits": 564.0,
+     "best_pident": 57.732,
+     "best_qcov": 0.26,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010023321.1",
+     "start": 865,
+     "end": 2723,
+     "n_hsps": 3,
+     "total_bits": 554.0,
+     "best_pident": 61.616,
+     "best_qcov": 0.496,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010005068.1",
+     "start": 12628,
+     "end": 14372,
+     "n_hsps": 4,
+     "total_bits": 546.4,
+     "best_pident": 57.732,
+     "best_qcov": 0.482,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010016682.1",
+     "start": 2302,
+     "end": 4130,
+     "n_hsps": 3,
+     "total_bits": 532.0,
+     "best_pident": 51.579,
+     "best_qcov": 0.489,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010026837.1",
+     "start": 2086,
+     "end": 3762,
+     "n_hsps": 1,
+     "total_bits": 526.0,
+     "best_pident": 48.582,
+     "best_qcov": 0.91,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010015788.1",
+     "start": 706,
+     "end": 2229,
+     "n_hsps": 1,
+     "total_bits": 500.0,
+     "best_pident": 49.326,
+     "best_qcov": 0.883,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010031850.1",
+     "start": 656,
+     "end": 2166,
+     "n_hsps": 2,
+     "total_bits": 490.9,
+     "best_pident": 70.213,
+     "best_qcov": 0.747,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009996.1",
+     "start": 5170,
+     "end": 6942,
+     "n_hsps": 1,
+     "total_bits": 481.0,
+     "best_pident": 45.805,
+     "best_qcov": 0.912,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010035839.1",
+     "start": 425,
+     "end": 2139,
+     "n_hsps": 2,
+     "total_bits": 473.1,
+     "best_pident": 58.929,
+     "best_qcov": 0.723,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010001426.1",
+     "start": 19009,
+     "end": 20781,
+     "n_hsps": 1,
+     "total_bits": 470.0,
+     "best_pident": 44.949,
+     "best_qcov": 0.897,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009202.1",
+     "start": 4196,
+     "end": 5719,
+     "n_hsps": 1,
+     "total_bits": 457.0,
+     "best_pident": 47.18,
+     "best_qcov": 0.9,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010025519.1",
+     "start": 3154,
+     "end": 4319,
+     "n_hsps": 2,
+     "total_bits": 457.0,
+     "best_pident": 62.385,
+     "best_qcov": 0.373,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010026749.1",
+     "start": 137,
+     "end": 1017,
+     "n_hsps": 4,
+     "total_bits": 427.5,
+     "best_pident": 75.61,
+     "best_qcov": 0.212,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010017290.1",
+     "start": 1822,
+     "end": 3342,
+     "n_hsps": 3,
+     "total_bits": 423.0,
+     "best_pident": 49.112,
+     "best_qcov": 0.575,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010014122.1",
+     "start": 339,
+     "end": 1191,
+     "n_hsps": 2,
+     "total_bits": 364.2,
+     "best_pident": 65.686,
+     "best_qcov": 0.348,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010008248.1",
+     "start": 8392,
+     "end": 9957,
+     "n_hsps": 1,
+     "total_bits": 314.0,
+     "best_pident": 35.502,
+     "best_qcov": 0.907,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000894.1",
+     "start": 16803,
+     "end": 27555,
+     "n_hsps": 6,
+     "total_bits": 303.8,
+     "best_pident": 92.0,
+     "best_qcov": 0.13,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000001.1",
+     "start": 145467,
+     "end": 146603,
+     "n_hsps": 2,
+     "total_bits": 198.8,
+     "best_pident": 26.705,
+     "best_qcov": 0.817,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010060342.1",
+     "start": 700,
+     "end": 1114,
+     "n_hsps": 3,
+     "total_bits": 180.3,
+     "best_pident": 93.548,
+     "best_qcov": 0.111,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010010309.1",
+     "start": 6442,
+     "end": 6736,
+     "n_hsps": 4,
+     "total_bits": 170.6,
+     "best_pident": 81.579,
+     "best_qcov": 0.106,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010014581.1",
+     "start": 856,
+     "end": 1100,
+     "n_hsps": 4,
+     "total_bits": 167.8,
+     "best_pident": 92.0,
+     "best_qcov": 0.077,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010001336.1",
+     "start": 12421,
+     "end": 13113,
+     "n_hsps": 2,
+     "total_bits": 142.1,
+     "best_pident": 25.194,
+     "best_qcov": 0.639,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010007182.1",
+     "start": 7328,
+     "end": 9662,
+     "n_hsps": 5,
+     "total_bits": 745.0
+    },
+    {
+     "contig": "JAIFHF010037545.1",
+     "start": 1,
+     "end": 1730,
+     "n_hsps": 3,
+     "total_bits": 718.7
+    },
+    {
+     "contig": "JAIFHF010004196.1",
+     "start": 9145,
+     "end": 11256,
+     "n_hsps": 3,
+     "total_bits": 655.0
+    },
+    {
+     "contig": "JAIFHF010000088.1",
+     "start": 7606,
+     "end": 20060,
+     "n_hsps": 2,
+     "total_bits": 592.0
+    },
+    {
+     "contig": "JAIFHF010007219.1",
+     "start": 10197,
+     "end": 12034,
+     "n_hsps": 4,
+     "total_bits": 564.0
+    }
+   ]
+  },
+  "MLH1": {
+   "n_loci": 9,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000097.1",
+     "start": 5453,
+     "end": 10336,
+     "n_hsps": 14,
+     "total_bits": 2783.7,
+     "best_pident": 79.747,
+     "best_qcov": 0.306,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_MLH1.fa",
+     "extracted_range": [
+      1,
+      30336
+     ]
+    },
+    {
+     "contig": "JAIFHF010001244.1",
+     "start": 13863,
+     "end": 14945,
+     "n_hsps": 3,
+     "total_bits": 459.0,
+     "best_pident": 30.0,
+     "best_qcov": 0.459,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010003733.1",
+     "start": 17665,
+     "end": 18892,
+     "n_hsps": 3,
+     "total_bits": 286.3,
+     "best_pident": 96.774,
+     "best_qcov": 0.104,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000364.1",
+     "start": 8329,
+     "end": 8988,
+     "n_hsps": 3,
+     "total_bits": 246.2,
+     "best_pident": 32.203,
+     "best_qcov": 0.275,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010007772.1",
+     "start": 7442,
+     "end": 11633,
+     "n_hsps": 3,
+     "total_bits": 179.1,
+     "best_pident": 58.491,
+     "best_qcov": 0.072,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010006662.1",
+     "start": 309,
+     "end": 12226,
+     "n_hsps": 2,
+     "total_bits": 155.7,
+     "best_pident": 78.788,
+     "best_qcov": 0.094,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010006380.1",
+     "start": 3646,
+     "end": 5142,
+     "n_hsps": 1,
+     "total_bits": 142.0,
+     "best_pident": 26.168,
+     "best_qcov": 0.54,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000097.1",
+     "start": 5453,
+     "end": 10336,
+     "n_hsps": 14,
+     "total_bits": 2783.7
+    },
+    {
+     "contig": "JAIFHF010001244.1",
+     "start": 13863,
+     "end": 14945,
+     "n_hsps": 3,
+     "total_bits": 459.0
+    },
+    {
+     "contig": "JAIFHF010003733.1",
+     "start": 17665,
+     "end": 18892,
+     "n_hsps": 3,
+     "total_bits": 286.3
+    },
+    {
+     "contig": "JAIFHF010000364.1",
+     "start": 8329,
+     "end": 8988,
+     "n_hsps": 3,
+     "total_bits": 246.2
+    },
+    {
+     "contig": "JAIFHF010007772.1",
+     "start": 7442,
+     "end": 11633,
+     "n_hsps": 3,
+     "total_bits": 179.1
+    }
+   ]
+  },
+  "MSH2": {
+   "n_loci": 6,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010006662.1",
+     "start": 309,
+     "end": 13256,
+     "n_hsps": 24,
+     "total_bits": 1436.8,
+     "best_pident": 87.5,
+     "best_qcov": 0.106,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_MSH2.fa",
+     "extracted_range": [
+      1,
+      13971
+     ]
+    },
+    {
+     "contig": "JAIFHF010003733.1",
+     "start": 17623,
+     "end": 18892,
+     "n_hsps": 12,
+     "total_bits": 1195.1,
+     "best_pident": 100.0,
+     "best_qcov": 0.115,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010007772.1",
+     "start": 6793,
+     "end": 11883,
+     "n_hsps": 20,
+     "total_bits": 1179.9,
+     "best_pident": 70.0,
+     "best_qcov": 0.078,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010006380.1",
+     "start": 3646,
+     "end": 5142,
+     "n_hsps": 4,
+     "total_bits": 593.0,
+     "best_pident": 40.244,
+     "best_qcov": 0.54,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010002179.1",
+     "start": 8094,
+     "end": 8373,
+     "n_hsps": 6,
+     "total_bits": 245.2,
+     "best_pident": 55.882,
+     "best_qcov": 0.045,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000865.1",
+     "start": 30948,
+     "end": 31220,
+     "n_hsps": 4,
+     "total_bits": 230.3,
+     "best_pident": 46.667,
+     "best_qcov": 0.092,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010006662.1",
+     "start": 309,
+     "end": 13256,
+     "n_hsps": 24,
+     "total_bits": 1436.8
+    },
+    {
+     "contig": "JAIFHF010003733.1",
+     "start": 17623,
+     "end": 18892,
+     "n_hsps": 12,
+     "total_bits": 1195.1
+    },
+    {
+     "contig": "JAIFHF010007772.1",
+     "start": 6793,
+     "end": 11883,
+     "n_hsps": 20,
+     "total_bits": 1179.9
+    },
+    {
+     "contig": "JAIFHF010006380.1",
+     "start": 3646,
+     "end": 5142,
+     "n_hsps": 4,
+     "total_bits": 593.0
+    },
+    {
+     "contig": "JAIFHF010002179.1",
+     "start": 8094,
+     "end": 8373,
+     "n_hsps": 6,
+     "total_bits": 245.2
+    }
+   ]
+  },
+  "POLD2": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010008058.1",
+     "start": 3721,
+     "end": 8255,
+     "n_hsps": 19,
+     "total_bits": 1544.4,
+     "best_pident": 75.51,
+     "best_qcov": 0.209,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_POLD2.fa",
+     "extracted_range": [
+      1,
+      12403
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010008058.1",
+     "start": 3721,
+     "end": 8255,
+     "n_hsps": 19,
+     "total_bits": 1544.4
+    }
+   ]
+  },
+  "POLE": {
+   "n_loci": 29,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010003933.1",
+     "start": 3487,
+     "end": 10496,
+     "n_hsps": 12,
+     "total_bits": 1466.2,
+     "best_pident": 96.875,
+     "best_qcov": 0.146,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_POLE.fa",
+     "extracted_range": [
+      1,
+      18633
+     ]
+    },
+    {
+     "contig": "JAIFHF010003555.1",
+     "start": 17303,
+     "end": 19175,
+     "n_hsps": 6,
+     "total_bits": 477.2,
+     "best_pident": 93.333,
+     "best_qcov": 0.179,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010001788.1",
+     "start": 12226,
+     "end": 16789,
+     "n_hsps": 6,
+     "total_bits": 461.0,
+     "best_pident": 60.87,
+     "best_qcov": 0.104,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010002337.1",
+     "start": 4127,
+     "end": 6748,
+     "n_hsps": 6,
+     "total_bits": 418.2,
+     "best_pident": 65.217,
+     "best_qcov": 0.124,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009227.1",
+     "start": 3883,
+     "end": 5781,
+     "n_hsps": 6,
+     "total_bits": 334.7,
+     "best_pident": 53.191,
+     "best_qcov": 0.136,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010007156.1",
+     "start": 11307,
+     "end": 12460,
+     "n_hsps": 5,
+     "total_bits": 322.8,
+     "best_pident": 96.0,
+     "best_qcov": 0.113,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000092.1",
+     "start": 38075,
+     "end": 40236,
+     "n_hsps": 4,
+     "total_bits": 287.7,
+     "best_pident": 59.701,
+     "best_qcov": 0.139,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010001449.1",
+     "start": 3300,
+     "end": 4837,
+     "n_hsps": 4,
+     "total_bits": 260.4,
+     "best_pident": 42.991,
+     "best_qcov": 0.084,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010006992.1",
+     "start": 2296,
+     "end": 3023,
+     "n_hsps": 4,
+     "total_bits": 251.8,
+     "best_pident": 52.083,
+     "best_qcov": 0.119,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010001150.1",
+     "start": 24042,
+     "end": 24872,
+     "n_hsps": 3,
+     "total_bits": 220.2,
+     "best_pident": 40.496,
+     "best_qcov": 0.118,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010001987.1",
+     "start": 18615,
+     "end": 18920,
+     "n_hsps": 2,
+     "total_bits": 184.8,
+     "best_pident": 49.02,
+     "best_qcov": 0.094,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010004508.1",
+     "start": 1612,
+     "end": 1917,
+     "n_hsps": 2,
+     "total_bits": 184.0,
+     "best_pident": 49.02,
+     "best_qcov": 0.094,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010003880.1",
+     "start": 11171,
+     "end": 11549,
+     "n_hsps": 4,
+     "total_bits": 178.7,
+     "best_pident": 62.069,
+     "best_qcov": 0.058,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010038832.1",
+     "start": 1146,
+     "end": 1358,
+     "n_hsps": 2,
+     "total_bits": 162.9,
+     "best_pident": 60.563,
+     "best_qcov": 0.067,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010005983.1",
+     "start": 2768,
+     "end": 3031,
+     "n_hsps": 2,
+     "total_bits": 159.1,
+     "best_pident": 48.864,
+     "best_qcov": 0.079,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010001115.1",
+     "start": 16289,
+     "end": 16543,
+     "n_hsps": 2,
+     "total_bits": 150.2,
+     "best_pident": 47.059,
+     "best_qcov": 0.08,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010001442.1",
+     "start": 19244,
+     "end": 19555,
+     "n_hsps": 2,
+     "total_bits": 149.4,
+     "best_pident": 43.925,
+     "best_qcov": 0.099,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009086.1",
+     "start": 2213,
+     "end": 2496,
+     "n_hsps": 3,
+     "total_bits": 139.7,
+     "best_pident": 62.791,
+     "best_qcov": 0.041,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000071.1",
+     "start": 43658,
+     "end": 43876,
+     "n_hsps": 2,
+     "total_bits": 114.7,
+     "best_pident": 39.726,
+     "best_qcov": 0.069,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010003053.1",
+     "start": 19662,
+     "end": 20489,
+     "n_hsps": 1,
+     "total_bits": 108.0,
+     "best_pident": 26.042,
+     "best_qcov": 0.558,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010004093.1",
+     "start": 10689,
+     "end": 11293,
+     "n_hsps": 3,
+     "total_bits": 101.6,
+     "best_pident": 43.478,
+     "best_qcov": 0.058,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010003933.1",
+     "start": 3487,
+     "end": 10496,
+     "n_hsps": 12,
+     "total_bits": 1466.2
+    },
+    {
+     "contig": "JAIFHF010003555.1",
+     "start": 17303,
+     "end": 19175,
+     "n_hsps": 6,
+     "total_bits": 477.2
+    },
+    {
+     "contig": "JAIFHF010001788.1",
+     "start": 12226,
+     "end": 16789,
+     "n_hsps": 6,
+     "total_bits": 461.0
+    },
+    {
+     "contig": "JAIFHF010002337.1",
+     "start": 4127,
+     "end": 6748,
+     "n_hsps": 6,
+     "total_bits": 418.2
+    },
+    {
+     "contig": "JAIFHF010009227.1",
+     "start": 3883,
+     "end": 5781,
+     "n_hsps": 6,
+     "total_bits": 334.7
+    }
+   ]
+  },
+  "RAD51": {
+   "n_loci": 8,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000277.1",
+     "start": 35681,
+     "end": 36646,
+     "n_hsps": 3,
+     "total_bits": 790.3,
+     "best_pident": 93.789,
+     "best_qcov": 0.958,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_RAD51.fa",
+     "extracted_range": [
+      15681,
+      45354
+     ]
+    },
+    {
+     "contig": "JAIFHF010010360.1",
+     "start": 2629,
+     "end": 5916,
+     "n_hsps": 5,
+     "total_bits": 373.3,
+     "best_pident": 75.0,
+     "best_qcov": 0.211,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010007715.1",
+     "start": 3887,
+     "end": 4946,
+     "n_hsps": 2,
+     "total_bits": 132.4,
+     "best_pident": 54.902,
+     "best_qcov": 0.032,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009497.1",
+     "start": 516,
+     "end": 903,
+     "n_hsps": 2,
+     "total_bits": 110.1,
+     "best_pident": 65.217,
+     "best_qcov": 0.214,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000277.1",
+     "start": 35681,
+     "end": 36646,
+     "n_hsps": 3,
+     "total_bits": 790.3
+    },
+    {
+     "contig": "JAIFHF010010360.1",
+     "start": 2629,
+     "end": 5916,
+     "n_hsps": 5,
+     "total_bits": 373.3
+    },
+    {
+     "contig": "JAIFHF010007715.1",
+     "start": 3887,
+     "end": 4946,
+     "n_hsps": 2,
+     "total_bits": 132.4
+    },
+    {
+     "contig": "JAIFHF010009497.1",
+     "start": 516,
+     "end": 903,
+     "n_hsps": 2,
+     "total_bits": 110.1
+    },
+    {
+     "contig": "JAIFHF010018217.1",
+     "start": 5405,
+     "end": 5533,
+     "n_hsps": 1,
+     "total_bits": 73.9
+    }
+   ]
+  },
+  "TERF1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000216.1",
+     "start": 3638,
+     "end": 7457,
+     "n_hsps": 5,
+     "total_bits": 306.6,
+     "best_pident": 79.412,
+     "best_qcov": 0.104,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_TERF1.fa",
+     "extracted_range": [
+      1,
+      27457
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000216.1",
+     "start": 3638,
+     "end": 7457,
+     "n_hsps": 5,
+     "total_bits": 306.6
+    }
+   ]
+  },
+  "TERT": {
+   "n_loci": 21,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010001754.1",
+     "start": 8134,
+     "end": 24765,
+     "n_hsps": 48,
+     "total_bits": 3413.1,
+     "best_pident": 100.0,
+     "best_qcov": 0.133,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_TERT.fa",
+     "extracted_range": [
+      1,
+      26323
+     ]
+    },
+    {
+     "contig": "JAIFHF010000795.1",
+     "start": 14583,
+     "end": 19543,
+     "n_hsps": 13,
+     "total_bits": 1195.7,
+     "best_pident": 49.123,
+     "best_qcov": 0.349,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000565.1",
+     "start": 24508,
+     "end": 25404,
+     "n_hsps": 9,
+     "total_bits": 809.1,
+     "best_pident": 31.852,
+     "best_qcov": 0.258,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010005449.1",
+     "start": 4041,
+     "end": 5839,
+     "n_hsps": 8,
+     "total_bits": 711.4,
+     "best_pident": 31.379,
+     "best_qcov": 0.364,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000117.1",
+     "start": 19743,
+     "end": 21224,
+     "n_hsps": 6,
+     "total_bits": 663.7,
+     "best_pident": 26.977,
+     "best_qcov": 0.443,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010000819.1",
+     "start": 31381,
+     "end": 32550,
+     "n_hsps": 5,
+     "total_bits": 629.0,
+     "best_pident": 29.397,
+     "best_qcov": 0.41,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010039359.1",
+     "start": 254,
+     "end": 1852,
+     "n_hsps": 6,
+     "total_bits": 598.9,
+     "best_pident": 28.975,
+     "best_qcov": 0.499,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010004461.1",
+     "start": 7471,
+     "end": 8526,
+     "n_hsps": 6,
+     "total_bits": 577.6,
+     "best_pident": 30.662,
+     "best_qcov": 0.337,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000263.1",
+     "start": 39290,
+     "end": 40321,
+     "n_hsps": 7,
+     "total_bits": 570.6,
+     "best_pident": 32.374,
+     "best_qcov": 0.295,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010002025.1",
+     "start": 6986,
+     "end": 19531,
+     "n_hsps": 7,
+     "total_bits": 554.6,
+     "best_pident": 26.524,
+     "best_qcov": 0.337,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010016703.1",
+     "start": 4849,
+     "end": 5835,
+     "n_hsps": 7,
+     "total_bits": 550.1,
+     "best_pident": 34.328,
+     "best_qcov": 0.264,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010002962.1",
+     "start": 17561,
+     "end": 18589,
+     "n_hsps": 5,
+     "total_bits": 525.5,
+     "best_pident": 35.252,
+     "best_qcov": 0.29,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010017659.1",
+     "start": 2008,
+     "end": 2838,
+     "n_hsps": 6,
+     "total_bits": 517.3,
+     "best_pident": 29.932,
+     "best_qcov": 0.248,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010000794.1",
+     "start": 13292,
+     "end": 14377,
+     "n_hsps": 6,
+     "total_bits": 514.5,
+     "best_pident": 33.962,
+     "best_qcov": 0.297,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010011520.1",
+     "start": 955,
+     "end": 2448,
+     "n_hsps": 5,
+     "total_bits": 489.7,
+     "best_pident": 25.7,
+     "best_qcov": 0.47,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010036037.1",
+     "start": 729,
+     "end": 1742,
+     "n_hsps": 5,
+     "total_bits": 475.9,
+     "best_pident": 31.629,
+     "best_qcov": 0.291,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010025068.1",
+     "start": 3015,
+     "end": 4136,
+     "n_hsps": 6,
+     "total_bits": 445.2,
+     "best_pident": 28.962,
+     "best_qcov": 0.296,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010009054.1",
+     "start": 3545,
+     "end": 5254,
+     "n_hsps": 5,
+     "total_bits": 428.8,
+     "best_pident": 35.652,
+     "best_qcov": 0.459,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010029131.1",
+     "start": 1885,
+     "end": 2685,
+     "n_hsps": 5,
+     "total_bits": 381.4,
+     "best_pident": 32.759,
+     "best_qcov": 0.242,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010002442.1",
+     "start": 6531,
+     "end": 7388,
+     "n_hsps": 4,
+     "total_bits": 377.6,
+     "best_pident": 30.479,
+     "best_qcov": 0.242,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010040247.1",
+     "start": 517,
+     "end": 1875,
+     "n_hsps": 3,
+     "total_bits": 304.4,
+     "best_pident": 26.276,
+     "best_qcov": 0.339,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010001754.1",
+     "start": 8134,
+     "end": 24765,
+     "n_hsps": 48,
+     "total_bits": 3413.1
+    },
+    {
+     "contig": "JAIFHF010000795.1",
+     "start": 14583,
+     "end": 19543,
+     "n_hsps": 13,
+     "total_bits": 1195.7
+    },
+    {
+     "contig": "JAIFHF010000565.1",
+     "start": 24508,
+     "end": 25404,
+     "n_hsps": 9,
+     "total_bits": 809.1
+    },
+    {
+     "contig": "JAIFHF010005449.1",
+     "start": 4041,
+     "end": 5839,
+     "n_hsps": 8,
+     "total_bits": 711.4
+    },
+    {
+     "contig": "JAIFHF010000117.1",
+     "start": 19743,
+     "end": 21224,
+     "n_hsps": 6,
+     "total_bits": 663.7
+    }
+   ]
+  },
+  "XRCC1": {
+   "n_loci": 5,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010007286.1",
+     "start": 3932,
+     "end": 9587,
+     "n_hsps": 8,
+     "total_bits": 403.2,
+     "best_pident": 78.571,
+     "best_qcov": 0.101,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_XRCC1.fa",
+     "extracted_range": [
+      1,
+      13222
+     ]
+    },
+    {
+     "contig": "JAIFHF010000161.1",
+     "start": 37615,
+     "end": 42684,
+     "n_hsps": 2,
+     "total_bits": 205.4,
+     "best_pident": 65.079,
+     "best_qcov": 0.076,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010001336.1",
+     "start": 12433,
+     "end": 13110,
+     "n_hsps": 2,
+     "total_bits": 139.0,
+     "best_pident": 35.714,
+     "best_qcov": 0.093,
+     "strand": "-"
+    },
+    {
+     "contig": "JAIFHF010023829.1",
+     "start": 2099,
+     "end": 2735,
+     "n_hsps": 2,
+     "total_bits": 130.6,
+     "best_pident": 33.654,
+     "best_qcov": 0.087,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010007286.1",
+     "start": 3932,
+     "end": 9587,
+     "n_hsps": 8,
+     "total_bits": 403.2
+    },
+    {
+     "contig": "JAIFHF010000161.1",
+     "start": 37615,
+     "end": 42684,
+     "n_hsps": 2,
+     "total_bits": 205.4
+    },
+    {
+     "contig": "JAIFHF010001336.1",
+     "start": 12433,
+     "end": 13110,
+     "n_hsps": 2,
+     "total_bits": 139.0
+    },
+    {
+     "contig": "JAIFHF010023829.1",
+     "start": 2099,
+     "end": 2735,
+     "n_hsps": 2,
+     "total_bits": 130.6
+    },
+    {
+     "contig": "JAIFHF010024370.1",
+     "start": 1296,
+     "end": 1460,
+     "n_hsps": 1,
+     "total_bits": 59.7
+    }
+   ]
+  },
+  "LIG4": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010010790.1",
+     "start": 5425,
+     "end": 9740,
+     "n_hsps": 22,
+     "total_bits": 1671.4,
+     "best_pident": 74.074,
+     "best_qcov": 0.211,
+     "strand": "-",
+     "extracted_file": "data/loci/TdohrniiOviedo_LIG4.fa",
+     "extracted_range": [
+      1,
+      10084
+     ]
+    },
+    {
+     "contig": "JAIFHF010010253.1",
+     "start": 8238,
+     "end": 10478,
+     "n_hsps": 5,
+     "total_bits": 370.5,
+     "best_pident": 55.814,
+     "best_qcov": 0.086,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010010790.1",
+     "start": 5425,
+     "end": 9740,
+     "n_hsps": 22,
+     "total_bits": 1671.4
+    },
+    {
+     "contig": "JAIFHF010010253.1",
+     "start": 8238,
+     "end": 10478,
+     "n_hsps": 5,
+     "total_bits": 370.5
+    }
+   ]
+  },
+  "POT1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010020854.1",
+     "start": 1141,
+     "end": 2983,
+     "n_hsps": 3,
+     "total_bits": 286.7,
+     "best_pident": 57.547,
+     "best_qcov": 0.31,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_POT1.fa",
+     "extracted_range": [
+      1,
+      5524
+     ]
+    },
+    {
+     "contig": "JAIFHF010001573.1",
+     "start": 23556,
+     "end": 24296,
+     "n_hsps": 1,
+     "total_bits": 143.0,
+     "best_pident": 32.411,
+     "best_qcov": 0.486,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010020854.1",
+     "start": 1141,
+     "end": 2983,
+     "n_hsps": 3,
+     "total_bits": 286.7
+    },
+    {
+     "contig": "JAIFHF010001573.1",
+     "start": 23556,
+     "end": 24296,
+     "n_hsps": 1,
+     "total_bits": 143.0
+    }
+   ]
+  },
+  "ERCC2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "OGG1": {
+   "n_loci": 4,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000980.1",
+     "start": 13626,
+     "end": 16146,
+     "n_hsps": 4,
+     "total_bits": 401.8,
+     "best_pident": 50.0,
+     "best_qcov": 0.037,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_OGG1.fa",
+     "extracted_range": [
+      1,
+      32209
+     ]
+    },
+    {
+     "contig": "JAIFHF010000174.1",
+     "start": 28773,
+     "end": 29123,
+     "n_hsps": 1,
+     "total_bits": 145.0,
+     "best_pident": 52.137,
+     "best_qcov": 0.038,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000980.1",
+     "start": 13626,
+     "end": 16146,
+     "n_hsps": 4,
+     "total_bits": 401.8
+    },
+    {
+     "contig": "JAIFHF010000174.1",
+     "start": 28773,
+     "end": 29123,
+     "n_hsps": 1,
+     "total_bits": 145.0
+    },
+    {
+     "contig": "JAIFHF010017744.1",
+     "start": 4600,
+     "end": 4853,
+     "n_hsps": 2,
+     "total_bits": 77.7
+    },
+    {
+     "contig": "JAIFHF010053538.1",
+     "start": 1199,
+     "end": 1351,
+     "n_hsps": 1,
+     "total_bits": 55.5
+    }
+   ]
+  },
+  "PARP1": {
+   "n_loci": 5,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010004936.1",
+     "start": 8098,
+     "end": 14988,
+     "n_hsps": 2,
+     "total_bits": 149.1,
+     "best_pident": 64.583,
+     "best_qcov": 0.062,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_PARP1.fa",
+     "extracted_range": [
+      1,
+      16556
+     ]
+    },
+    {
+     "contig": "JAIFHF010007837.1",
+     "start": 627,
+     "end": 1108,
+     "n_hsps": 2,
+     "total_bits": 133.2,
+     "best_pident": 83.333,
+     "best_qcov": 0.061,
+     "strand": "+"
+    },
+    {
+     "contig": "JAIFHF010003211.1",
+     "start": 5767,
+     "end": 7001,
+     "n_hsps": 2,
+     "total_bits": 128.3,
+     "best_pident": 50.0,
+     "best_qcov": 0.061,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010004936.1",
+     "start": 8098,
+     "end": 14988,
+     "n_hsps": 2,
+     "total_bits": 149.1
+    },
+    {
+     "contig": "JAIFHF010007837.1",
+     "start": 627,
+     "end": 1108,
+     "n_hsps": 2,
+     "total_bits": 133.2
+    },
+    {
+     "contig": "JAIFHF010003211.1",
+     "start": 5767,
+     "end": 7001,
+     "n_hsps": 2,
+     "total_bits": 128.3
+    },
+    {
+     "contig": "JAIFHF010067214.1",
+     "start": 731,
+     "end": 901,
+     "n_hsps": 1,
+     "total_bits": 63.5
+    },
+    {
+     "contig": "JAIFHF010020532.1",
+     "start": 3559,
+     "end": 3684,
+     "n_hsps": 1,
+     "total_bits": 62.0
+    }
+   ]
+  },
+  "POLD1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "JAIFHF010000850.1",
+     "start": 4628,
+     "end": 22595,
+     "n_hsps": 24,
+     "total_bits": 1942.1,
+     "best_pident": 88.462,
+     "best_qcov": 0.087,
+     "strand": "+",
+     "extracted_file": "data/loci/TdohrniiOviedo_POLD1.fa",
+     "extracted_range": [
+      1,
+      33723
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010000850.1",
+     "start": 4628,
+     "end": 22595,
+     "n_hsps": 24,
+     "total_bits": 1942.1
+    }
+   ]
+  },
+  "TERF2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "XRCC5": {
+   "n_loci": 1,
+   "strong_loci": [],
+   "all_loci_summary": [
+    {
+     "contig": "JAIFHF010006434.1",
+     "start": 6894,
+     "end": 7552,
+     "n_hsps": 2,
+     "total_bits": 73.6
+    }
+   ]
+  }
+ },
+ "Aaurita": {
+  "BRCA1": {
+   "n_loci": 21,
+   "strong_loci": [
+    {
+     "contig": "REGM01000201.1",
+     "start": 567040,
+     "end": 573030,
+     "n_hsps": 3,
+     "total_bits": 424.4,
+     "best_pident": 62.637,
+     "best_qcov": 0.347,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_BRCA1.fa",
+     "extracted_range": [
+      547040,
+      591511
+     ]
+    },
+    {
+     "contig": "REGM01000131.1",
+     "start": 643886,
+     "end": 651446,
+     "n_hsps": 3,
+     "total_bits": 273.3,
+     "best_pident": 54.237,
+     "best_qcov": 0.163,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 3997899,
+     "end": 3998369,
+     "n_hsps": 2,
+     "total_bits": 130.5,
+     "best_pident": 36.538,
+     "best_qcov": 0.185,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000003.1",
+     "start": 3131299,
+     "end": 3131709,
+     "n_hsps": 2,
+     "total_bits": 120.9,
+     "best_pident": 34.959,
+     "best_qcov": 0.159,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000015.1",
+     "start": 647658,
+     "end": 651804,
+     "n_hsps": 2,
+     "total_bits": 119.3,
+     "best_pident": 38.542,
+     "best_qcov": 0.13,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 913015,
+     "end": 916936,
+     "n_hsps": 2,
+     "total_bits": 119.0,
+     "best_pident": 57.895,
+     "best_qcov": 0.015,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000201.1",
+     "start": 567040,
+     "end": 573030,
+     "n_hsps": 3,
+     "total_bits": 424.4
+    },
+    {
+     "contig": "REGM01000131.1",
+     "start": 643886,
+     "end": 651446,
+     "n_hsps": 3,
+     "total_bits": 273.3
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 3997899,
+     "end": 3998369,
+     "n_hsps": 2,
+     "total_bits": 130.5
+    },
+    {
+     "contig": "REGM01000003.1",
+     "start": 3131299,
+     "end": 3131709,
+     "n_hsps": 2,
+     "total_bits": 120.9
+    },
+    {
+     "contig": "REGM01000015.1",
+     "start": 647658,
+     "end": 651804,
+     "n_hsps": 2,
+     "total_bits": 119.3
+    }
+   ]
+  },
+  "DKC1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "REGM01000245.1",
+     "start": 357139,
+     "end": 358077,
+     "n_hsps": 3,
+     "total_bits": 1541.0,
+     "best_pident": 82.353,
+     "best_qcov": 0.622,
+     "strand": "-",
+     "extracted_file": "data/loci/Aaurita_DKC1.fa",
+     "extracted_range": [
+      337139,
+      378077
+     ]
+    },
+    {
+     "contig": "REGM01000044.1",
+     "start": 1071901,
+     "end": 1072230,
+     "n_hsps": 3,
+     "total_bits": 416.0,
+     "best_pident": 78.75,
+     "best_qcov": 0.215,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000245.1",
+     "start": 357139,
+     "end": 358077,
+     "n_hsps": 3,
+     "total_bits": 1541.0
+    },
+    {
+     "contig": "REGM01000044.1",
+     "start": 1071901,
+     "end": 1072230,
+     "n_hsps": 3,
+     "total_bits": 416.0
+    }
+   ]
+  },
+  "ERCC1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "REGM01000120.1",
+     "start": 332323,
+     "end": 334753,
+     "n_hsps": 5,
+     "total_bits": 298.7,
+     "best_pident": 67.5,
+     "best_qcov": 0.131,
+     "strand": "-",
+     "extracted_file": "data/loci/Aaurita_ERCC1.fa",
+     "extracted_range": [
+      312323,
+      354753
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000120.1",
+     "start": 332323,
+     "end": 334753,
+     "n_hsps": 5,
+     "total_bits": 298.7
+    }
+   ]
+  },
+  "FEN1": {
+   "n_loci": 26,
+   "strong_loci": [
+    {
+     "contig": "REGM01000184.1",
+     "start": 103566,
+     "end": 105173,
+     "n_hsps": 1,
+     "total_bits": 521.0,
+     "best_pident": 48.429,
+     "best_qcov": 0.917,
+     "strand": "-",
+     "extracted_file": "data/loci/Aaurita_FEN1.fa",
+     "extracted_range": [
+      83566,
+      125173
+     ]
+    },
+    {
+     "contig": "REGM01000331.1",
+     "start": 55558,
+     "end": 57060,
+     "n_hsps": 1,
+     "total_bits": 488.0,
+     "best_pident": 48.617,
+     "best_qcov": 0.859,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000538.1",
+     "start": 7030,
+     "end": 8628,
+     "n_hsps": 1,
+     "total_bits": 474.0,
+     "best_pident": 48.244,
+     "best_qcov": 0.912,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000087.1",
+     "start": 989013,
+     "end": 990774,
+     "n_hsps": 3,
+     "total_bits": 432.3,
+     "best_pident": 52.525,
+     "best_qcov": 0.535,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000340.1",
+     "start": 41630,
+     "end": 89522,
+     "n_hsps": 2,
+     "total_bits": 348.0,
+     "best_pident": 31.784,
+     "best_qcov": 0.902,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000518.1",
+     "start": 74913,
+     "end": 111819,
+     "n_hsps": 2,
+     "total_bits": 316.5,
+     "best_pident": 39.241,
+     "best_qcov": 0.929,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000165.1",
+     "start": 69923,
+     "end": 72018,
+     "n_hsps": 2,
+     "total_bits": 316.0,
+     "best_pident": 40.909,
+     "best_qcov": 0.759,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000064.1",
+     "start": 793696,
+     "end": 817482,
+     "n_hsps": 5,
+     "total_bits": 311.2,
+     "best_pident": 94.286,
+     "best_qcov": 0.111,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000112.1",
+     "start": 274459,
+     "end": 276075,
+     "n_hsps": 1,
+     "total_bits": 288.0,
+     "best_pident": 31.851,
+     "best_qcov": 0.941,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000032.1",
+     "start": 166914,
+     "end": 168530,
+     "n_hsps": 1,
+     "total_bits": 288.0,
+     "best_pident": 31.851,
+     "best_qcov": 0.941,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000226.1",
+     "start": 361598,
+     "end": 363214,
+     "n_hsps": 1,
+     "total_bits": 287.0,
+     "best_pident": 31.673,
+     "best_qcov": 0.941,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000391.1",
+     "start": 142157,
+     "end": 151918,
+     "n_hsps": 2,
+     "total_bits": 254.7,
+     "best_pident": 32.593,
+     "best_qcov": 0.814,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000025.1",
+     "start": 1513318,
+     "end": 1514969,
+     "n_hsps": 2,
+     "total_bits": 239.8,
+     "best_pident": 30.556,
+     "best_qcov": 0.699,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000628.1",
+     "start": 29261,
+     "end": 30634,
+     "n_hsps": 1,
+     "total_bits": 209.0,
+     "best_pident": 33.546,
+     "best_qcov": 0.775,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000245.1",
+     "start": 325148,
+     "end": 326626,
+     "n_hsps": 1,
+     "total_bits": 203.0,
+     "best_pident": 28.15,
+     "best_qcov": 0.849,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000025.1",
+     "start": 1744342,
+     "end": 1745865,
+     "n_hsps": 2,
+     "total_bits": 200.9,
+     "best_pident": 33.032,
+     "best_qcov": 0.482,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000197.1",
+     "start": 604774,
+     "end": 606438,
+     "n_hsps": 1,
+     "total_bits": 198.0,
+     "best_pident": 28.843,
+     "best_qcov": 0.943,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000029.1",
+     "start": 358624,
+     "end": 360039,
+     "n_hsps": 3,
+     "total_bits": 196.8,
+     "best_pident": 33.663,
+     "best_qcov": 0.305,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000605.1",
+     "start": 41234,
+     "end": 42634,
+     "n_hsps": 1,
+     "total_bits": 193.0,
+     "best_pident": 29.854,
+     "best_qcov": 0.812,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000029.1",
+     "start": 1751329,
+     "end": 1752975,
+     "n_hsps": 1,
+     "total_bits": 192.0,
+     "best_pident": 29.464,
+     "best_qcov": 0.926,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000016.1",
+     "start": 1868634,
+     "end": 1870076,
+     "n_hsps": 1,
+     "total_bits": 192.0,
+     "best_pident": 28.745,
+     "best_qcov": 0.821,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000208.1",
+     "start": 555808,
+     "end": 557196,
+     "n_hsps": 1,
+     "total_bits": 183.0,
+     "best_pident": 30.189,
+     "best_qcov": 0.807,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000181.1",
+     "start": 460855,
+     "end": 462282,
+     "n_hsps": 1,
+     "total_bits": 180.0,
+     "best_pident": 28.98,
+     "best_qcov": 0.816,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000025.1",
+     "start": 1931157,
+     "end": 1932500,
+     "n_hsps": 2,
+     "total_bits": 127.1,
+     "best_pident": 35.714,
+     "best_qcov": 0.229,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000184.1",
+     "start": 103566,
+     "end": 105173,
+     "n_hsps": 1,
+     "total_bits": 521.0
+    },
+    {
+     "contig": "REGM01000331.1",
+     "start": 55558,
+     "end": 57060,
+     "n_hsps": 1,
+     "total_bits": 488.0
+    },
+    {
+     "contig": "REGM01000538.1",
+     "start": 7030,
+     "end": 8628,
+     "n_hsps": 1,
+     "total_bits": 474.0
+    },
+    {
+     "contig": "REGM01000087.1",
+     "start": 989013,
+     "end": 990774,
+     "n_hsps": 3,
+     "total_bits": 432.3
+    },
+    {
+     "contig": "REGM01000340.1",
+     "start": 41630,
+     "end": 89522,
+     "n_hsps": 2,
+     "total_bits": 348.0
+    }
+   ]
+  },
+  "MLH1": {
+   "n_loci": 4,
+   "strong_loci": [
+    {
+     "contig": "REGM01000010.1",
+     "start": 372482,
+     "end": 388977,
+     "n_hsps": 15,
+     "total_bits": 2448.3,
+     "best_pident": 82.0,
+     "best_qcov": 0.3,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_MLH1.fa",
+     "extracted_range": [
+      352482,
+      408977
+     ]
+    },
+    {
+     "contig": "REGM01000035.1",
+     "start": 807472,
+     "end": 842873,
+     "n_hsps": 7,
+     "total_bits": 456.3,
+     "best_pident": 90.909,
+     "best_qcov": 0.067,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000102.1",
+     "start": 899913,
+     "end": 900224,
+     "n_hsps": 3,
+     "total_bits": 266.1,
+     "best_pident": 43.137,
+     "best_qcov": 0.147,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000010.1",
+     "start": 372482,
+     "end": 388977,
+     "n_hsps": 15,
+     "total_bits": 2448.3
+    },
+    {
+     "contig": "REGM01000035.1",
+     "start": 807472,
+     "end": 842873,
+     "n_hsps": 7,
+     "total_bits": 456.3
+    },
+    {
+     "contig": "REGM01000102.1",
+     "start": 899913,
+     "end": 900224,
+     "n_hsps": 3,
+     "total_bits": 266.1
+    },
+    {
+     "contig": "REGM01000177.1",
+     "start": 593929,
+     "end": 594129,
+     "n_hsps": 1,
+     "total_bits": 53.9
+    }
+   ]
+  },
+  "MSH2": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "REGM01000035.1",
+     "start": 807409,
+     "end": 842873,
+     "n_hsps": 37,
+     "total_bits": 2538.5,
+     "best_pident": 90.909,
+     "best_qcov": 0.087,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_MSH2.fa",
+     "extracted_range": [
+      787409,
+      862873
+     ]
+    },
+    {
+     "contig": "REGM01000177.1",
+     "start": 593929,
+     "end": 594129,
+     "n_hsps": 3,
+     "total_bits": 163.6,
+     "best_pident": 46.429,
+     "best_qcov": 0.073,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000035.1",
+     "start": 807409,
+     "end": 842873,
+     "n_hsps": 37,
+     "total_bits": 2538.5
+    },
+    {
+     "contig": "REGM01000177.1",
+     "start": 593929,
+     "end": 594129,
+     "n_hsps": 3,
+     "total_bits": 163.6
+    }
+   ]
+  },
+  "POLD2": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "REGM01000259.1",
+     "start": 201795,
+     "end": 216420,
+     "n_hsps": 18,
+     "total_bits": 1195.5,
+     "best_pident": 74.545,
+     "best_qcov": 0.146,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_POLD2.fa",
+     "extracted_range": [
+      181795,
+      236420
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000259.1",
+     "start": 201795,
+     "end": 216420,
+     "n_hsps": 18,
+     "total_bits": 1195.5
+    }
+   ]
+  },
+  "POLE": {
+   "n_loci": 15,
+   "strong_loci": [
+    {
+     "contig": "REGM01000010.1",
+     "start": 427151,
+     "end": 433986,
+     "n_hsps": 12,
+     "total_bits": 931.5,
+     "best_pident": 90.909,
+     "best_qcov": 0.166,
+     "strand": "-",
+     "extracted_file": "data/loci/Aaurita_POLE.fa",
+     "extracted_range": [
+      407151,
+      453986
+     ]
+    },
+    {
+     "contig": "REGM01000106.1",
+     "start": 923635,
+     "end": 944068,
+     "n_hsps": 14,
+     "total_bits": 911.9,
+     "best_pident": 94.444,
+     "best_qcov": 0.179,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000036.1",
+     "start": 1125917,
+     "end": 1144361,
+     "n_hsps": 8,
+     "total_bits": 694.9,
+     "best_pident": 43.802,
+     "best_qcov": 0.159,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000205.1",
+     "start": 46230,
+     "end": 48056,
+     "n_hsps": 4,
+     "total_bits": 603.3,
+     "best_pident": 56.0,
+     "best_qcov": 0.291,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000409.1",
+     "start": 98263,
+     "end": 99627,
+     "n_hsps": 2,
+     "total_bits": 510.0,
+     "best_pident": 41.755,
+     "best_qcov": 0.421,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000110.1",
+     "start": 29250,
+     "end": 31996,
+     "n_hsps": 4,
+     "total_bits": 332.0,
+     "best_pident": 61.765,
+     "best_qcov": 0.067,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000050.1",
+     "start": 1088530,
+     "end": 1089567,
+     "n_hsps": 2,
+     "total_bits": 292.0,
+     "best_pident": 30.053,
+     "best_qcov": 0.353,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000077.1",
+     "start": 609776,
+     "end": 617539,
+     "n_hsps": 4,
+     "total_bits": 280.7,
+     "best_pident": 43.103,
+     "best_qcov": 0.124,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000059.1",
+     "start": 505635,
+     "end": 505946,
+     "n_hsps": 2,
+     "total_bits": 199.0,
+     "best_pident": 50.505,
+     "best_qcov": 0.096,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000173.1",
+     "start": 443063,
+     "end": 443404,
+     "n_hsps": 2,
+     "total_bits": 175.6,
+     "best_pident": 47.826,
+     "best_qcov": 0.105,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000110.1",
+     "start": 949631,
+     "end": 949894,
+     "n_hsps": 2,
+     "total_bits": 156.4,
+     "best_pident": 48.864,
+     "best_qcov": 0.079,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000387.1",
+     "start": 58178,
+     "end": 58330,
+     "n_hsps": 2,
+     "total_bits": 113.6,
+     "best_pident": 60.87,
+     "best_qcov": 0.048,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000076.1",
+     "start": 1124899,
+     "end": 1125018,
+     "n_hsps": 2,
+     "total_bits": 113.2,
+     "best_pident": 66.667,
+     "best_qcov": 0.04,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000010.1",
+     "start": 427151,
+     "end": 433986,
+     "n_hsps": 12,
+     "total_bits": 931.5
+    },
+    {
+     "contig": "REGM01000106.1",
+     "start": 923635,
+     "end": 944068,
+     "n_hsps": 14,
+     "total_bits": 911.9
+    },
+    {
+     "contig": "REGM01000036.1",
+     "start": 1125917,
+     "end": 1144361,
+     "n_hsps": 8,
+     "total_bits": 694.9
+    },
+    {
+     "contig": "REGM01000205.1",
+     "start": 46230,
+     "end": 48056,
+     "n_hsps": 4,
+     "total_bits": 603.3
+    },
+    {
+     "contig": "REGM01000409.1",
+     "start": 98263,
+     "end": 99627,
+     "n_hsps": 2,
+     "total_bits": 510.0
+    }
+   ]
+  },
+  "RAD51": {
+   "n_loci": 3,
+   "strong_loci": [
+    {
+     "contig": "REGM01000075.1",
+     "start": 709100,
+     "end": 718387,
+     "n_hsps": 7,
+     "total_bits": 603.9,
+     "best_pident": 92.857,
+     "best_qcov": 0.31,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_RAD51.fa",
+     "extracted_range": [
+      689100,
+      738387
+     ]
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 913015,
+     "end": 916936,
+     "n_hsps": 2,
+     "total_bits": 119.0,
+     "best_pident": 57.895,
+     "best_qcov": 0.015,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000075.1",
+     "start": 709100,
+     "end": 718387,
+     "n_hsps": 7,
+     "total_bits": 603.9
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 913015,
+     "end": 916936,
+     "n_hsps": 2,
+     "total_bits": 119.0
+    },
+    {
+     "contig": "REGM01000145.1",
+     "start": 385283,
+     "end": 385414,
+     "n_hsps": 1,
+     "total_bits": 70.5
+    }
+   ]
+  },
+  "TERF1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "REGM01000416.1",
+     "start": 135150,
+     "end": 136941,
+     "n_hsps": 2,
+     "total_bits": 118.2,
+     "best_pident": 69.231,
+     "best_qcov": 0.095,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_TERF1.fa",
+     "extracted_range": [
+      115150,
+      156941
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000416.1",
+     "start": 135150,
+     "end": 136941,
+     "n_hsps": 2,
+     "total_bits": 118.2
+    }
+   ]
+  },
+  "TERT": {
+   "n_loci": 26,
+   "strong_loci": [
+    {
+     "contig": "REGM01000008.1",
+     "start": 1802239,
+     "end": 1822241,
+     "n_hsps": 29,
+     "total_bits": 2038.6,
+     "best_pident": 96.552,
+     "best_qcov": 0.09,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_TERT.fa",
+     "extracted_range": [
+      1782239,
+      1842241
+     ]
+    },
+    {
+     "contig": "REGM01000190.1",
+     "start": 361344,
+     "end": 369294,
+     "n_hsps": 16,
+     "total_bits": 954.4,
+     "best_pident": 48.052,
+     "best_qcov": 0.111,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000013.1",
+     "start": 94816,
+     "end": 97432,
+     "n_hsps": 6,
+     "total_bits": 661.5,
+     "best_pident": 43.443,
+     "best_qcov": 0.282,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000015.1",
+     "start": 645084,
+     "end": 651858,
+     "n_hsps": 10,
+     "total_bits": 634.0,
+     "best_pident": 42.667,
+     "best_qcov": 0.111,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000003.1",
+     "start": 3131221,
+     "end": 3131718,
+     "n_hsps": 9,
+     "total_bits": 563.7,
+     "best_pident": 39.744,
+     "best_qcov": 0.173,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 3997881,
+     "end": 3998315,
+     "n_hsps": 6,
+     "total_bits": 377.1,
+     "best_pident": 43.182,
+     "best_qcov": 0.122,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000003.1",
+     "start": 2009671,
+     "end": 2010495,
+     "n_hsps": 4,
+     "total_bits": 322.4,
+     "best_pident": 32.787,
+     "best_qcov": 0.243,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000019.1",
+     "start": 920551,
+     "end": 944946,
+     "n_hsps": 5,
+     "total_bits": 294.9,
+     "best_pident": 41.463,
+     "best_qcov": 0.091,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000093.1",
+     "start": 820748,
+     "end": 821086,
+     "n_hsps": 5,
+     "total_bits": 294.3,
+     "best_pident": 40.741,
+     "best_qcov": 0.095,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000001.1",
+     "start": 2981740,
+     "end": 2982992,
+     "n_hsps": 5,
+     "total_bits": 292.4,
+     "best_pident": 42.5,
+     "best_qcov": 0.09,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000245.1",
+     "start": 72786,
+     "end": 72989,
+     "n_hsps": 5,
+     "total_bits": 289.6,
+     "best_pident": 49.18,
+     "best_qcov": 0.06,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000019.1",
+     "start": 298225,
+     "end": 298608,
+     "n_hsps": 5,
+     "total_bits": 287.3,
+     "best_pident": 43.421,
+     "best_qcov": 0.095,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000040.1",
+     "start": 757021,
+     "end": 760268,
+     "n_hsps": 4,
+     "total_bits": 235.7,
+     "best_pident": 40.244,
+     "best_qcov": 0.104,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000101.1",
+     "start": 731420,
+     "end": 741318,
+     "n_hsps": 4,
+     "total_bits": 220.7,
+     "best_pident": 38.043,
+     "best_qcov": 0.1,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000019.1",
+     "start": 1226559,
+     "end": 1227382,
+     "n_hsps": 3,
+     "total_bits": 188.6,
+     "best_pident": 40.476,
+     "best_qcov": 0.099,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01000033.1",
+     "start": 1193031,
+     "end": 1193381,
+     "n_hsps": 3,
+     "total_bits": 181.4,
+     "best_pident": 37.864,
+     "best_qcov": 0.097,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000002.1",
+     "start": 1004531,
+     "end": 1004875,
+     "n_hsps": 2,
+     "total_bits": 127.1,
+     "best_pident": 40.404,
+     "best_qcov": 0.084,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000006.1",
+     "start": 2680053,
+     "end": 2680574,
+     "n_hsps": 2,
+     "total_bits": 120.2,
+     "best_pident": 29.07,
+     "best_qcov": 0.144,
+     "strand": "-"
+    },
+    {
+     "contig": "REGM01000114.1",
+     "start": 962635,
+     "end": 962931,
+     "n_hsps": 2,
+     "total_bits": 119.4,
+     "best_pident": 37.374,
+     "best_qcov": 0.081,
+     "strand": "+"
+    },
+    {
+     "contig": "REGM01002319.1",
+     "start": 773,
+     "end": 1273,
+     "n_hsps": 2,
+     "total_bits": 112.5,
+     "best_pident": 31.343,
+     "best_qcov": 0.138,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000008.1",
+     "start": 1802239,
+     "end": 1822241,
+     "n_hsps": 29,
+     "total_bits": 2038.6
+    },
+    {
+     "contig": "REGM01000190.1",
+     "start": 361344,
+     "end": 369294,
+     "n_hsps": 16,
+     "total_bits": 954.4
+    },
+    {
+     "contig": "REGM01000013.1",
+     "start": 94816,
+     "end": 97432,
+     "n_hsps": 6,
+     "total_bits": 661.5
+    },
+    {
+     "contig": "REGM01000015.1",
+     "start": 645084,
+     "end": 651858,
+     "n_hsps": 10,
+     "total_bits": 634.0
+    },
+    {
+     "contig": "REGM01000003.1",
+     "start": 3131221,
+     "end": 3131718,
+     "n_hsps": 9,
+     "total_bits": 563.7
+    }
+   ]
+  },
+  "XRCC1": {
+   "n_loci": 3,
+   "strong_loci": [
+    {
+     "contig": "REGM01000097.1",
+     "start": 619187,
+     "end": 630984,
+     "n_hsps": 3,
+     "total_bits": 249.9,
+     "best_pident": 61.111,
+     "best_qcov": 0.064,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_XRCC1.fa",
+     "extracted_range": [
+      599187,
+      650984
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000097.1",
+     "start": 619187,
+     "end": 630984,
+     "n_hsps": 3,
+     "total_bits": 249.9
+    },
+    {
+     "contig": "REGM01000021.1",
+     "start": 1874949,
+     "end": 1875086,
+     "n_hsps": 1,
+     "total_bits": 62.0
+    },
+    {
+     "contig": "REGM01000096.1",
+     "start": 27538,
+     "end": 27690,
+     "n_hsps": 1,
+     "total_bits": 55.1
+    }
+   ]
+  },
+  "LIG4": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "REGM01000133.1",
+     "start": 732170,
+     "end": 735485,
+     "n_hsps": 6,
+     "total_bits": 340.0,
+     "best_pident": 72.222,
+     "best_qcov": 0.062,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_LIG4.fa",
+     "extracted_range": [
+      712170,
+      755485
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000133.1",
+     "start": 732170,
+     "end": 735485,
+     "n_hsps": 6,
+     "total_bits": 340.0
+    }
+   ]
+  },
+  "POT1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "REGM01000084.1",
+     "start": 1046011,
+     "end": 1051644,
+     "n_hsps": 3,
+     "total_bits": 223.7,
+     "best_pident": 41.228,
+     "best_qcov": 0.484,
+     "strand": "-",
+     "extracted_file": "data/loci/Aaurita_POT1.fa",
+     "extracted_range": [
+      1026011,
+      1071644
+     ]
+    },
+    {
+     "contig": "REGM01000026.1",
+     "start": 547310,
+     "end": 549629,
+     "n_hsps": 2,
+     "total_bits": 114.4,
+     "best_pident": 32.331,
+     "best_qcov": 0.298,
+     "strand": "-"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000084.1",
+     "start": 1046011,
+     "end": 1051644,
+     "n_hsps": 3,
+     "total_bits": 223.7
+    },
+    {
+     "contig": "REGM01000026.1",
+     "start": 547310,
+     "end": 549629,
+     "n_hsps": 2,
+     "total_bits": 114.4
+    }
+   ]
+  },
+  "ERCC2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "OGG1": {
+   "n_loci": 3,
+   "strong_loci": [
+    {
+     "contig": "REGM01000023.1",
+     "start": 178508,
+     "end": 208003,
+     "n_hsps": 12,
+     "total_bits": 890.3,
+     "best_pident": 73.171,
+     "best_qcov": 0.035,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_OGG1.fa",
+     "extracted_range": [
+      158508,
+      228003
+     ]
+    },
+    {
+     "contig": "REGM01000541.1",
+     "start": 87102,
+     "end": 88654,
+     "n_hsps": 2,
+     "total_bits": 110.9,
+     "best_pident": 53.659,
+     "best_qcov": 0.019,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000023.1",
+     "start": 178508,
+     "end": 208003,
+     "n_hsps": 12,
+     "total_bits": 890.3
+    },
+    {
+     "contig": "REGM01000541.1",
+     "start": 87102,
+     "end": 88654,
+     "n_hsps": 2,
+     "total_bits": 110.9
+    },
+    {
+     "contig": "REGM01000050.1",
+     "start": 845604,
+     "end": 845828,
+     "n_hsps": 1,
+     "total_bits": 82.4
+    }
+   ]
+  },
+  "PARP1": {
+   "n_loci": 2,
+   "strong_loci": [
+    {
+     "contig": "REGM01000148.1",
+     "start": 8325,
+     "end": 50999,
+     "n_hsps": 7,
+     "total_bits": 447.1,
+     "best_pident": 73.684,
+     "best_qcov": 0.053,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_PARP1.fa",
+     "extracted_range": [
+      1,
+      70999
+     ]
+    },
+    {
+     "contig": "REGM01000024.1",
+     "start": 1470574,
+     "end": 1472562,
+     "n_hsps": 1,
+     "total_bits": 334.0,
+     "best_pident": 31.89,
+     "best_qcov": 0.536,
+     "strand": "+"
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000148.1",
+     "start": 8325,
+     "end": 50999,
+     "n_hsps": 7,
+     "total_bits": 447.1
+    },
+    {
+     "contig": "REGM01000024.1",
+     "start": 1470574,
+     "end": 1472562,
+     "n_hsps": 1,
+     "total_bits": 334.0
+    }
+   ]
+  },
+  "POLD1": {
+   "n_loci": 1,
+   "strong_loci": [
+    {
+     "contig": "REGM01000003.1",
+     "start": 2233309,
+     "end": 2291454,
+     "n_hsps": 22,
+     "total_bits": 1836.4,
+     "best_pident": 96.875,
+     "best_qcov": 0.06,
+     "strand": "+",
+     "extracted_file": "data/loci/Aaurita_POLD1.fa",
+     "extracted_range": [
+      2213309,
+      2311454
+     ]
+    }
+   ],
+   "all_loci_summary": [
+    {
+     "contig": "REGM01000003.1",
+     "start": 2233309,
+     "end": 2291454,
+     "n_hsps": 22,
+     "total_bits": 1836.4
+    }
+   ]
+  },
+  "TERF2": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  },
+  "XRCC5": {
+   "n_loci": 0,
+   "strong_loci": [],
+   "all_loci_summary": []
+  }
+ }
+}

@@ -1,0 +1,4814 @@
+{
+ "Tdohrnii": {
+  "BRCA1": {
+   "protein": "MAGFEESGLPGKQSIRDGFQGCRDPETFISSFRQENCVLLTSLHPALYLLDLQDVKRVTFHQSIMGELFERLTKRINEECTEDKLKELLDHIFQFIHVDNLRPIVMATMKKLTDIKPEYIEKIADNDKIYQDCPIEVKRRVWLKKHPLFGDAVGPILNRYIEEKYSLLYSTENIKTRNFFSLPPRQRRQKTVVKELVQMIGFSIELYNLVLQFLRTLFLRTKEEHYCSLRGELLMAFHDADIKDVRQVDPCHKFTWCLDACIRDKSVDSKRLKELQTFLDGIKAGQEEVMGSDIAMIVCDPYATNTIVSSILQQLNKFLRMDMLPRVSSSQELMFLIRLLTLSTNAWNMLKTQDFKELPQFARAFKAQPVPSPLMNSIIHSMVRHHEQFSEPPQCILLCDQFLFVWLQHETTLHHVLRLLWCVYEKIDSHQLVRLLTLTQPSSQ",
+   "n_segments": 4,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 290,
+     "s_lo": 516420,
+     "s_hi": 517292,
+     "strand": "+",
+     "aa_len": 291
+    },
+    {
+     "qstart": 290,
+     "qend": 326,
+     "s_lo": 517588,
+     "s_hi": 517698,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 325,
+     "qend": 353,
+     "s_lo": 517770,
+     "s_hi": 517856,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 438,
+     "qend": 524,
+     "s_lo": 518657,
+     "s_hi": 518917,
+     "strand": "+",
+     "aa_len": 87
+    }
+   ],
+   "gene": "BRCA1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000190.1"
+  },
+  "DKC1": {
+   "protein": "NYDRLNVRTGHYTPIAAGSAPLKRTLKDYLANYDRLNVRTGHYTPIAAGSAPLKRTLKDYLANYDRLNVRTGHYTPIAAGSAPLKRTLKDYLAGFINLDKPANPSSHEVVAWIKKILRVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKAGFINLDKPANPSSHEVVAWIKKILRVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKFRAGFINLDKPANPSSHEVVAWIKKILRVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKGKEYVGILRLHGAIEGRDKLAQGKEYVGILRLHGAIEGRDKLAQGKEYVGILRLHGAIEGRDKLAQKVLXLFERKVAMEMLTGALFQRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISSXTMMFXXFKKQNLXEVKQNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSENKVLXLFERKVAMEMLTGALFQRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISSXTMMFXXFKKQNLXEVKQNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSENVAMEMLTGALFQRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISSXTMMFXXFKKQNLXEVKQNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSEESYLRRVVKPLERLLLAHKRLVIKDSAVESYLRRVVKPLERLLLAHKRLVIKDSAVESYLRRVVKPLERLLLAHKRLVIKDSAVVNAICYGAKLMLPGVLRYESGIELNEDVVMMTTKGEAIAVGVNAICYGAKLMLPGVLRYESGIELNEDVVMMTTKGEAIAVGVNAICYGAKLMLPGVLRYESGIELNEDVVMMTTKGEAILVQMTNIHLSVSLGIALMSTATIATCDHGVVAKIKRVIMERDTYPRKWGLGPKLVQMTNIHLSVSLGIALMSTATIATCDHGVVAKIKRVIMERDTYPRKWGLGPKKIASLLVQMTNIHLSVSLGIALMSTATIATCDHGVVAKIKRVIMERDTYPRKWGLGPKALEKKKMIASGLLDKYGKPNDSTPKEWKSFKNALEKKKMIASGLLDKYGKPNDSTPKEWKSFKNYRXVNCQD",
+   "n_segments": 23,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 46,
+     "qend": 76,
+     "s_lo": 777246,
+     "s_hi": 777338,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 51,
+     "qend": 81,
+     "s_lo": 777246,
+     "s_hi": 777338,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 58,
+     "qend": 87,
+     "s_lo": 777249,
+     "s_hi": 777338,
+     "strand": "-",
+     "aa_len": 30
+    },
+    {
+     "qstart": 77,
+     "qend": 139,
+     "s_lo": 776983,
+     "s_hi": 777171,
+     "strand": "-",
+     "aa_len": 63
+    },
+    {
+     "qstart": 82,
+     "qend": 144,
+     "s_lo": 776983,
+     "s_hi": 777171,
+     "strand": "-",
+     "aa_len": 63
+    },
+    {
+     "qstart": 87,
+     "qend": 151,
+     "s_lo": 776983,
+     "s_hi": 777177,
+     "strand": "-",
+     "aa_len": 65
+    },
+    {
+     "qstart": 138,
+     "qend": 159,
+     "s_lo": 776438,
+     "s_hi": 776503,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 143,
+     "qend": 164,
+     "s_lo": 776438,
+     "s_hi": 776503,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 150,
+     "qend": 171,
+     "s_lo": 776438,
+     "s_hi": 776503,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 151,
+     "qend": 245,
+     "s_lo": 776017,
+     "s_hi": 776388,
+     "strand": "-",
+     "aa_len": 124
+    },
+    {
+     "qstart": 156,
+     "qend": 250,
+     "s_lo": 776017,
+     "s_hi": 776388,
+     "strand": "-",
+     "aa_len": 124
+    },
+    {
+     "qstart": 171,
+     "qend": 256,
+     "s_lo": 776020,
+     "s_hi": 776361,
+     "strand": "-",
+     "aa_len": 114
+    },
+    {
+     "qstart": 267,
+     "qend": 294,
+     "s_lo": 774820,
+     "s_hi": 774903,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 272,
+     "qend": 299,
+     "s_lo": 774820,
+     "s_hi": 774903,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 279,
+     "qend": 306,
+     "s_lo": 774820,
+     "s_hi": 774903,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 294,
+     "qend": 334,
+     "s_lo": 774611,
+     "s_hi": 774733,
+     "strand": "-",
+     "aa_len": 41
+    },
+    {
+     "qstart": 299,
+     "qend": 339,
+     "s_lo": 774611,
+     "s_hi": 774733,
+     "strand": "-",
+     "aa_len": 41
+    },
+    {
+     "qstart": 306,
+     "qend": 343,
+     "s_lo": 774620,
+     "s_hi": 774733,
+     "strand": "-",
+     "aa_len": 38
+    },
+    {
+     "qstart": 321,
+     "qend": 373,
+     "s_lo": 772439,
+     "s_hi": 772597,
+     "strand": "-",
+     "aa_len": 53
+    },
+    {
+     "qstart": 326,
+     "qend": 378,
+     "s_lo": 772439,
+     "s_hi": 772597,
+     "strand": "-",
+     "aa_len": 53
+    },
+    {
+     "qstart": 328,
+     "qend": 385,
+     "s_lo": 772439,
+     "s_hi": 772612,
+     "strand": "-",
+     "aa_len": 58
+    },
+    {
+     "qstart": 374,
+     "qend": 405,
+     "s_lo": 772157,
+     "s_hi": 772252,
+     "strand": "-",
+     "aa_len": 32
+    },
+    {
+     "qstart": 379,
+     "qend": 418,
+     "s_lo": 772133,
+     "s_hi": 772252,
+     "strand": "-",
+     "aa_len": 40
+    }
+   ],
+   "gene": "DKC1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000065.1"
+  },
+  "ERCC1": {
+   "protein": "CLFDLVLKKLVVTWKLTNNMNTSLLMFCKKELIQITYQGQDVLTTVKSINKTDVITLLSNFGVCLRGNPILKHVKNVPWEFGDIVPDYEVGQTSCMLFLRFCLFDLVLKKLVVTWKLTNNMNTSLLMFCKKELIQITYQGMQDVLTTVKSINKTDVITLLSNFLLVXFSAEEAGRYLETYKQYEHKPADVLQERIDSDYLSRVETASCFFHVCG",
+   "n_segments": 6,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 54,
+     "qend": 94,
+     "s_lo": 666345,
+     "s_hi": 666467,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 94,
+     "qend": 119,
+     "s_lo": 666553,
+     "s_hi": 666630,
+     "strand": "+",
+     "aa_len": 26
+    },
+    {
+     "qstart": 111,
+     "qend": 146,
+     "s_lo": 664604,
+     "s_hi": 664711,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 199,
+     "qend": 239,
+     "s_lo": 666345,
+     "s_hi": 666467,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 238,
+     "qend": 260,
+     "s_lo": 666550,
+     "s_hi": 666618,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 287,
+     "qend": 335,
+     "s_lo": 666345,
+     "s_hi": 666497,
+     "strand": "+",
+     "aa_len": 51
+    }
+   ],
+   "gene": "ERCC1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000178.1"
+  },
+  "FEN1": {
+   "protein": "FQDFVNNRIKTSSTHFYDPIKKCSLKTFSHNKSFVVKFSKDKTVSLAAERSIFGRLLALAKSNGQLSLENILSYSLSSIPWCFGLPDGGLVKTAKSKLLKEFIENXIYGPEKFHNPIKKCKQKRFKDTSKSFKIKHNSSTTNIEVNRNIIGSLLSFSLLHERQIDMAHALTYPLSPIPLSLATGDGKRRETSKSKLLSILFKQSEIVPSNAINEEATMQISKMSYVIDVMAQIRTMTKLPKTYEEFVWKFIKTLPKGYKRIDLVADTYRNISIKNMERNSRGNSSKVIISSPKSKLPSDFNRFLSNSENKTRLIEIITEVLNNNYSKVLQILGCSSVYISQDCRTHRLIQTGVDVIDELSSDQEEADTKVILHCYHSLNENGIDSVVLRSPSGDTDILILALGMLDPTRIFLDYGNGKARKGIWLSSIQTSPELKLALIGFHAYTGNEIXSSKKWKGKPACWKALSTNYKFIRAFGQLGTSWDLEIDSPLFSTLEEYTCCLYKMKKEKSVNAARFKLFESKYLSQRKIIDLSLLPPCQSVLYLHCKRANYVAKLWRLSLHSVVNPPPITDNGWQDDATPIWVDYQILQNVFEFFIFNXIXLKXXLLFDFFLTSISHLIFXHLXXXTIMFMTVYVIIISCLIGAALTFAKFSATDSVGPARTRPCFATLFTSTRNLLQYLWGRWWKKHPFDLERITGSRPAVTIRIRNERVVLKGXLDHRSNIXYPFTVLKECISRWRKLLRLCITIFARKEFQVSCFVNIHATLNAIXKTNKFFDDPKIFGVEVKALANSLECLPELLHLRDXPEGLNFPNTVESTRIIISSESVXGRHNFAVSFTXLTCKGLDVKCAKIFARTSFMYFEPKVNQLKVERINRYVTVHSLYDYFVRFESGFGVFATEENFSISFFLISSEVNFFITVNL",
+   "n_segments": 3,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 99,
+     "s_lo": 233216,
+     "s_hi": 233512,
+     "strand": "-",
+     "aa_len": 99
+    },
+    {
+     "qstart": 2,
+     "qend": 479,
+     "s_lo": 239835,
+     "s_hi": 241289,
+     "strand": "-",
+     "aa_len": 485
+    },
+    {
+     "qstart": 247,
+     "qend": 580,
+     "s_lo": 246115,
+     "s_hi": 247119,
+     "strand": "-",
+     "aa_len": 335
+    }
+   ],
+   "gene": "FEN1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000299.1"
+  },
+  "MLH1": {
+   "protein": "LVMSTPKILKLDEVVINRIAAGEVIQRPANAIKELIENSLDAKSSSIQVIVKSGGLKLLQIVDDGCGIRKEDMNIVCERFTTSKLSSFDDLKSISTYGFRGEALASISHVAHLVITTRTADSSCAYKAKYEDGKIVPFQPNTTAMPKPCAGNKGNRLVGTQITVEDLFYNVAVRRKALKNPNEEHLKIIDVVSKYAIHNPGVAFTLKKFGENIGDVRTQKHSSIVDNIKAIYGQTVARELLEVSHSEQKLGFAMNGYVSNANYSYFFKQKDNKYNHRLVESNALRKALDIVYVNYLPKDKRPFVYMSIEINPRNVDVNMHPTKHEVKFLHEDLIIEHIQRCVETKLLGANESRQYYTQMLLPKMVAAGIDVPISGKVFEYIYKVLKRASYARLVNLLMKLCFRDFSCKIMCLASSDVLSNQDSSRSDKKKVYAHEMVRTDSRERKLEAFFSPSKDSFTDETAIPQLQTVQPVESIPQTSTAQTTPFIEDTSKQRLVFLLCSKQPRFILCVIFLVSFESRQTHIAADKQRQKNVGVRKIKLTSVGNLRKIINDGEHLGLTNLLENHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVVNLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYRKIKLTSVGNLRKIINDGEHLGLTNLLENHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVVNLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYRKIKLTSVGNLRKIINDGEHLGLTNLLENHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVVNLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYYLCDGCSFRXIGILSKNVSKRLLKNAVTFMRSVQTLCLLVLTRTIRQLTNLGSIQLNTCYFQPSAQRYCRLRNFQRTAHFLKLLTFLICIKSSNVTSTDQSWKHTVEHVLFPAFRSTLLPPKKFSEDGTFLEVANLPDLYKVFERC",
+   "n_segments": 7,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 158,
+     "s_lo": 1076367,
+     "s_hi": 1076840,
+     "strand": "-",
+     "aa_len": 158
+    },
+    {
+     "qstart": 151,
+     "qend": 447,
+     "s_lo": 1075037,
+     "s_hi": 1076044,
+     "strand": "-",
+     "aa_len": 336
+    },
+    {
+     "qstart": 410,
+     "qend": 624,
+     "s_lo": 1072610,
+     "s_hi": 1073236,
+     "strand": "-",
+     "aa_len": 209
+    },
+    {
+     "qstart": 480,
+     "qend": 647,
+     "s_lo": 1072610,
+     "s_hi": 1073113,
+     "strand": "-",
+     "aa_len": 168
+    },
+    {
+     "qstart": 562,
+     "qend": 729,
+     "s_lo": 1072610,
+     "s_hi": 1073113,
+     "strand": "-",
+     "aa_len": 168
+    },
+    {
+     "qstart": 718,
+     "qend": 808,
+     "s_lo": 1072028,
+     "s_hi": 1072315,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 799,
+     "qend": 849,
+     "s_lo": 1072028,
+     "s_hi": 1072180,
+     "strand": "-",
+     "aa_len": 51
+    }
+   ],
+   "gene": "MLH1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000039.1"
+  },
+  "MSH2": {
+   "protein": "VKKNKKDLFFSFLPLRTILLFIMKMLCLLVFLKNFVDVLXRSLEKDYFTVHNEDALFARFLKKFCXCLIKELGKGGSSKVPSVALSRDLKLLKQGELLLIRQYRVEEMFLFSSKSNQWELAGKTGSSKVPSVALSRDLKLLKQGELLLIRQYRVEEMFLFSSKSNQWELAGKTGSSKVPSVALSRDLKLLKQGELLLIRQYRVEEMFLFSSKSNQWELAGKASPGNLQQFEDVIFTNTEMSVSAIVISIKLGVGADGQRVNKHYFIATFLIIHSPTMLNVRKSKIVNLXIVGAAFANTTTRQLQVCEYTDNDQFSNTEVASPGNLQQFEDVIFTNTEMSVSAIVISIKLGVGADGQRVNKHYFIATFLIIHSPTMLNVRKSKIVNLXIVGAAFANTTTRQLQVCEYTDNDQFSNTEVHLRKKKYNFYALLMQIGPKECLIRGQDLSAEGGKLKLVLERSRILITERKKGALLMQIGPKECLIRGQDLSAEGGKLKLVLERSRILITERKKGADYMSKDIAQDLNRLLKENLSGSSTLRELDLVHAMSCLSSVLKYLEVHTKNNNKSNKQYQPVPMQLXYSETNKTNXKVLLSDDSSFNQYTIHTLDLSQYMRLDAAAVRALNILPSAMDGLGELDLVHAMSCLSSVLKYLEVHTKNNNKSNKQYQPVPMQLXYSETNKTNXKVLLSDDSSFNQYTIHTLDLSQYMRLDAAAVRALNILPSAMDGLGELDLVHAMSCLSSVLKYLEVHTKNNNKSNKQYQPVPMQLXYSETNKTNXKVLLSDDSSFNQYTIHTLDLSQYMRLDAAAVRALNILPSAMDGVLLSDDSSFNQYTIHTLDLSQYMRLDAAAVRALNILPSAMDCLSGGNKTMCLSGLLNVCKTSQGQRLLGQWVKQPQXLFFSYRMNDAVDERLGMVDVFYNNIDIRQSIQVXHTVVFFHFTYNFSPXFKLCFELLXDGPLRKIPDFSRLSKKFYQLKATLQVDERLGMVDVFYNNIDIRQSIQVXHTVVFFHFTYNFSPXFKLCFELLXDGPLRKIPDFSRLSKKFYQLKATLQDCVRVYQSVKQIPQLLSVLQKYEGESRASINDVFIKPFQDCVRVYQSVKQIPQLLSVLQKYEGESRASINDVFIKPFQDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTLKDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTLKFLRMIFQDEKALRNNKRYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAFLRMIFQDEKALRNNKRYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAGYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAGIXHCHNKTVIGAASIMFLRMIPSKRMFPFSGSGKIVLKGSRHPCLEAQDDVAFISNDINLVKGTSIANKVVFTYGVXSRHCFNLLIRHYMGWFKLCISLXVGLITLMAQIGSFVPCEFAEISIIDSILARVGAGDSQLKGVSTFMSEMLETASILRVSTVGLITLMAQIGSFVPCEFAEISIIDSILARVGAGDSQLKGVSTFMSEMLETASILRVSTLGLXLTNQIIVVEDSATKDSLVIIDELGRGTSTYDGFGLAWAISESATKDSLVIIDELGRGTSTYDGFGLAWAISESATKDSLVIIDELGRGTSTYDGFGLAWAISEMFANELKAFCLFATHFHELTSLSDEIGTVRNYHVTALTAVDQLTLLYRVKPGVCDQSFGIHVAEIAHFPKHVIEFAREKARELEDFQAGQSDTSDMFANELKAFCLFATHFHELTSLSDEIGTVRNYHVTALTAVDQLTLLYRVKPGVCDQSFGIHVAEIAHFPKHVIEFAREKARELEDFQAGQSDTSDMFANELKAFCLFATHFHELTSLSDEIGTVRNYHVTALTAVDQLTLLYRVKPGVCDQSFGIHVAEIAHFPKHVIEFAREKARELEDFQAGQSDTSDETSTNESASKRRRMDKQVRSNSLXIENFYIXYIFQLEVLQNKILRDEIISNLLQKLRSIPYKERTDEQLYDDVSKIRQEALACGNQYVIDLL",
+   "n_segments": 35,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 19,
+     "qend": 68,
+     "s_lo": 397753,
+     "s_hi": 397890,
+     "strand": "-",
+     "aa_len": 45
+    },
+    {
+     "qstart": 42,
+     "qend": 71,
+     "s_lo": 397753,
+     "s_hi": 397842,
+     "strand": "-",
+     "aa_len": 30
+    },
+    {
+     "qstart": 68,
+     "qend": 114,
+     "s_lo": 395650,
+     "s_hi": 395793,
+     "strand": "-",
+     "aa_len": 48
+    },
+    {
+     "qstart": 69,
+     "qend": 118,
+     "s_lo": 395650,
+     "s_hi": 395796,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 70,
+     "qend": 122,
+     "s_lo": 395650,
+     "s_hi": 395796,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 115,
+     "qend": 182,
+     "s_lo": 395262,
+     "s_hi": 395555,
+     "strand": "-",
+     "aa_len": 98
+    },
+    {
+     "qstart": 119,
+     "qend": 190,
+     "s_lo": 395232,
+     "s_hi": 395555,
+     "strand": "-",
+     "aa_len": 108
+    },
+    {
+     "qstart": 185,
+     "qend": 226,
+     "s_lo": 392195,
+     "s_hi": 392320,
+     "strand": "-",
+     "aa_len": 42
+    },
+    {
+     "qstart": 189,
+     "qend": 230,
+     "s_lo": 392195,
+     "s_hi": 392320,
+     "strand": "-",
+     "aa_len": 42
+    },
+    {
+     "qstart": 226,
+     "qend": 252,
+     "s_lo": 392046,
+     "s_hi": 392126,
+     "strand": "-",
+     "aa_len": 27
+    },
+    {
+     "qstart": 250,
+     "qend": 309,
+     "s_lo": 391513,
+     "s_hi": 391788,
+     "strand": "-",
+     "aa_len": 92
+    },
+    {
+     "qstart": 251,
+     "qend": 312,
+     "s_lo": 391513,
+     "s_hi": 391794,
+     "strand": "-",
+     "aa_len": 94
+    },
+    {
+     "qstart": 252,
+     "qend": 313,
+     "s_lo": 391513,
+     "s_hi": 391794,
+     "strand": "-",
+     "aa_len": 94
+    },
+    {
+     "qstart": 278,
+     "qend": 318,
+     "s_lo": 391516,
+     "s_hi": 391638,
+     "strand": "-",
+     "aa_len": 41
+    },
+    {
+     "qstart": 306,
+     "qend": 355,
+     "s_lo": 391266,
+     "s_hi": 391403,
+     "strand": "-",
+     "aa_len": 46
+    },
+    {
+     "qstart": 346,
+     "qend": 392,
+     "s_lo": 388964,
+     "s_hi": 389182,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 349,
+     "qend": 395,
+     "s_lo": 388964,
+     "s_hi": 389182,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 393,
+     "qend": 431,
+     "s_lo": 388744,
+     "s_hi": 388860,
+     "strand": "-",
+     "aa_len": 39
+    },
+    {
+     "qstart": 396,
+     "qend": 434,
+     "s_lo": 388744,
+     "s_hi": 388860,
+     "strand": "-",
+     "aa_len": 39
+    },
+    {
+     "qstart": 432,
+     "qend": 516,
+     "s_lo": 387912,
+     "s_hi": 388166,
+     "strand": "-",
+     "aa_len": 85
+    },
+    {
+     "qstart": 435,
+     "qend": 521,
+     "s_lo": 387906,
+     "s_hi": 388166,
+     "strand": "-",
+     "aa_len": 87
+    },
+    {
+     "qstart": 442,
+     "qend": 528,
+     "s_lo": 387906,
+     "s_hi": 388166,
+     "strand": "-",
+     "aa_len": 87
+    },
+    {
+     "qstart": 515,
+     "qend": 578,
+     "s_lo": 387218,
+     "s_hi": 387409,
+     "strand": "-",
+     "aa_len": 64
+    },
+    {
+     "qstart": 515,
+     "qend": 579,
+     "s_lo": 387215,
+     "s_hi": 387409,
+     "strand": "-",
+     "aa_len": 65
+    },
+    {
+     "qstart": 529,
+     "qend": 600,
+     "s_lo": 387137,
+     "s_hi": 387358,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 617,
+     "qend": 655,
+     "s_lo": 385968,
+     "s_hi": 386087,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 651,
+     "qend": 740,
+     "s_lo": 376803,
+     "s_hi": 377084,
+     "strand": "-",
+     "aa_len": 94
+    },
+    {
+     "qstart": 675,
+     "qend": 742,
+     "s_lo": 376761,
+     "s_hi": 376979,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 728,
+     "qend": 758,
+     "s_lo": 376373,
+     "s_hi": 376465,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 731,
+     "qend": 761,
+     "s_lo": 376373,
+     "s_hi": 376465,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 738,
+     "qend": 768,
+     "s_lo": 376373,
+     "s_hi": 376465,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 759,
+     "qend": 853,
+     "s_lo": 375782,
+     "s_hi": 376066,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 762,
+     "qend": 856,
+     "s_lo": 375782,
+     "s_hi": 376066,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 769,
+     "qend": 864,
+     "s_lo": 375782,
+     "s_hi": 376066,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 860,
+     "qend": 925,
+     "s_lo": 375027,
+     "s_hi": 375302,
+     "strand": "-",
+     "aa_len": 92
+    }
+   ],
+   "gene": "MSH2",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000032.1"
+  },
+  "POLD2": {
+   "protein": "EGIDRKLCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQELCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQEIDRKLCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQEEGVLPIPPSKKYISEDDILILEEQQQRINLTGNIDLPTAVTGSTIRYVVFLSGLGIGSKKDNTFRLQLLLDMLTGRLGKICRVVIAGNSLSNDTQDKESEKIAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRQAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRYQAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFPSSPIFVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRQIKLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFSVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRQIKGPSSPIFVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRQIKGAYYSHRKCFLGLSGQLYQPLFI",
+   "n_segments": 17,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 4,
+     "qend": 96,
+     "s_lo": 29318,
+     "s_hi": 29596,
+     "strand": "+",
+     "aa_len": 93
+    },
+    {
+     "qstart": 29,
+     "qend": 114,
+     "s_lo": 29336,
+     "s_hi": 29596,
+     "strand": "+",
+     "aa_len": 87
+    },
+    {
+     "qstart": 36,
+     "qend": 125,
+     "s_lo": 29324,
+     "s_hi": 29596,
+     "strand": "+",
+     "aa_len": 91
+    },
+    {
+     "qstart": 97,
+     "qend": 141,
+     "s_lo": 29952,
+     "s_hi": 30086,
+     "strand": "+",
+     "aa_len": 45
+    },
+    {
+     "qstart": 175,
+     "qend": 207,
+     "s_lo": 30666,
+     "s_hi": 30764,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 215,
+     "qend": 238,
+     "s_lo": 30880,
+     "s_hi": 30951,
+     "strand": "+",
+     "aa_len": 24
+    },
+    {
+     "qstart": 239,
+     "qend": 318,
+     "s_lo": 31223,
+     "s_hi": 31462,
+     "strand": "+",
+     "aa_len": 80
+    },
+    {
+     "qstart": 246,
+     "qend": 325,
+     "s_lo": 31223,
+     "s_hi": 31462,
+     "strand": "+",
+     "aa_len": 80
+    },
+    {
+     "qstart": 260,
+     "qend": 341,
+     "s_lo": 31220,
+     "s_hi": 31465,
+     "strand": "+",
+     "aa_len": 82
+    },
+    {
+     "qstart": 275,
+     "qend": 355,
+     "s_lo": 31220,
+     "s_hi": 31462,
+     "strand": "+",
+     "aa_len": 81
+    },
+    {
+     "qstart": 318,
+     "qend": 365,
+     "s_lo": 32140,
+     "s_hi": 32283,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 324,
+     "qend": 372,
+     "s_lo": 32137,
+     "s_hi": 32283,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 339,
+     "qend": 387,
+     "s_lo": 32137,
+     "s_hi": 32283,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 354,
+     "qend": 394,
+     "s_lo": 32986,
+     "s_hi": 33111,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 354,
+     "qend": 403,
+     "s_lo": 32137,
+     "s_hi": 32286,
+     "strand": "+",
+     "aa_len": 50
+    },
+    {
+     "qstart": 381,
+     "qend": 417,
+     "s_lo": 33004,
+     "s_hi": 33114,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 391,
+     "qend": 467,
+     "s_lo": 32986,
+     "s_hi": 33180,
+     "strand": "+",
+     "aa_len": 65
+    }
+   ],
+   "gene": "POLD2",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000030.1"
+  },
+  "POLE": {
+   "protein": "RPRNQHEVKIGSANVVDVNLAMREITVRQEMNYMDKGNNKTFSFDKVFGPNSKQIDVYKSMVCPAIDEVLQGYNCTIFARPRNQHEVKIGSANVVDVNLAMREITVRQEMNYMDKGNNKTFSFDKVFGPNSKQIDVYKSMVCPAIDEVLQGYNCTIFASYGQTGTGKTFTMEGDRTSDGDFSWQDDPLAGIIPRAMHQLFEQLNTMEDCAEYSVRVSFLEIYNEELFDLLGNSLDTQKLRLFEDTAKKSYGQTGTGKTFTMEGDRTSDGDFSWQDDPLAGIIPRAMHQLFEQLNTMEDCAEYSVRVSFLEIYNEELFDLLGNSLDTQKLRLFEDTAKKVFFSCHIKGSVVIQGLEEVIVHSRNEVYQILEKGAARRQTAATLLNAQSRSVXVLLNNSWQHNLYYVIVRIAXRFENFNLSEFSRSHSLFLVTIHMKENNINGEEFLKTGKLNLVSRSHSLFLVTIHMKENNINGEEFLKTGKLNLVVDLAGSENIGRSGAVEKRAREAGVDLAGSENIGRSGAVEKRAREAGGTINQSLLTLGRVITALVENAPHVPYRESKLTRLLKDSLGGRTKTSIIATISPAACNLEVLLTKNSLCLVFFSFDDVFLVWFXETLSTLDYAHRAKNIMNKPEVNQKLTKKALIKVRSSYRLTNNLLKKMCIMFFWFYFKEYTEQIEKLKKDLLAAREKNGIYIAEENYMGTINQSLLTLGRVITALVENAPHVPYRESKLTRLLKDSLGGRTKTSIIATISPAACNLEVLLTKNSLCLVFFSFDDVFLVWFXETLSTLDYAHRAKNIMNKPEVNQKLTKKALIKVRSSYRLTNNLLKKMCIMFFWFYFKEYTEQIEKLKKDLLAAREKNGIYIAEENYFRDMQNQISSQKSNLREYIDKIQSLQEEMKKVEQLFTETQDQLEKTKQHLSWTQQERDETKELVSQHLQTEEELYKQANDLLGTIEETVEDTTHLHSSLNRKKEIQATNLESSKKFKNEAQQRIGATPNQKNYRFPRVFRRTEDHAKIIEDYRKRHGIPPIPILSDIE",
+   "n_segments": 13,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 16,
+     "qend": 94,
+     "s_lo": 1120022,
+     "s_hi": 1120258,
+     "strand": "+",
+     "aa_len": 79
+    },
+    {
+     "qstart": 23,
+     "qend": 100,
+     "s_lo": 1120022,
+     "s_hi": 1120258,
+     "strand": "+",
+     "aa_len": 79
+    },
+    {
+     "qstart": 94,
+     "qend": 183,
+     "s_lo": 1120330,
+     "s_hi": 1120599,
+     "strand": "+",
+     "aa_len": 90
+    },
+    {
+     "qstart": 100,
+     "qend": 187,
+     "s_lo": 1120330,
+     "s_hi": 1120599,
+     "strand": "+",
+     "aa_len": 90
+    },
+    {
+     "qstart": 176,
+     "qend": 247,
+     "s_lo": 1120724,
+     "s_hi": 1120972,
+     "strand": "+",
+     "aa_len": 83
+    },
+    {
+     "qstart": 225,
+     "qend": 256,
+     "s_lo": 1121778,
+     "s_hi": 1121873,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 229,
+     "qend": 260,
+     "s_lo": 1121778,
+     "s_hi": 1121873,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 256,
+     "qend": 278,
+     "s_lo": 1122008,
+     "s_hi": 1122076,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 260,
+     "qend": 282,
+     "s_lo": 1122008,
+     "s_hi": 1122076,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 278,
+     "qend": 398,
+     "s_lo": 1122154,
+     "s_hi": 1122663,
+     "strand": "+",
+     "aa_len": 170
+    },
+    {
+     "qstart": 282,
+     "qend": 401,
+     "s_lo": 1122154,
+     "s_hi": 1122660,
+     "strand": "+",
+     "aa_len": 169
+    },
+    {
+     "qstart": 397,
+     "qend": 520,
+     "s_lo": 1122732,
+     "s_hi": 1123103,
+     "strand": "+",
+     "aa_len": 124
+    },
+    {
+     "qstart": 929,
+     "qend": 972,
+     "s_lo": 1126131,
+     "s_hi": 1126262,
+     "strand": "+",
+     "aa_len": 44
+    }
+   ],
+   "gene": "POLE",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000022.1"
+  },
+  "RAD51": {
+   "protein": "GISSGDIKKLSDAGFYTVESLAYTPKKTLLGIKGISEAKALFXNLLQIKLVPMGFTTATEFHQKRSEIIQVTTGSKELDKLLQGGIETGSITEIFGEFRTGKTQLCHQLCVTCQLPVDCGGAEGKAMYIDTEGTFRPERLLAVAERYGLNGQEVLDNVAYARAYNSDHQTQLLIHASAMMSESRYALLIVDSATALYRTDYSGRGELSARQMHMARFLRTLLRLADEFGVAVVITNQVVAQVDGASMFQMDPKKPIGGNIMAHASTTRLYLRKGRGETRICKIYDSPCLPESEAMFAINPDGI",
+   "n_segments": 1,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 11,
+     "qend": 341,
+     "s_lo": 783237,
+     "s_hi": 784145,
+     "strand": "-",
+     "aa_len": 303
+    }
+   ],
+   "gene": "RAD51",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000062.1"
+  },
+  "TERF1": {
+   "protein": "TDKSKFGYQMLTKMGWSEGKGLGQNETGRTSHVDKSKFGYQMLTKMGWSEGKGLGQNETGRTSHVKIRKKKSNAGIYKRFVKSKDLANASSHDLACIFGTRSKSAPATPQYKRFVKSKDLANASSHDLACIFGTRSKSAPATPQLSDTASCPVNQVGNDHGFTTVNTGVSVADYFAQKMAALKR",
+   "n_segments": 5,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 24,
+     "qend": 56,
+     "s_lo": 267801,
+     "s_hi": 267899,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 25,
+     "qend": 67,
+     "s_lo": 267804,
+     "s_hi": 267932,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 118,
+     "qend": 151,
+     "s_lo": 270538,
+     "s_hi": 270639,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 119,
+     "qend": 155,
+     "s_lo": 270538,
+     "s_hi": 270648,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 165,
+     "qend": 210,
+     "s_lo": 271510,
+     "s_hi": 271620,
+     "strand": "+",
+     "aa_len": 37
+    }
+   ],
+   "gene": "TERF1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000328.1"
+  },
+  "TERT": {
+   "protein": "GRSSRAMVTAVPTRRSSVASTLMEGNTIDHDSAGRELFEACRTGDVSRVRNLMQTGWDVNMRDTAGRKSTPLHFAAGVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTEFYLIAGYNHVEVAEFLLENGADVNAQDKGGLIPLHNASSYGGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTCSLCFFSFCKMFVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEPLAKLVLTGKKLSTLYFVIQHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKATSVLCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTECFTSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTCSLCFFSFCKMFVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEPLAKLVLTGKKLYSFAFLFYRQTTHSVEVCTFLLSHGADPTIVNCHSKNAMDAAATPELKSKLLCMLLXCYFIVYGGFAVKLFKLKLKDVVFXEVQNMSYYEVLLFCCLTLHAFSDEYRGYTYLEAVRLCDFGKLKRIIAPDLINFLHPLTQNSALHICAASNSSKSERVADFLIKKGCNLNLCNKEILNFFSQHGANVNAADYWKFTPLHEAAAKGKFEICKLLLKRKMTAMHVCCHSGNIEILELLIKAGAENSLDEILHTPLHHAAQSGHMQICHLLLVNGADASIRSAGGCTAAQVGTENVQRVFQGTTLVSVDVKYTWYVLLCFTNHIXNVSASQEATMKDIDVKLLEASKTGDFPLIRVIYFVIQHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKFXFFQELCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGSTPLHLAAGYNRTRIVEILLKHGADVHAKDKGXINLLFSFNRLEAPQILPHHPGXNYQTXMILNFFSQHGANVNAADYWKFTPLHEAAAKGKFEICKLLLKSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTCSLCFFSFCKMFVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEKLSTLYFVIQHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKATSVIXNHFVIPSRSLHFELCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTECFTSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTCSLCFFSFCKMFVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAFVIQHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRAEDVKVLLQDSMVSKSQVMQIPANTSAASLSSKDSITSAASVASSTPSKSSLASLSTPTNSTASTVSNIPPSQNTHNELPPQEVRQQQQGMTIPSTANQSLLQSEPCSTDGLPTKRLKDQAEGKFLTISVVGTNPLDIDMGTFLAGLQLDGLQEIFDSEQVITMDVLIEMGPDQLKEIGIKAYGHRHKLLKGVKERLAGAGCTIGGDFLMVGEPFQSTIPSAGPNTILQELSPSDKDYQSVAEEMQSTIVEHKDGGVAGGVFSRYVLLYQVAVNQLISLSDFFAVLMAFIRTRMNLXFPSFFRYCELKIERVINKKLWDRYAYQRKQVADSNHNHPNERMLFHGSPFVNAIVQKGFDERHAYIGENNVSXCLTNICAMXKFDANRLGGMFGAGIYFAEHSSKSNQYVYGIGGGSGCPVHKDRSCYECKRFTCRQIVLCRVTLGKPFFQFTAMKMAHAPPGHHSVIGRPNSGGLCYPEYVVYRGEQVQAYPEYLITYKIARPDLYAA",
+   "n_segments": 27,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 4,
+     "qend": 75,
+     "s_lo": 94208,
+     "s_hi": 94438,
+     "strand": "+",
+     "aa_len": 77
+    },
+    {
+     "qstart": 57,
+     "qend": 98,
+     "s_lo": 105588,
+     "s_hi": 105713,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 68,
+     "qend": 110,
+     "s_lo": 106914,
+     "s_hi": 107042,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 75,
+     "qend": 183,
+     "s_lo": 100818,
+     "s_hi": 101234,
+     "strand": "+",
+     "aa_len": 139
+    },
+    {
+     "qstart": 144,
+     "qend": 235,
+     "s_lo": 106556,
+     "s_hi": 106831,
+     "strand": "+",
+     "aa_len": 92
+    },
+    {
+     "qstart": 204,
+     "qend": 251,
+     "s_lo": 105570,
+     "s_hi": 105713,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 221,
+     "qend": 349,
+     "s_lo": 100797,
+     "s_hi": 101282,
+     "strand": "+",
+     "aa_len": 162
+    },
+    {
+     "qstart": 298,
+     "qend": 376,
+     "s_lo": 104216,
+     "s_hi": 104605,
+     "strand": "+",
+     "aa_len": 130
+    },
+    {
+     "qstart": 377,
+     "qend": 407,
+     "s_lo": 104686,
+     "s_hi": 104778,
+     "strand": "+",
+     "aa_len": 31
+    },
+    {
+     "qstart": 390,
+     "qend": 429,
+     "s_lo": 106381,
+     "s_hi": 106500,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 407,
+     "qend": 433,
+     "s_lo": 104976,
+     "s_hi": 105056,
+     "strand": "+",
+     "aa_len": 27
+    },
+    {
+     "qstart": 435,
+     "qend": 519,
+     "s_lo": 105157,
+     "s_hi": 105492,
+     "strand": "+",
+     "aa_len": 112
+    },
+    {
+     "qstart": 458,
+     "qend": 546,
+     "s_lo": 106571,
+     "s_hi": 106819,
+     "strand": "+",
+     "aa_len": 83
+    },
+    {
+     "qstart": 513,
+     "qend": 566,
+     "s_lo": 105552,
+     "s_hi": 105713,
+     "strand": "+",
+     "aa_len": 54
+    },
+    {
+     "qstart": 535,
+     "qend": 586,
+     "s_lo": 102990,
+     "s_hi": 103136,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 537,
+     "qend": 588,
+     "s_lo": 106345,
+     "s_hi": 106500,
+     "strand": "+",
+     "aa_len": 52
+    },
+    {
+     "qstart": 541,
+     "qend": 641,
+     "s_lo": 100812,
+     "s_hi": 101204,
+     "strand": "+",
+     "aa_len": 131
+    },
+    {
+     "qstart": 612,
+     "qend": 709,
+     "s_lo": 106556,
+     "s_hi": 106873,
+     "strand": "+",
+     "aa_len": 106
+    },
+    {
+     "qstart": 671,
+     "qend": 719,
+     "s_lo": 105567,
+     "s_hi": 105713,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 689,
+     "qend": 793,
+     "s_lo": 100797,
+     "s_hi": 101201,
+     "strand": "+",
+     "aa_len": 135
+    },
+    {
+     "qstart": 771,
+     "qend": 803,
+     "s_lo": 106574,
+     "s_hi": 106678,
+     "strand": "+",
+     "aa_len": 35
+    },
+    {
+     "qstart": 795,
+     "qend": 879,
+     "s_lo": 107561,
+     "s_hi": 107929,
+     "strand": "+",
+     "aa_len": 123
+    },
+    {
+     "qstart": 871,
+     "qend": 908,
+     "s_lo": 107980,
+     "s_hi": 108093,
+     "strand": "+",
+     "aa_len": 38
+    },
+    {
+     "qstart": 908,
+     "qend": 956,
+     "s_lo": 108171,
+     "s_hi": 108317,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 951,
+     "qend": 1107,
+     "s_lo": 108648,
+     "s_hi": 109304,
+     "strand": "+",
+     "aa_len": 219
+    },
+    {
+     "qstart": 1103,
+     "qend": 1160,
+     "s_lo": 109364,
+     "s_hi": 109534,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 1159,
+     "qend": 1178,
+     "s_lo": 109603,
+     "s_hi": 109662,
+     "strand": "+",
+     "aa_len": 20
+    }
+   ],
+   "gene": "TERT",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000301.1"
+  },
+  "XRCC1": {
+   "protein": "VINIKHLVSFSSEDPRLLXNFGETYYKWRCSTGGERQASVLLQVCEIVLVKTCYPFFAVLIXSCIFLXFEKASQIYGVDIGKHGCIVSVXISSLVXTIEIKRRMNVVSPFILFSGNNGSAFVEVLVGRSSWSQSEEFKVSTRNFKINSKNILLKFGENIETCLEEVWVXXYKAKVXKVFXQKLFLIIFLQVLLVASCFMSPAESKANKELTRVRMFGTNGQFHEICCGRKVGSSKSSLHTTLQSGVVKERVSXLPFLCLIYLILVKYLKIKFQRTLWVIIYQISFSTIFSFYIKNKTHVTRIQKEVKYVTRVYLWGRNMKLTGIRAARIWCEWLYKRYKKKKEGNYSKQKQKQKCQVLLQTLLNTTKNFHGKGKIVTKAWFKECLRMKRIVNTKRYFIISELALKKFLFSFFIYGDFNVKDRRLLKRYITAYCGTLEDYMCEKIHYVISNDDWDKNFDQVQALQDNVALVFVRPTWIFKCHEKQELIPTDDYEIKPL",
+   "n_segments": 8,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 2,
+     "qend": 15,
+     "s_lo": 407994,
+     "s_hi": 408035,
+     "strand": "-",
+     "aa_len": 14
+    },
+    {
+     "qstart": 19,
+     "qend": 111,
+     "s_lo": 407296,
+     "s_hi": 407907,
+     "strand": "-",
+     "aa_len": 204
+    },
+    {
+     "qstart": 110,
+     "qend": 151,
+     "s_lo": 407012,
+     "s_hi": 407221,
+     "strand": "-",
+     "aa_len": 69
+    },
+    {
+     "qstart": 326,
+     "qend": 384,
+     "s_lo": 404336,
+     "s_hi": 404587,
+     "strand": "-",
+     "aa_len": 83
+    },
+    {
+     "qstart": 383,
+     "qend": 410,
+     "s_lo": 404187,
+     "s_hi": 404270,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 506,
+     "qend": 541,
+     "s_lo": 402715,
+     "s_hi": 402822,
+     "strand": "-",
+     "aa_len": 36
+    },
+    {
+     "qstart": 542,
+     "qend": 567,
+     "s_lo": 402555,
+     "s_hi": 402632,
+     "strand": "-",
+     "aa_len": 26
+    },
+    {
+     "qstart": 566,
+     "qend": 602,
+     "s_lo": 402365,
+     "s_hi": 402475,
+     "strand": "-",
+     "aa_len": 37
+    }
+   ],
+   "gene": "XRCC1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000381.1"
+  },
+  "LIG4": {
+   "protein": "RSISSLLPFHDFACLCEKISRTQGKDKKKEVLKKFVSQWREAYQKMHGSKKTVSFPCELALGDYSCFIVLLCYCGYFSLFVXKDSFFPVLRFLLPHLDKDRLSYGMKEVAGDFASVAYVVLKNRCPEKGQXVDYYFIVKNFSLXLFDNVLRVFLILLCSLTIDDINRSLDGIADANTDKKRTEVKKELQKLIRNTSALEQKWLIRIIIKGDFASVAYVVLKNRCPEKGQXVDYYFIVKNFSLXLFDNVLRVFLILLCSLTIDDINRSLDGIADANTDKKRTEVKKELQKLIRNTSALEQKWLIRIIIKDAGDFASVAYVVLKNRCPEKGQXVDYYFIVKNFSLXLFDNVLRVFLILLCSLTIDDINRSLDGIADANTDKKRTEVKKELQKLIRNTSALEQKWLIRIIIKQVCVDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASAFKQNVNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFEMGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKIGRDKQVCVDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASAFKQNVNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFEMGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKKQVCVDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASAFKQNVNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFEMGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKIGRDKFLSYPTLVFYAFRTNVVDALNKAIDMREEGIVIKNPLSFYKPSKRKGARTNVVDALNKAIDMREEGIVIKNPLSFYKPSKRSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSSVKDRGIFSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSVGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIQFSNGFKVGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIQFSNGFKVGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRKVCKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRQMSKLLEGKQFCVINGSSEISKQDFEKKIVQVFHFFQMSKLLEGKQFCVINGSSEISKQDFEKKIVQVFHFFTGTFVQNPTKQTLCVIADKANVRVKSIMYGGTFVQNPTKQTLCVIADKANVRVKSIMRTFLFQEKQVIIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRRIIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRRCRIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRR",
+   "n_segments": 25,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 4,
+     "qend": 81,
+     "s_lo": 160584,
+     "s_hi": 160910,
+     "strand": "+",
+     "aa_len": 109
+    },
+    {
+     "qstart": 116,
+     "qend": 186,
+     "s_lo": 162817,
+     "s_hi": 163116,
+     "strand": "+",
+     "aa_len": 100
+    },
+    {
+     "qstart": 123,
+     "qend": 192,
+     "s_lo": 162820,
+     "s_hi": 163116,
+     "strand": "+",
+     "aa_len": 99
+    },
+    {
+     "qstart": 133,
+     "qend": 204,
+     "s_lo": 162814,
+     "s_hi": 163116,
+     "strand": "+",
+     "aa_len": 101
+    },
+    {
+     "qstart": 217,
+     "qend": 404,
+     "s_lo": 163862,
+     "s_hi": 164428,
+     "strand": "+",
+     "aa_len": 189
+    },
+    {
+     "qstart": 223,
+     "qend": 407,
+     "s_lo": 163862,
+     "s_hi": 164413,
+     "strand": "+",
+     "aa_len": 184
+    },
+    {
+     "qstart": 234,
+     "qend": 423,
+     "s_lo": 163859,
+     "s_hi": 164428,
+     "strand": "+",
+     "aa_len": 190
+    },
+    {
+     "qstart": 400,
+     "qend": 447,
+     "s_lo": 164673,
+     "s_hi": 164816,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 423,
+     "qend": 455,
+     "s_lo": 164709,
+     "s_hi": 164807,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 437,
+     "qend": 509,
+     "s_lo": 164881,
+     "s_hi": 165099,
+     "strand": "+",
+     "aa_len": 73
+    },
+    {
+     "qstart": 442,
+     "qend": 511,
+     "s_lo": 164872,
+     "s_hi": 165084,
+     "strand": "+",
+     "aa_len": 71
+    },
+    {
+     "qstart": 456,
+     "qend": 520,
+     "s_lo": 164884,
+     "s_hi": 165084,
+     "strand": "+",
+     "aa_len": 67
+    },
+    {
+     "qstart": 502,
+     "qend": 541,
+     "s_lo": 165403,
+     "s_hi": 165522,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 509,
+     "qend": 548,
+     "s_lo": 165403,
+     "s_hi": 165522,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 518,
+     "qend": 550,
+     "s_lo": 165403,
+     "s_hi": 165501,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 541,
+     "qend": 605,
+     "s_lo": 165615,
+     "s_hi": 165809,
+     "strand": "+",
+     "aa_len": 65
+    },
+    {
+     "qstart": 548,
+     "qend": 610,
+     "s_lo": 165615,
+     "s_hi": 165803,
+     "strand": "+",
+     "aa_len": 63
+    },
+    {
+     "qstart": 555,
+     "qend": 615,
+     "s_lo": 165618,
+     "s_hi": 165800,
+     "strand": "+",
+     "aa_len": 61
+    },
+    {
+     "qstart": 653,
+     "qend": 688,
+     "s_lo": 166165,
+     "s_hi": 166272,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 662,
+     "qend": 698,
+     "s_lo": 166165,
+     "s_hi": 166275,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 686,
+     "qend": 712,
+     "s_lo": 166338,
+     "s_hi": 166418,
+     "strand": "+",
+     "aa_len": 27
+    },
+    {
+     "qstart": 693,
+     "qend": 722,
+     "s_lo": 166332,
+     "s_hi": 166421,
+     "strand": "+",
+     "aa_len": 30
+    },
+    {
+     "qstart": 723,
+     "qend": 807,
+     "s_lo": 167301,
+     "s_hi": 167564,
+     "strand": "+",
+     "aa_len": 88
+    },
+    {
+     "qstart": 743,
+     "qend": 822,
+     "s_lo": 167328,
+     "s_hi": 167570,
+     "strand": "+",
+     "aa_len": 81
+    },
+    {
+     "qstart": 748,
+     "qend": 827,
+     "s_lo": 167331,
+     "s_hi": 167564,
+     "strand": "+",
+     "aa_len": 78
+    }
+   ],
+   "gene": "LIG4",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000108.1"
+  },
+  "POT1": {
+   "protein": "YTYTNIADLAESDKRLNVYGLVKYFRPPTSTKTGQYNAFYTLIDPSVENDIESGVRCNFFSHTKDQLPQVERVGDIVRLHRVIVTHFNGRLQIKGNKGYSWSQIVDEVQPKSSHPNPTLTDEDKDRVHELREFYLRVENRLTDKLRVDTITKLYDVHPETFFNCKVQVLAVNTFDEKKHCVLTVSDGSQVYYSSFRQQGEIPAKNNMLLKATVDHSFEISVFDDHVVNAQNLQPGDFIEIVNVHAKIVVPHAAELLKGPLKLYEVRYLQVSNSRGWLELIVHTGTKYNRGIRQIPGTDDCIESIKTEISKLTAKYLKTLTTCEMPSVQCQPSPHSSYTSIDFPLTPVTQIKCIYGAKVPNKYRVKVQVIAISPLALRSAVIAACPTCKNITEVDVIASGNFSSMQCLNCKDDILKVMYRFRLLLMDETGLIEVCAHGDEADVKNLFWKPWLLLTDNNIFINYEEKLQKIVGNKQVSTIDSIIQADLPKVDICLYSYTSPIGVKFNLFGTSLIYTNIADLAESDKRLNVYGLVKYFRPPTSTKTGQYNAFYTLIDPSVENDIESGVRCNFFSHTKDQLPQVERVGDIVRLHRVIVTHFNGRLQIKGNKGYSWSQ",
+   "n_segments": 4,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 6,
+     "qend": 109,
+     "s_lo": 41754,
+     "s_hi": 42068,
+     "strand": "-",
+     "aa_len": 105
+    },
+    {
+     "qstart": 109,
+     "qend": 265,
+     "s_lo": 40224,
+     "s_hi": 40703,
+     "strand": "-",
+     "aa_len": 160
+    },
+    {
+     "qstart": 261,
+     "qend": 506,
+     "s_lo": 34853,
+     "s_hi": 35593,
+     "strand": "-",
+     "aa_len": 247
+    },
+    {
+     "qstart": 768,
+     "qend": 863,
+     "s_lo": 41760,
+     "s_hi": 42062,
+     "strand": "-",
+     "aa_len": 101
+    }
+   ],
+   "gene": "POT1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000611.1"
+  },
+  "OGG1": {
+   "protein": "IPDSKMLSKIKDLSNVAIPTCDVEVSVSFPPWPNFLSVFSVFNKVLFXFKVDPSCEYKNVPYIIQFESTFSHAGGVNLPKILKCLGSDGQHRRQLVKFLKGRDDLRQDAVMQQVFGLVNKLLMKDGETRKRNLKMRTYKVCSYCDLDMGGGILIWTEVHRVXFLGEGCXNFLRLFYQVVPLSKKSGLMEWCDGTIPLGNYLIGGRDGSLGAHQRYYPKDWTPKQCRARLLVGYVVGLGDRHCQNILIDCDTADVIHIDLGMLGVAFEQGKYLPTPETVPFRLTRDVVDGMGSLGVEGVYRRCGEKTMSVLRTSQDSILTVVEVVVIVIQVLLYDPLSAWTLSSEKMSRLQNRKPISSTSSDFDTTKSTEADGNGNKMAERVLLRLKQKLCGSEGGTFLGINGQVNFLIQQARNTENLCLLFPGWQPWM",
+   "n_segments": 5,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 2647,
+     "qend": 2717,
+     "s_lo": 676426,
+     "s_hi": 676716,
+     "strand": "+",
+     "aa_len": 97
+    },
+    {
+     "qstart": 2715,
+     "qend": 2805,
+     "s_lo": 676925,
+     "s_hi": 677320,
+     "strand": "+",
+     "aa_len": 132
+    },
+    {
+     "qstart": 2861,
+     "qend": 2892,
+     "s_lo": 677824,
+     "s_hi": 677919,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 2890,
+     "qend": 2951,
+     "s_lo": 678011,
+     "s_hi": 678196,
+     "strand": "+",
+     "aa_len": 62
+    },
+    {
+     "qstart": 2945,
+     "qend": 3056,
+     "s_lo": 678609,
+     "s_hi": 678923,
+     "strand": "+",
+     "aa_len": 105
+    }
+   ],
+   "gene": "OGG1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000058.1"
+  },
+  "PARP1": {
+   "protein": "MMFXILQGLDRKQNCLLESPTGSGKSLALLCSCLAWQTAEKGACPYFGTRELQQRGAEIIFCPYNYLIDPLIRNQVKLFVIMIXAKLHATLTQNVVXITNLNFIADHSEPKXSVSFXMGLNLKEQIVVFDEGHNIEDCSREAASVTLTALQFEETKNELQELVFSEIEEQARCVILTSGTLSPMTSFSSELGVRFSIQLESNHVIADSQVNGALLLAVCRGKISEGIDFSDDNARAVLTVRISSKLHSNSVFVLXRSNSCSYYDTRICLAEVLMXCLSKLRLYSHXVGIPFPNVKDVQVELKKKYNNLHSVARSLLTGNEWYETQAFRALNQVALGRCIRHRLDY",
+   "n_segments": 5,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 28,
+     "qend": 69,
+     "s_lo": 382292,
+     "s_hi": 382417,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 349,
+     "qend": 425,
+     "s_lo": 394877,
+     "s_hi": 395236,
+     "strand": "+",
+     "aa_len": 120
+    },
+    {
+     "qstart": 599,
+     "qend": 646,
+     "s_lo": 399503,
+     "s_hi": 399646,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 753,
+     "qend": 828,
+     "s_lo": 401798,
+     "s_hi": 402166,
+     "strand": "+",
+     "aa_len": 123
+    },
+    {
+     "qstart": 828,
+     "qend": 839,
+     "s_lo": 402244,
+     "s_hi": 402279,
+     "strand": "+",
+     "aa_len": 12
+    }
+   ],
+   "gene": "PARP1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000192.1"
+  },
+  "POLD1": {
+   "protein": "SEVQDDEKKLISAVDYYFIQDDGERFKVTKYPRLFSLIHNLKPKSDEAKFFFLGLPSVSTLFLHSSKEGTXDTDYKXKRLGQKINTSLKCMFIXGTERELATYLNKKFTGLITSIETLEKEDLDLRQIQPHIKKNKEREKSSATFTLVTGKSLESKDGNGSKVDQMDHIMDIREYDVPYHVRVSIDLKIHVVRSQNLWYNVKIKGGMHVDITPRPDLLHRPDPVVLAFDIETTKLPLKFPDSTIDSIMMISYMIDGQVGQFPGFVFPTISKDHPRKVSVLVCLFFCLFTEGSIVLLEKLADPXSASVXFYVXGYLITNREIVSEDIDDFEYTPRPEFEGPIIVFNEADEVKLLFNENQEHSFQASLLRRWFDHVAEVQPNIFVTYNGDFFDWMANYSVSDAVATYYLYMQYVHPFIFALCTIIPMEPDEVNLKFLKVQFALDXVCKIFVFVFSFYXVLRKGSGTLCEALLMVQAFHANIIFPNKQEQEGHLLDTETYVGGHVEALESGVFRSDIPSRFRMQVIEDVNGQLAALRDTPNRLEKPMIYHLDVAAMYPNIILTNRLQPPAQVDEITCAACDFNKPGARCQRKMDWMWRGDFPANQSEYNNIRQQLEVEKMPGKFPNDPPRSFHQLSVVEQASFEKKRLADYCHKAYKKTKITKSEKRQTVICQRENSFYVDTVRAFRDRRYEFKGLLKVFTFIFKVWKKKVGAALEKGDPAEIKQVYSAKGMEVLYDSLQLAHKCILNSFYGYVMRKGSRWFSMEMAGIVCYTGANIITQARELVEQIGXVSSFDQISTSYYKHMHXTLFCXTDKLTXHMLIFYFSRPLELDTDGIWCILPASFPENFLIKTTHPKKPKITISYPGAMLNYIVQVGLSFTNDQYHELVNEHRLEYKVKRENSIFFEVNFMYICFKVDGPYKAMILPAAKEEGKKLKKRYRYAVFNEDGSLAELKGFEVKRRGELQLIKIFQSSVFESFLQGNTLETVYAAVAKCADYWLDVLYSKVRIKTSALYIEIHCYPLYRFTSKCLFSFVKWIVNYFXGSNLPDNELFELISENRSMSRSLEDYGSQKSTSISTAKRLAEFLGDQMVKDKGLACRFVISKKPEGAPVTERAVPLAIFQTEDSIKHHYLRKWLKVPPTFDFDIRNILDWNYYIERLNSCIQKIITIPAALQGVVSNPVPRCSHPDWLRKRLLEKNDIYQQQRITDMFSKQVKVCASSQIAESETPGVFNVFCMVSSELHCMKINVPRIFYVNSKKAKEGEGASENARYFHIPIGNIPSDDPALYATDVFYARHLQRHNHLLWVSATDRPDLGGKEEDDNLVTEFDEGGSLEVNQPGCYSTVCVELSLDALAVNTAIQLFPXLISEFKTLGSTIVYANFNRIILNTKKRRRVKDALAYVQYILNSITSKTLFKSIRLEPKSCWEYLLWMDPHSNFSITQKIHRSLSGGRGKDSASEFPVLVGSHLTLKHPALEFVKAVCEVPSFYSKPQYFLSIVDSIVTSFLRQXVLQLDVNTQSQVTKLRRDLLKLIGVGNFSDEATFLDPCLSFIVPEVVICEYCNTCRDLDLCRD",
+   "n_segments": 24,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 69,
+     "qend": 141,
+     "s_lo": 364842,
+     "s_hi": 365216,
+     "strand": "+",
+     "aa_len": 125
+    },
+    {
+     "qstart": 168,
+     "qend": 246,
+     "s_lo": 366362,
+     "s_hi": 366577,
+     "strand": "+",
+     "aa_len": 72
+    },
+    {
+     "qstart": 243,
+     "qend": 343,
+     "s_lo": 367053,
+     "s_hi": 367517,
+     "strand": "+",
+     "aa_len": 155
+    },
+    {
+     "qstart": 334,
+     "qend": 369,
+     "s_lo": 367845,
+     "s_hi": 367964,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 455,
+     "qend": 522,
+     "s_lo": 369574,
+     "s_hi": 369858,
+     "strand": "+",
+     "aa_len": 95
+    },
+    {
+     "qstart": 530,
+     "qend": 562,
+     "s_lo": 369965,
+     "s_hi": 370063,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 598,
+     "qend": 641,
+     "s_lo": 370484,
+     "s_hi": 370615,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 642,
+     "qend": 675,
+     "s_lo": 370767,
+     "s_hi": 370868,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 677,
+     "qend": 724,
+     "s_lo": 370988,
+     "s_hi": 371131,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 725,
+     "qend": 774,
+     "s_lo": 371421,
+     "s_hi": 371570,
+     "strand": "+",
+     "aa_len": 50
+    },
+    {
+     "qstart": 768,
+     "qend": 793,
+     "s_lo": 371624,
+     "s_hi": 371701,
+     "strand": "+",
+     "aa_len": 26
+    },
+    {
+     "qstart": 791,
+     "qend": 823,
+     "s_lo": 371809,
+     "s_hi": 371907,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 824,
+     "qend": 906,
+     "s_lo": 372332,
+     "s_hi": 372691,
+     "strand": "+",
+     "aa_len": 120
+    },
+    {
+     "qstart": 905,
+     "qend": 937,
+     "s_lo": 372933,
+     "s_hi": 373031,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 929,
+     "qend": 956,
+     "s_lo": 373087,
+     "s_hi": 373170,
+     "strand": "+",
+     "aa_len": 28
+    },
+    {
+     "qstart": 955,
+     "qend": 1154,
+     "s_lo": 373366,
+     "s_hi": 374076,
+     "strand": "+",
+     "aa_len": 237
+    },
+    {
+     "qstart": 1154,
+     "qend": 1201,
+     "s_lo": 374407,
+     "s_hi": 374538,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 1335,
+     "qend": 1380,
+     "s_lo": 375618,
+     "s_hi": 375755,
+     "strand": "+",
+     "aa_len": 46
+    },
+    {
+     "qstart": 1648,
+     "qend": 1702,
+     "s_lo": 378886,
+     "s_hi": 379053,
+     "strand": "+",
+     "aa_len": 56
+    },
+    {
+     "qstart": 1704,
+     "qend": 1741,
+     "s_lo": 379136,
+     "s_hi": 379249,
+     "strand": "+",
+     "aa_len": 38
+    },
+    {
+     "qstart": 1848,
+     "qend": 1879,
+     "s_lo": 380824,
+     "s_hi": 380919,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 1879,
+     "qend": 1919,
+     "s_lo": 381003,
+     "s_hi": 381125,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 2061,
+     "qend": 2156,
+     "s_lo": 382374,
+     "s_hi": 382736,
+     "strand": "+",
+     "aa_len": 121
+    },
+    {
+     "qstart": 2156,
+     "qend": 2172,
+     "s_lo": 382829,
+     "s_hi": 382879,
+     "strand": "+",
+     "aa_len": 17
+    }
+   ],
+   "gene": "POLD1",
+   "genome": "Tdohrnii",
+   "contig": "BQMF02000255.1"
+  }
+ },
+ "TdohrniiOviedo": {
+  "BRCA1": {
+   "protein": "MAGFEESGLPGKQSIRDGFQGCRDPETFISSFRQENCVLLTSLHPALYLLDLQDVKRVTFHQSIMGELFERLTKRINEECTEDKLKELLDHIFQFIHVDNLRPIVMATMKKLTDIKPEYIEKIADNDKIYQDCPIEVKRRVWLKKHPLFGDAVGPILNRYIEEKYSLLYSTENIKTRNFFSLPPRQRRQKTVVKELVQMIGFSIELYNLVLQFLRTLFLRTKEEHYCSLRGELLMAFHDADIKDVRQVDPCHKFTWCLDACIRDKSVDSKRLKELQTFLDGIKAGQEEVMGSDIAMIVCDPYATNTIVSSILQQLNKFLRMDMLPRVSSSQELMFLIRLLTLSTNAWNMLKTQDFKELPQFARAFKAQPVPSPLMNSIIHSMVRHHEQFSEPPQCILLCDQFLFVWLQHETTLHHVLRLLWCVYEKIDSHQLVRLLTLTQPSSQ",
+   "n_segments": 4,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 290,
+     "s_lo": 42521,
+     "s_hi": 43393,
+     "strand": "+",
+     "aa_len": 291
+    },
+    {
+     "qstart": 290,
+     "qend": 326,
+     "s_lo": 43689,
+     "s_hi": 43799,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 325,
+     "qend": 353,
+     "s_lo": 43871,
+     "s_hi": 43957,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 438,
+     "qend": 524,
+     "s_lo": 44758,
+     "s_hi": 45018,
+     "strand": "+",
+     "aa_len": 87
+    }
+   ],
+   "gene": "BRCA1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000260.1"
+  },
+  "DKC1": {
+   "protein": "NYDRLNVRTGHYTPIAAGSAPLKRTLKDYLANYDRLNVRTGHYTPIAAGSAPLKRTLKDYLANYDRLNVRTGHYTPIAAGSAPLKRTLKDYLAGFINLDKPANPSSHEVVACXFFXNAVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKAGFINLDKPANPSSHEVVACXFFXNAVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKFRAGFINLDKPANPSSHEVVACXFFXNAVNKTGHSGTLDPKVTGCLIVCIDRATRLVKSQQGAGKGKEYVGILRLHGAIEGRDKLAQGKEYVGILRLHGAIEGRDKLAQGKEYVGILRLHGAIEGRDKLAQKVLXLFERKVPMEMLTGALFQRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGKVLXLFERKVPMEMLTGALFQRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISXTMMFXXFKKQNLXEVKXNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSENRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISXTMMFXXFKKQNLXEVKXNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSENRPPLISAVKRQLRVRTIYESKLMEYDEEKQLGTNNMYISXTMMFXXFKKQNLXEVKXNRVFWMSCEAGTYVRTLCVHLGLILGVGGHMQELRRVRSGIQSEN",
+   "n_segments": 14,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 46,
+     "qend": 76,
+     "s_lo": 1380,
+     "s_hi": 1472,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 51,
+     "qend": 81,
+     "s_lo": 1380,
+     "s_hi": 1472,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 58,
+     "qend": 87,
+     "s_lo": 1383,
+     "s_hi": 1472,
+     "strand": "-",
+     "aa_len": 30
+    },
+    {
+     "qstart": 77,
+     "qend": 139,
+     "s_lo": 1117,
+     "s_hi": 1305,
+     "strand": "-",
+     "aa_len": 63
+    },
+    {
+     "qstart": 82,
+     "qend": 144,
+     "s_lo": 1117,
+     "s_hi": 1305,
+     "strand": "-",
+     "aa_len": 63
+    },
+    {
+     "qstart": 87,
+     "qend": 151,
+     "s_lo": 1117,
+     "s_hi": 1311,
+     "strand": "-",
+     "aa_len": 65
+    },
+    {
+     "qstart": 138,
+     "qend": 159,
+     "s_lo": 572,
+     "s_hi": 637,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 143,
+     "qend": 164,
+     "s_lo": 572,
+     "s_hi": 637,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 150,
+     "qend": 171,
+     "s_lo": 572,
+     "s_hi": 637,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 151,
+     "qend": 202,
+     "s_lo": 364,
+     "s_hi": 522,
+     "strand": "-",
+     "aa_len": 53
+    },
+    {
+     "qstart": 156,
+     "qend": 207,
+     "s_lo": 364,
+     "s_hi": 522,
+     "strand": "-",
+     "aa_len": 53
+    },
+    {
+     "qstart": 171,
+     "qend": 245,
+     "s_lo": 8,
+     "s_hi": 313,
+     "strand": "-",
+     "aa_len": 102
+    },
+    {
+     "qstart": 176,
+     "qend": 250,
+     "s_lo": 8,
+     "s_hi": 313,
+     "strand": "-",
+     "aa_len": 102
+    },
+    {
+     "qstart": 183,
+     "qend": 257,
+     "s_lo": 8,
+     "s_hi": 313,
+     "strand": "-",
+     "aa_len": 102
+    }
+   ],
+   "gene": "DKC1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010033649.1"
+  },
+  "ERCC1": {
+   "protein": "CLFDLVLKKLVVTWKLTNNMNTSLLMFCKKELIQITYQGPDLFRKFIPRSSNSIIVNTRQVSEFHQFLDYINYNYLXITXILFXRGNPILKHVKNVPWEFGDIVPDYEVGQTSCMLFLRFRTQNQMILGLCCRTSPFLKIAILYHFFTSFIVCLFFFSLRYHNLNPEYIHERLNQLGSRYCLFDLVLKKLVVTWKLTNNMNTSLLMFCKKELIQITYQGMQDVLTTVKSINKTDVITLLSNFLLIXFSAEEAGRYLETYKQYEHKPADVLQERIDSDYLSRVETASCFFHVCG",
+   "n_segments": 6,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 54,
+     "qend": 94,
+     "s_lo": 3070,
+     "s_hi": 3192,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 90,
+     "qend": 146,
+     "s_lo": 1243,
+     "s_hi": 1485,
+     "strand": "+",
+     "aa_len": 81
+    },
+    {
+     "qstart": 99,
+     "qend": 167,
+     "s_lo": 1916,
+     "s_hi": 2095,
+     "strand": "+",
+     "aa_len": 60
+    },
+    {
+     "qstart": 199,
+     "qend": 239,
+     "s_lo": 3070,
+     "s_hi": 3192,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 238,
+     "qend": 260,
+     "s_lo": 3276,
+     "s_hi": 3344,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 287,
+     "qend": 335,
+     "s_lo": 3070,
+     "s_hi": 3222,
+     "strand": "+",
+     "aa_len": 51
+    }
+   ],
+   "gene": "ERCC1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010023265.1"
+  },
+  "FEN1": {
+   "protein": "HDPIQKCSLKTFSHNKTKHQFKTKDKTVYLAAERSIFERLLVLAKSNDQLSLENILSYSLSPIPWCFGLPDGGLVKTVKSKLLILDAFLFNNSNNVILDAVEKMCEIDNVETPRDAVHIFDGMVILQQLKTAQLNTFGDISANIIHRIAKGNVIYFVTDQYSHNSIKSYERSRRASQGTLRIKIQSRDQKCPKQWGKYMLDSQNKLELVEFLLKDWSESGEFNQLIRTKIIFVNVGSKFFKISVLCEECDDLQTNQEEADTKVFLCTKHAEVKFQAKFVVITTVDSDIPLYALYYNNALSPSMFIQIGVKDRRRILDIRKMAQTLGDNLCSSLPAFHSFTGNDYTSAFYGIGKAAAFKKLSNSGEFLEVFSKLGNSFVFDADLFSSIEQFVCKLYGVQCSNTDEARYRKFLSGKASPEPQRLPPTRDALLCHCKRVSYVTAIVKRALNADITVPPLENHGWKIQEDKLSIEWMLRKPAPEEVLNLLSCSCRRNTGNFXVEKASPEPQRLPPTRDALLCHCKRVSYVTAIVKRALNADITVPPLENHGWKIQEDKLSIEWMLRKPAPGEVLNLLSCSCRRNKCLANNCACKSHGLKCTDMCCCNGCEN",
+   "n_segments": 4,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 17,
+     "qend": 99,
+     "s_lo": 7328,
+     "s_hi": 7576,
+     "strand": "+",
+     "aa_len": 83
+    },
+    {
+     "qstart": 85,
+     "qend": 242,
+     "s_lo": 7678,
+     "s_hi": 8157,
+     "strand": "+",
+     "aa_len": 160
+    },
+    {
+     "qstart": 248,
+     "qend": 500,
+     "s_lo": 8265,
+     "s_hi": 9014,
+     "strand": "+",
+     "aa_len": 250
+    },
+    {
+     "qstart": 414,
+     "qend": 526,
+     "s_lo": 9321,
+     "s_hi": 9662,
+     "strand": "+",
+     "aa_len": 114
+    }
+   ],
+   "gene": "FEN1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010007182.1"
+  },
+  "MLH1": {
+   "protein": "LVMSTPKILKLDEVVINRIAAGEVIQRPANAIKELIENSLDAKSSSIQVIVKSGGLKLLQIVDDGCGIRKEDMNIVCERFTTSKLSSFDDLKSISTYGFRGEALASISHVAHLVITTRTADSSCAYKAKYEDGKIVPFQPNTTAMPKPCAGNKGNRLVGTQITVEDLFYNVAVRRKALKNPNEEHLKIIDVVSKYAIHNPGVAFTLKKFGENIGDVRTQKHSSIVDNIKAIYGQTVARELLEVSHSDQKLGFAMNGYVSNANYSMKKFVFLLFINHRLVESNALRKALDIVYVNYLPKDKRPFVYMSIEINPRNVDVNMHPTKHEVKFLHEDLIIEHIQRCVETKLLGANESRQYYTQMLLPKMVAAGIDVPISGTQITVEDLFYNVAVRRKALKNPNEEHLKIIDVVSKYAIHNPGVAFTLKKFGENIGDVRTQKHSSIVDNIKAIYGQTVARELLEVSHSDQKLGFAMNGYVSNANYSMKKFVFLLFINHRLVESNALRKALDIVYVNYLPKDKRPFVYMSIEINPRNVDVNMHPTKHEVKFLHEDLIIEHIQRCVETKLLGANESRQYYTQMLLPKMVAAGIDVPISSDVLSNQDSSRSDKKKVYAHEMVRTDSRERKLEAFFSPSKDSFTDETAIPQLQTVQPSDVLSNQDSSRSDKKKVYAHEMVRTDSRERKLEAFFSPSKDSFTDETAIPQLQTVLVFLLRSKQPRFILCVIFLVSCESRQTHIAADKQRQKNVGERKIKLTSVGNLRKIINDGEHLGLTNLLEDHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVANLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYKQRQKNVGERKIKLTSVGNLRKIINDGEHLGLTNLLEDHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVANLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYERKIKLTSVGNLRKIINDGEHLGLTNLLEDHKFVGCVNKSLTLIQHLTRLYLVNSRKLSQELFYQILLHQFGNFGYMQLSSGAPIFELVLLALNSPESGWTPDDGAKEDLAKHVANLLSTKAEMLLDYFSLEINANNEIISLPLLLDKYSPNLNGLPMFVLRLATEVNYLLMXWMFFXVNWDSEQECFETFAIECSHFYAFGPDPLPTGSDKDNTSTDQSWKHTVEHVLFPAFRSTLLPPKKFSEDGTFLEVANLPDLYKVFERCTSTDQSWKHTVEHVLFPAFRSTLLPPKKFSEDGTFLEVANLPDLYKVFERC",
+   "n_segments": 10,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 158,
+     "s_lo": 5453,
+     "s_hi": 5926,
+     "strand": "+",
+     "aa_len": 158
+    },
+    {
+     "qstart": 151,
+     "qend": 366,
+     "s_lo": 6311,
+     "s_hi": 6958,
+     "strand": "+",
+     "aa_len": 216
+    },
+    {
+     "qstart": 154,
+     "qend": 369,
+     "s_lo": 6311,
+     "s_hi": 6958,
+     "strand": "+",
+     "aa_len": 216
+    },
+    {
+     "qstart": 366,
+     "qend": 419,
+     "s_lo": 7077,
+     "s_hi": 7247,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 377,
+     "qend": 438,
+     "s_lo": 7077,
+     "s_hi": 7241,
+     "strand": "+",
+     "aa_len": 55
+    },
+    {
+     "qstart": 410,
+     "qend": 624,
+     "s_lo": 9136,
+     "s_hi": 9762,
+     "strand": "+",
+     "aa_len": 209
+    },
+    {
+     "qstart": 471,
+     "qend": 647,
+     "s_lo": 9232,
+     "s_hi": 9762,
+     "strand": "+",
+     "aa_len": 177
+    },
+    {
+     "qstart": 561,
+     "qend": 729,
+     "s_lo": 9256,
+     "s_hi": 9762,
+     "strand": "+",
+     "aa_len": 169
+    },
+    {
+     "qstart": 718,
+     "qend": 808,
+     "s_lo": 10049,
+     "s_hi": 10336,
+     "strand": "+",
+     "aa_len": 96
+    },
+    {
+     "qstart": 799,
+     "qend": 849,
+     "s_lo": 10184,
+     "s_hi": 10336,
+     "strand": "+",
+     "aa_len": 51
+    }
+   ],
+   "gene": "MLH1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000097.1"
+  },
+  "MSH2": {
+   "protein": "VDERLGMVDVFYNNIDIRQSIQVXHTEQKKVKSYNFSPXFKLCFQLLXDGPLRKIPDFSRLSKKFYQLKATLQVDERLGMVDVFYNNIDIRQSIQVXHTEQKKVKSYNFSPXFKLCFQLLXDGPLRKIPDFSRLSKKFYQLKATLQDCVRVYQSVKQIPQLLSVLQKYEGESRASINDVFIKPFQDCVRVYQSVKQIPQLLSVLQKYEGESRASINDVFIKPFQVGFKAFTFLMLYDCVRVYQSVKQIPQLLSVLQKYEGESRASINDVFIKPFQVGFKAFTFLMLYKIKTKXHFSKKLFIKLPPSFSLXDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTLKDLINDFGKYMELIETTVDFDELENHEYLIKADFDENLQECKERMQEISPQFQSELNKAARDLGLVAAKTIKLESNSQIGHYFRVTLKFLRMIFQDEKALRNNKRYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAFLRMIFQDEKALRNNKRYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAGYTTVETRKDGVRFVLSRNFVESTEYETHRSTYAELQTQLVKEVVKIAGIXHCHNKTVIGAASIMFLRMIPSKRMFPFSGSGKIVLKGSRHPCLEAQDDVAFISNDINLVKGTSVGLITLMAQIGSFVCEFAEISIIDSILARVGAGDASVEGVSTFMSEMLETASQRRFAGDNRRTWSWNVDLGWFWTRLGNLISRQRRFAGDNRRTWSWNVDLGWFWTRLGNLISRQRRFAGDNRRTWSWNVDLGWFWTRLGNL",
+   "n_segments": 18,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 346,
+     "qend": 392,
+     "s_lo": 13038,
+     "s_hi": 13256,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 349,
+     "qend": 395,
+     "s_lo": 13038,
+     "s_hi": 13256,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 393,
+     "qend": 431,
+     "s_lo": 12818,
+     "s_hi": 12934,
+     "strand": "-",
+     "aa_len": 39
+    },
+    {
+     "qstart": 396,
+     "qend": 446,
+     "s_lo": 12782,
+     "s_hi": 12934,
+     "strand": "-",
+     "aa_len": 51
+    },
+    {
+     "qstart": 396,
+     "qend": 447,
+     "s_lo": 12761,
+     "s_hi": 12934,
+     "strand": "-",
+     "aa_len": 58
+    },
+    {
+     "qstart": 419,
+     "qend": 516,
+     "s_lo": 11972,
+     "s_hi": 12274,
+     "strand": "-",
+     "aa_len": 101
+    },
+    {
+     "qstart": 435,
+     "qend": 521,
+     "s_lo": 11966,
+     "s_hi": 12226,
+     "strand": "-",
+     "aa_len": 87
+    },
+    {
+     "qstart": 442,
+     "qend": 528,
+     "s_lo": 11966,
+     "s_hi": 12226,
+     "strand": "-",
+     "aa_len": 87
+    },
+    {
+     "qstart": 515,
+     "qend": 578,
+     "s_lo": 11144,
+     "s_hi": 11335,
+     "strand": "-",
+     "aa_len": 64
+    },
+    {
+     "qstart": 515,
+     "qend": 579,
+     "s_lo": 11141,
+     "s_hi": 11335,
+     "strand": "-",
+     "aa_len": 65
+    },
+    {
+     "qstart": 529,
+     "qend": 600,
+     "s_lo": 11063,
+     "s_hi": 11284,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 617,
+     "qend": 655,
+     "s_lo": 9894,
+     "s_hi": 10013,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 675,
+     "qend": 688,
+     "s_lo": 866,
+     "s_hi": 907,
+     "strand": "-",
+     "aa_len": 14
+    },
+    {
+     "qstart": 690,
+     "qend": 711,
+     "s_lo": 796,
+     "s_hi": 861,
+     "strand": "-",
+     "aa_len": 22
+    },
+    {
+     "qstart": 712,
+     "qend": 727,
+     "s_lo": 750,
+     "s_hi": 797,
+     "strand": "-",
+     "aa_len": 16
+    },
+    {
+     "qstart": 729,
+     "qend": 758,
+     "s_lo": 309,
+     "s_hi": 398,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 729,
+     "qend": 761,
+     "s_lo": 309,
+     "s_hi": 407,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 736,
+     "qend": 768,
+     "s_lo": 309,
+     "s_hi": 407,
+     "strand": "-",
+     "aa_len": 31
+    }
+   ],
+   "gene": "MSH2",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010006662.1"
+  },
+  "POLD2": {
+   "protein": "EGIDRKLCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQELCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQEIDRKLCSYEDVSSRFLFTKKRKFDLQYSQLYAVRLMAMRSSLVRAAKKKWPESCQIKPLVDIKIDEKCVIIGTLFRKMELQPSILKEISQEEGVLPIPPSKKYISEDDILILEEQQQRINLTGNIDLPTAVTGSTIRYVVFLSGLGIGSKKDNTFRLQLLLDMLTGRLGSEKVDLNPNFFTITPIAYVLPRLPVVVLIYLQTVVFKSFXTRVVIAGNSLSNDTQDKESEKIRYVVFLSGLGIGSKKDNTFRLQLLLDMLTGRLGSEKVDLNPNFFTITPIAYVLPRLPVVVLIYLQTVVFKSFXTRVVIAGNSLSNDTQDKESEKIAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRVAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRYVAKYLRRNVQAKSVEAIKKLDELLVDLSLSVPVDVMPGEYDPSNQFFPQQPLHKCMFPNASANPSMRGVTNPYEADIGGIRRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFPSSPIFVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRRIKLRVLGTSGQNVSNIYQFSGYTERLDIMESTLRCGHISPTSPDTLSKYTFSVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRRIKGPSSPIFVIGCYPYYDQDPFILKDCPHIYFAGNQPQYDVRRIKGAYYSHRKCFLGLSGQLYQPLFI",
+   "n_segments": 17,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 4,
+     "qend": 96,
+     "s_lo": 7977,
+     "s_hi": 8255,
+     "strand": "-",
+     "aa_len": 93
+    },
+    {
+     "qstart": 29,
+     "qend": 114,
+     "s_lo": 7977,
+     "s_hi": 8237,
+     "strand": "-",
+     "aa_len": 87
+    },
+    {
+     "qstart": 36,
+     "qend": 125,
+     "s_lo": 7977,
+     "s_hi": 8249,
+     "strand": "-",
+     "aa_len": 91
+    },
+    {
+     "qstart": 97,
+     "qend": 141,
+     "s_lo": 7487,
+     "s_hi": 7621,
+     "strand": "-",
+     "aa_len": 45
+    },
+    {
+     "qstart": 175,
+     "qend": 238,
+     "s_lo": 6623,
+     "s_hi": 6907,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 180,
+     "qend": 245,
+     "s_lo": 6623,
+     "s_hi": 6907,
+     "strand": "-",
+     "aa_len": 95
+    },
+    {
+     "qstart": 239,
+     "qend": 318,
+     "s_lo": 6112,
+     "s_hi": 6351,
+     "strand": "-",
+     "aa_len": 80
+    },
+    {
+     "qstart": 246,
+     "qend": 325,
+     "s_lo": 6112,
+     "s_hi": 6351,
+     "strand": "-",
+     "aa_len": 80
+    },
+    {
+     "qstart": 260,
+     "qend": 341,
+     "s_lo": 6109,
+     "s_hi": 6354,
+     "strand": "-",
+     "aa_len": 82
+    },
+    {
+     "qstart": 275,
+     "qend": 355,
+     "s_lo": 6112,
+     "s_hi": 6354,
+     "strand": "-",
+     "aa_len": 81
+    },
+    {
+     "qstart": 318,
+     "qend": 365,
+     "s_lo": 5290,
+     "s_hi": 5433,
+     "strand": "-",
+     "aa_len": 48
+    },
+    {
+     "qstart": 324,
+     "qend": 372,
+     "s_lo": 5290,
+     "s_hi": 5436,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 339,
+     "qend": 387,
+     "s_lo": 5290,
+     "s_hi": 5436,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 354,
+     "qend": 394,
+     "s_lo": 3790,
+     "s_hi": 3915,
+     "strand": "-",
+     "aa_len": 42
+    },
+    {
+     "qstart": 354,
+     "qend": 403,
+     "s_lo": 5287,
+     "s_hi": 5436,
+     "strand": "-",
+     "aa_len": 50
+    },
+    {
+     "qstart": 381,
+     "qend": 417,
+     "s_lo": 3787,
+     "s_hi": 3897,
+     "strand": "-",
+     "aa_len": 37
+    },
+    {
+     "qstart": 391,
+     "qend": 467,
+     "s_lo": 3721,
+     "s_hi": 3915,
+     "strand": "-",
+     "aa_len": 65
+    }
+   ],
+   "gene": "POLD2",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010008058.1"
+  },
+  "POLE": {
+   "protein": "RPRNQHEVKIGSANVVDVNLAMREITVRQEMNYMDKGNNKTFSFDKVFGPNSKQIDVYKSMVCPAIDEVLQGYNCTIFARPRNQHEVKIGSANVVDVNLAMREITVRQEMNYMDKGNNKTFSFDKVFGPNSKQIDVYKSMVCPAIDEVLQGYNCTIFASYGQTGTGKTFTMEGDRTSDGDFSWQDDPLAGIIPRAMHQLFEQLNTMEDCAEYSVRVSFLEIYNEELFDLLGNSLDTQKLRLFEDTAKKVIFTFYLTKVEIECLSPIVLLVFFHSLRCRXLEIQIDYTFNIVFFSCHIKGSVVIQGLEEVIVHSRNEVYQILEKGAARRQTAATLLNAQSRSVXVLLNNSWQHNLYYVIVRIAXRFENCNLSEFSRSHSLFLVTIHMKENNINGEEFLKTGKLNLVSRSHSLFLVTIHMKENNINGEEFLKTGKLNLVVDLAGSENIGRSGAVEKRAREAGVDLAGSENIGRSGAVEKRAREAGGTINQSLLTLGRVITALVENAPHVPYRESKLTRLLKDSLGGRTKTSIIATISPAACNLEVLLTKNSLCLVFFSFDDVFLVWFXETLSTLDYAHRAKNIMNKPEVNQKLTKKALIKVRSSYRLTNNLLKKMCIMFFWFYFKEYTEQIEKLKKDLLAAREKNGIYIAEENYMGTINQSLLTLGRVITALVENAPHVPYRESKLTRLLKDSLGGRTKTSIIATISPAACNLEVLLTKNSLCLVFFSFDDVFLVWFXETLSTLDYAHRAKNIMNKPEVNQKLTKKALIKVRSSYRLTNNLLKKMCIMFFWFYFKEYTEQIEKLKKDLLAAREKNGIYIAEENYFRDMQNQISSQKSNLREYIDKIQSLQEEMKKVEQLFTETQDQLEKTKQHLSWTQQERDETKELVSQHLQTEEELYKQANDLLGTIEETVEDTTHLHSSLNRKKEIQATNLESSKKFKNEAQQRIGATPNQKNYRFPRVFRRTEDHAKIIEDYRKRHGIPPIPILSDIE",
+   "n_segments": 11,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 16,
+     "qend": 94,
+     "s_lo": 3487,
+     "s_hi": 3723,
+     "strand": "+",
+     "aa_len": 79
+    },
+    {
+     "qstart": 23,
+     "qend": 100,
+     "s_lo": 3487,
+     "s_hi": 3723,
+     "strand": "+",
+     "aa_len": 79
+    },
+    {
+     "qstart": 94,
+     "qend": 247,
+     "s_lo": 3795,
+     "s_hi": 4439,
+     "strand": "+",
+     "aa_len": 215
+    },
+    {
+     "qstart": 225,
+     "qend": 256,
+     "s_lo": 5317,
+     "s_hi": 5412,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 229,
+     "qend": 260,
+     "s_lo": 5317,
+     "s_hi": 5412,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 256,
+     "qend": 278,
+     "s_lo": 5547,
+     "s_hi": 5615,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 260,
+     "qend": 282,
+     "s_lo": 5547,
+     "s_hi": 5615,
+     "strand": "+",
+     "aa_len": 23
+    },
+    {
+     "qstart": 278,
+     "qend": 398,
+     "s_lo": 5693,
+     "s_hi": 6202,
+     "strand": "+",
+     "aa_len": 170
+    },
+    {
+     "qstart": 282,
+     "qend": 401,
+     "s_lo": 5693,
+     "s_hi": 6199,
+     "strand": "+",
+     "aa_len": 169
+    },
+    {
+     "qstart": 397,
+     "qend": 520,
+     "s_lo": 6271,
+     "s_hi": 6642,
+     "strand": "+",
+     "aa_len": 124
+    },
+    {
+     "qstart": 929,
+     "qend": 972,
+     "s_lo": 10365,
+     "s_hi": 10496,
+     "strand": "+",
+     "aa_len": 44
+    }
+   ],
+   "gene": "POLE",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010003933.1"
+  },
+  "RAD51": {
+   "protein": "GISSGDIKKLSDAGFYTVESLAYTPKKTLLGIKGISEAKADKILNEVIKLVPMGFTTATEFHQKRSEIIQVTTGSKELDKLLQGGIETGSITEIFGEFRTGKTQLCHQLCVTCQLPVDCGGAEGKAMYIDTEGTFRPERLLAVAERYGLNGQEVLDNVAYARAYNSDHQTQLLIHASAMMSESRYALLIVDSATALYRTDYSGRGELSARQMHMARFLRTLLRLADEFGVAVVITNQVVAQVDGASMFQMDPKKPIGGNIMAHASTTRLYLRKGRGETRICKIYDSPCLPESEAMFAINPDGI",
+   "n_segments": 1,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 11,
+     "qend": 341,
+     "s_lo": 35723,
+     "s_hi": 36631,
+     "strand": "+",
+     "aa_len": 303
+    }
+   ],
+   "gene": "RAD51",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000277.1"
+  },
+  "TERF1": {
+   "protein": "TDKSKFGYQMLTKMGWSEGKGLGQNETGRTSHVDKSKFGYQMLTKMGWSEGKGLGQNETGRTSHVKIRKKKSNAGIYKRFVKSKDLANASSHDLACIFGTRSKSAPATPQYKRFVKSKDLANASSHDLACIFGTRSKSAPATPQLSDTASCPVNQVGNDHGFTTVNTGVSVADYFAQKMAALKR",
+   "n_segments": 5,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 24,
+     "qend": 56,
+     "s_lo": 3638,
+     "s_hi": 3736,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 25,
+     "qend": 67,
+     "s_lo": 3641,
+     "s_hi": 3769,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 118,
+     "qend": 151,
+     "s_lo": 6375,
+     "s_hi": 6476,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 119,
+     "qend": 155,
+     "s_lo": 6375,
+     "s_hi": 6485,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 165,
+     "qend": 210,
+     "s_lo": 7347,
+     "s_hi": 7457,
+     "strand": "+",
+     "aa_len": 37
+    }
+   ],
+   "gene": "TERF1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000216.1"
+  },
+  "TERT": {
+   "protein": "GRSSRAMVTAVPTRRSSVASTLMEGNTIDHDSAGRELFEACRTGDVSRVRNLMQTGWDVNMRDTAGRKSTPLHFAAGVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTEFYLIAGYNHVEVAEFLLENGADVNAQDKGGLIPLHNASSYGGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTTRNTKKSKTFYKVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEPLAKLVLTGKKLSCEIKHYVHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKATSDLCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTECFTSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTTRNTKKSKTFYKVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEPLAKLVLTGKKLYSFAFLFYRQTRVRVEVCTFLLSHGADPTIVNCHSKNAMDAAATPELKSKLLCMLLYTIKXQIPGFAVKLFKLKLKDVVFXEVQNMSYYEVLLFCCLTLHAFSDEYRGYTYLEAVRLCDFAFNFSYXRGDLINFLHPLTQNSALHICAASNSSKSERVADFLIKKGCNLNLCNKEILNFFSQHGANVNAADYWKFTPLHEAAAKPFKLXTFLLLKRKMTAMHVCCHSGNIEILELLIKAGAENSYLLXNVCALHHAAQSGHMQICHLLLVNGADASIRSAGGCTAAQVGTENVQRVFQGTTLVSVDVKYTWLQNNTKSNHIXNVSASQEATMKDIDVKLLEASKTGDFPLIRVIIKHYVHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKFXFFQELCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGSTPLHLAAGYNRTRIVEILLKHGADVHAKDKGXIMNNKRKLSLEAPQILPHHPGXNYQTXMILNFFSQHGANVNAADYWKFTPLHEAAAKPFKLXTFLLLKSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTTRNTKKSKTFYKVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAEKLSCEIKHYVHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRGDVALLEAAKKGNLPKVMKLASSQNINCRDTQGRNSTPLHLAGEFKKATSDXTLVKQYPSRSLHFELCTPETVNCRDITGRLSTPLHFASGYNRMDIVEHLIRNGADVHAKDKGTECFTSKGFGRKDIVEFLLEAGADVHARDDGGLIPLHNACSFGHVEVTLSLLRHHADVNARDNWNFTPLHEAGIKGKVEVCIGTTRNTKKSKTFYKVTICLGFLDXLDKLFSALLQHGADPTIRNTDGKTAQDLAKHYVHGADPTKKNHEGSTPLDLVKDTFPDVIDLLRAEDVKVLLQDSMVSKSQVMQIPANTSAASLSSKDSITSAASVASSTPSKSSLASLSTPTNSTASTVSNIPPSQNTHNELPPQEVRQQQQGMTIPSTANQSLLQSEPCSTDGLPTKRLKDQAEGFKNSISVVGTNPLDIDMGTFLAGLQLDGLQEIFDSEQVITMDVLIEMGPDQLKEIGIKAYGHRHKLLKGVKERLAGAGCTIGGLKNYVGEPFQSTIPSAGPNTILQELSPSDKDYQSVAEEMQSTIVEHKDGGVAGGVFSRYVLLYQVAVNQLISLSDFFAVLMAFIRTSYLNTKGSFFRYCELKIERVINKKLWDRYAYQRKQVADSNHNHPNERMLFHGSPFVNAIVQKGFDERHAYIGENNVSXCLTNICAMXKFDANRLGGMFGAGIYFAEHSSKSNQYVYGIGGGSGCPVHKDRSCYECKRFTCRQIVLCRVTLGKPFFQFTAMKMAHAPPGHHSVIGRPNSGGLCYPEYVVYRGEQVQAYPEYLITYKIARPDLYAA",
+   "n_segments": 27,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 4,
+     "qend": 75,
+     "s_lo": 24535,
+     "s_hi": 24765,
+     "strand": "-",
+     "aa_len": 77
+    },
+    {
+     "qstart": 57,
+     "qend": 98,
+     "s_lo": 12058,
+     "s_hi": 12183,
+     "strand": "-",
+     "aa_len": 42
+    },
+    {
+     "qstart": 68,
+     "qend": 110,
+     "s_lo": 10729,
+     "s_hi": 10857,
+     "strand": "-",
+     "aa_len": 43
+    },
+    {
+     "qstart": 75,
+     "qend": 183,
+     "s_lo": 16466,
+     "s_hi": 16882,
+     "strand": "-",
+     "aa_len": 139
+    },
+    {
+     "qstart": 144,
+     "qend": 235,
+     "s_lo": 10940,
+     "s_hi": 11215,
+     "strand": "-",
+     "aa_len": 92
+    },
+    {
+     "qstart": 204,
+     "qend": 251,
+     "s_lo": 12058,
+     "s_hi": 12201,
+     "strand": "-",
+     "aa_len": 48
+    },
+    {
+     "qstart": 221,
+     "qend": 349,
+     "s_lo": 16418,
+     "s_hi": 16903,
+     "strand": "-",
+     "aa_len": 162
+    },
+    {
+     "qstart": 298,
+     "qend": 376,
+     "s_lo": 13166,
+     "s_hi": 13555,
+     "strand": "-",
+     "aa_len": 130
+    },
+    {
+     "qstart": 377,
+     "qend": 407,
+     "s_lo": 12993,
+     "s_hi": 13085,
+     "strand": "-",
+     "aa_len": 31
+    },
+    {
+     "qstart": 390,
+     "qend": 429,
+     "s_lo": 11271,
+     "s_hi": 11390,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 407,
+     "qend": 433,
+     "s_lo": 12715,
+     "s_hi": 12795,
+     "strand": "-",
+     "aa_len": 27
+    },
+    {
+     "qstart": 435,
+     "qend": 519,
+     "s_lo": 12279,
+     "s_hi": 12614,
+     "strand": "-",
+     "aa_len": 112
+    },
+    {
+     "qstart": 458,
+     "qend": 546,
+     "s_lo": 10952,
+     "s_hi": 11200,
+     "strand": "-",
+     "aa_len": 83
+    },
+    {
+     "qstart": 513,
+     "qend": 566,
+     "s_lo": 12058,
+     "s_hi": 12219,
+     "strand": "-",
+     "aa_len": 54
+    },
+    {
+     "qstart": 535,
+     "qend": 586,
+     "s_lo": 14563,
+     "s_hi": 14709,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 537,
+     "qend": 588,
+     "s_lo": 11271,
+     "s_hi": 11426,
+     "strand": "-",
+     "aa_len": 52
+    },
+    {
+     "qstart": 541,
+     "qend": 641,
+     "s_lo": 16496,
+     "s_hi": 16888,
+     "strand": "-",
+     "aa_len": 131
+    },
+    {
+     "qstart": 612,
+     "qend": 709,
+     "s_lo": 10898,
+     "s_hi": 11215,
+     "strand": "-",
+     "aa_len": 106
+    },
+    {
+     "qstart": 671,
+     "qend": 719,
+     "s_lo": 12058,
+     "s_hi": 12204,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 689,
+     "qend": 793,
+     "s_lo": 16499,
+     "s_hi": 16903,
+     "strand": "-",
+     "aa_len": 135
+    },
+    {
+     "qstart": 771,
+     "qend": 803,
+     "s_lo": 11093,
+     "s_hi": 11197,
+     "strand": "-",
+     "aa_len": 35
+    },
+    {
+     "qstart": 795,
+     "qend": 879,
+     "s_lo": 9842,
+     "s_hi": 10210,
+     "strand": "-",
+     "aa_len": 123
+    },
+    {
+     "qstart": 871,
+     "qend": 908,
+     "s_lo": 9678,
+     "s_hi": 9791,
+     "strand": "-",
+     "aa_len": 38
+    },
+    {
+     "qstart": 908,
+     "qend": 956,
+     "s_lo": 9454,
+     "s_hi": 9600,
+     "strand": "-",
+     "aa_len": 49
+    },
+    {
+     "qstart": 951,
+     "qend": 1107,
+     "s_lo": 8492,
+     "s_hi": 9148,
+     "strand": "-",
+     "aa_len": 219
+    },
+    {
+     "qstart": 1103,
+     "qend": 1160,
+     "s_lo": 8262,
+     "s_hi": 8432,
+     "strand": "-",
+     "aa_len": 57
+    },
+    {
+     "qstart": 1159,
+     "qend": 1178,
+     "s_lo": 8134,
+     "s_hi": 8193,
+     "strand": "-",
+     "aa_len": 20
+    }
+   ],
+   "gene": "TERT",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010001754.1"
+  },
+  "XRCC1": {
+   "protein": "VINIKHLVSFSSEDPRLLXNFGETYYKWRCSTGGERQASVLLQVCEIVLVKTCYPFFAVLIGNNGSAFVEVLVGRSSWSQSEEFKVSTRNFKINSKNILLKFGENIETCLEEVWVXXYKAKVXKVFXQKLFLIIFLQVLLVASCFMSPAESKANKELTRVRMFGTLDLFLCFYQIFSFYIKNKTHVTRIQKEVKYVTRVYLWGRNMKLTGIRAARIWCEWLYKRYKKKKEGNYSKQKQKQKCQVLLQTLLNTTKNFHGKGKIVTKAWFKECLRMKRIVNTKRYFIISELALKKFLFTFFIYGDFNVKDRRLLKRYITAYCGTLEDYMCEKIHYVISNDDWDKNFDQVQALQDNVALVFVRPTWIFKCHEKQELIPTDDYEIKPL",
+   "n_segments": 8,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 2,
+     "qend": 15,
+     "s_lo": 9546,
+     "s_hi": 9587,
+     "strand": "-",
+     "aa_len": 14
+    },
+    {
+     "qstart": 19,
+     "qend": 71,
+     "s_lo": 9319,
+     "s_hi": 9459,
+     "strand": "-",
+     "aa_len": 47
+    },
+    {
+     "qstart": 60,
+     "qend": 120,
+     "s_lo": 8817,
+     "s_hi": 9155,
+     "strand": "-",
+     "aa_len": 113
+    },
+    {
+     "qstart": 326,
+     "qend": 384,
+     "s_lo": 5884,
+     "s_hi": 6135,
+     "strand": "-",
+     "aa_len": 83
+    },
+    {
+     "qstart": 383,
+     "qend": 410,
+     "s_lo": 5735,
+     "s_hi": 5818,
+     "strand": "-",
+     "aa_len": 28
+    },
+    {
+     "qstart": 506,
+     "qend": 541,
+     "s_lo": 4282,
+     "s_hi": 4389,
+     "strand": "-",
+     "aa_len": 36
+    },
+    {
+     "qstart": 542,
+     "qend": 567,
+     "s_lo": 4122,
+     "s_hi": 4199,
+     "strand": "-",
+     "aa_len": 26
+    },
+    {
+     "qstart": 566,
+     "qend": 602,
+     "s_lo": 3932,
+     "s_hi": 4042,
+     "strand": "-",
+     "aa_len": 37
+    }
+   ],
+   "gene": "XRCC1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010007286.1"
+  },
+  "LIG4": {
+   "protein": "QVCIDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASRKFVLLNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFETGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKIGRDKQVCIDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASRKFVLLNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFETGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKKQVCIDLHDPNTKLNEMEITLLTPFRPMLGQRSTIDDVEKLMGNGEFLIETKIDGERMQVHKSGDEYRYFSRNSIDYTQSFGASRYRGTLTPFIASRKFVLLNSCILDGEMVGYDSLTNDFVLKGSNIDIKSDNFETGLQPCFVVFDVLLVNDDRLANVPLHERIRRCDDVFDVVPGRIQHVERKIGRDKFLSYPTLVFYAFRTDVVDALNKAIDMREEGIVIKNPLSFYKPSKRKGARTDVVDALNKAIDMREEGIVIKNPLSFYKPSKRSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSSVKDRGIFSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSGSGWLKLKPEYVDSLSDELDLLILGGKYGSGFRRGGVISHFLVGVADSKSNVDGKPKSFFTLGNVSSLGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIQFSNGFKLGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIQFSNGFKLGSGYSDKELNNLLKKLNNHWRKFDSSKPPLSIKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRKVCKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRKEKPDVWIEPEHSVIVQVKATEITVSEKYKCGCTLRFPRVEKIRDDKDWYDCMSYEELLELRRCQNYWKENSFVLSMVLVFKVLFYSKKRLCRYFISRCQNYWKENSFVLSMVLVFKVLFYSKKRLCRYFISLGTFVQNPTKQTLCVIADKANVRVKSIMYGGTFVQNPTKQTLCVIADKANVRVKSIMRTFLFQEKQVIIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRRIIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRRTSIPYQPRHMLHSTKETFENFRKDFDQYGDSYTKDVSESELIDIFSRISKEDSNMLTHEDLMEIENRYFEQDSRLGIFRR",
+   "n_segments": 21,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 217,
+     "qend": 404,
+     "s_lo": 9171,
+     "s_hi": 9737,
+     "strand": "-",
+     "aa_len": 189
+    },
+    {
+     "qstart": 223,
+     "qend": 407,
+     "s_lo": 9186,
+     "s_hi": 9737,
+     "strand": "-",
+     "aa_len": 184
+    },
+    {
+     "qstart": 234,
+     "qend": 423,
+     "s_lo": 9171,
+     "s_hi": 9740,
+     "strand": "-",
+     "aa_len": 190
+    },
+    {
+     "qstart": 400,
+     "qend": 447,
+     "s_lo": 8783,
+     "s_hi": 8926,
+     "strand": "-",
+     "aa_len": 48
+    },
+    {
+     "qstart": 423,
+     "qend": 455,
+     "s_lo": 8792,
+     "s_hi": 8890,
+     "strand": "-",
+     "aa_len": 33
+    },
+    {
+     "qstart": 437,
+     "qend": 509,
+     "s_lo": 8500,
+     "s_hi": 8718,
+     "strand": "-",
+     "aa_len": 73
+    },
+    {
+     "qstart": 442,
+     "qend": 511,
+     "s_lo": 8515,
+     "s_hi": 8727,
+     "strand": "-",
+     "aa_len": 71
+    },
+    {
+     "qstart": 456,
+     "qend": 520,
+     "s_lo": 8515,
+     "s_hi": 8715,
+     "strand": "-",
+     "aa_len": 67
+    },
+    {
+     "qstart": 502,
+     "qend": 541,
+     "s_lo": 8076,
+     "s_hi": 8195,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 509,
+     "qend": 548,
+     "s_lo": 8076,
+     "s_hi": 8195,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 518,
+     "qend": 550,
+     "s_lo": 8097,
+     "s_hi": 8195,
+     "strand": "-",
+     "aa_len": 33
+    },
+    {
+     "qstart": 541,
+     "qend": 605,
+     "s_lo": 7789,
+     "s_hi": 7983,
+     "strand": "-",
+     "aa_len": 65
+    },
+    {
+     "qstart": 548,
+     "qend": 610,
+     "s_lo": 7795,
+     "s_hi": 7983,
+     "strand": "-",
+     "aa_len": 63
+    },
+    {
+     "qstart": 555,
+     "qend": 615,
+     "s_lo": 7798,
+     "s_hi": 7980,
+     "strand": "-",
+     "aa_len": 61
+    },
+    {
+     "qstart": 653,
+     "qend": 688,
+     "s_lo": 7326,
+     "s_hi": 7433,
+     "strand": "-",
+     "aa_len": 35
+    },
+    {
+     "qstart": 662,
+     "qend": 698,
+     "s_lo": 7323,
+     "s_hi": 7433,
+     "strand": "-",
+     "aa_len": 36
+    },
+    {
+     "qstart": 686,
+     "qend": 712,
+     "s_lo": 7180,
+     "s_hi": 7260,
+     "strand": "-",
+     "aa_len": 27
+    },
+    {
+     "qstart": 693,
+     "qend": 722,
+     "s_lo": 7177,
+     "s_hi": 7266,
+     "strand": "-",
+     "aa_len": 30
+    },
+    {
+     "qstart": 723,
+     "qend": 807,
+     "s_lo": 5431,
+     "s_hi": 5694,
+     "strand": "-",
+     "aa_len": 88
+    },
+    {
+     "qstart": 743,
+     "qend": 822,
+     "s_lo": 5425,
+     "s_hi": 5667,
+     "strand": "-",
+     "aa_len": 81
+    },
+    {
+     "qstart": 748,
+     "qend": 827,
+     "s_lo": 5431,
+     "s_hi": 5664,
+     "strand": "-",
+     "aa_len": 78
+    }
+   ],
+   "gene": "LIG4",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010010790.1"
+  },
+  "POT1": {
+   "protein": "YTYTNIADLAESDKRLNVYGLVKYFRPPTSTKTGQYNAFYTLIDPSVENDIESGVRCNFFSHTKDQLPQVERVGDIVRLHRVIVTHFNGRLQIKGNKGYSWCVYHDEVQPKSSHPNPTLTDEDKDRVHELREFYLRVENRLTDKLRVDTITKLYDVHPETFFNCKVQVLAVNTFDEKKHCVLTVSDGSQVYYSSFRQQGEIPAKNNMLLKATVDHSFEISVFDDHVVNAQNLQPGDFIEIVNVHAKIVVPHAAELLKGPLKLYEVYTNIADLAESDKRLNVYGLVKYFRPPTSTKTGQYNAFYTLIDPSVENDIESGVRCNFFSHTKDQLPQVERVGDIVRLHRVIVTHFNGRLQIKGNKGYSWCV",
+   "n_segments": 3,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 6,
+     "qend": 109,
+     "s_lo": 1141,
+     "s_hi": 1455,
+     "strand": "+",
+     "aa_len": 105
+    },
+    {
+     "qstart": 109,
+     "qend": 265,
+     "s_lo": 2504,
+     "s_hi": 2983,
+     "strand": "+",
+     "aa_len": 160
+    },
+    {
+     "qstart": 768,
+     "qend": 863,
+     "s_lo": 1147,
+     "s_hi": 1449,
+     "strand": "+",
+     "aa_len": 101
+    }
+   ],
+   "gene": "POT1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010020854.1"
+  },
+  "OGG1": {
+   "protein": "IPDSKMLSKIKDLSNVAIPTCDVEVSVSFPPWPNFLSVFSVFNKVLFXFKVDPSCEYKNVPYIIQFESTFSHAGGVNLPKILKCLGSDGQHRRQLVKFLKGRDDLRQDAVMQQVFGLVNKLLMKDGETRKRNLKMRTYKVCSYCDLDMGGGILIWTEVHRVXFLGEGCXNFLRLFYQVVPLSKKSGLMEWCDGTIPLGNYLIGGRDGSLGAHQRYYPKDWTPKQCRARLIFFLLMLITAINCSIVDLVGYVVGLGDRHCQNILIDCDTADVIHIDLGMMEVXCFRFEIMLLFLKEXLTPTFVFFWFVLGVAFEQGKYLPTPETVPFRLTRDVVDGMGSLGVEGVYRRCGEKTMSVLRTSQDSILTVVEVVVIVIQVLLYDPLSAWTLSSEKMSRLQNRKPISSTSSDFDTTKSTEADGNGNKMAERVLLRLKQKLCGSEGGTFLGINGQVNFLIQQARNTENLCLLFPGWQPWM",
+   "n_segments": 4,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 2647,
+     "qend": 2717,
+     "s_lo": 13626,
+     "s_hi": 13916,
+     "strand": "+",
+     "aa_len": 97
+    },
+    {
+     "qstart": 2715,
+     "qend": 2805,
+     "s_lo": 14152,
+     "s_hi": 14547,
+     "strand": "+",
+     "aa_len": 132
+    },
+    {
+     "qstart": 2844,
+     "qend": 2951,
+     "s_lo": 15000,
+     "s_hi": 15419,
+     "strand": "+",
+     "aa_len": 140
+    },
+    {
+     "qstart": 2945,
+     "qend": 3056,
+     "s_lo": 15832,
+     "s_hi": 16146,
+     "strand": "+",
+     "aa_len": 105
+    }
+   ],
+   "gene": "OGG1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000980.1"
+  },
+  "PARP1": {
+   "protein": "ACPYFGTRELQQRGAEIIFCPYNYLIDPLIRNQVKLFVIMIXAKLHATLTQNVVXITNLNFIADHSEPKXSVSFXMGLNLKEQIVVFDEGHNIEDCSREAASVTLTALQFEETKNELQELVFSEIEEQARCVILTSGTLSPMTSFSSELGVRFSIQLESNHVIADSQV",
+   "n_segments": 2,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 349,
+     "qend": 425,
+     "s_lo": 8098,
+     "s_hi": 8457,
+     "strand": "+",
+     "aa_len": 120
+    },
+    {
+     "qstart": 599,
+     "qend": 646,
+     "s_lo": 14845,
+     "s_hi": 14988,
+     "strand": "+",
+     "aa_len": 48
+    }
+   ],
+   "gene": "PARP1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010004936.1"
+  },
+  "POLD1": {
+   "protein": "SEVQDDEKKLISAVDYYFIQDDGERFKVTKYPRLFSLIHNLKPKSDEAKFFFLGLPSVSTLFLHSSKEGTXDTDYKXKRLGQKINTSLKCMFIXGTERELATYLNKKFTGLITSIETLEKEDLDLRQIQPHIKKNKEREKSSATFTLVTGKSLESKDGNGSKVDQMDHIMDIREYDVPYHVRVSIDLKIHVVRSQNLWYNVKIKGGMHVDITPRPDLLHRPDPVVLAFDIETTKLPLKFPDSTIDSIMMISYMIDGQGYLITNREIVSEDIDDFEYTPRPEFEGPIIVFNEADEVKLMANYSVSDAVATYYLYMQYVHPFIFALCTIIPMEPDEVNLKFLKVHFALDXVCKIFVFVFSFYXVLRKGSGTLCEALLMVQAFHANIIFPNKQEQEGHLLDTETYVGGHVEALESGVFRSDIPSRFRMQVIEDVNEQLAALRDTPNRLEKPMIYHLDVAAMYPNIILTNRLQPPAQVDEITCAACDFNKPGARCQRKMDWMWRGDFPANQSEYNNIRQQLEVEKMPGKFPNDPPRSFHQLSVVEQASFEKKRLADYCHKAYKKTKITKSEKRQTVICQRENSFYVDTVRAFRDRRYEFKGLLKVFTFIFKVWKKKVGAALEKGDPAEIKQVYSAKGMEVLYDSLQLAHKCILNSFYGYVMRKGSRWFSMEMAGIVCYTGANIITQARELVEQIGXVSSFDQISTSYYKHMHXTLFCQTDKLTXHMLIFYFSRPLELDTDGIWCILPASFPENFLIKTTHPKKPKITISYPGAMLNYIVQVGLSFXVHPINILQQSTCSPQRLLSILKLCNKVLLSLLQXTNFTNDQYHELVNEHRLEYKVKRENSIFFEVNFMYFKVDGPYKAMILPAAKEEGKKLKKRYRYAVFNEDGSLAELKGFEVKRRGELQLIKIFQSSVFESFLQGNTLETVYAAVAKCADYWLDVLYSKVRIKKFALYIEIHCYSLNHFTSKCLFSFVKWIVNXFXGSNLPDNELFELISENRSMSRSLEDYGSQKSTSISTAKRLAEFLGDQMVKDKGLACRFVISKKPEGAPVTERAVPLAIFQTEDSIKHHYLRKWLKVPPTFDFDIRNILDWNYYIERLNSCIQKIITIPAALQGVVSNPVPRCSHPDWLRKRLLEKNDIYQQQRITDMFSKQVKVCASSQIAESETPGVFNVFCMVSSELHCMKINVPRIFYVNSKKAKEGEGASENARYFHIPIGNIPSDDPALYATDVFYARHLQRHNHLLWVSATDRPDLGGKEEDDNGLDLFYIITINRHSVNITFVILFRLVTEFDEGGSLEVNQPGCYSTVCVELSLDALAVNTAIQYLRSPEALLYDPALYKYLHGIMKKYFMQVLFPXLISEFKTLGSTIVYANFNRIILNTKKRRYLRNTSVHLKECCLFVCXFVYLFVCLFVYIRVKDALAYVQYILNSITSKTLFKSIRLEPKSCWEYLLWMDPHSNFSITQKIHRSLSGGRGKDSASEFPVLVGSHLTLKHPALEFVKAVCEVPSFYSKPQYFLSIVDSIVTSFLRQXVLQLDVNTQSQVTKLRRDLLKLIGVGNFSDEAMFLDPCLSFIVPEVVICEYCNTCRDLDLCRD",
+   "n_segments": 24,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 69,
+     "qend": 141,
+     "s_lo": 4628,
+     "s_hi": 5002,
+     "strand": "+",
+     "aa_len": 125
+    },
+    {
+     "qstart": 168,
+     "qend": 246,
+     "s_lo": 6113,
+     "s_hi": 6328,
+     "strand": "+",
+     "aa_len": 72
+    },
+    {
+     "qstart": 243,
+     "qend": 303,
+     "s_lo": 6816,
+     "s_hi": 6995,
+     "strand": "+",
+     "aa_len": 60
+    },
+    {
+     "qstart": 304,
+     "qend": 343,
+     "s_lo": 7166,
+     "s_hi": 7285,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 455,
+     "qend": 522,
+     "s_lo": 9508,
+     "s_hi": 9792,
+     "strand": "+",
+     "aa_len": 95
+    },
+    {
+     "qstart": 530,
+     "qend": 562,
+     "s_lo": 9899,
+     "s_hi": 9997,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 598,
+     "qend": 641,
+     "s_lo": 10420,
+     "s_hi": 10551,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 642,
+     "qend": 675,
+     "s_lo": 10703,
+     "s_hi": 10804,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 677,
+     "qend": 724,
+     "s_lo": 10924,
+     "s_hi": 11067,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 725,
+     "qend": 774,
+     "s_lo": 11355,
+     "s_hi": 11504,
+     "strand": "+",
+     "aa_len": 50
+    },
+    {
+     "qstart": 768,
+     "qend": 793,
+     "s_lo": 11558,
+     "s_hi": 11635,
+     "strand": "+",
+     "aa_len": 26
+    },
+    {
+     "qstart": 791,
+     "qend": 823,
+     "s_lo": 11743,
+     "s_hi": 11841,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 824,
+     "qend": 929,
+     "s_lo": 12266,
+     "s_hi": 12712,
+     "strand": "+",
+     "aa_len": 149
+    },
+    {
+     "qstart": 896,
+     "qend": 937,
+     "s_lo": 12840,
+     "s_hi": 12965,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 931,
+     "qend": 956,
+     "s_lo": 13027,
+     "s_hi": 13104,
+     "strand": "+",
+     "aa_len": 26
+    },
+    {
+     "qstart": 955,
+     "qend": 1154,
+     "s_lo": 13300,
+     "s_hi": 14010,
+     "strand": "+",
+     "aa_len": 237
+    },
+    {
+     "qstart": 1154,
+     "qend": 1201,
+     "s_lo": 14342,
+     "s_hi": 14473,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 1335,
+     "qend": 1380,
+     "s_lo": 15559,
+     "s_hi": 15696,
+     "strand": "+",
+     "aa_len": 46
+    },
+    {
+     "qstart": 1648,
+     "qend": 1702,
+     "s_lo": 18799,
+     "s_hi": 18966,
+     "strand": "+",
+     "aa_len": 56
+    },
+    {
+     "qstart": 1668,
+     "qend": 1741,
+     "s_lo": 18977,
+     "s_hi": 19162,
+     "strand": "+",
+     "aa_len": 62
+    },
+    {
+     "qstart": 1824,
+     "qend": 1852,
+     "s_lo": 20348,
+     "s_hi": 20434,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 1848,
+     "qend": 1919,
+     "s_lo": 20520,
+     "s_hi": 20828,
+     "strand": "+",
+     "aa_len": 103
+    },
+    {
+     "qstart": 2061,
+     "qend": 2156,
+     "s_lo": 22090,
+     "s_hi": 22452,
+     "strand": "+",
+     "aa_len": 121
+    },
+    {
+     "qstart": 2156,
+     "qend": 2172,
+     "s_lo": 22545,
+     "s_hi": 22595,
+     "strand": "+",
+     "aa_len": 17
+    }
+   ],
+   "gene": "POLD1",
+   "genome": "TdohrniiOviedo",
+   "contig": "JAIFHF010000850.1"
+  }
+ },
+ "Aaurita": {
+  "BRCA1": {
+   "protein": "MAGFDEAGLPGKQYIKDGFSNCHDPSEFITAFQQENCVLLPSLHPALHLLDLQGVPRVTFHQTLLEELRDKLLKRIKDCGKDKLQNLLEHTFRFVHVDQLRPVIMAIMKEIPAIENQYIDQLADNVNLYTDCPIEVKRQIWIRKHPLFGDAVGPLLKNYVEYKYTEIFNLDATPSKSFFVIAPRQRRQHKIVKDLANMIGGKSVELYNLLLQFLRTLYLRTKEVHYCSLRAEILMAFHDADISEIRSVDPCHKFTWCLDACIREKNADSRRLKELRAFIDGMKKGEEEIIGCYFIEISSLFSRTILHHVLPTFCRVCKDNPPNDCLLNAITNTLARHADEFHNADFCLLIFDQFLFTWLPTESILHHCLRLLWLVHAKIEGGRMVQLLTTTQPRGE",
+   "n_segments": 3,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 200,
+     "s_lo": 567040,
+     "s_hi": 567639,
+     "strand": "+",
+     "aa_len": 200
+    },
+    {
+     "qstart": 200,
+     "qend": 290,
+     "s_lo": 569551,
+     "s_hi": 569823,
+     "strand": "+",
+     "aa_len": 91
+    },
+    {
+     "qstart": 420,
+     "qend": 524,
+     "s_lo": 572716,
+     "s_hi": 573030,
+     "strand": "+",
+     "aa_len": 105
+    }
+   ],
+   "gene": "BRCA1",
+   "genome": "Aaurita",
+   "contig": "REGM01000201.1"
+  },
+  "DKC1": {
+   "protein": "LASDFLIKPTSIVGKLDTSQWPLLLKNYDKLNVRTGHYTPLPCGSSPLKRDIKDYLASGFINLDKPANPSSHEVVAWIKRILRVNKTGHSGTLDPKVTGCLIVCIDKATRLVKSQQGAGKEYVCIVRLHGPIESEVKLAKALETLTGAMFQRPPLISAVKRQLRVRTIYESKLLEYDTERHLGIFWISCEAGTYVRTLCVHIGLLLGVGAHMQELRRVRSGIQSENEGIVTMHDVLDAQHQYDNSKDESYLRRVVKPLEALLTTHKRLVVKDSAVNAICYGAKLMLPGLLRYENGIEMNDEVVMMTGESQLASDFLIKPTSIVGKLDTSQWPLLLKNYDKLNVRTGHYTPLPCGSSPLKRDIKDYLASGFINLDKPANPSSHEVVAWIKRILRVNKTGHSGTLDPKVTGCLIVCIDKATRLVKSQQGAGKEYVCIVRLHGPIESEVKLAKALETLTGAMFQRPPLISAVKRQLRVRTIYESKLLEYDTERHLGIFWISCEAGTYVRTLCVHIGLLLGVGAHMQELRRVRSGIQSENEGIVTMHDVLDAQHQYDNSKDESYLRRVVKPLEALLTTHKRLVVKDSAVNAICYGAKLMLPGLLRYENGIEMNDEVVMMTKDVGESQLASDFLIKPTSIVGKLDTSQWPLLLKNYDKLNVRTGHYTPLPCGSSPLKRDIKDYLASGFINLDKPANPSSHEVVAWIKRILRVNKTGHSGTLDPKVTGCLIVCIDKATRLVKSQQGAGKEYVCIVRLHGPIESEVKLAKALETLTGAMFQRPPLISAVKRQLRVRTIYESKLLEYDTERHLGIFWISCEAGTYVRTLCVHIGLLLGVGAHMQELRRVRSGIQSENEGIVTMHDVLDAQHQYDNSKDESYLRRVVKPLEALLTTHKRLVVKDSAVNAICYGAKLMLPGLLRYENGIEMNDEVVMMT",
+   "n_segments": 3,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 20,
+     "qend": 325,
+     "s_lo": 357139,
+     "s_hi": 358056,
+     "strand": "-",
+     "aa_len": 306
+    },
+    {
+     "qstart": 21,
+     "qend": 330,
+     "s_lo": 357139,
+     "s_hi": 358068,
+     "strand": "-",
+     "aa_len": 310
+    },
+    {
+     "qstart": 25,
+     "qend": 337,
+     "s_lo": 357139,
+     "s_hi": 358077,
+     "strand": "-",
+     "aa_len": 313
+    }
+   ],
+   "gene": "DKC1",
+   "genome": "Aaurita",
+   "contig": "REGM01000245.1"
+  },
+  "ERCC1": {
+   "protein": "QINTSNPYNFKQKKKSYEEAGRYLETYKSYENKPADILQEKVEGDYQSKHSLRKVAGNRQNFLHWNVPWEFGDIIPDYVLGLKSCALFLRYIYYGVAGNRQNFLHWNVPWEFGDIIPDYVLGLKSCALFLRYIYYKQKKKSYEEAGRYLETYKSYENKPADILQEKVEGDYQSKHSLIFFIKTAAVKALVHFLLKQKKKSYEEAGRYLETYKSYENKPADILQEKVEGDYQSKHSL",
+   "n_segments": 5,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 46,
+     "qend": 95,
+     "s_lo": 332374,
+     "s_hi": 332529,
+     "strand": "-",
+     "aa_len": 52
+    },
+    {
+     "qstart": 108,
+     "qend": 150,
+     "s_lo": 334625,
+     "s_hi": 334753,
+     "strand": "-",
+     "aa_len": 43
+    },
+    {
+     "qstart": 198,
+     "qend": 237,
+     "s_lo": 334628,
+     "s_hi": 334747,
+     "strand": "-",
+     "aa_len": 40
+    },
+    {
+     "qstart": 199,
+     "qend": 257,
+     "s_lo": 332323,
+     "s_hi": 332499,
+     "strand": "-",
+     "aa_len": 59
+    },
+    {
+     "qstart": 287,
+     "qend": 328,
+     "s_lo": 332374,
+     "s_hi": 332499,
+     "strand": "-",
+     "aa_len": 42
+    }
+   ],
+   "gene": "ERCC1",
+   "genome": "Aaurita",
+   "contig": "REGM01000120.1"
+  },
+  "FEN1": {
+   "protein": "LNEFVEKRIRTNDTSFYDPIKRCKLKTFATMKAKKICKVKEKAITIGAERGIFAKLLVIREKRDTVSMKELISYSLGPIPWSLALPDGGLVKTVKSKLLNALEADVPHLETLPEGTTFVFDGMVILQQLNTAHLDTFGDISDFVFKRISRGNSTTIYFVTDQYLDHSIKEMERKKRGSSGVIRIKLERRDQKTPKQFKKYLADPKNKIELVKFLLSDWSHPKRFRDRIRNRTIYATVEDKCFAISVVNEDVCAVEVEILCSRQEEADTKVFLCSKHAEQSSLLLXTYVTVDSDIAIYSVYFADKFNINIYIDIGSGKSRRILDVKAIYDNIGSSIAQALPALHAFTGNDYTSAFHAIGKIKAYKILKKFEHFQYVFGMIGEDFEFDMLNKLXQEEFVCALYGLKSMADVNEARYVKFCSKKGRMPEPQQLPPTRDELLQHCKRVSYVTAIIKQALELNVEYPSPHGHGWIIAASGDLEIEWMTQKPAPDSILEMVSCSCKRSKCHTESCNCFAHGLKCTDMCNCSQCENEFDDDDI",
+   "n_segments": 1,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 533,
+     "s_lo": 103566,
+     "s_hi": 105173,
+     "strand": "-",
+     "aa_len": 536
+    }
+   ],
+   "gene": "FEN1",
+   "genome": "Aaurita",
+   "contig": "REGM01000184.1"
+  },
+  "MLH1": {
+   "protein": "MADSTPHIRQLDEVVVNRIAAGEVIHRPANAIKEMIENCIDAGSKSIQVTLKSGKPDLVXIEEGGLKLIQIQDDGCGIKKEDLEIVCKRFTTSKLEKFDDLKSIQTYGFRGEALASISHIAHVTITTKTAQGKCAYKAKYQDGNMIGKHITGDAKACAGNTGTQIVAEDLFYNVSVRRKALKSGSEEHGKVMDVISKYAIHNEGIGFTLKKYGESIADVRTLSKSSKKDNIQTIYGPTIAKELLEVAVEDAKLCFKMNGFISNANFSVKKVIFLLFINNRLVDCTNLRKAIEVVYVNYLPKDKHPFVYMSLFIAPSNIDVNVHPTKHEVHFLHEDLIIESIQKAVDAKLLGANESRHYYTQTLIPTFGSTSISPRRDIRLSSVKNLRKAIDEKEHSVMKTLLEDHIFVGCVDRSRALIQHSTKLYLVNTAKLSKELFYQIVIFNFGNFGYMRLSSPAPVYDLALLALETEQSGWTQSDGPKNDLAKYVVELLQSKAEMLRDYFSIEIDQQGNLLALPLLLKKFNPDVNRLPMFLLRLATDVSFPRRDIRLSSVKNLRKAIDEKEHSVMKTLLEDHIFVGCVDRSRALIQHSTKLYLVNTAKLSKELFYQIVIFNFGNFGYMRLSSPAPVYDLALLALETEQSGWTQSDGPKNDLAKYVVELLQSKAEMLRDYFSIEIDQQGNLLALPLLLKKFNPDVNRLPMFLLRLATDVSFRDDTNTSSLIHPRRDIRLSSVKNLRKAIDEKEHSVMKTLLEDHIFVGCVDRSRALIQHSTKLYLVNTAKLSKELFYQIVIFNFGNFGYMRLSSPAPVYDLALLALETEQSGWTQSDGPKNDLAKYVVELLQSKAEMLRDYFSIEIDQQGNLLALPLLLKKFNPDVNRLPMFLLRLATDVSFYLPYLLFYILILIYSLXVDWDSEQECFHTLANVCSTFFAFGQNELDIKPLDNAENSSLSGVHADTCHDEATPKVRPWKWTVQHILFPAIRHGLVPPRKLSEDCTILQIANLPDLYKVFERCPWKWTVQHILFPAIRHGLVPPRKLSEDCTILQIANLPDLYKVFERC",
+   "n_segments": 8,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 63,
+     "s_lo": 372482,
+     "s_hi": 372670,
+     "strand": "+",
+     "aa_len": 63
+    },
+    {
+     "qstart": 52,
+     "qend": 137,
+     "s_lo": 374580,
+     "s_hi": 374837,
+     "strand": "+",
+     "aa_len": 86
+    },
+    {
+     "qstart": 141,
+     "qend": 364,
+     "s_lo": 380762,
+     "s_hi": 381433,
+     "strand": "+",
+     "aa_len": 224
+    },
+    {
+     "qstart": 455,
+     "qend": 624,
+     "s_lo": 386060,
+     "s_hi": 386569,
+     "strand": "+",
+     "aa_len": 170
+    },
+    {
+     "qstart": 478,
+     "qend": 647,
+     "s_lo": 386060,
+     "s_hi": 386569,
+     "strand": "+",
+     "aa_len": 170
+    },
+    {
+     "qstart": 549,
+     "qend": 737,
+     "s_lo": 386027,
+     "s_hi": 386593,
+     "strand": "+",
+     "aa_len": 189
+    },
+    {
+     "qstart": 718,
+     "qend": 808,
+     "s_lo": 388639,
+     "s_hi": 388977,
+     "strand": "+",
+     "aa_len": 113
+    },
+    {
+     "qstart": 804,
+     "qend": 849,
+     "s_lo": 388840,
+     "s_hi": 388977,
+     "strand": "+",
+     "aa_len": 46
+    }
+   ],
+   "gene": "MLH1",
+   "genome": "Aaurita",
+   "contig": "REGM01000010.1"
+  },
+  "MSH2": {
+   "protein": "DSTVCXLIFFMSNSNFVLLLTGSKKLPYAVLSKSNFETFVRDLLLVRQYRVELYRSKAGRSNAWELFFMSNSNFVLLLTGSKKLPYAVLSKSNFETFVRDLLLVRQYRVELYRSKAGRSNAWELSGKGSKKLPYAVLSKSNFETFVRDLLLVRQYRVELYRSKAGRSNAWELSGKASPGNLQQFEEVLFGNNDMSASAVVMAVKLGADSAGQKVLTNRLINXLRFTQLTFIFTIXALIVQIGPKECLVAGPDSSSESAKLKQVLERSNVLVTDRKRGKFALIVQIGPKECLVAGPDSSSESAKLKQVLERSNVLVTDRKRGKFLQRLNRAFTVSHIGATVELEETFKFQSCCVKFRLSPFKVESLFTFNCYNFLSILQQLLSDESNFNQFTISTFDLSQYMKLDAAAVRALNLFPSPMDGQLLSDESNFNQFTISTFDLSQYMKLDAAAVRALNLFPSPMDGQLLSDESNFNQFTISTFDLSQYMKLDAAAVRALNLFPSPMDGQLLSDESNFNQFTISTFDLSQYMKLDAAAVRALNLFPSPMDCSFAGGNKSKCLTGLLNSCKTPQGQRLLAQWVKQPLMDKNKIGKLKCKLSKCLTGLLNSCKTPQGQRLLAQWVKQPLMDKNKIRVLFQDCVRIYQAIRRLPHLVNTLEKYDGKNEKMIKEVFASSFQVLCSYFXDCINDFSKYMDLIETTVDLDAVDSNDFLIKAEFDDGLKECKDQMDEIDCINDFSKYMDLIETTVDLDAVDSNDFLIKAEFDDGLKECKDQMDEIFSKFDCINDFSKYMDLIETTVDLDAVDSNDFLIKAEFDDGLKECKDQMDEIFSKFPKELSKVSQQEEKVLRQNKKFQTIETRKDGVRFTNSSLREMSSEYLALKATYTSVQSQLASEVIKIAGNGDGDLILIGSRHPCLEVQDDVAFIPNDVKLLRGKCQIGVIALMAQIGSFVPCTSAEIAIIDSILARVGAGDSQLKGVSTFMSEMLETASILRQIGVIALMAQIGSFVPCTSAEIAIIDSILARVGAGDSQLKGVSTFMSEMLETASILQIGVIALMAQIGSFVPCTSAEIAIIDSILARVGAGDSQLKGVSTFMSEMLETASILRVQIGVIALMAQIGSFVPCTSAEIAIIDSILARVGAGDSQLKGVSTFMSEMLETASILRLGTKLIVMXFFQSATRDSLIIIDELGRGTSTYDGFGLAWAISEFQSATRDSLIIIDELGRGTSTYDGFGLAWAISEFQSATRDSLIIIDELGRGTSTYDGFGLAWAISEFNFFVVCFRHIATELKSFCLFATHFHELTGLADCVTSVSNQHVTAMTVDGSLTLLYKVKPGIFNFFVVCFRHIATELKSFCLFATHFHELTGLADCVTSVSNQHVTAMTVDGSLTLLYKVKPGI",
+   "n_segments": 27,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 47,
+     "qend": 111,
+     "s_lo": 807409,
+     "s_hi": 807606,
+     "strand": "+",
+     "aa_len": 66
+    },
+    {
+     "qstart": 58,
+     "qend": 118,
+     "s_lo": 807433,
+     "s_hi": 807615,
+     "strand": "+",
+     "aa_len": 61
+    },
+    {
+     "qstart": 71,
+     "qend": 122,
+     "s_lo": 807472,
+     "s_hi": 807615,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 119,
+     "qend": 156,
+     "s_lo": 808497,
+     "s_hi": 808613,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 164,
+     "qend": 228,
+     "s_lo": 811715,
+     "s_hi": 811909,
+     "strand": "+",
+     "aa_len": 65
+    },
+    {
+     "qstart": 189,
+     "qend": 232,
+     "s_lo": 811778,
+     "s_hi": 811909,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 229,
+     "qend": 309,
+     "s_lo": 821454,
+     "s_hi": 821744,
+     "strand": "+",
+     "aa_len": 97
+    },
+    {
+     "qstart": 271,
+     "qend": 312,
+     "s_lo": 821619,
+     "s_hi": 821744,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 272,
+     "qend": 313,
+     "s_lo": 821619,
+     "s_hi": 821744,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 278,
+     "qend": 318,
+     "s_lo": 821619,
+     "s_hi": 821741,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 305,
+     "qend": 350,
+     "s_lo": 823088,
+     "s_hi": 823234,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 323,
+     "qend": 356,
+     "s_lo": 823112,
+     "s_hi": 823213,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 388,
+     "qend": 431,
+     "s_lo": 827070,
+     "s_hi": 827201,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 428,
+     "qend": 481,
+     "s_lo": 828324,
+     "s_hi": 828485,
+     "strand": "+",
+     "aa_len": 54
+    },
+    {
+     "qstart": 432,
+     "qend": 482,
+     "s_lo": 828345,
+     "s_hi": 828497,
+     "strand": "+",
+     "aa_len": 51
+    },
+    {
+     "qstart": 435,
+     "qend": 492,
+     "s_lo": 828345,
+     "s_hi": 828518,
+     "strand": "+",
+     "aa_len": 58
+    },
+    {
+     "qstart": 519,
+     "qend": 580,
+     "s_lo": 831091,
+     "s_hi": 831276,
+     "strand": "+",
+     "aa_len": 62
+    },
+    {
+     "qstart": 621,
+     "qend": 655,
+     "s_lo": 833744,
+     "s_hi": 833848,
+     "strand": "+",
+     "aa_len": 35
+    },
+    {
+     "qstart": 671,
+     "qend": 727,
+     "s_lo": 837012,
+     "s_hi": 837182,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 674,
+     "qend": 729,
+     "s_lo": 837012,
+     "s_hi": 837179,
+     "strand": "+",
+     "aa_len": 56
+    },
+    {
+     "qstart": 674,
+     "qend": 731,
+     "s_lo": 837012,
+     "s_hi": 837185,
+     "strand": "+",
+     "aa_len": 58
+    },
+    {
+     "qstart": 681,
+     "qend": 737,
+     "s_lo": 837012,
+     "s_hi": 837182,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 720,
+     "qend": 758,
+     "s_lo": 839409,
+     "s_hi": 839537,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 729,
+     "qend": 761,
+     "s_lo": 839439,
+     "s_hi": 839537,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 736,
+     "qend": 768,
+     "s_lo": 839439,
+     "s_hi": 839537,
+     "strand": "+",
+     "aa_len": 33
+    },
+    {
+     "qstart": 753,
+     "qend": 814,
+     "s_lo": 842688,
+     "s_hi": 842873,
+     "strand": "+",
+     "aa_len": 62
+    },
+    {
+     "qstart": 760,
+     "qend": 821,
+     "s_lo": 842688,
+     "s_hi": 842873,
+     "strand": "+",
+     "aa_len": 62
+    }
+   ],
+   "gene": "MSH2",
+   "genome": "Aaurita",
+   "contig": "REGM01000035.1"
+  },
+  "POLD2": {
+   "protein": "MEDQIRRCVCSYKNHSERFIQKGRKFDLQYSQLYAVRLMAMRKKLAVSVRKKWGDQIRRCVCSYKNHSERFIQKGRKFDLQYSQLYAVRLMAMRKKLAVSVRKKWGKTRLLSVWEKVNIKGKSVNIQKLSDLKTDEKCCVIGTLFKKMELEPSILKEISEEGKSVNIQKLSDLKTDEKCCVIGTLFKKMELEPSILKEISEEGKSVNIQKLSDLKTDEKCCVIGTLFKKMELEPSILKEISEEVNIHNLMPLPPREKYIDDTDELIIEDESQRVFLKGEIPTSVCVTGKIMGTIIAVLGHEENGGKFFVEDYCYSGLPYQAQPDLDLPLTKGEDRYVHYLRGACVPVDIMPGEFDPANHFLPQQPLHKCMFPKALSYPTVQSVCNPYEASIGGVRCCSYRLAFQLISCQVNLIQRIISCHNSPFTNACSLKLSHTLQFRVFVIPMKPLLAVILICCSYRLAFQLISCQVNLIQRIISCHNSPFTNACSLKLSHTLQFRVFVIPMKPLLAVYRLAFQLISCQVNLIQRIISCHNSPFTNACSLKLSHTLQFRVFVIPMKPLLAVDFSRFLGTSGQNIQNIYQFSSHEDRMDILEFTLQCGHLCPTCPDTLSRFLGTSGQNIQNIYQFSSHEDRMDILEFTLQCGHLCPTCPDTLSDFSRFLGTSGQNIQNIYQFSSHEDRMDILEFTLQCGHLCPTCPDTLRFLGTSGQNIQNIYQFSSHEDRMDILEFTLQCGHLCPTCPDTLGCYPYYTDDPFVLRDCPQVYFAGNQPSFVSRTVQGGCYPYYTDDPFVLRDCPQVYFAGNQPSFVSRTVQG",
+   "n_segments": 17,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1,
+     "qend": 54,
+     "s_lo": 201795,
+     "s_hi": 201956,
+     "strand": "+",
+     "aa_len": 54
+    },
+    {
+     "qstart": 4,
+     "qend": 68,
+     "s_lo": 201801,
+     "s_hi": 201998,
+     "strand": "+",
+     "aa_len": 66
+    },
+    {
+     "qstart": 54,
+     "qend": 94,
+     "s_lo": 204990,
+     "s_hi": 205112,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 56,
+     "qend": 96,
+     "s_lo": 204990,
+     "s_hi": 205112,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 74,
+     "qend": 117,
+     "s_lo": 204990,
+     "s_hi": 205121,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 115,
+     "qend": 159,
+     "s_lo": 206018,
+     "s_hi": 206152,
+     "strand": "+",
+     "aa_len": 45
+    },
+    {
+     "qstart": 167,
+     "qend": 217,
+     "s_lo": 206764,
+     "s_hi": 206916,
+     "strand": "+",
+     "aa_len": 51
+    },
+    {
+     "qstart": 266,
+     "qend": 318,
+     "s_lo": 210413,
+     "s_hi": 210571,
+     "strand": "+",
+     "aa_len": 53
+    },
+    {
+     "qstart": 268,
+     "qend": 325,
+     "s_lo": 210398,
+     "s_hi": 210571,
+     "strand": "+",
+     "aa_len": 56
+    },
+    {
+     "qstart": 280,
+     "qend": 340,
+     "s_lo": 210389,
+     "s_hi": 210571,
+     "strand": "+",
+     "aa_len": 59
+    },
+    {
+     "qstart": 301,
+     "qend": 355,
+     "s_lo": 210407,
+     "s_hi": 210571,
+     "strand": "+",
+     "aa_len": 53
+    },
+    {
+     "qstart": 315,
+     "qend": 361,
+     "s_lo": 213279,
+     "s_hi": 213419,
+     "strand": "+",
+     "aa_len": 47
+    },
+    {
+     "qstart": 325,
+     "qend": 368,
+     "s_lo": 213288,
+     "s_hi": 213419,
+     "strand": "+",
+     "aa_len": 44
+    },
+    {
+     "qstart": 337,
+     "qend": 382,
+     "s_lo": 213279,
+     "s_hi": 213416,
+     "strand": "+",
+     "aa_len": 46
+    },
+    {
+     "qstart": 355,
+     "qend": 397,
+     "s_lo": 213288,
+     "s_hi": 213416,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 368,
+     "qend": 402,
+     "s_lo": 216316,
+     "s_hi": 216420,
+     "strand": "+",
+     "aa_len": 35
+    },
+    {
+     "qstart": 383,
+     "qend": 417,
+     "s_lo": 216316,
+     "s_hi": 216420,
+     "strand": "+",
+     "aa_len": 35
+    }
+   ],
+   "gene": "POLD2",
+   "genome": "Aaurita",
+   "contig": "REGM01000259.1"
+  },
+  "POLE": {
+   "protein": "TVCVQVFLYXPGVYQIFFGLIFRSSCISXLLLHVAILSYFPIIFSLLFRCRWTISSVKKNKRVRSVVIQGIEEVIVHDRNEVYEILERGARRRQTAATLLNAHSVYQIFFGLIFRSSCISXLLLHVAILSYFPIIFSLLFRCRWTISSVKKNKRVRSVVIQGIEEVIVHDRNEVYEILERGARRRQTAATLLNAHSSRSHTLFSVTIHMKENNINGEEFLKTGKLNLVSSRSHTLFSVTIHMKENNINGEEFLKTGKLNLVAGTINQSLLTLGRVITSLVERAPHIPYRESKLTRLLQDSLGGRTKTSIIATVSPASVNLEVCLCSHAYAGTINQSLLTLGRVITSLVERAPHIPYRESKLTRLLQDSLGGRTKTSIIATVSPASVNLEVCLCSHAYQETLSTLDYAHRAKNIQNKPEINQKLTKKALIKQETLSTLDYAHRAKNIQNKPEINQKLTKKALIKYSAMQSKLQSQKSSLQDYIDKIAAMEKEAEKINQLFTSTKDELEATTENLEKTRQQRDEKTHLLDHHVEKGGQLLNQASELLDTVEGSVSDVEGLHSKLDRTAQVHSHNYSAMQSKLQSQKSSLQDYIDKIAAMEKEAEKINQLFTSTKDELEATTENLEKTRQQRDEKTHLLDHHVEKGGQLLNQASELLDTVEGSVSDVEGLHSKLDRTAQVHSHNESTCDAKFLLYVNTVLKMNDLNVLTFKRQQSFYSSITSKLGELI",
+   "n_segments": 10,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 118,
+     "qend": 224,
+     "s_lo": 432230,
+     "s_hi": 432541,
+     "strand": "-",
+     "aa_len": 104
+    },
+    {
+     "qstart": 136,
+     "qend": 228,
+     "s_lo": 432230,
+     "s_hi": 432505,
+     "strand": "-",
+     "aa_len": 92
+    },
+    {
+     "qstart": 225,
+     "qend": 257,
+     "s_lo": 431481,
+     "s_hi": 431579,
+     "strand": "-",
+     "aa_len": 33
+    },
+    {
+     "qstart": 229,
+     "qend": 260,
+     "s_lo": 431484,
+     "s_hi": 431579,
+     "strand": "-",
+     "aa_len": 32
+    },
+    {
+     "qstart": 277,
+     "qend": 344,
+     "s_lo": 429528,
+     "s_hi": 429731,
+     "strand": "-",
+     "aa_len": 68
+    },
+    {
+     "qstart": 281,
+     "qend": 348,
+     "s_lo": 429528,
+     "s_hi": 429731,
+     "strand": "-",
+     "aa_len": 68
+    },
+    {
+     "qstart": 336,
+     "qend": 368,
+     "s_lo": 428954,
+     "s_hi": 429052,
+     "strand": "-",
+     "aa_len": 33
+    },
+    {
+     "qstart": 340,
+     "qend": 372,
+     "s_lo": 428954,
+     "s_hi": 429052,
+     "strand": "-",
+     "aa_len": 33
+    },
+    {
+     "qstart": 397,
+     "qend": 505,
+     "s_lo": 427283,
+     "s_hi": 427609,
+     "strand": "-",
+     "aa_len": 109
+    },
+    {
+     "qstart": 401,
+     "qend": 585,
+     "s_lo": 427151,
+     "s_hi": 427609,
+     "strand": "-",
+     "aa_len": 153
+    }
+   ],
+   "gene": "POLE",
+   "genome": "Aaurita",
+   "contig": "REGM01000010.1"
+  },
+  "RAD51": {
+   "protein": "HQEYPQTDSDKIFHYSXQQHGISANDVKKLVDAGFYTVEAVAYTPKKALLAVKGISEAKADKILAEVVKLIPMGFTTATEFHQKRSEIIQVTTGSKELDKLLQGFSGGIETGGITEIFGEFRTGKTQLCHQLCVTCQVLPIDCGGGEGKAMYIDTEGTFRPERLLAIAERRYGLNGQEVLDNVAYARAYTSDHQTQLLIHASAMMAESRYDFILLFIYSSRYALIIVDSATALYRTDYSGRGELSARQMHLARFLRFLLRLADEQFGIAVVITNQVVAQVDGASMFQSDPKKPIGGNIMAHASTTRRLSCRKGRGETRICKIYDSPCLPEAEAMFAINADGIGDAKD",
+   "n_segments": 7,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 9,
+     "qend": 112,
+     "s_lo": 709100,
+     "s_hi": 709411,
+     "strand": "+",
+     "aa_len": 104
+    },
+    {
+     "qstart": 110,
+     "qend": 143,
+     "s_lo": 713064,
+     "s_hi": 713165,
+     "strand": "+",
+     "aa_len": 34
+    },
+    {
+     "qstart": 143,
+     "qend": 174,
+     "s_lo": 713845,
+     "s_hi": 713940,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 174,
+     "qend": 218,
+     "s_lo": 714738,
+     "s_hi": 714872,
+     "strand": "+",
+     "aa_len": 45
+    },
+    {
+     "qstart": 207,
+     "qend": 255,
+     "s_lo": 715711,
+     "s_hi": 715857,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 255,
+     "qend": 296,
+     "s_lo": 716624,
+     "s_hi": 716749,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 296,
+     "qend": 336,
+     "s_lo": 718265,
+     "s_hi": 718387,
+     "strand": "+",
+     "aa_len": 41
+    }
+   ],
+   "gene": "RAD51",
+   "genome": "Aaurita",
+   "contig": "REGM01000075.1"
+  },
+  "TERF1": {
+   "protein": "KFSADKGKYGFKMLSKMGWSEGKGLGANETGTVSHVKVTKRTYFSYGKFIKSKDLSLKSKNDLACVFGQRSKSTPSTPQQ",
+   "n_segments": 2,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 21,
+     "qend": 61,
+     "s_lo": 135150,
+     "s_hi": 135272,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 114,
+     "qend": 152,
+     "s_lo": 136825,
+     "s_hi": 136941,
+     "strand": "+",
+     "aa_len": 39
+    }
+   ],
+   "gene": "TERF1",
+   "genome": "Aaurita",
+   "contig": "REGM01000416.1"
+  },
+  "TERT": {
+   "protein": "ASNDIEGDINDSGRELFEACRTGDVNKVTSLVQNEWSVNMRDTAGRKSTPLHFAAGVNCQDVDGRHSTPLHFAAGYNRLNIVTFLLQSGADVHAKDKGYAIGGLIPLHNACSFGHVEVTLLLLRHNADVNARDNWNYTPLHEAATKGKVEVCLGELCQTCLTLTVSRTEFHKEFFXKNQLWLSVILFAFIIVLLQHGADPSIRNTDGKTAGDLAEPSAKLVLTGITTPQTVNCQDVDGRHSTPLHFAAGYNRLNIVTFLLQSGADVHAKDKGAGYNHLEVAEFLLEKGADVNAQDKGGLIPLHNASSYGGGLIPLHNACSFGHVEVTLLLLRHNADVNARDNWNYTPLHEAATKGKVEVCLGELCQTCLTLTVSRTEFHKEFFXKNQLWLSVILFAFIIVLLQHGADPSIRNTDGKTAGDLAEPSAKLVLTGTVYTVIILVYHTKLXQVKQTPLHRSAQNGHVAMCELLLENGADASICSLQGYTAAQIGTEAVKKQLQGFFSYLLENQRITTPQTVNCQDVDGRHSTPLHFAAGYNRLNIVTFLLQSGADVHAKDKGAGYNHLEVAEFLLEKGADVNAQDKGGLIPLHNASSYGGGLIPLHNACSFGHVEVTLLLLRHNADVNARDNWNYTPLHEAATKGKVEVCLGELCQTCLTLTVSRTEFHKEFFXKNQLWLSVILFAFIIVLLQHGADPSIRNTDGKTAGDLAEKEKSRWSTPLDLVKDCFPDVIDLLRGDAALLEAAKKGNMPKVRITTPQTVNCQDVDGRHSTPLHFAAGYNRLNIVTFLLQSGADVHAKDKGYAIAGYNHLEVAEFLLEKGADVNAQDKGGLIPLHNASSYGGGLIPLHNACSFGHVEVTLLLLRHNADVNARDNWNYTPLHEAATKGKVEVCLGELCQTCLTLTVSRTEFHKEFFXKNQLWLSVILFAFIIVLLQHGADPSIRNTDGKTAGDLAEPSAKLVLITMDVLVDMGHEELKEVGIAAYGHRHKLLKAVKERLGGTGCTGSPFVNAIVQKGFDERHAYIGGMFGAGNYSGIYFAEHSSKSNQYVYGIGGGSGCPLHKDRSCYECHRRQIILCRVTLGKPFFQFTAVKMAHAPPGHHSVVGKPNSGGLSYPEYVVYRGEQV",
+   "n_segments": 18,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 18,
+     "qend": 75,
+     "s_lo": 1802239,
+     "s_hi": 1802406,
+     "strand": "+",
+     "aa_len": 56
+    },
+    {
+     "qstart": 57,
+     "qend": 101,
+     "s_lo": 1811845,
+     "s_hi": 1811979,
+     "strand": "+",
+     "aa_len": 45
+    },
+    {
+     "qstart": 98,
+     "qend": 182,
+     "s_lo": 1806297,
+     "s_hi": 1806665,
+     "strand": "+",
+     "aa_len": 123
+    },
+    {
+     "qstart": 204,
+     "qend": 251,
+     "s_lo": 1811827,
+     "s_hi": 1811970,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 227,
+     "qend": 263,
+     "s_lo": 1814483,
+     "s_hi": 1814593,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 251,
+     "qend": 356,
+     "s_lo": 1806297,
+     "s_hi": 1806719,
+     "strand": "+",
+     "aa_len": 141
+    },
+    {
+     "qstart": 442,
+     "qend": 499,
+     "s_lo": 1810849,
+     "s_hi": 1811022,
+     "strand": "+",
+     "aa_len": 58
+    },
+    {
+     "qstart": 517,
+     "qend": 566,
+     "s_lo": 1811821,
+     "s_hi": 1811970,
+     "strand": "+",
+     "aa_len": 50
+    },
+    {
+     "qstart": 542,
+     "qend": 578,
+     "s_lo": 1814483,
+     "s_hi": 1814593,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 566,
+     "qend": 641,
+     "s_lo": 1806297,
+     "s_hi": 1806638,
+     "strand": "+",
+     "aa_len": 114
+    },
+    {
+     "qstart": 628,
+     "qend": 669,
+     "s_lo": 1813236,
+     "s_hi": 1813361,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 671,
+     "qend": 722,
+     "s_lo": 1811824,
+     "s_hi": 1811979,
+     "strand": "+",
+     "aa_len": 52
+    },
+    {
+     "qstart": 695,
+     "qend": 731,
+     "s_lo": 1814483,
+     "s_hi": 1814593,
+     "strand": "+",
+     "aa_len": 37
+    },
+    {
+     "qstart": 719,
+     "qend": 801,
+     "s_lo": 1806297,
+     "s_hi": 1806659,
+     "strand": "+",
+     "aa_len": 121
+    },
+    {
+     "qstart": 908,
+     "qend": 949,
+     "s_lo": 1818123,
+     "s_hi": 1818248,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 1045,
+     "qend": 1073,
+     "s_lo": 1820272,
+     "s_hi": 1820358,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 1070,
+     "qend": 1107,
+     "s_lo": 1820717,
+     "s_hi": 1820830,
+     "strand": "+",
+     "aa_len": 38
+    },
+    {
+     "qstart": 1107,
+     "qend": 1160,
+     "s_lo": 1822080,
+     "s_hi": 1822241,
+     "strand": "+",
+     "aa_len": 54
+    }
+   ],
+   "gene": "TERT",
+   "genome": "Aaurita",
+   "contig": "REGM01000008.1"
+  },
+  "XRCC1": {
+   "protein": "IVKSDVSIWLNKAAKGMRDKFGNPIHNAHLIVIFHRLCKLLFYKVKPIFVFDGGVPELKKKTIVSTQKKIFFHFSXEATDFSDFQLKNLFRRGKITKKIDDVRKTMKTQSSGEIAEAEEGRYLGKNVKSFEANRISSEDKQHYILMKQDLLRLFGIPFIISPMEAEAQCAILDIAGLTNGSITDDSDILLFGGKRVYKNIFNQEKYAELYTAEDINHTL",
+   "n_segments": 3,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 26,
+     "qend": 94,
+     "s_lo": 619187,
+     "s_hi": 619393,
+     "strand": "+",
+     "aa_len": 69
+    },
+    {
+     "qstart": 218,
+     "qend": 293,
+     "s_lo": 623418,
+     "s_hi": 623651,
+     "strand": "+",
+     "aa_len": 78
+    },
+    {
+     "qstart": 773,
+     "qend": 844,
+     "s_lo": 630769,
+     "s_hi": 630984,
+     "strand": "+",
+     "aa_len": 72
+    }
+   ],
+   "gene": "XRCC1",
+   "genome": "Aaurita",
+   "contig": "REGM01000097.1"
+  },
+  "LIG4": {
+   "protein": "TMEDVNNCLDAMAHANVEKKRDIMKKEIHKLIRNTSALEQKITHFFLFMPFCSNEYKVILCFSLQELKIGLSENSIFSIFHPDALELYNVCSSLSKVVEKLMDHKQFYIETKVDGERIQLHKKGDEYRYFSRGVEKLMDHKQFYIETKVDGERIQLHKKGDEYRYFSRGVEKLMDHKQFYIETKVDGERIQLHKKGDEYRYFSRG",
+   "n_segments": 5,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 138,
+     "qend": 177,
+     "s_lo": 732170,
+     "s_hi": 732289,
+     "strand": "+",
+     "aa_len": 40
+    },
+    {
+     "qstart": 168,
+     "qend": 224,
+     "s_lo": 733633,
+     "s_hi": 733803,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 253,
+     "qend": 288,
+     "s_lo": 735378,
+     "s_hi": 735485,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 259,
+     "qend": 294,
+     "s_lo": 735378,
+     "s_hi": 735485,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 271,
+     "qend": 306,
+     "s_lo": 735378,
+     "s_hi": 735485,
+     "strand": "+",
+     "aa_len": 36
+    }
+   ],
+   "gene": "LIG4",
+   "genome": "Aaurita",
+   "contig": "REGM01000133.1"
+  },
+  "POT1": {
+   "protein": "YQYTKLAEVRVGQIINVYGMHFIMFFGFTSMRGELCQTLRLIDQSLDSSGDEGLQCVLFAKKGTTALPNINSIGALVRFHRLKIGSYNGKLQGGSSPGFSWLQPSEANMTWAGLIVHRGTAYGRGIRVLDATDPDAQTVKTRIDGVMEMDSDSEAETSDRGMPEAQICARAKLQNERQRFNDQSRALQESSTVTRYYHIPFTSIRNILAYPRVPYKFRCRARVLHYEPARVDEIVRFGCEKCEIFTTLENMTETVESQLDGRPLKCGKCHGLLNIEKYESKNDEDNTGIINALLCGEDAVTFFGGIQSEDAIYSGKTQCEMEQRLASLTNGSEESLDDLGQDITSRPYFECCLKSYSSVCKDDDQEKTIVCYRLFDTTMIPYQYTKLAEVRVGQIINVYGMHFIMFFGFTSMRGELCQTLRLIDQSLDSSGDEGLQCVLFAKKGTTALPNINSIGALVRFHRLKIGSYNGKLQGGSSPGFSWXGPHR",
+   "n_segments": 3,
+   "strand": "-",
+   "segments": [
+    {
+     "qstart": 6,
+     "qend": 105,
+     "s_lo": 1051339,
+     "s_hi": 1051641,
+     "strand": "-",
+     "aa_len": 101
+    },
+    {
+     "qstart": 262,
+     "qend": 506,
+     "s_lo": 1046011,
+     "s_hi": 1046847,
+     "strand": "-",
+     "aa_len": 279
+    },
+    {
+     "qstart": 765,
+     "qend": 873,
+     "s_lo": 1051324,
+     "s_hi": 1051644,
+     "strand": "-",
+     "aa_len": 107
+    }
+   ],
+   "gene": "POT1",
+   "genome": "Aaurita",
+   "contig": "REGM01000084.1"
+  },
+  "OGG1": {
+   "protein": "KAARMMIKVVNYLRKQDKPMQHARVVNTKWDNNFWLDIKYLDLAQMAFECSSYFAAVMFTEIWCDQGTQWEALSEQSGHTEERASCQRLLFEAYRNIGEPDGIYGVGVGYSSDIPTRVKAYEHEKDYGKALQVDPSCQYRNIVYMTGFDDKFTHCGGINLPKVITCIGSDGVRRKQLVKGKDDLRQDAVMQQVFGMVNRLLKENPETRKRELRIRTYKVLKVVPLSQRSGIVEWCENTVPLGEYLVGSRGIGGAHSKYHPTDWAAAECRKKFQDIMKHFRPVFRHFFYEKFTDPADWFTRRLAYTRSLASTSIFSPVIQXFILLDFVRDPLTDEILISISLFYSLVGYVVGLGDRHVQNILVDVITAELVHIDLGVNQFNLLIIMFATGIAFEQGKQLPTPETIPFRLTRDLVDGMGITGVEGVFRRCCEKVMDLMRNSQEAILTIVEVQVLLYDPLYVWTLSPLQAVQVQQKTTEDPNDTLQNMSAIGDANLDTLLEELQSVQPQQDHSKNKMAQRVLIRLKQKLDGNEGGSFLSTEGQVNFLLQSARDTKNLCRVFPGWQPWL",
+   "n_segments": 9,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 1904,
+     "qend": 1963,
+     "s_lo": 178508,
+     "s_hi": 178702,
+     "strand": "+",
+     "aa_len": 65
+    },
+    {
+     "qstart": 1982,
+     "qend": 2046,
+     "s_lo": 180171,
+     "s_hi": 180368,
+     "strand": "+",
+     "aa_len": 66
+    },
+    {
+     "qstart": 2670,
+     "qend": 2717,
+     "s_lo": 195546,
+     "s_hi": 195689,
+     "strand": "+",
+     "aa_len": 48
+    },
+    {
+     "qstart": 2718,
+     "qend": 2758,
+     "s_lo": 196452,
+     "s_hi": 196574,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 2756,
+     "qend": 2804,
+     "s_lo": 197356,
+     "s_hi": 197508,
+     "strand": "+",
+     "aa_len": 51
+    },
+    {
+     "qstart": 2820,
+     "qend": 2861,
+     "s_lo": 199155,
+     "s_hi": 199280,
+     "strand": "+",
+     "aa_len": 42
+    },
+    {
+     "qstart": 2827,
+     "qend": 2891,
+     "s_lo": 203556,
+     "s_hi": 203741,
+     "strand": "+",
+     "aa_len": 62
+    },
+    {
+     "qstart": 2878,
+     "qend": 2951,
+     "s_lo": 202570,
+     "s_hi": 202791,
+     "strand": "+",
+     "aa_len": 74
+    },
+    {
+     "qstart": 2950,
+     "qend": 3056,
+     "s_lo": 207656,
+     "s_hi": 208003,
+     "strand": "+",
+     "aa_len": 116
+    }
+   ],
+   "gene": "OGG1",
+   "genome": "Aaurita",
+   "contig": "REGM01000023.1"
+  },
+  "PARP1": {
+   "protein": "ILKGLDKKQNCLLESPTGSGKTLALLCSCLAWQRTEKGFQACPYYAAREMMDHADIIFCPYNYLVDPFIRVFCLLSPYCYFQMNINLKDEVVVLDEAHNIEDSAREAASISITSSQLEDMMEELDKLFSEIGRTARCIVLTSGTLSPMNSFSSELGVAFPIQLEANHVIADSQVKTRFSVSVILFYFFVEDTDESWTGALLLAVCRGKVSEGLDFTDDNARAVITVSFMFYFDLNLALKIGIPFPDFKDTQVELKRKYNDKHSATRGLLTGTEWYEIQAYRALNQVCHLLLRCRKDWGAILLVDERFGRGDKYKKGLSRWVRGRCRTYTEFKSCLTSLASFAEARR",
+   "n_segments": 7,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 32,
+     "qend": 69,
+     "s_lo": 8325,
+     "s_hi": 8438,
+     "strand": "+",
+     "aa_len": 38
+    },
+    {
+     "qstart": 347,
+     "qend": 378,
+     "s_lo": 22051,
+     "s_hi": 22146,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 365,
+     "qend": 425,
+     "s_lo": 22827,
+     "s_hi": 22997,
+     "strand": "+",
+     "aa_len": 57
+    },
+    {
+     "qstart": 600,
+     "qend": 646,
+     "s_lo": 43704,
+     "s_hi": 43844,
+     "strand": "+",
+     "aa_len": 47
+    },
+    {
+     "qstart": 732,
+     "qend": 797,
+     "s_lo": 47784,
+     "s_hi": 47978,
+     "strand": "+",
+     "aa_len": 65
+    },
+    {
+     "qstart": 782,
+     "qend": 832,
+     "s_lo": 48606,
+     "s_hi": 48767,
+     "strand": "+",
+     "aa_len": 54
+    },
+    {
+     "qstart": 836,
+     "qend": 889,
+     "s_lo": 50841,
+     "s_hi": 50999,
+     "strand": "+",
+     "aa_len": 53
+    }
+   ],
+   "gene": "PARP1",
+   "genome": "Aaurita",
+   "contig": "REGM01000148.1"
+  },
+  "POLD1": {
+   "protein": "DPVVCAFDIETTKPPLKFPDSANDSIMMISYMIDGQGYLITDREIVSQDIEDFEYTPRPEYEGPIIVFNEPDEVTPIMSMNQHVYEKHEKSTQQRSNNSSFWQVLSNYSVSDAVATYYLYMQYVHPFIFALCTIIPMEPDEVIQVLRKGSGTLCEALLMVQAFHANIIFPNKQEQLNKFTSDGHLLESETYVGGHVEALESGVFRSDIPCRFRMVCAALKEKLGTLRDTPSRLENPMIYHLDVAAMYPNIILTNRLQLQPPAMVDEVICASCDFNRPGAKCQRGMDWMWRGDYFVDYCHKAYKKTKIVKEEQRKTIICQRENSFYVDTVRAFRDRRYEFKGLLKVKGMEVLYDSLQLAHKCILNSFYGYVMRKGSRWFSMEMAGIVCYTGANIITHAREIVEQIGXGISVLIKSSIFCNFLVCEFPNRSFPLNLVRYAVFNEDGSLAELKGFEVKRRGELQLIKIFQSSVFESFLQGNNLQTVYESVAKVADYWLDILFTKVQXATHCKIFSWVMHVKELAGRVFYQAQNLPDTELFELISENRNMSRTLEDYGSQKSTSISTAKRLAEFLGDQMVKDKGLSCRFVISKKPEGAPVTERAIPLAIFQTEDSIKKHYLKKWLKSATSFDIRSILDWEYYIERLNSCIQKIITIPAALQGVQITNPVPRCPHPEWLHKKLLEKNDVLKQHKISEMFALTEGDTPGIFRLWAIIGQELHCIKVNVPRIFYVNSRKQKEGEGASENARYYHIPVGNIPASDPTLFAADVFFARNLRKHNHLLWMTPTERPDLGGKEEDDNRFSINFSASCYQLIAEFKKLGSTIVYANFNKIILCTKKRKRVKDALAYVQFILKSIQSKDLFHSIDLAPTSCWEYLYWMDQVSYLALTNSITQKIQRTLSGESGKDSSSDFPVLAGSYLLLRNPALEFVKYICKV",
+   "n_segments": 18,
+   "strand": "+",
+   "segments": [
+    {
+     "qstart": 268,
+     "qend": 303,
+     "s_lo": 2233309,
+     "s_hi": 2233416,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 304,
+     "qend": 367,
+     "s_lo": 2234088,
+     "s_hi": 2234285,
+     "strand": "+",
+     "aa_len": 66
+    },
+    {
+     "qstart": 453,
+     "qend": 493,
+     "s_lo": 2240074,
+     "s_hi": 2240196,
+     "strand": "+",
+     "aa_len": 41
+    },
+    {
+     "qstart": 491,
+     "qend": 522,
+     "s_lo": 2240933,
+     "s_hi": 2241028,
+     "strand": "+",
+     "aa_len": 32
+    },
+    {
+     "qstart": 524,
+     "qend": 562,
+     "s_lo": 2241969,
+     "s_hi": 2242085,
+     "strand": "+",
+     "aa_len": 39
+    },
+    {
+     "qstart": 599,
+     "qend": 641,
+     "s_lo": 2243938,
+     "s_hi": 2244066,
+     "strand": "+",
+     "aa_len": 43
+    },
+    {
+     "qstart": 640,
+     "qend": 675,
+     "s_lo": 2244647,
+     "s_hi": 2244754,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 723,
+     "qend": 774,
+     "s_lo": 2245489,
+     "s_hi": 2245644,
+     "strand": "+",
+     "aa_len": 52
+    },
+    {
+     "qstart": 795,
+     "qend": 823,
+     "s_lo": 2246348,
+     "s_hi": 2246434,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 824,
+     "qend": 877,
+     "s_lo": 2276434,
+     "s_hi": 2276616,
+     "strand": "+",
+     "aa_len": 61
+    },
+    {
+     "qstart": 955,
+     "qend": 1043,
+     "s_lo": 2249335,
+     "s_hi": 2249601,
+     "strand": "+",
+     "aa_len": 89
+    },
+    {
+     "qstart": 1018,
+     "qend": 1154,
+     "s_lo": 2279448,
+     "s_hi": 2279852,
+     "strand": "+",
+     "aa_len": 135
+    },
+    {
+     "qstart": 1153,
+     "qend": 1188,
+     "s_lo": 2280692,
+     "s_hi": 2280799,
+     "strand": "+",
+     "aa_len": 36
+    },
+    {
+     "qstart": 1336,
+     "qend": 1380,
+     "s_lo": 2282746,
+     "s_hi": 2282880,
+     "strand": "+",
+     "aa_len": 45
+    },
+    {
+     "qstart": 1648,
+     "qend": 1722,
+     "s_lo": 2291254,
+     "s_hi": 2291454,
+     "strand": "+",
+     "aa_len": 67
+    },
+    {
+     "qstart": 1851,
+     "qend": 1879,
+     "s_lo": 2263022,
+     "s_hi": 2263108,
+     "strand": "+",
+     "aa_len": 29
+    },
+    {
+     "qstart": 1879,
+     "qend": 1927,
+     "s_lo": 2264023,
+     "s_hi": 2264169,
+     "strand": "+",
+     "aa_len": 49
+    },
+    {
+     "qstart": 2065,
+     "qend": 2111,
+     "s_lo": 2267210,
+     "s_hi": 2267347,
+     "strand": "+",
+     "aa_len": 46
+    }
+   ],
+   "gene": "POLD1",
+   "genome": "Aaurita",
+   "contig": "REGM01000003.1"
+  }
+ }
+}
