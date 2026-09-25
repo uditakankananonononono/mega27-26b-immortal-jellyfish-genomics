@@ -1,0 +1,9 @@
+{
+ "task": "Tdohrnii vs Aaurita upstream discrimination (positives)",
+ "n_tdohrnii": 124,
+ "n_aaurita": 74,
+ "gnn_auroc_mean": 0.48727584179744327,
+ "gnn_auroc_sd": 0.09794530282021209,
+ "kmer_lr_auroc_mean": 0.8597741931451368,
+ "kmer_lr_auroc_sd": 0.06301791136458734
+}

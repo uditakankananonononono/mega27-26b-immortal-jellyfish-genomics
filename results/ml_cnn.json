@@ -1,0 +1,34 @@
+{
+ "within_species": {
+  "Tdohrnii": {
+   "cnn_auroc_mean": 0.620479521761585,
+   "cnn_auroc_sd": 0.06575191162633479,
+   "kmer_lr_auroc_mean": 0.6459436620014709,
+   "kmer_lr_auroc_sd": 0.07485482499365631,
+   "n_pos": 124,
+   "n_neg": 124
+  },
+  "Aaurita": {
+   "cnn_auroc_mean": 0.5148369957642404,
+   "cnn_auroc_sd": 0.11327028428592904,
+   "kmer_lr_auroc_mean": 0.6566771055283439,
+   "kmer_lr_auroc_sd": 0.08751610619674971,
+   "n_pos": 74,
+   "n_neg": 74
+  }
+ },
+ "transfer": {
+  "Tdohrnii_to_Aaurita": {
+   "cnn_auroc_mean": 0.47547479912344776,
+   "cnn_auroc_sd": 0.046284308857608904,
+   "kmer_lr_auroc_mean": 0.4696859021183345,
+   "kmer_lr_auroc_sd": 0.0
+  },
+  "Aaurita_to_Tdohrnii": {
+   "cnn_auroc_mean": 0.4802289281997919,
+   "cnn_auroc_sd": 0.0187289082608437,
+   "kmer_lr_auroc_mean": 0.4949921956295526,
+   "kmer_lr_auroc_sd": 0.0
+  }
+ }
+}
