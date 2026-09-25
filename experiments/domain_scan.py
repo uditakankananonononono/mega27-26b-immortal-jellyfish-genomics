@@ -33,23 +33,36 @@ EXPECTED = {
 }
 ALIASES = {"Telomerase_reverse": "Telomerase_RT"}
 
-def scan(hmm_path, proteins):
-    with pyhmmer.plan7.HMMFile(hmm_path) as hf:
-        hmms = list(hf)
+def scan(hmm_path, proteins, block=1000):
     with pyhmmer.easel.SequenceFile(proteins, digital=True) as sf:
         seqs = list(sf)
-    results = {}
-    for hits in pyhmmer.hmmscan(seqs, hmms, cpus=4, E=1e-3):
-        name = hits.query_name.decode()
-        doms = []
-        for hit in hits:
-            if hit.included:
-                for d in hit.domains:
-                    if d.i_evalue < 1e-5:
-                        doms.append({"family": hit.name.decode(), "accession": (hit.accession or b"").decode(),
+    def _nm(x):
+        return x.decode() if isinstance(x, bytes) else x
+    results = {_nm(s.name): [] for s in seqs}
+    with pyhmmer.plan7.HMMFile(hmm_path) as hf:
+        chunk = []
+        def flush(chunk):
+            if not chunk:
+                return
+            for hmm, hits in zip(chunk, pyhmmer.hmmsearch(chunk, seqs, cpus=2, E=1e-3)):
+                fam = _nm(hmm.name)
+                acc = hmm.accession.decode() if isinstance(hmm.accession, bytes) else (hmm.accession or "")
+                for hit in hits:
+                    if hit.included:
+                        for d in hit.domains:
+                            if d.i_evalue < 1e-5:
+                                results[_nm(hit.name)].append(
+                                    {"family": fam, "accession": acc,
                                      "iEvalue": d.i_evalue, "score": d.score,
                                      "env": [d.env_from, d.env_to]})
-        results[name] = doms
+        n = 0
+        for hmm in hf:
+            chunk.append(hmm)
+            n += 1
+            if len(chunk) >= block:
+                flush(chunk); chunk = []
+                print("scanned", n, "HMMs", flush=True)
+        flush(chunk)
     return results
 
 def main():

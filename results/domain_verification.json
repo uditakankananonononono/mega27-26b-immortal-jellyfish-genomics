@@ -1,0 +1,776 @@
+{
+ "_expected_table": {
+  "TERT": [
+   "Reverse_transcriptase_2",
+   "TERT_ten",
+   "Telomerase_RBD"
+  ],
+  "POLD1": [
+   "DNA_pol_B",
+   "DNA_pol_B_exo1",
+   "DNA_pol_delta_4",
+   "POL2_thumb",
+   "zf_DPOE_2"
+  ],
+  "POLE": [
+   "DNA_pol_B",
+   "DNA_pol_B_exo1",
+   "POL2_thumb",
+   "zf_DPOE_2"
+  ],
+  "POLD2": [
+   "DNA_pol_delta_4",
+   "PD40"
+  ],
+  "RAD51": [
+   "Rad51",
+   "RecA",
+   "RecA_N"
+  ],
+  "BRCA1": [
+   "BRCT",
+   "RINGv",
+   "zf-RING_2"
+  ],
+  "PARP1": [
+   "PARP",
+   "PARP_reg",
+   "WGR",
+   "zf-PARP"
+  ],
+  "MLH1": [
+   "DNA_mis_repair",
+   "HATPase_c",
+   "Mlh1_C",
+   "MutL_C"
+  ],
+  "MSH2": [
+   "DNA_mis_repair",
+   "MutS_I",
+   "MutS_II",
+   "MutS_III",
+   "MutS_IV",
+   "MutS_V"
+  ],
+  "FEN1": [
+   "FEN1",
+   "XPG_I",
+   "XPG_N"
+  ],
+  "DKC1": [
+   "DKCLD",
+   "PUA",
+   "TruB_C_2",
+   "TruB_N"
+  ],
+  "POT1": [
+   "OB_POT1A",
+   "POT1",
+   "POT1PC",
+   "POT1_2"
+  ],
+  "TERF1": [
+   "Myb_DNA-binding",
+   "TERF1"
+  ],
+  "TERF2": [
+   "Myb_DNA-binding",
+   "TERF2"
+  ],
+  "ERCC1": [
+   "ERCC1",
+   "HhH-GPD",
+   "Rad10"
+  ],
+  "ERCC2": [
+   "DEAD",
+   "DEAD_2",
+   "Helicase_C",
+   "Helicase_C_2"
+  ],
+  "XRCC1": [
+   "BRCT",
+   "BRCT_2",
+   "XRCC1_2",
+   "XRCC1_N"
+  ],
+  "XRCC5": [
+   "Ku",
+   "Ku78",
+   "Ku80"
+  ],
+  "LIG4": [
+   "DNA_ligase_A_C",
+   "DNA_ligase_A_M",
+   "DNA_ligase_A_N",
+   "DNA_ligase_IV"
+  ],
+  "OGG1": [
+   "Endonuclease_3",
+   "H2TH",
+   "HhH-GPD",
+   "OGG_N"
+  ],
+  "POLD4": [
+   "PD40"
+  ]
+ },
+ "verdicts": {
+  "Aaurita_BRCA1|REGM01000201.1|3seg": {
+   "genome": "Aaurita",
+   "gene": "BRCA1",
+   "families": [
+    "COBRA1"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_DKC1|REGM01000245.1|3seg": {
+   "genome": "Aaurita",
+   "gene": "DKC1",
+   "families": [
+    "DKCLD",
+    "PUA",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "expected_hit": [
+    "DKCLD",
+    "PUA",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_ERCC1|REGM01000120.1|5seg": {
+   "genome": "Aaurita",
+   "gene": "ERCC1",
+   "families": [
+    "Rad10"
+   ],
+   "expected_hit": [
+    "Rad10"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_FEN1|REGM01000184.1|1seg": {
+   "genome": "Aaurita",
+   "gene": "FEN1",
+   "families": [
+    "TCR"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_LIG4|REGM01000133.1|5seg": {
+   "genome": "Aaurita",
+   "gene": "LIG4",
+   "families": [
+    "DNA_ligase_A_M",
+    "DNA_ligase_A_N"
+   ],
+   "expected_hit": [
+    "DNA_ligase_A_M",
+    "DNA_ligase_A_N"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_MLH1|REGM01000010.1|8seg": {
+   "genome": "Aaurita",
+   "gene": "MLH1",
+   "families": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "HATPase_c_3",
+    "Mlh1_C"
+   ],
+   "expected_hit": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "Mlh1_C"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_MSH2|REGM01000035.1|27seg": {
+   "genome": "Aaurita",
+   "gene": "MSH2",
+   "families": [
+    "MutS_I",
+    "MutS_III",
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "expected_hit": [
+    "MutS_I",
+    "MutS_III",
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_OGG1|REGM01000023.1|9seg": {
+   "genome": "Aaurita",
+   "gene": "OGG1",
+   "families": [
+    "FATC",
+    "M-HEAT_ATR",
+    "PI3_PI4_kinase"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_PARP1|REGM01000148.1|7seg": {
+   "genome": "Aaurita",
+   "gene": "PARP1",
+   "families": [
+    "DEAD",
+    "DEAD_2",
+    "Helicase_C_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_POLD1|REGM01000003.1|18seg": {
+   "genome": "Aaurita",
+   "gene": "POLD1",
+   "families": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "DUF1744",
+    "POL2_thumb"
+   ],
+   "expected_hit": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "POL2_thumb"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_POLD2|REGM01000259.1|17seg": {
+   "genome": "Aaurita",
+   "gene": "POLD2",
+   "families": [
+    "DNA_pol_D_N",
+    "DNA_pol_E_B"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_POLE|REGM01000010.1|10seg": {
+   "genome": "Aaurita",
+   "gene": "POLE",
+   "families": [
+    "HmpF",
+    "Kinesin"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_POT1|REGM01000084.1|3seg": {
+   "genome": "Aaurita",
+   "gene": "POT1",
+   "families": [
+    "OB_POT1A",
+    "POT1"
+   ],
+   "expected_hit": [
+    "OB_POT1A",
+    "POT1"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_RAD51|REGM01000075.1|7seg": {
+   "genome": "Aaurita",
+   "gene": "RAD51",
+   "families": [
+    "AAA_25",
+    "ATPase",
+    "HHH_5",
+    "Rad51",
+    "RecA_N"
+   ],
+   "expected_hit": [
+    "Rad51",
+    "RecA_N"
+   ],
+   "domain_verified": true
+  },
+  "Aaurita_TERF1|REGM01000416.1|2seg": {
+   "genome": "Aaurita",
+   "gene": "TERF1",
+   "families": [
+    "G-patch",
+    "G-patch_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_TERT|REGM01000008.1|18seg": {
+   "genome": "Aaurita",
+   "gene": "TERT",
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Aaurita_XRCC1|REGM01000097.1|3seg": {
+   "genome": "Aaurita",
+   "gene": "XRCC1",
+   "families": [
+    "XPG_I",
+    "XPG_N"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_BRCA1|JAIFHF010000260.1|4seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "BRCA1",
+   "families": [
+    "COBRA1"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_DKC1|JAIFHF010033649.1|14seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "DKC1",
+   "families": [
+    "DKCLD",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "expected_hit": [
+    "DKCLD",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_ERCC1|JAIFHF010023265.1|6seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "ERCC1",
+   "families": [
+    "Rad10"
+   ],
+   "expected_hit": [
+    "Rad10"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_FEN1|JAIFHF010007182.1|4seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "FEN1",
+   "families": [],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_LIG4|JAIFHF010010790.1|21seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "LIG4",
+   "families": [
+    "DNA_ligase_A_C",
+    "DNA_ligase_A_M",
+    "DNA_ligase_IV",
+    "RNA_ligase"
+   ],
+   "expected_hit": [
+    "DNA_ligase_A_C",
+    "DNA_ligase_A_M",
+    "DNA_ligase_IV"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_MLH1|JAIFHF010000097.1|10seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "MLH1",
+   "families": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "HATPase_c_3",
+    "Mlh1_C"
+   ],
+   "expected_hit": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "Mlh1_C"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_MSH2|JAIFHF010006662.1|18seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "MSH2",
+   "families": [
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "expected_hit": [
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_OGG1|JAIFHF010000980.1|4seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "OGG1",
+   "families": [
+    "FATC",
+    "PI3_PI4_kinase"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_PARP1|JAIFHF010004936.1|2seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "PARP1",
+   "families": [
+    "DEAD_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_POLD1|JAIFHF010000850.1|24seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "POLD1",
+   "families": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "DUF1744",
+    "POL2_thumb",
+    "zf_DPOE_2"
+   ],
+   "expected_hit": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "POL2_thumb",
+    "zf_DPOE_2"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_POLD2|JAIFHF010008058.1|17seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "POLD2",
+   "families": [
+    "DNA_pol_D_N",
+    "DNA_pol_E_B"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_POLE|JAIFHF010003933.1|11seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "POLE",
+   "families": [
+    "Kinesin",
+    "Microtub_bd",
+    "Microtub_bind"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_POT1|JAIFHF010020854.1|3seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "POT1",
+   "families": [
+    "POT1",
+    "POT1PC"
+   ],
+   "expected_hit": [
+    "POT1",
+    "POT1PC"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_RAD51|JAIFHF010000277.1|1seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "RAD51",
+   "families": [
+    "AAA_25",
+    "ATPase",
+    "HHH_5",
+    "Rad51",
+    "RecA_N"
+   ],
+   "expected_hit": [
+    "Rad51",
+    "RecA_N"
+   ],
+   "domain_verified": true
+  },
+  "TdohrniiOviedo_TERF1|JAIFHF010000216.1|5seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "TERF1",
+   "families": [
+    "G-patch",
+    "G-patch_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_TERT|JAIFHF010001754.1|27seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "TERT",
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "TdohrniiOviedo_XRCC1|JAIFHF010007286.1|8seg": {
+   "genome": "TdohrniiOviedo",
+   "gene": "XRCC1",
+   "families": [
+    "BRCT",
+    "BRCT_2",
+    "LIG3_BRCT",
+    "XRCC1_N"
+   ],
+   "expected_hit": [
+    "BRCT",
+    "BRCT_2",
+    "XRCC1_N"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_BRCA1|BQMF02000190.1|4seg": {
+   "genome": "Tdohrnii",
+   "gene": "BRCA1",
+   "families": [
+    "COBRA1"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_DKC1|BQMF02000065.1|23seg": {
+   "genome": "Tdohrnii",
+   "gene": "DKC1",
+   "families": [
+    "DKCLD",
+    "PUA",
+    "PUA_elF2D",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "expected_hit": [
+    "DKCLD",
+    "PUA",
+    "TruB_C_2",
+    "TruB_N"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_ERCC1|BQMF02000178.1|6seg": {
+   "genome": "Tdohrnii",
+   "gene": "ERCC1",
+   "families": [
+    "Rad10"
+   ],
+   "expected_hit": [
+    "Rad10"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_FEN1|BQMF02000299.1|3seg": {
+   "genome": "Tdohrnii",
+   "gene": "FEN1",
+   "families": [],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_LIG4|BQMF02000108.1|25seg": {
+   "genome": "Tdohrnii",
+   "gene": "LIG4",
+   "families": [
+    "DNA_ligase_A_C",
+    "DNA_ligase_A_M",
+    "DNA_ligase_A_N",
+    "DNA_ligase_IV",
+    "RNA_ligase"
+   ],
+   "expected_hit": [
+    "DNA_ligase_A_C",
+    "DNA_ligase_A_M",
+    "DNA_ligase_A_N",
+    "DNA_ligase_IV"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_MLH1|BQMF02000039.1|7seg": {
+   "genome": "Tdohrnii",
+   "gene": "MLH1",
+   "families": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "HATPase_c_3",
+    "Mlh1_C"
+   ],
+   "expected_hit": [
+    "DNA_mis_repair",
+    "HATPase_c",
+    "Mlh1_C"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_MSH2|BQMF02000032.1|35seg": {
+   "genome": "Tdohrnii",
+   "gene": "MSH2",
+   "families": [
+    "MutS_III",
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "expected_hit": [
+    "MutS_III",
+    "MutS_IV",
+    "MutS_V"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_OGG1|BQMF02000058.1|5seg": {
+   "genome": "Tdohrnii",
+   "gene": "OGG1",
+   "families": [
+    "FATC",
+    "PI3_PI4_kinase"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_PARP1|BQMF02000192.1|5seg": {
+   "genome": "Tdohrnii",
+   "gene": "PARP1",
+   "families": [
+    "DEAD",
+    "DEAD_2",
+    "Helicase_C_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_POLD1|BQMF02000255.1|24seg": {
+   "genome": "Tdohrnii",
+   "gene": "POLD1",
+   "families": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "DUF1744",
+    "POL2_thumb",
+    "zf_DPOE_2"
+   ],
+   "expected_hit": [
+    "DNA_pol_B",
+    "DNA_pol_B_exo1",
+    "POL2_thumb",
+    "zf_DPOE_2"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_POLD2|BQMF02000030.1|17seg": {
+   "genome": "Tdohrnii",
+   "gene": "POLD2",
+   "families": [
+    "DNA_pol_D_N",
+    "DNA_pol_E_B"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_POLE|BQMF02000022.1|13seg": {
+   "genome": "Tdohrnii",
+   "gene": "POLE",
+   "families": [
+    "Kinesin",
+    "Microtub_bd",
+    "Microtub_bind"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_POT1|BQMF02000611.1|4seg": {
+   "genome": "Tdohrnii",
+   "gene": "POT1",
+   "families": [
+    "POT1",
+    "POT1PC"
+   ],
+   "expected_hit": [
+    "POT1",
+    "POT1PC"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_RAD51|BQMF02000062.1|1seg": {
+   "genome": "Tdohrnii",
+   "gene": "RAD51",
+   "families": [
+    "AAA_25",
+    "ATPase",
+    "HHH_5",
+    "Rad51",
+    "RecA_N"
+   ],
+   "expected_hit": [
+    "Rad51",
+    "RecA_N"
+   ],
+   "domain_verified": true
+  },
+  "Tdohrnii_TERF1|BQMF02000328.1|5seg": {
+   "genome": "Tdohrnii",
+   "gene": "TERF1",
+   "families": [
+    "G-patch",
+    "G-patch_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_TERT|BQMF02000301.1|27seg": {
+   "genome": "Tdohrnii",
+   "gene": "TERT",
+   "families": [
+    "Ank",
+    "Ank_2",
+    "Ank_3",
+    "Ank_4",
+    "Ank_5",
+    "PARP",
+    "SAM_1",
+    "SAM_2"
+   ],
+   "expected_hit": [],
+   "domain_verified": false
+  },
+  "Tdohrnii_XRCC1|BQMF02000381.1|8seg": {
+   "genome": "Tdohrnii",
+   "gene": "XRCC1",
+   "families": [
+    "BRCT",
+    "BRCT_2",
+    "LIG3_BRCT",
+    "XRCC1_N"
+   ],
+   "expected_hit": [
+    "BRCT",
+    "BRCT_2",
+    "XRCC1_N"
+   ],
+   "domain_verified": true
+  }
+ }
+}
