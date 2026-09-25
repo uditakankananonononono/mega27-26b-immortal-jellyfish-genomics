@@ -75,3 +75,35 @@ def unique_substitutions(query, reference_seqs, aligner=None):
             subs.append({"query_pos": qp, "query_aa": qaa, "consensus_aa": caa,
                          "n_refs": n_refs, "n_agree": n_agree})
     return subs
+
+
+def unique_substitutions_with_stats(query, reference_seqs, aligner=None):
+    """As unique_substitutions, plus alignment diagnostics:
+    n_aligned_positions = distinct query positions covered by >=1 reference;
+    n_conserved_positions = positions passing the conservation rule;
+    rates per eq. 12 (substitutions per aligned / per conserved position)."""
+    aligner = aligner or _aligner()
+    maps = []
+    for ref in reference_seqs:
+        pairs = aligned_residue_map(query, ref, aligner)
+        maps.append({qp: (qaa, saa) for qp, qaa, sp, saa in pairs})
+    covered = set()
+    for m in maps:
+        covered |= set(m)
+    cons = consensus_positions(maps)
+    subs = []
+    for qp, (caa, n_refs, n_agree) in sorted(cons.items()):
+        qaa = None
+        for m in maps:
+            if qp in m:
+                qaa = m[qp][0]
+                break
+        if qaa and qaa != caa:
+            subs.append({"query_pos": qp, "query_aa": qaa, "consensus_aa": caa,
+                         "n_refs": n_refs, "n_agree": n_agree})
+    n_aln, n_cons = len(covered), len(cons)
+    stats = {"n_aligned_positions": n_aln,
+             "n_conserved_positions": n_cons,
+             "rate_per_aligned_position": (len(subs) / n_aln) if n_aln else None,
+             "rate_per_conserved_position": (len(subs) / n_cons) if n_cons else None}
+    return subs, stats

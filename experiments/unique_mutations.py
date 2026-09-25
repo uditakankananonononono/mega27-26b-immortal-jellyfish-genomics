@@ -8,7 +8,7 @@ patterns. Output results/unique_mutations.json.
 """
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from jellyfish.mutations import unique_substitutions
+from jellyfish.mutations import unique_substitutions_with_stats
 
 VERIFIED = {"Tdohrnii": ["DKC1","ERCC1","LIG4","MLH1","MSH2","POLD1","POT1","RAD51","XRCC1"],
             "TdohrniiOviedo": ["DKC1","ERCC1","LIG4","MLH1","MSH2","POLD1","POT1","RAD51","XRCC1"],
@@ -36,10 +36,11 @@ def main():
             if len(refs) < 3:
                 out[genome][gene] = {"error": f"only {len(refs)} refs"}
                 continue
-            subs = unique_substitutions(query, refs)
-            out[genome][gene] = {"n_aligned_positions": None, "n_unique_substitutions": len(subs),
-                                 "substitutions": subs, "query_len": len(query),
-                                 "n_refs": len(refs)}
+            subs, stats = unique_substitutions_with_stats(query, refs)
+            rec = {"n_unique_substitutions": len(subs), "substitutions": subs,
+                   "query_len": len(query), "n_refs": len(refs)}
+            rec.update(stats)
+            out[genome][gene] = rec
         print(genome, "done", flush=True)
     json.dump(out, open("results/unique_mutations.json", "w"), indent=1)
 
