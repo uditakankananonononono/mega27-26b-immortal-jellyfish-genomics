@@ -46,3 +46,29 @@ R6-REDIRECT (rule 6, only if a hypothesis fails and is stuck): "Hypothesis
 HX failed as follows: [details]. It is not moving forward. Give ranked
 redirection options that keep the same data and preregistration discipline,
 and say which single pivot is strongest and why."
+
+## RULE 7 update (2026-09-26, user 4:14:37 via main): ISEF-winner archetypes
+
+Verified winner template (Society for Science official abstract, project 23691, Regeneron ISEF 2023,
+https://abstracts.societyforscience.org/Home/FullAbstract?AllAbstracts=False&Category=Biomedical+and+Health+Sciences&FairCountry=Any+Country&FairState=Any+State&ISEFYears=0%2C&ProjectId=23691):
+Natasha Kulviwat (Jericho High School), "The Neurobiology of Suicide: Claudin-5 Is a Novel Biomarker
+of Suicide Pathogenesis" - Gordon E. Moore Award + First Award ($5,000, LISEF special-awards PDF).
+Archetype elements: (1) nominate a specific novel biomarker where none existed; (2) verify with
+independent human evidence (postmortem brain cohort stratified by outcome); (3) stack orthogonal
+assays (ELISA, immunolocalization, public RNA-seq DE + pathway enrichment); (4) translational arm
+(docking of current drugs against the biomarker); (5) pre-marker/clinical framing.
+
+Mapping of this project to the archetype: the "biomarker" = a named gene/locus set whose genomic
+presence or copy pattern distinguishes T. dohrnii from mortal relatives; "independent human
+evidence" = the frozen human-derived queries themselves plus second-assembly replication; orthogonal
+assays = shuffled-control FPR, Clytia calibration, panel-vs-panel contrasts; translational arm =
+mapped genes that are druggable aging/neuro targets. What the archetype says is missing and must be
+answered in results/discussion: NAME a top candidate biomarker (not only statistics), give it a
+falsifiable validation plan, and state the human-health translation path explicitly.
+
+R7 WINNER-ARCHETYPE round (new judge-round template):
+"You know the ISEF winner archetype of biomarker identification + multi-assay verification +
+translational endpoint (e.g. Kulviwat ISEF 2023, claudin-5 suicide biomarker: postmortem human
+cohort, orthogonal assays, drug docking). Here is this project's results chapter. What would a
+judge who knows that winner say is missing here? What single addition would make this project feel
+like that class of work? Be specific and ruthless."
