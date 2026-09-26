@@ -1,0 +1,19 @@
+# References (excluded from page count)
+
+1. Pascual-Torner M, Carrero D, Perez-Silva JG, et al., Lopez-Otin C. Comparative genomics of mortal and immortal cnidarians unveils novel keys behind rejuvenation. Proc Natl Acad Sci USA 119 (2022) e2118763119. https://www.pnas.org/doi/10.1073/pnas.2118763119
+2. Lopez-Otin C, Blasco MA, Partridge L, Serrano M, Kroemer G. Hallmarks of aging: An expanding universe. Cell 186 (2023) 243-278. https://www.cell.com/cell/fulltext/S0092-8674(22)01377-0
+3. Martinez DE. Mortality patterns suggest lack of senescence in Hydra. Exp Gerontol 33 (1998) 217-225.
+4. Schaible R, Scheuerlein A, Danko MJ, et al. Constant mortality and fertility over age in Hydra. Proc Natl Acad Sci USA 112 (2015) 15701-15706. https://www.pnas.org/doi/10.1073/pnas.1521002112
+5. Tacutu R, Thornton D, Johnson E, et al. Human Ageing Genomic Resources: new and updated databases. Nucleic Acids Res 46 (2018) D1083-D1090. https://www.genomics.senescence.info/
+6. Matsumoto Y, Piraino S, Miglietta MP. Transcriptome characterization of reverse development in Turritopsis dohrnii (Hydrozoa, Cnidaria). G3 9 (2019) 4127-4138. https://pmc.ncbi.nlm.nih.gov/articles/PMC6893190/
+7. Hasegawa Y, et al. Cellular reprogramming and immortality: expression profiling of the reverser development in the immortal jellyfish. (2021) https://pmc.ncbi.nlm.nih.gov/articles/PMC8480191/
+8. Keane M, et al. Insights into the evolution of longevity from the bowhead whale genome. Cell Rep 10 (2015) 112-122. https://www.cell.com/cell-reports/fulltext/S2211-1247(14)01019-5
+9. Evidence for improved DNA repair in the long-lived bowhead whale. Nature (2025). https://link.springer.com/article/10.1038/s41586-025-09694-5
+10. Comparative analyses of aging-related genes in long-lived mammals. https://pmc.ncbi.nlm.nih.gov/articles/PMC8454735/
+11. Beaver and naked mole rat genomes reveal common paths to longevity. Cell Rep (2020). https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30930-X
+12. Ganapathy S, et al. Converging pathways in neurodegeneration, from genetics to mechanisms. Nat Neurosci 21 (2018) 1300-1309. https://www.nature.com/articles/s41593-018-0237-7
+13. The role of genetics in neurodegenerative dementia. npj Parkinsons Dis (2021). https://www.nature.com/articles/s41525-021-00235-3
+14. Evolution of eumetazoan nervous systems: insights from cnidarians. https://pmc.ncbi.nlm.nih.gov/articles/PMC4650132/
+15. The cellular and molecular basis of cnidarian neurogenesis. https://pmc.ncbi.nlm.nih.gov/articles/PMC6680159/
+16. Altschul SF, et al. Gapped BLAST and PSI-BLAST. Nucleic Acids Res 25 (1997) 3389-3402. Camacho C, et al. BLAST+: architecture and applications. BMC Bioinformatics 10 (2009) 421.
+17. NCBI GenBank accessions: GCA_027922465.2, GCA_025167195.1, GCA_039566895.2, GCA_004194415.1, GCF_902728285.1.

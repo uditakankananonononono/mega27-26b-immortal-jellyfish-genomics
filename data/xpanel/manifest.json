@@ -152,5 +152,445 @@
    "header": "XP_065652866.1 activating molecule in BECN1-regulated autophagy protein 1B isoform X1 [Hydra vulgaris]",
    "len": 595
   }
+ },
+ "BLM": {
+  "human": {
+   "header": "NP_001274175.1 recQ-like DNA helicase BLM isoform 1 [Homo sapiens]",
+   "len": 1417
+  },
+  "Clytia": {
+   "header": "XP_066936582.1 recQ-like DNA helicase blm-1 [Clytia hemisphaerica]",
+   "len": 1354
+  },
+  "Hydra": {
+   "header": "XP_065639917.1 recQ-like DNA helicase BLM isoform X2 [Hydra vulgaris]",
+   "len": 1431
+  }
+ },
+ "C9orf72": {
+  "human": {
+   "header": "NP_072097.2 vacuolar protein sorting-associated protein 16 homolog isoform 1 [Homo sapiens]",
+   "len": 839
+  },
+  "Clytia": {
+   "header": "XP_066919005.1 guanine nucleotide exchange factor C9orf72 homolog [Clytia hemisphaerica]",
+   "len": 456
+  },
+  "Acropora": {
+   "header": "XP_029200121.2 guanine nucleotide exchange C9orf72-like [Acropora millepora]",
+   "len": 480
+  },
+  "Nematostella": {
+   "header": "XP_032232039.2 guanine nucleotide exchange factor C9orf72 homolog [Nematostella vectensis]",
+   "len": 490
+  }
+ },
+ "CDKN2A": {
+  "human": {
+   "header": "NP_001182061.1 cyclin-dependent kinase inhibitor 2A isoform p16gamma [Homo sapiens]",
+   "len": 167
+  }
+ },
+ "FOXO3": {
+  "human": {
+   "header": "NP_001308658.1 exocyst complex component 6B isoform 1 [Homo sapiens]",
+   "len": 815
+  }
+ },
+ "FUS": {
+  "human": {
+   "header": "NP_001364334.1 ataxin-7 isoform a [Homo sapiens]",
+   "len": 892
+  },
+  "Hydra": {
+   "header": "CDG71050.1 Hydra vulgaris RNA-binding protein FUS [Hydra vulgaris]",
+   "len": 368
+  },
+  "Nematostella": {
+   "header": "XP_032223574.1 RNA-binding protein FUS isoform X1 [Nematostella vectensis]",
+   "len": 423
+  }
+ },
+ "GBA": {
+  "human": {
+   "header": "NP_001073883.2 protein Daple [Homo sapiens]",
+   "len": 2028
+  }
+ },
+ "GHR": {
+  "human": {
+   "header": "NP_001139478.1 insulin-like growth factor-binding protein complex acid labile subunit isoform 1 precursor [Homo sapiens]",
+   "len": 643
+  }
+ },
+ "GRN": {
+  "human": {
+   "header": "NP_001349894.1 protein FAM135B [Homo sapiens]",
+   "len": 1406
+  },
+  "Hydra": {
+   "header": "CDG71145.1 Hydra vulgaris Granulins, partial [Hydra vulgaris]",
+   "len": 780
+  }
+ },
+ "HSF1": {
+  "human": {
+   "header": "NP_001300844.1 eukaryotic translation initiation factor 2-alpha kinase 3 isoform 2 [Homo sapiens]",
+   "len": 965
+  },
+  "Hydra": {
+   "header": "CDG70421.1 Hydra vulgaris Heat shock factor protein 1 [Hydra vulgaris]",
+   "len": 564
+  }
+ },
+ "HTT": {
+  "human": {
+   "header": "NP_002102.4 huntingtin isoform 2 [Homo sapiens]",
+   "len": 3144
+  },
+  "Hydra": {
+   "header": "CDG70968.1 Hydra vulgaris Huntingtin, partial [Hydra vulgaris]",
+   "len": 1266
+  }
+ },
+ "IGF1": {
+  "human": {
+   "header": "NP_001067.2 UDP-glucuronosyltransferase 2B15 precursor [Homo sapiens]",
+   "len": 530
+  }
+ },
+ "IGF1R": {
+  "human": {
+   "header": "NP_001432850.1 phosphatidylinositol 3-kinase regulatory subunit alpha isoform 1 [Homo sapiens]",
+   "len": 724
+  }
+ },
+ "INSR": {
+  "human": {
+   "header": "NP_001432766.1 insulin receptor substrate 1 [Homo sapiens]",
+   "len": 1242
+  },
+  "Clytia": {
+   "header": "XP_066913386.1 putative insulin-like peptide receptor [Clytia hemisphaerica]",
+   "len": 1546
+  },
+  "Hydra": {
+   "header": "NP_001296700.1 putative insulin-like peptide receptor precursor [Hydra vulgaris]",
+   "len": 1477
+  },
+  "Acropora": {
+   "header": "XP_029180842.2 insulin-like peptide receptor [Acropora millepora]",
+   "len": 1427
+  },
+  "Nematostella": {
+   "header": "XP_048583756.1 putative insulin-like peptide receptor [Nematostella vectensis]",
+   "len": 1407
+  }
+ },
+ "LRRK2": {
+  "human": {
+   "header": "NP_940980.4 leucine-rich repeat serine/threonine-protein kinase 2 [Homo sapiens]",
+   "len": 2527
+  },
+  "Hydra": {
+   "header": "CDG69662.1 Hydra vulgaris Leucine-rich repeat serine/threonine-protein kinase 2, partial [Hydra vulgaris]",
+   "len": 2098
+  }
+ },
+ "MAPT": {
+  "human": {
+   "header": "NP_001364194.1 microtubule-associated protein tau isoform 9 [Homo sapiens]",
+   "len": 833
+  }
+ },
+ "MTOR": {
+  "human": {
+   "header": "NP_001392595.1 NBPF family member NBPF1 isoform 1 [Homo sapiens]",
+   "len": 1704
+  },
+  "Clytia": {
+   "header": "XP_066921996.1 rapamycin-insensitive companion of mTOR-like [Clytia hemisphaerica]",
+   "len": 1887
+  },
+  "Hydra": {
+   "header": "XP_065669228.1 serine/threonine-protein kinase mTOR isoform X2 [Hydra vulgaris]",
+   "len": 2455
+  },
+  "Acropora": {
+   "header": "XP_044166614.1 rapamycin-insensitive companion of mTOR-like isoform X1 [Acropora millepora]",
+   "len": 1941
+  },
+  "Nematostella": {
+   "header": "XP_032242839.2 serine/threonine-protein kinase mTOR [Nematostella vectensis]",
+   "len": 2470
+  }
+ },
+ "NFE2L2": {
+  "human": {
+   "header": "NP_006155.2 nuclear factor erythroid 2-related factor 2 isoform 1 [Homo sapiens]",
+   "len": 605
+  }
+ },
+ "NGF": {
+  "human": {
+   "header": "NP_055731.2 serine/threonine-protein kinase LMTK2 precursor [Homo sapiens]",
+   "len": 1503
+  }
+ },
+ "OPTN": {
+  "human": {
+   "header": "NP_001355794.1 unconventional myosin-VI isoform 7 [Homo sapiens]",
+   "len": 1294
+  },
+  "Hydra": {
+   "header": "CDG68168.1 Hydra vulgaris Optineurin [Hydra vulgaris]",
+   "len": 875
+  }
+ },
+ "PARK7": {
+  "human": {
+   "header": "NP_073622.2 EF-hand calcium-binding domain-containing protein 6 isoform a [Homo sapiens]",
+   "len": 1501
+  },
+  "Hydra": {
+   "header": "CDG67828.1 Hydra vulgaris Protein DJ-1 [Hydra vulgaris]",
+   "len": 182
+  }
+ },
+ "PINK1": {
+  "human": {
+   "header": "NP_001121132.1 mitofusin-2 [Homo sapiens]",
+   "len": 757
+  },
+  "Clytia": {
+   "header": "XP_066936046.1 serine/threonine-protein kinase Pink1, mitochondrial-like [Clytia hemisphaerica]",
+   "len": 494
+  },
+  "Acropora": {
+   "header": "XP_044162736.1 serine/threonine-protein kinase PINK1, mitochondrial-like [Acropora millepora]",
+   "len": 547
+  },
+  "Nematostella": {
+   "header": "XP_048587528.1 serine/threonine-protein kinase Pink1, mitochondrial isoform X1 [Nematostella vectensis]",
+   "len": 545
+  }
+ },
+ "PRKAA1": {
+  "human": {
+   "header": "NP_065891.1 folliculin-interacting protein 2 isoform 1 [Homo sapiens]",
+   "len": 1114
+  }
+ },
+ "PRNP": {
+  "human": {
+   "header": "NP_073605.4 RNA-binding protein 15 isoform 1 [Homo sapiens]",
+   "len": 977
+  }
+ },
+ "PSEN1": {
+  "human": {
+   "header": "NP_001244109.1 sodium-dependent phosphate transporter 2 [Homo sapiens]",
+   "len": 652
+  },
+  "Hydra": {
+   "header": "CDG70846.1 Hydra vulgaris Presenilin-1 [Hydra vulgaris]",
+   "len": 465
+  }
+ },
+ "PSEN2": {
+  "human": {
+   "header": "NP_000438.2 presenilin-2 isoform 1 [Homo sapiens]",
+   "len": 448
+  }
+ },
+ "PTEN": {
+  "human": {
+   "header": "NP_001394071.1 menin isoform 3 [Homo sapiens]",
+   "len": 652
+  },
+  "Clytia": {
+   "header": "XP_066911570.1 tensin-3-like [Clytia hemisphaerica]",
+   "len": 1372
+  },
+  "Hydra": {
+   "header": "XP_065655551.1 tensin-1 isoform X3 [Hydra vulgaris]",
+   "len": 1504
+  },
+  "Acropora": {
+   "header": "XP_029190287.2 uncharacterized protein LOC114957123 isoform X2 [Acropora millepora]",
+   "len": 1481
+  },
+  "Nematostella": {
+   "header": "XP_001637845.3 tensin-2 isoform X1 [Nematostella vectensis]",
+   "len": 1465
+  }
+ },
+ "SIRT1": {
+  "human": {
+   "header": "NP_001092007.2 patatin-like phospholipase domain-containing protein 7 isoform a [Homo sapiens]",
+   "len": 1342
+  },
+  "Clytia": {
+   "header": "XP_066925909.1 NAD-dependent protein deacetylase sirtuin-1-like [Clytia hemisphaerica]",
+   "len": 729
+  },
+  "Hydra": {
+   "header": "XP_065669617.1 NAD-dependent protein deacetylase sirtuin-1 isoform X3 [Hydra vulgaris]",
+   "len": 425
+  },
+  "Acropora": {
+   "header": "XP_029212880.2 NAD-dependent protein deacetylase sirtuin-1-like [Acropora millepora]",
+   "len": 767
+  },
+  "Nematostella": {
+   "header": "XP_001623784.3 NAD-dependent protein deacetylase sirtuin-1 [Nematostella vectensis]",
+   "len": 777
+  }
+ },
+ "SIRT6": {
+  "human": {
+   "header": "NP_002885.1 DNA endonuclease RBBP8 isoform a [Homo sapiens]",
+   "len": 897
+  },
+  "Clytia": {
+   "header": "XP_066921117.1 NAD-dependent protein deacylase sirtuin-6-like [Clytia hemisphaerica]",
+   "len": 390
+  },
+  "Hydra": {
+   "header": "XP_065671103.1 NAD-dependent protein deacylase sirtuin-6 isoform X3 [Hydra vulgaris]",
+   "len": 348
+  },
+  "Nematostella": {
+   "header": "XP_001624617.3 NAD-dependent protein deacylase sirtuin-6 [Nematostella vectensis]",
+   "len": 381
+  }
+ },
+ "SNCA": {
+  "human": {
+   "header": "NP_001295038.1 synphilin-1 isoform G [Homo sapiens]",
+   "len": 515
+  }
+ },
+ "SOD1": {
+  "human": {
+   "header": "NP_001309831.1 synaptosomal-associated protein 25 isoform SNAP25A [Homo sapiens]",
+   "len": 206
+  },
+  "Hydra": {
+   "header": "NP_001274724.1 uncharacterized protein LOC100200684 [Hydra vulgaris]",
+   "len": 152
+  }
+ },
+ "SQSTM1": {
+  "human": {
+   "header": "NP_004389.2 probable ATP-dependent RNA helicase DDX10 [Homo sapiens]",
+   "len": 875
+  },
+  "Hydra": {
+   "header": "CDG70177.1 Hydra vulgaris Sequestosome-1 [Hydra vulgaris]",
+   "len": 466
+  }
+ },
+ "TARDBP": {
+  "human": {
+   "header": "NP_031401.1 TAR DNA-binding protein 43 [Homo sapiens]",
+   "len": 414
+  },
+  "Hydra": {
+   "header": "CDG70227.1 Hydra vulgaris TAR DNA-binding protein 43 [Hydra vulgaris]",
+   "len": 364
+  }
+ },
+ "TFEB": {
+  "human": {
+   "header": "NP_001135446.1 polyamine-transporting ATPase 13A2 isoform 3 [Homo sapiens]",
+   "len": 1158
+  },
+  "Clytia": {
+   "header": "XP_066928876.1 transcription factor EC-like isoform X1 [Clytia hemisphaerica]",
+   "len": 510
+  },
+  "Hydra": {
+   "header": "XP_002158833.2 microphthalmia-associated transcription factor isoform X1 [Hydra vulgaris]",
+   "len": 475
+  },
+  "Acropora": {
+   "header": "XP_029195230.2 microphthalmia-associated transcription factor-like isoform X1 [Acropora millepora]",
+   "len": 458
+  },
+  "Nematostella": {
+   "header": "XP_048589259.1 microphthalmia-associated transcription factor isoform X1 [Nematostella vectensis]",
+   "len": 445
+  }
+ },
+ "TP53": {
+  "human": {
+   "header": "NP_001427287.1 carnitine O-palmitoyltransferase 1, liver isoform isoform 1 [Homo sapiens]",
+   "len": 773
+  },
+  "Clytia": {
+   "header": "XP_066910575.1 TP53-binding protein 1-like [Clytia hemisphaerica]",
+   "len": 330
+  },
+  "Acropora": {
+   "header": "XP_029188463.2 uncharacterized protein LOC114955738 [Acropora millepora]",
+   "len": 1916
+  }
+ },
+ "TREM2": {
+  "human": {
+   "header": "NP_057512.2 ABI gene family member 3 isoform 1 [Homo sapiens]",
+   "len": 366
+  }
+ },
+ "UBQLN2": {
+  "human": {
+   "header": "NP_001171890.1 retrotransposon-derived protein PEG10 isoform 5 [Homo sapiens]",
+   "len": 742
+  }
+ },
+ "VCP": {
+  "human": {
+   "header": "NP_000299.3 lysosomal protective protein isoform b preproprotein [Homo sapiens]",
+   "len": 480
+  },
+  "Clytia": {
+   "header": "XP_066916987.1 ubiquitin thioesterase OTU1-like [Clytia hemisphaerica]",
+   "len": 307
+  },
+  "Hydra": {
+   "header": "XP_047124719.1 ubiquitin thioesterase OTU1 isoform X1 [Hydra vulgaris]",
+   "len": 302
+  },
+  "Acropora": {
+   "header": "XP_029211909.2 deubiquitinating protein VCPIP1-like [Acropora millepora]",
+   "len": 1386
+  },
+  "Nematostella": {
+   "header": "XP_032226106.2 deubiquitinating protein VCPIP1 [Nematostella vectensis]",
+   "len": 1293
+  }
+ },
+ "WRN": {
+  "human": {
+   "header": "NP_000544.2 bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN [Homo sapiens]",
+   "len": 1432
+  },
+  "Clytia": {
+   "header": "XP_066933599.1 ATP-dependent helicase wrn-1-like [Clytia hemisphaerica]",
+   "len": 588
+  },
+  "Hydra": {
+   "header": "XP_065670298.1 bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN isoform X2 [Hydra vulgaris]",
+   "len": 1098
+  },
+  "Acropora": {
+   "header": "XP_044179708.1 uncharacterized protein LOC122961181 [Acropora millepora]",
+   "len": 1342
+  },
+  "Nematostella": {
+   "header": "XP_048580381.1 uncharacterized protein LOC5505202 [Nematostella vectensis]",
+   "len": 728
+  }
  }
 }

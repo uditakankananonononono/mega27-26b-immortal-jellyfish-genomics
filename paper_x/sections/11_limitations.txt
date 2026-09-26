@@ -1,0 +1,19 @@
+# Honest negatives and limitations
+
+This project was built to survive its own failures, so the limitations are not a confessional appendix but a load-bearing part of the result. They come in four kinds: limits of the method, limits of the genomes, limits of the comparative design, and limits of interpretation.
+
+Limits of the method
+
+Translated homology mapping with frozen thresholds is conservative by construction. A locus must accumulate one hundred bits of aligned evidence against a curated query before it counts, which means fast-evolving genes, short genes, and genes whose cnidarian orthologs have drifted beyond recognition will be called absent even when they are present. The method's absence calls are therefore upper-bounded claims: absent at this sensitivity, with these queries, on these assemblies, not absent from the species. The TERC experience of the closed phase is the standing example: the telomerase RNA exists in every animal with telomerase, yet short-alignment search could not find it in the T. dohrnii assemblies, because small RNAs with fast primary-sequence turnover are simply not visible to this class of search. Every absence in Chapters 6 and 7 should be read in that light. Conversely, presence calls can be inflated by low-complexity matches; the shuffled-query negative control is the guard, and its false-positive rate is reported for every genome so the reader can discount accordingly.
+
+Limits of the genomes
+
+The two T. dohrnii assemblies are both draft-quality by vertebrate standards: one contig-level, one scaffold-level, each fragmented relative to the chromosome-scale resources available for mouse or human. Fragmentation breaks genes across contigs, truncates alignments at contig ends, and depresses both sensitivity and copy-number accuracy. A gene split across three contigs may yield one strong locus and two weak fragments; the ledger counts one. Copy-number contrasts in particular must be read as approximate, and the pre-registered H3 test treats only the coarse expanded-versus-not contrast as inferential. The T. rubra assembly is chromosome-level, which creates an asymmetry: the immortal species is measured with lower-quality instruments than its mortal comparator, and where the contrast depends on measurement quality rather than biology, this report says so.
+
+Limits of the comparative design
+
+The immortal-versus-mortal contrast is one genus deep. Two T. dohrnii assemblies are not two species; they are two measurements of one species, and the pre-registered H4 separation test is explicit that within-species similarity partly reflects that redundancy. Aurelia aurita is a distant medusozoan whose differences from Turritopsis mix hundreds of millions of years of divergence with any rejuvenation-specific signal. The design is a hypothesis generator. A decisive version of this experiment would sample multiple independently rejuvenating lineages and matched non-reverting relatives, with chromosome-scale assemblies and reversal-stage transcriptomics for each; that dataset does not yet exist publicly, and manufacturing certainty without it would be theatre.
+
+Limits of interpretation
+
+Nothing here is a disease model, a drug target validation, or a lifespan intervention. A jellyfish homolog of a human neurodegeneration gene is evidence about the evolutionary depth of that gene's normal function, and a copy-number contrast is a nomination for mechanistic follow-up, not a discovered mechanism. The bridge this project builds between the jellyfish and the human problems runs through shared maintenance biology, stated carefully, with every crossing point labelled by its evidence class. The report's findings stand or fall on the controls; everything beyond them is argument, and the argument is written to be argued with.
