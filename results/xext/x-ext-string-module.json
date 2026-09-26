@@ -1,0 +1,35 @@
+{
+ "status": "ok n=6",
+ "edges": [
+  {
+   "a": "ATG7",
+   "b": "SQSTM1",
+   "score": 0.938
+  },
+  {
+   "a": "ATG7",
+   "b": "BECN1",
+   "score": 0.983
+  },
+  {
+   "a": "ATG7",
+   "b": "ATG5",
+   "score": 0.999
+  },
+  {
+   "a": "BECN1",
+   "b": "SQSTM1",
+   "score": 0.958
+  },
+  {
+   "a": "BECN1",
+   "b": "ATG5",
+   "score": 0.986
+  },
+  {
+   "a": "ATG5",
+   "b": "SQSTM1",
+   "score": 0.991
+  }
+ ]
+}

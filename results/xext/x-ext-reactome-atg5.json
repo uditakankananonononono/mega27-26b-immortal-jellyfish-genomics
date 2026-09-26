@@ -1,0 +1,21 @@
+{
+ "status": "ok n=4",
+ "pathways": [
+  {
+   "id": "R-HSA-1632852",
+   "name": "Macroautophagy"
+  },
+  {
+   "id": "R-HSA-5205685",
+   "name": "PINK1-PRKN Mediated Mitophagy"
+  },
+  {
+   "id": "R-HSA-8934903",
+   "name": "Receptor Mediated Mitophagy"
+  },
+  {
+   "id": "R-HSA-936440",
+   "name": "Negative regulators of DDX58/IFIH1 signaling"
+  }
+ ]
+}

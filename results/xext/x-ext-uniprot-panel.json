@@ -1,0 +1,146 @@
+{
+ "status": "ok 47/47",
+ "genes": {
+  "AKT1": {
+   "accession": "P31749"
+  },
+  "APOE": {
+   "accession": "P02649"
+  },
+  "APP": {
+   "accession": "P05067"
+  },
+  "ATG5": {
+   "accession": "Q9H1Y0"
+  },
+  "ATG7": {
+   "accession": "O95352"
+  },
+  "ATM": {
+   "accession": "Q13315"
+  },
+  "ATR": {
+   "accession": "Q13535"
+  },
+  "BDNF": {
+   "accession": "P23560"
+  },
+  "BECN1": {
+   "accession": "Q14457"
+  },
+  "BLM": {
+   "accession": "P54132"
+  },
+  "C9orf72": {
+   "accession": "Q96LT7"
+  },
+  "CDKN2A": {
+   "accession": "Q9UH64"
+  },
+  "FOXO3": {
+   "accession": "O43524"
+  },
+  "FUS": {
+   "accession": "P35637"
+  },
+  "GBA": {
+   "accession": "P04062"
+  },
+  "GHR": {
+   "accession": "P10912"
+  },
+  "GRN": {
+   "accession": "P28799"
+  },
+  "HSF1": {
+   "accession": "Q00613"
+  },
+  "HTT": {
+   "accession": "P42858"
+  },
+  "IGF1": {
+   "accession": "P05019"
+  },
+  "IGF1R": {
+   "accession": "P08069"
+  },
+  "INSR": {
+   "accession": "P06213"
+  },
+  "LRRK2": {
+   "accession": "Q5S007"
+  },
+  "MAPT": {
+   "accession": "P10636"
+  },
+  "MTOR": {
+   "accession": "P42345"
+  },
+  "NFE2L2": {
+   "accession": "Q16236"
+  },
+  "NGF": {
+   "accession": "P01138"
+  },
+  "OPTN": {
+   "accession": "Q96CV9"
+  },
+  "PARK7": {
+   "accession": "Q99497"
+  },
+  "PINK1": {
+   "accession": "Q9BXM7"
+  },
+  "PRKAA1": {
+   "accession": "Q13131"
+  },
+  "PRNP": {
+   "accession": "P04156"
+  },
+  "PSEN1": {
+   "accession": "P49768"
+  },
+  "PSEN2": {
+   "accession": "P49810"
+  },
+  "PTEN": {
+   "accession": "P60484"
+  },
+  "SIRT1": {
+   "accession": "Q96EB6"
+  },
+  "SIRT6": {
+   "accession": "Q8N6T7"
+  },
+  "SNCA": {
+   "accession": "P37840"
+  },
+  "SOD1": {
+   "accession": "P00441"
+  },
+  "SQSTM1": {
+   "accession": "Q13501"
+  },
+  "TARDBP": {
+   "accession": "Q13148"
+  },
+  "TFEB": {
+   "accession": "P19484"
+  },
+  "TP53": {
+   "accession": "P04637"
+  },
+  "TREM2": {
+   "accession": "Q9NZC2"
+  },
+  "UBQLN2": {
+   "accession": "Q9UHD9"
+  },
+  "VCP": {
+   "accession": "P55072"
+  },
+  "WRN": {
+   "accession": "Q14191"
+  }
+ }
+}

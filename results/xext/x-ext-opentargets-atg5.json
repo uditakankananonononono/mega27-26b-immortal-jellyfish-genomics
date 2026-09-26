@@ -1,0 +1,15 @@
+{
+ "status": "ok n=2",
+ "hits": [
+  {
+   "id": "ENSG00000057663",
+   "name": "ATG5",
+   "entity": "target"
+  },
+  {
+   "id": "ENSG00000303838",
+   "name": "ENSG00000303838",
+   "entity": "target"
+  }
+ ]
+}

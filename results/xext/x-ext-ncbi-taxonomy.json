@@ -1,0 +1,12 @@
+{
+ "status": "ok",
+ "taxids": {
+  "Turritopsis dohrnii": "308579",
+  "Turritopsis rubra": "367916",
+  "Aurelia aurita": "6145",
+  "Clytia hemisphaerica": "252671",
+  "Nematostella vectensis": "45351",
+  "Morbakka virulenta": "686327",
+  "Hydra vulgaris": "6087"
+ }
+}

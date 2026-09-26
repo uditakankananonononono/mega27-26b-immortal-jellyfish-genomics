@@ -1,0 +1,13 @@
+{
+ "status": "ok",
+ "source": "https://genomics.senescence.info/genes/human_genes.zip",
+ "n_rows": 307,
+ "cols": [
+  "GenAge ID",
+  "symbol",
+  "name",
+  "entrez gene id",
+  "uniprot",
+  "why"
+ ]
+}

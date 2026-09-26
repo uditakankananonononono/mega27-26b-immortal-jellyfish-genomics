@@ -1,0 +1,15 @@
+{
+ "status": "ok",
+ "source": "https://genomics.senescence.info/genes/models_genes.zip",
+ "n_rows": 2205,
+ "cols": [
+  "GenAge ID",
+  "symbol",
+  "name",
+  "organism",
+  "entrez gene id",
+  "avg lifespan change (max obsv)",
+  "lifespan effect",
+  "longevity influence"
+ ]
+}

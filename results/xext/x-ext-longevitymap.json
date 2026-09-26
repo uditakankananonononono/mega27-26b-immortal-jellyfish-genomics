@@ -1,0 +1,14 @@
+{
+ "status": "ok",
+ "source": "https://genomics.senescence.info/longevity/longevity_genes.zip",
+ "n_rows": 550,
+ "cols": [
+  "id",
+  "Association",
+  "Population",
+  "Variant(s)",
+  "Gene(s)",
+  "PubMed",
+  ""
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "status": "ok n=9",
+ "structures": [
+  {
+   "pdb": "7w36",
+   "title": "Crystal structure of human Atg5 complexed with a stapled pep"
+  },
+  {
+   "pdb": "4gdk",
+   "title": "Crystal Structure of Human Atg12~Atg5 Conjugate in Complex w"
+  },
+  {
+   "pdb": "4gdl",
+   "title": "Crystal Structure of Human Atg12~Atg5 Conjugate in Complex w"
+  },
+  {
+   "pdb": "5d7g",
+   "title": "Structure of human ATG5 E122D-ATG16L1 complex at 3.0 Angstro"
+  },
+  {
+   "pdb": "4naw",
+   "title": "Crystal Structure of Human ATG12~ATG5-ATG16N in complex with"
+  },
+  {
+   "pdb": "4tq0",
+   "title": "Crystal structure of human ATG5-ATG16N69"
+  },
+  {
+   "pdb": "4tq1",
+   "title": "Crystal structure of human ATG5-TECAIR"
+  },
+  {
+   "pdb": "5npv",
+   "title": "Structure of human ATG5-ATG16L1(ATG5BD) complex (I4)"
+  },
+  {
+   "pdb": "5npw",
+   "title": "Structure of human ATG5-ATG16L1(ATG5BD) complex (C2)"
+  }
+ ]
+}
