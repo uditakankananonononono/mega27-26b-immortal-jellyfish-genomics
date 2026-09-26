@@ -12,3 +12,12 @@
   accessions + lengths in data/xpanel/manifest.json; retrieval deterministic
   (longest RefSeq per species, tiebreak alphabetical), species: Homo sapiens,
   Clytia hemisphaerica, Hydra vulgaris, Acropora millepora, Nematostella vectensis.
+
+## Extension datasets (added 2026-09-27, post-prereg, EXPLORATORY ONLY - not part of frozen H1-H6)
+Datasets 6-8 of the expanded collection. SHA256 in ../../genomes/sha256.txt.
+- Nvectensis.fna: Nematostella vectensis GCA_932526215.2 (jaNemVect1.2 alternate haplotype), 11,386 contigs, 413MB.
+  https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/932/526/215/GCA_932526215.2_jaNemVect1.2_alternate_haplotype/GCA_932526215.2_jaNemVect1.2_alternate_haplotype_genomic.fna.gz
+- Mvirulenta.fna: Morbakka virulenta GCA_003991215.1 (MVIv1, box jellyfish), 4,538 contigs, 964MB.
+  https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/991/215/GCA_003991215.1_MVIv1/GCA_003991215.1_MVIv1_genomic.fna.gz
+- Hvulgaris.fna: Hydra vulgaris GCA_059997465.1 (JU_HvJNIG_1.0, non-senescent hydrozoan), 15 contigs (near-chromosome), 934MB.
+  https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/059/997/465/GCA_059997465.1_JU_HvJNIG_1.0/GCA_059997465.1_JU_HvJNIG_1.0_genomic.fna.gz
