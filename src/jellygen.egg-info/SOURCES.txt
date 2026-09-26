@@ -1,0 +1,9 @@
+setup.py
+src/jellygen/__init__.py
+src/jellygen/compare.py
+src/jellygen/ncbi.py
+src/jellygen.egg-info/PKG-INFO
+src/jellygen.egg-info/SOURCES.txt
+src/jellygen.egg-info/dependency_links.txt
+src/jellygen.egg-info/top_level.txt
+tests/test_compare.py

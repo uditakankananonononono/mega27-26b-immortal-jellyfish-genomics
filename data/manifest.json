@@ -1,0 +1,20 @@
+{
+ "hvulgaris_ERCC1": 2,
+ "hvulgaris_ERCC2": 2,
+ "hvulgaris_XRCC1": 4,
+ "hvulgaris_XRCC5": 2,
+ "hvulgaris_RAD51": 4,
+ "hvulgaris_BRCA1": 4,
+ "hvulgaris_MLH1": 3,
+ "hvulgaris_MSH2": 4,
+ "hvulgaris_OGG1": 2,
+ "hvulgaris_PARP1": 2,
+ "hvulgaris_FEN1": 2,
+ "hvulgaris_LIG4": 2,
+ "hvulgaris_TERT": 3,
+ "hvulgaris_TERC": 0,
+ "hvulgaris_DKC1": 2,
+ "hvulgaris_POT1": 2,
+ "hvulgaris_TERF1": 2,
+ "hvulgaris_TERF2": 0
+}
