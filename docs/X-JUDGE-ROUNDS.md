@@ -18,3 +18,8 @@ R8 (reproducibility from clean checkout).
 R9 (aging-routing strength).
 R10 (neurology-routing strength).
 R11+ (weaknesses found by R1-R10).
+
+## Rule 8 (user 5:00:38 PM): novelty fold-back requirement
+Per-round log format is now: (1) verbatim prompt, (2) verbatim response, (3) the critique extracted,
+(4) the CONCRETE NOVELTY CHANGE implemented in response (file/commit reference), (5) round counts
+toward the 10 only if (4) is non-empty and actually landed in the repo.

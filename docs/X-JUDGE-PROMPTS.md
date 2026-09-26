@@ -72,3 +72,8 @@ translational endpoint (e.g. Kulviwat ISEF 2023, claudin-5 suicide biomarker: po
 cohort, orthogonal assays, drug docking). Here is this project's results chapter. What would a
 judge who knows that winner say is missing here? What single addition would make this project feel
 like that class of work? Be specific and ruthless."
+
+## RULE 8 update (2026-09-26, user 5:00:38 PM, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMEJGMEMxMkZCNThFNzczQkJCRQA= verified in phone_messages):
+Every judge round must IMPROVE PROJECT NOVELTY. A round counts toward the 10-round minimum ONLY
+if its output is folded back into the work as a concrete novelty improvement (novel angle, method,
+analysis, or feature added in response) - critique alone does not count.
