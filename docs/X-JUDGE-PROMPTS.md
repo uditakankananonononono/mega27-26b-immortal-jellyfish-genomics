@@ -77,3 +77,9 @@ like that class of work? Be specific and ruthless."
 Every judge round must IMPROVE PROJECT NOVELTY. A round counts toward the 10-round minimum ONLY
 if its output is folded back into the work as a concrete novelty improvement (novel angle, method,
 analysis, or feature added in response) - critique alone does not count.
+
+## RULE 9 update (2026-09-26, user 8:17:38 PM via main): any problem -> ChatGPT consult
+ANY problem (a result that will not come out, a missing dataset, a stuck analysis, uncertainty
+about the next move) goes to ChatGPT via the text route for redirection, and the consult is
+logged verbatim in docs/X-JUDGE-ROUNDS.md (marked CONSULT, distinct from the 10 adjudicated
+novelty rounds). No sitting on a blocker without consulting.
