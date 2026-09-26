@@ -65,8 +65,8 @@ elif step == "part2":
     print(f"uniprot {ok}/{len(PANEL)}", flush=True)
 elif step == "part3":
     txt = get("https://rest.kegg.jp/link/hsa/path:hsa04211") + get("https://rest.kegg.jp/link/hsa/path:hsa04213")
-    kegg_long = {l.split(":")[1].strip() for l in txt.splitlines() if l.strip()}
-    kegg_auto = {l.split(":")[1].strip() for l in get("https://rest.kegg.jp/link/hsa/path:hsa04140").splitlines() if l.strip()}
+    kegg_long = {l.split("\t")[1].split(":")[1].strip() for l in txt.splitlines() if "\t" in l}
+    kegg_auto = {l.split("\t")[1].split(":")[1].strip() for l in get("https://rest.kegg.jp/link/hsa/path:hsa04140").splitlines() if "\t" in l}
     id2sym = {}
     for line in get("https://rest.kegg.jp/list/hsa").splitlines():
         kid, desc = line.split("\t", 1)

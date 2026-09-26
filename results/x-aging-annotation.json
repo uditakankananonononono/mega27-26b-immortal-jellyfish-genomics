@@ -100,7 +100,23 @@
   "WRN"
  ],
  "uniprot_mapped": 47,
- "kegg_longevity_hits": [],
- "kegg_autophagy_hits": [],
+ "kegg_longevity_hits": [
+  "FOXO3",
+  "IGF1",
+  "IGF1R",
+  "INSR",
+  "MTOR",
+  "PRKAA1",
+  "SIRT1"
+ ],
+ "kegg_autophagy_hits": [
+  "ATG7",
+  "C9orf72",
+  "IGF1R",
+  "MTOR",
+  "OPTN",
+  "PRKAA1",
+  "SQSTM1"
+ ],
  "panel_size": 47
 }
