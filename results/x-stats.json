@@ -1,0 +1,368 @@
+{
+ "panels": {
+  "B": [
+   "FOXO3",
+   "SIRT1",
+   "SIRT6",
+   "MTOR",
+   "IGF1",
+   "IGF1R",
+   "INSR",
+   "AKT1",
+   "PTEN",
+   "TP53",
+   "CDKN2A",
+   "ATM",
+   "ATR",
+   "BLM",
+   "WRN",
+   "NFE2L2",
+   "HSF1",
+   "ATG5",
+   "ATG7",
+   "BECN1",
+   "TFEB",
+   "PRKAA1",
+   "GHR",
+   "APOE"
+  ],
+  "C": [
+   "APP",
+   "PSEN1",
+   "PSEN2",
+   "MAPT",
+   "SNCA",
+   "LRRK2",
+   "PARK7",
+   "PINK1",
+   "PRNP",
+   "GBA",
+   "HTT",
+   "SOD1",
+   "TARDBP",
+   "FUS",
+   "C9orf72",
+   "GRN",
+   "SQSTM1",
+   "OPTN",
+   "VCP",
+   "UBQLN2",
+   "TREM2",
+   "BDNF",
+   "NGF",
+   "APOE"
+  ]
+ },
+ "H6_negative_control": {
+  "fpr_per_genome": {
+   "Tdohrnii": 0.0,
+   "TdohrniiOviedo": 0.0,
+   "Trubra": 0.0,
+   "Aaurita": 0.0,
+   "Clytia": 0.0
+  },
+  "n_shuffled_genes": {
+   "Tdohrnii": 0,
+   "TdohrniiOviedo": 0,
+   "Trubra": 0,
+   "Aaurita": 0,
+   "Clytia": 0
+  },
+  "pass": true
+ },
+ "presence_counts": {
+  "Tdohrnii": 38,
+  "TdohrniiOviedo": 37,
+  "Trubra": 39,
+  "Aaurita": 36
+ },
+ "H1_panelB": {
+  "genes_present": 20,
+  "n": 24,
+  "fraction": 0.8333333333333334,
+  "control_p0": 0.007936507936507936,
+  "p": 1.0133950543818441e-38,
+  "present": [
+   "AKT1",
+   "ATG5",
+   "ATG7",
+   "ATM",
+   "ATR",
+   "BECN1",
+   "BLM",
+   "FOXO3",
+   "GHR",
+   "HSF1",
+   "IGF1R",
+   "INSR",
+   "MTOR",
+   "NFE2L2",
+   "PTEN",
+   "SIRT1",
+   "SIRT6",
+   "TFEB",
+   "TP53",
+   "WRN"
+  ],
+  "absent": [
+   "APOE",
+   "CDKN2A",
+   "IGF1",
+   "PRKAA1"
+  ],
+  "q": 2.0267901087636882e-38
+ },
+ "H2_panelC": {
+  "genes_present": 18,
+  "n": 24,
+  "fraction": 0.75,
+  "control_p0": 0.007936507936507936,
+  "p": 2.0076921562655535e-33,
+  "present": [
+   "APP",
+   "BDNF",
+   "C9orf72",
+   "FUS",
+   "GRN",
+   "HTT",
+   "LRRK2",
+   "NGF",
+   "OPTN",
+   "PINK1",
+   "PRNP",
+   "PSEN1",
+   "PSEN2",
+   "SOD1",
+   "SQSTM1",
+   "TARDBP",
+   "TREM2",
+   "VCP"
+  ],
+  "absent": [
+   "APOE",
+   "GBA",
+   "MAPT",
+   "PARK7",
+   "SNCA",
+   "UBQLN2"
+  ],
+  "q": 2.0076921562655535e-33
+ },
+ "H3_copy_contrast": {
+  "per_gene": {
+   "FOXO3": {
+    "td_max_copies": 1,
+    "other_max_copies": 1,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "SIRT1": {
+    "td_max_copies": 7,
+    "other_max_copies": 6,
+    "p": 0.4096956813187007,
+    "q": 1.0
+   },
+   "SIRT6": {
+    "td_max_copies": 3,
+    "other_max_copies": 3,
+    "p": 0.7009908590488514,
+    "q": 1.0
+   },
+   "MTOR": {
+    "td_max_copies": 12,
+    "other_max_copies": 7,
+    "p": 0.09713068962866986,
+    "q": 0.5827841377720191
+   },
+   "IGF1": {
+    "td_max_copies": 0,
+    "other_max_copies": 3,
+    "p": 0.26731745974568644,
+    "q": 1.0
+   },
+   "IGF1R": {
+    "td_max_copies": 1,
+    "other_max_copies": 1,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "INSR": {
+    "td_max_copies": 31,
+    "other_max_copies": 67,
+    "p": 0.028371462434045553,
+    "q": 0.34045754920854665
+   },
+   "AKT1": {
+    "td_max_copies": 2,
+    "other_max_copies": 2,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "PTEN": {
+    "td_max_copies": 5,
+    "other_max_copies": 4,
+    "p": 0.5044457079871141,
+    "q": 1.0
+   },
+   "TP53": {
+    "td_max_copies": 11,
+    "other_max_copies": 15,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "CDKN2A": {
+    "td_max_copies": 0,
+    "other_max_copies": 0,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "ATM": {
+    "td_max_copies": 6,
+    "other_max_copies": 5,
+    "p": 0.5410005263444642,
+    "q": 1.0
+   },
+   "ATR": {
+    "td_max_copies": 6,
+    "other_max_copies": 7,
+    "p": 0.783805284367473,
+    "q": 1.0
+   },
+   "BLM": {
+    "td_max_copies": 26,
+    "other_max_copies": 64,
+    "p": 0.0064691632148732876,
+    "q": 0.15525991715695892
+   },
+   "WRN": {
+    "td_max_copies": 38,
+    "other_max_copies": 72,
+    "p": 0.09539251754261935,
+    "q": 0.5827841377720191
+   },
+   "NFE2L2": {
+    "td_max_copies": 1,
+    "other_max_copies": 1,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "HSF1": {
+    "td_max_copies": 3,
+    "other_max_copies": 6,
+    "p": 0.740725994418858,
+    "q": 1.0
+   },
+   "ATG5": {
+    "td_max_copies": 2,
+    "other_max_copies": 1,
+    "p": 0.5763591978785956,
+    "q": 1.0
+   },
+   "ATG7": {
+    "td_max_copies": 2,
+    "other_max_copies": 2,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "BECN1": {
+    "td_max_copies": 1,
+    "other_max_copies": 1,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "TFEB": {
+    "td_max_copies": 5,
+    "other_max_copies": 4,
+    "p": 0.5044457079871141,
+    "q": 1.0
+   },
+   "PRKAA1": {
+    "td_max_copies": 0,
+    "other_max_copies": 3,
+    "p": 0.26731745974568644,
+    "q": 1.0
+   },
+   "GHR": {
+    "td_max_copies": 19,
+    "other_max_copies": 24,
+    "p": 0.8740491069705848,
+    "q": 1.0
+   },
+   "APOE": {
+    "td_max_copies": 0,
+    "other_max_copies": 0,
+    "p": 1.0,
+    "q": 1.0
+   }
+  },
+  "n_q_lt_0.05": 0
+ },
+ "H4_separation": {
+  "stat": -0.03829284750337386,
+  "p": 0.3333333333333333,
+  "n_permutations": 6,
+  "caveat": "two T. dohrnii entries are assemblies of the SAME species; within-group similarity partly reflects assembly redundancy"
+ },
+ "H5_BC_overlap": {
+  "a_both": 0,
+  "b_only": 20,
+  "c_only": 18,
+  "neither": 9,
+  "p": 1.4048772904852756e-06,
+  "universe_n": 47
+ },
+ "H6_positive_control": {
+  "n_compared": 60,
+  "n_mismatch": 8,
+  "mismatches": [
+   {
+    "genome": "Tdohrnii",
+    "gene": "ERCC2",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "Tdohrnii",
+    "gene": "TERF2",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "Tdohrnii",
+    "gene": "XRCC5",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "TdohrniiOviedo",
+    "gene": "ERCC2",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "TdohrniiOviedo",
+    "gene": "TERF2",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "TdohrniiOviedo",
+    "gene": "XRCC5",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "Aaurita",
+    "gene": "ERCC2",
+    "closed": false,
+    "now": true
+   },
+   {
+    "genome": "Aaurita",
+    "gene": "XRCC5",
+    "closed": false,
+    "now": true
+   }
+  ]
+ }
+}

@@ -47,7 +47,10 @@ def main():
     out["presence_counts"] = {g: len(pres[g]) for g in ALL_GENOMES}
 
     # H1 / H2: mapping fraction in T. dohrnii (any assembly) vs control rate
-    p0 = max(max(fpr.get(g, 0) for g in TD), 1 / (max(n_shuf.get("Tdohrnii", 48), n_shuf.get("TdohrniiOviedo", 48)) + 1))
+    # number of shuffled queries actually run (constant from the bcshuf run;
+    # the ledger is empty when FPR=0, so ledger length cannot supply it)
+    N_SHUFFLED_QUERIES = 125
+    p0 = max(max(fpr.get(g, 0) for g in TD), 1 / (N_SHUFFLED_QUERIES + 1))
     h = {}
     for label, syms in (("H1_panelB", SYMBOLS_B), ("H2_panelC", SYMBOLS_C)):
         k = sum(1 for s in syms if td_present(bc, s))
@@ -63,13 +66,14 @@ def main():
     # Panel B copy-signal: Tdohrnii (max across assemblies) vs others
     genes_b = SYMBOLS_B
     tab_p, detail = [], {}
+    td_total = sum(copies(bc, g, s) for g in TD for s in genes_b)
+    ot_total = sum(copies(bc, g, s) for g in OTHERS for s in genes_b)
     for s in genes_b:
         td_c = max(copies(bc, g, s) for g in TD)
         ot_c = max(copies(bc, g, s) for g in OTHERS)
-        a = int(td_c >= 2); b_ = int(td_c < 2)
-        c = int(ot_c >= 2); d = int(ot_c < 2)
-        # Fisher needs both groups n>1; use per-species counts: Td 2 assemblies vs 2 others
-        _, p = fisher(a, b_, c, d)
+        # copy-share contrast: this gene's strong-locus share in Td vs others,
+        # 2x2 [[td_c, ot_c], [td_total - td_c, ot_total - ot_c]] (Fisher exact)
+        _, p = fisher(td_c, ot_c, td_total - td_c, ot_total - ot_c)
         tab_p.append(p)
         detail[s] = {"td_max_copies": td_c, "other_max_copies": ot_c, "p": p}
     q3 = bh_adjust(tab_p)
