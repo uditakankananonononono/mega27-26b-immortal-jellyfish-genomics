@@ -1,0 +1,25 @@
+This section collects the ten numbered formulas used in the pipeline and analyses; each is referenced by number where it is used.
+
+(1) Locus clustering. HSPs on one contig are sorted by genomic start and chained while the gap to the running locus end stays within the frozen span: locus = { h_i : s_{i+1} - max_end(h_1..h_i) <= 50 kb }. A cluster becomes one candidate locus with coordinates [min start, max end].
+
+(2) Total locus bits. bits(locus) = sum_i bits(h_i), the sum of bitscores of all HSPs assigned to the locus.
+
+(3) Strong-locus criterion. A locus is strong iff bits(locus) >= 100. Presence of a gene in a genome is defined as at least one strong locus; the copy signal is the number of strong loci.
+
+(4) Query coverage. qcov(locus) = max over HSPs of (q_end - q_start + 1) / q_len, the largest fraction of the query protein covered by a single HSP in the locus, used as the domain-integrity proxy.
+
+(5) Shuffled-control false-positive rate. FPR(genome) = (number of shuffled queries yielding at least one strong locus) / (number of shuffled queries), with the pre-registered validity criterion FPR <= 0.05.
+
+(6) Binomial mapping test (H1, H2). For k mapped genes of n panel genes with control rate p0, p = P(X >= k) for X ~ Binomial(n, p0), with p0 = max(FPR, 1/126), the conservative upper bound from 125 shuffled queries.
+
+(7) Benjamini-Hochberg adjustment. For m p-values sorted p_(1) <= ... <= p_(m), q_(i) = min over j>=i of (m/j) * p_(j), applied per hypothesis family at the frozen 0.05 level.
+
+(8) Copy-share Fisher contrast (H3). For gene g with strong-locus counts c_Td and c_ot and group totals T_Td, T_ot, the 2x2 table [[c_Td, c_ot], [T_Td - c_Td, T_ot - c_ot]] is tested by two-sided Fisher exact, with BH across genes.
+
+(9) Jaccard distance and separation statistic (H4). For presence sets A, B: d_J(A,B) = 1 - |A intersect B| / |A union B|; the separation statistic is mean d_J within the T. dohrnii assemblies minus mean d_J between T. dohrnii and the non-reverting genomes, tested exactly over all 6 label assignments.
+
+(10) Assembly-aware evolutionary evidence score. AEES = 0.35 * min(bits/500, 1) + 0.25 * qcov + 0.15 * pident + 0.25 * concordance, where concordance in {0, 0.5, 1} counts detection in neither, one, or both T. dohrnii assemblies; for single-assembly genomes the first three weights renormalize by 1/0.75. Confidence bands: high >= 0.75, moderate >= 0.45, low below.
+
+(11) Recall (benchmark arms). recall = (genes with at least one strong locus under the arm) / (panel size), compared paired: multi-species versus human-only queries on Clytia, and genome-first versus database-first on T. dohrnii.
+
+Formulas 1-3 and 5-6 are pre-registered and frozen; formula 8 implements the pre-registered Fisher contrast and its exact table is documented in docs/X-DEVIATIONS.md (D2); formula 10 is the judge-round R1 addition and is exploratory; formula 11 is the benchmark measurement. The numbering is used throughout the results chapters.

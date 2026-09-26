@@ -60,7 +60,7 @@ def gene_of_header(header):
 def main():
     which = sys.argv[1]
     genomes = sys.argv[2:] or GENOMES
-    if which in ("bc", "bcshuf"):
+    if which in ("bc", "bcshuf", "bcext"):
         files = sorted(glob.glob("data/xpanel/*.faa"))
     elif which == "actrl":
         files = sorted(glob.glob("data/panel/*.faa"))
