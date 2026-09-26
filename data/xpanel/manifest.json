@@ -1,0 +1,156 @@
+{
+ "AKT1": {
+  "human": {
+   "header": "NP_001393592.1 tuberin isoform 13 [Homo sapiens]",
+   "len": 1806
+  },
+  "Clytia": {
+   "header": "XP_066935264.1 uncharacterized protein [Clytia hemisphaerica]",
+   "len": 415
+  },
+  "Hydra": {
+   "header": "XP_012566850.2 uncharacterized protein LOC100206382 isoform X1 [Hydra vulgaris]",
+   "len": 400
+  },
+  "Acropora": {
+   "header": "XP_029192168.1 uncharacterized protein LOC114958534 [Acropora millepora]",
+   "len": 409
+  },
+  "Nematostella": {
+   "header": "XP_032233015.2 uncharacterized protein LOC5508361 [Nematostella vectensis]",
+   "len": 419
+  }
+ },
+ "APOE": {
+  "human": {
+   "header": "NP_001364194.1 microtubule-associated protein tau isoform 9 [Homo sapiens]",
+   "len": 833
+  }
+ },
+ "APP": {
+  "human": {
+   "header": "NP_001432974.1 tetraspanin-12 isoform 2 [Homo sapiens]",
+   "len": 305
+  },
+  "Clytia": {
+   "header": "XP_066924045.1 AP-1 complex subunit beta-1-like [Clytia hemisphaerica]",
+   "len": 962
+  },
+  "Hydra": {
+   "header": "XP_065670958.1 uncharacterized protein LOC100202963 isoform X5 [Hydra vulgaris]",
+   "len": 681
+  },
+  "Acropora": {
+   "header": "XP_029200578.2 probable Xaa-Pro aminopeptidase P [Acropora millepora]",
+   "len": 673
+  },
+  "Nematostella": {
+   "header": "XP_048582533.1 AP-1 complex subunit beta-1 [Nematostella vectensis]",
+   "len": 939
+  }
+ },
+ "ATG5": {
+  "human": {
+   "header": "NP_000425.1 sialidase-1 precursor [Homo sapiens]",
+   "len": 415
+  },
+  "Hydra": {
+   "header": "XP_002170630.3 autophagy protein 12-like [Hydra vulgaris]",
+   "len": 155
+  },
+  "Acropora": {
+   "header": "XP_029191766.1 ubiquitin-like protein ATG12 [Acropora millepora]",
+   "len": 130
+  },
+  "Nematostella": {
+   "header": "XP_001640072.1 ubiquitin-like protein ATG12 [Nematostella vectensis]",
+   "len": 130
+  }
+ },
+ "ATG7": {
+  "human": {
+   "header": "XP_054200935.1 ubiquitin-like modifier-activating enzyme ATG7 isoform X23 [Homo sapiens]",
+   "len": 457
+  },
+  "Clytia": {
+   "header": "XP_066932292.1 ubiquitin-like modifier-activating enzyme ATG7 [Clytia hemisphaerica]",
+   "len": 692
+  },
+  "Hydra": {
+   "header": "XP_065669531.1 ubiquitin-like modifier-activating enzyme ATG7 isoform X3 [Hydra vulgaris]",
+   "len": 685
+  },
+  "Acropora": {
+   "header": "XP_029213900.2 ubiquitin-like modifier-activating enzyme ATG7 isoform X1 [Acropora millepora]",
+   "len": 739
+  },
+  "Nematostella": {
+   "header": "XP_048589393.1 ubiquitin-like modifier-activating enzyme ATG7 [Nematostella vectensis]",
+   "len": 690
+  }
+ },
+ "ATM": {
+  "human": {
+   "header": "NP_001427878.1 centrosomal protein of 164 kDa isoform 3 [Homo sapiens]",
+   "len": 1462
+  },
+  "Clytia": {
+   "header": "XP_066926646.1 serine-protein kinase ATM-like [Clytia hemisphaerica]",
+   "len": 2862
+  },
+  "Hydra": {
+   "header": "XP_065669347.1 serine-protein kinase ATM isoform X4 [Hydra vulgaris]",
+   "len": 2923
+  },
+  "Acropora": {
+   "header": "XP_044178615.1 serine-protein kinase ATM-like [Acropora millepora]",
+   "len": 3095
+  },
+  "Nematostella": {
+   "header": "XP_048577327.1 serine-protein kinase ATM [Nematostella vectensis]",
+   "len": 3100
+  }
+ },
+ "ATR": {
+  "human": {
+   "header": "NP_001427878.1 centrosomal protein of 164 kDa isoform 3 [Homo sapiens]",
+   "len": 1462
+  },
+  "Clytia": {
+   "header": "XP_066914476.1 serine/threonine-protein kinase ATR-like isoform X1 [Clytia hemisphaerica]",
+   "len": 2508
+  },
+  "Hydra": {
+   "header": "XP_065646883.1 serine/threonine-protein kinase atr isoform X3 [Hydra vulgaris]",
+   "len": 2495
+  },
+  "Acropora": {
+   "header": "XP_044181932.1 serine/threonine-protein kinase ATR-like [Acropora millepora]",
+   "len": 2689
+  },
+  "Nematostella": {
+   "header": "XP_048589953.1 serine/threonine-protein kinase atr [Nematostella vectensis]",
+   "len": 2696
+  }
+ },
+ "BDNF": {
+  "human": {
+   "header": "NP_955630.3 voltage-dependent L-type calcium channel subunit alpha-1C isoform 1 [Homo sapiens]",
+   "len": 2221
+  }
+ },
+ "BECN1": {
+  "human": {
+   "header": "NP_573566.2 leucine-rich PPR motif-containing protein, mitochondrial precursor [Homo sapiens]",
+   "len": 1394
+  },
+  "Clytia": {
+   "header": "XP_066933061.1 activating molecule in BECN1-regulated autophagy protein 1A-like [Clytia hemisphaerica]",
+   "len": 825
+  },
+  "Hydra": {
+   "header": "XP_065652866.1 activating molecule in BECN1-regulated autophagy protein 1B isoform X1 [Hydra vulgaris]",
+   "len": 595
+  }
+ }
+}
