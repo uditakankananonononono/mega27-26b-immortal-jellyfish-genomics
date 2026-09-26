@@ -1,0 +1,190 @@
+{
+ "AKT1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "APOE": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "APP": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "ATG5": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "ATG7": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "ATM": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "ATR": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "BDNF": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "BECN1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "BLM": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "C9orf72": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "CDKN2A": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "FOXO3": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "FUS": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "GBA": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "GHR": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "GRN": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "HSF1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "HTT": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "IGF1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "IGF1R": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "INSR": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "LRRK2": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "MAPT": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "MTOR": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "NFE2L2": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "NGF": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "OPTN": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PARK7": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PINK1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PRKAA1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PRNP": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PSEN1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PSEN2": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "PTEN": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "SIRT1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "SIRT6": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "SNCA": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "SOD1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "SQSTM1": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "TARDBP": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "TFEB": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "TP53": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "TREM2": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "UBQLN2": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "VCP": {
+  "gene_db": "0",
+  "protein_db": "0"
+ },
+ "WRN": {
+  "gene_db": "0",
+  "protein_db": "0"
+ }
+}

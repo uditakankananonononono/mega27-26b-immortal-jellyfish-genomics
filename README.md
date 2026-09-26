@@ -12,7 +12,7 @@ works genome-first: tBLASTn of query proteins directly against the raw assemblie
 (`results/tblastn_hits.json`, `results/locus_ledger.json`). This maps real loci in the draft
 assemblies — e.g. FEN1 in T. dohrnii at 47.6% identity over 521/567 alignment columns,
 e-value 3e-159 — alongside executable ML arms (`results/ml_cnn.json`, `results/ml_gnn.json`)
-and upstream-motif, telomere, and SRA census analyses. 34 legacy tests cover the pipeline.
+and upstream-motif, telomere, and SRA census analyses. The test suite (54 tests at last full run, including the expansion modules) covers the pipeline.
 
 **Expansion (in progress, pre-registered).** `docs/EXPANSION-PREREGISTRATION.md` (locked in
 commit `08d8be0` BEFORE any expansion outcome data was touched) freezes two new panels —
