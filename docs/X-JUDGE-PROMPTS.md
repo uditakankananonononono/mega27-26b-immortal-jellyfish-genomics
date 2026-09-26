@@ -83,3 +83,10 @@ ANY problem (a result that will not come out, a missing dataset, a stuck analysi
 about the next move) goes to ChatGPT via the text route for redirection, and the consult is
 logged verbatim in docs/X-JUDGE-ROUNDS.md (marked CONSULT, distinct from the 10 adjudicated
 novelty rounds). No sitting on a blocker without consulting.
+
+## RULE 10 update (2026-09-26, user 8:27:49 PM via main): papers lead with positives
+Paper pages go to verified positive results. Failed arms, withdrawn claims and audits get a
+SHORT honest treatment (compact limitations paragraph or appendix note), never chapters.
+Nothing is hidden: the full failure/audit trail stays in the repo (docs/, ledgers, this file,
+X-JUDGE-ROUNDS.md), and no withdrawn claim is presented as a win. The annotation-desert story
+stays as compact MOTIVATION (why genome-first), not a failure chapter.
