@@ -1157,3 +1157,82 @@ novelty change landed = AEES v1). History preserved; nothing deleted. The four G
 consults (S2-S5) remain supplementary, logged, never counted. If she provides a courier-paste
 verdict for this lane, it supersedes as the lane's one provided round and will be logged here.
 Until her clarification lands, no judge-gate completion claim stands for agent-initiated rounds.
+
+## PROVIDED ROUND P1 (THE 26b PROVIDED ROUND) - judge gate MET 1 of 1
+
+The user's one provided judge round for 26b: her WhatsApp paste of the ChatGPT answer to the
+26b courier paste, received 2026-09-27 10:17:54 IST,
+wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDNERDAyRTQ0MkYzMDM1OEI5RgA= (relayed verbatim by main
+10:18:05 and 10:18:21; her message stops at weakness 19 of a "Top 20" header - item 20 will
+be appended with its own wamid if she sends it). Verdict form: "Top 20 weaknesses + exact
+additions" critique list (no explicit PASS/FAIL token). Locked amendment queue:
+docs/X-AMENDMENTS-P1.md (locked 10:18 IST before execution). Gate ledger: 1 of 1 provided -
+MET.
+
+VERBATIM (relayed text; splice: items 1-6 from main's 10:18:05 relay, 7-19 from 10:18:21):
+
+Top 20 weaknesses + exact additions
+1. Weakness: Method novelty is not fully formalized
+Judge criticism: "Is this just BLAST applied carefully?"
+The pipeline is good, but the algorithmic contribution needs clearer definition.
+Add: Create a formal: Genome-First Annotation Recovery Algorithm
+Inputs: raw genome assembly, human gene panel, related species genomes
+Outputs: candidate loci, confidence score, assembly agreement score, evidence class
+Then benchmark against: NCBI lookup, UniProt lookup, standard annotation pipeline
+2. Weakness: Only one immortal species
+The biggest biological limitation. The project itself admits: immortal vs mortal contrast is one genus deep.
+A judge will ask: "Are these longevity genes or just Turritopsis-specific genes?"
+Add: Comparative expansion: Include: Hydra vulgaris, Aurelia aurita, other hydrozoans, other rejuvenating organisms if genomes exist
+Test: Are candidates enriched in independently long-lived/rejuvenating lineages?
+3. Weakness: No evolutionary convergence analysis
+Related to #2.
+Add: Phylogenetic test: For candidate genes: ancestral reconstruction, gene family expansion analysis, selection analysis (dN/dS)
+Question: Did longevity-associated genes evolve unusually?
+4. Weakness: Copy-number claims depend on assembly quality
+The paper itself notes: fragmented assemblies can split genes and distort copy number.
+Add: Assembly-aware validation: For every expansion: BUSCO completeness, read-depth support, synteny conservation, duplicated locus validation
+5. Weakness: Gene presence =/= gene function
+Finding ATG5 does not prove autophagy causes rejuvenation. The lead candidate is ATG5 with AEES 0.860.
+Add: Functional prioritization score: Combine: conservation, expression during reversal, pathway membership, protein domain integrity, duplication evidence
+6. Weakness: No transcriptomic integration
+This is probably the biggest biological weakness. You have genomes, but rejuvenation is dynamic.
+Add: Integrate published reversal RNA-seq: For candidates: Ask: Does expression change during: medusa -> polyp transition? regeneration? stress response?
+7. Weakness: Candidate ranking could be subjective
+AEES is useful, but judges may ask: "How were weights chosen?"
+Add: Pre-register scoring weights. Or: Compare: equal weights, learned weights, random weights. Show robustness.
+8. Weakness: Human relevance risks overextension
+The project connects genes to human aging/neurodegeneration.
+Danger: Judges dislike: "Jellyfish discovered cures for aging."
+Add: Keep framing: Evolutionary conservation of maintenance pathways. Avoid: anti-aging therapy claims.
+9. Weakness: No machine-learning component
+CBIO does not require AI, but computational winners often benefit from stronger modeling.
+Add: Optional: Train a model predicting: gene rejuvenation relevance score. Features: duplication, expression, conservation, pathway, protein domains
+10. Weakness: Annotation desert benchmark is only demonstrated on this organism
+Add: Test framework on: axolotl, tardigrade, Hydra, other non-model organisms.
+Question: Does genome-first outperform database-first generally?
+11. Weakness: No false-positive benchmark
+Recovering 38/47 is good. But: How many wrong genes?
+Add: Create decoy panel: Random human genes matched by: length, conservation, expression. Measure: precision, false discovery rate
+12. Weakness: BLAST-based recovery may miss divergent genes
+Add: Compare: BLAST, DIAMOND, HMMER/Pfam, protein language model embeddings. Show best recovery.
+13. Weakness: Protein-level evidence dominates
+Add: gene structure, exon organization, synteny, regulatory regions
+14. Weakness: No automated reproducibility demonstration
+The project has hermetic tests. Good. But:
+Add: A fresh-machine reproduction test: Someone runs: jellyfish-genomics run and regenerates: tables, figures, rankings
+15. Weakness: Genome assembly bias
+Different assembly qualities create unequal comparisons.
+Add: Normalize: Compare only: chromosome-scale assemblies, BUSCO-filtered genomes
+16. Weakness: Candidate genes are selected from human panels
+Potential confirmation bias.
+Add: Unbiased discovery: Genome-wide scan for: expanded gene families, rapidly evolving genes, duplicated pathways. Then see whether known aging pathways emerge.
+17. Weakness: No statistical enrichment framework
+Add: Test: Are longevity pathways enriched among recovered expansions?
+Methods: Fisher exact test, permutation enrichment, GO enrichment with correction
+18. Weakness: No independent validation species
+Add: Hold out one cnidarian. Discover in: Turritopsis + Aurelia. Test in: Hydra.
+19. Weakness: Biological mechanism remains speculative
+The paper correctly limits interpretation.
+Add: Separate evidence tiers: Tier 1: Genome presence. Tier 2: Expansion. Tier 3: Expression during reversal. Tier 4: Functional conservation
+
+END OF RELAYED VERBATIM (her message ends at weakness 19).
