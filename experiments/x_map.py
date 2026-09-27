@@ -70,6 +70,8 @@ def main():
         files = sorted(glob.glob("data/xpanel_coreg/*.faa"))
     elif which == "ext2":
         files = sorted(glob.glob("data/xpanel_ext2/*.faa"))
+    elif which == "genage":
+        files = sorted(glob.glob("data/xpanel_genage/*.faa"))
     elif which == "actrl":
         files = sorted(glob.glob("data/panel/*.faa"))
     else:

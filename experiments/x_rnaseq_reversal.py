@@ -111,21 +111,26 @@ for wname, (contig, ws, we, loci) in windows.items():
 
 subprocess.run([MM2, "-d", "/tmp/xrnaseq_ref.mmi", REF], check=True, capture_output=True)
 
-def stream_counts(url, counts, retries=2):
-    best = 0
-    for attempt in range(retries):
-        n, rc = _stream_once(url, counts)
-        best = max(best, n)
-        print(f"  stream attempt {attempt+1} rc={rc} mapped={n}", flush=True)
-        if rc == 0 and n > 0:
-            break
-    return best  # partial streams still yield valid counts; per-mate mapped logged
+EXPECTED_BYTES = {
+ "SRR10967540": (2012337652, 2443312337),
+ "SRR10967543": (1461093996, 1689171578),
+ "SRR10967537": (1816084239, 2265311832),
+}
 
-def _stream_once(url, counts):
-    wget = subprocess.Popen(["wget", "-q", "-O", "-", url], stdout=subprocess.PIPE)
-    mm = subprocess.Popen([MM2, "-t", "2", "-c", "--secondary=no", "-p", "0", "/tmp/xrnaseq_ref.mmi", "-"],
-                          stdin=wget.stdout, stdout=subprocess.PIPE, text=True)
-    wget.stdout.close()
+def fetch_mate(acc, mate, url, path, tries=4):
+    """Resume-capable download; returns (complete, nbytes)."""
+    want = EXPECTED_BYTES[acc][mate - 1]
+    for t in range(tries):
+        rc = subprocess.run(["wget", "-q", "-c", "-O", path, url]).returncode
+        got = os.path.getsize(path) if os.path.exists(path) else 0
+        print(f"  download attempt {t+1} rc={rc} bytes={got}/{want}", flush=True)
+        if got >= want:
+            return True, got
+    return False, got
+
+def map_counts(path, counts):
+    mm = subprocess.Popen([MM2, "-t", "2", "-c", "--secondary=no", "-p", "0", "/tmp/xrnaseq_ref.mmi", path],
+                          stdout=subprocess.PIPE, text=True)
     n_mapped = 0
     for line in mm.stdout:
         f = line.split("\t")
@@ -144,18 +149,24 @@ def _stream_once(url, counts):
             ls, le = s - ws - 2000, e - ws + 2000  # locus +/- 2kb capture zone
             if not (te < ls or ts > le):
                 counts[name] += 1
-    mm.wait(); wget.wait()
-    return n_mapped, wget.returncode
+    mm.wait()
+    return n_mapped
 
 out = {}
 for stage, acc in RUNS.items():
     counts = collections.Counter()
     total = 0
+    mates_meta = []
     for mate, url in enumerate(ENA_URLS[acc], 1):
-        print(f"{stage} mate{mate}: streaming {url}", flush=True)
-        total += stream_counts(url, counts)
-        print(f"  cumulative mapped: {total}", flush=True)
-    out[stage] = {"run": acc, "mapped_primary_mapq20": total,
+        path = f"/tmp/xrnaseq_{acc}_{mate}.fastq.gz"
+        print(f"{stage} mate{mate}: downloading {url}", flush=True)
+        complete, nbytes = fetch_mate(acc, mate, url, path)
+        n = map_counts(path, counts)
+        print(f"  mapped: {n} (complete={complete})", flush=True)
+        mates_meta.append({"mate": mate, "complete": complete, "bytes": nbytes, "mapped": n})
+        total += n
+        os.remove(path)
+    out[stage] = {"run": acc, "mapped_primary_mapq20": total, "mates": mates_meta,
                   "counts": {k: counts.get(k, 0) for k in sorted(targets)}}
     json.dump(out, open("results/x-rnaseq-reversal.json", "w"), indent=1)
 print("RNASEQPHASE1DONE")

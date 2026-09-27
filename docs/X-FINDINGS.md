@@ -24,8 +24,8 @@ number reproduces from results/*.json at the D9-closure commit.
    35/47 vs 0/47 (live NCBI eutils audit 2026-09-27: 0 gene + 0 protein records for all 47
    panel genes; revised from 38/47). Files: results/x-desert-audit-bc.json, results/x-stats.json.
 6. Named discovery candidate: ATG5 - AEES 0.860 (rank 2 of panel, behind SOD1 0.862; rank
-   stable under frozen + equal weights), both T. dohrnii assemblies, 3 strong loci (2 detected
-   by all three cnidarian queries at 455/452 bits + 1 human-detected paralog at 301 bits);
+   stable under frozen + equal weights); ATG5 present in both T. dohrnii assemblies, but see
+   entry 22: the second cnidarian-type copy is main-assembly-only and unresolved;
    T. rubra carries exactly one fewer in each query class (453 + 300). The duplication signal
    survived the D9 repair and is corroborated by two independent query classes.
    SOD1 is a new repair-promoted candidate (full-length alignment, 69.5% identity, both assemblies).
@@ -49,8 +49,9 @@ number reproduces from results/*.json at the D9-closure commit.
 20. Orthogonal-engine concordance (P1 #12): the panel's calls do not depend on BLAST.
    phmmer profile-HMM search on T. dohrnii (286,785 six-frame ORFs >=75aa) reproduces
    all 20/20 tblastn-significant genes with 27/36 best-locus overlap; ATG5 is recovered
-   as exactly 3 loci, matching the frozen pipeline's 3 strong loci - independent
-   algorithmic confirmation of the duplication. DIAMOND blastp against six-frame ORF
+   as exactly 3 loci in the main assembly, matching the frozen pipeline's 3 strong loci
+   there (confirms sequence presence in that assembly; the duplication-vs-haplotig
+   question is entry 22, not settled by engine concordance). DIAMOND blastp against six-frame ORF
    translations of all five genomes confirms direction with lower sensitivity
    (best-locus overlap 16/6/9/3/24 of 36 per genome); the shortfall is the ORF-cutting
    step (domains split across <75aa fragments are invisible to blastp), disclosed as
@@ -63,6 +64,19 @@ number reproduces from results/*.json at the D9-closure commit.
    (2 cores / 2 GB RAM for ~500 Mb assemblies), six failure modes with mitigations,
    and a framework-level benchmark (arm1 35/47 vs 27/47; arm2 35/47 vs 0/47;
    phmmer 20/20 reproduction of significant calls). Paper section 05e.
+
+22. ATG5 second-copy validation (D9 follow-on) - CLAIM DOWNGRADED PENDING TEST:
+   the two cnidarian-type ATG5 copies in the main Td assembly (BQMF02000106.1:66386,
+   BQMF02000418.1:205689) are 97.1% identical over 665bp (blastn e=0) - haplotig-range,
+   not diverged-paralog range. The independent Oviedo assembly shows ONE cnidarian-type
+   copy (452b, on a 9.3kb scaffold) + the shared paralog, matching Trubra's two-locus
+   state. The "extra copy" is thus main-assembly-only: unresolved between recent tandem
+   duplication and unresolved haplotig (Oviedo fragmentation could also have collapsed
+   a real copy). Decisive test in flight: PacBio subreads DRR267480 mapped to both
+   copies + paralog + 200 background windows; combined depth ~1x background = artifact,
+   ~2x = real duplication. Paper 08c/08d/08f amended to carry ATG5 as candidate under
+   test; SOD1 stands as the clean rank-1 candidate. Script: inline + experiments/x_synteny.py
+   machinery; results in /tmp pending depth run (will land as results/x-atg5-depth.json).
 
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a

@@ -1,0 +1,1527 @@
+{
+ "GHR": {
+  "status": "ok",
+  "acc": "P10912",
+  "len": 638
+ },
+ "GHRH": {
+  "status": "ok",
+  "acc": "P01286",
+  "len": 108
+ },
+ "SHC1": {
+  "status": "ok",
+  "acc": "P29353",
+  "len": 583
+ },
+ "POU1F1": {
+  "status": "ok",
+  "acc": "P28069",
+  "len": 291
+ },
+ "PROP1": {
+  "status": "ok",
+  "acc": "O75360",
+  "len": 226
+ },
+ "TP53": {
+  "status": "ok",
+  "acc": "P04637",
+  "len": 393
+ },
+ "TERC": {
+  "status": "no_match"
+ },
+ "TERT": {
+  "status": "ok",
+  "acc": "O14746",
+  "len": 1132
+ },
+ "ATM": {
+  "status": "ok",
+  "acc": "Q13315",
+  "len": 3056
+ },
+ "PLAU": {
+  "status": "ok",
+  "acc": "P00749",
+  "len": 431
+ },
+ "ERCC2": {
+  "status": "ok",
+  "acc": "P18074",
+  "len": 760
+ },
+ "ERCC8": {
+  "status": "ok",
+  "acc": "Q13216",
+  "len": 396
+ },
+ "WRN": {
+  "status": "ok",
+  "acc": "Q14191",
+  "len": 1432
+ },
+ "LMNA": {
+  "status": "ok",
+  "acc": "P02545",
+  "len": 664
+ },
+ "IGF1R": {
+  "status": "ok",
+  "acc": "P08069",
+  "len": 1367
+ },
+ "TXN": {
+  "status": "ok",
+  "acc": "P10599",
+  "len": 105
+ },
+ "KL": {
+  "status": "ok",
+  "acc": "Q9UEF7",
+  "len": 1012
+ },
+ "E2F1": {
+  "status": "ok",
+  "acc": "Q01094",
+  "len": 437
+ },
+ "PTPN11": {
+  "status": "ok",
+  "acc": "Q06124",
+  "len": 593
+ },
+ "NFKB2": {
+  "status": "ok",
+  "acc": "Q00653",
+  "len": 900
+ },
+ "STAT5B": {
+  "status": "ok",
+  "acc": "P51692",
+  "len": 787
+ },
+ "STAT3": {
+  "status": "ok",
+  "acc": "P40763",
+  "len": 770
+ },
+ "STAT5A": {
+  "status": "ok",
+  "acc": "P42229",
+  "len": 794
+ },
+ "NRG1": {
+  "status": "ok",
+  "acc": "Q02297",
+  "len": 640
+ },
+ "HDAC3": {
+  "status": "ok",
+  "acc": "O15379",
+  "len": 428
+ },
+ "GH1": {
+  "status": "ok",
+  "acc": "P01241",
+  "len": 217
+ },
+ "IL7R": {
+  "status": "ok",
+  "acc": "P16871",
+  "len": 459
+ },
+ "IGF1": {
+  "status": "ok",
+  "acc": "P05019",
+  "len": 195
+ },
+ "IGF2": {
+  "status": "ok",
+  "acc": "P01344",
+  "len": 180
+ },
+ "INS": {
+  "status": "ok",
+  "acc": "P01308",
+  "len": 110
+ },
+ "NGF": {
+  "status": "ok",
+  "acc": "P01138",
+  "len": 241
+ },
+ "IRS1": {
+  "status": "ok",
+  "acc": "P35568",
+  "len": 1242
+ },
+ "PTPN1": {
+  "status": "ok",
+  "acc": "P18031",
+  "len": 435
+ },
+ "IRS2": {
+  "status": "ok",
+  "acc": "Q9Y4H2",
+  "len": 1338
+ },
+ "AKT1": {
+  "status": "ok",
+  "acc": "P31749",
+  "len": 480
+ },
+ "PIK3CB": {
+  "status": "ok",
+  "acc": "P42338",
+  "len": 1070
+ },
+ "NGFR": {
+  "status": "ok",
+  "acc": "P08138",
+  "len": 427
+ },
+ "HRAS": {
+  "status": "ok",
+  "acc": "P01112",
+  "len": 189
+ },
+ "MYC": {
+  "status": "ok",
+  "acc": "P01106",
+  "len": 454
+ },
+ "EGFR": {
+  "status": "ok",
+  "acc": "P00533",
+  "len": 1210
+ },
+ "ERBB2": {
+  "status": "ok",
+  "acc": "P04626",
+  "len": 1255
+ },
+ "INSR": {
+  "status": "ok",
+  "acc": "P06213",
+  "len": 1382
+ },
+ "NCOR1": {
+  "status": "ok",
+  "acc": "O75376",
+  "len": 2440
+ },
+ "NBN": {
+  "status": "ok",
+  "acc": "O60934",
+  "len": 754
+ },
+ "JUND": {
+  "status": "ok",
+  "acc": "P17535",
+  "len": 347
+ },
+ "IL2": {
+  "status": "ok",
+  "acc": "P60568",
+  "len": 153
+ },
+ "PDGFB": {
+  "status": "ok",
+  "acc": "P01127",
+  "len": 241
+ },
+ "EGF": {
+  "status": "ok",
+  "acc": "P01133",
+  "len": 1207
+ },
+ "IL2RG": {
+  "status": "ok",
+  "acc": "P31785",
+  "len": 369
+ },
+ "FOS": {
+  "status": "ok",
+  "acc": "P01100",
+  "len": 380
+ },
+ "PDGFRB": {
+  "status": "ok",
+  "acc": "P09619",
+  "len": 1106
+ },
+ "EPOR": {
+  "status": "ok",
+  "acc": "P19235",
+  "len": 508
+ },
+ "SST": {
+  "status": "ok",
+  "acc": "P61278",
+  "len": 116
+ },
+ "PRKCD": {
+  "status": "ok",
+  "acc": "Q05655",
+  "len": 676
+ },
+ "PPARA": {
+  "status": "ok",
+  "acc": "Q07869",
+  "len": 468
+ },
+ "RET": {
+  "status": "ok",
+  "acc": "P07949",
+  "len": 1114
+ },
+ "PLCG2": {
+  "status": "ok",
+  "acc": "P16885",
+  "len": 1265
+ },
+ "PEX5": {
+  "status": "ok",
+  "acc": "P50542",
+  "len": 639
+ },
+ "TCF3": {
+  "status": "ok",
+  "acc": "P15923",
+  "len": 654
+ },
+ "PARP1": {
+  "status": "ok",
+  "acc": "P09874",
+  "len": 1014
+ },
+ "BRCA1": {
+  "status": "ok",
+  "acc": "P38398",
+  "len": 1863
+ },
+ "PIN1": {
+  "status": "ok",
+  "acc": "Q13526",
+  "len": 163
+ },
+ "PTEN": {
+  "status": "ok",
+  "acc": "P60484",
+  "len": 403
+ },
+ "CREBBP": {
+  "status": "ok",
+  "acc": "Q92793",
+  "len": 2442
+ },
+ "HIF1A": {
+  "status": "ok",
+  "acc": "Q16665",
+  "len": 826
+ },
+ "UBB": {
+  "status": "ok",
+  "acc": "P0CG47",
+  "len": 229
+ },
+ "RPA1": {
+  "status": "ok",
+  "acc": "P27694",
+  "len": 616
+ },
+ "BLM": {
+  "status": "ok",
+  "acc": "P54132",
+  "len": 1417
+ },
+ "BCL2": {
+  "status": "ok",
+  "acc": "P10415",
+  "len": 239
+ },
+ "S100B": {
+  "status": "ok",
+  "acc": "P04271",
+  "len": 92
+ },
+ "VCP": {
+  "status": "ok",
+  "acc": "P55072",
+  "len": 806
+ },
+ "POLG": {
+  "status": "ok",
+  "acc": "P54098",
+  "len": 1239
+ },
+ "IGFBP3": {
+  "status": "ok",
+  "acc": "P17936",
+  "len": 291
+ },
+ "HSP90AA1": {
+  "status": "ok",
+  "acc": "P07900",
+  "len": 732
+ },
+ "NR3C1": {
+  "status": "ok",
+  "acc": "P04150",
+  "len": 777
+ },
+ "EGR1": {
+  "status": "ok",
+  "acc": "P18146",
+  "len": 543
+ },
+ "VEGFA": {
+  "status": "ok",
+  "acc": "P15692",
+  "len": 395
+ },
+ "ABL1": {
+  "status": "ok",
+  "acc": "P00519",
+  "len": 1130
+ },
+ "BRCA2": {
+  "status": "ok",
+  "acc": "P51587",
+  "len": 3418
+ },
+ "TOP2A": {
+  "status": "ok",
+  "acc": "P11388",
+  "len": 1531
+ },
+ "TOP2B": {
+  "status": "ok",
+  "acc": "Q02880",
+  "len": 1626
+ },
+ "NFKB1": {
+  "status": "ok",
+  "acc": "P19838",
+  "len": 968
+ },
+ "TOP1": {
+  "status": "ok",
+  "acc": "P11387",
+  "len": 765
+ },
+ "RAD51": {
+  "status": "ok",
+  "acc": "Q06609",
+  "len": 339
+ },
+ "UBE2I": {
+  "status": "ok",
+  "acc": "P63279",
+  "len": 158
+ },
+ "TNF": {
+  "status": "ok",
+  "acc": "P01375",
+  "len": 233
+ },
+ "PDPK1": {
+  "status": "ok",
+  "acc": "O15530",
+  "len": 556
+ },
+ "CEBPA": {
+  "status": "ok",
+  "acc": "P49715",
+  "len": 358
+ },
+ "CEBPB": {
+  "status": "ok",
+  "acc": "P17676",
+  "len": 345
+ },
+ "MXI1": {
+  "status": "ok",
+  "acc": "P50539",
+  "len": 228
+ },
+ "TGFB1": {
+  "status": "ok",
+  "acc": "P01137",
+  "len": 390
+ },
+ "ERCC6": {
+  "status": "ok",
+  "acc": "P0DP91",
+  "len": 1061
+ },
+ "STK11": {
+  "status": "ok",
+  "acc": "Q15831",
+  "len": 433
+ },
+ "EP300": {
+  "status": "ok",
+  "acc": "Q09472",
+  "len": 2414
+ },
+ "APTX": {
+  "status": "ok",
+  "acc": "Q7Z2E3",
+  "len": 356
+ },
+ "PML": {
+  "status": "ok",
+  "acc": "P29590",
+  "len": 882
+ },
+ "GSK3B": {
+  "status": "ok",
+  "acc": "P49841",
+  "len": 420
+ },
+ "HTT": {
+  "status": "ok",
+  "acc": "P42858",
+  "len": 3142
+ },
+ "PRKCA": {
+  "status": "ok",
+  "acc": "P17252",
+  "len": 672
+ },
+ "SSTR3": {
+  "status": "ok",
+  "acc": "P32745",
+  "len": 418
+ },
+ "HELLS": {
+  "status": "ok",
+  "acc": "Q9NRZ9",
+  "len": 838
+ },
+ "APOC3": {
+  "status": "ok",
+  "acc": "P02656",
+  "len": 99
+ },
+ "EEF2": {
+  "status": "ok",
+  "acc": "P13639",
+  "len": 858
+ },
+ "ERCC3": {
+  "status": "ok",
+  "acc": "P19447",
+  "len": 782
+ },
+ "TERF1": {
+  "status": "ok",
+  "acc": "P54274",
+  "len": 439
+ },
+ "PRKDC": {
+  "status": "ok",
+  "acc": "P78527",
+  "len": 4128
+ },
+ "CAT": {
+  "status": "ok",
+  "acc": "P04040",
+  "len": 527
+ },
+ "ERCC5": {
+  "status": "ok",
+  "acc": "P28715",
+  "len": 1186
+ },
+ "AR": {
+  "status": "ok",
+  "acc": "P10275",
+  "len": 920
+ },
+ "GTF2H2": {
+  "status": "ok",
+  "acc": "Q13888",
+  "len": 395
+ },
+ "XRCC5": {
+  "status": "ok",
+  "acc": "P13010",
+  "len": 732
+ },
+ "PCNA": {
+  "status": "ok",
+  "acc": "P12004",
+  "len": 261
+ },
+ "FEN1": {
+  "status": "ok",
+  "acc": "P39748",
+  "len": 380
+ },
+ "FAS": {
+  "status": "ok",
+  "acc": "P25445",
+  "len": 335
+ },
+ "TERF2": {
+  "status": "ok",
+  "acc": "Q15554",
+  "len": 542
+ },
+ "XRCC6": {
+  "status": "ok",
+  "acc": "P12956",
+  "len": 609
+ },
+ "POLD1": {
+  "status": "ok",
+  "acc": "P28340",
+  "len": 1107
+ },
+ "BAX": {
+  "status": "ok",
+  "acc": "Q07812",
+  "len": 192
+ },
+ "RB1": {
+  "status": "ok",
+  "acc": "P06400",
+  "len": 928
+ },
+ "EMD": {
+  "status": "ok",
+  "acc": "P50402",
+  "len": 254
+ },
+ "GRB2": {
+  "status": "ok",
+  "acc": "P62993",
+  "len": 217
+ },
+ "FOXO3": {
+  "status": "ok",
+  "acc": "O43524",
+  "len": 673
+ },
+ "FOXO1": {
+  "status": "ok",
+  "acc": "Q12778",
+  "len": 655
+ },
+ "HSF1": {
+  "status": "ok",
+  "acc": "Q00613",
+  "len": 529
+ },
+ "XPA": {
+  "status": "ok",
+  "acc": "P23025",
+  "len": 273
+ },
+ "MSRA": {
+  "status": "ok",
+  "acc": "Q9UJ68",
+  "len": 235
+ },
+ "RECQL4": {
+  "status": "ok",
+  "acc": "O94761",
+  "len": 1208
+ },
+ "SOD2": {
+  "status": "ok",
+  "acc": "P04179",
+  "len": 222
+ },
+ "SOD1": {
+  "status": "ok",
+  "acc": "P00441",
+  "len": 154
+ },
+ "FOXM1": {
+  "status": "ok",
+  "acc": "Q08050",
+  "len": 763
+ },
+ "COQ7": {
+  "status": "ok",
+  "acc": "Q99807",
+  "len": 217
+ },
+ "CACNA1A": {
+  "status": "ok",
+  "acc": "O00555",
+  "len": 2506
+ },
+ "LRP2": {
+  "status": "ok",
+  "acc": "P98164",
+  "len": 4655
+ },
+ "AIFM1": {
+  "status": "ok",
+  "acc": "O95831",
+  "len": 613
+ },
+ "UCHL1": {
+  "status": "ok",
+  "acc": "P09936",
+  "len": 223
+ },
+ "APP": {
+  "status": "ok",
+  "acc": "P05067",
+  "len": 770
+ },
+ "APOE": {
+  "status": "ok",
+  "acc": "P02649",
+  "len": 317
+ },
+ "A2M": {
+  "status": "ok",
+  "acc": "P01023",
+  "len": 1474
+ },
+ "SNCG": {
+  "status": "ok",
+  "acc": "O76070",
+  "len": 127
+ },
+ "PRDX1": {
+  "status": "ok",
+  "acc": "Q06830",
+  "len": 199
+ },
+ "PON1": {
+  "status": "ok",
+  "acc": "P27169",
+  "len": 355
+ },
+ "RELA": {
+  "status": "ok",
+  "acc": "Q04206",
+  "len": 551
+ },
+ "IL6": {
+  "status": "ok",
+  "acc": "P05231",
+  "len": 212
+ },
+ "RGN": {
+  "status": "ok",
+  "acc": "Q15493",
+  "len": 299
+ },
+ "ATP5O": {
+  "status": "no_match"
+ },
+ "RAD52": {
+  "status": "ok",
+  "acc": "P43351",
+  "len": 418
+ },
+ "TOP3B": {
+  "status": "ok",
+  "acc": "O95985",
+  "len": 862
+ },
+ "ERCC1": {
+  "status": "ok",
+  "acc": "P07992",
+  "len": 297
+ },
+ "SIRT1": {
+  "status": "ok",
+  "acc": "Q96EB6",
+  "len": 747
+ },
+ "HDAC1": {
+  "status": "ok",
+  "acc": "Q13547",
+  "len": 482
+ },
+ "HSPA9": {
+  "status": "ok",
+  "acc": "P38646",
+  "len": 679
+ },
+ "GPX1": {
+  "status": "ok",
+  "acc": "P07203",
+  "len": 203
+ },
+ "GSR": {
+  "status": "ok",
+  "acc": "P00390",
+  "len": 522
+ },
+ "GSS": {
+  "status": "ok",
+  "acc": "P48637",
+  "len": 474
+ },
+ "GSTA4": {
+  "status": "ok",
+  "acc": "O15217",
+  "len": 222
+ },
+ "GSTP1": {
+  "status": "ok",
+  "acc": "P09211",
+  "len": 210
+ },
+ "MT-CO1": {
+  "status": "ok",
+  "acc": "P00395",
+  "len": 513
+ },
+ "HSPD1": {
+  "status": "ok",
+  "acc": "P10809",
+  "len": 573
+ },
+ "HSPA1A": {
+  "status": "ok",
+  "acc": "P0DMV8",
+  "len": 641
+ },
+ "HSPA1B": {
+  "status": "ok",
+  "acc": "P0DMV9",
+  "len": 641
+ },
+ "PCMT1": {
+  "status": "ok",
+  "acc": "P22061",
+  "len": 227
+ },
+ "MAPK8": {
+  "status": "ok",
+  "acc": "P45983",
+  "len": 427
+ },
+ "YWHAZ": {
+  "status": "ok",
+  "acc": "P63104",
+  "len": 245
+ },
+ "PTK2B": {
+  "status": "ok",
+  "acc": "Q14289",
+  "len": 1009
+ },
+ "PTK2": {
+  "status": "ok",
+  "acc": "Q05397",
+  "len": 1052
+ },
+ "IL7": {
+  "status": "ok",
+  "acc": "P13232",
+  "len": 177
+ },
+ "MAPK14": {
+  "status": "ok",
+  "acc": "Q16539",
+  "len": 360
+ },
+ "FGFR1": {
+  "status": "ok",
+  "acc": "P11362",
+  "len": 822
+ },
+ "SP1": {
+  "status": "ok",
+  "acc": "P08047",
+  "len": 785
+ },
+ "FLT1": {
+  "status": "ok",
+  "acc": "P17948",
+  "len": 1338
+ },
+ "JUN": {
+  "status": "ok",
+  "acc": "P05412",
+  "len": 331
+ },
+ "MED1": {
+  "status": "ok",
+  "acc": "Q15648",
+  "len": 1581
+ },
+ "MAPK9": {
+  "status": "ok",
+  "acc": "P45984",
+  "len": 424
+ },
+ "MAPK3": {
+  "status": "ok",
+  "acc": "P27361",
+  "len": 379
+ },
+ "HMGB1": {
+  "status": "ok",
+  "acc": "P09429",
+  "len": 215
+ },
+ "CCNA2": {
+  "status": "ok",
+  "acc": "P20248",
+  "len": 432
+ },
+ "HMGB2": {
+  "status": "ok",
+  "acc": "P26583",
+  "len": 209
+ },
+ "MAP3K5": {
+  "status": "ok",
+  "acc": "Q99683",
+  "len": 1374
+ },
+ "TAF1": {
+  "status": "ok",
+  "acc": "P21675",
+  "len": 1893
+ },
+ "LMNB1": {
+  "status": "ok",
+  "acc": "P20700",
+  "len": 586
+ },
+ "SDHC": {
+  "status": "ok",
+  "acc": "Q99643",
+  "len": 169
+ },
+ "FOXO4": {
+  "status": "ok",
+  "acc": "P98177",
+  "len": 505
+ },
+ "HESX1": {
+  "status": "ok",
+  "acc": "Q9UBX0",
+  "len": 185
+ },
+ "PIK3R1": {
+  "status": "ok",
+  "acc": "P27986",
+  "len": 724
+ },
+ "BSCL2": {
+  "status": "ok",
+  "acc": "Q96G97",
+  "len": 398
+ },
+ "AGPAT2": {
+  "status": "ok",
+  "acc": "O15120",
+  "len": 278
+ },
+ "BMI1": {
+  "status": "ok",
+  "acc": "P35226",
+  "len": 326
+ },
+ "EEF1A1": {
+  "status": "ok",
+  "acc": "P68104",
+  "len": 462
+ },
+ "TFAP2A": {
+  "status": "ok",
+  "acc": "P05549",
+  "len": 437
+ },
+ "BDNF": {
+  "status": "ok",
+  "acc": "P23560",
+  "len": 247
+ },
+ "CREB1": {
+  "status": "ok",
+  "acc": "P16220",
+  "len": 327
+ },
+ "ATF2": {
+  "status": "ok",
+  "acc": "P15336",
+  "len": 505
+ },
+ "TBP": {
+  "status": "ok",
+  "acc": "P20226",
+  "len": 339
+ },
+ "APEX1": {
+  "status": "ok",
+  "acc": "P27695",
+  "len": 318
+ },
+ "HBP1": {
+  "status": "ok",
+  "acc": "O60381",
+  "len": 514
+ },
+ "BUB1B": {
+  "status": "ok",
+  "acc": "O60566",
+  "len": 1050
+ },
+ "PTGS2": {
+  "status": "ok",
+  "acc": "P35354",
+  "len": 604
+ },
+ "HSPA8": {
+  "status": "ok",
+  "acc": "P11142",
+  "len": 646
+ },
+ "SIN3A": {
+  "status": "ok",
+  "acc": "Q96ST3",
+  "len": 1273
+ },
+ "CDK1": {
+  "status": "ok",
+  "acc": "P06493",
+  "len": 297
+ },
+ "TFDP1": {
+  "status": "ok",
+  "acc": "Q14186",
+  "len": 410
+ },
+ "DDIT3": {
+  "status": "ok",
+  "acc": "P35638",
+  "len": 169
+ },
+ "POLA1": {
+  "status": "ok",
+  "acc": "P09884",
+  "len": 1462
+ },
+ "MAPT": {
+  "status": "ok",
+  "acc": "P10636",
+  "len": 758
+ },
+ "CTGF": {
+  "status": "no_match"
+ },
+ "HDAC2": {
+  "status": "ok",
+  "acc": "Q92769",
+  "len": 488
+ },
+ "MAX": {
+  "status": "ok",
+  "acc": "P61244",
+  "len": 160
+ },
+ "MXD1": {
+  "status": "ok",
+  "acc": "Q05195",
+  "len": 221
+ },
+ "MDM2": {
+  "status": "ok",
+  "acc": "Q00987",
+  "len": 491
+ },
+ "SUMO1": {
+  "status": "ok",
+  "acc": "P63165",
+  "len": 101
+ },
+ "H2AFX": {
+  "status": "no_match"
+ },
+ "HOXB7": {
+  "status": "ok",
+  "acc": "P09629",
+  "len": 217
+ },
+ "HOXC4": {
+  "status": "ok",
+  "acc": "P09017",
+  "len": 264
+ },
+ "JAK2": {
+  "status": "ok",
+  "acc": "O60674",
+  "len": 1132
+ },
+ "ESR1": {
+  "status": "ok",
+  "acc": "P03372",
+  "len": 595
+ },
+ "LEP": {
+  "status": "ok",
+  "acc": "P41159",
+  "len": 167
+ },
+ "LEPR": {
+  "status": "ok",
+  "acc": "P48357",
+  "len": 1165
+ },
+ "NFKBIA": {
+  "status": "ok",
+  "acc": "P25963",
+  "len": 317
+ },
+ "CLU": {
+  "status": "ok",
+  "acc": "P10909",
+  "len": 449
+ },
+ "MTOR": {
+  "status": "ok",
+  "acc": "P42345",
+  "len": 2549
+ },
+ "GHRHR": {
+  "status": "ok",
+  "acc": "Q02643",
+  "len": 423
+ },
+ "CTNNB1": {
+  "status": "ok",
+  "acc": "P35222",
+  "len": 781
+ },
+ "PSEN1": {
+  "status": "ok",
+  "acc": "P49768",
+  "len": 467
+ },
+ "DLL3": {
+  "status": "ok",
+  "acc": "Q9NYJ7",
+  "len": 618
+ },
+ "CDKN2A": {
+  "status": "ok",
+  "acc": "P42771",
+  "len": 156
+ },
+ "PPP1CA": {
+  "status": "ok",
+  "acc": "P62136",
+  "len": 330
+ },
+ "DBN1": {
+  "status": "ok",
+  "acc": "Q16643",
+  "len": 649
+ },
+ "NOG": {
+  "status": "ok",
+  "acc": "Q13253",
+  "len": 232
+ },
+ "ELN": {
+  "status": "ok",
+  "acc": "P15502",
+  "len": 786
+ },
+ "ATR": {
+  "status": "ok",
+  "acc": "Q13535",
+  "len": 2644
+ },
+ "UCP3": {
+  "status": "ok",
+  "acc": "P55916",
+  "len": 312
+ },
+ "ZMPSTE24": {
+  "status": "ok",
+  "acc": "O75844",
+  "len": 475
+ },
+ "TP63": {
+  "status": "ok",
+  "acc": "Q9H3D4",
+  "len": 680
+ },
+ "UCP2": {
+  "status": "ok",
+  "acc": "P55851",
+  "len": 309
+ },
+ "POLB": {
+  "status": "ok",
+  "acc": "P06746",
+  "len": 335
+ },
+ "GCLC": {
+  "status": "ok",
+  "acc": "P48506",
+  "len": 637
+ },
+ "GCLM": {
+  "status": "ok",
+  "acc": "P48507",
+  "len": 274
+ },
+ "SIRT6": {
+  "status": "ok",
+  "acc": "Q8N6T7",
+  "len": 355
+ },
+ "BUB3": {
+  "status": "ok",
+  "acc": "O43684",
+  "len": 328
+ },
+ "RAE1": {
+  "status": "ok",
+  "acc": "P78406",
+  "len": 368
+ },
+ "PMCH": {
+  "status": "ok",
+  "acc": "P20382",
+  "len": 165
+ },
+ "MLH1": {
+  "status": "ok",
+  "acc": "P40692",
+  "len": 756
+ },
+ "CSNK1E": {
+  "status": "ok",
+  "acc": "P49674",
+  "len": 416
+ },
+ "STUB1": {
+  "status": "ok",
+  "acc": "Q9UNE7",
+  "len": 303
+ },
+ "PPM1D": {
+  "status": "ok",
+  "acc": "O15297",
+  "len": 605
+ },
+ "CHEK2": {
+  "status": "ok",
+  "acc": "O96017",
+  "len": 543
+ },
+ "PCK1": {
+  "status": "ok",
+  "acc": "P35558",
+  "len": 622
+ },
+ "ARHGAP1": {
+  "status": "ok",
+  "acc": "Q07960",
+  "len": 439
+ },
+ "CDC42": {
+  "status": "ok",
+  "acc": "P60953",
+  "len": 191
+ },
+ "ARNTL": {
+  "status": "no_match"
+ },
+ "CLOCK": {
+  "status": "ok",
+  "acc": "O15516",
+  "len": 846
+ },
+ "HIC1": {
+  "status": "ok",
+  "acc": "Q14526",
+  "len": 733
+ },
+ "PAPPA": {
+  "status": "ok",
+  "acc": "Q13219",
+  "len": 1627
+ },
+ "ADCY5": {
+  "status": "ok",
+  "acc": "O95622",
+  "len": 1261
+ },
+ "PPARGC1A": {
+  "status": "ok",
+  "acc": "Q9UBK2",
+  "len": 798
+ },
+ "GPX4": {
+  "status": "ok",
+  "acc": "P36969",
+  "len": 197
+ },
+ "UCP1": {
+  "status": "ok",
+  "acc": "P25874",
+  "len": 307
+ },
+ "FGF23": {
+  "status": "ok",
+  "acc": "Q9GZV9",
+  "len": 251
+ },
+ "EFEMP1": {
+  "status": "ok",
+  "acc": "Q12805",
+  "len": 493
+ },
+ "ERCC4": {
+  "status": "ok",
+  "acc": "Q92889",
+  "len": 916
+ },
+ "CETP": {
+  "status": "ok",
+  "acc": "P11597",
+  "len": 493
+ },
+ "PPARG": {
+  "status": "ok",
+  "acc": "P37231",
+  "len": 505
+ },
+ "AGTR1": {
+  "status": "ok",
+  "acc": "P30556",
+  "len": 359
+ },
+ "CISD2": {
+  "status": "ok",
+  "acc": "Q8N5K1",
+  "len": 135
+ },
+ "EEF1E1": {
+  "status": "ok",
+  "acc": "O43324",
+  "len": 174
+ },
+ "EPS8": {
+  "status": "ok",
+  "acc": "Q12929",
+  "len": 822
+ },
+ "KCNA3": {
+  "status": "ok",
+  "acc": "P22001",
+  "len": 575
+ },
+ "SIRT7": {
+  "status": "ok",
+  "acc": "Q9NRC8",
+  "len": 400
+ },
+ "SLC13A1": {
+  "status": "ok",
+  "acc": "Q9BZW2",
+  "len": 595
+ },
+ "SOCS2": {
+  "status": "ok",
+  "acc": "O14508",
+  "len": 198
+ },
+ "TPP2": {
+  "status": "ok",
+  "acc": "P29144",
+  "len": 1249
+ },
+ "TP53BP1": {
+  "status": "ok",
+  "acc": "Q12888",
+  "len": 1972
+ },
+ "SIRT3": {
+  "status": "ok",
+  "acc": "Q9NTG7",
+  "len": 399
+ },
+ "NCOR2": {
+  "status": "ok",
+  "acc": "Q9Y618",
+  "len": 2514
+ },
+ "SUN1": {
+  "status": "ok",
+  "acc": "O94901",
+  "len": 785
+ },
+ "BAK1": {
+  "status": "ok",
+  "acc": "Q16611",
+  "len": 211
+ },
+ "IGFBP2": {
+  "status": "ok",
+  "acc": "P18065",
+  "len": 325
+ },
+ "PYCR1": {
+  "status": "ok",
+  "acc": "P32322",
+  "len": 319
+ },
+ "TP73": {
+  "status": "ok",
+  "acc": "O15350",
+  "len": 636
+ },
+ "CNR1": {
+  "status": "ok",
+  "acc": "P21554",
+  "len": 472
+ },
+ "NFE2L2": {
+  "status": "ok",
+  "acc": "Q16236",
+  "len": 605
+ },
+ "CDKN1A": {
+  "status": "ok",
+  "acc": "P38936",
+  "len": 164
+ },
+ "PDGFRA": {
+  "status": "ok",
+  "acc": "P16234",
+  "len": 1089
+ },
+ "PIK3CA": {
+  "status": "ok",
+  "acc": "P42336",
+  "len": 1068
+ },
+ "C1QA": {
+  "status": "ok",
+  "acc": "P02745",
+  "len": 245
+ },
+ "CDKN2B": {
+  "status": "ok",
+  "acc": "P42772",
+  "len": 138
+ },
+ "EIF5A2": {
+  "status": "ok",
+  "acc": "Q9GZV4",
+  "len": 153
+ },
+ "MIF": {
+  "status": "ok",
+  "acc": "P14174",
+  "len": 115
+ },
+ "DGAT1": {
+  "status": "ok",
+  "acc": "O75907",
+  "len": 488
+ },
+ "MT1E": {
+  "status": "ok",
+  "acc": "P04732",
+  "len": 61
+ },
+ "FGF21": {
+  "status": "ok",
+  "acc": "Q9NSA1",
+  "len": 209
+ },
+ "HTRA2": {
+  "status": "ok",
+  "acc": "O43464",
+  "len": 458
+ },
+ "GSK3A": {
+  "status": "ok",
+  "acc": "P49840",
+  "len": 483
+ },
+ "NUDT1": {
+  "status": "ok",
+  "acc": "P36639",
+  "len": 156
+ },
+ "IKBKB": {
+  "status": "ok",
+  "acc": "O14920",
+  "len": 756
+ },
+ "SQSTM1": {
+  "status": "ok",
+  "acc": "Q13501",
+  "len": 440
+ },
+ "CDK7": {
+  "status": "ok",
+  "acc": "P50613",
+  "len": 346
+ },
+ "GRN": {
+  "status": "ok",
+  "acc": "P28799",
+  "len": 593
+ },
+ "SERPINE1": {
+  "status": "ok",
+  "acc": "P05121",
+  "len": 402
+ },
+ "SPRTN": {
+  "status": "ok",
+  "acc": "Q9H040",
+  "len": 489
+ },
+ "RICTOR": {
+  "status": "ok",
+  "acc": "Q6R327",
+  "len": 1708
+ },
+ "CTF1": {
+  "status": "ok",
+  "acc": "Q16619",
+  "len": 201
+ },
+ "TRAP1": {
+  "status": "ok",
+  "acc": "Q12931",
+  "len": 704
+ },
+ "TRPV1": {
+  "status": "ok",
+  "acc": "Q8NER1",
+  "len": 839
+ },
+ "NFE2L1": {
+  "status": "ok",
+  "acc": "Q14494",
+  "len": 772
+ },
+ "IFNB1": {
+  "status": "ok",
+  "acc": "P01574",
+  "len": 187
+ },
+ "GDF11": {
+  "status": "ok",
+  "acc": "O95390",
+  "len": 407
+ }
+}
