@@ -34,8 +34,31 @@
 11. AEES v1 (round R1): assembly-aware evidence scoring; jellyfish/xaees.py, results/x-aees.json.
 12. Benchmark arms 1-2 (this register 4-5).
 
+13. FPI fragmentation control (P1 #4): T. rubra shredded to 49,860 mock scaffolds matching the
+   74,835-scaffold assembly's profile; 37/39 recoverable genes survive, FOXO3 + NFE2L2 lost,
+   FPI = 0.0513. Files: experiments/x_frag.py, results/x-frag.json.
+14. Housekeeping completeness + normalization (P1 #15): 12 coreg genes recovered in full in all
+   8 genomes (11/11 where the query panel has 11); correction factor 1.0, normalized call rates
+   identical to raw. File: results/x-ledger-coreg.json.
+15. Rejuvenation panel extension (ext2) - HONEST NEGATIVE: 12 reversal-literature genes map in
+   all 8 genomes, mean identity 64.5-71.2%, no separation of non-senescent vs mortal lineages;
+   mortal M. virulenta tops the identity band. Sharpens claims to duplication structure +
+   module signal quality. File: results/x-ledger-ext2.json.
+16. dN/dS exploratory (P1 #3): NG86 pairwise Td vs Trubra, top-10 AEES genes; 6/10 estimable,
+   all omega<1 (ATG7 0.066, ATG5 0.124, SIRT6 0.147, GRN 0.350, TARDBP 0.434, PSEN1 0.835);
+   APP/GHR/SIRT1/VCP dS-saturated. ATG5 duplication maintained under purifying selection, not
+   eroding. Files: experiments/x_dnds.py, results/x-dnds.json.
+17. Evidence tiers (P1 #19): 38 panel genes tier 1; top-10 tier 2 (RBH 20/20); 9/10 tier 4
+   (external aging DB); TARDBP tier 2 only; tier 3 (expression) empty pending SRA.
+
+## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
+x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
+pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
+repair chain rerun reproduced 100% completeness on every genome (verified 2026-09-27, commit
+04a5091). All downstream numbers in this register use the repaired ledgers.
+
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 19,820 body words -> 53 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 23,016 body words -> 61 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 
