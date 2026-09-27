@@ -46,6 +46,18 @@ number reproduces from results/*.json at the D9-closure commit.
    concordant copy counting + RBH + purifying selection, not neighborhood conservation.
    File: results/x-synteny.json.
 
+20. Orthogonal-engine concordance (P1 #12): the panel's calls do not depend on BLAST.
+   phmmer profile-HMM search on T. dohrnii (286,785 six-frame ORFs >=75aa) reproduces
+   all 20/20 tblastn-significant genes with 27/36 best-locus overlap; ATG5 is recovered
+   as exactly 3 loci, matching the frozen pipeline's 3 strong loci - independent
+   algorithmic confirmation of the duplication. DIAMOND blastp against six-frame ORF
+   translations of all five genomes confirms direction with lower sensitivity
+   (best-locus overlap 16/6/9/3/24 of 36 per genome); the shortfall is the ORF-cutting
+   step (domains split across <75aa fragments are invisible to blastp), disclosed as
+   method asymmetry. phmmer locus counts run high on multi-domain genes (WRN 120) -
+   significance concordance, not raw counts, is the comparable metric. Files:
+   results/x-concordance-hmmer.json, results/x-concordance-diamond.json.
+
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
 pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
@@ -53,7 +65,7 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 23,378 body words -> 62 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 23,612 body words -> 63 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 

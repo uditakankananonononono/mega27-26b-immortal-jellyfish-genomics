@@ -1,0 +1,218 @@
+{
+ "AKT1": {
+  "phmmer_loci": 93,
+  "tblastn_strong": 20,
+  "tblastn_significant": true,
+  "best_locus_overlap": false
+ },
+ "APP": {
+  "phmmer_loci": 13,
+  "tblastn_strong": 9,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "ATG5": {
+  "phmmer_loci": 3,
+  "tblastn_strong": 3,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "ATG7": {
+  "phmmer_loci": 4,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "ATM": {
+  "phmmer_loci": 6,
+  "tblastn_strong": 5,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "ATR": {
+  "phmmer_loci": 6,
+  "tblastn_strong": 4,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "BECN1": {
+  "phmmer_loci": 7,
+  "tblastn_strong": 2,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "BLM": {
+  "phmmer_loci": 76,
+  "tblastn_strong": 26,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "C9orf72": {
+  "phmmer_loci": 2,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "FOXO3": {
+  "phmmer_loci": 17,
+  "tblastn_strong": 2,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "FUS": {
+  "phmmer_loci": 4,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "GRN": {
+  "phmmer_loci": 10,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "HSF1": {
+  "phmmer_loci": 1,
+  "tblastn_strong": 2,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "HTT": {
+  "phmmer_loci": 5,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "IGF1R": {
+  "phmmer_loci": 75,
+  "tblastn_strong": 24,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "INSR": {
+  "phmmer_loci": 92,
+  "tblastn_strong": 32,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "LRRK2": {
+  "phmmer_loci": 155,
+  "tblastn_strong": 18,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "MTOR": {
+  "phmmer_loci": 12,
+  "tblastn_strong": 6,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "NFE2L2": {
+  "phmmer_loci": 2,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "OPTN": {
+  "phmmer_loci": 6,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "PARK7": {
+  "phmmer_loci": 0,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "PINK1": {
+  "phmmer_loci": 22,
+  "tblastn_strong": 3,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "PRKAA1": {
+  "phmmer_loci": 129,
+  "tblastn_strong": 19,
+  "tblastn_significant": true,
+  "best_locus_overlap": false
+ },
+ "PSEN1": {
+  "phmmer_loci": 0,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "PSEN2": {
+  "phmmer_loci": 0,
+  "tblastn_strong": 1,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "PTEN": {
+  "phmmer_loci": 3,
+  "tblastn_strong": 3,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "SIRT1": {
+  "phmmer_loci": 8,
+  "tblastn_strong": 6,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "SIRT6": {
+  "phmmer_loci": 4,
+  "tblastn_strong": 4,
+  "tblastn_significant": true,
+  "best_locus_overlap": false
+ },
+ "SOD1": {
+  "phmmer_loci": 3,
+  "tblastn_strong": 6,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "SQSTM1": {
+  "phmmer_loci": 2,
+  "tblastn_strong": 2,
+  "tblastn_significant": false,
+  "best_locus_overlap": false
+ },
+ "TARDBP": {
+  "phmmer_loci": 15,
+  "tblastn_strong": 4,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "TFEB": {
+  "phmmer_loci": 3,
+  "tblastn_strong": 2,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "TP53": {
+  "phmmer_loci": 4,
+  "tblastn_strong": 3,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "UBQLN2": {
+  "phmmer_loci": 5,
+  "tblastn_strong": 0,
+  "tblastn_significant": false,
+  "best_locus_overlap": true
+ },
+ "VCP": {
+  "phmmer_loci": 23,
+  "tblastn_strong": 21,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ },
+ "WRN": {
+  "phmmer_loci": 120,
+  "tblastn_strong": 38,
+  "tblastn_significant": true,
+  "best_locus_overlap": true
+ }
+}
