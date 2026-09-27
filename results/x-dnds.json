@@ -1,0 +1,76 @@
+{
+ "method": "NG86 pairwise, partial-gene (exploratory)",
+ "pairs": "Tdohrnii vs Trubra",
+ "results": {
+  "ATG5": {
+   "status": "ok",
+   "dN": 0.1587,
+   "dS": 1.279,
+   "omega": 0.124,
+   "n_codons": 179
+  },
+  "APP": {
+   "status": "ok",
+   "dN": 0.9731,
+   "dS": -1.0,
+   "omega": null,
+   "n_codons": 597
+  },
+  "ATG7": {
+   "status": "ok",
+   "dN": 0.0621,
+   "dS": 0.9417,
+   "omega": 0.066,
+   "n_codons": 112
+  },
+  "PSEN1": {
+   "status": "ok",
+   "dN": 1.3565,
+   "dS": 1.6251,
+   "omega": 0.835,
+   "n_codons": 102
+  },
+  "GHR": {
+   "status": "ok",
+   "dN": 0.9383,
+   "dS": -1.0,
+   "omega": null,
+   "n_codons": 578
+  },
+  "SIRT6": {
+   "status": "ok",
+   "dN": 0.1607,
+   "dS": 1.0911,
+   "omega": 0.147,
+   "n_codons": 420
+  },
+  "SIRT1": {
+   "status": "ok",
+   "dN": 0.7926,
+   "dS": -1.0,
+   "omega": null,
+   "n_codons": 145
+  },
+  "GRN": {
+   "status": "ok",
+   "dN": 0.4001,
+   "dS": 1.1424,
+   "omega": 0.35,
+   "n_codons": 218
+  },
+  "VCP": {
+   "status": "ok",
+   "dN": 1.0499,
+   "dS": -1.0,
+   "omega": null,
+   "n_codons": 681
+  },
+  "TARDBP": {
+   "status": "ok",
+   "dN": 0.8414,
+   "dS": 1.9372,
+   "omega": 0.434,
+   "n_codons": 161
+  }
+ }
+}
