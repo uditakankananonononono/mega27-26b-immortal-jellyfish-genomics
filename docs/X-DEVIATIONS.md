@@ -57,3 +57,16 @@ be used only in clearly-labeled exploratory arms.
 AEES v1 (jellyfish/xaees.py, judge round R1 novelty) is an additive scoring
 layer over frozen pipeline outputs; it does not change presence/copy calls
 used in H1-H6. Reported as exploratory.
+
+## D8 (2026-09-27 10:23): x_map result-file overwrite (implementation bug, found pre-report)
+Second invocations of x_map.py with a genome subset (ext2 on 3 ext genomes; coreg-ext on
+3 genomes) OVERWROTE results/x-tblastn-{set}.json and results/x-ledger-{set}.json, wiping
+the 5-H-input-genome results from the first invocation. Caught before any ext2/coreg-ext
+per-gene claim was reported (an intermediate local table showing zeros for H-input genomes
+was this artifact, not biology, and was never reported). Fix: merge-on-write in x_map.py
+(existing keys preserved, new keys updated). Repair: full coreg+ext2 rerun on the 5 H-input
+genomes chained after the FPI run (/tmp/xround2c.sh, ends R2CDONE); the frozen pipeline is
+deterministic (fixed seed only affects shuffled set), so regenerated ledgers must reproduce
+the already-reported coreg detection rates (12/12 both Td assemblies, 12/12 Trubra,
+12/12 Aaurita, 11/12 Clytia) - they will be re-verified against those numbers before
+anything downstream uses them.

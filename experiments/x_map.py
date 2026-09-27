@@ -109,8 +109,16 @@ def main():
             ledger[genome][sym] = {"n_loci": len(loci), "n_strong": len(strong),
                                    "best": (strong[0] if strong else
                                             (loci[0] if loci else None))}
-        json.dump(hits_out, open(f"results/x-tblastn-{which}.json", "w"), indent=1)
-        json.dump(ledger, open(f"results/x-ledger-{which}.json", "w"), indent=1)
+        for path, cur in ((f"results/x-tblastn-{which}.json", hits_out),
+                          (f"results/x-ledger-{which}.json", ledger)):
+            merged = {}
+            if os.path.exists(path):
+                try:
+                    merged = json.load(open(path))
+                except Exception:
+                    merged = {}
+            merged.update(cur)
+            json.dump(merged, open(path, "w"), indent=1)
         print(f"== {genome} {which}: {sum(v['n_strong'] for v in ledger[genome].values())} strong loci over {len(ledger[genome])} genes", flush=True)
     print("MAPDONE", which, flush=True)
 
