@@ -1,0 +1,1730 @@
+{
+ "Nvectensis": {
+  "AKT1": {
+   "n_loci": 3,
+   "n_strong": 3,
+   "best": {
+    "contig": "emb|CAKOBB020006676.1|",
+    "start": 757,
+    "end": 4004,
+    "n_hsps": 6,
+    "total_bits": 568.4,
+    "best_pident": 100.0,
+    "best_qcov": 0.255,
+    "strand": "+"
+   }
+  },
+  "APP": {
+   "n_loci": 7,
+   "n_strong": 5,
+   "best": {
+    "contig": "emb|CAKOBB020000220.1|",
+    "start": 1,
+    "end": 7379,
+    "n_hsps": 20,
+    "total_bits": 2209.6,
+    "best_pident": 98.824,
+    "best_qcov": 0.093,
+    "strand": "-"
+   }
+  },
+  "ATG5": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "emb|CAKOBB020001883.1|",
+    "start": 87415,
+    "end": 89167,
+    "n_hsps": 6,
+    "total_bits": 437.5,
+    "best_pident": 100.0,
+    "best_qcov": 0.362,
+    "strand": "-"
+   }
+  },
+  "ATG7": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020000916.1|",
+    "start": 228073,
+    "end": 236346,
+    "n_hsps": 42,
+    "total_bits": 2985.7,
+    "best_pident": 100.0,
+    "best_qcov": 0.173,
+    "strand": "+"
+   }
+  },
+  "ATM": {
+   "n_loci": 17,
+   "n_strong": 17,
+   "best": {
+    "contig": "emb|CAKOBB020005925.1|",
+    "start": 600,
+    "end": 38520,
+    "n_hsps": 46,
+    "total_bits": 4577.9,
+    "best_pident": 100.0,
+    "best_qcov": 0.033,
+    "strand": "+"
+   }
+  },
+  "ATR": {
+   "n_loci": 16,
+   "n_strong": 16,
+   "best": {
+    "contig": "emb|CAKOBB020002035.1|",
+    "start": 845,
+    "end": 20770,
+    "n_hsps": 44,
+    "total_bits": 4165.1,
+    "best_pident": 100.0,
+    "best_qcov": 0.044,
+    "strand": "-"
+   }
+  },
+  "C9orf72": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "emb|CAKOBB020000150.1|",
+    "start": 332480,
+    "end": 337701,
+    "n_hsps": 11,
+    "total_bits": 1402.1,
+    "best_pident": 100.0,
+    "best_qcov": 0.38,
+    "strand": "-"
+   }
+  },
+  "INSR": {
+   "n_loci": 21,
+   "n_strong": 21,
+   "best": {
+    "contig": "emb|CAKOBB020000135.1|",
+    "start": 222,
+    "end": 15870,
+    "n_hsps": 25,
+    "total_bits": 2360.7,
+    "best_pident": 100.0,
+    "best_qcov": 0.088,
+    "strand": "+"
+   }
+  },
+  "MTOR": {
+   "n_loci": 14,
+   "n_strong": 14,
+   "best": {
+    "contig": "emb|CAKOBB020003975.1|",
+    "start": 83,
+    "end": 23173,
+    "n_hsps": 41,
+    "total_bits": 3177.5,
+    "best_pident": 100.0,
+    "best_qcov": 0.047,
+    "strand": "-"
+   }
+  },
+  "PINK1": {
+   "n_loci": 7,
+   "n_strong": 6,
+   "best": {
+    "contig": "emb|CAKOBB020009881.1|",
+    "start": 3755,
+    "end": 17475,
+    "n_hsps": 13,
+    "total_bits": 1187.9,
+    "best_pident": 100.0,
+    "best_qcov": 0.194,
+    "strand": "+"
+   }
+  },
+  "PTEN": {
+   "n_loci": 4,
+   "n_strong": 2,
+   "best": {
+    "contig": "emb|CAKOBB020001513.1|",
+    "start": 3,
+    "end": 9304,
+    "n_hsps": 13,
+    "total_bits": 983.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.046,
+    "strand": "+"
+   }
+  },
+  "SIRT1": {
+   "n_loci": 7,
+   "n_strong": 6,
+   "best": {
+    "contig": "emb|CAKOBB020003807.1|",
+    "start": 18836,
+    "end": 31590,
+    "n_hsps": 27,
+    "total_bits": 2830.2,
+    "best_pident": 100.0,
+    "best_qcov": 0.292,
+    "strand": "-"
+   }
+  },
+  "TFEB": {
+   "n_loci": 6,
+   "n_strong": 5,
+   "best": {
+    "contig": "emb|CAKOBB020002545.1|",
+    "start": 75739,
+    "end": 80438,
+    "n_hsps": 9,
+    "total_bits": 853.7,
+    "best_pident": 100.0,
+    "best_qcov": 0.2,
+    "strand": "-"
+   }
+  },
+  "TP53": {
+   "n_loci": 14,
+   "n_strong": 6,
+   "best": {
+    "contig": "emb|CAKOBB020007523.1|",
+    "start": 14622,
+    "end": 25017,
+    "n_hsps": 6,
+    "total_bits": 455.6,
+    "best_pident": 57.143,
+    "best_qcov": 0.166,
+    "strand": "+"
+   }
+  },
+  "VCP": {
+   "n_loci": 4,
+   "n_strong": 3,
+   "best": {
+    "contig": "emb|CAKOBB020010974.1|",
+    "start": 1252470,
+    "end": 1258950,
+    "n_hsps": 14,
+    "total_bits": 3612.1,
+    "best_pident": 100.0,
+    "best_qcov": 0.387,
+    "strand": "-"
+   }
+  },
+  "WRN": {
+   "n_loci": 51,
+   "n_strong": 34,
+   "best": {
+    "contig": "emb|CAKOBB020000453.1|",
+    "start": 95674,
+    "end": 97375,
+    "n_hsps": 5,
+    "total_bits": 507.8,
+    "best_pident": 34.146,
+    "best_qcov": 0.612,
+    "strand": "-"
+   }
+  },
+  "BECN1": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020002485.1|",
+    "start": 54936,
+    "end": 59932,
+    "n_hsps": 8,
+    "total_bits": 547.2,
+    "best_pident": 68.182,
+    "best_qcov": 0.176,
+    "strand": "-"
+   }
+  },
+  "BLM": {
+   "n_loci": 21,
+   "n_strong": 21,
+   "best": {
+    "contig": "emb|CAKOBB020010973.1|",
+    "start": 836850,
+    "end": 990472,
+    "n_hsps": 70,
+    "total_bits": 4747.6,
+    "best_pident": 50.0,
+    "best_qcov": 0.092,
+    "strand": "+"
+   }
+  },
+  "SIRT6": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "emb|CAKOBB020000348.1|",
+    "start": 17968,
+    "end": 28316,
+    "n_hsps": 16,
+    "total_bits": 1496.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.362,
+    "strand": "+"
+   }
+  },
+  "GRN": {
+   "n_loci": 9,
+   "n_strong": 9,
+   "best": {
+    "contig": "emb|CAKOBB020002008.1|",
+    "start": 37727,
+    "end": 42410,
+    "n_hsps": 16,
+    "total_bits": 2288.4,
+    "best_pident": 49.153,
+    "best_qcov": 0.905,
+    "strand": "+"
+   }
+  },
+  "HSF1": {
+   "n_loci": 23,
+   "n_strong": 4,
+   "best": {
+    "contig": "emb|CAKOBB020000675.1|",
+    "start": 3113,
+    "end": 10928,
+    "n_hsps": 7,
+    "total_bits": 424.7,
+    "best_pident": 82.927,
+    "best_qcov": 0.09,
+    "strand": "-"
+   }
+  },
+  "HTT": {
+   "n_loci": 9,
+   "n_strong": 9,
+   "best": {
+    "contig": "emb|CAKOBB020007821.1|",
+    "start": 15161,
+    "end": 41757,
+    "n_hsps": 10,
+    "total_bits": 776.4,
+    "best_pident": 64.0,
+    "best_qcov": 0.101,
+    "strand": "+"
+   }
+  },
+  "LRRK2": {
+   "n_loci": 28,
+   "n_strong": 14,
+   "best": {
+    "contig": "emb|CAKOBB020005411.1|",
+    "start": 23259,
+    "end": 36726,
+    "n_hsps": 19,
+    "total_bits": 1686.5,
+    "best_pident": 64.706,
+    "best_qcov": 0.184,
+    "strand": "-"
+   }
+  },
+  "PSEN1": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "emb|CAKOBB020001870.1|",
+    "start": 31087,
+    "end": 46622,
+    "n_hsps": 5,
+    "total_bits": 415.1,
+    "best_pident": 89.189,
+    "best_qcov": 0.161,
+    "strand": "-"
+   }
+  },
+  "SOD1": {
+   "n_loci": 7,
+   "n_strong": 4,
+   "best": {
+    "contig": "emb|CAKOBB020010362.1|",
+    "start": 3060,
+    "end": 9089,
+    "n_hsps": 4,
+    "total_bits": 211.5,
+    "best_pident": 71.429,
+    "best_qcov": 0.329,
+    "strand": "+"
+   }
+  },
+  "SQSTM1": {
+   "n_loci": 22,
+   "n_strong": 8,
+   "best": {
+    "contig": "emb|CAKOBB020001002.1|",
+    "start": 17704,
+    "end": 24097,
+    "n_hsps": 6,
+    "total_bits": 392.4,
+    "best_pident": 82.5,
+    "best_qcov": 0.062,
+    "strand": "+"
+   }
+  },
+  "TARDBP": {
+   "n_loci": 10,
+   "n_strong": 8,
+   "best": {
+    "contig": "emb|CAKOBB020000032.1|",
+    "start": 13454,
+    "end": 16704,
+    "n_hsps": 8,
+    "total_bits": 568.0,
+    "best_pident": 54.762,
+    "best_qcov": 0.237,
+    "strand": "+"
+   }
+  },
+  "FUS": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020000272.1|",
+    "start": 245222,
+    "end": 248910,
+    "n_hsps": 3,
+    "total_bits": 195.3,
+    "best_pident": 100.0,
+    "best_qcov": 0.092,
+    "strand": "+"
+   }
+  },
+  "BDNF": {
+   "n_loci": 20,
+   "n_strong": 15,
+   "best": {
+    "contig": "emb|CAKOBB020010962.1|",
+    "start": 557092,
+    "end": 565314,
+    "n_hsps": 11,
+    "total_bits": 704.8,
+    "best_pident": 90.698,
+    "best_qcov": 0.033,
+    "strand": "-"
+   }
+  },
+  "CDKN2A": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "emb|CAKOBB020000698.1|",
+    "start": 53775,
+    "end": 54074,
+    "n_hsps": 1,
+    "total_bits": 50.1,
+    "best_pident": 35.644,
+    "best_qcov": 0.599,
+    "strand": "+"
+   }
+  },
+  "FOXO3": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "emb|CAKOBB020000666.1|",
+    "start": 42095,
+    "end": 42271,
+    "n_hsps": 1,
+    "total_bits": 87.4,
+    "best_pident": 64.407,
+    "best_qcov": 0.072,
+    "strand": "-"
+   }
+  },
+  "GHR": {
+   "n_loci": 10,
+   "n_strong": 7,
+   "best": {
+    "contig": "emb|CAKOBB020007207.1|",
+    "start": 18701,
+    "end": 19513,
+    "n_hsps": 4,
+    "total_bits": 377.2,
+    "best_pident": 35.714,
+    "best_qcov": 0.428,
+    "strand": "-"
+   }
+  },
+  "IGF1": {
+   "n_loci": 9,
+   "n_strong": 9,
+   "best": {
+    "contig": "emb|CAKOBB020000342.1|",
+    "start": 1426,
+    "end": 23506,
+    "n_hsps": 9,
+    "total_bits": 616.9,
+    "best_pident": 47.917,
+    "best_qcov": 0.419,
+    "strand": "+"
+   }
+  },
+  "IGF1R": {
+   "n_loci": 2,
+   "n_strong": 0,
+   "best": {
+    "contig": "emb|CAKOBB020001621.1|",
+    "start": 18729,
+    "end": 18917,
+    "n_hsps": 1,
+    "total_bits": 92.8,
+    "best_pident": 63.492,
+    "best_qcov": 0.087,
+    "strand": "-"
+   }
+  },
+  "NGF": {
+   "n_loci": 15,
+   "n_strong": 6,
+   "best": {
+    "contig": "emb|CAKOBB020006452.1|",
+    "start": 227,
+    "end": 11650,
+    "n_hsps": 3,
+    "total_bits": 304.4,
+    "best_pident": 34.483,
+    "best_qcov": 0.196,
+    "strand": "-"
+   }
+  },
+  "OPTN": {
+   "n_loci": 17,
+   "n_strong": 10,
+   "best": {
+    "contig": "emb|CAKOBB020001916.1|",
+    "start": 285259,
+    "end": 291674,
+    "n_hsps": 3,
+    "total_bits": 231.1,
+    "best_pident": 45.763,
+    "best_qcov": 0.083,
+    "strand": "+"
+   }
+  },
+  "PARK7": {
+   "n_loci": 4,
+   "n_strong": 0,
+   "best": {
+    "contig": "emb|CAKOBB020002284.1|",
+    "start": 12277,
+    "end": 12456,
+    "n_hsps": 1,
+    "total_bits": 70.9,
+    "best_pident": 50.0,
+    "best_qcov": 0.04,
+    "strand": "+"
+   }
+  },
+  "PRKAA1": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020002101.1|",
+    "start": 16018,
+    "end": 22718,
+    "n_hsps": 2,
+    "total_bits": 124.0,
+    "best_pident": 63.889,
+    "best_qcov": 0.075,
+    "strand": "-"
+   }
+  },
+  "PRNP": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020000916.1|",
+    "start": 13882,
+    "end": 16140,
+    "n_hsps": 3,
+    "total_bits": 462.2,
+    "best_pident": 56.281,
+    "best_qcov": 0.241,
+    "strand": "-"
+   }
+  },
+  "PSEN2": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "emb|CAKOBB020001870.1|",
+    "start": 38215,
+    "end": 46724,
+    "n_hsps": 3,
+    "total_bits": 232.4,
+    "best_pident": 60.377,
+    "best_qcov": 0.181,
+    "strand": "-"
+   }
+  },
+  "SNCA": {
+   "n_loci": 2,
+   "n_strong": 0,
+   "best": {
+    "contig": "emb|CAKOBB020005148.1|",
+    "start": 8001,
+    "end": 8270,
+    "n_hsps": 1,
+    "total_bits": 69.7,
+    "best_pident": 36.667,
+    "best_qcov": 0.175,
+    "strand": "+"
+   }
+  },
+  "TREM2": {
+   "n_loci": 3,
+   "n_strong": 2,
+   "best": {
+    "contig": "emb|CAKOBB020000456.1|",
+    "start": 24321,
+    "end": 49016,
+    "n_hsps": 5,
+    "total_bits": 353.6,
+    "best_pident": 54.717,
+    "best_qcov": 0.276,
+    "strand": "-"
+   }
+  }
+ },
+ "Mvirulenta": {
+  "APP": {
+   "n_loci": 7,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|RDPX01000180.1|",
+    "start": 346470,
+    "end": 411295,
+    "n_hsps": 19,
+    "total_bits": 1737.1,
+    "best_pident": 100.0,
+    "best_qcov": 0.107,
+    "strand": "-"
+   }
+  },
+  "ATG5": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000018.1|",
+    "start": 2426705,
+    "end": 2426842,
+    "n_hsps": 3,
+    "total_bits": 201.0,
+    "best_pident": 65.217,
+    "best_qcov": 0.354,
+    "strand": "-"
+   }
+  },
+  "ATG7": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000076.1|",
+    "start": 212615,
+    "end": 259007,
+    "n_hsps": 30,
+    "total_bits": 2069.0,
+    "best_pident": 92.105,
+    "best_qcov": 0.155,
+    "strand": "-"
+   }
+  },
+  "ATM": {
+   "n_loci": 5,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|RDPX01000076.1|",
+    "start": 6504,
+    "end": 42568,
+    "n_hsps": 26,
+    "total_bits": 2142.5,
+    "best_pident": 85.294,
+    "best_qcov": 0.038,
+    "strand": "+"
+   }
+  },
+  "ATR": {
+   "n_loci": 4,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|RDPX01000390.1|",
+    "start": 418592,
+    "end": 531694,
+    "n_hsps": 27,
+    "total_bits": 2221.2,
+    "best_pident": 94.118,
+    "best_qcov": 0.048,
+    "strand": "+"
+   }
+  },
+  "C9orf72": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|RDPX01000033.1|",
+    "start": 1195273,
+    "end": 1195659,
+    "n_hsps": 3,
+    "total_bits": 324.7,
+    "best_pident": 46.512,
+    "best_qcov": 0.283,
+    "strand": "+"
+   }
+  },
+  "INSR": {
+   "n_loci": 31,
+   "n_strong": 25,
+   "best": {
+    "contig": "gb|RDPX01000386.1|",
+    "start": 465687,
+    "end": 557131,
+    "n_hsps": 33,
+    "total_bits": 3622.1,
+    "best_pident": 84.615,
+    "best_qcov": 0.129,
+    "strand": "-"
+   }
+  },
+  "MTOR": {
+   "n_loci": 6,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|RDPX01000645.1|",
+    "start": 50002,
+    "end": 166410,
+    "n_hsps": 54,
+    "total_bits": 4173.4,
+    "best_pident": 96.154,
+    "best_qcov": 0.036,
+    "strand": "-"
+   }
+  },
+  "PINK1": {
+   "n_loci": 3,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|RDPX01000560.1|",
+    "start": 208161,
+    "end": 244167,
+    "n_hsps": 5,
+    "total_bits": 378.8,
+    "best_pident": 69.231,
+    "best_qcov": 0.104,
+    "strand": "+"
+   }
+  },
+  "PTEN": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000072.1|",
+    "start": 1955248,
+    "end": 1962224,
+    "n_hsps": 6,
+    "total_bits": 424.3,
+    "best_pident": 68.627,
+    "best_qcov": 0.044,
+    "strand": "-"
+   }
+  },
+  "SIRT1": {
+   "n_loci": 6,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|RDPX01000046.1|",
+    "start": 3097698,
+    "end": 3103330,
+    "n_hsps": 8,
+    "total_bits": 612.8,
+    "best_pident": 50.794,
+    "best_qcov": 0.271,
+    "strand": "+"
+   }
+  },
+  "TFEB": {
+   "n_loci": 5,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|RDPX01000284.1|",
+    "start": 315365,
+    "end": 318532,
+    "n_hsps": 1,
+    "total_bits": 721.0,
+    "best_pident": 41.447,
+    "best_qcov": 0.86,
+    "strand": "+"
+   }
+  },
+  "VCP": {
+   "n_loci": 3,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|RDPX01000145.1|",
+    "start": 1473115,
+    "end": 1492515,
+    "n_hsps": 9,
+    "total_bits": 1580.7,
+    "best_pident": 59.259,
+    "best_qcov": 0.384,
+    "strand": "-"
+   }
+  },
+  "WRN": {
+   "n_loci": 15,
+   "n_strong": 7,
+   "best": {
+    "contig": "gb|RDPX01000353.1|",
+    "start": 1192042,
+    "end": 1211800,
+    "n_hsps": 9,
+    "total_bits": 628.9,
+    "best_pident": 88.372,
+    "best_qcov": 0.071,
+    "strand": "+"
+   }
+  },
+  "AKT1": {
+   "n_loci": 3,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|RDPX01000222.1|",
+    "start": 1328665,
+    "end": 1329453,
+    "n_hsps": 2,
+    "total_bits": 204.7,
+    "best_pident": 55.682,
+    "best_qcov": 0.049,
+    "strand": "-"
+   }
+  },
+  "BECN1": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000356.1|",
+    "start": 150661,
+    "end": 162986,
+    "n_hsps": 3,
+    "total_bits": 241.9,
+    "best_pident": 63.235,
+    "best_qcov": 0.116,
+    "strand": "-"
+   }
+  },
+  "BLM": {
+   "n_loci": 8,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|RDPX01000102.1|",
+    "start": 354782,
+    "end": 375187,
+    "n_hsps": 23,
+    "total_bits": 2171.6,
+    "best_pident": 83.871,
+    "best_qcov": 0.091,
+    "strand": "+"
+   }
+  },
+  "SIRT6": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000034.1|",
+    "start": 2502816,
+    "end": 2508624,
+    "n_hsps": 9,
+    "total_bits": 876.5,
+    "best_pident": 73.81,
+    "best_qcov": 0.307,
+    "strand": "-"
+   }
+  },
+  "GRN": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|RDPX01000007.1|",
+    "start": 5842805,
+    "end": 5853191,
+    "n_hsps": 16,
+    "total_bits": 2653.1,
+    "best_pident": 50.0,
+    "best_qcov": 0.633,
+    "strand": "+"
+   }
+  },
+  "HSF1": {
+   "n_loci": 25,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|RDPX01000088.1|",
+    "start": 32839,
+    "end": 37230,
+    "n_hsps": 2,
+    "total_bits": 130.9,
+    "best_pident": 75.0,
+    "best_qcov": 0.046,
+    "strand": "-"
+   }
+  },
+  "HTT": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000015.1|",
+    "start": 1032029,
+    "end": 1119072,
+    "n_hsps": 10,
+    "total_bits": 884.3,
+    "best_pident": 78.431,
+    "best_qcov": 0.163,
+    "strand": "+"
+   }
+  },
+  "LRRK2": {
+   "n_loci": 28,
+   "n_strong": 16,
+   "best": {
+    "contig": "gb|RDPX01000004.1|",
+    "start": 5409078,
+    "end": 5436491,
+    "n_hsps": 15,
+    "total_bits": 1729.3,
+    "best_pident": 56.098,
+    "best_qcov": 0.294,
+    "strand": "-"
+   }
+  },
+  "OPTN": {
+   "n_loci": 12,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|RDPX01000021.1|",
+    "start": 3075052,
+    "end": 3164625,
+    "n_hsps": 12,
+    "total_bits": 823.1,
+    "best_pident": 90.323,
+    "best_qcov": 0.05,
+    "strand": "-"
+   }
+  },
+  "PARK7": {
+   "n_loci": 3,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000271.1|",
+    "start": 620167,
+    "end": 653505,
+    "n_hsps": 2,
+    "total_bits": 117.0,
+    "best_pident": 41.096,
+    "best_qcov": 0.046,
+    "strand": "+"
+   }
+  },
+  "PSEN1": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000036.1|",
+    "start": 2299993,
+    "end": 2326741,
+    "n_hsps": 5,
+    "total_bits": 386.3,
+    "best_pident": 94.118,
+    "best_qcov": 0.168,
+    "strand": "-"
+   }
+  },
+  "SOD1": {
+   "n_loci": 3,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|RDPX01000235.1|",
+    "start": 657517,
+    "end": 666911,
+    "n_hsps": 2,
+    "total_bits": 117.1,
+    "best_pident": 38.554,
+    "best_qcov": 0.495,
+    "strand": "+"
+   }
+  },
+  "SQSTM1": {
+   "n_loci": 20,
+   "n_strong": 13,
+   "best": {
+    "contig": "gb|RDPX01000311.1|",
+    "start": 526502,
+    "end": 527953,
+    "n_hsps": 1,
+    "total_bits": 237.0,
+    "best_pident": 33.06,
+    "best_qcov": 0.506,
+    "strand": "+"
+   }
+  },
+  "TARDBP": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000681.1|",
+    "start": 101003,
+    "end": 115508,
+    "n_hsps": 6,
+    "total_bits": 481.8,
+    "best_pident": 61.111,
+    "best_qcov": 0.214,
+    "strand": "+"
+   }
+  },
+  "FUS": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|RDPX01000177.1|",
+    "start": 1495246,
+    "end": 1495365,
+    "n_hsps": 1,
+    "total_bits": 63.5,
+    "best_pident": 65.0,
+    "best_qcov": 0.095,
+    "strand": "+"
+   }
+  },
+  "BDNF": {
+   "n_loci": 19,
+   "n_strong": 15,
+   "best": {
+    "contig": "gb|RDPX01000012.1|",
+    "start": 677086,
+    "end": 761010,
+    "n_hsps": 12,
+    "total_bits": 892.3,
+    "best_pident": 80.0,
+    "best_qcov": 0.047,
+    "strand": "-"
+   }
+  },
+  "FOXO3": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|RDPX01000113.1|",
+    "start": 392518,
+    "end": 392685,
+    "n_hsps": 1,
+    "total_bits": 81.6,
+    "best_pident": 62.5,
+    "best_qcov": 0.069,
+    "strand": "-"
+   }
+  },
+  "GHR": {
+   "n_loci": 9,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000296.1|",
+    "start": 195729,
+    "end": 196515,
+    "n_hsps": 7,
+    "total_bits": 482.7,
+    "best_pident": 39.394,
+    "best_qcov": 0.319,
+    "strand": "+"
+   }
+  },
+  "IGF1": {
+   "n_loci": 6,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|RDPX01000027.1|",
+    "start": 4418803,
+    "end": 4419924,
+    "n_hsps": 1,
+    "total_bits": 237.0,
+    "best_pident": 34.031,
+    "best_qcov": 0.702,
+    "strand": "+"
+   }
+  },
+  "IGF1R": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000390.1|",
+    "start": 186022,
+    "end": 223909,
+    "n_hsps": 2,
+    "total_bits": 138.7,
+    "best_pident": 51.429,
+    "best_qcov": 0.097,
+    "strand": "-"
+   }
+  },
+  "NFE2L2": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|RDPX01000048.1|",
+    "start": 2260833,
+    "end": 2261231,
+    "n_hsps": 1,
+    "total_bits": 94.0,
+    "best_pident": 42.222,
+    "best_qcov": 0.223,
+    "strand": "-"
+   }
+  },
+  "NGF": {
+   "n_loci": 12,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|RDPX01000278.1|",
+    "start": 641879,
+    "end": 644622,
+    "n_hsps": 2,
+    "total_bits": 238.0,
+    "best_pident": 32.026,
+    "best_qcov": 0.198,
+    "strand": "+"
+   }
+  },
+  "PRKAA1": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000002.1|",
+    "start": 1398049,
+    "end": 1424176,
+    "n_hsps": 2,
+    "total_bits": 121.7,
+    "best_pident": 75.0,
+    "best_qcov": 0.041,
+    "strand": "-"
+   }
+  },
+  "PRNP": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000327.1|",
+    "start": 567035,
+    "end": 569095,
+    "n_hsps": 3,
+    "total_bits": 396.8,
+    "best_pident": 55.484,
+    "best_qcov": 0.183,
+    "strand": "-"
+   }
+  },
+  "PSEN2": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|RDPX01000036.1|",
+    "start": 2303643,
+    "end": 2326762,
+    "n_hsps": 4,
+    "total_bits": 258.4,
+    "best_pident": 76.0,
+    "best_qcov": 0.172,
+    "strand": "-"
+   }
+  },
+  "TP53": {
+   "n_loci": 3,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|RDPX01000199.1|",
+    "start": 580959,
+    "end": 582761,
+    "n_hsps": 1,
+    "total_bits": 224.0,
+    "best_pident": 28.837,
+    "best_qcov": 0.776,
+    "strand": "+"
+   }
+  },
+  "TREM2": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|RDPX01000198.1|",
+    "start": 1245889,
+    "end": 1246152,
+    "n_hsps": 1,
+    "total_bits": 84.0,
+    "best_pident": 47.727,
+    "best_qcov": 0.24,
+    "strand": "-"
+   }
+  }
+ },
+ "Hvulgaris": {
+  "APP": {
+   "n_loci": 8,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|CM188603.1|",
+    "start": 11095276,
+    "end": 11115374,
+    "n_hsps": 19,
+    "total_bits": 2072.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.211,
+    "strand": "+"
+   }
+  },
+  "ATG5": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188598.1|",
+    "start": 5724845,
+    "end": 5725213,
+    "n_hsps": 3,
+    "total_bits": 541.0,
+    "best_pident": 98.361,
+    "best_qcov": 0.787,
+    "strand": "+"
+   }
+  },
+  "ATG7": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 45994524,
+    "end": 46051222,
+    "n_hsps": 34,
+    "total_bits": 3039.7,
+    "best_pident": 100.0,
+    "best_qcov": 0.234,
+    "strand": "+"
+   }
+  },
+  "ATM": {
+   "n_loci": 4,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 40900276,
+    "end": 41025864,
+    "n_hsps": 70,
+    "total_bits": 7371.3,
+    "best_pident": 100.0,
+    "best_qcov": 0.079,
+    "strand": "-"
+   }
+  },
+  "ATR": {
+   "n_loci": 6,
+   "n_strong": 5,
+   "best": {
+    "contig": "gb|CM188595.1|",
+    "start": 42035270,
+    "end": 42131778,
+    "n_hsps": 70,
+    "total_bits": 9134.9,
+    "best_pident": 100.0,
+    "best_qcov": 0.1,
+    "strand": "-"
+   }
+  },
+  "INSR": {
+   "n_loci": 104,
+   "n_strong": 97,
+   "best": {
+    "contig": "gb|CM188606.1|",
+    "start": 55064855,
+    "end": 55109129,
+    "n_hsps": 47,
+    "total_bits": 5301.6,
+    "best_pident": 100.0,
+    "best_qcov": 0.163,
+    "strand": "+"
+   }
+  },
+  "PINK1": {
+   "n_loci": 4,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188599.1|",
+    "start": 61469485,
+    "end": 61506919,
+    "n_hsps": 7,
+    "total_bits": 439.2,
+    "best_pident": 76.19,
+    "best_qcov": 0.104,
+    "strand": "-"
+   }
+  },
+  "PTEN": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188599.1|",
+    "start": 19981588,
+    "end": 20042691,
+    "n_hsps": 32,
+    "total_bits": 3454.6,
+    "best_pident": 100.0,
+    "best_qcov": 0.188,
+    "strand": "-"
+   }
+  },
+  "SIRT1": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 48475628,
+    "end": 48505293,
+    "n_hsps": 26,
+    "total_bits": 1984.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.275,
+    "strand": "-"
+   }
+  },
+  "TFEB": {
+   "n_loci": 7,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|CM188596.1|",
+    "start": 49697463,
+    "end": 49860398,
+    "n_hsps": 9,
+    "total_bits": 1679.0,
+    "best_pident": 39.362,
+    "best_qcov": 0.424,
+    "strand": "+"
+   }
+  },
+  "WRN": {
+   "n_loci": 9,
+   "n_strong": 8,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 66993591,
+    "end": 67043484,
+    "n_hsps": 25,
+    "total_bits": 2696.4,
+    "best_pident": 100.0,
+    "best_qcov": 0.274,
+    "strand": "-"
+   }
+  },
+  "AKT1": {
+   "n_loci": 4,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188595.1|",
+    "start": 54474793,
+    "end": 54484094,
+    "n_hsps": 10,
+    "total_bits": 864.2,
+    "best_pident": 100.0,
+    "best_qcov": 0.28,
+    "strand": "+"
+   }
+  },
+  "BECN1": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188595.1|",
+    "start": 59991864,
+    "end": 60015063,
+    "n_hsps": 15,
+    "total_bits": 1431.5,
+    "best_pident": 100.0,
+    "best_qcov": 0.165,
+    "strand": "-"
+   }
+  },
+  "BLM": {
+   "n_loci": 7,
+   "n_strong": 7,
+   "best": {
+    "contig": "gb|CM188606.1|",
+    "start": 14680203,
+    "end": 14748564,
+    "n_hsps": 31,
+    "total_bits": 3660.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.206,
+    "strand": "-"
+   }
+  },
+  "MTOR": {
+   "n_loci": 6,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 37856596,
+    "end": 37996539,
+    "n_hsps": 68,
+    "total_bits": 7641.5,
+    "best_pident": 100.0,
+    "best_qcov": 0.092,
+    "strand": "+"
+   }
+  },
+  "SIRT6": {
+   "n_loci": 2,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188606.1|",
+    "start": 58890174,
+    "end": 58907375,
+    "n_hsps": 16,
+    "total_bits": 1437.1,
+    "best_pident": 100.0,
+    "best_qcov": 0.287,
+    "strand": "-"
+   }
+  },
+  "TP53": {
+   "n_loci": 7,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|CM188602.1|",
+    "start": 39109042,
+    "end": 39142710,
+    "n_hsps": 7,
+    "total_bits": 423.3,
+    "best_pident": 77.358,
+    "best_qcov": 0.103,
+    "strand": "+"
+   }
+  },
+  "VCP": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188598.1|",
+    "start": 41574512,
+    "end": 41580559,
+    "n_hsps": 9,
+    "total_bits": 757.4,
+    "best_pident": 100.0,
+    "best_qcov": 0.278,
+    "strand": "+"
+   }
+  },
+  "FUS": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188603.1|",
+    "start": 18777341,
+    "end": 18778158,
+    "n_hsps": 4,
+    "total_bits": 304.6,
+    "best_pident": 100.0,
+    "best_qcov": 0.175,
+    "strand": "+"
+   }
+  },
+  "GRN": {
+   "n_loci": 3,
+   "n_strong": 3,
+   "best": {
+    "contig": "gb|CM188604.1|",
+    "start": 48223551,
+    "end": 48261446,
+    "n_hsps": 51,
+    "total_bits": 5923.4,
+    "best_pident": 95.349,
+    "best_qcov": 0.528,
+    "strand": "-"
+   }
+  },
+  "HSF1": {
+   "n_loci": 27,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188608.1|",
+    "start": 50190256,
+    "end": 50235853,
+    "n_hsps": 8,
+    "total_bits": 892.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.31,
+    "strand": "-"
+   }
+  },
+  "HTT": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188596.1|",
+    "start": 42014228,
+    "end": 42115699,
+    "n_hsps": 23,
+    "total_bits": 2922.0,
+    "best_pident": 98.246,
+    "best_qcov": 0.222,
+    "strand": "-"
+   }
+  },
+  "LRRK2": {
+   "n_loci": 81,
+   "n_strong": 57,
+   "best": {
+    "contig": "gb|CM188598.1|",
+    "start": 14457067,
+    "end": 14492797,
+    "n_hsps": 17,
+    "total_bits": 4429.9,
+    "best_pident": 97.143,
+    "best_qcov": 0.429,
+    "strand": "-"
+   }
+  },
+  "OPTN": {
+   "n_loci": 15,
+   "n_strong": 14,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 54268143,
+    "end": 54321596,
+    "n_hsps": 10,
+    "total_bits": 1371.7,
+    "best_pident": 94.872,
+    "best_qcov": 0.302,
+    "strand": "-"
+   }
+  },
+  "PARK7": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188604.1|",
+    "start": 51939100,
+    "end": 51950106,
+    "n_hsps": 4,
+    "total_bits": 284.7,
+    "best_pident": 100.0,
+    "best_qcov": 0.286,
+    "strand": "-"
+   }
+  },
+  "PSEN1": {
+   "n_loci": 2,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188602.1|",
+    "start": 13197776,
+    "end": 13219836,
+    "n_hsps": 8,
+    "total_bits": 812.5,
+    "best_pident": 100.0,
+    "best_qcov": 0.183,
+    "strand": "-"
+   }
+  },
+  "SOD1": {
+   "n_loci": 4,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188598.1|",
+    "start": 5785619,
+    "end": 5786074,
+    "n_hsps": 1,
+    "total_bits": 307.0,
+    "best_pident": 100.0,
+    "best_qcov": 1.0,
+    "strand": "+"
+   }
+  },
+  "SQSTM1": {
+   "n_loci": 22,
+   "n_strong": 15,
+   "best": {
+    "contig": "gb|CM188598.1|",
+    "start": 37298878,
+    "end": 37352664,
+    "n_hsps": 9,
+    "total_bits": 2220.0,
+    "best_pident": 93.333,
+    "best_qcov": 0.871,
+    "strand": "-"
+   }
+  },
+  "TARDBP": {
+   "n_loci": 6,
+   "n_strong": 4,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 4220986,
+    "end": 4242612,
+    "n_hsps": 8,
+    "total_bits": 909.0,
+    "best_pident": 100.0,
+    "best_qcov": 0.277,
+    "strand": "+"
+   }
+  },
+  "BDNF": {
+   "n_loci": 31,
+   "n_strong": 18,
+   "best": {
+    "contig": "gb|CM188595.1|",
+    "start": 72084777,
+    "end": 72299004,
+    "n_hsps": 15,
+    "total_bits": 929.4,
+    "best_pident": 75.0,
+    "best_qcov": 0.04,
+    "strand": "-"
+   }
+  },
+  "C9orf72": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188604.1|",
+    "start": 39245603,
+    "end": 39279420,
+    "n_hsps": 5,
+    "total_bits": 248.7,
+    "best_pident": 59.091,
+    "best_qcov": 0.105,
+    "strand": "+"
+   }
+  },
+  "FOXO3": {
+   "n_loci": 2,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|CM188596.1|",
+    "start": 47635614,
+    "end": 47636174,
+    "n_hsps": 1,
+    "total_bits": 70.1,
+    "best_pident": 26.738,
+    "best_qcov": 0.131,
+    "strand": "-"
+   }
+  },
+  "GHR": {
+   "n_loci": 11,
+   "n_strong": 6,
+   "best": {
+    "contig": "gb|CM188596.1|",
+    "start": 53644442,
+    "end": 53645089,
+    "n_hsps": 5,
+    "total_bits": 384.7,
+    "best_pident": 31.72,
+    "best_qcov": 0.306,
+    "strand": "+"
+   }
+  },
+  "IGF1R": {
+   "n_loci": 3,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|CM188595.1|",
+    "start": 23149889,
+    "end": 23150173,
+    "n_hsps": 1,
+    "total_bits": 58.5,
+    "best_pident": 34.021,
+    "best_qcov": 0.134,
+    "strand": "+"
+   }
+  },
+  "NFE2L2": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|CM188604.1|",
+    "start": 26366570,
+    "end": 26366974,
+    "n_hsps": 1,
+    "total_bits": 78.6,
+    "best_pident": 37.956,
+    "best_qcov": 0.226,
+    "strand": "+"
+   }
+  },
+  "NGF": {
+   "n_loci": 13,
+   "n_strong": 2,
+   "best": {
+    "contig": "gb|CM188600.1|",
+    "start": 13664076,
+    "end": 13664879,
+    "n_hsps": 1,
+    "total_bits": 111.0,
+    "best_pident": 27.372,
+    "best_qcov": 0.174,
+    "strand": "+"
+   }
+  },
+  "PRKAA1": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188597.1|",
+    "start": 15634554,
+    "end": 15641504,
+    "n_hsps": 2,
+    "total_bits": 119.4,
+    "best_pident": 52.273,
+    "best_qcov": 0.041,
+    "strand": "+"
+   }
+  },
+  "PRNP": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188605.1|",
+    "start": 62213432,
+    "end": 62214799,
+    "n_hsps": 2,
+    "total_bits": 328.0,
+    "best_pident": 49.123,
+    "best_qcov": 0.26,
+    "strand": "-"
+   }
+  },
+  "PSEN2": {
+   "n_loci": 1,
+   "n_strong": 1,
+   "best": {
+    "contig": "gb|CM188602.1|",
+    "start": 13203560,
+    "end": 13219370,
+    "n_hsps": 3,
+    "total_bits": 204.5,
+    "best_pident": 81.818,
+    "best_qcov": 0.114,
+    "strand": "-"
+   }
+  },
+  "TREM2": {
+   "n_loci": 1,
+   "n_strong": 0,
+   "best": {
+    "contig": "gb|CM188604.1|",
+    "start": 12500890,
+    "end": 12501045,
+    "n_hsps": 1,
+    "total_bits": 58.2,
+    "best_pident": 48.077,
+    "best_qcov": 0.142,
+    "strand": "+"
+   }
+  }
+ }
+}

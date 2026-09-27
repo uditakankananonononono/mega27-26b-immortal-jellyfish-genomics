@@ -1,0 +1,52 @@
+Your evaluation framework has structural merit, but as an ISEF judge, I am going to tear into the exact weaknesses in your experimental design and validation pipeline.
+
+1. Weakness: Control Blindspots & Pipeline Vulnerabilities
+Blindspots in Your Current Controls
+
+Your controls test for basic statistical noise and software portability, but they miss core computational biology failure modes:
+
+Shuffled-query FPR (≤5%) misses compositionally biased false positives: Randomly shuffling amino acids preserves overall sequence length and background frequency, but it completely destroys local sequence architecture (e.g., low-complexity regions, coiled-coils, or transmembrane domains). If your query or target genome contains compositional bias, tBLASTn will return low-complexity, non-homologous hits that pass your 5% threshold because the background model doesn't account for localized low entropy.
+
+Positive control remapping tests execution, not orthology: Reproducing 21 previously published repair/telomerase genes proves that your local installation of tBLASTn isn't broken, but it does not prove orthology. BLAST is a local alignment tool; it identifies paralogs, pseudogenes, and gene duplications just as easily as true orthologs. Finding a sequence match does not mean you have identified the functional equivalent.
+
+Assembly and annotation quality asymmetry across genomes: You are comparing Turritopsis dohrnii against T. rubra, Aurelia aurita, and Clytia hemisphaerica. If one genome assembly is highly fragmented, gene duplications will appear missing (false negative), while fragmented contigs containing partial exons will look like multiple pseudogenes or novel variants (false positive). Your current controls do not test whether your findings are driven by biological longevity or varying draft assembly quality (N50, contig fragmentation, depth of coverage).
+
+Mandatory Control to Add
+
+Reciprocal Best Hit (RBH) / Phylogenetically-Aware Orthology Control with Synteny Validation.
+
+What to add: For every candidate longevity gene identified via tBLASTn, translate the target hit and run a reciprocal search back against the reference organism (e.g., H. sapiens or D. melanogaster). The hit must retrieve the original query gene as its top match. Furthermore, cross-reference candidates against genomic synteny blocks (conserved gene order) using tools like Synteny Mapping Pipeline or OrthoFinder.
+
+Why it makes the project better and more novel: This upgrades your pipeline from a standard BLAST heuristic search to an orthology-assertion protocol. It rules out paralogous expansion and assembly artifacts, ensuring that your longevity candidates are true orthologs rather than lineage-specific duplicate expansions or spurious hits.
+
+2. Weakness: Static Heuristics vs. Molecular Dynamics
+Structural and Functional Limitations
+
+tBLASTn is blind to structural convergence and functional divergence: Sequence identity does not equal functional conservation. A gene in T. dohrnii can retain 75% sequence identity with a mortal counterpart while possessing a single active-site substitution that abolishes function or drastically alters substrate specificity. Conversely, protein structure is far more conserved than sequence; crucial longevity-related adaptations might occur in sequence-divergent loops or domain shifts that tBLASTn misses altogether.
+
+What to Add/Change
+
+Structural In Silico Validation via AlphaFold Multimer & Active-Site Binding Affinity.
+
+What to add: Take your top candidate gene substitutions or lineage-specific variants in T. dohrnii and predict their 3D structures using AlphaFold3 or ESMFold. Perform automated molecular docking or molecular dynamics (MD) simulations to compare ligand-binding affinity, active-site volume, or structural stability (DG) against the mortal counterparts (T. rubra, A. aurita).
+
+Why it makes the project better and more novel: High school computational biology projects stop at sequence alignment. Bringing 3D structural analysis and binding mechanics into a genome-first longevity paper bridges the gap between genomics and functional biochemistry, offering concrete, testable biophysical hypotheses for why T. dohrnii evades senescence.
+
+3. Weakness: Phenotypic Isolation & Selection Pressures
+Evolutionary and Biological Ambiguity
+
+Lack of Selection Pressure Metrics (dN/dS Analysis): Simply listing presence, absence, or sequence differences in 24 longevity and 24 neurodegeneration genes proves nothing about adaptation. Without calculating evolutionary rates, you cannot distinguish between relaxed functional constraints (neutral evolution/pseudogenization) and positive directional selection driving biological immortality.
+
+Lack of Stage-Specific Expression Context: Genome-first studies cannot tell you when a gene is expressed. T. dohrnii’s immortality is driven by transdifferentiation during life-cycle reversal (medusa back to polyp). An genomic adaptation is irrelevant if the gene is not differentially expressed during this specific transformation.
+
+What to Add/Change
+
+Codon-Based Molecular Evolution (dN/dS) integrated with Public Stage-Specific RNA-Seq Data.
+
+What to add:
+
+Perform site-model and branch-site model selection analysis (using PAML/codeml or HyPhy/MEME/BS-REL) across your species tree to calculate dN/dS (ω) ratios specifically on the T. dohrnii branch. Prove that your target genes are under positive selection (ω>1), not just random drift.
+
+Integrate publicly available transcriptomic datasets (RNA-seq) for T. dohrnii across life stages (unreverted medusa vs. reverting cyst/polyp) to cross-validate that positive-selection candidates are significantly upregulated during transdifferentiation.
+
+Why it makes the project better and more novel: This transforms your project from a passive gene-lookup catalog into an evolutionary biology paper that pinpoints the specific genetic drivers under active positive selection for life-cycle reversal.

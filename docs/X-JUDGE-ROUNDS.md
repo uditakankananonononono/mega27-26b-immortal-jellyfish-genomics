@@ -1126,3 +1126,21 @@ That is the difference between a high-school bioinformatics project and a seriou
 
 ### Novelty change landed (rule 8)
 Implemented AEES v1 in jellyfish/xaees.py (see commit after this entry): per-gene-per-genome composite of (a) locus bitscore normalized by query length, (b) query coverage of clustered HSPs (domain-integrity proxy), (c) mean percent identity, (d) assembly concordance across the two T. dohrnii assemblies (W7 fix), (e) copy-consistency penalty. Absences relabeled 'not detected' (W6 fix). Output results/x-aees.json + tests. AEES components requiring expression/phylogenetics are recorded as future-work extensions (P-ladder), not faked.
+## Supplementary consults (Gemini, 2026-09-27 ~09:24-09:28 IST) - NOT counted toward the 10
+
+Main ruled (09:23): Gemini passes are supplementary only; ChatGPT remains judge of record.
+Fired on the passed browser slot (leased 09:23:56, released 09:28:30, config-c, read mode,
+signed-in Gemini profile). Four fresh chats, one staged attack prompt each (same one-liners
+staged for ChatGPT R2-R5). Verbatim responses: docs/judge-supplementary/gem_s{2,3,4,5}_*.txt.
+
+| # | Focus | Key demands | Landed change |
+|---|-------|-------------|----------------|
+| S2 | statistical tests | dN/dS branch analysis; CAFE5; PIC/PGLS; Markov null genomes | dN/dS queued (needs aligner); shuffled control retained w/ limitation note |
+| S3 | panel composition | drop APOE/SNCA (frozen - logged as limitation); add PRC2/PIWI/MMP/repair genes; BUSCO-normalized CNV; domain mapping | exploratory extension panel ext2 (12 genes: EED SUZ12 EZH2 PIWIL1 NANOS1 MMP2 MMP14 RAD51 POLD1 RTEL1 DKC1 UBQLN2) fetched + mapping queued |
+| S4 | assembly confounds | BUSCO completeness matrix; raw-read mapping; synteny checks; in silico fragmentation simulation | core-gene completeness control (12 universal single-copy genes, mapping queued); Fragmentation Penalty Index implemented (experiments/x_frag.py, running) |
+| S5 | controls | reciprocal-best-hit orthology control; structural validation; dN/dS + stage RNA-seq | RBH control LANDED: experiments/x_rbh.py, results/x-rbh.json = 20/20 PASS (top-10 AEES genes x both Td assemblies; top reverse hit = original gene vs Acropora panel + human RefSeq) |
+
+S2-S5 converge on dN/dS positive-selection analysis as the single most-demanded novel
+analysis; it requires a codon aligner (mafft) + PAML/HyPhy - install attempt queued after
+round-2 mapping. Panel is prereg-frozen, so panel-change demands land only as exploratory
+extensions (ext2) or limitations text, never as edits to the frozen H-inputs.

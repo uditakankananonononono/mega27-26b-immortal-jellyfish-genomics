@@ -1,0 +1,80 @@
+Listen closely, because if you stand in front of my panel at ISEF with this poster, you are going to get torn apart unless you fix these gaping methodological and conceptual flaws.
+
+You have a neat setup—pre-registered frozen pipeline, positive/negative controls, honest-negative register—but your panel selection is fundamentally broken, biologically naïve, and riddled with mammalian bias.
+
+Here is exactly what is wrong with your panel composition, why it destroys your inferences, and how to fix it to turn this into a Grand Award-caliber project.
+
+Critical Weakness 1: Severe Mammalian / Human-Centric Bias (Survivorship Bias)
+
+The Flaw: Your 24 aging and 24 neurodegeneration genes are almost certainly pulled straight out of GenAge or human GWAS/OMIM databases (e.g., APOE, APP, PSEN1, SNCA, SIRT1, TP53). Human neurodegenerative disorders (Alzheimer’s, Parkinson’s) are primarily diseases of non-dividing, post-mitotic mammalian brain structures. Cnidarians do not have a centralized brain; they have a diffuse nerve net, and Turritopsis dohrnii bypasses cellular senescence by transdifferentiating whole body regions during life-cycle reversal (LCR). Selecting human disease genes means you are testing whether jellyfish have mammalian disease orthologs, not how jellyfish avoid cellular decay.   
+bioRxiv
+
+How to Fix It: Rebalance the panel away from disease-centric phenotypes toward evolutionarily conserved, basal-metazoan longevity machinery.
+
+Genes to Drop: Drop mammalian-specific neuro-risk loci like APOE (apolipoproteins in cnidarians do not serve the same lipid-transport/amyloid dynamics as human APOE4) and SNCA (alpha-synuclein is a vertebrate lineage invention).
+
+Genes to Add:
+
+Polycomb Repressive Complex 2 (PRC2) members (EED, SUZ12, EZH2): Epigenetic reprogramming is the actual engine of T. dohrnii transdifferentiation.
+
+Pluripotency / Stemness Factors (POU5F1/Oct4 homologs, Sox2, Myc, Nanos, Piwi): In cnidarians, longevity is maintained by interstitial stem cell (i-cell) populations.
+
+Expanded DNA Repair / Replication Machinery (POLD1, RTEL1, RAD51): T. dohrnii shows specific expansions in DNA repair mechanisms compared to T. rubra.   
+Labroots
+
+Critical Weakness 2: The APOE Overlap Illusion
+
+The Flaw: Putative inclusion of APOE in both the "aging" and "neurodegeneration" panels gives you a fake sense of cross-category validation. In cnidarians, BLASTing human APOE frequently hits general apolipoprotein/lipid-binding domains (like Vitellogenin or domain-containing lipid transporters) due to low sequence conservation, giving you a false positive hit that misleads your orthology assignment.
+
+How to Fix It: Remove APOE from the neurodegeneration panel entirely. If you want a dual-role gene bridging neural maintenance and lifespan, use  conserved proteostasis regulators like HSP70, HSP90, UBQLN2, or autophagy regulators (ATG5, BECN1), which operate in both the cnidarian nerve net and general somatic maintenance.
+
+Critical Weakness 3: Missing Biological Categories Critical to Cnidarian Immortality
+
+The Flaw: Your panel misses the exact cellular pathways that distinguish Turritopsis from other hydrozoans. You are measuring aging through a classical vertebrate lens, completely ignoring:
+
+Extracellular Matrix (ECM) & Tissue Remodeling: LCR requires massive degradation and rebuilding of the mesoglea.
+
+Telomere Maintenance & Transposon Control: Reversal requires resetting cellular clocks and suppressing genomic parasites during rapid proliferation.
+
+Neuropeptides and Nervous System Identity: Cnidarian "neuro" genes are pre-bilaterian peptide receptors and proneuropeptides, not human neurotransmitter pathways.
+
+Genes to Add:
+
+MMP family (Matrix Metalloproteinases - critical for mesoglea remodeling).
+
+TERT and DKC1 (Telomerase reverse transcriptase and dyskerin).
+
+RFamide and LWamide precursor pathways (to assess true cnidarian neural identity).
+
+What This Bias Does to Your Inference (And How Judges Will Catch You)
+
+If you keep your panel as-is, your inference suffers from a massive Type II error (false negatives) and Searcher's Bias:
+
+When a human neurodegeneration gene (e.g., HTT, APP) shows up missing or highly diverged in T. dohrnii, you will falsely conclude "neurodegeneration pathways are absent/modified," when in reality, cnidarians never evolved those mammalian pathways in the first place.
+
+You are measuring sequence divergence of human targets, not the evolutionary adaptation of hydrozoan targets.
+
+The Novel Panel-Level Analysis That Will Make You Stand Out
+
+Running tBLASTn and counting hits/E-values is a basic high-school bioinformatics project. To impress an ISEF panel, you need to elevate this from a presence/absence lookup to an evolutionary dynamics analysis.
+
+Implement this 3-Step Novel Panel Analysis:
+
+dN/dS (Selection Pressure) Profiling via Codon Alignment:
+
+Don't just record whether a gene exists. Extract the coding sequences across T. dohrnii, T. rubra, A. aurita, and Clytia, build codon alignments (using PAML/CodeML or HyPhy), and calculate ω=dN/dS.
+
+The Value Add: Prove whether aging genes in T. dohrnii are under relaxed selective constraint or strong positive selection (ω>1) relative to the mortal species (T. rubra).
+
+Gene Family Expansion / Copy Number Variation (CNV) Architecture:
+
+Map gene duplication events across your 48-gene panel. T. dohrnii is known to harbor specific gene duplications in DNA repair and longevity pathways compared to T. rubra.   
+Labroots
+
+The Value Add: Quantify copy-number expansions per pathway. Show a bar chart comparing gene family sizes across the four species normalized by assembly completeness (BUSCO scores).
+
+Domain Architecture & Active Site Conservation Mapping:
+
+For sequence hits, do not rely on BLAST alignment score alone. Run Pfam/InterProScan domain mapping to verify if the functional catalytic domain (e.g., Sirtuin deacetylase domain, PARP catalytic domain) is 100% intact, or if the T. dohrnii homolog underwent domain loss/addition.
+
+Fix the panel selection, replace human bias with basal metazoan biology, and replace raw BLAST presence/absence with a dN/dS selection pipeline. Do that, and you won't just survive the interview—you'll lead the category.

@@ -62,6 +62,10 @@ def main():
     genomes = sys.argv[2:] or GENOMES
     if which in ("bc", "bcshuf", "bcext"):
         files = sorted(glob.glob("data/xpanel/*.faa"))
+    elif which == "coreg":
+        files = sorted(glob.glob("data/xpanel_coreg/*.faa"))
+    elif which == "ext2":
+        files = sorted(glob.glob("data/xpanel_ext2/*.faa"))
     elif which == "actrl":
         files = sorted(glob.glob("data/panel/*.faa"))
     else:

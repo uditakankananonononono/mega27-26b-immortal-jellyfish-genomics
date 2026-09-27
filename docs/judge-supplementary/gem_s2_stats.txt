@@ -1,0 +1,46 @@
+You have a clean pipeline and commendable pre-registration rigor for a high school project, but rigor in a flawed pipeline just gives you precise nonsense. Here is where your project falls apart and how you fix it.
+
+Cnidarian life cycle stages involving transdifferentiation.. Source: ttsz / Getty Images
+1. Pipeline & Homology Detection Flaws
+
+The Flaw (tBLASTn Reliance): Using a frozen tBLASTn pipeline across deep evolutionary distances (Hydrozoans vs. Scyphozoans like Aurelia aurita) will choke on divergent sequences, pseudogenes, and missing annotations. tBLASTn cannot distinguish true orthologs from fast-evolving paralogs or fragmented assembly artifacts.
+
+Fix to Improve & Innovate: Replace tBLASTn with an orthology-aware, reciprocal best-hit pipeline using Orthofinder or SonicParanoid, combined with profile Hidden Markov Models (HMMER3). To make it genuinely novel, run structural homology mapping using Foldseek on AlphaFold2/ESMFold predictions to catch structurally conserved longevity proteins that have drifted beyond sequence recognition.
+
+2. Weak Gene Selection & Gene Families
+
+The Flaw (Human-Centric Bias): Selection of 24 human/mammalian aging and neurodegeneration genes ignores cnidarian biology. Cnidarians lack complex central nervous systems, classical neurodegenerative pathways (e.g., specific mammalian synucleinopathies), and mammalian-specific signaling hubs.
+
+Fix to Improve & Innovate: Expand your candidate gene set to include ancestral gene families explicitly tied to stemness, transdifferentiation, and cellular rejuvenation (e.g., PIWI/piRNA path, FoxO/Myc networks, heat shock protein (HSP) expansions, and DNA damage repair machinery like PARP/RAD51). Add functional domain architecture mapping (InterProScan) to demonstrate functional domain gains/losses rather than binary presence/absence.
+
+3. Flawed Statistical Tests & Multiple-Testing Boundaries
+
+The Flaw (Fisher's Exact & Independent Label Permutation):
+
+Fisher’s Exact Test per-gene assumes gene copy numbers are independent observations. They are heavily confounded by underlying genome duplication events and assembly completeness differences.
+
+Exact Label Permutation across 4 species lacks statistical power (4!=24 total permutations). It cannot yield a meaningful p-value (p
+min
+	​
+
+=1/24≈0.0417).
+
+Shuffled-control FPR for tBLASTn measures sequence composition bias, not alignment specificity across real genome scaffolds.
+
+Fix to Improve & Innovate:
+
+Species Separation: Move away from label permutation on 4 species. Instead, use phylogenetic comparative methods—specifically Phylogenetically Independent Contrasts (PIC) or a phylogenetic generalized least squares (PGLS) model—incorporating additional available cnidarian genomes to control for shared ancestry.
+
+Gene Copy Contrasts: Replace simple Fisher’s exact tests with a CAFE5 (Computational Analysis of gene Family Evolution) analysis to explicitly model rate of gene family expansion/contraction along branch lengths under a birth-death process.
+
+FPR Testing: Replace random sequence shuffling with synthetic null genomes generated via Markov models that preserve local dinucleotide frequency and codon usage.
+
+The Single Most Novel Analysis You Should Add
+
+Lineage-Specific Positive Selection Analysis (dN/dS) Integrated with Transdifferentiation-Stage Expression Data.
+
+Instead of just counting presence, absence, or copy number, test whether key longevity genes undergo adaptive evolution specifically on the Turritopsis dohrnii branch.
+
+Run PAML (CodeML) or HyPhy (BS-REL / MEME) on multi-species ortholog alignments to detect branches and specific codon sites under positive selection (ω=dN/dS>1) along the T. dohrnii lineage compared to T. rubra and other cnidarians.
+
+Cross-reference these positively selected genes with publicly available RNA-seq datasets spanning the life-cycle reversion process (medusa → cyst → polyp) to demonstrate that adaptively evolved genes are dynamically regulated during cellular rejuvenation.
