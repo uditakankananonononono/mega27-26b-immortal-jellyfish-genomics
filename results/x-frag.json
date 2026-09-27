@@ -1,0 +1,14 @@
+{
+ "mock_scaffolds": 49860,
+ "mock_bp": 266792216,
+ "seed": 27,
+ "intact_genes": 39,
+ "mock_genes": 37,
+ "lost_to_fragmentation": [
+  "FOXO3",
+  "NFE2L2"
+ ],
+ "gained": [],
+ "fragmentation_penalty_index": 0.0513,
+ "note": "recomputed from preserved mock ledger + git-restored intact ledger after D8 overwrite"
+}
