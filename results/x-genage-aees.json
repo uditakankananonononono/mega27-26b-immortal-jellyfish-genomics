@@ -1,0 +1,1757 @@
+{
+ "summary": {
+  "n_genes": 231,
+  "n_detected": 188,
+  "panel_size": 22,
+  "panel_vs_nonpanel_mannwhitney_p": 0.34814857637582775,
+  "top25_overall": [
+   [
+    "UBB",
+    0.875
+   ],
+   [
+    "RAD51",
+    0.8455
+   ],
+   [
+    "HDAC3",
+    0.8171
+   ],
+   [
+    "HSPA8",
+    0.8091
+   ],
+   [
+    "EEF1A1",
+    0.7806
+   ],
+   [
+    "HSPA1A",
+    0.7444
+   ],
+   [
+    "HSPA1B",
+    0.7444
+   ],
+   [
+    "MT-CO1",
+    0.7391
+   ],
+   [
+    "SERPINE1",
+    0.7267
+   ],
+   [
+    "CDC42",
+    0.723
+   ],
+   [
+    "HSP90AA1",
+    0.7182
+   ],
+   [
+    "CHEK2",
+    0.7103
+   ],
+   [
+    "KCNA3",
+    0.7017
+   ],
+   [
+    "EFEMP1",
+    0.6997
+   ],
+   [
+    "EEF2",
+    0.6981
+   ],
+   [
+    "PCK1",
+    0.697
+   ],
+   [
+    "UBE2I",
+    0.6948
+   ],
+   [
+    "PPP1CA",
+    0.6918
+   ],
+   [
+    "HDAC1",
+    0.6903
+   ],
+   [
+    "HDAC2",
+    0.6895
+   ],
+   [
+    "SOD2",
+    0.6861
+   ],
+   [
+    "ERCC4",
+    0.6822
+   ],
+   [
+    "YWHAZ",
+    0.6753
+   ],
+   [
+    "POLD1",
+    0.675
+   ],
+   [
+    "GRN",
+    0.6715
+   ]
+  ],
+  "top_novel_nonpanel": [
+   "UBB",
+   "RAD51",
+   "HDAC3",
+   "HSPA8",
+   "EEF1A1",
+   "HSPA1A",
+   "HSPA1B",
+   "MT-CO1",
+   "SERPINE1",
+   "CDC42",
+   "HSP90AA1",
+   "CHEK2",
+   "KCNA3",
+   "EFEMP1",
+   "EEF2",
+   "PCK1",
+   "UBE2I",
+   "PPP1CA",
+   "HDAC1",
+   "HDAC2",
+   "SOD2",
+   "ERCC4",
+   "YWHAZ",
+   "POLD1",
+   "HSPD1"
+  ],
+  "panel_genes_in_top60": 5
+ },
+ "scores": {
+  "A2M": {
+   "aees": 0.507,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 404.8
+  },
+  "ABL1": {
+   "aees": 0.6407,
+   "n_strong": 23,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 592.0
+  },
+  "ADCY5": {
+   "aees": 0.611,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 536.5
+  },
+  "AGPAT2": {
+   "aees": 0.494,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 136.0
+  },
+  "AGTR1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "AIFM1": {
+   "aees": 0.6347,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 497.2
+  },
+  "AKT1": {
+   "aees": 0.64,
+   "n_strong": 19,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 759.7
+  },
+  "APEX1": {
+   "aees": 0.3923,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 185.6
+  },
+  "APP": {
+   "aees": 0.3464,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 181.7
+  },
+  "APTX": {
+   "aees": 0.414,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 147.0
+  },
+  "AR": {
+   "aees": 0.3094,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 127.5
+  },
+  "ARHGAP1": {
+   "aees": 0.3569,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 154.0
+  },
+  "ATF2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "ATM": {
+   "aees": 0.5513,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 426.4
+  },
+  "ATR": {
+   "aees": 0.6351,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 1045.8
+  },
+  "BAK1": {
+   "aees": 0.491,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 232.1
+  },
+  "BAX": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "BCL2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "BLM": {
+   "aees": 0.6178,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 565.4
+  },
+  "BMI1": {
+   "aees": 0.4257,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 110.0
+  },
+  "BRCA2": {
+   "aees": 0.308,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 132.4
+  },
+  "BUB3": {
+   "aees": 0.6381,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 436.1
+  },
+  "CACNA1A": {
+   "aees": 0.643,
+   "n_strong": 9,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 2302.4
+  },
+  "CAT": {
+   "aees": 0.6623,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 570.4
+  },
+  "CCNA2": {
+   "aees": 0.4427,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 248.9
+  },
+  "CDC42": {
+   "aees": 0.723,
+   "n_strong": 15,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 412.0
+  },
+  "CDK1": {
+   "aees": 0.6434,
+   "n_strong": 16,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 467.0
+  },
+  "CDK7": {
+   "aees": 0.5907,
+   "n_strong": 12,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 412.3
+  },
+  "CDKN2B": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CEBPA": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CEBPB": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CHEK2": {
+   "aees": 0.7103,
+   "n_strong": 18,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 492.0
+  },
+  "CISD2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CLOCK": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CNR1": {
+   "aees": 0.4572,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 186.0
+  },
+  "COQ7": {
+   "aees": 0.3332,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 101.3
+  },
+  "CREB1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "CREBBP": {
+   "aees": 0.6151,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1182.2
+  },
+  "CSNK1E": {
+   "aees": 0.652,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 567.2
+  },
+  "CTNNB1": {
+   "aees": 0.6528,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 851.0
+  },
+  "DGAT1": {
+   "aees": 0.345,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 137.1
+  },
+  "DLL3": {
+   "aees": 0.6485,
+   "n_strong": 27,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1507.2
+  },
+  "E2F1": {
+   "aees": 0.3351,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 102.0
+  },
+  "EEF1A1": {
+   "aees": 0.7806,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 757.0
+  },
+  "EEF2": {
+   "aees": 0.6981,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1224.0
+  },
+  "EFEMP1": {
+   "aees": 0.6997,
+   "n_strong": 15,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1729.3
+  },
+  "EGF": {
+   "aees": 0.604,
+   "n_strong": 15,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1311.8
+  },
+  "EGFR": {
+   "aees": 0.5371,
+   "n_strong": 18,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 408.6
+  },
+  "EGR1": {
+   "aees": 0.5944,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 8372.6
+  },
+  "EIF5A2": {
+   "aees": 0.4995,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 221.7
+  },
+  "EP300": {
+   "aees": 0.6154,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1135.1
+  },
+  "ERBB2": {
+   "aees": 0.5466,
+   "n_strong": 19,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 424.3
+  },
+  "ERCC1": {
+   "aees": 0.3694,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 154.8
+  },
+  "ERCC2": {
+   "aees": 0.6228,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 639.3
+  },
+  "ERCC3": {
+   "aees": 0.6306,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 603.6
+  },
+  "ERCC4": {
+   "aees": 0.6822,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 862.0
+  },
+  "ERCC5": {
+   "aees": 0.3661,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 186.0
+  },
+  "ERCC6": {
+   "aees": 0.6369,
+   "n_strong": 27,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 590.2
+  },
+  "ERCC8": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "ESR1": {
+   "aees": 0.3811,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 173.7
+  },
+  "FEN1": {
+   "aees": 0.377,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 139.7
+  },
+  "FGFR1": {
+   "aees": 0.6574,
+   "n_strong": 24,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 711.2
+  },
+  "FLT1": {
+   "aees": 0.6265,
+   "n_strong": 24,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 605.6
+  },
+  "FOXM1": {
+   "aees": 0.3251,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 151.0
+  },
+  "FOXO1": {
+   "aees": 0.422,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 180.6
+  },
+  "FOXO3": {
+   "aees": 0.4476,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 196.2
+  },
+  "FOXO4": {
+   "aees": 0.4063,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 192.6
+  },
+  "GCLC": {
+   "aees": 0.6495,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 531.2
+  },
+  "GCLM": {
+   "aees": 0.4738,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 162.4
+  },
+  "GDF11": {
+   "aees": 0.3686,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 135.1
+  },
+  "GPX1": {
+   "aees": 0.4429,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 223.4
+  },
+  "GPX4": {
+   "aees": 0.5529,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 194.0
+  },
+  "GRB2": {
+   "aees": 0.483,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 264.6
+  },
+  "GRN": {
+   "aees": 0.6715,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 5807.0
+  },
+  "GSK3A": {
+   "aees": 0.6584,
+   "n_strong": 11,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 578.7
+  },
+  "GSK3B": {
+   "aees": 0.6661,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 614.2
+  },
+  "GSR": {
+   "aees": 0.3998,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 228.3
+  },
+  "GSS": {
+   "aees": 0.4983,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 333.5
+  },
+  "GTF2H2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HBP1": {
+   "aees": 0.315,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 109.7
+  },
+  "HDAC1": {
+   "aees": 0.6903,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 656.6
+  },
+  "HDAC2": {
+   "aees": 0.6895,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 656.0
+  },
+  "HDAC3": {
+   "aees": 0.8171,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 612.0
+  },
+  "HELLS": {
+   "aees": 0.6296,
+   "n_strong": 10,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 614.0
+  },
+  "HESX1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HIC1": {
+   "aees": 0.5875,
+   "n_strong": 24,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 10912.2
+  },
+  "HIF1A": {
+   "aees": 0.3037,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 142.5
+  },
+  "HMGB1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HMGB2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HOXB7": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HOXC4": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "HRAS": {
+   "aees": 0.5231,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 155.0
+  },
+  "HSF1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": true,
+   "best_bits": 0
+  },
+  "HSP90AA1": {
+   "aees": 0.7182,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1014.6
+  },
+  "HSPA1A": {
+   "aees": 0.7444,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 929.0
+  },
+  "HSPA1B": {
+   "aees": 0.7444,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 929.0
+  },
+  "HSPA8": {
+   "aees": 0.8091,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1005.3
+  },
+  "HSPA9": {
+   "aees": 0.6636,
+   "n_strong": 8,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 927.8
+  },
+  "HSPD1": {
+   "aees": 0.6692,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 733.3
+  },
+  "HTRA2": {
+   "aees": 0.3706,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 188.0
+  },
+  "HTT": {
+   "aees": 0.5995,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 796.0
+  },
+  "IGF1R": {
+   "aees": 0.5834,
+   "n_strong": 24,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 479.4
+  },
+  "IKBKB": {
+   "aees": 0.5201,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 285.0
+  },
+  "INSR": {
+   "aees": 0.598,
+   "n_strong": 24,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 494.6
+  },
+  "IRS1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "IRS2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "JAK2": {
+   "aees": 0.5753,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 454.0
+  },
+  "JUN": {
+   "aees": 0.395,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 161.3
+  },
+  "JUND": {
+   "aees": 0.3513,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 112.0
+  },
+  "KCNA3": {
+   "aees": 0.7017,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1071.0
+  },
+  "LMNA": {
+   "aees": 0.3436,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 138.6
+  },
+  "LMNB1": {
+   "aees": 0.335,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 142.1
+  },
+  "LRP2": {
+   "aees": 0.5866,
+   "n_strong": 16,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 14212.2
+  },
+  "MAP3K5": {
+   "aees": 0.6254,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 645.9
+  },
+  "MAPK14": {
+   "aees": 0.5418,
+   "n_strong": 13,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 312.5
+  },
+  "MAPK3": {
+   "aees": 0.6118,
+   "n_strong": 13,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 423.9
+  },
+  "MAPK8": {
+   "aees": 0.5577,
+   "n_strong": 11,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 400.6
+  },
+  "MAPK9": {
+   "aees": 0.5477,
+   "n_strong": 10,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 387.7
+  },
+  "MAX": {
+   "aees": 0.4006,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 119.8
+  },
+  "MDM2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "MIF": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "MLH1": {
+   "aees": 0.669,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 845.0
+  },
+  "MT-CO1": {
+   "aees": 0.7391,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 595.0
+  },
+  "MTOR": {
+   "aees": 0.6287,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 2814.6
+  },
+  "MYC": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "NCOR1": {
+   "aees": 0.3624,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 180.9
+  },
+  "NCOR2": {
+   "aees": 0.3706,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 195.0
+  },
+  "NFE2L1": {
+   "aees": 0.3869,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 219.4
+  },
+  "NFE2L2": {
+   "aees": 0.3513,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 161.0
+  },
+  "NFKB1": {
+   "aees": 0.5867,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 769.7
+  },
+  "NFKB2": {
+   "aees": 0.3957,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 238.8
+  },
+  "NFKBIA": {
+   "aees": 0.4536,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 233.8
+  },
+  "NOG": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "NR3C1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "NUDT1": {
+   "aees": 0.4352,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 131.0
+  },
+  "PAPPA": {
+   "aees": 0.5961,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 696.0
+  },
+  "PARP1": {
+   "aees": 0.6137,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 477.8
+  },
+  "PCK1": {
+   "aees": 0.697,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1535.1
+  },
+  "PCMT1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "PCNA": {
+   "aees": 0.6651,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 326.6
+  },
+  "PDGFRA": {
+   "aees": 0.6053,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 589.5
+  },
+  "PDGFRB": {
+   "aees": 0.5986,
+   "n_strong": 21,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 574.0
+  },
+  "PDPK1": {
+   "aees": 0.4749,
+   "n_strong": 17,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 272.0
+  },
+  "PEX5": {
+   "aees": 0.3619,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 142.0
+  },
+  "PIK3CA": {
+   "aees": 0.6357,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1602.0
+  },
+  "PIK3CB": {
+   "aees": 0.6403,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1483.3
+  },
+  "PIK3R1": {
+   "aees": 0.314,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 114.0
+  },
+  "PIN1": {
+   "aees": 0.4514,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 145.5
+  },
+  "PLAU": {
+   "aees": 0.4101,
+   "n_strong": 7,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 227.2
+  },
+  "PLCG2": {
+   "aees": 0.6252,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 492.6
+  },
+  "PML": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "POLA1": {
+   "aees": 0.4784,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 306.6
+  },
+  "POLB": {
+   "aees": 0.4696,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 249.5
+  },
+  "POLD1": {
+   "aees": 0.675,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1157.1
+  },
+  "POLG": {
+   "aees": 0.6526,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 830.2
+  },
+  "PON1": {
+   "aees": 0.4806,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 132.0
+  },
+  "POU1F1": {
+   "aees": 0.4501,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 169.0
+  },
+  "PPARA": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "PPARG": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "PPM1D": {
+   "aees": 0.3661,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 191.0
+  },
+  "PPP1CA": {
+   "aees": 0.6918,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 613.9
+  },
+  "PRDX1": {
+   "aees": 0.5228,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 266.4
+  },
+  "PRKCA": {
+   "aees": 0.6412,
+   "n_strong": 20,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 696.9
+  },
+  "PRKCD": {
+   "aees": 0.5735,
+   "n_strong": 14,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 445.6
+  },
+  "PRKDC": {
+   "aees": 0.5917,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1312.2
+  },
+  "PROP1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "PSEN1": {
+   "aees": 0.576,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 354.3
+  },
+  "PTEN": {
+   "aees": 0.3699,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 171.7
+  },
+  "PTGS2": {
+   "aees": 0.607,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 535.5
+  },
+  "PTK2": {
+   "aees": 0.5534,
+   "n_strong": 22,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 409.9
+  },
+  "PTK2B": {
+   "aees": 0.5138,
+   "n_strong": 20,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 366.8
+  },
+  "PTPN1": {
+   "aees": 0.4513,
+   "n_strong": 20,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 229.6
+  },
+  "PTPN11": {
+   "aees": 0.6257,
+   "n_strong": 23,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 594.2
+  },
+  "PYCR1": {
+   "aees": 0.4987,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 246.0
+  },
+  "RAD51": {
+   "aees": 0.8455,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 549.0
+  },
+  "RAE1": {
+   "aees": 0.5377,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 337.0
+  },
+  "RB1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "RECQL4": {
+   "aees": 0.6206,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 477.5
+  },
+  "RET": {
+   "aees": 0.6352,
+   "n_strong": 23,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 647.8
+  },
+  "RICTOR": {
+   "aees": 0.4131,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 245.6
+  },
+  "RPA1": {
+   "aees": 0.4772,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 282.0
+  },
+  "SDHC": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "SERPINE1": {
+   "aees": 0.7267,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 597.4
+  },
+  "SHC1": {
+   "aees": 0.3442,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 142.1
+  },
+  "SIN3A": {
+   "aees": 0.6482,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 912.7
+  },
+  "SIRT1": {
+   "aees": 0.4814,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 304.4
+  },
+  "SIRT3": {
+   "aees": 0.4069,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 182.2
+  },
+  "SIRT6": {
+   "aees": 0.4519,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 261.5
+  },
+  "SIRT7": {
+   "aees": 0.4523,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 156.0
+  },
+  "SLC13A1": {
+   "aees": 0.4099,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 221.8
+  },
+  "SOCS2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "SOD1": {
+   "aees": 0.5748,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 169.0
+  },
+  "SOD2": {
+   "aees": 0.6861,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 583.5
+  },
+  "SP1": {
+   "aees": 0.5836,
+   "n_strong": 20,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 5935.5
+  },
+  "SPRTN": {
+   "aees": 0.4005,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 214.0
+  },
+  "SQSTM1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": true,
+   "best_bits": 0
+  },
+  "SSTR3": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "STAT5A": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "STAT5B": {
+   "aees": 0.2856,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 101.3
+  },
+  "STK11": {
+   "aees": 0.6471,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 355.0
+  },
+  "STUB1": {
+   "aees": 0.4674,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 232.7
+  },
+  "SUN1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "TAF1": {
+   "aees": 0.6238,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1143.9
+  },
+  "TBP": {
+   "aees": 0.5417,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 318.9
+  },
+  "TCF3": {
+   "aees": 0.3472,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 122.9
+  },
+  "TERF2": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "TERT": {
+   "aees": 0.3671,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 187.3
+  },
+  "TFDP1": {
+   "aees": 0.4605,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 236.0
+  },
+  "TGFB1": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "TOP1": {
+   "aees": 0.6478,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 716.4
+  },
+  "TOP2A": {
+   "aees": 0.6232,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1468.4
+  },
+  "TOP2B": {
+   "aees": 0.621,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1493.2
+  },
+  "TOP3B": {
+   "aees": 0.6353,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 921.8
+  },
+  "TP53": {
+   "aees": 0.3167,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 110.1
+  },
+  "TP63": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "TP73": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "TPP2": {
+   "aees": 0.6133,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 498.7
+  },
+  "TRAP1": {
+   "aees": 0.645,
+   "n_strong": 3,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 526.2
+  },
+  "TXN": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "UBB": {
+   "aees": 0.875,
+   "n_strong": 12,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 1809.0
+  },
+  "UBE2I": {
+   "aees": 0.6948,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 283.0
+  },
+  "UCHL1": {
+   "aees": 0.5857,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 203.0
+  },
+  "UCP1": {
+   "aees": 0.5294,
+   "n_strong": 4,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 214.0
+  },
+  "UCP2": {
+   "aees": 0.5364,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 336.5
+  },
+  "UCP3": {
+   "aees": 0.5462,
+   "n_strong": 6,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 231.0
+  },
+  "VCP": {
+   "aees": 0.6579,
+   "n_strong": 18,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 1621.0
+  },
+  "WRN": {
+   "aees": 0.5615,
+   "n_strong": 18,
+   "concordance": 0.5,
+   "in_panel": true,
+   "best_bits": 420.9
+  },
+  "XPA": {
+   "aees": 0.0,
+   "n_strong": 0,
+   "concordance": 0.0,
+   "in_panel": false,
+   "best_bits": 0
+  },
+  "XRCC6": {
+   "aees": 0.6331,
+   "n_strong": 1,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 428.5
+  },
+  "YWHAZ": {
+   "aees": 0.6753,
+   "n_strong": 5,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 313.0
+  },
+  "ZMPSTE24": {
+   "aees": 0.4125,
+   "n_strong": 2,
+   "concordance": 0.5,
+   "in_panel": false,
+   "best_bits": 211.8
+  }
+ }
+}

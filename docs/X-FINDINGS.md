@@ -78,6 +78,14 @@ number reproduces from results/*.json at the D9-closure commit.
    test; SOD1 stands as the clean rank-1 candidate. Script: inline + experiments/x_synteny.py
    machinery; results in /tmp pending depth run (will land as results/x-atg5-depth.json).
 
+23. Genome-wide GenAge arm phase 1 (P1 #16): 302/307 verified GenAge proteins mapped
+   on Td main (188/231 detected). AEES top is housekeeping machinery as designed
+   (UBB/RAD51/HDAC3/HSPA8); panel NOT enriched at top (MW p=0.35) - disclosed
+   honestly. Discovery yield: non-panel GenAge genes with high Td evidence -
+   RAD51 0.846, HDAC3 0.817 (+HDAC1/2), CHEK2 0.71, SERPINE1 0.727, SOD2 0.68
+   (pairs with rank-1 SOD1). Converges on genome-maintenance/chromatin/redox
+   modules. Oviedo concordance pending. File: results/x-genage-aees.json.
+
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
 pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
@@ -85,7 +93,7 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 23,902 body words -> 63 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 24,557 body words -> 65 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 

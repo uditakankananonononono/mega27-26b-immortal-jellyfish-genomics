@@ -1,7 +1,7 @@
 {
- "body_words": 24158,
- "full_words": 24502,
- "body_pages_rendered": 64,
+ "body_words": 24557,
+ "full_words": 24901,
+ "body_pages_rendered": 65,
  "rule": ">=50 pages of body text; headings/references/appendix/diagrams excluded; diagrams never count",
  "pass": true
 }
