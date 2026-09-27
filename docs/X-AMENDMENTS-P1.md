@@ -1,0 +1,35 @@
+# X-AMENDMENTS-P1 - locked amendment queue from the PROVIDED judge round
+
+Source: the user's ONE provided judge round for 26b - her 2026-09-27 10:17:54 IST WhatsApp
+paste of the ChatGPT answer to the 26b courier paste
+(wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDNERDAyRTQ0MkYzMDM1OEI5RgA=).
+Verbatim text: archived in X-JUDGE-ROUNDS.md (provided-round section).
+This queue is LOCKED BEFORE EXECUTION (10:18 IST). Each item: the demand, the planned
+change, and its honest status. Overlaps with already-running round-2 work are mapped, not
+double-claimed. Item 20 was truncated in the relay and slots in when main relays it.
+
+| # | Weakness (judge) | Planned change | Status at lock |
+|---|------------------|----------------|----------------|
+| 1 | Method novelty not formalized ("just BLAST applied carefully?") | Formalize the Genome-First Annotation Recovery Algorithm: named inputs (raw assembly, gene panel, related-species genomes), outputs (candidate loci, confidence score, assembly agreement score, evidence class); benchmark vs NCBI/UniProt/database-first lookup | PARTIAL EXISTS: benchmark arm 2 (38/47 vs 0/47) is exactly this benchmark; formal algorithm spec + evidence-class output = NEW DOC (docs/X-ALGORITHM.md) |
+| 2 | Only one immortal species ("Turritopsis-specific or longevity genes?") | Comparative expansion to independently long-lived/rejuvenating lineages (Hydra, Aurelia, others) + enrichment test across lineages | LANDED (exploratory): extension genomes incl. H. vulgaris (non-senescent) + M. virulenta + N. vectensis; ATG5-module contrast in section 08d. Formal enrichment test across lineages = NEW (needs n; small-n disclosure) |
+| 3 | No evolutionary convergence analysis | dN/dS selection analysis on the T. dohrnii branch + gene-family expansion framing | QUEUED: dN/dS install attempt (mafft/PAML) after round-2; expansion analysis H3 done (negative, disclosed) |
+| 4 | Copy-number claims depend on assembly quality | Assembly-aware validation: completeness (BUSCO-style), read-depth support, synteny, duplicated-locus validation | PARTIAL LANDED: core-gene completeness control 12/12 both Td assemblies; RBH 20/20 validates duplicated loci; FPI fragmentation sim RUNNING; SRA read-depth = OPEN (step 4) |
+| 5 | Gene presence != gene function | Functional prioritization score combining conservation, expression, pathway membership, domain integrity, duplication evidence | PARTIAL: AEES + external annotation (GenAge/CellAge/STRING/InterPro) landed; formal combined score with pre-registered weights = NEW (item 7) |
+| 6 | No transcriptomic integration | Integrate published reversal RNA-seq: expression change across medusa->polyp reversal for candidates | OPEN - biggest new work item; 60 SRA runs already censused (results/sra_census.json); quantification pipeline to build |
+| 7 | AEES weights could be subjective | Pre-register AEES weights; compare equal vs alternative weightings as sensitivity | NEW: weight-sensitivity analysis (equal weights vs current) + written rationale, logged before any re-ranking |
+| 8 | Human-relevance framing limits | Paper text: explicit limits section on human-disease framing in a nerve-net organism | SMALL: paper limitations addition |
+| 9 | Optional ML relevance model | Assess: simple supervised ranker using external annotation features; only if it adds signal beyond AEES | OPEN (optional per judge) |
+| 10 | Non-model-organism framework benchmark | Benchmark the workflow itself against standard annotation pipelines (already arm 2) + write the framework formally | OVERLAPS item 1 |
+| 11 | Decoy false-positive panel | Decoy panel: non-aging control genes through the identical pipeline; FPR vs panel rate | NEW: decoy set (e.g., olfactory/structural genes) mapped with frozen pipeline |
+| 12 | BLAST/DIAMOND/HMMER method comparison | Run the panel with DIAMOND + HMMER (pyhmmer present) on the same genomes; concordance of calls | NEW: tool-concordance analysis |
+| 13 | Gene-structure/synteny evidence | Micro-synteny check around ATG5 loci (flanking genes conserved?) | OPEN: flanking-locus analysis for ATG5 loci |
+| 14 | Fresh-machine reproduction | Documented clean-room reproduction: clone repo, run pipeline, match ledgers | PARTIAL: README reproduction section; formal fresh-clone run to execute |
+| 15 | BUSCO-filtered normalization | Normalize per-genome call rates by completeness estimate | PARTIAL: coreg completeness matrix gives the correction factor; normalization formula to apply |
+| 16 | Unbiased genome-wide discovery arm | Panel-free arm: all-GenAge-human proteins mapped, rank by AEES-like score | NEW: genome-wide arm (GenAge full set ~300 proteins) |
+| 17 | Enrichment statistics | Formal enrichment test (hypergeometric/Fisher) of aging-database membership in high-AEES genes | NEW: small analysis, computable now |
+| 18 | Hold-out validation species | Designate hold-out genome(s) excluded from method tuning; final evaluation on them | PARTIAL: extension genomes already held out from H-inputs; formalize as hold-out set |
+| 19 | Evidence tiers | Tiered evidence classification (genomic locus / orthology-confirmed / expression-supported / function-annotated) for every candidate | NEW: tier column in X-FINDINGS + paper table |
+
+Foldback discipline: items that fail land in the honest-negative register; nothing here is
+terminal. Execution order: 17, 8, 7, 1/10 (fast) -> 4-FPI completion, 15, 19 -> 11, 12, 13
+-> 3 (dN/dS) -> 6 (RNA-seq, heavy) -> 16, 9, 14.
