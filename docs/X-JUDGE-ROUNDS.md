@@ -1149,9 +1149,10 @@ extensions (ext2) or limitations text, never as edits to the frozen H-inputs.
 
 User: "NOT 10 ROUNDS OOF CHATGPT CHECK JUST ONE WHICH I PROVIDE OK?" (verbatim typo preserved)
 Effect: the counted ChatGPT judge requirement is now ONE round per project, provided by the
-user. Gate ledger updated honestly: judge gate = 1 counted round -> this lane has 1 of 1 -
-PENDING her provided verdict (R1 was agent-initiated in her account; main asked her 10:01
-whether only courier-pasted verdicts count - her answer settles it. R1, conversation https://chatgpt.com/c/6ab7e06c-35b8-83e8-b811-18dbe6799450,
+user. SETTLED 10:01:47 IST (user, verified wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDMwREI5RDQ0QUNCRDc2MTNDMwA=):
+"EACH PROJECTS NEED ONE FROM ME TO PASS". Judge gate = ONE verdict SHE provides via the
+courier paste route. Agent-initiated rounds (even in her account) DO NOT satisfy the gate.
+Ledger: 0 of 1 PENDING her provided verdict. R1 is preserved history/supplementary only. R1, conversation https://chatgpt.com/c/6ab7e06c-35b8-83e8-b811-18dbe6799450,
 novelty change landed = AEES v1). History preserved; nothing deleted. The four Gemini
 consults (S2-S5) remain supplementary, logged, never counted. If she provides a courier-paste
 verdict for this lane, it supersedes as the lane's one provided round and will be logged here.
