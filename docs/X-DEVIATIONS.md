@@ -70,3 +70,31 @@ deterministic (fixed seed only affects shuffled set), so regenerated ledgers mus
 the already-reported coreg detection rates (12/12 both Td assemblies, 12/12 Trubra,
 12/12 Aaurita, 11/12 Clytia) - they will be re-verified against those numbers before
 anything downstream uses them.
+
+## D9 - human panel query files contained wrong proteins (FOUND 2026-09-27, self-audit during P1 #11)
+
+37 of 47 human query files in data/xpanel held the wrong protein (systematic accession
+misalignment from the original fetch; e.g. human_ATG5 = sialidase-1, human_APOE = tau,
+human_ATM = human_ATR = CEP164, human_GHR = IGFALS). Only 10 were correct. xpanel_coreg and
+xpanel_ext2 Human files verified correct by header. Discovery of the bug: amendment-11 decoy
+panel audit, 2026-09-27 ~10:32 IST.
+
+Impact (assessed before repair from raw hit provenance):
+- ATG5 discovery INTACT: both duplicated loci in both assemblies driven by Acropora/Hydra/
+  Nematostella ATG5 queries; wrong human file contributed zero hits.
+- Benchmark arm 1 (human-only 29/47): INVALID pending rerun (wrong queries).
+- H1 absent: APOE/IGF1/PRKAA1 invalid (wrong human-only queries); CDKN2A valid.
+- H2 absent: APOE/GBA/SNCA/UBQLN2 invalid; MAPT valid; PARK7 likely valid (Hydra query).
+- GHR candidate status: Td loci came from IGFALS file - actually an IGFALS detection;
+  its RBH PASS is circular. AEES top-10 to be recomputed.
+- dN/dS: 9/10 genes used cnidarian queries (intact); GHR result was IGFALS (no omega published).
+- Arm-2 benchmark, coreg/#15, FPI, ext2: unaffected.
+
+Repair (in progress at log time): all 47 human proteins re-fetched via UniProt REST with
+exact-gene matching (NCBI esearch 500ing at repair time), canonical reviewed accessions,
+verify report data/xpanel_fixed/verify_report.json (47/47 ok). Wrong files quarantined to
+data/xpanel_quarantine/, contaminated ledgers to results/quarantine_d9/. Full bc + bcshuf
+rerun launched 10:37 IST (/tmp/xd9.log). Follow-on: recompute H1/H2/H6 stats, AEES, arm-1
+benchmark, RBH, dN/dS, tiers; correct every affected paper number; cnidarian-query
+sequence-level validation queued after. Completion claims resume only after the rerun
+reproduces or revises each affected number.

@@ -1,0 +1,284 @@
+{
+ "AKT1": {
+  "status": "ok",
+  "acc": "P31749",
+  "len": 480,
+  "name": "RAC-alpha serine/threonine-protein kinase (EC 2.7.11.1) (Protein kinase B) (PKB)"
+ },
+ "APOE": {
+  "status": "ok",
+  "acc": "P02649",
+  "len": 317,
+  "name": "Apolipoprotein E (Apo-E)"
+ },
+ "APP": {
+  "status": "ok",
+  "acc": "P05067",
+  "len": 770,
+  "name": "Amyloid-beta precursor protein (APP) (ABPP) (APPI) (Alzheimer disease amyloid A4"
+ },
+ "ATG5": {
+  "status": "ok",
+  "acc": "Q9H1Y0",
+  "len": 275,
+  "name": "Autophagy protein 5 (APG5-like) (Apoptosis-specific protein)"
+ },
+ "ATG7": {
+  "status": "ok",
+  "acc": "O95352",
+  "len": 703,
+  "name": "Ubiquitin-like modifier-activating enzyme ATG7 (ATG12-activating enzyme E1 ATG7)"
+ },
+ "ATM": {
+  "status": "ok",
+  "acc": "Q13315",
+  "len": 3056,
+  "name": "Serine-protein kinase ATM (EC 2.7.11.1) (Ataxia telangiectasia mutated) (A-T mut"
+ },
+ "ATR": {
+  "status": "ok",
+  "acc": "Q13535",
+  "len": 2644,
+  "name": "Serine/threonine-protein kinase ATR (EC 2.7.11.1) (Ataxia telangiectasia and Rad"
+ },
+ "BDNF": {
+  "status": "ok",
+  "acc": "P23560",
+  "len": 247,
+  "name": "Neurotrophic factor BDNF precursor form (proBDNF) (Abrineurin) (Brain-derived ne"
+ },
+ "BECN1": {
+  "status": "ok",
+  "acc": "Q14457",
+  "len": 450,
+  "name": "Beclin-1 (Coiled-coil myosin-like BCL2-interacting protein) (Protein GT197) [Cle"
+ },
+ "BLM": {
+  "status": "ok",
+  "acc": "P54132",
+  "len": 1417,
+  "name": "RecQ-like DNA helicase BLM (EC 5.6.2.4) (Bloom syndrome protein) (DNA 3'-5' heli"
+ },
+ "C9orf72": {
+  "status": "ok",
+  "acc": "Q96LT7",
+  "len": 481,
+  "name": "Guanine nucleotide exchange factor C9orf72"
+ },
+ "CDKN2A": {
+  "status": "ok",
+  "acc": "P42771",
+  "len": 156,
+  "name": "Cyclin-dependent kinase inhibitor 2A (Cyclin-dependent kinase 4 inhibitor A) (CD"
+ },
+ "FOXO3": {
+  "status": "ok",
+  "acc": "O43524",
+  "len": 673,
+  "name": "Forkhead box protein O3 (AF6q21 protein) (Forkhead in rhabdomyosarcoma-like 1)"
+ },
+ "FUS": {
+  "status": "ok",
+  "acc": "P35637",
+  "len": 526,
+  "name": "RNA-binding protein FUS (75 kDa DNA-pairing protein) (Oncogene FUS) (Oncogene TL"
+ },
+ "GBA": {
+  "status": "ok",
+  "acc": "A0A068F658",
+  "len": 536,
+  "name": "Glucosylceramidase (EC 3.2.1.45)"
+ },
+ "GHR": {
+  "status": "ok",
+  "acc": "P10912",
+  "len": 638,
+  "name": "Growth hormone receptor (GH receptor) (Somatotropin receptor) [Cleaved into: Gro"
+ },
+ "GRN": {
+  "status": "ok",
+  "acc": "P28799",
+  "len": 593,
+  "name": "Progranulin (PGRN) (Acrogranin) (Epithelin precursor) (Glycoprotein of 88 Kda) ("
+ },
+ "HSF1": {
+  "status": "ok",
+  "acc": "Q00613",
+  "len": 529,
+  "name": "Heat shock factor protein 1 (HSF 1) (Heat shock transcription factor 1) (HSTF 1)"
+ },
+ "HTT": {
+  "status": "ok",
+  "acc": "P42858",
+  "len": 3142,
+  "name": "Huntingtin (Huntington disease protein) (HD protein) [Cleaved into: Huntingtin, "
+ },
+ "IGF1": {
+  "status": "ok",
+  "acc": "P05019",
+  "len": 195,
+  "name": "Insulin-like growth factor 1 (Insulin-like growth factor I) (IGF-I) (Mechano gro"
+ },
+ "IGF1R": {
+  "status": "ok",
+  "acc": "P08069",
+  "len": 1367,
+  "name": "Insulin-like growth factor 1 receptor (EC 2.7.10.1) (Insulin-like growth factor "
+ },
+ "INSR": {
+  "status": "ok",
+  "acc": "P06213",
+  "len": 1382,
+  "name": "Insulin receptor (IR) (EC 2.7.10.1) (CD antigen CD220) [Cleaved into: Insulin re"
+ },
+ "LRRK2": {
+  "status": "ok",
+  "acc": "Q5S007",
+  "len": 2527,
+  "name": "Leucine-rich repeat serine/threonine-protein kinase 2 (EC 2.7.11.1) (EC 3.6.5.-)"
+ },
+ "MAPT": {
+  "status": "ok",
+  "acc": "P10636",
+  "len": 758,
+  "name": "Microtubule-associated protein tau (Neurofibrillary tangle protein) (Paired heli"
+ },
+ "MTOR": {
+  "status": "ok",
+  "acc": "P42345",
+  "len": 2549,
+  "name": "Serine/threonine-protein kinase mTOR (EC 2.7.11.1) (FK506-binding protein 12-rap"
+ },
+ "NFE2L2": {
+  "status": "ok",
+  "acc": "Q16236",
+  "len": 605,
+  "name": "Nuclear factor erythroid 2-related factor 2 (NF-E2-related factor 2) (NFE2-relat"
+ },
+ "NGF": {
+  "status": "ok",
+  "acc": "P01138",
+  "len": 241,
+  "name": "Beta-nerve growth factor (Beta-NGF)"
+ },
+ "OPTN": {
+  "status": "ok",
+  "acc": "Q96CV9",
+  "len": 577,
+  "name": "Optineurin (E3-14.7K-interacting protein) (FIP-2) (Huntingtin yeast partner L) ("
+ },
+ "PARK7": {
+  "status": "ok",
+  "acc": "Q99497",
+  "len": 189,
+  "name": "Parkinson disease protein 7 (Maillard deglycase) (Oncogene DJ1) (Parkinsonism-as"
+ },
+ "PINK1": {
+  "status": "ok",
+  "acc": "Q9BXM7",
+  "len": 581,
+  "name": "Serine/threonine-protein kinase PINK1, mitochondrial (EC 2.7.11.1) (BRPK) (PTEN-"
+ },
+ "PRKAA1": {
+  "status": "ok",
+  "acc": "Q13131",
+  "len": 559,
+  "name": "5'-AMP-activated protein kinase catalytic subunit alpha-1 (AMPK subunit alpha-1)"
+ },
+ "PRNP": {
+  "status": "ok",
+  "acc": "P04156",
+  "len": 253,
+  "name": "Major prion protein (PrP) (ASCR) (PrP27-30) (PrP33-35C) (CD antigen CD230)"
+ },
+ "PSEN1": {
+  "status": "ok",
+  "acc": "P49768",
+  "len": 467,
+  "name": "Presenilin-1 (PS-1) (EC 3.4.23.-) (Protein S182) [Cleaved into: Presenilin-1 NTF"
+ },
+ "PSEN2": {
+  "status": "ok",
+  "acc": "P49810",
+  "len": 448,
+  "name": "Presenilin-2 (PS-2) (EC 3.4.23.-) (AD3LP) (AD5) (E5-1) (STM-2) [Cleaved into: Pr"
+ },
+ "PTEN": {
+  "status": "ok",
+  "acc": "P60484",
+  "len": 403,
+  "name": "Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity prot"
+ },
+ "SIRT1": {
+  "status": "ok",
+  "acc": "Q96EB6",
+  "len": 747,
+  "name": "NAD-dependent protein deacetylase sirtuin-1 (hSIRT1) (EC 2.3.1.286) (NAD-depende"
+ },
+ "SIRT6": {
+  "status": "ok",
+  "acc": "Q8N6T7",
+  "len": 355,
+  "name": "NAD-dependent protein deacylase sirtuin-6 (EC 2.3.1.-) (NAD-dependent protein de"
+ },
+ "SNCA": {
+  "status": "ok",
+  "acc": "P37840",
+  "len": 140,
+  "name": "Alpha-synuclein (Non-A beta component of AD amyloid) (Non-A4 component of amyloi"
+ },
+ "SOD1": {
+  "status": "ok",
+  "acc": "P00441",
+  "len": 154,
+  "name": "Superoxide dismutase [Cu-Zn] (EC 1.15.1.1) (EC 1.8.-.-) (Hydrogen sulfide oxidas"
+ },
+ "SQSTM1": {
+  "status": "ok",
+  "acc": "Q13501",
+  "len": 440,
+  "name": "Sequestosome-1 (EBI3-associated protein of 60 kDa) (EBIAP) (p60) (Phosphotyrosin"
+ },
+ "TARDBP": {
+  "status": "ok",
+  "acc": "Q13148",
+  "len": 414,
+  "name": "TAR DNA-binding protein 43 (TDP-43)"
+ },
+ "TFEB": {
+  "status": "ok",
+  "acc": "P19484",
+  "len": 476,
+  "name": "Transcription factor EB (Class E basic helix-loop-helix protein 35) (bHLHe35)"
+ },
+ "TP53": {
+  "status": "ok",
+  "acc": "P04637",
+  "len": 393,
+  "name": "Cellular tumor antigen p53 (Antigen NY-CO-13) (Phosphoprotein p53) (Tumor suppre"
+ },
+ "TREM2": {
+  "status": "ok",
+  "acc": "Q9NZC2",
+  "len": 230,
+  "name": "Triggering receptor expressed on myeloid cells 2 (TREM-2) (Triggering receptor e"
+ },
+ "UBQLN2": {
+  "status": "ok",
+  "acc": "Q9UHD9",
+  "len": 624,
+  "name": "Ubiquilin-2 (Chap1) (DSK2 homolog) (Protein linking IAP with cytoskeleton 2) (PL"
+ },
+ "VCP": {
+  "status": "ok",
+  "acc": "P55072",
+  "len": 806,
+  "name": "Transitional endoplasmic reticulum ATPase (TER ATPase) (EC 3.6.4.6) (15S Mg(2+)-"
+ },
+ "WRN": {
+  "status": "ok",
+  "acc": "Q14191",
+  "len": 1432,
+  "name": "Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN (DNA helicase, RecQ-li"
+ }
+}
