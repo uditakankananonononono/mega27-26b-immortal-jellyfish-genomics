@@ -83,7 +83,7 @@ number reproduces from results/*.json at the D9-closure commit.
    structural validation; no confirmed extra-copy discovery is claimed.
    A better assembly/phased reads or locus-spanning long-read analysis is needed.
 
-23. Genome-wide GenAge arm phase 1 (P1 #16): 302/307 verified GenAge proteins mapped
+23. Broader but still list-based GenAge arm phase 1 (P1 #16, PARTIAL rather than panel-free): 302/307 verified GenAge proteins mapped
    on Td main (188/231 detected). AEES top is housekeeping machinery as designed
    (UBB/RAD51/HDAC3/HSPA8); panel NOT enriched at top (MW p=0.35) - disclosed
    honestly. Discovery yield: non-panel GenAge genes with high Td evidence -
@@ -109,19 +109,19 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 24,557 body words -> 65 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 25,352 body words -> 67 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 
 ## 2026-09-27 extension-genome contrast (exploratory) + RBH control
 - bcext mapping complete: Nvectensis 284 strong loci/42 genes, Mvirulenta 171/41, Hvulgaris (results/x-ledger-bcext.json).
-- ATG5: universal across all 8 genomes. Td duplication (2 loci, both assemblies, concordant stats) vs 1 in Trubra. But Clytia 2, Nvectensis 4 - copy number alone does NOT track immortality (claim narrowed).
+- ATG5: universal across all 8 genomes. Td main shows 2 cnidarian-type loci, Oviedo and Trubra each 1; the extra main-only copy is unresolved. But Clytia 2, Nvectensis 4 - copy number alone does NOT track immortality (claim narrowed).
 - Signal quality tracks non-senescence: Hvulgaris best ATG5 (98.4% pident, qcov 0.79), Td next (0.69); mortals Aaurita (216 bits) and Mvirulenta (201 bits) weakest. n=2 per class - pattern, not statistic.
 - Module: ATG7/BECN1 intact everywhere; Hvulgaris ATG7+BECN1 100% pident.
 - NEW CONTROL (judge S5): reciprocal-best-hit 20/20 PASS on top-10 AEES genes x both Td assemblies (results/x-rbh.json). Orthology supported for ATG5-matching loci; whether the extra main-assembly sequence is a distinct copy remains unresolved.
-- ATG5 validation: step1 PASS, step2 PASS, step3 PASS-with-narrowing, step4 (SRA raw reads) OPEN.
+- ATG5 validation: extra-copy step 1 NOT PASSED, step 2 PASS, step 3 PASS-with-narrowing, step 4 PacBio raw-read depth INCONCLUSIVE.
 
 ## 2026-09-27 provided-verdict amendments (fast items landed)
 - P1 archived: judge gate MET 1 of 1 provided (X-JUDGE-ROUNDS.md, wamid ...OEI5RgA=); queue docs/X-AMENDMENTS-P1.md locked pre-execution.
-- Item 7 (AEES weight subjectivity): sensitivity analysis (results/x-aees-sensitivity.json). ATG5 rank = 1 under frozen AND equal weights; under 200 random weightings rank ranges 1-27 (mean top-5 overlap 3.71/5). Honest read: frozen top-5 core (ATG5, APP, ATG7, PSEN1, GHR) is robust to reasonable weightings; extreme weightings reshuffle - disclosed.
+- Item 7 (AEES weight subjectivity): sensitivity analysis (results/x-aees-sensitivity.json). ATG5 rank = 2 under frozen AND equal weights; under 200 random weightings rank ranges 1-24 (mean top-5 overlap 4.21/5). Honest read: frozen top-5 core (SOD1, ATG5, APP, ATG7, PSEN1) is fairly stable; extreme weightings reshuffle - disclosed.
 - Item 17 (enrichment framework): Fisher exact tests of aging-DB membership among high-AEES (>=0.75, n=20/44) genes (results/x-enrichment.json). NEGATIVE on all 4 databases (GenAge human OR 1.33 q=0.771; GenAge models OR 2.44 q=0.763; CellAge OR 0.82 q=0.771; LongevityMap OR 0.56 q=0.763). Disclosed confound: the universe is the aging-biased panel itself, so within-panel enrichment is weak by construction; the unbiased genome-wide arm (item 16) is the non-circular test.

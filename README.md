@@ -38,6 +38,17 @@ hypothesis that fails is reported as a negative and rerouted through
 - `docs/` — pre-registration, pivot ladder, judge-round rules and logs
 - `results/` — closed-phase and expansion result files (machine-readable)
 
-Run: `pip install -e . && pytest`
-Expansion reproduction: `python experiments/x_map.py actrl|bc|bcshuf` then
-`python experiments/x_stats.py` then `python experiments/x_makepaper.py`.
+Run the local tests with `python3 -m pytest -q`. For a fresh-clone verification of the **committed downstream artifacts** (no genomes or raw RNA reads needed), run from the repository root:
+
+```sh
+python3 -m pytest -q
+cp results/x-stats.json /tmp/x-stats.baseline.json
+cp results/x-genage-aees.json /tmp/x-genage.baseline.json
+python3 experiments/x_stats.py
+python3 experiments/x_genage_rank.py
+cmp /tmp/x-stats.baseline.json results/x-stats.json
+cmp /tmp/x-genage.baseline.json results/x-genage-aees.json
+python3 experiments/x_makepaper.py
+```
+
+This checks only ledger-derived statistics, the GenAge ranking, and body-page rendering on the host's Python/LibreOffice installation. It is **not** a fresh-machine end-to-end reproduction of the mappings: `experiments/x_map.py` currently hard-codes the original workspace's BLAST binary and database paths, raw genomes/BLAST databases and RNA reads are not shipped in Git, and the CLI's `run` subcommand does not exist. Reproducing raw mapping needs a new environment bootstrap, source fetch/verification and path configuration. Do not claim that this repository can regenerate every table, figure, and ranking with one command yet. A fresh-clone downstream check was run at commit e7d197e on 2026-09-27; tests passed and x-stats/genage JSON matched byte for byte.
