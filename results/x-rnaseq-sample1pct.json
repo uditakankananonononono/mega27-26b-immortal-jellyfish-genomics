@@ -1,0 +1,820 @@
+{
+  "method": "Exploratory, deterministic every-100th paired-read sample, target-window alignments, one library per stage; not DE",
+  "reference": "T. dohrnii GCA_027922465.2, 37 merged target-enriched windows for 40 named labels; 5kb flanks, locus capture +/-2kb",
+  "source": "ENA PRJNA603209",
+  "normalization": "per million MAPQ>=20 primary mapped read ends to the target-only reference; not genome-wide CPM or TPM",
+  "pair_deduplication": "NOT done; mate counts are read ends and must not be labeled unique fragments",
+  "limitations": [
+    "one library per stage selected; no replicate-based inference",
+    "no cyst stage",
+    "systematic 1% sample, low target counts",
+    "targeted reference inflates mapping proportions; ACTA1 dominates and may vary by stage",
+    "overlapping named labels (ATG5 and ATG5_locus2, PSEN1/PSEN2) count the same read twice if summed",
+    "locus +/-2kb captures genomic proximity rather than verified exons; counts do not independently prove transcription",
+    "ATG5 copy status remains unconfirmed by DNA depth"
+  ],
+  "stages": {
+    "Medusa1": {
+      "run": "SRR10967540",
+      "original_pairs": 27349424,
+      "sampled_pairs": 273495,
+      "mapped_target_primary_read_ends": 47573,
+      "ACTA1_read_ends": 43604,
+      "mates": [
+        {
+          "mate": 1,
+          "source_bytes": 2012337652,
+          "source_sha256": "004e1752cb149a8f3feb42ffe8f5a343f0e9d7f3b5534db1576c35f31d25324f",
+          "sampled_read_ends": 273495,
+          "mapped_primary_mapq20": 24209,
+          "chunks": 28
+        },
+        {
+          "mate": 2,
+          "source_bytes": 2443312337,
+          "source_sha256": "70e53641e556fb89fa338c7016ed02414b7f363aa6ba30bfac002110fe1b0e89",
+          "sampled_read_ends": 273495,
+          "mapped_primary_mapq20": 23364,
+          "chunks": 28
+        }
+      ],
+      "targets": {
+        "ACTA1_housekeeping": {
+          "read_ends": 43604,
+          "per_million_target_mapped_read_ends": 916570.32,
+          "to_ACTA1_ratio": 1.0,
+          "sufficient_10_read_ends": true
+        },
+        "AKT1": {
+          "read_ends": 60,
+          "per_million_target_mapped_read_ends": 1261.22,
+          "to_ACTA1_ratio": 0.00138,
+          "sufficient_10_read_ends": true
+        },
+        "APP": {
+          "read_ends": 38,
+          "per_million_target_mapped_read_ends": 798.77,
+          "to_ACTA1_ratio": 0.00087,
+          "sufficient_10_read_ends": true
+        },
+        "ATG5": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 105.1,
+          "to_ACTA1_ratio": 0.00011,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus1": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 21.02,
+          "to_ACTA1_ratio": 2e-05,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus2": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 105.1,
+          "to_ACTA1_ratio": 0.00011,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus3": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "ATG7": {
+          "read_ends": 21,
+          "per_million_target_mapped_read_ends": 441.43,
+          "to_ACTA1_ratio": 0.00048,
+          "sufficient_10_read_ends": true
+        },
+        "ATM": {
+          "read_ends": 59,
+          "per_million_target_mapped_read_ends": 1240.2,
+          "to_ACTA1_ratio": 0.00135,
+          "sufficient_10_read_ends": true
+        },
+        "ATR": {
+          "read_ends": 3,
+          "per_million_target_mapped_read_ends": 63.06,
+          "to_ACTA1_ratio": 7e-05,
+          "sufficient_10_read_ends": false
+        },
+        "BECN1": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 105.1,
+          "to_ACTA1_ratio": 0.00011,
+          "sufficient_10_read_ends": false
+        },
+        "BLM": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 21.02,
+          "to_ACTA1_ratio": 2e-05,
+          "sufficient_10_read_ends": false
+        },
+        "C9orf72": {
+          "read_ends": 14,
+          "per_million_target_mapped_read_ends": 294.28,
+          "to_ACTA1_ratio": 0.00032,
+          "sufficient_10_read_ends": true
+        },
+        "FOXO3": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 105.1,
+          "to_ACTA1_ratio": 0.00011,
+          "sufficient_10_read_ends": false
+        },
+        "FUS": {
+          "read_ends": 54,
+          "per_million_target_mapped_read_ends": 1135.1,
+          "to_ACTA1_ratio": 0.00124,
+          "sufficient_10_read_ends": true
+        },
+        "GRN": {
+          "read_ends": 29,
+          "per_million_target_mapped_read_ends": 609.59,
+          "to_ACTA1_ratio": 0.00067,
+          "sufficient_10_read_ends": true
+        },
+        "HSF1": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 42.04,
+          "to_ACTA1_ratio": 5e-05,
+          "sufficient_10_read_ends": false
+        },
+        "HTT": {
+          "read_ends": 34,
+          "per_million_target_mapped_read_ends": 714.69,
+          "to_ACTA1_ratio": 0.00078,
+          "sufficient_10_read_ends": true
+        },
+        "IGF1R": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "INSR": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "LRRK2": {
+          "read_ends": 7,
+          "per_million_target_mapped_read_ends": 147.14,
+          "to_ACTA1_ratio": 0.00016,
+          "sufficient_10_read_ends": false
+        },
+        "MTOR": {
+          "read_ends": 11,
+          "per_million_target_mapped_read_ends": 231.22,
+          "to_ACTA1_ratio": 0.00025,
+          "sufficient_10_read_ends": true
+        },
+        "NFE2L2": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 42.04,
+          "to_ACTA1_ratio": 5e-05,
+          "sufficient_10_read_ends": false
+        },
+        "OPTN": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 42.04,
+          "to_ACTA1_ratio": 5e-05,
+          "sufficient_10_read_ends": false
+        },
+        "PARK7": {
+          "read_ends": 14,
+          "per_million_target_mapped_read_ends": 294.28,
+          "to_ACTA1_ratio": 0.00032,
+          "sufficient_10_read_ends": true
+        },
+        "PINK1": {
+          "read_ends": 3,
+          "per_million_target_mapped_read_ends": 63.06,
+          "to_ACTA1_ratio": 7e-05,
+          "sufficient_10_read_ends": false
+        },
+        "PRKAA1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "PSEN1": {
+          "read_ends": 11,
+          "per_million_target_mapped_read_ends": 231.22,
+          "to_ACTA1_ratio": 0.00025,
+          "sufficient_10_read_ends": true
+        },
+        "PSEN2": {
+          "read_ends": 11,
+          "per_million_target_mapped_read_ends": 231.22,
+          "to_ACTA1_ratio": 0.00025,
+          "sufficient_10_read_ends": true
+        },
+        "PTEN": {
+          "read_ends": 15,
+          "per_million_target_mapped_read_ends": 315.3,
+          "to_ACTA1_ratio": 0.00034,
+          "sufficient_10_read_ends": true
+        },
+        "SIRT1": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 105.1,
+          "to_ACTA1_ratio": 0.00011,
+          "sufficient_10_read_ends": false
+        },
+        "SIRT6": {
+          "read_ends": 24,
+          "per_million_target_mapped_read_ends": 504.49,
+          "to_ACTA1_ratio": 0.00055,
+          "sufficient_10_read_ends": true
+        },
+        "SOD1": {
+          "read_ends": 261,
+          "per_million_target_mapped_read_ends": 5486.31,
+          "to_ACTA1_ratio": 0.00599,
+          "sufficient_10_read_ends": true
+        },
+        "SQSTM1": {
+          "read_ends": 9,
+          "per_million_target_mapped_read_ends": 189.18,
+          "to_ACTA1_ratio": 0.00021,
+          "sufficient_10_read_ends": false
+        },
+        "TARDBP": {
+          "read_ends": 24,
+          "per_million_target_mapped_read_ends": 504.49,
+          "to_ACTA1_ratio": 0.00055,
+          "sufficient_10_read_ends": true
+        },
+        "TFEB": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "TP53": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 21.02,
+          "to_ACTA1_ratio": 2e-05,
+          "sufficient_10_read_ends": false
+        },
+        "UBQLN2": {
+          "read_ends": 60,
+          "per_million_target_mapped_read_ends": 1261.22,
+          "to_ACTA1_ratio": 0.00138,
+          "sufficient_10_read_ends": true
+        },
+        "VCP": {
+          "read_ends": 62,
+          "per_million_target_mapped_read_ends": 1303.26,
+          "to_ACTA1_ratio": 0.00142,
+          "sufficient_10_read_ends": true
+        },
+        "WRN": {
+          "read_ends": 365,
+          "per_million_target_mapped_read_ends": 7672.42,
+          "to_ACTA1_ratio": 0.00837,
+          "sufficient_10_read_ends": true
+        }
+      }
+    },
+    "Polyp1": {
+      "run": "SRR10967543",
+      "original_pairs": 20100588,
+      "sampled_pairs": 201006,
+      "mapped_target_primary_read_ends": 18737,
+      "ACTA1_read_ends": 15931,
+      "mates": [
+        {
+          "mate": 1,
+          "source_bytes": 1461093996,
+          "source_sha256": "93a256c07675538e0cccc78cd90662a5e1137f571ab65e8f81d14e58ef7fd0d7",
+          "sampled_read_ends": 201006,
+          "mapped_primary_mapq20": 9438,
+          "chunks": 21
+        },
+        {
+          "mate": 2,
+          "source_bytes": 1689171578,
+          "source_sha256": "e098797b42f74585edf09ef9b4194597ee81829a8006fa6ff3fdb03d883382e5",
+          "sampled_read_ends": 201006,
+          "mapped_primary_mapq20": 9299,
+          "chunks": 21
+        }
+      ],
+      "targets": {
+        "ACTA1_housekeeping": {
+          "read_ends": 15931,
+          "per_million_target_mapped_read_ends": 850242.84,
+          "to_ACTA1_ratio": 1.0,
+          "sufficient_10_read_ends": true
+        },
+        "AKT1": {
+          "read_ends": 153,
+          "per_million_target_mapped_read_ends": 8165.66,
+          "to_ACTA1_ratio": 0.0096,
+          "sufficient_10_read_ends": true
+        },
+        "APP": {
+          "read_ends": 69,
+          "per_million_target_mapped_read_ends": 3682.55,
+          "to_ACTA1_ratio": 0.00433,
+          "sufficient_10_read_ends": true
+        },
+        "ATG5": {
+          "read_ends": 9,
+          "per_million_target_mapped_read_ends": 480.33,
+          "to_ACTA1_ratio": 0.00056,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus1": {
+          "read_ends": 3,
+          "per_million_target_mapped_read_ends": 160.11,
+          "to_ACTA1_ratio": 0.00019,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus2": {
+          "read_ends": 9,
+          "per_million_target_mapped_read_ends": 480.33,
+          "to_ACTA1_ratio": 0.00056,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus3": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 106.74,
+          "to_ACTA1_ratio": 0.00013,
+          "sufficient_10_read_ends": false
+        },
+        "ATG7": {
+          "read_ends": 55,
+          "per_million_target_mapped_read_ends": 2935.37,
+          "to_ACTA1_ratio": 0.00345,
+          "sufficient_10_read_ends": true
+        },
+        "ATM": {
+          "read_ends": 11,
+          "per_million_target_mapped_read_ends": 587.07,
+          "to_ACTA1_ratio": 0.00069,
+          "sufficient_10_read_ends": true
+        },
+        "ATR": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 53.37,
+          "to_ACTA1_ratio": 6e-05,
+          "sufficient_10_read_ends": false
+        },
+        "BECN1": {
+          "read_ends": 27,
+          "per_million_target_mapped_read_ends": 1441.0,
+          "to_ACTA1_ratio": 0.00169,
+          "sufficient_10_read_ends": true
+        },
+        "BLM": {
+          "read_ends": 9,
+          "per_million_target_mapped_read_ends": 480.33,
+          "to_ACTA1_ratio": 0.00056,
+          "sufficient_10_read_ends": false
+        },
+        "C9orf72": {
+          "read_ends": 6,
+          "per_million_target_mapped_read_ends": 320.22,
+          "to_ACTA1_ratio": 0.00038,
+          "sufficient_10_read_ends": false
+        },
+        "FOXO3": {
+          "read_ends": 6,
+          "per_million_target_mapped_read_ends": 320.22,
+          "to_ACTA1_ratio": 0.00038,
+          "sufficient_10_read_ends": false
+        },
+        "FUS": {
+          "read_ends": 13,
+          "per_million_target_mapped_read_ends": 693.81,
+          "to_ACTA1_ratio": 0.00082,
+          "sufficient_10_read_ends": true
+        },
+        "GRN": {
+          "read_ends": 46,
+          "per_million_target_mapped_read_ends": 2455.04,
+          "to_ACTA1_ratio": 0.00289,
+          "sufficient_10_read_ends": true
+        },
+        "HSF1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "HTT": {
+          "read_ends": 46,
+          "per_million_target_mapped_read_ends": 2455.04,
+          "to_ACTA1_ratio": 0.00289,
+          "sufficient_10_read_ends": true
+        },
+        "IGF1R": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 53.37,
+          "to_ACTA1_ratio": 6e-05,
+          "sufficient_10_read_ends": false
+        },
+        "INSR": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 53.37,
+          "to_ACTA1_ratio": 6e-05,
+          "sufficient_10_read_ends": false
+        },
+        "LRRK2": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "MTOR": {
+          "read_ends": 31,
+          "per_million_target_mapped_read_ends": 1654.48,
+          "to_ACTA1_ratio": 0.00195,
+          "sufficient_10_read_ends": true
+        },
+        "NFE2L2": {
+          "read_ends": 6,
+          "per_million_target_mapped_read_ends": 320.22,
+          "to_ACTA1_ratio": 0.00038,
+          "sufficient_10_read_ends": false
+        },
+        "OPTN": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 106.74,
+          "to_ACTA1_ratio": 0.00013,
+          "sufficient_10_read_ends": false
+        },
+        "PARK7": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 53.37,
+          "to_ACTA1_ratio": 6e-05,
+          "sufficient_10_read_ends": false
+        },
+        "PINK1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "PRKAA1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "PSEN1": {
+          "read_ends": 23,
+          "per_million_target_mapped_read_ends": 1227.52,
+          "to_ACTA1_ratio": 0.00144,
+          "sufficient_10_read_ends": true
+        },
+        "PSEN2": {
+          "read_ends": 23,
+          "per_million_target_mapped_read_ends": 1227.52,
+          "to_ACTA1_ratio": 0.00144,
+          "sufficient_10_read_ends": true
+        },
+        "PTEN": {
+          "read_ends": 19,
+          "per_million_target_mapped_read_ends": 1014.04,
+          "to_ACTA1_ratio": 0.00119,
+          "sufficient_10_read_ends": true
+        },
+        "SIRT1": {
+          "read_ends": 19,
+          "per_million_target_mapped_read_ends": 1014.04,
+          "to_ACTA1_ratio": 0.00119,
+          "sufficient_10_read_ends": true
+        },
+        "SIRT6": {
+          "read_ends": 52,
+          "per_million_target_mapped_read_ends": 2775.26,
+          "to_ACTA1_ratio": 0.00326,
+          "sufficient_10_read_ends": true
+        },
+        "SOD1": {
+          "read_ends": 68,
+          "per_million_target_mapped_read_ends": 3629.18,
+          "to_ACTA1_ratio": 0.00427,
+          "sufficient_10_read_ends": true
+        },
+        "SQSTM1": {
+          "read_ends": 12,
+          "per_million_target_mapped_read_ends": 640.44,
+          "to_ACTA1_ratio": 0.00075,
+          "sufficient_10_read_ends": true
+        },
+        "TARDBP": {
+          "read_ends": 23,
+          "per_million_target_mapped_read_ends": 1227.52,
+          "to_ACTA1_ratio": 0.00144,
+          "sufficient_10_read_ends": true
+        },
+        "TFEB": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 106.74,
+          "to_ACTA1_ratio": 0.00013,
+          "sufficient_10_read_ends": false
+        },
+        "TP53": {
+          "read_ends": 10,
+          "per_million_target_mapped_read_ends": 533.7,
+          "to_ACTA1_ratio": 0.00063,
+          "sufficient_10_read_ends": true
+        },
+        "UBQLN2": {
+          "read_ends": 119,
+          "per_million_target_mapped_read_ends": 6351.07,
+          "to_ACTA1_ratio": 0.00747,
+          "sufficient_10_read_ends": true
+        },
+        "VCP": {
+          "read_ends": 65,
+          "per_million_target_mapped_read_ends": 3469.07,
+          "to_ACTA1_ratio": 0.00408,
+          "sufficient_10_read_ends": true
+        },
+        "WRN": {
+          "read_ends": 640,
+          "per_million_target_mapped_read_ends": 34157.02,
+          "to_ACTA1_ratio": 0.04017,
+          "sufficient_10_read_ends": true
+        }
+      }
+    },
+    "RevPolyp1": {
+      "run": "SRR10967537",
+      "original_pairs": 25857990,
+      "sampled_pairs": 258580,
+      "mapped_target_primary_read_ends": 26008,
+      "ACTA1_read_ends": 23916,
+      "mates": [
+        {
+          "mate": 1,
+          "source_bytes": 1816084239,
+          "source_sha256": "a712732729ce819e05628fdf94775949717bdbb6f31ae8e08f749070f93a3552",
+          "sampled_read_ends": 258580,
+          "mapped_primary_mapq20": 13162,
+          "chunks": 26
+        },
+        {
+          "mate": 2,
+          "source_bytes": 2265311832,
+          "source_sha256": "6d9c34f93b12f8f3208cc7fdd549897413955c5b34964fb77d970927198c2282",
+          "sampled_read_ends": 258580,
+          "mapped_primary_mapq20": 12846,
+          "chunks": 26
+        }
+      ],
+      "targets": {
+        "ACTA1_housekeeping": {
+          "read_ends": 23916,
+          "per_million_target_mapped_read_ends": 919563.21,
+          "to_ACTA1_ratio": 1.0,
+          "sufficient_10_read_ends": true
+        },
+        "AKT1": {
+          "read_ends": 69,
+          "per_million_target_mapped_read_ends": 2653.03,
+          "to_ACTA1_ratio": 0.00289,
+          "sufficient_10_read_ends": true
+        },
+        "APP": {
+          "read_ends": 61,
+          "per_million_target_mapped_read_ends": 2345.43,
+          "to_ACTA1_ratio": 0.00255,
+          "sufficient_10_read_ends": true
+        },
+        "ATG5": {
+          "read_ends": 3,
+          "per_million_target_mapped_read_ends": 115.35,
+          "to_ACTA1_ratio": 0.00013,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus1": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 192.25,
+          "to_ACTA1_ratio": 0.00021,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus2": {
+          "read_ends": 3,
+          "per_million_target_mapped_read_ends": 115.35,
+          "to_ACTA1_ratio": 0.00013,
+          "sufficient_10_read_ends": false
+        },
+        "ATG5_locus3": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 38.45,
+          "to_ACTA1_ratio": 4e-05,
+          "sufficient_10_read_ends": false
+        },
+        "ATG7": {
+          "read_ends": 39,
+          "per_million_target_mapped_read_ends": 1499.54,
+          "to_ACTA1_ratio": 0.00163,
+          "sufficient_10_read_ends": true
+        },
+        "ATM": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 192.25,
+          "to_ACTA1_ratio": 0.00021,
+          "sufficient_10_read_ends": false
+        },
+        "ATR": {
+          "read_ends": 13,
+          "per_million_target_mapped_read_ends": 499.85,
+          "to_ACTA1_ratio": 0.00054,
+          "sufficient_10_read_ends": true
+        },
+        "BECN1": {
+          "read_ends": 6,
+          "per_million_target_mapped_read_ends": 230.7,
+          "to_ACTA1_ratio": 0.00025,
+          "sufficient_10_read_ends": false
+        },
+        "BLM": {
+          "read_ends": 7,
+          "per_million_target_mapped_read_ends": 269.15,
+          "to_ACTA1_ratio": 0.00029,
+          "sufficient_10_read_ends": false
+        },
+        "C9orf72": {
+          "read_ends": 7,
+          "per_million_target_mapped_read_ends": 269.15,
+          "to_ACTA1_ratio": 0.00029,
+          "sufficient_10_read_ends": false
+        },
+        "FOXO3": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 76.9,
+          "to_ACTA1_ratio": 8e-05,
+          "sufficient_10_read_ends": false
+        },
+        "FUS": {
+          "read_ends": 58,
+          "per_million_target_mapped_read_ends": 2230.08,
+          "to_ACTA1_ratio": 0.00243,
+          "sufficient_10_read_ends": true
+        },
+        "GRN": {
+          "read_ends": 34,
+          "per_million_target_mapped_read_ends": 1307.29,
+          "to_ACTA1_ratio": 0.00142,
+          "sufficient_10_read_ends": true
+        },
+        "HSF1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "HTT": {
+          "read_ends": 93,
+          "per_million_target_mapped_read_ends": 3575.82,
+          "to_ACTA1_ratio": 0.00389,
+          "sufficient_10_read_ends": true
+        },
+        "IGF1R": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "INSR": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 38.45,
+          "to_ACTA1_ratio": 4e-05,
+          "sufficient_10_read_ends": false
+        },
+        "LRRK2": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "MTOR": {
+          "read_ends": 20,
+          "per_million_target_mapped_read_ends": 768.99,
+          "to_ACTA1_ratio": 0.00084,
+          "sufficient_10_read_ends": true
+        },
+        "NFE2L2": {
+          "read_ends": 16,
+          "per_million_target_mapped_read_ends": 615.2,
+          "to_ACTA1_ratio": 0.00067,
+          "sufficient_10_read_ends": true
+        },
+        "OPTN": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 76.9,
+          "to_ACTA1_ratio": 8e-05,
+          "sufficient_10_read_ends": false
+        },
+        "PARK7": {
+          "read_ends": 1,
+          "per_million_target_mapped_read_ends": 38.45,
+          "to_ACTA1_ratio": 4e-05,
+          "sufficient_10_read_ends": false
+        },
+        "PINK1": {
+          "read_ends": 4,
+          "per_million_target_mapped_read_ends": 153.8,
+          "to_ACTA1_ratio": 0.00017,
+          "sufficient_10_read_ends": false
+        },
+        "PRKAA1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "PSEN1": {
+          "read_ends": 14,
+          "per_million_target_mapped_read_ends": 538.3,
+          "to_ACTA1_ratio": 0.00059,
+          "sufficient_10_read_ends": true
+        },
+        "PSEN2": {
+          "read_ends": 14,
+          "per_million_target_mapped_read_ends": 538.3,
+          "to_ACTA1_ratio": 0.00059,
+          "sufficient_10_read_ends": true
+        },
+        "PTEN": {
+          "read_ends": 5,
+          "per_million_target_mapped_read_ends": 192.25,
+          "to_ACTA1_ratio": 0.00021,
+          "sufficient_10_read_ends": false
+        },
+        "SIRT1": {
+          "read_ends": 2,
+          "per_million_target_mapped_read_ends": 76.9,
+          "to_ACTA1_ratio": 8e-05,
+          "sufficient_10_read_ends": false
+        },
+        "SIRT6": {
+          "read_ends": 20,
+          "per_million_target_mapped_read_ends": 768.99,
+          "to_ACTA1_ratio": 0.00084,
+          "sufficient_10_read_ends": true
+        },
+        "SOD1": {
+          "read_ends": 74,
+          "per_million_target_mapped_read_ends": 2845.28,
+          "to_ACTA1_ratio": 0.00309,
+          "sufficient_10_read_ends": true
+        },
+        "SQSTM1": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "TARDBP": {
+          "read_ends": 17,
+          "per_million_target_mapped_read_ends": 653.65,
+          "to_ACTA1_ratio": 0.00071,
+          "sufficient_10_read_ends": true
+        },
+        "TFEB": {
+          "read_ends": 0,
+          "per_million_target_mapped_read_ends": 0.0,
+          "to_ACTA1_ratio": 0.0,
+          "sufficient_10_read_ends": false
+        },
+        "TP53": {
+          "read_ends": 13,
+          "per_million_target_mapped_read_ends": 499.85,
+          "to_ACTA1_ratio": 0.00054,
+          "sufficient_10_read_ends": true
+        },
+        "UBQLN2": {
+          "read_ends": 79,
+          "per_million_target_mapped_read_ends": 3037.53,
+          "to_ACTA1_ratio": 0.0033,
+          "sufficient_10_read_ends": true
+        },
+        "VCP": {
+          "read_ends": 81,
+          "per_million_target_mapped_read_ends": 3114.43,
+          "to_ACTA1_ratio": 0.00339,
+          "sufficient_10_read_ends": true
+        },
+        "WRN": {
+          "read_ends": 365,
+          "per_million_target_mapped_read_ends": 14034.14,
+          "to_ACTA1_ratio": 0.01526,
+          "sufficient_10_read_ends": true
+        }
+      }
+    }
+  },
+  "atg5_interpretation": "inconclusive"
+}

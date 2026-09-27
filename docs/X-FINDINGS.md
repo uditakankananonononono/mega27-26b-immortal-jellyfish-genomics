@@ -91,6 +91,17 @@ number reproduces from results/*.json at the D9-closure commit.
    (pairs with rank-1 SOD1). Converges on genome-maintenance/chromatin/redox
    modules. Oviedo/Trubra phase 2 complete: 188 strong genes per Td assembly (184 shared); Trubra 192 strong, 177/184 shared Td calls also strong in congener. The seven Td-shared/Trubra-nonstrong calls are NOT species-specific proof. Frozen AEES rerank p=0.356 (still not enriched); RAD51 0.971, HDAC3 0.942, SOD2 0.811 with Oviedo agreement. File: results/x-genage-aees.json and results/x-ledger-genage.json.
 
+24. P1 #6 exploratory RNA-seq subsample - ATG5 EXPRESSION INCONCLUSIVE: complete
+   ENA mates for Medusa1/Polyp1/RevPolyp1 verified against source bytes; fixed
+   every-100th-pair sample mapped against 40 target labels (37 merged windows).
+   Main-assembly cnidarian-type ATG5 copy A/B read-end counts by stage:
+   Medusa 5/0, Polyp 9/2, reverted polyp 3/1; all cells below preregistered
+   10-read-end threshold. Read-end sums are NOT paired fragments; ACTA1
+   dominates this target-enriched reference and gene spans include +/-2kb
+   non-exonic capture. No DE, upregulation or functional claim. Source hashes,
+   stage counts, all target labels and limitations in results/x-rnaseq-sample1pct.json;
+   method in docs/X-RNASEQ-SAMPLING-LOCK.md, experiments/x_rnaseq_chunk.py.
+
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
 pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
