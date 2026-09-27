@@ -2,71 +2,71 @@
  "FOXO3": {
   "Tdohrnii": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
-    "contig": "dbj|BQMF02000301.1|",
-    "start": 492334,
-    "end": 500615,
-    "n_hsps": 3,
-    "total_bits": 151.3,
-    "best_pident": 52.632,
-    "best_qcov": 0.09,
+    "contig": "dbj|BQMF02000104.1|",
+    "start": 714816,
+    "end": 716011,
+    "n_hsps": 2,
+    "total_bits": 196.2,
+    "best_pident": 79.661,
+    "best_qcov": 0.263,
     "strand": "+"
    }
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
-    "contig": "gb|JAIFHF010001913.1|",
-    "start": 11998,
-    "end": 20747,
-    "n_hsps": 3,
-    "total_bits": 151.3,
-    "best_pident": 52.632,
-    "best_qcov": 0.09,
-    "strand": "-"
+    "contig": "gb|JAIFHF010001213.1|",
+    "start": 20794,
+    "end": 21989,
+    "n_hsps": 2,
+    "total_bits": 196.2,
+    "best_pident": 79.661,
+    "best_qcov": 0.263,
+    "strand": "+"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
     "contig": "gb|CM077624.1|",
-    "start": 647218,
-    "end": 657224,
+    "start": 5891950,
+    "end": 5893233,
     "n_hsps": 2,
-    "total_bits": 126.4,
-    "best_pident": 50.877,
-    "best_qcov": 0.077,
+    "total_bits": 197.0,
+    "best_pident": 70.588,
+    "best_qcov": 0.291,
     "strand": "+"
    }
   },
   "Aaurita": {
-   "present": false,
-   "copies": 0,
+   "present": true,
+   "copies": 2,
    "best": {
-    "contig": "gb|REGM01000094.1|",
-    "start": 45683,
-    "end": 45853,
-    "n_hsps": 1,
-    "total_bits": 79.7,
-    "best_pident": 59.649,
-    "best_qcov": 0.07,
-    "strand": "+"
+    "contig": "gb|REGM01000007.1|",
+    "start": 273714,
+    "end": 275029,
+    "n_hsps": 2,
+    "total_bits": 193.7,
+    "best_pident": 80.0,
+    "best_qcov": 0.201,
+    "strand": "-"
    }
   }
  },
  "SIRT1": {
   "Tdohrnii": {
    "present": true,
-   "copies": 7,
+   "copies": 6,
    "best": {
     "contig": "dbj|BQMF02000020.1|",
     "start": 841937,
     "end": 845794,
-    "n_hsps": 19,
-    "total_bits": 1515.8,
+    "n_hsps": 23,
+    "total_bits": 1820.2,
     "best_pident": 94.118,
     "best_qcov": 0.205,
     "strand": "+"
@@ -74,13 +74,13 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 7,
+   "copies": 5,
    "best": {
     "contig": "gb|JAIFHF010000084.1|",
     "start": 46180,
     "end": 49837,
-    "n_hsps": 16,
-    "total_bits": 1401.5,
+    "n_hsps": 20,
+    "total_bits": 1707.4,
     "best_pident": 94.118,
     "best_qcov": 0.205,
     "strand": "+"
@@ -88,13 +88,13 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 6,
+   "copies": 5,
    "best": {
     "contig": "gb|CM077625.1|",
-    "start": 6489114,
+    "start": 6489093,
     "end": 6495329,
-    "n_hsps": 14,
-    "total_bits": 1394.9,
+    "n_hsps": 17,
+    "total_bits": 1691.7,
     "best_pident": 88.462,
     "best_qcov": 0.27,
     "strand": "+"
@@ -102,13 +102,13 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 5,
+   "copies": 4,
    "best": {
     "contig": "gb|REGM01000101.1|",
     "start": 943978,
     "end": 948809,
-    "n_hsps": 10,
-    "total_bits": 708.8,
+    "n_hsps": 13,
+    "total_bits": 890.9,
     "best_pident": 92.593,
     "best_qcov": 0.129,
     "strand": "+"
@@ -118,13 +118,13 @@
  "SIRT6": {
   "Tdohrnii": {
    "present": true,
-   "copies": 3,
+   "copies": 4,
    "best": {
     "contig": "dbj|BQMF02000027.1|",
     "start": 677976,
     "end": 682990,
-    "n_hsps": 16,
-    "total_bits": 1226.2,
+    "n_hsps": 20,
+    "total_bits": 1487.7,
     "best_pident": 88.095,
     "best_qcov": 0.25,
     "strand": "-"
@@ -132,13 +132,13 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 2,
+   "copies": 3,
    "best": {
     "contig": "gb|JAIFHF010003447.1|",
     "start": 8223,
     "end": 11303,
-    "n_hsps": 16,
-    "total_bits": 1233.9,
+    "n_hsps": 20,
+    "total_bits": 1496.9,
     "best_pident": 88.095,
     "best_qcov": 0.25,
     "strand": "-"
@@ -146,13 +146,13 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 2,
+   "copies": 3,
    "best": {
     "contig": "gb|CM077619.1|",
     "start": 7495336,
     "end": 7501012,
-    "n_hsps": 17,
-    "total_bits": 1297.9,
+    "n_hsps": 21,
+    "total_bits": 1564.1,
     "best_pident": 88.0,
     "best_qcov": 0.29,
     "strand": "+"
@@ -165,8 +165,8 @@
     "contig": "gb|REGM01000159.1|",
     "start": 323452,
     "end": 327589,
-    "n_hsps": 11,
-    "total_bits": 971.3,
+    "n_hsps": 14,
+    "total_bits": 1235.3,
     "best_pident": 71.429,
     "best_qcov": 0.33,
     "strand": "-"
@@ -181,8 +181,8 @@
     "contig": "dbj|BQMF02000020.1|",
     "start": 293731,
     "end": 311627,
-    "n_hsps": 73,
-    "total_bits": 6730.3,
+    "n_hsps": 107,
+    "total_bits": 9544.9,
     "best_pident": 93.103,
     "best_qcov": 0.079,
     "strand": "+"
@@ -192,12 +192,12 @@
    "present": true,
    "copies": 12,
    "best": {
-    "contig": "gb|JAIFHF010009873.1|",
-    "start": 492,
-    "end": 10768,
-    "n_hsps": 42,
-    "total_bits": 3069.4,
-    "best_pident": 87.879,
+    "contig": "gb|JAIFHF010017744.1|",
+    "start": 71,
+    "end": 5685,
+    "n_hsps": 43,
+    "total_bits": 4438.4,
+    "best_pident": 93.478,
     "best_qcov": 0.053,
     "strand": "+"
    }
@@ -209,8 +209,8 @@
     "contig": "gb|CM077625.1|",
     "start": 7792069,
     "end": 7812162,
-    "n_hsps": 55,
-    "total_bits": 6157.0,
+    "n_hsps": 77,
+    "total_bits": 8601.2,
     "best_pident": 91.379,
     "best_qcov": 0.139,
     "strand": "-"
@@ -218,13 +218,13 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 5,
+   "copies": 6,
    "best": {
     "contig": "gb|REGM01000013.1|",
     "start": 6978,
     "end": 82123,
-    "n_hsps": 71,
-    "total_bits": 5462.3,
+    "n_hsps": 99,
+    "total_bits": 7646.4,
     "best_pident": 100.0,
     "best_qcov": 0.035,
     "strand": "+"
@@ -248,74 +248,65 @@
    "best": null
   },
   "Aaurita": {
-   "present": true,
-   "copies": 3,
-   "best": {
-    "contig": "gb|REGM01000248.1|",
-    "start": 303679,
-    "end": 310449,
-    "n_hsps": 4,
-    "total_bits": 279.2,
-    "best_pident": 52.308,
-    "best_qcov": 0.455,
-    "strand": "+"
-   }
+   "present": false,
+   "copies": 0,
+   "best": null
   }
  },
  "IGF1R": {
   "Tdohrnii": {
    "present": true,
-   "copies": 1,
+   "copies": 24,
    "best": {
-    "contig": "dbj|BQMF02000214.1|",
-    "start": 45804,
-    "end": 51166,
-    "n_hsps": 2,
-    "total_bits": 114.0,
-    "best_pident": 48.148,
-    "best_qcov": 0.148,
+    "contig": "dbj|BQMF02000012.1|",
+    "start": 1834423,
+    "end": 1842309,
+    "n_hsps": 4,
+    "total_bits": 479.4,
+    "best_pident": 65.217,
+    "best_qcov": 0.1,
     "strand": "-"
    }
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 1,
+   "copies": 19,
    "best": {
-    "contig": "gb|JAIFHF010001734.1|",
-    "start": 983,
-    "end": 4669,
-    "n_hsps": 2,
-    "total_bits": 116.3,
-    "best_pident": 40.26,
-    "best_qcov": 0.148,
+    "contig": "gb|JAIFHF010006514.1|",
+    "start": 6423,
+    "end": 8020,
+    "n_hsps": 3,
+    "total_bits": 413.0,
+    "best_pident": 65.217,
+    "best_qcov": 0.1,
     "strand": "-"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 1,
+   "copies": 33,
    "best": {
-    "contig": "gb|CM077618.1|",
-    "start": 660081,
-    "end": 664016,
-    "n_hsps": 2,
-    "total_bits": 111.7,
-    "best_pident": 48.148,
-    "best_qcov": 0.088,
+    "contig": "gb|CM077619.1|",
+    "start": 5195038,
+    "end": 5206233,
+    "n_hsps": 5,
+    "total_bits": 512.3,
+    "best_pident": 86.364,
+    "best_qcov": 0.084,
     "strand": "-"
    }
   },
   "Aaurita": {
    "present": true,
-   "copies": 1,
+   "copies": 19,
    "best": {
-    "contig": "gb|REGM01000050.1|",
-    "start": 755098,
-    "end": 762432,
-    "n_hsps": 2,
-    "total_bits": 139.8,
-    "best_pident": 56.923,
-    "best_qcov": 0.088,
+    "contig": "gb|REGM01000087.1|",
+    "start": 194367,
+    "end": 257861,
+    "n_hsps": 9,
+    "total_bits": 1064.7,
+    "best_pident": 81.72,
+    "best_qcov": 0.108,
     "strand": "-"
    }
   }
@@ -323,13 +314,13 @@
  "INSR": {
   "Tdohrnii": {
    "present": true,
-   "copies": 31,
+   "copies": 32,
    "best": {
     "contig": "dbj|BQMF02000012.1|",
     "start": 1834012,
     "end": 1842366,
-    "n_hsps": 36,
-    "total_bits": 3802.3,
+    "n_hsps": 40,
+    "total_bits": 4296.9,
     "best_pident": 86.486,
     "best_qcov": 0.163,
     "strand": "-"
@@ -342,8 +333,8 @@
     "contig": "gb|JAIFHF010006514.1|",
     "start": 6012,
     "end": 12288,
-    "n_hsps": 29,
-    "total_bits": 3099.1,
+    "n_hsps": 32,
+    "total_bits": 3521.1,
     "best_pident": 86.486,
     "best_qcov": 0.163,
     "strand": "-"
@@ -351,13 +342,13 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 67,
+   "copies": 71,
    "best": {
     "contig": "gb|CM077619.1|",
     "start": 5194627,
     "end": 5206359,
-    "n_hsps": 42,
-    "total_bits": 4050.1,
+    "n_hsps": 48,
+    "total_bits": 4630.7,
     "best_pident": 90.909,
     "best_qcov": 0.163,
     "strand": "-"
@@ -365,13 +356,13 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 27,
+   "copies": 26,
    "best": {
     "contig": "gb|REGM01000087.1|",
     "start": 194337,
     "end": 257939,
-    "n_hsps": 51,
-    "total_bits": 5863.1,
+    "n_hsps": 60,
+    "total_bits": 6934.6,
     "best_pident": 85.859,
     "best_qcov": 0.139,
     "strand": "-"
@@ -381,58 +372,58 @@
  "AKT1": {
   "Tdohrnii": {
    "present": true,
-   "copies": 2,
+   "copies": 20,
    "best": {
-    "contig": "dbj|BQMF02000008.1|",
-    "start": 1023730,
-    "end": 1029374,
-    "n_hsps": 5,
-    "total_bits": 559.6,
-    "best_pident": 52.0,
-    "best_qcov": 0.275,
-    "strand": "-"
+    "contig": "dbj|BQMF02000318.1|",
+    "start": 310713,
+    "end": 348513,
+    "n_hsps": 12,
+    "total_bits": 759.7,
+    "best_pident": 81.818,
+    "best_qcov": 0.169,
+    "strand": "+"
    }
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 2,
+   "copies": 18,
    "best": {
-    "contig": "gb|JAIFHF010008047.1|",
-    "start": 5598,
-    "end": 11236,
-    "n_hsps": 5,
-    "total_bits": 559.6,
-    "best_pident": 52.0,
-    "best_qcov": 0.275,
-    "strand": "-"
+    "contig": "gb|JAIFHF010000426.1|",
+    "start": 27647,
+    "end": 32674,
+    "n_hsps": 6,
+    "total_bits": 376.7,
+    "best_pident": 94.286,
+    "best_qcov": 0.14,
+    "strand": "+"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 2,
+   "copies": 25,
    "best": {
-    "contig": "gb|CM077625.1|",
-    "start": 16672923,
-    "end": 16679603,
-    "n_hsps": 5,
-    "total_bits": 548.1,
-    "best_pident": 60.87,
-    "best_qcov": 0.194,
-    "strand": "+"
+    "contig": "gb|CM077621.1|",
+    "start": 11357763,
+    "end": 11415532,
+    "n_hsps": 23,
+    "total_bits": 1410.9,
+    "best_pident": 85.714,
+    "best_qcov": 0.179,
+    "strand": "-"
    }
   },
   "Aaurita": {
    "present": true,
-   "copies": 2,
+   "copies": 12,
    "best": {
-    "contig": "gb|REGM01000010.1|",
-    "start": 814626,
-    "end": 914928,
-    "n_hsps": 7,
-    "total_bits": 479.1,
-    "best_pident": 54.945,
-    "best_qcov": 0.05,
-    "strand": "+"
+    "contig": "gb|REGM01000167.1|",
+    "start": 243174,
+    "end": 254921,
+    "n_hsps": 6,
+    "total_bits": 455.4,
+    "best_pident": 81.818,
+    "best_qcov": 0.123,
+    "strand": "-"
    }
   }
  },
@@ -453,7 +444,7 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 5,
+   "copies": 6,
    "best": {
     "contig": "gb|JAIFHF010006623.1|",
     "start": 8204,
@@ -467,7 +458,7 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 4,
+   "copies": 3,
    "best": {
     "contig": "gb|CM077621.1|",
     "start": 16699033,
@@ -481,7 +472,7 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 3,
+   "copies": 4,
    "best": {
     "contig": "gb|REGM01000023.1|",
     "start": 400814,
@@ -497,58 +488,58 @@
  "TP53": {
   "Tdohrnii": {
    "present": true,
-   "copies": 11,
+   "copies": 3,
    "best": {
-    "contig": "dbj|BQMF02000002.1|",
-    "start": 2288667,
-    "end": 2310314,
-    "n_hsps": 10,
-    "total_bits": 736.0,
-    "best_pident": 66.038,
-    "best_qcov": 0.162,
+    "contig": "dbj|BQMF02000243.1|",
+    "start": 105726,
+    "end": 119709,
+    "n_hsps": 3,
+    "total_bits": 169.8,
+    "best_pident": 39.394,
+    "best_qcov": 0.297,
     "strand": "+"
    }
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 10,
+   "copies": 2,
    "best": {
-    "contig": "gb|JAIFHF010000041.1|",
-    "start": 56178,
-    "end": 66339,
-    "n_hsps": 10,
-    "total_bits": 449.8,
-    "best_pident": 71.429,
-    "best_qcov": 0.12,
-    "strand": "-"
+    "contig": "gb|JAIFHF010000175.1|",
+    "start": 42369,
+    "end": 43465,
+    "n_hsps": 2,
+    "total_bits": 108.2,
+    "best_pident": 38.636,
+    "best_qcov": 0.264,
+    "strand": "+"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 15,
+   "copies": 2,
    "best": {
-    "contig": "gb|CM077629.1|",
-    "start": 7736417,
-    "end": 7874963,
-    "n_hsps": 5,
-    "total_bits": 421.2,
-    "best_pident": 21.505,
-    "best_qcov": 0.569,
+    "contig": "gb|CM077631.1|",
+    "start": 3377820,
+    "end": 3378930,
+    "n_hsps": 2,
+    "total_bits": 125.9,
+    "best_pident": 43.0,
+    "best_qcov": 0.3,
     "strand": "+"
    }
   },
   "Aaurita": {
-   "present": true,
-   "copies": 2,
+   "present": false,
+   "copies": 0,
    "best": {
-    "contig": "gb|REGM01000448.1|",
-    "start": 125883,
-    "end": 142714,
-    "n_hsps": 5,
-    "total_bits": 354.2,
-    "best_pident": 64.151,
-    "best_qcov": 0.111,
-    "strand": "+"
+    "contig": "gb|REGM01000001.1|",
+    "start": 2274683,
+    "end": 2274976,
+    "n_hsps": 1,
+    "total_bits": 62.4,
+    "best_pident": 31.633,
+    "best_qcov": 0.234,
+    "strand": "-"
    }
   }
  },
@@ -586,13 +577,13 @@
  "ATM": {
   "Tdohrnii": {
    "present": true,
-   "copies": 6,
+   "copies": 5,
    "best": {
     "contig": "dbj|BQMF02000058.1|",
     "start": 669089,
     "end": 678923,
-    "n_hsps": 34,
-    "total_bits": 2796.8,
+    "n_hsps": 39,
+    "total_bits": 3223.2,
     "best_pident": 82.258,
     "best_qcov": 0.038,
     "strand": "+"
@@ -600,13 +591,13 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 6,
+   "copies": 5,
    "best": {
     "contig": "gb|JAIFHF010000980.1|",
     "start": 7816,
     "end": 16146,
-    "n_hsps": 31,
-    "total_bits": 2764.5,
+    "n_hsps": 35,
+    "total_bits": 3166.3,
     "best_pident": 70.0,
     "best_qcov": 0.045,
     "strand": "+"
@@ -614,13 +605,13 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 5,
+   "copies": 4,
    "best": {
     "contig": "gb|CM077625.1|",
     "start": 10383669,
     "end": 10395304,
-    "n_hsps": 39,
-    "total_bits": 2961.4,
+    "n_hsps": 44,
+    "total_bits": 3405.0,
     "best_pident": 69.811,
     "best_qcov": 0.052,
     "strand": "-"
@@ -628,13 +619,13 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 5,
+   "copies": 4,
    "best": {
     "contig": "gb|REGM01000023.1|",
     "start": 149484,
     "end": 208003,
-    "n_hsps": 45,
-    "total_bits": 3534.5,
+    "n_hsps": 57,
+    "total_bits": 4424.8,
     "best_pident": 87.5,
     "best_qcov": 0.036,
     "strand": "+"
@@ -644,13 +635,13 @@
  "ATR": {
   "Tdohrnii": {
    "present": true,
-   "copies": 5,
+   "copies": 4,
    "best": {
     "contig": "dbj|BQMF02000094.1|",
     "start": 416321,
     "end": 427248,
-    "n_hsps": 51,
-    "total_bits": 6572.4,
+    "n_hsps": 59,
+    "total_bits": 7618.2,
     "best_pident": 84.906,
     "best_qcov": 0.174,
     "strand": "+"
@@ -658,29 +649,29 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 6,
+   "copies": 5,
    "best": {
     "contig": "gb|JAIFHF010002096.1|",
     "start": 12036,
     "end": 22788,
-    "n_hsps": 55,
-    "total_bits": 6333.8,
+    "n_hsps": 63,
+    "total_bits": 7301.7,
     "best_pident": 81.081,
-    "best_qcov": 0.134,
+    "best_qcov": 0.138,
     "strand": "+"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 7,
+   "copies": 6,
    "best": {
     "contig": "gb|CM077623.1|",
     "start": 8374927,
     "end": 8391986,
-    "n_hsps": 80,
-    "total_bits": 7367.0,
+    "n_hsps": 94,
+    "total_bits": 8508.2,
     "best_pident": 84.314,
-    "best_qcov": 0.101,
+    "best_qcov": 0.104,
     "strand": "-"
    }
   },
@@ -691,8 +682,8 @@
     "contig": "gb|REGM01000050.1|",
     "start": 844864,
     "end": 887094,
-    "n_hsps": 20,
-    "total_bits": 1620.5,
+    "n_hsps": 23,
+    "total_bits": 1872.6,
     "best_pident": 84.932,
     "best_qcov": 0.036,
     "strand": "-"
@@ -876,15 +867,15 @@
  "HSF1": {
   "Tdohrnii": {
    "present": true,
-   "copies": 3,
+   "copies": 2,
    "best": {
-    "contig": "dbj|BQMF02000063.1|",
-    "start": 369978,
-    "end": 373105,
+    "contig": "dbj|BQMF02000075.1|",
+    "start": 188814,
+    "end": 189203,
     "n_hsps": 2,
-    "total_bits": 207.6,
-    "best_pident": 72.549,
-    "best_qcov": 0.089,
+    "total_bits": 173.7,
+    "best_pident": 47.748,
+    "best_qcov": 0.193,
     "strand": "-"
    }
   },
@@ -892,49 +883,49 @@
    "present": true,
    "copies": 2,
    "best": {
-    "contig": "gb|JAIFHF010003511.1|",
-    "start": 12731,
-    "end": 16261,
+    "contig": "gb|JAIFHF010001069.1|",
+    "start": 14106,
+    "end": 14495,
     "n_hsps": 2,
-    "total_bits": 207.6,
-    "best_pident": 72.549,
-    "best_qcov": 0.089,
-    "strand": "+"
+    "total_bits": 173.7,
+    "best_pident": 47.748,
+    "best_qcov": 0.193,
+    "strand": "-"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 6,
+   "copies": 4,
    "best": {
-    "contig": "gb|CM077624.1|",
-    "start": 11290888,
-    "end": 11293368,
-    "n_hsps": 3,
-    "total_bits": 257.2,
-    "best_pident": 72.222,
-    "best_qcov": 0.097,
+    "contig": "gb|CM077629.1|",
+    "start": 10939070,
+    "end": 10971966,
+    "n_hsps": 6,
+    "total_bits": 355.4,
+    "best_pident": 68.571,
+    "best_qcov": 0.099,
     "strand": "+"
    }
   },
   "Aaurita": {
    "present": true,
-   "copies": 4,
+   "copies": 3,
    "best": {
-    "contig": "gb|REGM01000051.1|",
-    "start": 984858,
-    "end": 987199,
-    "n_hsps": 3,
-    "total_bits": 182.2,
-    "best_pident": 36.782,
-    "best_qcov": 0.138,
-    "strand": "-"
+    "contig": "gb|REGM01000020.1|",
+    "start": 331976,
+    "end": 332311,
+    "n_hsps": 2,
+    "total_bits": 121.7,
+    "best_pident": 37.037,
+    "best_qcov": 0.198,
+    "strand": "+"
    }
   }
  },
  "ATG5": {
   "Tdohrnii": {
    "present": true,
-   "copies": 2,
+   "copies": 3,
    "best": {
     "contig": "dbj|BQMF02000106.1|",
     "start": 66386,
@@ -948,7 +939,7 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 2,
+   "copies": 3,
    "best": {
     "contig": "gb|JAIFHF010011888.1|",
     "start": 5579,
@@ -962,7 +953,7 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
     "contig": "gb|CM077619.1|",
     "start": 10947786,
@@ -976,15 +967,15 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
-    "contig": "gb|REGM01000120.1|",
-    "start": 444173,
-    "end": 444319,
-    "n_hsps": 3,
-    "total_bits": 216.1,
-    "best_pident": 73.913,
-    "best_qcov": 0.354,
+    "contig": "gb|REGM01000194.1|",
+    "start": 502144,
+    "end": 518495,
+    "n_hsps": 4,
+    "total_bits": 228.8,
+    "best_pident": 68.75,
+    "best_qcov": 0.236,
     "strand": "+"
    }
   }
@@ -1050,7 +1041,7 @@
  "BECN1": {
   "Tdohrnii": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
     "contig": "dbj|BQMF02000011.1|",
     "start": 2000754,
@@ -1064,7 +1055,7 @@
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 1,
+   "copies": 3,
    "best": {
     "contig": "gb|JAIFHF010012131.1|",
     "start": 4038,
@@ -1078,7 +1069,7 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
     "contig": "gb|CM077623.1|",
     "start": 369940,
@@ -1092,7 +1083,7 @@
   },
   "Aaurita": {
    "present": true,
-   "copies": 1,
+   "copies": 2,
    "best": {
     "contig": "gb|REGM01000118.1|",
     "start": 550667,
@@ -1108,27 +1099,27 @@
  "TFEB": {
   "Tdohrnii": {
    "present": true,
-   "copies": 5,
+   "copies": 2,
    "best": {
-    "contig": "dbj|BQMF02000374.1|",
-    "start": 21954,
-    "end": 35308,
-    "n_hsps": 6,
-    "total_bits": 1189.0,
-    "best_pident": 42.632,
-    "best_qcov": 0.423,
+    "contig": "dbj|BQMF02000058.1|",
+    "start": 1281058,
+    "end": 1283881,
+    "n_hsps": 18,
+    "total_bits": 907.5,
+    "best_pident": 92.0,
+    "best_qcov": 0.248,
     "strand": "-"
    }
   },
   "TdohrniiOviedo": {
    "present": true,
-   "copies": 5,
+   "copies": 1,
    "best": {
     "contig": "gb|JAIFHF010001882.1|",
     "start": 7285,
-    "end": 12900,
-    "n_hsps": 16,
-    "total_bits": 832.0,
+    "end": 12930,
+    "n_hsps": 19,
+    "total_bits": 960.3,
     "best_pident": 92.0,
     "best_qcov": 0.248,
     "strand": "+"
@@ -1136,147 +1127,111 @@
   },
   "Trubra": {
    "present": true,
-   "copies": 4,
+   "copies": 1,
    "best": {
-    "contig": "gb|CM077623.1|",
-    "start": 14092624,
-    "end": 14107580,
-    "n_hsps": 5,
-    "total_bits": 1155.0,
-    "best_pident": 42.932,
-    "best_qcov": 0.702,
-    "strand": "+"
+    "contig": "gb|CM077625.1|",
+    "start": 3974681,
+    "end": 3977697,
+    "n_hsps": 18,
+    "total_bits": 893.8,
+    "best_pident": 96.0,
+    "best_qcov": 0.32,
+    "strand": "-"
    }
   },
   "Aaurita": {
    "present": true,
-   "copies": 2,
+   "copies": 1,
    "best": {
-    "contig": "gb|REGM01000008.1|",
-    "start": 2847741,
-    "end": 2851037,
-    "n_hsps": 1,
-    "total_bits": 686.0,
-    "best_pident": 38.989,
-    "best_qcov": 0.854,
+    "contig": "gb|REGM01000030.1|",
+    "start": 2377020,
+    "end": 2389144,
+    "n_hsps": 2,
+    "total_bits": 109.0,
+    "best_pident": 40.217,
+    "best_qcov": 0.213,
     "strand": "+"
    }
   }
  },
  "PRKAA1": {
   "Tdohrnii": {
-   "present": false,
-   "copies": 0,
+   "present": true,
+   "copies": 19,
    "best": {
-    "contig": "dbj|BQMF02000268.1|",
-    "start": 433725,
-    "end": 433865,
-    "n_hsps": 1,
-    "total_bits": 70.1,
-    "best_pident": 59.574,
-    "best_qcov": 0.042,
+    "contig": "dbj|BQMF02000057.1|",
+    "start": 1067096,
+    "end": 1068644,
+    "n_hsps": 5,
+    "total_bits": 337.8,
+    "best_pident": 84.615,
+    "best_qcov": 0.113,
     "strand": "+"
    }
   },
   "TdohrniiOviedo": {
-   "present": false,
-   "copies": 0,
+   "present": true,
+   "copies": 16,
    "best": {
-    "contig": "gb|JAIFHF010001579.1|",
-    "start": 4806,
-    "end": 4946,
-    "n_hsps": 1,
-    "total_bits": 70.1,
-    "best_pident": 59.574,
-    "best_qcov": 0.042,
+    "contig": "gb|JAIFHF010000874.1|",
+    "start": 18686,
+    "end": 21937,
+    "n_hsps": 2,
+    "total_bits": 312.0,
+    "best_pident": 37.313,
+    "best_qcov": 0.462,
     "strand": "+"
    }
   },
   "Trubra": {
    "present": true,
-   "copies": 3,
+   "copies": 23,
    "best": {
-    "contig": "gb|CM077617.1|",
-    "start": 305552,
-    "end": 310633,
-    "n_hsps": 4,
-    "total_bits": 198.7,
-    "best_pident": 76.471,
-    "best_qcov": 0.043,
-    "strand": "-"
+    "contig": "gb|CM077618.1|",
+    "start": 10862988,
+    "end": 10918053,
+    "n_hsps": 17,
+    "total_bits": 1117.9,
+    "best_pident": 84.444,
+    "best_qcov": 0.095,
+    "strand": "+"
    }
   },
   "Aaurita": {
-   "present": false,
-   "copies": 0,
+   "present": true,
+   "copies": 15,
    "best": {
-    "contig": "gb|REGM01000465.1|",
-    "start": 123837,
-    "end": 124007,
-    "n_hsps": 1,
-    "total_bits": 64.7,
-    "best_pident": 48.276,
-    "best_qcov": 0.052,
+    "contig": "gb|REGM01000038.1|",
+    "start": 565059,
+    "end": 572810,
+    "n_hsps": 4,
+    "total_bits": 281.6,
+    "best_pident": 72.131,
+    "best_qcov": 0.097,
     "strand": "+"
    }
   }
  },
  "GHR": {
   "Tdohrnii": {
-   "present": true,
-   "copies": 19,
-   "best": {
-    "contig": "dbj|BQMF02000135.1|",
-    "start": 180947,
-    "end": 226969,
-    "n_hsps": 11,
-    "total_bits": 813.9,
-    "best_pident": 34.177,
-    "best_qcov": 0.594,
-    "strand": "-"
-   }
+   "present": false,
+   "copies": 0,
+   "best": null
   },
   "TdohrniiOviedo": {
-   "present": true,
-   "copies": 17,
-   "best": {
-    "contig": "gb|JAIFHF010003741.1|",
-    "start": 12650,
-    "end": 14584,
-    "n_hsps": 5,
-    "total_bits": 436.8,
-    "best_pident": 27.027,
-    "best_qcov": 0.602,
-    "strand": "-"
-   }
+   "present": false,
+   "copies": 0,
+   "best": null
   },
   "Trubra": {
-   "present": true,
-   "copies": 24,
-   "best": {
-    "contig": "gb|CM077624.1|",
-    "start": 13140638,
-    "end": 13153505,
-    "n_hsps": 10,
-    "total_bits": 659.3,
-    "best_pident": 31.214,
-    "best_qcov": 0.594,
-    "strand": "-"
-   }
+   "present": false,
+   "copies": 0,
+   "best": null
   },
   "Aaurita": {
-   "present": true,
-   "copies": 7,
-   "best": {
-    "contig": "gb|REGM01000129.1|",
-    "start": 557821,
-    "end": 602266,
-    "n_hsps": 6,
-    "total_bits": 427.3,
-    "best_pident": 30.126,
-    "best_qcov": 0.479,
-    "strand": "-"
-   }
+   "present": false,
+   "copies": 0,
+   "best": null
   }
  },
  "APOE": {

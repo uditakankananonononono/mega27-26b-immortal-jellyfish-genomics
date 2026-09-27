@@ -1,69 +1,29 @@
 {
- "high_threshold": 0.75,
- "n_high": 20,
- "n_universe": 44,
- "high_genes": [
+ "test": "Fisher exact: aging-DB membership, top-10 AEES vs remaining mapped panel genes",
+ "top10_in_db": [
   "APP",
   "ATG5",
   "ATG7",
-  "ATR",
-  "BECN1",
-  "BLM",
-  "C9orf72",
-  "GHR",
   "GRN",
-  "HTT",
-  "INSR",
-  "LRRK2",
-  "MTOR",
   "PSEN1",
   "SIRT1",
   "SIRT6",
-  "SQSTM1",
-  "TARDBP",
-  "TFEB",
+  "SOD1",
   "VCP"
  ],
- "tests": [
-  {
-   "db": "GenAge human",
-   "high_member": 13,
-   "high_nonmember": 7,
-   "low_member": 14,
-   "low_nonmember": 10,
-   "odds_ratio": 1.33,
-   "p": 0.7600271472734543,
-   "q": 0.7708566913964983
-  },
-  {
-   "db": "GenAge models",
-   "high_member": 11,
-   "high_nonmember": 9,
-   "low_member": 8,
-   "low_nonmember": 16,
-   "odds_ratio": 2.44,
-   "p": 0.22272662480506705,
-   "q": 0.763022918491054
-  },
-  {
-   "db": "CellAge",
-   "high_member": 9,
-   "high_nonmember": 11,
-   "low_member": 12,
-   "low_nonmember": 12,
-   "odds_ratio": 0.82,
-   "p": 0.7708566913964983,
-   "q": 0.7708566913964983
-  },
-  {
-   "db": "LongevityMap",
-   "high_member": 8,
-   "high_nonmember": 12,
-   "low_member": 13,
-   "low_nonmember": 11,
-   "odds_ratio": 0.56,
-   "p": 0.381511459245527,
-   "q": 0.763022918491054
-  }
- ]
+ "top10_not_in_db": [
+  "TFEB"
+ ],
+ "table": [
+  [
+   9,
+   1
+  ],
+  [
+   21,
+   7
+  ]
+ ],
+ "p": 0.6533315044250827,
+ "note": "post-D9 recompute; pre-D9 was q 0.76-0.77 honest negative"
 }

@@ -4,10 +4,10 @@
  "results": {
   "ATG5": {
    "status": "ok",
-   "dN": 0.1587,
-   "dS": 1.279,
-   "omega": 0.124,
-   "n_codons": 179
+   "dN": 0.0317,
+   "dS": 1.0634,
+   "omega": 0.03,
+   "n_codons": 281
   },
   "APP": {
    "status": "ok",
@@ -31,11 +31,7 @@
    "n_codons": 102
   },
   "GHR": {
-   "status": "ok",
-   "dN": 0.9383,
-   "dS": -1.0,
-   "omega": null,
-   "n_codons": 578
+   "status": "no_locus_Tdohrnii"
   },
   "SIRT6": {
    "status": "ok",
@@ -60,10 +56,10 @@
   },
   "VCP": {
    "status": "ok",
-   "dN": 1.0499,
-   "dS": -1.0,
-   "omega": null,
-   "n_codons": 681
+   "dN": 0.9759,
+   "dS": 2.235,
+   "omega": 0.437,
+   "n_codons": 899
   },
   "TARDBP": {
    "status": "ok",

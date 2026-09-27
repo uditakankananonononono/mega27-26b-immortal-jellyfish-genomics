@@ -2,8 +2,8 @@
 
 H3 (copy-number contrast, Panel B, T. dohrnii vs mortal comparators): 0 genes survive Benjamini-Hochberg at q < 0.05. Under the honest-negative register this is reported as a negative for the expansion hypothesis in this panel.
 
-H4 (species separation on the presence map): statistic -0.038, exact permutation p = 0.333 over 6 label assignments. Caveat carried from the preregistration: two T. dohrnii entries are assemblies of the SAME species; within-group similarity partly reflects assembly redundancy.
+H4 (species separation on the presence map): statistic -0.013, exact permutation p = 0.5 over 6 label assignments. Caveat carried from the preregistration: two T. dohrnii entries are assemblies of the SAME species; within-group similarity partly reflects assembly redundancy.
 
-H5 (aging-neurology shared core in T. dohrnii): 0 genes mapped in both panels, 20 B-only, 18 C-only, 9 neither, over a 47-gene universe; Fisher exact p = 1.4e-06.
+H5 (aging-neurology shared core in T. dohrnii): 0 genes mapped in both panels, 20 B-only, 16 C-only, 11 neither, over a 47-gene universe; Fisher exact p = 8.95e-06.
 
 H6 (controls). Negative control, shuffled-query false-positive rate per genome: Tdohrnii 0.000; TdohrniiOviedo 0.000; Trubra 0.000; Aaurita 0.000; Clytia 0.000 - criterion <=0.05 everywhere: PASS. Positive control, closed-phase panel A calls reproduced: 52 of 60 agreement; mismatches: [{'genome': 'Tdohrnii', 'gene': 'ERCC2', 'closed': False, 'now': True}, {'genome': 'Tdohrnii', 'gene': 'TERF2', 'closed': False, 'now': True}, {'genome': 'Tdohrnii', 'gene': 'XRCC5', 'closed': False, 'now': True}, {'genome': 'TdohrniiOviedo', 'gene': 'ERCC2', 'closed': False, 'now': True}, {'genome': 'TdohrniiOviedo', 'gene': 'TERF2', 'closed': False, 'now': True}, {'genome': 'TdohrniiOviedo', 'gene': 'XRCC5', 'closed': False, 'now': True}, {'genome': 'Aaurita', 'gene': 'ERCC2', 'closed': False, 'now': True}, {'genome': 'Aaurita', 'gene': 'XRCC5', 'closed': False, 'now': True}].

@@ -6,16 +6,16 @@
   0.25
  ],
  "note": "weights frozen pre-registration in jellyfish/xaees.py",
- "atg5_rank_frozen": 1,
- "atg5_rank_equal": 1,
+ "atg5_rank_frozen": 2,
+ "atg5_rank_equal": 2,
  "atg5_rank_random_min": 1,
- "atg5_rank_random_max": 27,
- "top5_overlap_random_mean": 3.71,
+ "atg5_rank_random_max": 24,
+ "top5_overlap_random_mean": 4.21,
  "frozen_top5": [
+  "SOD1",
   "ATG5",
   "APP",
   "ATG7",
-  "PSEN1",
-  "GHR"
+  "PSEN1"
  ]
 }

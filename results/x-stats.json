@@ -71,10 +71,10 @@
   "pass": true
  },
  "presence_counts": {
-  "Tdohrnii": 38,
-  "TdohrniiOviedo": 37,
-  "Trubra": 39,
-  "Aaurita": 36
+  "Tdohrnii": 35,
+  "TdohrniiOviedo": 35,
+  "Trubra": 36,
+  "Aaurita": 34
  },
  "H1_panelB": {
   "genes_present": 20,
@@ -91,12 +91,12 @@
    "BECN1",
    "BLM",
    "FOXO3",
-   "GHR",
    "HSF1",
    "IGF1R",
    "INSR",
    "MTOR",
    "NFE2L2",
+   "PRKAA1",
    "PTEN",
    "SIRT1",
    "SIRT6",
@@ -107,107 +107,107 @@
   "absent": [
    "APOE",
    "CDKN2A",
-   "IGF1",
-   "PRKAA1"
+   "GHR",
+   "IGF1"
   ],
   "q": 2.0267901087636882e-38
  },
  "H2_panelC": {
-  "genes_present": 18,
+  "genes_present": 16,
   "n": 24,
-  "fraction": 0.75,
+  "fraction": 0.6666666666666666,
   "control_p0": 0.007936507936507936,
-  "p": 2.0076921562655535e-33,
+  "p": 1.7162856669189277e-28,
   "present": [
    "APP",
-   "BDNF",
    "C9orf72",
    "FUS",
    "GRN",
    "HTT",
    "LRRK2",
-   "NGF",
    "OPTN",
+   "PARK7",
    "PINK1",
-   "PRNP",
    "PSEN1",
    "PSEN2",
    "SOD1",
    "SQSTM1",
    "TARDBP",
-   "TREM2",
+   "UBQLN2",
    "VCP"
   ],
   "absent": [
    "APOE",
+   "BDNF",
    "GBA",
    "MAPT",
-   "PARK7",
+   "NGF",
+   "PRNP",
    "SNCA",
-   "UBQLN2"
+   "TREM2"
   ],
-  "q": 2.0076921562655535e-33
+  "q": 1.7162856669189277e-28
  },
  "H3_copy_contrast": {
   "per_gene": {
    "FOXO3": {
-    "td_max_copies": 1,
-    "other_max_copies": 1,
-    "p": 1.0,
-    "q": 1.0
-   },
-   "SIRT1": {
-    "td_max_copies": 7,
-    "other_max_copies": 6,
-    "p": 0.4096956813187007,
-    "q": 1.0
-   },
-   "SIRT6": {
-    "td_max_copies": 3,
-    "other_max_copies": 3,
-    "p": 0.7009908590488514,
-    "q": 1.0
-   },
-   "MTOR": {
-    "td_max_copies": 12,
-    "other_max_copies": 7,
-    "p": 0.09713068962866986,
-    "q": 0.5827841377720191
-   },
-   "IGF1": {
-    "td_max_copies": 0,
-    "other_max_copies": 3,
-    "p": 0.26731745974568644,
-    "q": 1.0
-   },
-   "IGF1R": {
-    "td_max_copies": 1,
-    "other_max_copies": 1,
-    "p": 1.0,
-    "q": 1.0
-   },
-   "INSR": {
-    "td_max_copies": 31,
-    "other_max_copies": 67,
-    "p": 0.028371462434045553,
-    "q": 0.34045754920854665
-   },
-   "AKT1": {
     "td_max_copies": 2,
     "other_max_copies": 2,
     "p": 1.0,
     "q": 1.0
    },
+   "SIRT1": {
+    "td_max_copies": 6,
+    "other_max_copies": 5,
+    "p": 0.5420487240930602,
+    "q": 1.0
+   },
+   "SIRT6": {
+    "td_max_copies": 4,
+    "other_max_copies": 3,
+    "p": 0.4657684499944025,
+    "q": 1.0
+   },
+   "MTOR": {
+    "td_max_copies": 12,
+    "other_max_copies": 7,
+    "p": 0.09806047883166982,
+    "q": 0.588362872990019
+   },
+   "IGF1": {
+    "td_max_copies": 0,
+    "other_max_copies": 0,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "IGF1R": {
+    "td_max_copies": 24,
+    "other_max_copies": 33,
+    "p": 1.0,
+    "q": 1.0
+   },
+   "INSR": {
+    "td_max_copies": 32,
+    "other_max_copies": 71,
+    "p": 0.014669372388766358,
+    "q": 0.17603246866519628
+   },
+   "AKT1": {
+    "td_max_copies": 20,
+    "other_max_copies": 25,
+    "p": 0.8772473107778036,
+    "q": 1.0
+   },
    "PTEN": {
-    "td_max_copies": 5,
+    "td_max_copies": 6,
     "other_max_copies": 4,
-    "p": 0.5044457079871141,
+    "p": 0.33831789419204383,
     "q": 1.0
    },
    "TP53": {
-    "td_max_copies": 11,
-    "other_max_copies": 15,
-    "p": 1.0,
+    "td_max_copies": 3,
+    "other_max_copies": 2,
+    "p": 0.655568919078662,
     "q": 1.0
    },
    "CDKN2A": {
@@ -217,28 +217,28 @@
     "q": 1.0
    },
    "ATM": {
-    "td_max_copies": 6,
-    "other_max_copies": 5,
-    "p": 0.5410005263444642,
+    "td_max_copies": 5,
+    "other_max_copies": 4,
+    "p": 0.5061175758387139,
     "q": 1.0
    },
    "ATR": {
-    "td_max_copies": 6,
-    "other_max_copies": 7,
-    "p": 0.783805284367473,
+    "td_max_copies": 5,
+    "other_max_copies": 6,
+    "p": 1.0,
     "q": 1.0
    },
    "BLM": {
     "td_max_copies": 26,
     "other_max_copies": 64,
-    "p": 0.0064691632148732876,
-    "q": 0.15525991715695892
+    "p": 0.0067892113161275355,
+    "q": 0.16294107158706084
    },
    "WRN": {
     "td_max_copies": 38,
     "other_max_copies": 72,
-    "p": 0.09539251754261935,
-    "q": 0.5827841377720191
+    "p": 0.0804819154052929,
+    "q": 0.588362872990019
    },
    "NFE2L2": {
     "td_max_copies": 1,
@@ -247,15 +247,15 @@
     "q": 1.0
    },
    "HSF1": {
-    "td_max_copies": 3,
-    "other_max_copies": 6,
-    "p": 0.740725994418858,
+    "td_max_copies": 2,
+    "other_max_copies": 4,
+    "p": 1.0,
     "q": 1.0
    },
    "ATG5": {
-    "td_max_copies": 2,
-    "other_max_copies": 1,
-    "p": 0.5763591978785956,
+    "td_max_copies": 3,
+    "other_max_copies": 2,
+    "p": 0.655568919078662,
     "q": 1.0
    },
    "ATG7": {
@@ -265,27 +265,27 @@
     "q": 1.0
    },
    "BECN1": {
-    "td_max_copies": 1,
-    "other_max_copies": 1,
-    "p": 1.0,
+    "td_max_copies": 3,
+    "other_max_copies": 2,
+    "p": 0.655568919078662,
     "q": 1.0
    },
    "TFEB": {
-    "td_max_copies": 5,
-    "other_max_copies": 4,
-    "p": 0.5044457079871141,
+    "td_max_copies": 2,
+    "other_max_copies": 1,
+    "p": 0.5775368956263554,
     "q": 1.0
    },
    "PRKAA1": {
-    "td_max_copies": 0,
-    "other_max_copies": 3,
-    "p": 0.26731745974568644,
+    "td_max_copies": 19,
+    "other_max_copies": 23,
+    "p": 0.7503437304540554,
     "q": 1.0
    },
    "GHR": {
-    "td_max_copies": 19,
-    "other_max_copies": 24,
-    "p": 0.8740491069705848,
+    "td_max_copies": 0,
+    "other_max_copies": 0,
+    "p": 1.0,
     "q": 1.0
    },
    "APOE": {
@@ -298,17 +298,17 @@
   "n_q_lt_0.05": 0
  },
  "H4_separation": {
-  "stat": -0.03829284750337386,
-  "p": 0.3333333333333333,
+  "stat": -0.01295045045045043,
+  "p": 0.5,
   "n_permutations": 6,
   "caveat": "two T. dohrnii entries are assemblies of the SAME species; within-group similarity partly reflects assembly redundancy"
  },
  "H5_BC_overlap": {
   "a_both": 0,
   "b_only": 20,
-  "c_only": 18,
-  "neither": 9,
-  "p": 1.4048772904852756e-06,
+  "c_only": 16,
+  "neither": 11,
+  "p": 8.954933467068246e-06,
   "universe_n": 47
  },
  "H6_positive_control": {

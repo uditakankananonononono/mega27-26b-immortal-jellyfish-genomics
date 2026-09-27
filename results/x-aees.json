@@ -3,11 +3,11 @@
   "AKT1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7468,
+   "aees": 0.765,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.275,
-    "pident": 0.52,
+    "qcov": 0.169,
+    "pident": 0.8182,
     "concordance": 1.0
    }
   },
@@ -66,17 +66,6 @@
     "concordance": 1.0
    }
   },
-  "BDNF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.7437,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.089,
-    "pident": 0.8095,
-    "concordance": 1.0
-   }
-  },
   "BECN1": {
    "present": true,
    "status": "detected",
@@ -119,11 +108,11 @@
   "FOXO3": {
    "present": true,
    "status": "detected",
-   "aees": 0.4574,
+   "aees": 0.5726,
    "components": {
-    "bitscore_norm": 0.3026,
-    "qcov": 0.09,
-    "pident": 0.5263,
+    "bitscore_norm": 0.3924,
+    "qcov": 0.263,
+    "pident": 0.7966,
     "concordance": 1.0
    }
   },
@@ -144,24 +133,13 @@
    "aees": 0.0,
    "components": null
   },
-  "GHR": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.7998,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.594,
-    "pident": 0.3418,
-    "concordance": 1.0
-   }
-  },
   "GRN": {
    "present": true,
    "status": "detected",
-   "aees": 0.786,
+   "aees": 0.801,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.326,
+    "qcov": 0.386,
     "pident": 0.6964,
     "concordance": 1.0
    }
@@ -169,11 +147,11 @@
   "HSF1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5264,
+   "aees": 0.4915,
    "components": {
-    "bitscore_norm": 0.4152,
-    "qcov": 0.089,
-    "pident": 0.7255,
+    "bitscore_norm": 0.3474,
+    "qcov": 0.193,
+    "pident": 0.4775,
     "concordance": 1.0
    }
   },
@@ -188,20 +166,14 @@
     "concordance": 1.0
    }
   },
-  "IGF1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "IGF1R": {
    "present": true,
    "status": "detected",
-   "aees": 0.439,
+   "aees": 0.7084,
    "components": {
-    "bitscore_norm": 0.228,
-    "qcov": 0.148,
-    "pident": 0.4815,
+    "bitscore_norm": 0.9588,
+    "qcov": 0.1,
+    "pident": 0.6522,
     "concordance": 1.0
    }
   },
@@ -249,69 +221,57 @@
     "concordance": 0.5
    }
   },
-  "NGF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4224,
-   "components": {
-    "bitscore_norm": 0.2688,
-    "qcov": 0.075,
-    "pident": 0.3968,
-    "concordance": 1.0
-   }
-  },
   "OPTN": {
    "present": true,
    "status": "detected",
-   "aees": 0.7328,
+   "aees": 0.4453,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.077,
-    "pident": 0.7568,
+    "bitscore_norm": 0.2656,
+    "qcov": 0.189,
+    "pident": 0.3672,
     "concordance": 1.0
    }
   },
   "PARK7": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.4899,
+   "components": {
+    "bitscore_norm": 0.2434,
+    "qcov": 0.269,
+    "pident": 0.5833,
+    "concordance": 1.0
+   }
   },
   "PINK1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7325,
+   "aees": 0.7545,
    "components": {
-    "bitscore_norm": 0.9372,
+    "bitscore_norm": 1.0,
     "qcov": 0.306,
     "pident": 0.5197,
     "concordance": 1.0
    }
   },
   "PRKAA1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
-  "PRNP": {
    "present": true,
    "status": "detected",
-   "aees": 0.6128,
+   "aees": 0.6416,
    "components": {
-    "bitscore_norm": 0.656,
-    "qcov": 0.238,
-    "pident": 0.4913,
+    "bitscore_norm": 0.6756,
+    "qcov": 0.113,
+    "pident": 0.8461,
     "concordance": 1.0
    }
   },
   "PSEN1": {
    "present": true,
    "status": "detected",
-   "aees": 0.8117,
+   "aees": 0.8162,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.282,
+    "qcov": 0.3,
     "pident": 0.9412,
     "concordance": 1.0
    }
@@ -360,18 +320,12 @@
     "concordance": 1.0
    }
   },
-  "SNCA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "SOD1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7435,
+   "aees": 0.8618,
    "components": {
-    "bitscore_norm": 0.398,
+    "bitscore_norm": 0.736,
     "qcov": 1.0,
     "pident": 0.6948,
     "concordance": 1.0
@@ -380,11 +334,11 @@
   "SQSTM1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7693,
+   "aees": 0.6243,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.127,
-    "pident": 0.9167,
+    "bitscore_norm": 0.6022,
+    "qcov": 0.204,
+    "pident": 0.75,
     "concordance": 1.0
    }
   },
@@ -402,44 +356,39 @@
   "TFEB": {
    "present": true,
    "status": "detected",
-   "aees": 0.7697,
+   "aees": 0.8,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.423,
-    "pident": 0.4263,
+    "qcov": 0.248,
+    "pident": 0.92,
     "concordance": 1.0
    }
   },
   "TP53": {
    "present": true,
    "status": "detected",
-   "aees": 0.7396,
+   "aees": 0.5022,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.162,
-    "pident": 0.6604,
+    "bitscore_norm": 0.3396,
+    "qcov": 0.297,
+    "pident": 0.3939,
     "concordance": 1.0
    }
   },
-  "TREM2": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4715,
-   "components": {
-    "bitscore_norm": 0.3134,
-    "qcov": 0.153,
-    "pident": 0.4906,
-    "concordance": 1.0
-   }
+  "UBQLN2": {
+   "present": false,
+   "status": "not detected",
+   "aees": 0.0,
+   "components": null
   },
   "VCP": {
    "present": true,
    "status": "detected",
-   "aees": 0.7824,
+   "aees": 0.7829,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.432,
-    "pident": 0.4962,
+    "qcov": 0.172,
+    "pident": 0.9324,
     "concordance": 1.0
    }
   },
@@ -459,11 +408,11 @@
   "AKT1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7468,
+   "aees": 0.6901,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.275,
-    "pident": 0.52,
+    "bitscore_norm": 0.7534,
+    "qcov": 0.14,
+    "pident": 0.9429,
     "concordance": 1.0
    }
   },
@@ -514,22 +463,11 @@
   "ATR": {
    "present": true,
    "status": "detected",
-   "aees": 0.7551,
+   "aees": 0.7561,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.134,
+    "qcov": 0.138,
     "pident": 0.8108,
-    "concordance": 1.0
-   }
-  },
-  "BDNF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.7342,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.07,
-    "pident": 0.7778,
     "concordance": 1.0
    }
   },
@@ -575,11 +513,11 @@
   "FOXO3": {
    "present": true,
    "status": "detected",
-   "aees": 0.4574,
+   "aees": 0.5726,
    "components": {
-    "bitscore_norm": 0.3026,
-    "qcov": 0.09,
-    "pident": 0.5263,
+    "bitscore_norm": 0.3924,
+    "qcov": 0.263,
+    "pident": 0.7966,
     "concordance": 1.0
    }
   },
@@ -600,24 +538,13 @@
    "aees": 0.0,
    "components": null
   },
-  "GHR": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.7468,
-   "components": {
-    "bitscore_norm": 0.8736,
-    "qcov": 0.602,
-    "pident": 0.2703,
-    "concordance": 1.0
-   }
-  },
   "GRN": {
    "present": true,
    "status": "detected",
-   "aees": 0.745,
+   "aees": 0.7487,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.162,
+    "qcov": 0.177,
     "pident": 0.6964,
     "concordance": 1.0
    }
@@ -625,11 +552,11 @@
   "HSF1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5264,
+   "aees": 0.4915,
    "components": {
-    "bitscore_norm": 0.4152,
-    "qcov": 0.089,
-    "pident": 0.7255,
+    "bitscore_norm": 0.3474,
+    "qcov": 0.193,
+    "pident": 0.4775,
     "concordance": 1.0
    }
   },
@@ -644,20 +571,14 @@
     "concordance": 1.0
    }
   },
-  "IGF1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "IGF1R": {
    "present": true,
    "status": "detected",
-   "aees": 0.4288,
+   "aees": 0.6619,
    "components": {
-    "bitscore_norm": 0.2326,
-    "qcov": 0.148,
-    "pident": 0.4026,
+    "bitscore_norm": 0.826,
+    "qcov": 0.1,
+    "pident": 0.6522,
     "concordance": 1.0
    }
   },
@@ -686,11 +607,11 @@
   "MTOR": {
    "present": true,
    "status": "detected",
-   "aees": 0.7451,
+   "aees": 0.7535,
    "components": {
     "bitscore_norm": 1.0,
     "qcov": 0.053,
-    "pident": 0.8788,
+    "pident": 0.9348,
     "concordance": 1.0
    }
   },
@@ -700,70 +621,58 @@
    "aees": 0.0,
    "components": null
   },
-  "NGF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4559,
-   "components": {
-    "bitscore_norm": 0.302,
-    "qcov": 0.184,
-    "pident": 0.3611,
-    "concordance": 1.0
-   }
-  },
   "OPTN": {
    "present": true,
    "status": "detected",
-   "aees": 0.7328,
+   "aees": 0.445,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.077,
-    "pident": 0.7568,
+    "bitscore_norm": 0.2648,
+    "qcov": 0.189,
+    "pident": 0.3672,
     "concordance": 1.0
    }
   },
   "PARK7": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.4899,
+   "components": {
+    "bitscore_norm": 0.2434,
+    "qcov": 0.269,
+    "pident": 0.5833,
+    "concordance": 1.0
+   }
   },
   "PINK1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7325,
+   "aees": 0.7545,
    "components": {
-    "bitscore_norm": 0.9372,
+    "bitscore_norm": 1.0,
     "qcov": 0.306,
     "pident": 0.5197,
     "concordance": 1.0
    }
   },
   "PRKAA1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
-  "PRNP": {
    "present": true,
    "status": "detected",
-   "aees": 0.6128,
+   "aees": 0.6399,
    "components": {
-    "bitscore_norm": 0.656,
-    "qcov": 0.238,
-    "pident": 0.4913,
+    "bitscore_norm": 0.624,
+    "qcov": 0.462,
+    "pident": 0.3731,
     "concordance": 1.0
    }
   },
   "PSEN1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6147,
+   "aees": 0.8162,
    "components": {
-    "bitscore_norm": 0.6542,
-    "qcov": 0.117,
-    "pident": 0.7097,
+    "bitscore_norm": 1.0,
+    "qcov": 0.3,
+    "pident": 0.9412,
     "concordance": 1.0
    }
   },
@@ -811,18 +720,12 @@
     "concordance": 1.0
    }
   },
-  "SNCA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "SOD1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7411,
+   "aees": 0.8594,
    "components": {
-    "bitscore_norm": 0.394,
+    "bitscore_norm": 0.732,
     "qcov": 1.0,
     "pident": 0.6883,
     "concordance": 1.0
@@ -831,11 +734,11 @@
   "SQSTM1": {
    "present": true,
    "status": "detected",
-   "aees": 0.7693,
+   "aees": 0.6243,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.127,
-    "pident": 0.9167,
+    "bitscore_norm": 0.6022,
+    "qcov": 0.204,
+    "pident": 0.75,
     "concordance": 1.0
    }
   },
@@ -864,23 +767,23 @@
   "TP53": {
    "present": true,
    "status": "detected",
-   "aees": 0.702,
+   "aees": 0.4497,
    "components": {
-    "bitscore_norm": 0.8996,
-    "qcov": 0.12,
-    "pident": 0.7143,
+    "bitscore_norm": 0.2164,
+    "qcov": 0.264,
+    "pident": 0.3864,
     "concordance": 1.0
    }
   },
-  "TREM2": {
+  "UBQLN2": {
    "present": true,
    "status": "detected",
-   "aees": 0.4715,
+   "aees": 0.344,
    "components": {
-    "bitscore_norm": 0.3134,
-    "qcov": 0.153,
-    "pident": 0.4906,
-    "concordance": 1.0
+    "bitscore_norm": 0.215,
+    "qcov": 0.064,
+    "pident": 0.8518,
+    "concordance": 0.5
    }
   },
   "VCP": {
@@ -910,11 +813,11 @@
   "AKT1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6531,
+   "aees": 0.6978,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.194,
-    "pident": 0.6087,
+    "qcov": 0.179,
+    "pident": 0.8571,
     "concordance": null
    }
   },
@@ -965,22 +868,11 @@
   "ATR": {
    "present": true,
    "status": "detected",
-   "aees": 0.669,
+   "aees": 0.67,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.101,
+    "qcov": 0.104,
     "pident": 0.8431,
-    "concordance": null
-   }
-  },
-  "BDNF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.6307,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.051,
-    "pident": 0.7353,
     "concordance": null
    }
   },
@@ -1026,11 +918,11 @@
   "FOXO3": {
    "present": true,
    "status": "detected",
-   "aees": 0.2454,
+   "aees": 0.422,
    "components": {
-    "bitscore_norm": 0.2528,
-    "qcov": 0.077,
-    "pident": 0.5088,
+    "bitscore_norm": 0.394,
+    "qcov": 0.291,
+    "pident": 0.7059,
     "concordance": null
    }
   },
@@ -1051,24 +943,13 @@
    "aees": 0.0,
    "components": null
   },
-  "GHR": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.7271,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.594,
-    "pident": 0.3121,
-    "concordance": null
-   }
-  },
   "GRN": {
    "present": true,
    "status": "detected",
-   "aees": 0.714,
+   "aees": 0.7483,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.315,
+    "qcov": 0.418,
     "pident": 0.7115,
     "concordance": null
    }
@@ -1076,11 +957,11 @@
   "HSF1": {
    "present": true,
    "status": "detected",
-   "aees": 0.4168,
+   "aees": 0.5018,
    "components": {
-    "bitscore_norm": 0.5144,
-    "qcov": 0.097,
-    "pident": 0.7222,
+    "bitscore_norm": 0.7108,
+    "qcov": 0.099,
+    "pident": 0.6857,
     "concordance": null
    }
   },
@@ -1095,20 +976,14 @@
     "concordance": null
    }
   },
-  "IGF1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "IGF1R": {
    "present": true,
    "status": "detected",
-   "aees": 0.2299,
+   "aees": 0.6674,
    "components": {
-    "bitscore_norm": 0.2234,
-    "qcov": 0.088,
-    "pident": 0.4815,
+    "bitscore_norm": 1.0,
+    "qcov": 0.084,
+    "pident": 0.8636,
     "concordance": null
    }
   },
@@ -1156,33 +1031,27 @@
     "concordance": null
    }
   },
-  "NGF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.2224,
-   "components": {
-    "bitscore_norm": 0.232,
-    "qcov": 0.188,
-    "pident": 0.2575,
-    "concordance": null
-   }
-  },
   "OPTN": {
    "present": true,
    "status": "detected",
-   "aees": 0.6298,
+   "aees": 0.2681,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.076,
-    "pident": 0.6889,
+    "bitscore_norm": 0.2826,
+    "qcov": 0.189,
+    "pident": 0.3659,
     "concordance": null
    }
   },
   "PARK7": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.3304,
+   "components": {
+    "bitscore_norm": 0.2372,
+    "qcov": 0.269,
+    "pident": 0.65,
+    "concordance": null
+   }
   },
   "PINK1": {
    "present": true,
@@ -1198,22 +1067,11 @@
   "PRKAA1": {
    "present": true,
    "status": "detected",
-   "aees": 0.3527,
+   "aees": 0.6672,
    "components": {
-    "bitscore_norm": 0.3974,
-    "qcov": 0.043,
-    "pident": 0.7647,
-    "concordance": null
-   }
-  },
-  "PRNP": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4802,
-   "components": {
-    "bitscore_norm": 0.652,
-    "qcov": 0.233,
-    "pident": 0.4913,
+    "bitscore_norm": 1.0,
+    "qcov": 0.095,
+    "pident": 0.8444,
     "concordance": null
    }
   },
@@ -1272,18 +1130,12 @@
     "concordance": null
    }
   },
-  "SNCA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "SOD1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6492,
+   "aees": 0.7958,
    "components": {
-    "bitscore_norm": 0.38,
+    "bitscore_norm": 0.694,
     "qcov": 1.0,
     "pident": 0.6928,
     "concordance": null
@@ -1292,11 +1144,11 @@
   "SQSTM1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5688,
+   "aees": 0.5434,
    "components": {
-    "bitscore_norm": 0.7288,
-    "qcov": 0.136,
-    "pident": 0.9167,
+    "bitscore_norm": 0.573,
+    "qcov": 0.378,
+    "pident": 0.75,
     "concordance": null
    }
   },
@@ -1314,44 +1166,44 @@
   "TFEB": {
    "present": true,
    "status": "detected",
-   "aees": 0.7865,
+   "aees": 0.7653,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.702,
-    "pident": 0.4293,
+    "qcov": 0.32,
+    "pident": 0.96,
     "concordance": null
    }
   },
   "TP53": {
    "present": true,
    "status": "detected",
-   "aees": 0.6258,
+   "aees": 0.3035,
    "components": {
-    "bitscore_norm": 0.8424,
-    "qcov": 0.569,
-    "pident": 0.215,
+    "bitscore_norm": 0.2518,
+    "qcov": 0.3,
+    "pident": 0.43,
     "concordance": null
    }
   },
-  "TREM2": {
+  "UBQLN2": {
    "present": true,
    "status": "detected",
-   "aees": 0.3786,
+   "aees": 0.3592,
    "components": {
-    "bitscore_norm": 0.4006,
-    "qcov": 0.298,
-    "pident": 0.4615,
+    "bitscore_norm": 0.3244,
+    "qcov": 0.127,
+    "pident": 0.8276,
     "concordance": null
    }
   },
   "VCP": {
    "present": true,
    "status": "detected",
-   "aees": 0.795,
+   "aees": 0.7527,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.747,
-    "pident": 0.3964,
+    "qcov": 0.352,
+    "pident": 0.8438,
     "concordance": null
    }
   },
@@ -1371,11 +1223,11 @@
   "AKT1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5737,
+   "aees": 0.6297,
    "components": {
-    "bitscore_norm": 0.9582,
-    "qcov": 0.05,
-    "pident": 0.5494,
+    "bitscore_norm": 0.9108,
+    "qcov": 0.123,
+    "pident": 0.8182,
     "concordance": null
    }
   },
@@ -1393,11 +1245,11 @@
   "ATG5": {
    "present": true,
    "status": "detected",
-   "aees": 0.4675,
+   "aees": 0.4297,
    "components": {
-    "bitscore_norm": 0.4322,
-    "qcov": 0.354,
-    "pident": 0.7391,
+    "bitscore_norm": 0.4576,
+    "qcov": 0.236,
+    "pident": 0.6875,
     "concordance": null
    }
   },
@@ -1434,17 +1286,6 @@
     "concordance": null
    }
   },
-  "BDNF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.6621,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.303,
-    "pident": 0.472,
-    "concordance": null
-   }
-  },
   "BECN1": {
    "present": true,
    "status": "detected",
@@ -1470,11 +1311,11 @@
   "C9orf72": {
    "present": true,
    "status": "detected",
-   "aees": 0.4298,
+   "aees": 0.2408,
    "components": {
-    "bitscore_norm": 0.5822,
-    "qcov": 0.056,
-    "pident": 0.697,
+    "bitscore_norm": 0.2142,
+    "qcov": 0.133,
+    "pident": 0.4828,
     "concordance": null
    }
   },
@@ -1485,10 +1326,15 @@
    "components": null
   },
   "FOXO3": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.4078,
+   "components": {
+    "bitscore_norm": 0.3874,
+    "qcov": 0.201,
+    "pident": 0.8,
+    "concordance": null
+   }
   },
   "FUS": {
    "present": false,
@@ -1497,41 +1343,35 @@
    "components": null
   },
   "GBA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
-  "GHR": {
    "present": true,
    "status": "detected",
-   "aees": 0.6187,
+   "aees": 0.6526,
    "components": {
-    "bitscore_norm": 0.8546,
-    "qcov": 0.479,
-    "pident": 0.3013,
+    "bitscore_norm": 0.9846,
+    "qcov": 0.164,
+    "pident": 0.6923,
     "concordance": null
    }
   },
   "GRN": {
    "present": true,
    "status": "detected",
-   "aees": 0.869,
+   "aees": 0.8716,
    "components": {
     "bitscore_norm": 1.0,
     "qcov": 0.983,
-    "pident": 0.3732,
+    "pident": 0.3866,
     "concordance": null
    }
   },
   "HSF1": {
    "present": true,
    "status": "detected",
-   "aees": 0.2896,
+   "aees": 0.2537,
    "components": {
-    "bitscore_norm": 0.3644,
-    "qcov": 0.138,
-    "pident": 0.3678,
+    "bitscore_norm": 0.2434,
+    "qcov": 0.198,
+    "pident": 0.3704,
     "concordance": null
    }
   },
@@ -1546,25 +1386,14 @@
     "concordance": null
    }
   },
-  "IGF1": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.5169,
-   "components": {
-    "bitscore_norm": 0.5584,
-    "qcov": 0.455,
-    "pident": 0.5231,
-    "concordance": null
-   }
-  },
   "IGF1R": {
    "present": true,
    "status": "detected",
-   "aees": 0.2737,
+   "aees": 0.6661,
    "components": {
-    "bitscore_norm": 0.2796,
-    "qcov": 0.088,
-    "pident": 0.5692,
+    "bitscore_norm": 1.0,
+    "qcov": 0.108,
+    "pident": 0.8172,
     "concordance": null
    }
   },
@@ -1607,70 +1436,58 @@
    "aees": 0.0,
    "components": null
   },
-  "NGF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.228,
-   "components": {
-    "bitscore_norm": 0.2834,
-    "qcov": 0.07,
-    "pident": 0.3619,
-    "concordance": null
-   }
-  },
   "OPTN": {
    "present": true,
    "status": "detected",
-   "aees": 0.6642,
+   "aees": 0.2558,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.07,
-    "pident": 0.871,
+    "bitscore_norm": 0.268,
+    "qcov": 0.191,
+    "pident": 0.3353,
     "concordance": null
    }
   },
   "PARK7": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.3014,
+   "components": {
+    "bitscore_norm": 0.2264,
+    "qcov": 0.269,
+    "pident": 0.5306,
+    "concordance": null
+   }
   },
   "PINK1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6244,
+   "aees": 0.6804,
    "components": {
-    "bitscore_norm": 0.88,
+    "bitscore_norm": 1.0,
     "qcov": 0.31,
     "pident": 0.552,
     "concordance": null
    }
   },
   "PRKAA1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
-  "PRNP": {
    "present": true,
    "status": "detected",
-   "aees": 0.5923,
+   "aees": 0.4394,
    "components": {
-    "bitscore_norm": 0.8514,
-    "qcov": 0.266,
-    "pident": 0.5318,
+    "bitscore_norm": 0.5632,
+    "qcov": 0.097,
+    "pident": 0.7213,
     "concordance": null
    }
   },
   "PSEN1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5233,
+   "aees": 0.7016,
    "components": {
-    "bitscore_norm": 0.7142,
-    "qcov": 0.12,
-    "pident": 0.75,
+    "bitscore_norm": 1.0,
+    "qcov": 0.14,
+    "pident": 0.9412,
     "concordance": null
    }
   },
@@ -1718,31 +1535,25 @@
     "concordance": null
    }
   },
-  "SNCA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "SOD1": {
    "present": true,
    "status": "detected",
-   "aees": 0.3248,
+   "aees": 0.4371,
    "components": {
-    "bitscore_norm": 0.2426,
-    "qcov": 0.277,
-    "pident": 0.5965,
+    "bitscore_norm": 0.2828,
+    "qcov": 0.578,
+    "pident": 0.5625,
     "concordance": null
    }
   },
   "SQSTM1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5674,
+   "aees": 0.3333,
    "components": {
-    "bitscore_norm": 0.841,
-    "qcov": 0.066,
-    "pident": 0.7647,
+    "bitscore_norm": 0.359,
+    "qcov": 0.146,
+    "pident": 0.5854,
     "concordance": null
    }
   },
@@ -1760,44 +1571,39 @@
   "TFEB": {
    "present": true,
    "status": "detected",
-   "aees": 0.8293,
+   "aees": 0.2532,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.854,
-    "pident": 0.3899,
+    "bitscore_norm": 0.218,
+    "qcov": 0.213,
+    "pident": 0.4022,
     "concordance": null
    }
   },
   "TP53": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4959,
-   "components": {
-    "bitscore_norm": 0.7084,
-    "qcov": 0.111,
-    "pident": 0.6415,
-    "concordance": null
-   }
+   "present": false,
+   "status": "not detected",
+   "aees": 0.0,
+   "components": null
   },
-  "TREM2": {
+  "UBQLN2": {
    "present": true,
    "status": "detected",
-   "aees": 0.3694,
+   "aees": 0.2683,
    "components": {
-    "bitscore_norm": 0.4196,
-    "qcov": 0.238,
-    "pident": 0.4713,
+    "bitscore_norm": 0.2342,
+    "qcov": 0.082,
+    "pident": 0.6585,
     "concordance": null
    }
   },
   "VCP": {
    "present": true,
    "status": "detected",
-   "aees": 0.6838,
+   "aees": 0.7057,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.416,
-    "pident": 0.3923,
+    "qcov": 0.148,
+    "pident": 0.9487,
     "concordance": null
    }
   },
@@ -1880,17 +1686,6 @@
     "concordance": null
    }
   },
-  "BDNF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.6333,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.037,
-    "pident": 0.7714,
-    "concordance": null
-   }
-  },
   "BECN1": {
    "present": true,
    "status": "detected",
@@ -1931,10 +1726,15 @@
    "components": null
   },
   "FOXO3": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.3716,
+   "components": {
+    "bitscore_norm": 0.3776,
+    "qcov": 0.088,
+    "pident": 0.8305,
+    "concordance": null
+   }
   },
   "FUS": {
    "present": true,
@@ -1953,24 +1753,13 @@
    "aees": 0.0,
    "components": null
   },
-  "GHR": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.6419,
-   "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.291,
-    "pident": 0.3913,
-    "concordance": null
-   }
-  },
   "GRN": {
    "present": true,
    "status": "detected",
-   "aees": 0.8235,
+   "aees": 0.8521,
    "components": {
     "bitscore_norm": 1.0,
-    "qcov": 0.659,
+    "qcov": 0.745,
     "pident": 0.6857,
     "concordance": null
    }
@@ -1978,11 +1767,11 @@
   "HSF1": {
    "present": true,
    "status": "detected",
-   "aees": 0.4008,
+   "aees": 0.3525,
    "components": {
-    "bitscore_norm": 0.6,
-    "qcov": 0.149,
-    "pident": 0.3558,
+    "bitscore_norm": 0.3572,
+    "qcov": 0.074,
+    "pident": 0.8056,
     "concordance": null
    }
   },
@@ -1997,17 +1786,16 @@
     "concordance": null
    }
   },
-  "IGF1": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "IGF1R": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
+   "present": true,
+   "status": "detected",
+   "aees": 0.6724,
+   "components": {
+    "bitscore_norm": 1.0,
+    "qcov": 0.084,
+    "pident": 0.8889,
+    "concordance": null
+   }
   },
   "INSR": {
    "present": true,
@@ -2053,35 +1841,24 @@
     "concordance": null
    }
   },
-  "NGF": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.2268,
-   "components": {
-    "bitscore_norm": 0.238,
-    "qcov": 0.184,
-    "pident": 0.2718,
-    "concordance": null
-   }
-  },
   "OPTN": {
    "present": true,
    "status": "detected",
-   "aees": 0.6639,
+   "aees": 0.4252,
    "components": {
-    "bitscore_norm": 1.0,
-    "qcov": 0.069,
-    "pident": 0.871,
+    "bitscore_norm": 0.637,
+    "qcov": 0.125,
+    "pident": 0.4316,
     "concordance": null
    }
   },
   "PARK7": {
    "present": true,
    "status": "detected",
-   "aees": 0.5756,
+   "aees": 0.7645,
    "components": {
-    "bitscore_norm": 0.356,
-    "qcov": 0.901,
+    "bitscore_norm": 0.698,
+    "qcov": 0.989,
     "pident": 0.5454,
     "concordance": null
    }
@@ -2100,33 +1877,22 @@
   "PRKAA1": {
    "present": true,
    "status": "detected",
-   "aees": 0.2662,
+   "aees": 0.5759,
    "components": {
-    "bitscore_norm": 0.2488,
-    "qcov": 0.077,
-    "pident": 0.6222,
-    "concordance": null
-   }
-  },
-  "PRNP": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.4736,
-   "components": {
-    "bitscore_norm": 0.642,
-    "qcov": 0.237,
-    "pident": 0.4751,
+    "bitscore_norm": 0.8258,
+    "qcov": 0.361,
+    "pident": 0.3509,
     "concordance": null
    }
   },
   "PSEN1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6246,
+   "aees": 0.7048,
    "components": {
-    "bitscore_norm": 0.839,
+    "bitscore_norm": 1.0,
     "qcov": 0.185,
-    "pident": 0.8571,
+    "pident": 0.8823,
     "concordance": null
    }
   },
@@ -2174,18 +1940,12 @@
     "concordance": null
    }
   },
-  "SNCA": {
-   "present": false,
-   "status": "not detected",
-   "aees": 0.0,
-   "components": null
-  },
   "SOD1": {
    "present": true,
    "status": "detected",
-   "aees": 0.6659,
+   "aees": 0.8171,
    "components": {
-    "bitscore_norm": 0.424,
+    "bitscore_norm": 0.748,
     "qcov": 0.98,
     "pident": 0.7067,
     "concordance": null
@@ -2194,11 +1954,11 @@
   "SQSTM1": {
    "present": true,
    "status": "detected",
-   "aees": 0.5146,
+   "aees": 0.4971,
    "components": {
-    "bitscore_norm": 0.6462,
-    "qcov": 0.122,
-    "pident": 0.8621,
+    "bitscore_norm": 0.622,
+    "qcov": 0.24,
+    "pident": 0.6341,
     "concordance": null
    }
   },
@@ -2235,16 +1995,11 @@
     "concordance": null
    }
   },
-  "TREM2": {
-   "present": true,
-   "status": "detected",
-   "aees": 0.3031,
-   "components": {
-    "bitscore_norm": 0.338,
-    "qcov": 0.153,
-    "pident": 0.4717,
-    "concordance": null
-   }
+  "UBQLN2": {
+   "present": false,
+   "status": "not detected",
+   "aees": 0.0,
+   "components": null
   },
   "VCP": {
    "present": true,

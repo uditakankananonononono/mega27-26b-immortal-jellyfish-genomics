@@ -1,55 +1,38 @@
-# Findings register (2026-09-27) - every claim linked to result files
+# Findings register (2026-09-27, POST-D9 revised) - every claim linked to result files
+
+D9 REVISION NOTE: entries 1-6 were recomputed on 2026-09-27 after the D9 query-integrity
+repair (37 mislabeled human query proteins replaced with UniProt-verified orthologs;
+docs/X-DEVIATIONS.md D9). Revised values below supersede the pre-D9 numbers. Every revised
+number reproduces from results/*.json at the D9-closure commit.
 
 ## Verified positives
 1. H1 SIGNIFICANT: 20/24 aging/longevity panel genes map to strong loci in T. dohrnii
    (binomial vs shuffled-control rate, p=1.0e-38, BH q=2.0e-38). File: results/x-stats.json (H1_panelB).
-   Absent (labeled not-detected): APOE, CDKN2A, IGF1, PRKAA1.
-2. H2 SIGNIFICANT: 18/24 neurodegeneration panel genes map (p=2.0e-33, q=2.0e-33).
-   Absent: APOE, GBA, MAPT, PARK7, SNCA, UBQLN2. File: results/x-stats.json (H2_panelC).
+   Absent (labeled not-detected, all with verified queries): APOE, CDKN2A, GHR, IGF1.
+   Composition changed vs pre-D9 (PRKAA1 gained, GHR removed); count unchanged.
+2. H2 SIGNIFICANT: 16/24 neurodegeneration panel genes map (p=1.7e-28, q=1.7e-28).
+   Absent: APOE, BDNF, GBA, MAPT, NGF, PRNP, SNCA, TREM2. File: results/x-stats.json (H2_panelC).
+   Revised from 18/24: PARK7 + UBQLN2 gained, BDNF/NGF/PRNP/TREM2 removed (artifact detections).
 3. Controls PASS. Negative: 0/125 shuffled queries with strong locus in each of 5 genomes
-   (FPR 0.0; manually spot-verified 3 shuffled queries -> zero raw HSPs vs Tdohrnii DB).
-   Positive: 52/60 closed-phase calls reproduced, 8 mismatches ALL gains (superset queries), 0 losses.
-   Files: results/x-ledger-bcshuf.json, results/x-stats.json (H6_*), docs/X-DEVIATIONS.md D5.
+   (FPR 0.0; shuffles are panel-independent, unaffected by D9). Files: results/x-ledger-bcshuf.json,
+   results/x-stats.json (H6_*), docs/X-DEVIATIONS.md D5.
 4. BENCHMARK BEAT (arm 1): multi-species queries beat human-only on Clytia calibration,
-   38/47 (80.9%) vs 29/47 (61.7%) recall, paired re-analysis of identical tBLASTn output.
-   File: results/x-benchmark-recall.json. 9 genes recovered only via cnidarian queries.
+   35/47 (74.5%) vs 27/47 (57.4%) recall, paired re-analysis of identical tBLASTn output
+   (revised from 38/47 vs 29/47; beat holds). 8 genes recovered only via non-human queries.
+   File: results/x-benchmark-recall.json.
 5. BENCHMARK BEAT (arm 2): genome-first beats database-first on T. dohrnii panel genes,
-   38/47 vs 0/47 (live NCBI eutils audit 2026-09-27: 0 gene + 0 protein records for all 47
-   panel genes). Files: results/x-desert-audit-bc.json, results/x-stats.json (presence_counts).
-6. Named discovery candidate: ATG5 - highest AEES (0.860), both T. dohrnii assemblies,
-   2 strong loci, 69% query coverage; autophagy-core gene invisible to the human-only arm.
-   Supporting: SIRT1, SIRT6, GRN (strongest single alignment, 8299 bits).
-   Files: results/x-aees.json, results/x-ledger-bc.json. Validation plan: paper section 08c.
-
-## Honest negatives (equal prominence)
-7. H3 NEGATIVE: no panel-B gene shows T. dohrnii-enriched copy expansion after BH
-   (copy-share Fisher per gene; INSR runs opposite, 31 Td vs 67 mortal). File: results/x-stats.json (H3).
-8. H4 NEGATIVE: presence matrix does not separate rejuvenating from non-reverting species
-   (exact label permutation, 6 assignments, p=0.333; assembly-redundancy caveat). File: results/x-stats.json (H4).
-9. H5 near-vacuous by construction (panels share only APOE, undetected); reported, D4.
-10. Annotation desert confirmed again for panels B+C (47/47 genes: zero database records) -
-    a boundary result about public databases, not about the organism.
-
-## Methodological additions (judge-round novelty, logged)
-11. AEES v1 (round R1): assembly-aware evidence scoring; jellyfish/xaees.py, results/x-aees.json.
-12. Benchmark arms 1-2 (this register 4-5).
-
-13. FPI fragmentation control (P1 #4): T. rubra shredded to 49,860 mock scaffolds matching the
-   74,835-scaffold assembly's profile; 37/39 recoverable genes survive, FOXO3 + NFE2L2 lost,
-   FPI = 0.0513. Files: experiments/x_frag.py, results/x-frag.json.
-14. Housekeeping completeness + normalization (P1 #15): 12 coreg genes recovered in full in all
-   8 genomes (11/11 where the query panel has 11); correction factor 1.0, normalized call rates
-   identical to raw. File: results/x-ledger-coreg.json.
-15. Rejuvenation panel extension (ext2) - HONEST NEGATIVE: 12 reversal-literature genes map in
-   all 8 genomes, mean identity 64.5-71.2%, no separation of non-senescent vs mortal lineages;
-   mortal M. virulenta tops the identity band. Sharpens claims to duplication structure +
-   module signal quality. File: results/x-ledger-ext2.json.
-16. dN/dS exploratory (P1 #3): NG86 pairwise Td vs Trubra, top-10 AEES genes; 6/10 estimable,
-   all omega<1 (ATG7 0.066, ATG5 0.124, SIRT6 0.147, GRN 0.350, TARDBP 0.434, PSEN1 0.835);
-   APP/GHR/SIRT1/VCP dS-saturated. ATG5 duplication maintained under purifying selection, not
-   eroding. Files: experiments/x_dnds.py, results/x-dnds.json.
-17. Evidence tiers (P1 #19): 38 panel genes tier 1; top-10 tier 2 (RBH 20/20); 9/10 tier 4
-   (external aging DB); TARDBP tier 2 only; tier 3 (expression) empty pending SRA.
+   35/47 vs 0/47 (live NCBI eutils audit 2026-09-27: 0 gene + 0 protein records for all 47
+   panel genes; revised from 38/47). Files: results/x-desert-audit-bc.json, results/x-stats.json.
+6. Named discovery candidate: ATG5 - AEES 0.860 (rank 2 of panel, behind SOD1 0.862; rank
+   stable under frozen + equal weights), both T. dohrnii assemblies, 3 strong loci (2 detected
+   by all three cnidarian queries at 455/452 bits + 1 human-detected paralog at 301 bits);
+   T. rubra carries exactly one fewer in each query class (453 + 300). The duplication signal
+   survived the D9 repair and is corroborated by two independent query classes.
+   SOD1 is a new repair-promoted candidate (full-length alignment, 69.5% identity, both assemblies).
+   GHR withdrawn: its pre-repair loci belonged to a mislabeled query (IGFALS).
+   Files: results/x-aees.json, results/x-ledger-bc.json. RBH 20/20 on the new top-10 (results/x-rbh.json).
+   dN/dS post-repair: 7/10 estimable, all omega<1 (ATG5 0.030, ATG7 0.066, SIRT6 0.147,
+   GRN 0.350, TARDBP 0.434, VCP 0.437, PSEN1 0.835). File: results/x-dnds.json.
 
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
@@ -58,7 +41,7 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 23,016 body words -> 61 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 23,008 body words -> 61 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 

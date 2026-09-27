@@ -98,3 +98,15 @@ rerun launched 10:37 IST (/tmp/xd9.log). Follow-on: recompute H1/H2/H6 stats, AE
 benchmark, RBH, dN/dS, tiers; correct every affected paper number; cnidarian-query
 sequence-level validation queued after. Completion claims resume only after the rerun
 reproduces or revises each affected number.
+
+### D9 OUTCOME (2026-09-27 12:40 IST, closure)
+humfix rerun completed all 5 genomes in 4.5 min (12:29-12:34; the earlier 109-min stall was
+sandbox process cycling, not compute). Query-level merge via experiments/x_merge_humfix.py.
+Recomputed: H1 20/24 (composition changed, p=1.0e-38), H2 16/24 (p=1.7e-28), arm-1 35/27
+(beat holds), arm-2 35/47 (beat holds), AEES (SOD1 #1 0.862, ATG5 #2 0.860, GHR withdrawn),
+sensitivity (ATG5 rank 2 frozen+equal), RBH 20/20 on new top-10, dN/dS (7/10, all omega<1),
+enrichment p=0.65 (still honest negative). ATG5 duplication STRENGTHENED: 3 loci vs 2 in
+T. rubra across two independent query classes. Paper sections 06/07 regenerated from corrected
+ledgers; 06b/08b/08c/08d/08e/08g/08h edited. bcshuf rerun skipped (shuffles panel-independent).
+Cnidarian-query sequence validation remains queued (their hits are corroborated by
+cross-species concordance and RBH but not yet independently annotated).

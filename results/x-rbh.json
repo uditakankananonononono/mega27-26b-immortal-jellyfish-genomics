@@ -1,34 +1,41 @@
 {
  "control": "reciprocal_best_hit",
  "genes": [
+  "SOD1",
   "ATG5",
   "APP",
   "ATG7",
   "PSEN1",
-  "GHR",
+  "GRN",
+  "TFEB",
   "SIRT6",
   "SIRT1",
-  "GRN",
-  "VCP",
-  "TARDBP"
+  "VCP"
  ],
  "pass": 20,
  "total": 20,
  "detail": {
   "Tdohrnii": {
+   "SOD1": {
+    "status": "PASS",
+    "top_hit": "Hydra_SOD1|NP_001274724.1",
+    "pident": 69.481,
+    "bits": 199.0,
+    "n_loci": 6
+   },
    "ATG5": {
     "status": "PASS",
     "top_hit": "Hydra_ATG5|XP_002170630.3",
     "pident": 66.087,
     "bits": 164.0,
-    "n_loci": 2
+    "n_loci": 3
    },
    "APP": {
     "status": "PASS",
     "top_hit": "Clytia_APP|XP_066924045.1",
     "pident": 98.936,
     "bits": 197.0,
-    "n_loci": 7
+    "n_loci": 12
    },
    "ATG7": {
     "status": "PASS",
@@ -42,65 +49,65 @@
     "top_hit": "Hydra_PSEN1|CDG70846.1",
     "pident": 68.293,
     "bits": 108.0,
-    "n_loci": 2
-   },
-   "GHR": {
-    "status": "PASS",
-    "top_hit": "human_GHR|NP_001139478.1",
-    "pident": 25.682,
-    "bits": 131.0,
-    "n_loci": 21
-   },
-   "SIRT6": {
-    "status": "PASS",
-    "top_hit": "Hydra_SIRT6|XP_065671103.1",
-    "pident": 80.645,
-    "bits": 108.0,
-    "n_loci": 5
-   },
-   "SIRT1": {
-    "status": "PASS",
-    "top_hit": "Clytia_SIRT1|XP_066925909.1",
-    "pident": 94.118,
-    "bits": 114.0,
-    "n_loci": 7
+    "n_loci": 1
    },
    "GRN": {
     "status": "PASS",
     "top_hit": "Hydra_GRN|CDG71145.1",
     "pident": 41.243,
     "bits": 136.0,
-    "n_loci": 2
+    "n_loci": 1
+   },
+   "TFEB": {
+    "status": "PASS",
+    "top_hit": "Hydra_TFEB|XP_002158833.2",
+    "pident": 64.706,
+    "bits": 91.3,
+    "n_loci": 3
+   },
+   "SIRT6": {
+    "status": "PASS",
+    "top_hit": "Hydra_SIRT6|XP_065671103.1",
+    "pident": 80.645,
+    "bits": 108.0,
+    "n_loci": 4
+   },
+   "SIRT1": {
+    "status": "PASS",
+    "top_hit": "Clytia_SIRT1|XP_066925909.1",
+    "pident": 94.118,
+    "bits": 114.0,
+    "n_loci": 6
    },
    "VCP": {
     "status": "PASS",
-    "top_hit": "Acropora_VCP|XP_029211909.2",
-    "pident": 49.624,
-    "bits": 416.0,
-    "n_loci": 4
-   },
-   "TARDBP": {
-    "status": "PASS",
-    "top_hit": "Hydra_TARDBP|CDG70227.1",
-    "pident": 67.073,
-    "bits": 132.0,
-    "n_loci": 4
+    "top_hit": "human_VCP|P55072",
+    "pident": 80.42,
+    "bits": 250.0,
+    "n_loci": 24
    }
   },
   "TdohrniiOviedo": {
+   "SOD1": {
+    "status": "PASS",
+    "top_hit": "Hydra_SOD1|NP_001274724.1",
+    "pident": 68.831,
+    "bits": 197.0,
+    "n_loci": 5
+   },
    "ATG5": {
     "status": "PASS",
     "top_hit": "Hydra_ATG5|XP_002170630.3",
     "pident": 80.233,
     "bits": 162.0,
-    "n_loci": 2
+    "n_loci": 3
    },
    "APP": {
     "status": "PASS",
     "top_hit": "Clytia_APP|XP_066924045.1",
     "pident": 98.936,
     "bits": 197.0,
-    "n_loci": 9
+    "n_loci": 12
    },
    "ATG7": {
     "status": "PASS",
@@ -111,37 +118,37 @@
    },
    "PSEN1": {
     "status": "PASS",
-    "top_hit": "human_PSEN1|NP_001244109.1",
-    "pident": 70.968,
-    "bits": 97.4,
-    "n_loci": 6
-   },
-   "GHR": {
-    "status": "PASS",
-    "top_hit": "human_GHR|NP_001139478.1",
-    "pident": 27.726,
-    "bits": 148.0,
-    "n_loci": 20
-   },
-   "SIRT6": {
-    "status": "PASS",
-    "top_hit": "Hydra_SIRT6|XP_065671103.1",
-    "pident": 80.645,
-    "bits": 108.0,
+    "top_hit": "Hydra_PSEN1|CDG70846.1",
+    "pident": 79.661,
+    "bits": 95.5,
     "n_loci": 4
-   },
-   "SIRT1": {
-    "status": "PASS",
-    "top_hit": "Clytia_SIRT1|XP_066925909.1",
-    "pident": 94.118,
-    "bits": 114.0,
-    "n_loci": 8
    },
    "GRN": {
     "status": "PASS",
     "top_hit": "Hydra_GRN|CDG71145.1",
     "pident": 54.43,
     "bits": 92.0,
+    "n_loci": 4
+   },
+   "TFEB": {
+    "status": "PASS",
+    "top_hit": "Hydra_TFEB|XP_002158833.2",
+    "pident": 64.706,
+    "bits": 91.3,
+    "n_loci": 1
+   },
+   "SIRT6": {
+    "status": "PASS",
+    "top_hit": "Hydra_SIRT6|XP_065671103.1",
+    "pident": 80.645,
+    "bits": 108.0,
+    "n_loci": 3
+   },
+   "SIRT1": {
+    "status": "PASS",
+    "top_hit": "Clytia_SIRT1|XP_066925909.1",
+    "pident": 94.118,
+    "bits": 114.0,
     "n_loci": 5
    },
    "VCP": {
@@ -149,14 +156,7 @@
     "top_hit": "Nematostella_VCP|XP_032226106.2",
     "pident": 46.875,
     "bits": 448.0,
-    "n_loci": 3
-   },
-   "TARDBP": {
-    "status": "PASS",
-    "top_hit": "Hydra_TARDBP|CDG70227.1",
-    "pident": 67.073,
-    "bits": 132.0,
-    "n_loci": 4
+    "n_loci": 22
    }
   }
  }
