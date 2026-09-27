@@ -58,6 +58,12 @@ number reproduces from results/*.json at the D9-closure commit.
    significance concordance, not raw counts, is the comparable metric. Files:
    results/x-concordance-hmmer.json, results/x-concordance-diamond.json.
 
+21. GFAR formalization (P1 #1/#10): the workflow is now a named, specified method
+   (docs/X-ALGORITHM.md): verified inputs, frozen stages, AEES weights, complexity
+   (2 cores / 2 GB RAM for ~500 Mb assemblies), six failure modes with mitigations,
+   and a framework-level benchmark (arm1 35/47 vs 27/47; arm2 35/47 vs 0/47;
+   phmmer 20/20 reproduction of significant calls). Paper section 05e.
+
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
 pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
@@ -65,7 +71,7 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 23,612 body words -> 63 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 23,902 body words -> 63 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 
