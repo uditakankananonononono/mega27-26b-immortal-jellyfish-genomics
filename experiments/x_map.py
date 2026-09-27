@@ -60,7 +60,9 @@ def gene_of_header(header):
 def main():
     which = sys.argv[1]
     genomes = sys.argv[2:] or GENOMES
-    if which == "humfix":
+    if which == "decoy":
+        files = sorted(glob.glob("data/xpanel_decoy/*.faa"))
+    elif which == "humfix":
         files = sorted(glob.glob("data/xpanel_humfix/*.faa"))
     elif which in ("bc", "bcshuf", "bcext"):
         files = sorted(glob.glob("data/xpanel/*.faa"))

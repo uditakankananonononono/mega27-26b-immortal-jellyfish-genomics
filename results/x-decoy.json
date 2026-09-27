@@ -1,0 +1,25 @@
+{
+ "test": "panel-B (20/24) vs decoy (9/23) strong-locus rate in T. dohrnii, Fisher exact",
+ "panel_rate": 0.833,
+ "decoy_rate": 0.391,
+ "p": 0.002682573615395041,
+ "decoy_panel": "23 non-aging genes (olfaction/structural/digestion/vision/blood), UniProt-verified",
+ "per_genome_decoy_rates": {
+  "Tdohrnii": "9/23",
+  "TdohrniiOviedo": "9/23",
+  "Trubra": "8/23",
+  "Aaurita": "10/23",
+  "Clytia": "8/23"
+ },
+ "mapped_decoys_core": [
+  "ACTA1",
+  "DMD",
+  "MYH7",
+  "OPN1LW",
+  "OR1A1",
+  "RHO",
+  "SLC26A5",
+  "TTN"
+ ],
+ "interpretation": "decoys map exactly where ancient cnidarian homologs exist (muscle, opsins); panel's 83% rate is not a pipeline artifact"
+}

@@ -13,17 +13,23 @@ TMP = "/tmp/synteny"; FLANK = 40000; MINORF = 300  # nt
 os.makedirs(TMP, exist_ok=True)
 
 def contigs(asm):
-    d = {}
-    cur, buf = None, []
-    with open(f"{G}/{asm}.fa") as f:
-        for ln in f:
-            if ln.startswith(">"):
-                if cur: d[cur] = "".join(buf)
-                cur, buf = ln[1:].split()[0], []
-            else:
-                buf.append(ln.strip())
-    if cur: d[cur] = "".join(buf)
-    return d
+    # return a lazy fetcher: stream the fasta, capture only the wanted contig
+    class Fetcher:
+        def get(self, name):
+            if "|" in name:
+                parts = [p for p in name.split("|") if p]
+                name = parts[1] if len(parts) > 1 else parts[0]
+            grab, buf = False, []
+            with open(f"{G}/{asm}.fna") as f:
+                for ln in f:
+                    if ln.startswith(">"):
+                        if grab:
+                            return "".join(buf)
+                        grab = ln[1:].split()[0] == name
+                    elif grab:
+                        buf.append(ln.strip())
+            return "".join(buf) if grab else None
+    return Fetcher()
 
 def orfs(seq, exclude):
     out = []

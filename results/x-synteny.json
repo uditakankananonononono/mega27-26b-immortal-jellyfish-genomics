@@ -1,0 +1,56 @@
+{
+ "Tdohrnii": {
+  "status": "ok",
+  "n_orfs": 41,
+  "window": 80266
+ },
+ "Trubra": {
+  "status": "ok",
+  "n_orfs": 53,
+  "window": 80266,
+  "conserved_neighbor_orfs": 1,
+  "td_orfs_total": 41
+ },
+ "Aaurita": {
+  "status": "ok",
+  "n_orfs": 66,
+  "window": 96351,
+  "conserved_neighbor_orfs": 1,
+  "td_orfs_total": 41
+ },
+ "Clytia": {
+  "status": "ok",
+  "n_orfs": 60,
+  "window": 80705,
+  "conserved_neighbor_orfs": 0,
+  "td_orfs_total": 41
+ },
+ "TdohrniiOviedo": {
+  "status": "ok",
+  "n_orfs": 1,
+  "window": 9328,
+  "conserved_neighbor_orfs": 1,
+  "td_orfs_total": 41
+ },
+ "Hvulgaris": {
+  "status": "ok",
+  "n_orfs": 80,
+  "window": 80368,
+  "conserved_neighbor_orfs": 0,
+  "td_orfs_total": 41
+ },
+ "Nvectensis": {
+  "status": "ok",
+  "n_orfs": 54,
+  "window": 68045,
+  "conserved_neighbor_orfs": 0,
+  "td_orfs_total": 41
+ },
+ "Mvirulenta": {
+  "status": "ok",
+  "n_orfs": 59,
+  "window": 80137,
+  "conserved_neighbor_orfs": 0,
+  "td_orfs_total": 41
+ }
+}

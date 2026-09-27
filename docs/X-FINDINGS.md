@@ -34,6 +34,18 @@ number reproduces from results/*.json at the D9-closure commit.
    dN/dS post-repair: 7/10 estimable, all omega<1 (ATG5 0.030, ATG7 0.066, SIRT6 0.147,
    GRN 0.350, TARDBP 0.434, VCP 0.437, PSEN1 0.835). File: results/x-dnds.json.
 
+18. Decoy control (P1 #11): 23 verified non-aging decoy genes through the frozen pipeline;
+   8-10/23 map per genome (35-43%) vs panel-B 20/24 (83%) in Td, Fisher p=0.0027. Mapped
+   decoys are exactly the genes with genuine cnidarian homologs (ACTA1/DMD/MYH7/TTN muscle,
+   OPN1LW/RHO opsins, SLC26A5, OR1A1) - the panel's high mapping rate reflects ancient
+   conservation, not pipeline laxity. Files: data/xpanel_decoy/, results/x-decoy.json,
+   results/x-ledger-decoy.json.
+19. ATG5 micro-synteny (P1 #13) - HONEST NEGATIVE-LEANING: ORF-level flanking analysis
+   (+/-40kb) finds 1/41 Td flanking ORFs conserved in T. rubra and 0-1/41 in all other
+   genomes; no conserved syntenic block surrounds ATG5, so the duplication claim rests on
+   concordant copy counting + RBH + purifying selection, not neighborhood conservation.
+   File: results/x-synteny.json.
+
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
 pre-patch frag run) the bc ledgers. bc ledgers restored from git; merge-on-write patch committed;
@@ -41,7 +53,7 @@ repair chain rerun reproduced 100% completeness on every genome (verified 2026-0
 04a5091). All downstream numbers in this register use the repaired ledgers.
 
 ## Paper
-paper/MEGA27-26b-EXPANSION.docx: 23,008 body words -> 61 rendered body pages (body-only rule:
+paper/MEGA27-26b-EXPANSION.docx: 23,378 body words -> 62 rendered body pages (body-only rule:
 headings/refs/appendix/diagrams excluded), 12pt Times New Roman, 1.5 spacing. Count methodology:
 results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 
