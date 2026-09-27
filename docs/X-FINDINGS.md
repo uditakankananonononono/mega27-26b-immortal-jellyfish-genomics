@@ -84,7 +84,7 @@ number reproduces from results/*.json at the D9-closure commit.
    honestly. Discovery yield: non-panel GenAge genes with high Td evidence -
    RAD51 0.846, HDAC3 0.817 (+HDAC1/2), CHEK2 0.71, SERPINE1 0.727, SOD2 0.68
    (pairs with rank-1 SOD1). Converges on genome-maintenance/chromatin/redox
-   modules. Oviedo concordance pending. File: results/x-genage-aees.json.
+   modules. Oviedo/Trubra phase 2 complete: 188 strong genes per Td assembly (184 shared); Trubra 192 strong, 177/184 shared Td calls also strong in congener. The seven Td-shared/Trubra-nonstrong calls are NOT species-specific proof. Frozen AEES rerank p=0.356 (still not enriched); RAD51 0.971, HDAC3 0.942, SOD2 0.811 with Oviedo agreement. File: results/x-genage-aees.json and results/x-ledger-genage.json.
 
 ## Deviation D8 (overwrite bug, logged in X-DEVIATIONS.md)
 x_map.py overwrote result files on subset reruns, wiping coreg/ext2 5-genome ledgers and (via a
