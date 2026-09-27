@@ -34,6 +34,8 @@ def base_doc():
     st = doc.styles["Normal"]
     st.font.name = "Times New Roman"; st.font.size = Pt(12)
     st.paragraph_format.line_spacing = 1.5
+    cp = doc.core_properties
+    cp.author = ""; cp.last_modified_by = ""; cp.title = ""
     return doc
 
 def build_full():
