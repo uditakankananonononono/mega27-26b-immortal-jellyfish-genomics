@@ -1,0 +1,162 @@
+{
+  "source_run": "DRR267480",
+  "reference": "GCA_027922465.2 TUR_r2.0.1 full genome",
+  "sampling": "systematic odd reads by original FASTQ record ordinal (50%, no replacement)",
+  "fastq_files": [
+    {
+      "path": "/tmp/odd_q1.gz",
+      "lines": 852068,
+      "reads": 213017
+    },
+    {
+      "path": "/tmp/odd_q2.gz",
+      "lines": 852072,
+      "reads": 213018
+    },
+    {
+      "path": "/tmp/odd_q3.gz",
+      "lines": 852068,
+      "reads": 213017
+    },
+    {
+      "path": "/tmp/odd_q4a.gz",
+      "lines": 426036,
+      "reads": 106509
+    },
+    {
+      "path": "/tmp/odd_q4b.fastq.gz",
+      "lines": 426036,
+      "reads": 106509
+    }
+  ],
+  "paf_rows": 883720,
+  "duplicate_alignment_signatures_skipped": 1368,
+  "mapq30_len500_alignments": 663634,
+  "unique_mapq30_reads": 574201,
+  "background": {
+    "window_bp": 50000,
+    "windows": 8187,
+    "median_depth": 9.15832,
+    "p10": 5.31704,
+    "p90": 14.02446,
+    "target_contigs_excluded": true
+  },
+  "targets": {
+    "copyA": {
+      "contig": "BQMF02000106.1",
+      "start": 66386,
+      "end": 66652,
+      "overlapping_alignments": 8,
+      "zones": {
+        "locus": {
+          "mean": 7.4831,
+          "median": 7,
+          "ratio_to_background": 0.8171,
+          "min": 7,
+          "max": 8
+        },
+        "core_1kb": {
+          "mean": 7.0013,
+          "median": 7,
+          "ratio_to_background": 0.7645,
+          "min": 3,
+          "max": 8
+        },
+        "left_5kb": {
+          "mean": 9.5688,
+          "median": 10.0,
+          "ratio_to_background": 1.0448,
+          "min": 7,
+          "max": 10
+        },
+        "right_5kb": {
+          "mean": 1.8636,
+          "median": 1.0,
+          "ratio_to_background": 0.2035,
+          "min": 0,
+          "max": 4
+        }
+      }
+    },
+    "copyB": {
+      "contig": "BQMF02000418.1",
+      "start": 205689,
+      "end": 205955,
+      "overlapping_alignments": 12,
+      "zones": {
+        "locus": {
+          "mean": 12,
+          "median": 12,
+          "ratio_to_background": 1.3103,
+          "min": 12,
+          "max": 12
+        },
+        "core_1kb": {
+          "mean": 11.6436,
+          "median": 12,
+          "ratio_to_background": 1.2714,
+          "min": 10,
+          "max": 13
+        },
+        "left_5kb": {
+          "mean": 7.8284,
+          "median": 5.0,
+          "ratio_to_background": 0.8548,
+          "min": 4,
+          "max": 15
+        },
+        "right_5kb": {
+          "mean": 13.577,
+          "median": 14.0,
+          "ratio_to_background": 1.4825,
+          "min": 8,
+          "max": 15
+        }
+      }
+    },
+    "paralog": {
+      "contig": "BQMF02000003.1",
+      "start": 2632220,
+      "end": 2633029,
+      "overlapping_alignments": 29,
+      "zones": {
+        "locus": {
+          "mean": 22.4407,
+          "median": 21.0,
+          "ratio_to_background": 2.4503,
+          "min": 19,
+          "max": 27
+        },
+        "core_1kb": {
+          "mean": 25.768,
+          "median": 23.0,
+          "ratio_to_background": 2.8136,
+          "min": 19,
+          "max": 36
+        },
+        "left_5kb": {
+          "mean": 42.5466,
+          "median": 42.0,
+          "ratio_to_background": 4.6457,
+          "min": 36,
+          "max": 47
+        },
+        "right_5kb": {
+          "mean": 17.7386,
+          "median": 21.0,
+          "ratio_to_background": 1.9369,
+          "min": 11,
+          "max": 24
+        }
+      }
+    }
+  },
+  "decision": "unresolved",
+  "limitations": [
+    "The gene spans only 267 bp per cnidarian-type copy, and copyA/copyB local flanks have sharp depth variation.",
+    "Mapping of homologous copies to a draft assembly is not an allele-phased structural validation.",
+    "Sampling halves depth; ratios compare the same thinned dataset only.",
+    "A read-depth contrast alone cannot establish immortality-related function."
+  ],
+  "decision_reason": "CopyA locus 0.82x genome median and copyB 1.31x; neither a uniform half-depth haplotig pattern nor a uniform single-copy-depth duplication pattern. Local flank depths are heterogeneous. Extra copy remains unconfirmed."
+}

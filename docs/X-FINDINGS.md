@@ -65,18 +65,23 @@ number reproduces from results/*.json at the D9-closure commit.
    and a framework-level benchmark (arm1 35/47 vs 27/47; arm2 35/47 vs 0/47;
    phmmer 20/20 reproduction of significant calls). Paper section 05e.
 
-22. ATG5 second-copy validation (D9 follow-on) - CLAIM DOWNGRADED PENDING TEST:
-   the two cnidarian-type ATG5 copies in the main Td assembly (BQMF02000106.1:66386,
-   BQMF02000418.1:205689) are 97.1% identical over 665bp (blastn e=0) - haplotig-range,
-   not diverged-paralog range. The independent Oviedo assembly shows ONE cnidarian-type
-   copy (452b, on a 9.3kb scaffold) + the shared paralog, matching Trubra's two-locus
-   state. The "extra copy" is thus main-assembly-only: unresolved between recent tandem
-   duplication and unresolved haplotig (Oviedo fragmentation could also have collapsed
-   a real copy). Decisive test in flight: PacBio subreads DRR267480 mapped to both
-   copies + paralog + 200 background windows; combined depth ~1x background = artifact,
-   ~2x = real duplication. Paper 08c/08d/08f amended to carry ATG5 as candidate under
-   test; SOD1 stands as the clean rank-1 candidate. Script: inline + experiments/x_synteny.py
-   machinery; results in /tmp pending depth run (will land as results/x-atg5-depth.json).
+22. ATG5 second-copy validation (D9 follow-on) - EXTRA COPY UNRESOLVED:
+   Two cnidarian-type loci in the main Td assembly are 97.1% identical over 665bp;
+   only one is recovered on the highly fragmented Oviedo assembly. The independently
+   sourced PacBio DRR267480 depth test is now complete (852,070 systematically
+   thinned odd reads mapped to the full 435.9 Mb genome; results/x-atg5-depth.json,
+   experiments/x_atg5_depth.py). The genome-wide median across 8,187 complete
+   50kb windows is 9.158x. At mapq>=30, copyA (BQMF02000106.1:66386-66652)
+   depth is 7.483x, or 0.817x background; copyB (BQMF02000418.1:205689-205955)
+   depth is 12.0x, or 1.310x background; the divergent human-detected paralog
+   depth is 22.44x, or 2.450x background. Dedupe 1,368 repeated alignment
+   signatures in 883,720 PAF rows; 663,634 alignments meet mapq>=30 and >=500bp.
+   Depth varies sharply within 5kb flanks; locus spans are only 267bp. The
+   frozen decision rule (both copies ~0.5x for haplotig, both ~1x for real
+   duplication) is NOT met uniformly. This is an INCONCLUSIVE test, not
+   validation of either scenario. ATG5 remains a candidate under direct
+   structural validation; no confirmed extra-copy discovery is claimed.
+   A better assembly/phased reads or locus-spanning long-read analysis is needed.
 
 23. Genome-wide GenAge arm phase 1 (P1 #16): 302/307 verified GenAge proteins mapped
    on Td main (188/231 detected). AEES top is housekeeping machinery as designed
@@ -102,7 +107,7 @@ results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 - ATG5: universal across all 8 genomes. Td duplication (2 loci, both assemblies, concordant stats) vs 1 in Trubra. But Clytia 2, Nvectensis 4 - copy number alone does NOT track immortality (claim narrowed).
 - Signal quality tracks non-senescence: Hvulgaris best ATG5 (98.4% pident, qcov 0.79), Td next (0.69); mortals Aaurita (216 bits) and Mvirulenta (201 bits) weakest. n=2 per class - pattern, not statistic.
 - Module: ATG7/BECN1 intact everywhere; Hvulgaris ATG7+BECN1 100% pident.
-- NEW CONTROL (judge S5): reciprocal-best-hit 20/20 PASS on top-10 AEES genes x both Td assemblies (results/x-rbh.json). Orthology confirmed incl. duplicated ATG5 loci.
+- NEW CONTROL (judge S5): reciprocal-best-hit 20/20 PASS on top-10 AEES genes x both Td assemblies (results/x-rbh.json). Orthology supported for ATG5-matching loci; whether the extra main-assembly sequence is a distinct copy remains unresolved.
 - ATG5 validation: step1 PASS, step2 PASS, step3 PASS-with-narrowing, step4 (SRA raw reads) OPEN.
 
 ## 2026-09-27 provided-verdict amendments (fast items landed)
