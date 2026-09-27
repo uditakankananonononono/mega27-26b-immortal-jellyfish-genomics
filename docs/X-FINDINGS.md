@@ -46,3 +46,8 @@ results/x-papercount.json; rendered PDF inspected visually (pages 2-3, 26).
 - Module: ATG7/BECN1 intact everywhere; Hvulgaris ATG7+BECN1 100% pident.
 - NEW CONTROL (judge S5): reciprocal-best-hit 20/20 PASS on top-10 AEES genes x both Td assemblies (results/x-rbh.json). Orthology confirmed incl. duplicated ATG5 loci.
 - ATG5 validation: step1 PASS, step2 PASS, step3 PASS-with-narrowing, step4 (SRA raw reads) OPEN.
+
+## 2026-09-27 provided-verdict amendments (fast items landed)
+- P1 archived: judge gate MET 1 of 1 provided (X-JUDGE-ROUNDS.md, wamid ...OEI5RgA=); queue docs/X-AMENDMENTS-P1.md locked pre-execution.
+- Item 7 (AEES weight subjectivity): sensitivity analysis (results/x-aees-sensitivity.json). ATG5 rank = 1 under frozen AND equal weights; under 200 random weightings rank ranges 1-27 (mean top-5 overlap 3.71/5). Honest read: frozen top-5 core (ATG5, APP, ATG7, PSEN1, GHR) is robust to reasonable weightings; extreme weightings reshuffle - disclosed.
+- Item 17 (enrichment framework): Fisher exact tests of aging-DB membership among high-AEES (>=0.75, n=20/44) genes (results/x-enrichment.json). NEGATIVE on all 4 databases (GenAge human OR 1.33 q=0.771; GenAge models OR 2.44 q=0.763; CellAge OR 0.82 q=0.771; LongevityMap OR 0.56 q=0.763). Disclosed confound: the universe is the aging-biased panel itself, so within-panel enrichment is weak by construction; the unbiased genome-wide arm (item 16) is the non-circular test.

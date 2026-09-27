@@ -31,7 +31,7 @@ def main():
     with open(MOCK, "w") as out:
         seq, hdr = [], None
         def flush_scaf(seq):
-            global nout, total
+            nonlocal nout, total
             s = "".join(seq)
             i = 0
             while i < len(s):
