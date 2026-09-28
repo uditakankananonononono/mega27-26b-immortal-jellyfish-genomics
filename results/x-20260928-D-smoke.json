@@ -1,0 +1,26 @@
+{
+  "mode": "source-verified raw bootstrap smoke, NOT full end-to-end reproduction",
+  "source_checks": {
+    "genome": {
+      "bytes": 132442290,
+      "sha256": "a737d6555298201d5a09db6a448c2209915e8e811d46dc6e506fc29fb70c99a7"
+    },
+    "hc_pep": {
+      "bytes": 7626008,
+      "sha256": "bc552932208d0e6c8e63197a99057289b3ca54ceb00b4184df67c2055fef2beb"
+    },
+    "hc_gff": {
+      "bytes": 6049145,
+      "sha256": "3e59a2de081dd0bdc1be7a8f9c01baabd7cb8101a3a0f2313f6e9b623d9d3a39"
+    }
+  },
+  "ATG5_smoke_rows": 1,
+  "target_accessions": [
+    "Tur_r2.0_p0003.1"
+  ],
+  "limitations": [
+    "only one query and main assembly; no raw RNA or PacBio fetched",
+    "does not regenerate all ledgers, tables, figures or paper",
+    "full raw program still needs portable versioned dependencies, full datasets and higher disk/RAM"
+  ]
+}

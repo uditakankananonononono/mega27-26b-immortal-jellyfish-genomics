@@ -4,9 +4,11 @@ checks target contig identity, builds local BLAST DB, maps a fixed sample query.
 """
 import argparse,gzip,hashlib,json,subprocess,urllib.request
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--workdir',required=True);p.add_argument('--tblastn',required=True);p.add_argument('--makeblastdb',required=True);p.add_argument('--query',default='data/xpanel_fixed/human_ATG5.faa');p.add_argument('--manifest',default='results/x-20260928-D-raw-manifest.json');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--workdir',required=True);p.add_argument('--tblastn',default='tblastn');p.add_argument('--makeblastdb',default='makeblastdb');p.add_argument('--query',default='data/xpanel_fixed/human_ATG5.faa');p.add_argument('--manifest',default='results/x-20260928-D-raw-manifest.json');a=p.parse_args()
 w=Path(a.workdir).resolve();w.mkdir(parents=True,exist_ok=True)
 m=json.load(open(a.manifest));actual={}
+for executable in (a.tblastn,a.makeblastdb):
+ assert subprocess.run([executable,'-version'],capture_output=True).returncode==0,executable
 for key,src in m['sources'].items():
  path=w/src['filename'];expect=src['sha256'];size=src['bytes']
  if not path.exists() or path.stat().st_size!=size:
