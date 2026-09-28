@@ -1,0 +1,389 @@
+{
+  "status": "NO_VALIDATED_EXPANSION",
+  "train_commit": "7a806e176155ff397e2f54b67f2cb954ad98b813",
+  "final_lock": "46698df1742df9135a6585d010f8827c54c492c1",
+  "primary_groups": 24270,
+  "qualifying": 85,
+  "top20": [
+    {
+      "rank": 1,
+      "rep": "M011282",
+      "M_proteins": 12,
+      "R_proteins": 1,
+      "M_distinct_contigs": 12,
+      "M_gene_models": [
+        "Tur_r2.0_p1017.1.g36749.t1",
+        "Tur_r2.0_p0108.1.g11907.t1",
+        "Tur_r2.0_p0051.1.g34558.t1",
+        "Tur_r2.0_p0398.1.g38091.t1",
+        "Tur_r2.0_p0142.1.g43316.t1",
+        "Tur_r2.0_p0296.1.g47017.t1",
+        "Tur_r2.0_p0007.1.g3728.t1",
+        "Tur_r2.0_p0292.1.g42137.t1",
+        "Tur_r2.0_p0064.1.g21516.t1",
+        "Tur_r2.0_p0497.1.g32227.t1",
+        "Tur_r2.0_p0111.1.g52233.t1",
+        "Tur_r2.0_p0014.1.g62962.t1"
+      ],
+      "strict_max_M": 6,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 7,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 2,
+      "rep": "M001944",
+      "M_proteins": 9,
+      "R_proteins": 1,
+      "M_distinct_contigs": 9,
+      "M_gene_models": [
+        "Tur_r2.0_p0583.1.g5077.t1",
+        "Tur_r2.0_p0349.1.g24662.t1",
+        "Tur_r2.0_p0524.1.g33961.t1",
+        "Tur_r2.0_p1023.1.g64698.t1",
+        "Tur_r2.0_p0489.1.g65127.t1",
+        "Tur_r2.0_p0998.1.g1813.t1",
+        "Tur_r2.0_p0727.1.g25863.t1",
+        "Tur_r2.0_p1087.1.g47612.t1",
+        "Tur_r2.0_p0699.1.g47808.t1"
+      ],
+      "strict_max_M": 6,
+      "Oviedo_hits_to_train_representative": 7,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 3,
+      "rep": "R008205",
+      "M_proteins": 17,
+      "R_proteins": 2,
+      "M_distinct_contigs": 17,
+      "M_gene_models": [
+        "Tur_r2.0_p0093.1.g22727.t1",
+        "Tur_r2.0_p0369.1.g21189.t1",
+        "Tur_r2.0_p0242.1.g25202.t1",
+        "Tur_r2.0_p0004.1.g26467.t1",
+        "Tur_r2.0_p0001.1.g26882.t1",
+        "Tur_r2.0_p0199.1.g31512.t1",
+        "Tur_r2.0_p0096.1.g35215.t1",
+        "Tur_r2.0_p0115.1.g36532.t1",
+        "Tur_r2.0_p0910.1.g38492.t1",
+        "Tur_r2.0_p0219.1.g48589.t1",
+        "Tur_r2.0_p0542.1.g48736.t1",
+        "Tur_r2.0_p0364.1.g56266.t1",
+        "Tur_r2.0_p0992.1.g56842.t1",
+        "Tur_r2.0_p1149.1.g58146.t1",
+        "Tur_r2.0_p0661.1.g61624.t1",
+        "Tur_r2.0_p0095.1.g65864.t1",
+        "Tur_r2.0_p0731.1.g69153.t1"
+      ],
+      "strict_max_M": 15,
+      "Oviedo_hits_to_train_representative": 12,
+      "Clytia_hits_to_train_representative": 1,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 4,
+      "rep": "R004789",
+      "M_proteins": 8,
+      "R_proteins": 1,
+      "M_distinct_contigs": 8,
+      "M_gene_models": [
+        "Tur_r2.0_p0060.1.g65401.t1",
+        "Tur_r2.0_p0085.1.g4908.t1",
+        "Tur_r2.0_p0680.1.g12028.t1",
+        "Tur_r2.0_p0092.1.g13759.t1",
+        "Tur_r2.0_p0162.1.g31815.t1",
+        "Tur_r2.0_p1029.1.g39993.t1",
+        "Tur_r2.0_p0061.1.g42529.t1",
+        "Tur_r2.0_p0896.1.g46933.t1"
+      ],
+      "strict_max_M": 9,
+      "Oviedo_hits_to_train_representative": 5,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 5,
+      "rep": "M004995",
+      "M_proteins": 6,
+      "R_proteins": 1,
+      "M_distinct_contigs": 3,
+      "M_gene_models": [
+        "Tur_r2.0_p0226.1.g17927.t1",
+        "Tur_r2.0_p0226.1.g17926.t1",
+        "Tur_r2.0_p0226.1.g17946.t1",
+        "Tur_r2.0_p0119.1.g33181.t1",
+        "Tur_r2.0_p0119.1.g33182.t1",
+        "Tur_r2.0_p0971.1.g56646.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 2,
+      "Clytia_hits_to_train_representative": 1,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 6,
+      "rep": "M001160",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 5,
+      "M_gene_models": [
+        "Tur_r2.0_p0040.1.g3011.t5",
+        "Tur_r2.0_p0052.1.g13084.t1",
+        "Tur_r2.0_p0474.1.g40688.t1",
+        "Tur_r2.0_p0107.1.g54850.t1",
+        "Tur_r2.0_p0142.1.g43340.t1"
+      ],
+      "strict_max_M": 3,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 7,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 7,
+      "rep": "M006286",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 5,
+      "M_gene_models": [
+        "Tur_r2.0_p0990.1.g21616.t1",
+        "Tur_r2.0_p0215.1.g30943.t1",
+        "Tur_r2.0_p0117.1.g35333.t1",
+        "Tur_r2.0_p0333.1.g59254.t1",
+        "Tur_r2.0_p0187.1.g59571.t1"
+      ],
+      "strict_max_M": 3,
+      "Oviedo_hits_to_train_representative": 2,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 8,
+      "rep": "M008639",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0103.1.g28961.t1",
+        "Tur_r2.0_p0486.1.g25330.t1",
+        "Tur_r2.0_p0498.1.g35813.t1",
+        "Tur_r2.0_p0498.1.g35815.t1",
+        "Tur_r2.0_p0142.1.g43345.t1"
+      ],
+      "strict_max_M": 5,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 9,
+      "rep": "M011200",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0485.1.g36430.t1",
+        "Tur_r2.0_p0157.1.g458.t1",
+        "Tur_r2.0_p0610.1.g32319.t1",
+        "Tur_r2.0_p0485.1.g36435.t1",
+        "Tur_r2.0_p0384.1.g52986.t1"
+      ],
+      "strict_max_M": 6,
+      "Oviedo_hits_to_train_representative": 2,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 10,
+      "rep": "M021522",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0797.1.g68253.t1",
+        "Tur_r2.0_p0917.1.g36713.t1",
+        "Tur_r2.0_p0538.1.g37560.t1",
+        "Tur_r2.0_p0797.1.g68252.t1",
+        "Tur_r2.0_p0044.1.g68575.t1"
+      ],
+      "strict_max_M": 5,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 11,
+      "rep": "M022347",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 5,
+      "M_gene_models": [
+        "Tur_r2.0_p0177.1.g70926.t2",
+        "Tur_r2.0_p0008.1.g29728.t1",
+        "Tur_r2.0_p0098.1.g62591.t1",
+        "Tur_r2.0_p0029.1.g17095.t1",
+        "Tur_r2.0_p0066.1.g60451.t1"
+      ],
+      "strict_max_M": 5,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 13,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 12,
+      "rep": "R006389",
+      "M_proteins": 5,
+      "R_proteins": 1,
+      "M_distinct_contigs": 5,
+      "M_gene_models": [
+        "Tur_r2.0_p0618.1.g42800.t1",
+        "Tur_r2.0_p0022.1.g12440.t1",
+        "Tur_r2.0_p0010.1.g34147.t1",
+        "Tur_r2.0_p0750.1.g65500.t1",
+        "Tur_r2.0_p0404.1.g72031.t1"
+      ],
+      "strict_max_M": 5,
+      "Oviedo_hits_to_train_representative": 6,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 13,
+      "rep": "M000374",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 1,
+      "M_gene_models": [
+        "Tur_r2.0_p0383.1.g1041.t1",
+        "Tur_r2.0_p0383.1.g1037.t1",
+        "Tur_r2.0_p0383.1.g1039.t1",
+        "Tur_r2.0_p0383.1.g1040.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 4,
+      "Clytia_hits_to_train_representative": 2,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 14,
+      "rep": "M005768",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0016.1.g20324.t1",
+        "Tur_r2.0_p0083.1.g12273.t1",
+        "Tur_r2.0_p0280.1.g43726.t1",
+        "Tur_r2.0_p0102.1.g14407.t1"
+      ],
+      "strict_max_M": 2,
+      "Oviedo_hits_to_train_representative": 12,
+      "Clytia_hits_to_train_representative": 0,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 15,
+      "rep": "M006662",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0173.1.g23245.t1",
+        "Tur_r2.0_p0093.1.g22707.t1",
+        "Tur_r2.0_p0481.1.g21087.t1",
+        "Tur_r2.0_p0197.1.g59450.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 4,
+      "Clytia_hits_to_train_representative": 13,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 16,
+      "rep": "M009722",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 2,
+      "M_gene_models": [
+        "Tur_r2.0_p0366.1.g32104.t1",
+        "Tur_r2.0_p0295.1.g10942.t1",
+        "Tur_r2.0_p0295.1.g10912.t1",
+        "Tur_r2.0_p0366.1.g32128.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 5,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 17,
+      "rep": "M010860",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0096.1.g35147.t1",
+        "Tur_r2.0_p0058.1.g73194.t1",
+        "Tur_r2.0_p0004.1.g26226.t1",
+        "Tur_r2.0_p0128.1.g30358.t1"
+      ],
+      "strict_max_M": 2,
+      "Oviedo_hits_to_train_representative": 0,
+      "Clytia_hits_to_train_representative": 3,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 18,
+      "rep": "M017976",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 1,
+      "M_gene_models": [
+        "Tur_r2.0_p0126.1.g56781.t1",
+        "Tur_r2.0_p0126.1.g56753.t1",
+        "Tur_r2.0_p0126.1.g56782.t1",
+        "Tur_r2.0_p0126.1.g56790.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 2,
+      "Clytia_hits_to_train_representative": 8,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 19,
+      "rep": "M018527",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 4,
+      "M_gene_models": [
+        "Tur_r2.0_p0127.1.g58504.t1",
+        "Tur_r2.0_p0411.1.g1511.t1",
+        "Tur_r2.0_p0360.1.g33627.t1",
+        "Tur_r2.0_p0098.1.g62608.t1"
+      ],
+      "strict_max_M": 8,
+      "Oviedo_hits_to_train_representative": 19,
+      "Clytia_hits_to_train_representative": 1,
+      "BH_q_all_training_clusters": 1.0
+    },
+    {
+      "rank": 20,
+      "rep": "M020582",
+      "M_proteins": 4,
+      "R_proteins": 1,
+      "M_distinct_contigs": 3,
+      "M_gene_models": [
+        "Tur_r2.0_p0334.1.g65766.t1",
+        "Tur_r2.0_p0269.1.g994.t1",
+        "Tur_r2.0_p0053.1.g72860.t1",
+        "Tur_r2.0_p0053.1.g72808.t1"
+      ],
+      "strict_max_M": 4,
+      "Oviedo_hits_to_train_representative": 19,
+      "Clytia_hits_to_train_representative": 48,
+      "BH_q_all_training_clusters": 1.0
+    }
+  ],
+  "limitation": "DIAMOND hits to the frozen representative are not orthogroup assignments, not independent DNA locus validation. Some top clusters contain neighboring gene predictions on the same contig. All top-20 all-cluster BH q=1.0; annotation counts differ 2.5-fold and Fisher exchangeability is dubious. The locked empirical null plus independent structural gate was not met. Panel-free sweep is a real exploratory analysis, NOT a positive gene-family discovery."
+}
