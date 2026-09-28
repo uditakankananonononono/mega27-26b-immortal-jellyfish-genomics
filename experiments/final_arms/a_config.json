@@ -1,0 +1,12 @@
+{
+  "date_lock": "2026-09-28T10:22:00+05:30",
+  "method": "MMseqs2 easy-cluster, whole predicted proteomes, no gene-list filtering; cluster representative membership is provisional family proxy",
+  "tool": "MMseqs2 18-8cc5c (binary SHA256 bd9b0234da5949ad528d5b5f9ea4cda9c1e23dce14b46c0791d4d919a76e61ce archive)",
+  "train": {"M": "Kyushu TUR_r2.0.1_pep_HC.fa.gz (23314, SHA256 bc552932208d0e6c8e63197a99057289b3ca54ceb00b4184df67c2055fef2beb)", "R": "Oviedo group T. rubra MAKER2, 9324, SHA256 38558c6debceb107be62ac2f23a153225e4f3cf435f54946e3f764121a90534c"},
+  "holdout": {"O": "Oviedo group independent T. dohrnii MAKER2 17469, SHA256 6bfe8ae8ac13ada336730cc98f740b81e3d0080facb41a0bee361530ee3a8ae1", "C": "Clytia Ensembl release 62 25895, SHA256 678ceeee5d17777aff65514978568c228c20bebe81fe0e24182c1d726d821d1a"},
+  "primary": {"min_seq_id": 0.30, "min_coverage_both": 0.70, "cluster_mode": 0},
+  "sensitivity": {"min_seq_id": 0.50, "min_coverage_both": 0.80, "cluster_mode": 0},
+  "ranking": "main-vs-rubra family size ratio corrected by proteome sizes (M/23314)/(R/9324), only families with M>=3 and R>=1; freeze top20 before holdout. Main-only clusters are catalogued but not given infinite-ratio discovery credit. Family membership must be checked for isoforms and intact distinct loci before any expansion claim.",
+  "null": "Benjamini-Hochberg across all tested families on one-sided Fisher exact tests of main vs rubra membership counts and remaining proteomes, exploratory due annotation imbalance; no biological PASS without independent structural/holdout support.",
+  "limits": "Different gene predictors and protein completeness (23314 main vs 9324 rubra) can mimic expansion. MMseqs clusters are similarity groups, not guaranteed orthogroups. Biological lifespan groups are not independent n>1."
+}
