@@ -1,0 +1,25 @@
+{
+  "retrieved_ist": "2026-09-28 10:31 IST",
+  "provider": "Kyushu University Turritopsis Genome Database",
+  "provider_page": "https://mogt.agr.kyushu-u.ac.jp/turritopsis/download.html",
+  "sources": {
+    "genome": {
+      "url": "https://mogt.agr.kyushu-u.ac.jp/turritopsis/DL/TUR_r2.0.1.fa.gz",
+      "filename": "TUR_r2.0.1.fa.gz",
+      "bytes": 132442290,
+      "sha256": "a737d6555298201d5a09db6a448c2209915e8e811d46dc6e506fc29fb70c99a7"
+    },
+    "hc_pep": {
+      "url": "https://mogt.agr.kyushu-u.ac.jp/turritopsis/DL/TUR_r2.0.1_pep_HC.fa.gz",
+      "filename": "TUR_r2.0.1_pep_HC.fa.gz",
+      "bytes": 7626008,
+      "sha256": "bc552932208d0e6c8e63197a99057289b3ca54ceb00b4184df67c2055fef2beb"
+    },
+    "hc_gff": {
+      "url": "https://mogt.agr.kyushu-u.ac.jp/turritopsis/DL/TUR_r2.0.1_HC.gff3.gz",
+      "filename": "TUR_r2.0.1_HC.gff3.gz",
+      "bytes": 6049145,
+      "sha256": "3e59a2de081dd0bdc1be7a8f9c01baabd7cb8101a3a0f2313f6e9b623d9d3a39"
+    }
+  }
+}
