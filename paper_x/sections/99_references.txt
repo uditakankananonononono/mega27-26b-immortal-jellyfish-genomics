@@ -18,3 +18,6 @@
 16. Altschul SF, et al. Gapped BLAST and PSI-BLAST. Nucleic Acids Res 25 (1997) 3389-3402. Camacho C, et al. BLAST+: architecture and applications. BMC Bioinformatics 10 (2009) 421.
 17. NCBI GenBank accessions: GCA_027922465.2, GCA_025167195.1, GCA_039566895.2, GCA_004194415.1, GCF_902728285.1.
 Society for Science. Natasha Kulviwat, "The Neurobiology of Suicide: Claudin-5 Is a Novel Biomarker of Suicide Pathogenesis," Regeneron ISEF 2023 abstract (project 23691), Gordon E. Moore Award. https://abstracts.societyforscience.org/Home/FullAbstract?AllAbstracts=False&Category=Biomedical+and+Health+Sciences&FairCountry=Any+Country&FairState=Any+State&ISEFYears=0%2C&ProjectId=23691 (accessed 2026-09-26).
+
+Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative genomics. Genome Biol 20 (2019) 238. https://pmc.ncbi.nlm.nih.gov/articles/PMC6857279/
+Han MV, Thomas GWC, Lugo-Martinez J, Hahn MW. Estimating gene gain and loss rates in the presence of error in genome assembly and annotation using CAFE 3. Mol Biol Evol 30 (2013) 1987-1997. https://academic.oup.com/mbe/article/30/8/1987/1017616
