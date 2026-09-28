@@ -25,9 +25,15 @@ for rep,v in p.items():
  odds,pvalue=fisher_exact([[m,r],[SIZES['M']-m,SIZES['R']-r]],alternative='greater')
  rows.append({'rep':rep,'members':v,'M':m,'R':r,'corrected_ratio':ratio,'fisher_p':pvalue,
  'strict_subcluster_max_M':max(sum(x.startswith('M') for x in strict_members[x]) for x in v)})
-qs=bh_adjust([x['fisher_p'] for x in rows])
-for x,qval in zip(rows,qs):x['BH_q_conditional']=float(qval)
+# Correct across the full searched family universe, not only selected candidates.
+allps=[]
+for v in p.values():
+ m=sum(x.startswith('M') for x in v);r=len(v)-m
+ allps.append(fisher_exact([[m,r],[SIZES['M']-m,SIZES['R']-r]],alternative='greater')[1])
+allq=bh_adjust(allps)
+fullq=dict(zip(p,allq))
+for x in rows:x['BH_q_all_clusters']=float(fullq[x['rep']])
 rows.sort(key=lambda x:(-x['corrected_ratio'],-x['M'],x['rep']))
-out={'lock_commit':'6e793f08cba33c71d95df6af6ff4bbf25ce76e54','method':'MMseqs2 easy-linclust low-memory operational deviation from easy-cluster; primary and strict thresholds unchanged','train_proteome_sizes':SIZES,'primary_clusters':len(p),'strict_clusters':len(q),'qualifying_families':len(rows),'ranked':rows,'top20_frozen_reps':[x['rep'] for x in rows[:20]],'caution':'The Fisher/BH q values are conditional on M>=3/R>=1 selection and are exploratory; full-family correction and gene-model quality validation remain pending. Clusters are not orthogroups.'}
+out={'lock_commit':'6e793f08cba33c71d95df6af6ff4bbf25ce76e54','method':'MMseqs2 easy-linclust low-memory operational deviation from easy-cluster; primary and strict thresholds unchanged','train_proteome_sizes':SIZES,'primary_clusters':len(p),'strict_clusters':len(q),'qualifying_families':len(rows),'ranked':rows,'top20_frozen_reps':[x['rep'] for x in rows[:20]],'caution':'Fisher/BH spans all primary clusters, but exchangeability is invalid when gene-prediction quality and proteome sizes differ markedly; q values are exploratory, not expansion validation. Clusters are not orthogroups.'}
 Path('results/x-20260928-A-train-ranking.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps({'clusters':len(p),'qualifying':len(rows),'top20':[(x['rep'],x['M'],x['R'],round(x['corrected_ratio'],3)) for x in rows[:20]]},indent=2))

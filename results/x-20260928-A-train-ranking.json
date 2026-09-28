@@ -31,7 +31,7 @@
       "corrected_ratio": 4.79917646049584,
       "fisher_p": 0.078111290125324,
       "strict_subcluster_max_M": 6,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M001944",
@@ -52,7 +52,7 @@
       "corrected_ratio": 3.59938234537188,
       "fisher_p": 0.17287713214806533,
       "strict_subcluster_max_M": 6,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R008205",
@@ -82,7 +82,7 @@
       "corrected_ratio": 3.3994166595178865,
       "fisher_p": 0.060156652342309026,
       "strict_subcluster_max_M": 15,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R004789",
@@ -102,7 +102,7 @@
       "corrected_ratio": 3.1994509736638927,
       "fisher_p": 0.22267108681990255,
       "strict_subcluster_max_M": 9,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M004995",
@@ -120,7 +120,7 @@
       "corrected_ratio": 2.39958823024792,
       "fisher_p": 0.3605388429015187,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M001160",
@@ -137,7 +137,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M006286",
@@ -154,7 +154,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M008639",
@@ -171,7 +171,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M011200",
@@ -188,7 +188,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 6,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M021522",
@@ -205,7 +205,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022347",
@@ -222,7 +222,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R006389",
@@ -239,7 +239,7 @@
       "corrected_ratio": 1.999656858539933,
       "fisher_p": 0.4516185350608578,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M000374",
@@ -255,7 +255,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M005768",
@@ -271,7 +271,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M006662",
@@ -287,7 +287,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M009722",
@@ -303,7 +303,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M010860",
@@ -319,7 +319,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M017976",
@@ -335,7 +335,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M018527",
@@ -351,7 +351,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 8,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M020582",
@@ -367,7 +367,7 @@
       "corrected_ratio": 1.5997254868319464,
       "fisher_p": 0.5578716637089184,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M016949",
@@ -387,7 +387,7 @@
       "corrected_ratio": 1.399759800977953,
       "fisher_p": 0.5015103963813864,
       "strict_subcluster_max_M": 7,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M003526",
@@ -406,7 +406,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.5882492381053777,
       "strict_subcluster_max_M": 6,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M021681",
@@ -425,7 +425,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.5882492381053777,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R004660",
@@ -444,7 +444,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.5882492381053777,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M000478",
@@ -459,7 +459,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M003104",
@@ -474,7 +474,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M004320",
@@ -489,7 +489,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M005008",
@@ -504,7 +504,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M007732",
@@ -519,7 +519,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M008442",
@@ -534,7 +534,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M008678",
@@ -549,7 +549,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M010149",
@@ -564,7 +564,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M010671",
@@ -579,7 +579,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M011059",
@@ -594,7 +594,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M011617",
@@ -609,7 +609,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M012903",
@@ -624,7 +624,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M015290",
@@ -639,7 +639,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M019531",
@@ -654,7 +654,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M019635",
@@ -669,7 +669,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M019828",
@@ -684,7 +684,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M020337",
@@ -699,7 +699,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M020604",
@@ -714,7 +714,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022185",
@@ -729,7 +729,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022792",
@@ -744,7 +744,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022892",
@@ -759,7 +759,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M023310",
@@ -774,7 +774,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R001612",
@@ -789,7 +789,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R002004",
@@ -804,7 +804,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R002009",
@@ -819,7 +819,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R005442",
@@ -834,7 +834,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R008746",
@@ -849,7 +849,7 @@
       "corrected_ratio": 1.19979411512396,
       "fisher_p": 0.6768664163037333,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M004681",
@@ -867,7 +867,7 @@
       "corrected_ratio": 0.9998284292699665,
       "fisher_p": 0.6793177654592055,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M008868",
@@ -885,7 +885,7 @@
       "corrected_ratio": 0.9998284292699665,
       "fisher_p": 0.6793177654592055,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M016563",
@@ -903,7 +903,7 @@
       "corrected_ratio": 0.9998284292699665,
       "fisher_p": 0.6793177654592055,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022423",
@@ -921,7 +921,7 @@
       "corrected_ratio": 0.9998284292699665,
       "fisher_p": 0.6793177654592055,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M012746",
@@ -944,7 +944,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.760554921490318,
       "strict_subcluster_max_M": 6,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M002544",
@@ -961,7 +961,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M010421",
@@ -978,7 +978,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M012874",
@@ -995,7 +995,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M018637",
@@ -1012,7 +1012,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M022353",
@@ -1029,7 +1029,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R000059",
@@ -1046,7 +1046,7 @@
       "corrected_ratio": 0.7998627434159732,
       "fisher_p": 0.7703779210050398,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R001295",
@@ -1065,7 +1065,7 @@
       "corrected_ratio": 0.6665522861799777,
       "fisher_p": 0.8310986443822519,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R002206",
@@ -1084,7 +1084,7 @@
       "corrected_ratio": 0.6665522861799777,
       "fisher_p": 0.8310986443822519,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M019498",
@@ -1105,7 +1105,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8732294912518475,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9358305462628348
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M002218",
@@ -1121,7 +1121,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M002565",
@@ -1137,7 +1137,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M003675",
@@ -1153,7 +1153,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M004767",
@@ -1169,7 +1169,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M005476",
@@ -1185,7 +1185,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M005627",
@@ -1201,7 +1201,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M008389",
@@ -1217,7 +1217,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M010209",
@@ -1233,7 +1233,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M016443",
@@ -1249,7 +1249,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M019399",
@@ -1265,7 +1265,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R001343",
@@ -1281,7 +1281,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 1,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R004555",
@@ -1297,7 +1297,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R004975",
@@ -1313,7 +1313,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R005073",
@@ -1329,7 +1329,7 @@
       "corrected_ratio": 0.59989705756198,
       "fisher_p": 0.8553585451959558,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9321214915596954
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R007681",
@@ -1352,7 +1352,7 @@
       "corrected_ratio": 0.5599039203911813,
       "fisher_p": 0.9035736253909684,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9366311970516136
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R005758",
@@ -1377,7 +1377,7 @@
       "corrected_ratio": 0.5332418289439821,
       "fisher_p": 0.9259534872833539,
       "strict_subcluster_max_M": 8,
-      "BH_q_conditional": 0.9482656195070492
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M003467",
@@ -1395,7 +1395,7 @@
       "corrected_ratio": 0.5332418289439821,
       "fisher_p": 0.891791461732819,
       "strict_subcluster_max_M": 3,
-      "BH_q_conditional": 0.9358305462628348
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "R008300",
@@ -1413,7 +1413,7 @@
       "corrected_ratio": 0.5332418289439821,
       "fisher_p": 0.891791461732819,
       "strict_subcluster_max_M": 4,
-      "BH_q_conditional": 0.9358305462628348
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M021686",
@@ -1434,7 +1434,7 @@
       "corrected_ratio": 0.39993137170798665,
       "fisher_p": 0.9623971045848864,
       "strict_subcluster_max_M": 5,
-      "BH_q_conditional": 0.9623971045848864
+      "BH_q_all_clusters": 1.0
     },
     {
       "rep": "M014219",
@@ -1451,7 +1451,7 @@
       "corrected_ratio": 0.39993137170798665,
       "fisher_p": 0.9403391693868719,
       "strict_subcluster_max_M": 2,
-      "BH_q_conditional": 0.9515336833081443
+      "BH_q_all_clusters": 1.0
     }
   ],
   "top20_frozen_reps": [
@@ -1476,5 +1476,5 @@
     "M018527",
     "M020582"
   ],
-  "caution": "The Fisher/BH q values are conditional on M>=3/R>=1 selection and are exploratory; full-family correction and gene-model quality validation remain pending. Clusters are not orthogroups."
+  "caution": "Fisher/BH spans all primary clusters, but exchangeability is invalid when gene-prediction quality and proteome sizes differ markedly; q values are exploratory, not expansion validation. Clusters are not orthogroups."
 }
