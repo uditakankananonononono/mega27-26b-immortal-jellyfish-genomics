@@ -43,6 +43,8 @@ def build_full():
     nwords = 0
     for sp in SECTIONS:
         title, paras = parse_section(sp)
+        if os.path.basename(sp) == "08k_final_arms.txt":
+            doc.add_page_break()
         doc.add_heading(title, level=1)
         for p in paras:
             doc.add_paragraph(p)
