@@ -11,11 +11,11 @@ assert 1<=a.batches<=20 and 1000<=a.batch_reads<=20000
 assert Path(a.fastq).stat().st_size==3594233174,'not a complete source FASTQ'
 REG={'A':('BQMF02000106.1',66386,66652),'B':('BQMF02000418.1',205689,205955)}
 state_path=Path(a.state);state=json.load(open(state_path)) if state_path.exists() else {'next_ordinal':0,'batches':0,'total_reads':0,'nearby_alignments':[],'input':'DRR267480 full MD5 8481187208c3a4892fea222346c02c46','index':'whole GCA_027922465.2 map-pb k21 w40 single index'}
-for _ in range(a.batches):
- with gzip.open(a.fastq,'rt') as f:
-  # Simplicity over speed: skip completed records; bounded 10k batches.
-  for i in range(state['next_ordinal']*4):
-   if not f.readline():raise AssertionError('cursor past EOF')
+with gzip.open(a.fastq,'rt') as f:
+ # Skip checkpointed records once per invocation, then read batches sequentially.
+ for i in range(state['next_ordinal']*4):
+  if not f.readline():raise AssertionError('cursor past EOF')
+ for _ in range(a.batches):
   tmp=Path('/tmp/jelly-B-batch.fastq')
   with open(tmp,'w') as out:
    n=0
@@ -24,17 +24,17 @@ for _ in range(a.batches):
     if not lines[0]:break
     assert all(lines) and lines[0].startswith('@') and lines[2].startswith('+')
     out.writelines(lines);n+=1
- if n==0:break
- cmd=['/home/sandbox/jellyfish-expansion/tools_bin/minimap2-2.28_x64-linux/minimap2','-x','map-pb','-k','21','-w','40','-I','8G','-t','1','-K','10M',a.index,str(tmp)]
- with open('/tmp/jelly-B-batch.paf','w') as paf,open('/tmp/jelly-B-batch.log','w') as err:
-  rc=subprocess.run(cmd,stdout=paf,stderr=err,timeout=600).returncode
- assert rc==0,(rc,Path('/tmp/jelly-B-batch.log').read_text()[-800:])
- relevant=[]
- for line in open('/tmp/jelly-B-batch.paf'):
-  x=line.rstrip().split('\t');t=x[5];s,e=int(x[7]),int(x[8])
-  if any(t==contig and e>start-25000 and s<end+25000 for contig,start,end in REG.values()):
-   relevant.append(x[:12]+[tag for tag in x[12:] if tag.startswith(('tp:','s1:','s2:','NM:','cm:'))])
- state['nearby_alignments'].extend(relevant);state['next_ordinal']+=n;state['total_reads']+=n;state['batches']+=1
- temp=state_path.with_suffix('.json.tmp');temp.write_text(json.dumps(state)+'\n');temp.replace(state_path)
- print('checkpoint',state['next_ordinal'],'reads; new target-region PAF rows',len(relevant),'total',len(state['nearby_alignments']),flush=True)
- if n<a.batch_reads:break
+  if n==0:break
+  cmd=['/home/sandbox/jellyfish-expansion/tools_bin/minimap2-2.28_x64-linux/minimap2','-x','map-pb','-k','21','-w','40','-I','8G','-t','1','-K','10M',a.index,str(tmp)]
+  with open('/tmp/jelly-B-batch.paf','w') as paf,open('/tmp/jelly-B-batch.log','w') as err:
+   rc=subprocess.run(cmd,stdout=paf,stderr=err,timeout=600).returncode
+  assert rc==0,(rc,Path('/tmp/jelly-B-batch.log').read_text()[-800:])
+  relevant=[]
+  for line in open('/tmp/jelly-B-batch.paf'):
+   x=line.rstrip().split('\t');t=x[5];s,e=int(x[7]),int(x[8])
+   if any(t==contig and e>start-25000 and s<end+25000 for contig,start,end in REG.values()):
+    relevant.append(x[:12]+[tag for tag in x[12:] if tag.startswith(('tp:','s1:','s2:','NM:','cm:'))])
+  state['nearby_alignments'].extend(relevant);state['next_ordinal']+=n;state['total_reads']+=n;state['batches']+=1
+  temp=state_path.with_suffix('.json.tmp');temp.write_text(json.dumps(state)+'\n');temp.replace(state_path)
+  print('checkpoint',state['next_ordinal'],'reads; new target-region PAF rows',len(relevant),'total',len(state['nearby_alignments']),flush=True)
+  if n<a.batch_reads:break
