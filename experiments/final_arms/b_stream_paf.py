@@ -5,11 +5,12 @@ advances only after minimap2 exits successfully; a crash reruns at most one batc
 """
 import argparse,gzip,json,os,subprocess,tempfile
 from pathlib import Path
-P=argparse.ArgumentParser();P.add_argument('--batches',type=int,default=1);P.add_argument('--batch-reads',type=int,default=10000);P.add_argument('--index',default='/tmp/jelly-Tdohrnii-map-pb.mmi');P.add_argument('--fastq',default='/tmp/jelly-DRR267480.fastq.gz');P.add_argument('--state',default='/tmp/jelly-B-structural.state.json');a=P.parse_args()
+P=argparse.ArgumentParser();P.add_argument('--batches',type=int,default=1);P.add_argument('--batch-reads',type=int,default=10000);P.add_argument('--index',default='/tmp/jelly-Tdohrnii-single.mmi');P.add_argument('--fastq',default='/tmp/jelly-DRR267480.fastq.gz');P.add_argument('--state',default='/tmp/jelly-B-structural.state.json');a=P.parse_args()
+assert a.index=='/tmp/jelly-Tdohrnii-single.mmi','single whole-genome index required for global MAPQ'
 assert 1<=a.batches<=20 and 1000<=a.batch_reads<=20000
 assert Path(a.fastq).stat().st_size==3594233174,'not a complete source FASTQ'
 REG={'A':('BQMF02000106.1',66386,66652),'B':('BQMF02000418.1',205689,205955)}
-state_path=Path(a.state);state=json.load(open(state_path)) if state_path.exists() else {'next_ordinal':0,'batches':0,'total_reads':0,'nearby_alignments':[],'input':'DRR267480 full MD5 8481187208c3a4892fea222346c02c46','index':'whole GCA_027922465.2 map-pb k19 w20 I150M'}
+state_path=Path(a.state);state=json.load(open(state_path)) if state_path.exists() else {'next_ordinal':0,'batches':0,'total_reads':0,'nearby_alignments':[],'input':'DRR267480 full MD5 8481187208c3a4892fea222346c02c46','index':'whole GCA_027922465.2 map-pb k21 w40 single index'}
 for _ in range(a.batches):
  with gzip.open(a.fastq,'rt') as f:
   # Simplicity over speed: skip completed records; bounded 10k batches.
@@ -24,7 +25,7 @@ for _ in range(a.batches):
     assert all(lines) and lines[0].startswith('@') and lines[2].startswith('+')
     out.writelines(lines);n+=1
  if n==0:break
- cmd=['/home/sandbox/jellyfish-expansion/tools_bin/minimap2-2.28_x64-linux/minimap2','-x','map-pb','-k','19','-w','20','-I','150M','-t','1','-K','10M',a.index,str(tmp)]
+ cmd=['/home/sandbox/jellyfish-expansion/tools_bin/minimap2-2.28_x64-linux/minimap2','-x','map-pb','-k','21','-w','40','-I','8G','-t','1','-K','10M',a.index,str(tmp)]
  with open('/tmp/jelly-B-batch.paf','w') as paf,open('/tmp/jelly-B-batch.log','w') as err:
   rc=subprocess.run(cmd,stdout=paf,stderr=err,timeout=600).returncode
  assert rc==0,(rc,Path('/tmp/jelly-B-batch.log').read_text()[-800:])
