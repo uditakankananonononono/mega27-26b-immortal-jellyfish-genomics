@@ -1,0 +1,1480 @@
+{
+  "lock_commit": "6e793f08cba33c71d95df6af6ff4bbf25ce76e54",
+  "method": "MMseqs2 easy-linclust low-memory operational deviation from easy-cluster; primary and strict thresholds unchanged",
+  "train_proteome_sizes": {
+    "M": 23314,
+    "R": 9324
+  },
+  "primary_clusters": 24270,
+  "strict_clusters": 26308,
+  "qualifying_families": 85,
+  "ranked": [
+    {
+      "rep": "M011282",
+      "members": [
+        "M011282",
+        "M002982",
+        "M010603",
+        "M011702",
+        "M013601",
+        "M014783",
+        "M001429",
+        "M013185",
+        "M006261",
+        "M009754",
+        "M016399",
+        "M019732",
+        "R003490"
+      ],
+      "M": 12,
+      "R": 1,
+      "corrected_ratio": 4.79917646049584,
+      "fisher_p": 0.078111290125324,
+      "strict_subcluster_max_M": 6,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M001944",
+      "members": [
+        "M001944",
+        "M007065",
+        "M010453",
+        "M020190",
+        "M020348",
+        "M000675",
+        "M007423",
+        "M014889",
+        "M014930",
+        "R001312"
+      ],
+      "M": 9,
+      "R": 1,
+      "corrected_ratio": 3.59938234537188,
+      "fisher_p": 0.17287713214806533,
+      "strict_subcluster_max_M": 6,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R008205",
+      "members": [
+        "R008205",
+        "M006556",
+        "M006149",
+        "M007211",
+        "M007649",
+        "M007816",
+        "M009568",
+        "M010885",
+        "M011241",
+        "M011896",
+        "M015270",
+        "M015314",
+        "M017762",
+        "M017999",
+        "M018412",
+        "M019291",
+        "M020621",
+        "M021803",
+        "R000069"
+      ],
+      "M": 17,
+      "R": 2,
+      "corrected_ratio": 3.3994166595178865,
+      "fisher_p": 0.060156652342309026,
+      "strict_subcluster_max_M": 15,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R004789",
+      "members": [
+        "R004789",
+        "M020461",
+        "M001900",
+        "M003033",
+        "M003666",
+        "M009638",
+        "M012475",
+        "M013275",
+        "M014769"
+      ],
+      "M": 8,
+      "R": 1,
+      "corrected_ratio": 3.1994509736638927,
+      "fisher_p": 0.22267108681990255,
+      "strict_subcluster_max_M": 9,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M004995",
+      "members": [
+        "M004995",
+        "M004994",
+        "M004998",
+        "M010181",
+        "M010182",
+        "M017907",
+        "R006628"
+      ],
+      "M": 6,
+      "R": 1,
+      "corrected_ratio": 2.39958823024792,
+      "fisher_p": 0.3605388429015187,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M001160",
+      "members": [
+        "M001160",
+        "M003454",
+        "M012714",
+        "M017270",
+        "M013606",
+        "R005622"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M006286",
+      "members": [
+        "M006286",
+        "M009457",
+        "M010941",
+        "M018680",
+        "M018802",
+        "R006032"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M008639",
+      "members": [
+        "M008639",
+        "M007259",
+        "M011086",
+        "M011087",
+        "R008424",
+        "M013607"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M011200",
+      "members": [
+        "M011200",
+        "M000162",
+        "M009793",
+        "M011202",
+        "M016638",
+        "R006526"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 6,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M021522",
+      "members": [
+        "M021522",
+        "M011274",
+        "M011502",
+        "M021521",
+        "M021627",
+        "R008790"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022347",
+      "members": [
+        "M022347",
+        "M008901",
+        "M019602",
+        "M004675",
+        "M018985",
+        "R001515"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R006389",
+      "members": [
+        "R006389",
+        "M013397",
+        "M003223",
+        "M010501",
+        "M020486",
+        "M022711"
+      ],
+      "M": 5,
+      "R": 1,
+      "corrected_ratio": 1.999656858539933,
+      "fisher_p": 0.4516185350608578,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M000374",
+      "members": [
+        "M000374",
+        "M000370",
+        "M000372",
+        "M000373",
+        "R000261"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M005768",
+      "members": [
+        "M005768",
+        "M003164",
+        "M013753",
+        "R000146",
+        "M003947"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M006662",
+      "members": [
+        "M006662",
+        "R004492",
+        "M006550",
+        "M006119",
+        "M018780"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M009722",
+      "members": [
+        "M009722",
+        "M002653",
+        "M002648",
+        "M009728",
+        "R004261"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M010860",
+      "members": [
+        "M010860",
+        "M023094",
+        "R007101",
+        "M007527",
+        "M009215"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M017976",
+      "members": [
+        "M017976",
+        "M017957",
+        "M017977",
+        "M017979",
+        "R004078"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M018527",
+      "members": [
+        "M018527",
+        "M000564",
+        "M010354",
+        "M019605",
+        "R006145"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 8,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M020582",
+      "members": [
+        "M020582",
+        "M000341",
+        "M022960",
+        "M022946",
+        "R004667"
+      ],
+      "M": 4,
+      "R": 1,
+      "corrected_ratio": 1.5997254868319464,
+      "fisher_p": 0.5578716637089184,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M016949",
+      "members": [
+        "M016949",
+        "M016908",
+        "M016910",
+        "M016952",
+        "R005907",
+        "R007586",
+        "M011124",
+        "M009510",
+        "M011703"
+      ],
+      "M": 7,
+      "R": 2,
+      "corrected_ratio": 1.399759800977953,
+      "fisher_p": 0.5015103963813864,
+      "strict_subcluster_max_M": 7,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M003526",
+      "members": [
+        "M003526",
+        "M003163",
+        "M004527",
+        "M004869",
+        "M014197",
+        "M014199",
+        "R006122",
+        "R008415"
+      ],
+      "M": 6,
+      "R": 2,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.5882492381053777,
+      "strict_subcluster_max_M": 6,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M021681",
+      "members": [
+        "M021681",
+        "M019949",
+        "M019174",
+        "M019948",
+        "M020028",
+        "R003940",
+        "M002939",
+        "R004488"
+      ],
+      "M": 6,
+      "R": 2,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.5882492381053777,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R004660",
+      "members": [
+        "R004660",
+        "M015018",
+        "M015019",
+        "M015020",
+        "M015021",
+        "M020314",
+        "R007064",
+        "M015022"
+      ],
+      "M": 6,
+      "R": 2,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.5882492381053777,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M000478",
+      "members": [
+        "M000478",
+        "M003608",
+        "M014641",
+        "R003795"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M003104",
+      "members": [
+        "M003104",
+        "M010042",
+        "M017127",
+        "R008287"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M004320",
+      "members": [
+        "M004320",
+        "M012916",
+        "R002393",
+        "M010321"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M005008",
+      "members": [
+        "M005008",
+        "M011887",
+        "M014156",
+        "R007560"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M007732",
+      "members": [
+        "M007732",
+        "M000201",
+        "R000208",
+        "M013253"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M008442",
+      "members": [
+        "M008442",
+        "M012743",
+        "M012745",
+        "R005070"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M008678",
+      "members": [
+        "M008678",
+        "M020113",
+        "R006116",
+        "M007669"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M010149",
+      "members": [
+        "M010149",
+        "M010150",
+        "M012255",
+        "R002270"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M010671",
+      "members": [
+        "M010671",
+        "M002191",
+        "M000085",
+        "R001316"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M011059",
+      "members": [
+        "M011059",
+        "M008370",
+        "M009916",
+        "R008351"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M011617",
+      "members": [
+        "M011617",
+        "M000920",
+        "M008712",
+        "R007849"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M012903",
+      "members": [
+        "M012903",
+        "M000711",
+        "M004368",
+        "R008431"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M015290",
+      "members": [
+        "M015290",
+        "M003187",
+        "M016102",
+        "R008044"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M019531",
+      "members": [
+        "M019531",
+        "M006116",
+        "M010255",
+        "R008982"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M019635",
+      "members": [
+        "M019635",
+        "M021642",
+        "R005423",
+        "M021657"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M019828",
+      "members": [
+        "M019828",
+        "M002822",
+        "M003494",
+        "R009324"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M020337",
+      "members": [
+        "M020337",
+        "M001375",
+        "M017546",
+        "R002088"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M020604",
+      "members": [
+        "M020604",
+        "M015220",
+        "M020605",
+        "R004430"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022185",
+      "members": [
+        "M022185",
+        "M022183",
+        "M022184",
+        "R008069"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022792",
+      "members": [
+        "M022792",
+        "M016397",
+        "M022791",
+        "R009215"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022892",
+      "members": [
+        "M022892",
+        "M002029",
+        "M017872",
+        "R008075"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M023310",
+      "members": [
+        "M023310",
+        "M015416",
+        "M023291",
+        "R001765"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R001612",
+      "members": [
+        "R001612",
+        "M006213",
+        "M008295",
+        "M006214"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R002004",
+      "members": [
+        "R002004",
+        "M005343",
+        "M017363",
+        "M017369"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R002009",
+      "members": [
+        "R002009",
+        "M000347",
+        "M003895",
+        "M018162"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R005442",
+      "members": [
+        "R005442",
+        "M013884",
+        "M004656",
+        "M015616"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R008746",
+      "members": [
+        "R008746",
+        "M019351",
+        "M005500",
+        "M019352"
+      ],
+      "M": 3,
+      "R": 1,
+      "corrected_ratio": 1.19979411512396,
+      "fisher_p": 0.6768664163037333,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M004681",
+      "members": [
+        "M004681",
+        "M010129",
+        "M003395",
+        "M010133",
+        "M010368",
+        "R000418",
+        "R005229"
+      ],
+      "M": 5,
+      "R": 2,
+      "corrected_ratio": 0.9998284292699665,
+      "fisher_p": 0.6793177654592055,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M008868",
+      "members": [
+        "M008868",
+        "M008866",
+        "M008867",
+        "M013029",
+        "M022249",
+        "R000537",
+        "R003669"
+      ],
+      "M": 5,
+      "R": 2,
+      "corrected_ratio": 0.9998284292699665,
+      "fisher_p": 0.6793177654592055,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M016563",
+      "members": [
+        "M016563",
+        "M001420",
+        "M007059",
+        "M016800",
+        "R003023",
+        "R003905",
+        "M021075"
+      ],
+      "M": 5,
+      "R": 2,
+      "corrected_ratio": 0.9998284292699665,
+      "fisher_p": 0.6793177654592055,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022423",
+      "members": [
+        "M022423",
+        "R000030",
+        "M000476",
+        "R000413",
+        "M016855",
+        "M021840",
+        "M023083"
+      ],
+      "M": 5,
+      "R": 2,
+      "corrected_ratio": 0.9998284292699665,
+      "fisher_p": 0.6793177654592055,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M012746",
+      "members": [
+        "M012746",
+        "M002719",
+        "M004104",
+        "M017116",
+        "M017115",
+        "M022317",
+        "M022318",
+        "M018334",
+        "R005444",
+        "R003597",
+        "R004223",
+        "R008101"
+      ],
+      "M": 8,
+      "R": 4,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.760554921490318,
+      "strict_subcluster_max_M": 6,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M002544",
+      "members": [
+        "M002544",
+        "M002557",
+        "M002545",
+        "M021142",
+        "R003705",
+        "R008648"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M010421",
+      "members": [
+        "M010421",
+        "M002715",
+        "M016587",
+        "M016569",
+        "R008530",
+        "R005238"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M012874",
+      "members": [
+        "M012874",
+        "M012877",
+        "M017348",
+        "M019767",
+        "R000009",
+        "R003024"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M018637",
+      "members": [
+        "M018637",
+        "M018638",
+        "R003831",
+        "M016075",
+        "R003830",
+        "M018636"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M022353",
+      "members": [
+        "M022353",
+        "M012497",
+        "M013701",
+        "M021605",
+        "R000901",
+        "R003927"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R000059",
+      "members": [
+        "R000059",
+        "M010723",
+        "M010724",
+        "M010725",
+        "M010726",
+        "R000058"
+      ],
+      "M": 4,
+      "R": 2,
+      "corrected_ratio": 0.7998627434159732,
+      "fisher_p": 0.7703779210050398,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R001295",
+      "members": [
+        "R001295",
+        "M003292",
+        "M004868",
+        "M015484",
+        "M020121",
+        "M005168",
+        "R007113",
+        "R007473"
+      ],
+      "M": 5,
+      "R": 3,
+      "corrected_ratio": 0.6665522861799777,
+      "fisher_p": 0.8310986443822519,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R002206",
+      "members": [
+        "R002206",
+        "M003998",
+        "M011554",
+        "M011555",
+        "M016461",
+        "R000071",
+        "M007088",
+        "R005372"
+      ],
+      "M": 5,
+      "R": 3,
+      "corrected_ratio": 0.6665522861799777,
+      "fisher_p": 0.8310986443822519,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M019498",
+      "members": [
+        "M019498",
+        "M019503",
+        "M019499",
+        "M016542",
+        "M019502",
+        "R002469",
+        "R002461",
+        "R002576",
+        "M009058",
+        "R004148"
+      ],
+      "M": 6,
+      "R": 4,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8732294912518475,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9358305462628348
+    },
+    {
+      "rep": "M002218",
+      "members": [
+        "M002218",
+        "M009883",
+        "M002217",
+        "R006493",
+        "R002107"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M002565",
+      "members": [
+        "M002565",
+        "M016624",
+        "M016625",
+        "R000556",
+        "R003699"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M003675",
+      "members": [
+        "M003675",
+        "M008831",
+        "M013763",
+        "R001632",
+        "R008315"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M004767",
+      "members": [
+        "M004767",
+        "M004779",
+        "M004780",
+        "R002852",
+        "R005813"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M005476",
+      "members": [
+        "M005476",
+        "M008547",
+        "M008545",
+        "R001542",
+        "R008600"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M005627",
+      "members": [
+        "M005627",
+        "M012959",
+        "M020043",
+        "R005005",
+        "R006220"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M008389",
+      "members": [
+        "M008389",
+        "R007885",
+        "M018634",
+        "R000439",
+        "M012560"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M010209",
+      "members": [
+        "M010209",
+        "M009913",
+        "M019357",
+        "R000818",
+        "R005343"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M016443",
+      "members": [
+        "M016443",
+        "R002646",
+        "M011706",
+        "M017345",
+        "R006959"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "M019399",
+      "members": [
+        "M019399",
+        "M019680",
+        "M019689",
+        "R006739",
+        "R007306"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R001343",
+      "members": [
+        "R001343",
+        "M022847",
+        "M001635",
+        "M001636",
+        "R004063"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 1,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R004555",
+      "members": [
+        "R004555",
+        "M009403",
+        "M015525",
+        "M020239",
+        "R004296"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R004975",
+      "members": [
+        "R004975",
+        "M006093",
+        "M010479",
+        "M007549",
+        "R000391"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R005073",
+      "members": [
+        "R005073",
+        "M012900",
+        "M012901",
+        "M012902",
+        "R005072"
+      ],
+      "M": 3,
+      "R": 2,
+      "corrected_ratio": 0.59989705756198,
+      "fisher_p": 0.8553585451959558,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9321214915596954
+    },
+    {
+      "rep": "R007681",
+      "members": [
+        "R007681",
+        "M021313",
+        "M004960",
+        "M014807",
+        "M022057",
+        "R000088",
+        "M015788",
+        "M004439",
+        "R000597",
+        "R004589",
+        "R001706",
+        "M020103"
+      ],
+      "M": 7,
+      "R": 5,
+      "corrected_ratio": 0.5599039203911813,
+      "fisher_p": 0.9035736253909684,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9366311970516136
+    },
+    {
+      "rep": "R005758",
+      "members": [
+        "R005758",
+        "M000351",
+        "M000607",
+        "M003894",
+        "M007571",
+        "M009245",
+        "M016082",
+        "M016084",
+        "M021220",
+        "R000763",
+        "R001885",
+        "R007322",
+        "R008015",
+        "R009043"
+      ],
+      "M": 8,
+      "R": 6,
+      "corrected_ratio": 0.5332418289439821,
+      "fisher_p": 0.9259534872833539,
+      "strict_subcluster_max_M": 8,
+      "BH_q_conditional": 0.9482656195070492
+    },
+    {
+      "rep": "M003467",
+      "members": [
+        "M003467",
+        "M000490",
+        "M014554",
+        "M015872",
+        "R002946",
+        "R008819",
+        "R005998"
+      ],
+      "M": 4,
+      "R": 3,
+      "corrected_ratio": 0.5332418289439821,
+      "fisher_p": 0.891791461732819,
+      "strict_subcluster_max_M": 3,
+      "BH_q_conditional": 0.9358305462628348
+    },
+    {
+      "rep": "R008300",
+      "members": [
+        "R008300",
+        "M001477",
+        "M001480",
+        "M017556",
+        "M020787",
+        "R004985",
+        "R008499"
+      ],
+      "M": 4,
+      "R": 3,
+      "corrected_ratio": 0.5332418289439821,
+      "fisher_p": 0.891791461732819,
+      "strict_subcluster_max_M": 4,
+      "BH_q_conditional": 0.9358305462628348
+    },
+    {
+      "rep": "M021686",
+      "members": [
+        "M021686",
+        "R008395",
+        "M004123",
+        "M018824",
+        "M021487",
+        "M022069",
+        "R000353",
+        "R002884",
+        "R006584",
+        "R007880"
+      ],
+      "M": 5,
+      "R": 5,
+      "corrected_ratio": 0.39993137170798665,
+      "fisher_p": 0.9623971045848864,
+      "strict_subcluster_max_M": 5,
+      "BH_q_conditional": 0.9623971045848864
+    },
+    {
+      "rep": "M014219",
+      "members": [
+        "M014219",
+        "M012021",
+        "M012022",
+        "R009084",
+        "R009086",
+        "R007218"
+      ],
+      "M": 3,
+      "R": 3,
+      "corrected_ratio": 0.39993137170798665,
+      "fisher_p": 0.9403391693868719,
+      "strict_subcluster_max_M": 2,
+      "BH_q_conditional": 0.9515336833081443
+    }
+  ],
+  "top20_frozen_reps": [
+    "M011282",
+    "M001944",
+    "R008205",
+    "R004789",
+    "M004995",
+    "M001160",
+    "M006286",
+    "M008639",
+    "M011200",
+    "M021522",
+    "M022347",
+    "R006389",
+    "M000374",
+    "M005768",
+    "M006662",
+    "M009722",
+    "M010860",
+    "M017976",
+    "M018527",
+    "M020582"
+  ],
+  "caution": "The Fisher/BH q values are conditional on M>=3/R>=1 selection and are exploratory; full-family correction and gene-model quality validation remain pending. Clusters are not orthogroups."
+}
