@@ -1,4 +1,4 @@
-# 26b final-arm status, 2026-09-28 10:36 IST
+# 26b final-arm status, 2026-09-28 12:40 IST
 
 All four arms were separately locked before their new computations in
 X-20260928-{A,B,C,D}-LOCK.md. This is a research-progress status, not a
@@ -16,12 +16,14 @@ and holdout representative hits are not family orthology/unique-locus proof.
 No structurally validated enriched family: gate FAIL, not a discovery.
 Results: x-20260928-A-train-ranking.json, x-20260928-A-holdout.json.
 
-B, ATG5: full ENA PacBio DRR267480 source is public (3,594,233,174 bytes,
-MD5 8481187208c3a4892fea222346c02c46). An exact-range resumable fetcher
-is retrieving it in bounded foreground chunks; current partial bytes are
-quarantined, not mapped or interpreted. At this status, 361,758,720 bytes
-were saved, far short of the source. No unique-flank read test has run.
-Extra copy remains unresolved, same as the audited paper.
+B, ATG5: full ENA PacBio DRR267480 source verified at 3,594,233,174 bytes,
+MD5 8481187208c3a4892fea222346c02c46. All 1,704,140 subreads mapped
+against one global full-genome minimap2 index (the split-index pilot was
+invalidated and discarded). 12 primary MAPQ60 reads cross 267 bp at copy A,
+27 at copy B; zero at either copy span >=5 kb on BOTH flanks, so the locked
+structural resolution gate FAILS. Crossing reads appear in consecutive DRR
+ordinal blocks, not verified independent ZMWs. Extra copy remains UNRESOLVED,
+not biologically refuted or proven. Result: x-20260928-B-structural.json.
 
 C, RNA: nine paired stage runs, 35,894,929,318 compressed bytes; one ENA
 BioSample per stage across the three individual-labeled experiments. Study
@@ -35,8 +37,4 @@ local BLAST DB build and one ATG5 raw query smoke passed; manifest and exact
 hashes are committed. No full raw pipeline reproduction; absolute paths and
 resource requirements remain. See X-20260928-D-BOOTSTRAP-STATUS.md.
 
-Next: finish B source fetch/MD5, inspect unique-flank mapping without changing
-its lock; seek independent RNA specimen metadata rather than assume from
-experiment titles; make the rest of the raw pipeline portable and test full
-outputs in a sufficiently provisioned environment. A's null result must be
-kept and not tuned into a positive. All-issues PASS is not established.
+Next: seek a truly independent high-contiguity assembly or phased molecular evidence if the structural ATG5 question is to be pursued further; seek per-run RNA specimen provenance rather than assume it from experiment titles; and make the full raw pipeline portable in a sufficiently provisioned environment. A's null result must be kept and not tuned into a positive. All-issues PASS is not established.
