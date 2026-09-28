@@ -20,6 +20,6 @@ This section collects the ten numbered formulas used in the pipeline and analyse
 
 (10) Assembly-aware evolutionary evidence score. AEES = 0.35 * min(bits/500, 1) + 0.25 * qcov + 0.15 * pident + 0.25 * concordance, where concordance in {0, 0.5, 1} counts detection in neither, one, or both T. dohrnii assemblies; for single-assembly genomes the first three weights renormalize by 1/0.75. Confidence bands: high >= 0.75, moderate >= 0.45, low below.
 
-(11) Recall (benchmark arms). recall = (genes with at least one strong locus under the arm) / (panel size), compared paired: multi-species versus human-only queries on Clytia, and genome-first versus database-first on T. dohrnii.
+(11) Detected-record fraction (limited benchmark arms). Fraction = (panel genes with at least one strong locus under the arm) / panel size for multi-species versus human-only queries on Clytia. The separate T. dohrnii query-route comparison measures retrieved record count, not biological recall, because it did not assess the existing provider models.
 
 Formulas 1-3 and 5-6 are pre-registered and frozen; formula 8 implements the pre-registered Fisher contrast and its exact table is documented in docs/X-DEVIATIONS.md (D2); formula 10 is the judge-round R1 addition and is exploratory; formula 11 is the benchmark measurement. The numbering is used throughout the results chapters.

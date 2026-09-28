@@ -1,3 +1,7 @@
+# Retrospective correction, 2026-09-28
+
+This historical specification describes the initial intended GFAR framework. It is NOT a faithful description of every executed threshold or a novelty benchmark. The executed `experiments/x_map.py` uses tBLASTn e-value **1e-5** and `jellyfish/loci.py` clusters over **50,000 bp**, not the 1e-10 and 500 bp claimed below. The 35/47 versus 27/47 query expansion comparison is on Clytia; the 0/47 comparison was a narrow NCBI gene/protein lookup, not an ab initio gene-prediction run. Kyushu published 23,314 high-confidence T. dohrnii models and an OrthoFinder comparison before this project: https://academic.oup.com/dnaresearch/article/30/1/dsac047/6909006 . No new algorithm or superiority against those annotations is demonstrated. The original text follows unaltered as an audit artifact, not an execution contract.
+
 # The Genome-First Annotation Recovery (GFAR) workflow - formal specification
 
 Amendments P1 #1 and #10 (judge round: "method novelty not formalized - just BLAST

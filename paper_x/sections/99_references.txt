@@ -21,3 +21,5 @@ Society for Science. Natasha Kulviwat, "The Neurobiology of Suicide: Claudin-5 I
 
 Emms DM, Kelly S. OrthoFinder: phylogenetic orthology inference for comparative genomics. Genome Biol 20 (2019) 238. https://pmc.ncbi.nlm.nih.gov/articles/PMC6857279/
 Han MV, Thomas GWC, Lugo-Martinez J, Hahn MW. Estimating gene gain and loss rates in the presence of error in genome assembly and annotation using CAFE 3. Mol Biol Evol 30 (2013) 1987-1997. https://academic.oup.com/mbe/article/30/8/1987/1017616
+
+Hasegawa Y et al. Genome assembly and transcriptomic analyses of the repeatedly rejuvenating jellyfish Turritopsis dohrnii. DNA Res 30 (2023) dsac047. https://academic.oup.com/dnaresearch/article/30/1/dsac047/6909006
