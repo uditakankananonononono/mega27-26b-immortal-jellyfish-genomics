@@ -1,0 +1,9 @@
+{
+  "count": 1000,
+  "sequential": true,
+  "observed_auroc": 0.980614657210402,
+  "null_gte_observed": 0,
+  "permutation_p": 0.000999000999000999,
+  "max_null_auroc": 0.75602837,
+  "failed_null_fits": 0
+}

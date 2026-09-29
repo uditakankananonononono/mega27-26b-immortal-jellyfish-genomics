@@ -1,3 +1,6 @@
 data/raw_cnidarian_terc.fasta
 
 /data/allen-aging/*.csv
+/data/allen-aging/*_matrix.npz
+/data/allen-aging/*_meta.json
+/data/allen-aging/__pycache__/

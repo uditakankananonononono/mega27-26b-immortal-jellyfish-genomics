@@ -1,0 +1,14 @@
+{
+  "baseline_auroc": 0.980614657210402,
+  "day7_auroc": 0.9862884160756502,
+  "difference": 0.005673758865248235,
+  "baseline_95pct_donor_bootstrap": [
+    0.9476171347556036,
+    1.0
+  ],
+  "difference_95pct_donor_bootstrap": [
+    -0.006822612085769844,
+    0.02281746031746024
+  ],
+  "bootstrap_count": 2000
+}

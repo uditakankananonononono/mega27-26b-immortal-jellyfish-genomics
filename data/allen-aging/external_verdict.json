@@ -1,0 +1,84 @@
+{
+  "selected_assays": [
+    {
+      "assay_id": "OID20622",
+      "development_selection_score": 0.8139095288927317,
+      "external_partial_r": 0.7005973614978209,
+      "p_two_sided": 3.3297231785071766e-33,
+      "n": 220,
+      "direction_agrees": true,
+      "q_bh_five": 8.324307946267941e-33
+    },
+    {
+      "assay_id": "OID20254",
+      "development_selection_score": 0.7650518576145967,
+      "external_partial_r": 0.681721521909675,
+      "p_two_sided": 7.184522023139376e-31,
+      "n": 220,
+      "direction_agrees": true,
+      "q_bh_five": 1.197420337189896e-30
+    },
+    {
+      "assay_id": "OID21451",
+      "development_selection_score": 0.7598533707412266,
+      "external_partial_r": 0.7386615206801803,
+      "p_two_sided": 1.6214018701188936e-38,
+      "n": 220,
+      "direction_agrees": true,
+      "q_bh_five": 8.107009350594468e-38
+    },
+    {
+      "assay_id": "OID20460",
+      "development_selection_score": 0.7134748070531971,
+      "external_partial_r": 0.487023282155601,
+      "p_two_sided": 3.316359187690419e-14,
+      "n": 219,
+      "direction_agrees": true,
+      "q_bh_five": 3.316359187690419e-14
+    },
+    {
+      "assay_id": "OID21048",
+      "development_selection_score": 0.705943880483954,
+      "external_partial_r": 0.6050185315704649,
+      "p_two_sided": 5.903587302254932e-23,
+      "n": 220,
+      "direction_agrees": true,
+      "q_bh_five": 7.379484127818665e-23
+    }
+  ],
+  "development_alpha": 0.1,
+  "coef": [
+    3.0224475942044147,
+    2.573464053819597,
+    1.6893049073514201,
+    1.0281937836116093,
+    0.3293694758653762
+  ],
+  "intercept": -0.6100428641019279,
+  "sound_eligible_and_stable_counts": {
+    "eligible_assays": 1170,
+    "stable_assays": 130,
+    "stable_rho_min": 0.6193024366937411,
+    "stable_ratio_max": 0.4994255304336548
+  },
+  "external_score": {
+    "partial_rank_r": 0.7852695319534627,
+    "p_positive": 9.635284728185545e-47,
+    "n": 220,
+    "df": 214
+  },
+  "external_unadjusted_spearman": 0.7685143449278669,
+  "external_complete_age_donors": 220,
+  "external_89plus_censored": 9,
+  "external_missing_selected_NPX": [
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "external_npx_filled_from_sound_training_medians": true,
+  "score_positive_gate": true,
+  "four_of_five_direction_agreement": true,
+  "four_of_five_agree_and_q_lt_05": true
+}
