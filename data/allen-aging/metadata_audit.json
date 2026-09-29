@@ -1,0 +1,175 @@
+{
+  "sound_life": {
+    "path": "data/allen-aging/sound_life_all_olink.csv",
+    "byte_count": 289393778,
+    "sha256": "2fd48dee27eb72733143abf5e3b76196362f9ca4920211261763178bcb7c9bd0",
+    "rows": 1274064,
+    "columns": [
+      "sample.sampleKitGuid",
+      "specimen.specimenGuid",
+      "olink.batch_id",
+      "olink.plate_id",
+      "olink.panel",
+      "olink.assay",
+      "olink.assay_id",
+      "olink.uniprot_id",
+      "olink.norm_offset",
+      "olink.NPX_raw",
+      "olink.NPX_norm",
+      "olink.LOD_raw",
+      "olink.LOD_norm",
+      "cohort.cohortGuid",
+      "subject.subjectGuid",
+      "subject.biologicalSex",
+      "subject.birthYear",
+      "subject.ageAtFirstDraw",
+      "subject.ageGroup",
+      "subject.race",
+      "subject.ethnicity",
+      "subject.cmv",
+      "sample.visitName",
+      "sample.drawYear",
+      "sample.subjectAgeAtDraw",
+      "sample.daysSinceFirstVisit"
+    ],
+    "distinct_donors": 96,
+    "distinct_sample_kits": 867,
+    "distinct_specimens": 867,
+    "distinct_assays": 1472,
+    "panels": [
+      "Cardiometabolic",
+      "Inflammation",
+      "Neurology",
+      "Oncology"
+    ],
+    "batch_count": 6,
+    "plate_count": 34,
+    "visits": [
+      "Flu Year 1 Day 0",
+      "Flu Year 1 Day 7",
+      "Flu Year 1 Day 90",
+      "Flu Year 1 Stand-Alone",
+      "Flu Year 2 Day 0",
+      "Flu Year 2 Day 7",
+      "Flu Year 2 Day 90",
+      "Flu Year 2 Stand-Alone",
+      "Flu Year 3 Stand-Alone",
+      "Immune Variation Day 0",
+      "Immune Variation Day 7",
+      "Immune Variation Day 90"
+    ],
+    "visit_row_counts": {
+      "Flu Year 2 Day 7": 121576,
+      "Flu Year 1 Day 7": 135424,
+      "Flu Year 1 Day 0": 135424,
+      "Flu Year 1 Day 90": 131008,
+      "Immune Variation Day 90": 123543,
+      "Immune Variation Day 7": 130993,
+      "Immune Variation Day 0": 130993,
+      "Flu Year 2 Day 0": 123453,
+      "Flu Year 2 Stand-Alone": 32384,
+      "Flu Year 2 Day 90": 120089,
+      "Flu Year 1 Stand-Alone": 20608,
+      "Flu Year 3 Stand-Alone": 68569
+    },
+    "donors_in_multiple_sample_kits": 95,
+    "sample_kits_with_multiple_donor_ids": 0,
+    "sample_kits_without_donor_id": 0,
+    "donor_sample_counts": {
+      "10": 77,
+      "2": 4,
+      "3": 3,
+      "9": 4,
+      "5": 1,
+      "8": 2,
+      "6": 3,
+      "4": 1,
+      "1": 1
+    },
+    "donors_with_multiple_recorded_ages": 90,
+    "donors_with_multiple_sexes": 0,
+    "donors_with_multiple_cmv_values": 0,
+    "missing_field_row_counts": {
+      "olink.NPX_raw": 523,
+      "olink.NPX_norm": 523,
+      "olink.LOD_raw": 523,
+      "olink.LOD_norm": 523
+    },
+    "assay_row_count_min_max": [
+      723,
+      867
+    ]
+  },
+  "immunobiology_aging": {
+    "path": "data/allen-aging/imm-of-aging_all_olink.csv",
+    "byte_count": 127288549,
+    "sha256": "bf03c0decad33f8221d4940ac6abe443db23814494629c5b496b91018ae3fe7f",
+    "rows": 673947,
+    "columns": [
+      "sample.sampleKitGuid",
+      "specimen.specimenGuid",
+      "olink.batch_id",
+      "olink.plate_id",
+      "olink.panel",
+      "olink.assay",
+      "olink.assay_id",
+      "olink.uniprot_id",
+      "olink.norm_offset",
+      "olink.NPX_raw",
+      "olink.NPX_norm",
+      "olink.LOD_raw",
+      "olink.LOD_norm",
+      "cohort.cohortGuid",
+      "subject.subjectGuid",
+      "subject.biologicalSex",
+      "subject.ageAtFirstDraw",
+      "subject.race",
+      "subject.ethnicity",
+      "subject.cmv",
+      "sample.visitName",
+      "sample.subjectAgeAtDraw",
+      "sample.daysSinceFirstVisit"
+    ],
+    "distinct_donors": 229,
+    "distinct_sample_kits": 229,
+    "distinct_specimens": 229,
+    "distinct_assays": 2943,
+    "panels": [
+      "Cardiometabolic",
+      "Cardiometabolic_II",
+      "Inflammation",
+      "Inflammation_II",
+      "Neurology",
+      "Neurology_II",
+      "Oncology",
+      "Oncology_II"
+    ],
+    "batch_count": 3,
+    "plate_count": 21,
+    "visits": [
+      "Immune Variation Day 0"
+    ],
+    "visit_row_counts": {
+      "Immune Variation Day 0": 673947
+    },
+    "donors_in_multiple_sample_kits": 0,
+    "sample_kits_with_multiple_donor_ids": 0,
+    "sample_kits_without_donor_id": 0,
+    "donor_sample_counts": {
+      "1": 229
+    },
+    "donors_with_multiple_recorded_ages": 0,
+    "donors_with_multiple_sexes": 0,
+    "donors_with_multiple_cmv_values": 0,
+    "missing_field_row_counts": {
+      "olink.NPX_raw": 15801,
+      "olink.NPX_norm": 15801,
+      "olink.LOD_raw": 15801,
+      "olink.LOD_norm": 15801
+    },
+    "assay_row_count_min_max": [
+      229,
+      229
+    ]
+  }
+}
