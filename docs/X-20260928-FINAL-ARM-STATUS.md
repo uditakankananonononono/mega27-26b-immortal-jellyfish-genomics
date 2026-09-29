@@ -2,9 +2,12 @@
 
 All four arms were separately locked before their new computations in
 X-20260928-{A,B,C,D}-LOCK.md. This is a research-progress status, not a
-final judge PASS. The previous audited manuscript remains the last published
-Drive revision; these new results have not yet been integrated into a revised
-paper.
+final judge PASS. The A-D results were integrated into the corrected Sep 28 research draft at
+repository commit 0ea4b4e (subsequent source-ledger commits do not alter the PDF).
+Private Drive PDF ID 1Rm3TpzFnK3SSQpkWsc2VxQhmFpGajqrk and editable DOCX ID
+1v_y39hU4CokskEVzx3DhQLEn0CjnB3vz are the current versions. The later
+reversal-pivot feasibility audit is in X-20260929-REVERSAL-PIVOT-FEASIBILITY.md
+and is not a computed biological finding.
 
 A, panel-free discovery: 23,314 Kyushu high-confidence T. dohrnii predicted
 proteins and 9,324 independently published T. rubra predicted proteins, no
