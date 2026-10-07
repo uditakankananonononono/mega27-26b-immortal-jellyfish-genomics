@@ -1,6 +1,6 @@
 # October 2 work recovered, October 7, 2026
 
-The working environment was rebuilt. The October 2 source snapshots and snapshot-manifest/eligibility files did not survive, and the parent attachment copies were lost too. September continuation is intact remotely on main at 98b178f; default master is an older manuscript branch.
+The working environment was rebuilt. The October 2 source snapshots and snapshot-manifest/eligibility files did not survive, and backup attachment copies were also unavailable. September continuation is intact remotely on main at 98b178f; default master is an older manuscript branch.
 
 Recovered from exact recorded results: Reactome enrichment test was negative, 8/12 observed (66.67%) vs 84.61% matched-null mean, one-sided p 0.9940006. This is historical, not a fresh result. The original code and literal edits were recovered from the execution record; recovery adds a guard refusing absent historical snapshots. No rerun with current Reactome.
 
