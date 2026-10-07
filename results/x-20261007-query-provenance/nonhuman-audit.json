@@ -1,0 +1,742 @@
+[
+ {
+  "key": "Acropora_APP",
+  "label": "APP",
+  "path": "data/xpanel/Acropora_APP.faa",
+  "header": ">XP_029200578.2 probable Xaa-Pro aminopeptidase P [Acropora millepora]",
+  "accession": "XP_029200578.2",
+  "live_header": ">XP_029200578.2 probable Xaa-Pro aminopeptidase P [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_ATG5",
+  "label": "ATG5",
+  "path": "data/xpanel/Acropora_ATG5.faa",
+  "header": ">XP_029191766.1 ubiquitin-like protein ATG12 [Acropora millepora]",
+  "accession": "XP_029191766.1",
+  "live_header": ">XP_029191766.1 ubiquitin-like protein ATG12 [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_ATG7",
+  "label": "ATG7",
+  "path": "data/xpanel/Acropora_ATG7.faa",
+  "header": ">XP_029213900.2 ubiquitin-like modifier-activating enzyme ATG7 isoform X1 [Acropora millepora]",
+  "accession": "XP_029213900.2",
+  "live_header": ">XP_029213900.2 ubiquitin-like modifier-activating enzyme ATG7 isoform X1 [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_ATM",
+  "label": "ATM",
+  "path": "data/xpanel/Acropora_ATM.faa",
+  "header": ">XP_044178615.1 serine-protein kinase ATM-like [Acropora millepora]",
+  "accession": "XP_044178615.1",
+  "live_header": ">XP_044178615.1 serine-protein kinase ATM-like [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_ATR",
+  "label": "ATR",
+  "path": "data/xpanel/Acropora_ATR.faa",
+  "header": ">XP_044181932.1 serine/threonine-protein kinase ATR-like [Acropora millepora]",
+  "accession": "XP_044181932.1",
+  "live_header": ">XP_044181932.1 serine/threonine-protein kinase ATR-like [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_C9orf72",
+  "label": "C9orf72",
+  "path": "data/xpanel/Acropora_C9orf72.faa",
+  "header": ">XP_029200121.2 guanine nucleotide exchange C9orf72-like [Acropora millepora]",
+  "accession": "XP_029200121.2",
+  "live_header": ">XP_029200121.2 guanine nucleotide exchange C9orf72-like [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_INSR",
+  "label": "INSR",
+  "path": "data/xpanel/Acropora_INSR.faa",
+  "header": ">XP_029180842.2 insulin-like peptide receptor [Acropora millepora]",
+  "accession": "XP_029180842.2",
+  "live_header": ">XP_029180842.2 insulin-like peptide receptor [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_MTOR",
+  "label": "MTOR",
+  "path": "data/xpanel/Acropora_MTOR.faa",
+  "header": ">XP_044166614.1 rapamycin-insensitive companion of mTOR-like isoform X1 [Acropora millepora]",
+  "accession": "XP_044166614.1",
+  "live_header": ">XP_044166614.1 rapamycin-insensitive companion of mTOR-like isoform X1 [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_PINK1",
+  "label": "PINK1",
+  "path": "data/xpanel/Acropora_PINK1.faa",
+  "header": ">XP_044162736.1 serine/threonine-protein kinase PINK1, mitochondrial-like [Acropora millepora]",
+  "accession": "XP_044162736.1",
+  "live_header": ">XP_044162736.1 serine/threonine-protein kinase PINK1, mitochondrial-like [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_PTEN",
+  "label": "PTEN",
+  "path": "data/xpanel/Acropora_PTEN.faa",
+  "header": ">XP_029190287.2 uncharacterized protein LOC114957123 isoform X2 [Acropora millepora]",
+  "accession": "XP_029190287.2",
+  "live_header": ">XP_029190287.2 uncharacterized protein LOC114957123 isoform X2 [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_SIRT1",
+  "label": "SIRT1",
+  "path": "data/xpanel/Acropora_SIRT1.faa",
+  "header": ">XP_029212880.2 NAD-dependent protein deacetylase sirtuin-1-like [Acropora millepora]",
+  "accession": "XP_029212880.2",
+  "live_header": ">XP_029212880.2 NAD-dependent protein deacetylase sirtuin-1-like [Acropora millepora]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_TFEB",
+  "label": "TFEB",
+  "path": "data/xpanel/Acropora_TFEB.faa",
+  "header": ">XP_029195230.2 microphthalmia-associated transcription factor-like isoform X1 [Acropora millepora]",
+  "accession": "XP_029195230.2",
+  "live_header": ">XP_029195230.2 microphthalmia-associated transcription factor-like isoform X1 [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_VCP",
+  "label": "VCP",
+  "path": "data/xpanel/Acropora_VCP.faa",
+  "header": ">XP_029211909.2 deubiquitinating protein VCPIP1-like [Acropora millepora]",
+  "accession": "XP_029211909.2",
+  "live_header": ">XP_029211909.2 deubiquitinating protein VCPIP1-like [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Acropora_WRN",
+  "label": "WRN",
+  "path": "data/xpanel/Acropora_WRN.faa",
+  "header": ">XP_044179708.1 uncharacterized protein LOC122961181 [Acropora millepora]",
+  "accession": "XP_044179708.1",
+  "live_header": ">XP_044179708.1 uncharacterized protein LOC122961181 [Acropora millepora]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_AKT1",
+  "label": "AKT1",
+  "path": "data/xpanel/Clytia_AKT1.faa",
+  "header": ">XP_066935264.1 uncharacterized protein [Clytia hemisphaerica]",
+  "accession": "XP_066935264.1",
+  "live_header": ">XP_066935264.1 uncharacterized protein [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_APP",
+  "label": "APP",
+  "path": "data/xpanel/Clytia_APP.faa",
+  "header": ">XP_066924045.1 AP-1 complex subunit beta-1-like [Clytia hemisphaerica]",
+  "accession": "XP_066924045.1",
+  "live_header": ">XP_066924045.1 AP-1 complex subunit beta-1-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_ATG7",
+  "label": "ATG7",
+  "path": "data/xpanel/Clytia_ATG7.faa",
+  "header": ">XP_066932292.1 ubiquitin-like modifier-activating enzyme ATG7 [Clytia hemisphaerica]",
+  "accession": "XP_066932292.1",
+  "live_header": ">XP_066932292.1 ubiquitin-like modifier-activating enzyme ATG7 [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_ATM",
+  "label": "ATM",
+  "path": "data/xpanel/Clytia_ATM.faa",
+  "header": ">XP_066926646.1 serine-protein kinase ATM-like [Clytia hemisphaerica]",
+  "accession": "XP_066926646.1",
+  "live_header": ">XP_066926646.1 serine-protein kinase ATM-like [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_ATR",
+  "label": "ATR",
+  "path": "data/xpanel/Clytia_ATR.faa",
+  "header": ">XP_066914476.1 serine/threonine-protein kinase ATR-like isoform X1 [Clytia hemisphaerica]",
+  "accession": "XP_066914476.1",
+  "live_header": ">XP_066914476.1 serine/threonine-protein kinase ATR-like isoform X1 [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_BECN1",
+  "label": "BECN1",
+  "path": "data/xpanel/Clytia_BECN1.faa",
+  "header": ">XP_066933061.1 activating molecule in BECN1-regulated autophagy protein 1A-like [Clytia hemisphaerica]",
+  "accession": "XP_066933061.1",
+  "live_header": ">XP_066933061.1 activating molecule in BECN1-regulated autophagy protein 1A-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_BLM",
+  "label": "BLM",
+  "path": "data/xpanel/Clytia_BLM.faa",
+  "header": ">XP_066936582.1 recQ-like DNA helicase blm-1 [Clytia hemisphaerica]",
+  "accession": "XP_066936582.1",
+  "live_header": ">XP_066936582.1 recQ-like DNA helicase blm-1 [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_C9orf72",
+  "label": "C9orf72",
+  "path": "data/xpanel/Clytia_C9orf72.faa",
+  "header": ">XP_066919005.1 guanine nucleotide exchange factor C9orf72 homolog [Clytia hemisphaerica]",
+  "accession": "XP_066919005.1",
+  "live_header": ">XP_066919005.1 guanine nucleotide exchange factor C9orf72 homolog [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_INSR",
+  "label": "INSR",
+  "path": "data/xpanel/Clytia_INSR.faa",
+  "header": ">XP_066913386.1 putative insulin-like peptide receptor [Clytia hemisphaerica]",
+  "accession": "XP_066913386.1",
+  "live_header": ">XP_066913386.1 putative insulin-like peptide receptor [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_MTOR",
+  "label": "MTOR",
+  "path": "data/xpanel/Clytia_MTOR.faa",
+  "header": ">XP_066921996.1 rapamycin-insensitive companion of mTOR-like [Clytia hemisphaerica]",
+  "accession": "XP_066921996.1",
+  "live_header": ">XP_066921996.1 rapamycin-insensitive companion of mTOR-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_PINK1",
+  "label": "PINK1",
+  "path": "data/xpanel/Clytia_PINK1.faa",
+  "header": ">XP_066936046.1 serine/threonine-protein kinase Pink1, mitochondrial-like [Clytia hemisphaerica]",
+  "accession": "XP_066936046.1",
+  "live_header": ">XP_066936046.1 serine/threonine-protein kinase Pink1, mitochondrial-like [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_PTEN",
+  "label": "PTEN",
+  "path": "data/xpanel/Clytia_PTEN.faa",
+  "header": ">XP_066911570.1 tensin-3-like [Clytia hemisphaerica]",
+  "accession": "XP_066911570.1",
+  "live_header": ">XP_066911570.1 tensin-3-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_SIRT1",
+  "label": "SIRT1",
+  "path": "data/xpanel/Clytia_SIRT1.faa",
+  "header": ">XP_066925909.1 NAD-dependent protein deacetylase sirtuin-1-like [Clytia hemisphaerica]",
+  "accession": "XP_066925909.1",
+  "live_header": ">XP_066925909.1 NAD-dependent protein deacetylase sirtuin-1-like [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_SIRT6",
+  "label": "SIRT6",
+  "path": "data/xpanel/Clytia_SIRT6.faa",
+  "header": ">XP_066921117.1 NAD-dependent protein deacylase sirtuin-6-like [Clytia hemisphaerica]",
+  "accession": "XP_066921117.1",
+  "live_header": ">XP_066921117.1 NAD-dependent protein deacylase sirtuin-6-like [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_TFEB",
+  "label": "TFEB",
+  "path": "data/xpanel/Clytia_TFEB.faa",
+  "header": ">XP_066928876.1 transcription factor EC-like isoform X1 [Clytia hemisphaerica]",
+  "accession": "XP_066928876.1",
+  "live_header": ">XP_066928876.1 transcription factor EC-like isoform X1 [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_TP53",
+  "label": "TP53",
+  "path": "data/xpanel/Clytia_TP53.faa",
+  "header": ">XP_066910575.1 TP53-binding protein 1-like [Clytia hemisphaerica]",
+  "accession": "XP_066910575.1",
+  "live_header": ">XP_066910575.1 TP53-binding protein 1-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_VCP",
+  "label": "VCP",
+  "path": "data/xpanel/Clytia_VCP.faa",
+  "header": ">XP_066916987.1 ubiquitin thioesterase OTU1-like [Clytia hemisphaerica]",
+  "accession": "XP_066916987.1",
+  "live_header": ">XP_066916987.1 ubiquitin thioesterase OTU1-like [Clytia hemisphaerica]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Clytia_WRN",
+  "label": "WRN",
+  "path": "data/xpanel/Clytia_WRN.faa",
+  "header": ">XP_066933599.1 ATP-dependent helicase wrn-1-like [Clytia hemisphaerica]",
+  "accession": "XP_066933599.1",
+  "live_header": ">XP_066933599.1 ATP-dependent helicase wrn-1-like [Clytia hemisphaerica]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_AKT1",
+  "label": "AKT1",
+  "path": "data/xpanel/Hydra_AKT1.faa",
+  "header": ">XP_012566850.2 uncharacterized protein LOC100206382 isoform X1 [Hydra vulgaris]",
+  "accession": "XP_012566850.2",
+  "live_header": ">XP_012566850.2 uncharacterized protein LOC100206382 isoform X1 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_APP",
+  "label": "APP",
+  "path": "data/xpanel/Hydra_APP.faa",
+  "header": ">XP_065670958.1 uncharacterized protein LOC100202963 isoform X5 [Hydra vulgaris]",
+  "accession": "XP_065670958.1",
+  "live_header": ">XP_065670958.1 uncharacterized protein LOC100202963 isoform X5 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_ATG5",
+  "label": "ATG5",
+  "path": "data/xpanel/Hydra_ATG5.faa",
+  "header": ">XP_002170630.3 autophagy protein 12-like [Hydra vulgaris]",
+  "accession": "XP_002170630.3",
+  "live_header": ">XP_002170630.3 autophagy protein 12-like [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_ATG7",
+  "label": "ATG7",
+  "path": "data/xpanel/Hydra_ATG7.faa",
+  "header": ">XP_065669531.1 ubiquitin-like modifier-activating enzyme ATG7 isoform X3 [Hydra vulgaris]",
+  "accession": "XP_065669531.1",
+  "live_header": ">XP_065669531.1 ubiquitin-like modifier-activating enzyme ATG7 isoform X3 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_ATM",
+  "label": "ATM",
+  "path": "data/xpanel/Hydra_ATM.faa",
+  "header": ">XP_065669347.1 serine-protein kinase ATM isoform X4 [Hydra vulgaris]",
+  "accession": "XP_065669347.1",
+  "live_header": ">XP_065669347.1 serine-protein kinase ATM isoform X4 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_ATR",
+  "label": "ATR",
+  "path": "data/xpanel/Hydra_ATR.faa",
+  "header": ">XP_065646883.1 serine/threonine-protein kinase atr isoform X3 [Hydra vulgaris]",
+  "accession": "XP_065646883.1",
+  "live_header": ">XP_065646883.1 serine/threonine-protein kinase atr isoform X3 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_BECN1",
+  "label": "BECN1",
+  "path": "data/xpanel/Hydra_BECN1.faa",
+  "header": ">XP_065652866.1 activating molecule in BECN1-regulated autophagy protein 1B isoform X1 [Hydra vulgaris]",
+  "accession": "XP_065652866.1",
+  "live_header": ">XP_065652866.1 activating molecule in BECN1-regulated autophagy protein 1B isoform X1 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_BLM",
+  "label": "BLM",
+  "path": "data/xpanel/Hydra_BLM.faa",
+  "header": ">XP_065639917.1 recQ-like DNA helicase BLM isoform X2 [Hydra vulgaris]",
+  "accession": "XP_065639917.1",
+  "live_header": ">XP_065639917.1 recQ-like DNA helicase BLM isoform X2 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_FUS",
+  "label": "FUS",
+  "path": "data/xpanel/Hydra_FUS.faa",
+  "header": ">CDG71050.1 Hydra vulgaris RNA-binding protein FUS [Hydra vulgaris]",
+  "accession": "CDG71050.1",
+  "live_header": ">CDG71050.1 Hydra vulgaris RNA-binding protein FUS [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_GRN",
+  "label": "GRN",
+  "path": "data/xpanel/Hydra_GRN.faa",
+  "header": ">CDG71145.1 Hydra vulgaris Granulins, partial [Hydra vulgaris]",
+  "accession": "CDG71145.1",
+  "live_header": ">CDG71145.1 Hydra vulgaris Granulins, partial [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_HSF1",
+  "label": "HSF1",
+  "path": "data/xpanel/Hydra_HSF1.faa",
+  "header": ">CDG70421.1 Hydra vulgaris Heat shock factor protein 1 [Hydra vulgaris]",
+  "accession": "CDG70421.1",
+  "live_header": ">CDG70421.1 Hydra vulgaris Heat shock factor protein 1 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_HTT",
+  "label": "HTT",
+  "path": "data/xpanel/Hydra_HTT.faa",
+  "header": ">CDG70968.1 Hydra vulgaris Huntingtin, partial [Hydra vulgaris]",
+  "accession": "CDG70968.1",
+  "live_header": ">CDG70968.1 Hydra vulgaris Huntingtin, partial [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_INSR",
+  "label": "INSR",
+  "path": "data/xpanel/Hydra_INSR.faa",
+  "header": ">NP_001296700.1 putative insulin-like peptide receptor precursor [Hydra vulgaris]",
+  "accession": "NP_001296700.1",
+  "live_header": ">NP_001296700.1 putative insulin-like peptide receptor precursor [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_LRRK2",
+  "label": "LRRK2",
+  "path": "data/xpanel/Hydra_LRRK2.faa",
+  "header": ">CDG69662.1 Hydra vulgaris Leucine-rich repeat serine/threonine-protein kinase 2, partial [Hydra vulgaris]",
+  "accession": "CDG69662.1",
+  "live_header": ">CDG69662.1 Hydra vulgaris Leucine-rich repeat serine/threonine-protein kinase 2, partial [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_MTOR",
+  "label": "MTOR",
+  "path": "data/xpanel/Hydra_MTOR.faa",
+  "header": ">XP_065669228.1 serine/threonine-protein kinase mTOR isoform X2 [Hydra vulgaris]",
+  "accession": "XP_065669228.1",
+  "live_header": ">XP_065669228.1 serine/threonine-protein kinase mTOR isoform X2 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_OPTN",
+  "label": "OPTN",
+  "path": "data/xpanel/Hydra_OPTN.faa",
+  "header": ">CDG68168.1 Hydra vulgaris Optineurin [Hydra vulgaris]",
+  "accession": "CDG68168.1",
+  "live_header": ">CDG68168.1 Hydra vulgaris Optineurin [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_PARK7",
+  "label": "PARK7",
+  "path": "data/xpanel/Hydra_PARK7.faa",
+  "header": ">CDG67828.1 Hydra vulgaris Protein DJ-1 [Hydra vulgaris]",
+  "accession": "CDG67828.1",
+  "live_header": ">CDG67828.1 Hydra vulgaris Protein DJ-1 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_PSEN1",
+  "label": "PSEN1",
+  "path": "data/xpanel/Hydra_PSEN1.faa",
+  "header": ">CDG70846.1 Hydra vulgaris Presenilin-1 [Hydra vulgaris]",
+  "accession": "CDG70846.1",
+  "live_header": ">CDG70846.1 Hydra vulgaris Presenilin-1 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_PTEN",
+  "label": "PTEN",
+  "path": "data/xpanel/Hydra_PTEN.faa",
+  "header": ">XP_065655551.1 tensin-1 isoform X3 [Hydra vulgaris]",
+  "accession": "XP_065655551.1",
+  "live_header": ">XP_065655551.1 tensin-1 isoform X3 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_SIRT1",
+  "label": "SIRT1",
+  "path": "data/xpanel/Hydra_SIRT1.faa",
+  "header": ">XP_065669617.1 NAD-dependent protein deacetylase sirtuin-1 isoform X3 [Hydra vulgaris]",
+  "accession": "XP_065669617.1",
+  "live_header": ">XP_065669617.1 NAD-dependent protein deacetylase sirtuin-1 isoform X3 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_SIRT6",
+  "label": "SIRT6",
+  "path": "data/xpanel/Hydra_SIRT6.faa",
+  "header": ">XP_065671103.1 NAD-dependent protein deacylase sirtuin-6 isoform X3 [Hydra vulgaris]",
+  "accession": "XP_065671103.1",
+  "live_header": ">XP_065671103.1 NAD-dependent protein deacylase sirtuin-6 isoform X3 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_SOD1",
+  "label": "SOD1",
+  "path": "data/xpanel/Hydra_SOD1.faa",
+  "header": ">NP_001274724.1 uncharacterized protein LOC100200684 [Hydra vulgaris]",
+  "accession": "NP_001274724.1",
+  "live_header": ">NP_001274724.1 uncharacterized protein LOC100200684 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_SQSTM1",
+  "label": "SQSTM1",
+  "path": "data/xpanel/Hydra_SQSTM1.faa",
+  "header": ">CDG70177.1 Hydra vulgaris Sequestosome-1 [Hydra vulgaris]",
+  "accession": "CDG70177.1",
+  "live_header": ">CDG70177.1 Hydra vulgaris Sequestosome-1 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_TARDBP",
+  "label": "TARDBP",
+  "path": "data/xpanel/Hydra_TARDBP.faa",
+  "header": ">CDG70227.1 Hydra vulgaris TAR DNA-binding protein 43 [Hydra vulgaris]",
+  "accession": "CDG70227.1",
+  "live_header": ">CDG70227.1 Hydra vulgaris TAR DNA-binding protein 43 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_TFEB",
+  "label": "TFEB",
+  "path": "data/xpanel/Hydra_TFEB.faa",
+  "header": ">XP_002158833.2 microphthalmia-associated transcription factor isoform X1 [Hydra vulgaris]",
+  "accession": "XP_002158833.2",
+  "live_header": ">XP_002158833.2 microphthalmia-associated transcription factor isoform X1 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_VCP",
+  "label": "VCP",
+  "path": "data/xpanel/Hydra_VCP.faa",
+  "header": ">XP_047124719.1 ubiquitin thioesterase OTU1 isoform X1 [Hydra vulgaris]",
+  "accession": "XP_047124719.1",
+  "live_header": ">XP_047124719.1 ubiquitin thioesterase OTU1 isoform X1 [Hydra vulgaris]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Hydra_WRN",
+  "label": "WRN",
+  "path": "data/xpanel/Hydra_WRN.faa",
+  "header": ">XP_065670298.1 bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN isoform X2 [Hydra vulgaris]",
+  "accession": "XP_065670298.1",
+  "live_header": ">XP_065670298.1 bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN isoform X2 [Hydra vulgaris]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_APP",
+  "label": "APP",
+  "path": "data/xpanel/Nematostella_APP.faa",
+  "header": ">XP_048582533.1 AP-1 complex subunit beta-1 [Nematostella vectensis]",
+  "accession": "XP_048582533.1",
+  "live_header": ">XP_048582533.1 AP-1 complex subunit beta-1 [Nematostella vectensis]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_ATG5",
+  "label": "ATG5",
+  "path": "data/xpanel/Nematostella_ATG5.faa",
+  "header": ">XP_001640072.1 ubiquitin-like protein ATG12 [Nematostella vectensis]",
+  "accession": "XP_001640072.1",
+  "live_header": ">XP_001640072.1 ubiquitin-like protein ATG12 [Nematostella vectensis]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_ATG7",
+  "label": "ATG7",
+  "path": "data/xpanel/Nematostella_ATG7.faa",
+  "header": ">XP_048589393.1 ubiquitin-like modifier-activating enzyme ATG7 [Nematostella vectensis]",
+  "accession": "XP_048589393.1",
+  "live_header": ">XP_048589393.1 ubiquitin-like modifier-activating enzyme ATG7 [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_ATM",
+  "label": "ATM",
+  "path": "data/xpanel/Nematostella_ATM.faa",
+  "header": ">XP_048577327.1 serine-protein kinase ATM [Nematostella vectensis]",
+  "accession": "XP_048577327.1",
+  "live_header": ">XP_048577327.1 serine-protein kinase ATM [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_ATR",
+  "label": "ATR",
+  "path": "data/xpanel/Nematostella_ATR.faa",
+  "header": ">XP_048589953.1 serine/threonine-protein kinase atr [Nematostella vectensis]",
+  "accession": "XP_048589953.1",
+  "live_header": ">XP_048589953.1 serine/threonine-protein kinase atr [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_C9orf72",
+  "label": "C9orf72",
+  "path": "data/xpanel/Nematostella_C9orf72.faa",
+  "header": ">XP_032232039.2 guanine nucleotide exchange factor C9orf72 homolog [Nematostella vectensis]",
+  "accession": "XP_032232039.2",
+  "live_header": ">XP_032232039.2 guanine nucleotide exchange factor C9orf72 homolog [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_FUS",
+  "label": "FUS",
+  "path": "data/xpanel/Nematostella_FUS.faa",
+  "header": ">XP_032223574.1 RNA-binding protein FUS isoform X1 [Nematostella vectensis]",
+  "accession": "XP_032223574.1",
+  "live_header": ">XP_032223574.1 RNA-binding protein FUS isoform X1 [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_INSR",
+  "label": "INSR",
+  "path": "data/xpanel/Nematostella_INSR.faa",
+  "header": ">XP_048583756.1 putative insulin-like peptide receptor [Nematostella vectensis]",
+  "accession": "XP_048583756.1",
+  "live_header": ">XP_048583756.1 putative insulin-like peptide receptor [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_MTOR",
+  "label": "MTOR",
+  "path": "data/xpanel/Nematostella_MTOR.faa",
+  "header": ">XP_032242839.2 serine/threonine-protein kinase mTOR [Nematostella vectensis]",
+  "accession": "XP_032242839.2",
+  "live_header": ">XP_032242839.2 serine/threonine-protein kinase mTOR [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_PINK1",
+  "label": "PINK1",
+  "path": "data/xpanel/Nematostella_PINK1.faa",
+  "header": ">XP_048587528.1 serine/threonine-protein kinase Pink1, mitochondrial isoform X1 [Nematostella vectensis]",
+  "accession": "XP_048587528.1",
+  "live_header": ">XP_048587528.1 serine/threonine-protein kinase Pink1, mitochondrial isoform X1 [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_PTEN",
+  "label": "PTEN",
+  "path": "data/xpanel/Nematostella_PTEN.faa",
+  "header": ">XP_001637845.3 tensin-2 isoform X1 [Nematostella vectensis]",
+  "accession": "XP_001637845.3",
+  "live_header": ">XP_001637845.3 tensin-2 isoform X1 [Nematostella vectensis]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_SIRT1",
+  "label": "SIRT1",
+  "path": "data/xpanel/Nematostella_SIRT1.faa",
+  "header": ">XP_001623784.3 NAD-dependent protein deacetylase sirtuin-1 [Nematostella vectensis]",
+  "accession": "XP_001623784.3",
+  "live_header": ">XP_001623784.3 NAD-dependent protein deacetylase sirtuin-1 [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_SIRT6",
+  "label": "SIRT6",
+  "path": "data/xpanel/Nematostella_SIRT6.faa",
+  "header": ">XP_001624617.3 NAD-dependent protein deacylase sirtuin-6 [Nematostella vectensis]",
+  "accession": "XP_001624617.3",
+  "live_header": ">XP_001624617.3 NAD-dependent protein deacylase sirtuin-6 [Nematostella vectensis]",
+  "status": "verified_by_name",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_TFEB",
+  "label": "TFEB",
+  "path": "data/xpanel/Nematostella_TFEB.faa",
+  "header": ">XP_048589259.1 microphthalmia-associated transcription factor isoform X1 [Nematostella vectensis]",
+  "accession": "XP_048589259.1",
+  "live_header": ">XP_048589259.1 microphthalmia-associated transcription factor isoform X1 [Nematostella vectensis]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ },
+ {
+  "key": "Nematostella_VCP",
+  "label": "VCP",
+  "path": "data/xpanel/Nematostella_VCP.faa",
+  "header": ">XP_032226106.2 deubiquitinating protein VCPIP1 [Nematostella vectensis]",
+  "accession": "XP_032226106.2",
+  "live_header": ">XP_032226106.2 deubiquitinating protein VCPIP1 [Nematostella vectensis]",
+  "status": "name_mismatch_or_unresolved",
+  "cached_matches_live": true
+ }
+]
