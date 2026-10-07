@@ -1,0 +1,160 @@
+[
+  {
+    "label": "AKT1",
+    "query": "(\"RAC serine/threonine-protein kinase\" OR \"RAC-alpha serine/threonine-protein kinase\" OR \"protein kinase B\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22RAC+serine%2Fthreonine-protein+kinase%22+OR+%22RAC-alpha+serine%2Fthreonine-protein+kinase%22+OR+%22protein+kinase+B%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "26",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=2729068680%2C1778054306%2C3349544179%2C3249826782%2C3192556283%2C3138552457&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_065052422.1 RAC-gamma serine/threonine-protein kinase [Rhopilema esculentum]",
+      ">XP_031564380.1 RAC-gamma serine/threonine-protein kinase [Actinia tenebrosa]",
+      ">XP_084964232.1 RAC-gamma serine/threonine-protein kinase-like [Pavona decussata]",
+      ">XP_081308926.1 RAC-gamma serine/threonine-protein kinase-like [Orbicella franksi]",
+      ">XP_079917655.1 RAC-gamma serine/threonine-protein kinase-like [Hydra viridissima]",
+      ">XP_078344372.1 RAC-gamma serine/threonine-protein kinase-like [Oculina patagonica]"
+    ]
+  },
+  {
+    "label": "APP",
+    "query": "(\"amyloid-beta precursor\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22amyloid-beta+precursor%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "25",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404124009%2C2729076561%2C3400944438%2C1270031683%2C3349614072%2C3349562275&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_027046160.2 amyloid beta precursor like protein 2 [Pocillopora damicornis]",
+      ">XP_065056655.1 amyloid-beta A4 protein [Rhopilema esculentum]",
+      ">XP_031555204.2 amyloid-beta precursor-like protein [Actinia tenebrosa]",
+      ">XP_022797547.1 amyloid beta precursor like protein 2 [Stylophora pistillata]",
+      ">XP_084952895.1 amyloid-beta A4 protein-like [Pavona decussata]",
+      ">XP_084973277.1 amyloid beta precursor protein binding family B member 2-like [Pavona decussata]"
+    ]
+  },
+  {
+    "label": "ATG5",
+    "query": "(\"autophagy protein 5\" OR \"autophagy-related protein 5\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22autophagy+protein+5%22+OR+%22autophagy-related+protein+5%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "23",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404104251%2C3403060962%2C2729098678%2C1778065520%2C3398813751%2C3349538612&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_027049526.2 autophagy protein 5 [Pocillopora damicornis]",
+      ">XP_088967367.1 autophagy protein 5 isoform X1 [Rhopilema esculentum]",
+      ">XP_065068357.1 autophagy protein 5 isoform X2 [Rhopilema esculentum]",
+      ">XP_031570229.1 autophagy protein 5 [Actinia tenebrosa]",
+      ">XP_022786443.2 autophagy protein 5 [Stylophora pistillata]",
+      ">XP_084961471.1 autophagy protein 5-like [Pavona decussata]"
+    ]
+  },
+  {
+    "label": "BECN1",
+    "query": "(\"beclin-1\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22beclin-1%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "62",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404125116%2C3404077853%2C3403064493%2C3403064491%2C3403056160%2C3401008137&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_027049108.2 beclin 1-associated autophagy-related key regulator [Pocillopora damicornis]",
+      ">XP_089050894.1 beclin-1 [Pocillopora damicornis]",
+      ">XP_065052186.2 beclin-1 isoform X2 [Rhopilema esculentum]",
+      ">XP_065052185.2 beclin-1 isoform X1 [Rhopilema esculentum]",
+      ">XP_065062332.2 beclin 1-associated autophagy-related key regulator [Rhopilema esculentum]",
+      ">XP_031573045.2 beclin 1-associated autophagy-related key regulator [Actinia tenebrosa]"
+    ]
+  },
+  {
+    "label": "PTEN",
+    "query": "(\"phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase\" OR \"phosphatase and tensin homolog\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22phosphatidylinositol+3%2C4%2C5-trisphosphate+3-phosphatase%22+OR+%22phosphatase+and+tensin+homolog%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "63",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=2729066657%2C1778061705%2C3349625305%2C3349625303%2C3249805364%2C3249805362&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_065051330.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN [Rhopilema esculentum]",
+      ">XP_031568203.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN [Actinia tenebrosa]",
+      ">XP_084958471.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN-like isoform X2 [Pavona decussata]",
+      ">XP_084958470.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN-like isoform X1 [Pavona decussata]",
+      ">XP_081336514.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN-like isoform X3 [Orbicella franksi]",
+      ">XP_081336513.1 phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN-like isoform X2 [Orbicella franksi]"
+    ]
+  },
+  {
+    "label": "SOD1",
+    "query": "(\"superoxide dismutase [Cu-Zn]\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22superoxide+dismutase+%5BCu-Zn%5D%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "40",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404134663%2C1524896260%2C3401000266%2C3400990376%2C3400990373%2C3400989930&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_027056266.2 superoxide dismutase [Cu-Zn] [Pocillopora damicornis]",
+      ">XP_027056267.1 superoxide dismutase [Cu-Zn] [Pocillopora damicornis]",
+      ">XP_031571030.2 superoxide dismutase [Cu-Zn] [Actinia tenebrosa]",
+      ">XP_031572834.2 superoxide dismutase [Cu-Zn] isoform X2 [Actinia tenebrosa]",
+      ">XP_031572833.2 superoxide dismutase [Cu-Zn] isoform X1 [Actinia tenebrosa]",
+      ">XP_088891531.1 superoxide dismutase [Cu-Zn]-like isoform X2 [Actinia tenebrosa]"
+    ]
+  },
+  {
+    "label": "TFEB",
+    "query": "(\"transcription factor EB\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22transcription+factor+EB%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "0",
+    "fetch_url": null,
+    "headers": []
+  },
+  {
+    "label": "TP53",
+    "query": "(\"cellular tumor antigen p53\" OR \"tumor protein p53\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22cellular+tumor+antigen+p53%22+OR+%22tumor+protein+p53%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "245",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404135712%2C3404135710%2C3404135708%2C3404135706%2C3404135704%2C3404135702&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_089036116.1 cellular tumor antigen p53 isoform X2 [Pocillopora damicornis]",
+      ">XP_089036115.1 cellular tumor antigen p53 isoform X2 [Pocillopora damicornis]",
+      ">XP_027053332.2 cellular tumor antigen p53 isoform X2 [Pocillopora damicornis]",
+      ">XP_089036114.1 cellular tumor antigen p53 isoform X1 [Pocillopora damicornis]",
+      ">XP_089036113.1 cellular tumor antigen p53 isoform X1 [Pocillopora damicornis]",
+      ">XP_027053331.2 cellular tumor antigen p53 isoform X1 [Pocillopora damicornis]"
+    ]
+  },
+  {
+    "label": "VCP",
+    "query": "(\"transitional endoplasmic reticulum ATPase\" OR \"valosin-containing protein\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22transitional+endoplasmic+reticulum+ATPase%22+OR+%22valosin-containing+protein%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "26",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=1524858153%2C2729102233%2C1778061267%2C1270061528%2C3349607738%2C3349607736&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_027035993.1 transitional endoplasmic reticulum ATPase [Pocillopora damicornis]",
+      ">XP_065070225.1 transitional endoplasmic reticulum ATPase [Rhopilema esculentum]",
+      ">XP_031567979.1 transitional endoplasmic reticulum ATPase [Actinia tenebrosa]",
+      ">XP_022793310.1 transitional endoplasmic reticulum ATPase [Stylophora pistillata]",
+      ">XP_084949663.1 transitional endoplasmic reticulum ATPase isoform X2 [Pavona decussata]",
+      ">XP_084949662.1 transitional endoplasmic reticulum ATPase isoform X1 [Pavona decussata]"
+    ]
+  },
+  {
+    "label": "MTOR",
+    "query": "(\"serine/threonine-protein kinase mTOR\" OR \"mechanistic target of rapamycin\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22serine%2Fthreonine-protein+kinase+mTOR%22+OR+%22mechanistic+target+of+rapamycin%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "37",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=3404137739%2C3403049654%2C3401001963%2C3400970107%2C3398852461%2C3398852459&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_089036768.1 serine/threonine-protein kinase mTOR [Pocillopora damicornis]",
+      ">XP_065059278.2 serine/threonine-protein kinase mTOR [Rhopilema esculentum]",
+      ">XP_088895007.1 serine/threonine-protein kinase mTOR [Actinia tenebrosa]",
+      ">XP_088886011.1 LOW QUALITY PROTEIN: serine/threonine-protein kinase mTOR-like [Actinia tenebrosa]",
+      ">XP_088587571.1 serine/threonine-protein kinase mTOR-like [Stylophora pistillata]",
+      ">XP_088587570.1 serine/threonine-protein kinase mTOR-like [Stylophora pistillata]"
+    ]
+  },
+  {
+    "label": "WRN",
+    "query": "(\"Werner syndrome ATP-dependent helicase\") AND Cnidaria[Organism] AND refseq[filter]",
+    "search_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=%28%22Werner+syndrome+ATP-dependent+helicase%22%29+AND+Cnidaria%5BOrganism%5D+AND+refseq%5Bfilter%5D&retmode=json&retmax=6",
+    "count": "6",
+    "fetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=1619651137%2C1619597959%2C1191065565%2C1191054047%2C1191054045%2C1191049820&rettype=fasta&retmode=text",
+    "headers": [
+      ">XP_020902639.2 Werner syndrome ATP-dependent helicase homolog [Exaiptasia diaphana]",
+      ">XP_028513241.1 Werner syndrome ATP-dependent helicase-like, partial [Exaiptasia diaphana]",
+      ">XP_020911247.1 Werner syndrome ATP-dependent helicase homolog [Exaiptasia diaphana]",
+      ">XP_020904990.1 Werner syndrome ATP-dependent helicase homolog [Exaiptasia diaphana]",
+      ">XP_020904989.1 Werner syndrome ATP-dependent helicase-like, partial [Exaiptasia diaphana]",
+      ">XP_020902674.1 Werner syndrome ATP-dependent helicase [Exaiptasia diaphana]"
+    ]
+  }
+]

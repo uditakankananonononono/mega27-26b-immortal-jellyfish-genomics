@@ -1,0 +1,354 @@
+{
+ "labels": 47,
+ "cons_human": 27,
+ "cons_multi_union": 32,
+ "gain": [
+  "C9orf72",
+  "FUS",
+  "HSF1",
+  "OPTN",
+  "SQSTM1"
+ ],
+ "n_gain": 5,
+ "original_eight": [
+  "C9orf72",
+  "FUS",
+  "HSF1",
+  "OPTN",
+  "PTEN",
+  "SQSTM1",
+  "TFEB",
+  "TP53"
+ ],
+ "eight_remaining": [
+  "C9orf72",
+  "FUS",
+  "HSF1",
+  "OPTN",
+  "SQSTM1"
+ ],
+ "pooled_gain_in_this_run": [
+  "C9orf72",
+  "FUS",
+  "HSF1",
+  "OPTN",
+  "PTEN",
+  "SQSTM1",
+  "TFEB",
+  "TP53"
+ ],
+ "labels_zero_verified_nonhuman": [
+  "AKT1",
+  "APOE",
+  "APP",
+  "ATG5",
+  "BDNF",
+  "BECN1",
+  "CDKN2A",
+  "FOXO3",
+  "GBA",
+  "GHR",
+  "IGF1",
+  "IGF1R",
+  "MAPT",
+  "NFE2L2",
+  "NGF",
+  "PRKAA1",
+  "PRNP",
+  "PSEN2",
+  "PTEN",
+  "SNCA",
+  "SOD1",
+  "TFEB",
+  "TP53",
+  "TREM2",
+  "UBQLN2",
+  "VCP"
+ ],
+ "table": {
+  "AKT1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "APOE": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "APP": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "ATG5": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "ATG7": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 4
+  },
+  "ATM": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 4
+  },
+  "ATR": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 4
+  },
+  "BDNF": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "BECN1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "BLM": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 2
+  },
+  "C9orf72": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": true,
+   "n_verified_nonhuman": 3
+  },
+  "CDKN2A": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "FOXO3": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "FUS": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "GBA": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "GHR": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "GRN": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "HSF1": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "HTT": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "IGF1": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "IGF1R": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "INSR": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 4
+  },
+  "LRRK2": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "MAPT": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "MTOR": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 2
+  },
+  "NFE2L2": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "NGF": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "OPTN": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "PARK7": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "PINK1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 3
+  },
+  "PRKAA1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "PRNP": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "PSEN1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "PSEN2": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "PTEN": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "SIRT1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 4
+  },
+  "SIRT6": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 3
+  },
+  "SNCA": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "SOD1": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "SQSTM1": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "TARDBP": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 1
+  },
+  "TFEB": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "TP53": {
+   "pooled": true,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "TREM2": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "UBQLN2": {
+   "pooled": false,
+   "cons_human": false,
+   "cons_multi": false,
+   "n_verified_nonhuman": 0
+  },
+  "VCP": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 0
+  },
+  "WRN": {
+   "pooled": true,
+   "cons_human": true,
+   "cons_multi": true,
+   "n_verified_nonhuman": 2
+  }
+ },
+ "human_subset_ok": true,
+ "note": "existing HSPs only; no replacement alignments; verification by header name"
+}
