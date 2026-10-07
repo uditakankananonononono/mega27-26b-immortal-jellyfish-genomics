@@ -1,0 +1,30 @@
+[
+  {
+    "label": "TP53",
+    "accession": "XP_066910575.1",
+    "live_header": ">XP_066910575.1 TP53-binding protein 1-like [Clytia hemisphaerica]",
+    "sha256": "2efa69b11c8f5e7220a986b9258ecd2a3ace10ec0d3e1cbd8710ef9a66fe1e7a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_066910575.1&rettype=fasta&retmode=text"
+  },
+  {
+    "label": "PTEN",
+    "accession": "XP_066911570.1",
+    "live_header": ">XP_066911570.1 tensin-3-like [Clytia hemisphaerica]",
+    "sha256": "ae4dab46247a7a1e43628aac7279bcb4a6a041a52120a8f39ce6e8215a7c9242",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_066911570.1&rettype=fasta&retmode=text"
+  },
+  {
+    "label": "PTEN",
+    "accession": "XP_065655551.1",
+    "live_header": ">XP_065655551.1 tensin-1 isoform X3 [Hydra vulgaris]",
+    "sha256": "4cc0a17e66aa6fb6904136948b5d2f71da6414950b35b85204c1d5f094883150",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_065655551.1&rettype=fasta&retmode=text"
+  },
+  {
+    "label": "TFEB",
+    "accession": "XP_048589259.1",
+    "live_header": ">XP_048589259.1 microphthalmia-associated transcription factor isoform X1 [Nematostella vectensis]",
+    "sha256": "412fd8d5b28e259e27d3047988740b3eeb50239e07541a620f7a5a31b8527336",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=XP_048589259.1&rettype=fasta&retmode=text"
+  }
+]

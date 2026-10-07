@@ -1,0 +1,19 @@
+Proposed question: does the aging/neurology candidate-search gain depend on summing overlapping evidence from several queries at the same genomic segment?
+
+Purpose: a distinct robustness test of the completed candidate atlas. The current locus score sums all HSP bits across queries. This can reward repeated alignment evidence. Test whether the eight-label Clytia gain survives a conservative source-separated rule. This is a method-robustness result, not discovery of lifespan effects or functional orthologs.
+
+Available dataset: committed corrected query-level HSPs in results/x-tblastn-bc.json (2.6 MB), frozen 47-label panels, exact human correction inputs and locus clustering code. The raw records contain query/source identifier, coordinates, bits, e-value and query coverage. No new sequencing, alignments, unpublished data, participant identities, external keys or paid compute. Before outcomes, verify corrected query provenance for all human and nonhuman records; unresolved query identities produce an untestable label rather than silently inheriting it as a gene.
+
+Frozen design before execution:
+- Primary genome Clytia, primary population all 47 original distinct labels. No target picked using the eight winners. Other genomes descriptive only.
+- Keep e-value <=1e-5, the original 50-kb locus rule and 100-bit detection cutoff unchanged.
+- Comparator: original pooled-HSP rule versus a source-separated conservative rule. Cluster each exact query independently; call a label detected only if at least one individual query reaches 100 bits within its own locus. A human-only call uses only verified human query IDs. Multi-species uses the union of individually qualifying verified queries, never a cross-query sum.
+- Primary statistic: conservative multi-species minus conservative human-only detected-label count. Report both counts, the full 47-label paired outcome table, and how many of the original eight gained labels remain.
+- Fixed success criterion: conservative gain >=4 distinct labels (at least half the original eight) with no loss of conservative human-only detections when taking the query union. If gain is 0-3, the prespecified robustness claim is not supported. A missing provenance record for any original winner blocks that claim rather than lowering its denominator. This threshold is a practical robustness definition, not an inferential significance test or biological recall estimate.
+- Secondary audit, explicitly descriptive: list labels that require pooled subthreshold evidence, loci where best single-query coordinates differ from pooled best, and evidence-source counts. No p-value fishing, no changed score threshold, no new evolutionary claim.
+- Validate on synthetic positive, duplicate-query and disjoint-coordinate fixtures before opening the 47-label outcomes. Duplicate an identical query: conservative detections must remain invariant. Human-only union must be a subset of all-query detections.
+- Budget: existing files only, <=512 MB RAM and <=60 CPU seconds; no downloads/alignments. Hash all input files and freeze the plan before outcomes.
+
+Falsifier: fewer than four robust extra labels; unresolved winner-query identity; fixture failure; or union-inclusion failure. Preserve every failure and leave the original benchmark unchanged as a historical result.
+
+Decision requested: approve this specific robustness test or hold it. No outcome calculation has run.
