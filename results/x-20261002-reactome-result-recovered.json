@@ -1,0 +1,32 @@
+{
+  "observed_fraction": 0.6666666666666666,
+  "observed_numerator": 8,
+  "denominator": 12,
+  "null_mean": 0.8460666666666701,
+  "difference": -0.17940000000000345,
+  "p_one_sided": 0.994000599940006,
+  "permutations": 10000,
+  "seed": 261002,
+  "distinct_null_allocations": 136080,
+  "coverage": {
+    "B": {
+      "panel_genes": 23,
+      "approved_entrez_mapped": 23,
+      "any_TAS_leaf_annotation": 22,
+      "eligible_annotation": 21,
+      "detected_genes": 20
+    },
+    "C": {
+      "panel_genes": 23,
+      "approved_entrez_mapped": 23,
+      "any_TAS_leaf_annotation": 20,
+      "eligible_annotation": 14,
+      "detected_genes": 16
+    }
+  },
+  "unmapped": [],
+  "elapsed_seconds": 1.1214245459996164,
+  "download_bytes": 100310676,
+  "supported": false,
+  "recovery_status": "Recovered from exact recorded October 2 result; original snapshots lost in workspace rebuild; not rerun."
+}
