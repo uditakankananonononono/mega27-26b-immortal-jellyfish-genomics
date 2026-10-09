@@ -1,5 +1,5 @@
 {
-  "status": "PROPOSED candidates/evidence only, no gate signature, no alignment release",
+  "status": "CERTIFIED ENROLLMENT, sequences may be handed off only with execution/reference gates satisfied",
   "freeze_commit": "0d4d0e642250be0ce3b18dd6625df30e1d5fabea",
   "freeze_tree": "022832cf2d630a109a594efa0c620deeee329a42",
   "provider_queries": 20,
@@ -53,10 +53,16 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A9W9Y8E5.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "A",
+        "B",
+        "C"
       ]
     },
     {
@@ -104,10 +110,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/T2MIR3.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -155,10 +166,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4SXI4.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -206,10 +222,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4S6E7.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -257,10 +278,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A9X0A2V9.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -278,7 +304,7 @@
         },
         "B": {
           "status": "PASS",
-          "reason": "PrimaryUbl1_park_like/RING0_parkin/RING14/BRcat_RBR_parkin/Rcat_RBR_parkin across461aa, no fragment/ambiguous residues."
+          "reason": "PrimaryUbl1_cv_Nsp3_N-like at29..100 (generic Ubl-like, not parkin-specific)/RING0_parkin/RING14/BRcat_RBR_parkin/Rcat_RBR_parkin across461aa, no fragment/ambiguous residues."
         },
         "C": {
           "status": "PASS",
@@ -308,11 +334,13 @@
         }
       },
       "lane_proposed_selected": true,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4T1R3.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
-      ]
+      ],
+      "gate_decision": "PASS",
+      "gate_failed_checks": []
     },
     {
       "label": "PRKN",
@@ -359,10 +387,14 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/T2MIZ5.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "E"
       ]
     },
     {
@@ -410,10 +442,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/T2M8Y6.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -461,10 +498,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4RTM4.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -512,11 +554,13 @@
         }
       },
       "lane_proposed_selected": true,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/T2M3P7.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
-      ]
+      ],
+      "gate_decision": "PASS",
+      "gate_failed_checks": []
     },
     {
       "label": "TBK1",
@@ -563,10 +607,15 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4SKC0.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "B",
+        "C"
       ]
     },
     {
@@ -614,10 +663,14 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/A0A2B4SNM0.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "C"
       ]
     },
     {
@@ -665,10 +718,14 @@
         }
       },
       "lane_proposed_selected": false,
-      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "eligibility": "Independent blind review certified decision; no result signed",
       "source_urls": [
         "https://rest.uniprot.org/uniprotkb/T2M354.json",
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ],
+      "gate_decision": "FAIL",
+      "gate_failed_checks": [
+        "C"
       ]
     }
   ],
@@ -711,7 +768,7 @@
   ],
   "source_query_status": "discovery-query-status.json",
   "seen_audit_scope": "Historical89 original primary records and conservative all available local FASTA inventory. This is evidence for reviewer, not blanket proof of unknown model revisions; unresolved lineage must failD.",
-  "gate_status": "pending independent A-E review of all candidate evidence, mechanical D/E recomputation",
+  "gate_status": "A-E certified; no alignment/model result signed",
   "fixed_panel_dispositions": [
     {
       "label": "BAG3",
@@ -763,5 +820,9 @@
       "status": "all-candidates-fail-proposed-AE",
       "candidate_count": 2
     }
-  ]
+  ],
+  "gate_report_source": "Independent blind eligibility verdict received2026-10-09T11:59:04Z",
+  "gate_D_scope": "No lineage evidence found in inspected primary/source inventory, not proof of absence. Independently recomputed0/13 exact matches, no near-identity edge; nearest humanCHIP69.5% below threshold.",
+  "gate_E": "First-passers,44.1% identity across selected targets, deterministic control matches reproduced.",
+  "correction": "PFX34565.1B wording corrected from erroneous Ubl1_park_like to actual primary Ubl1_cv_Nsp3_N-like29..100. Decision unchanged; parkin-specific support isRING0/BRcat/Rcat."
 }

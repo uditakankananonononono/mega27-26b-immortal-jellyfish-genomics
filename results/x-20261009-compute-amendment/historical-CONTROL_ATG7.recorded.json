@@ -1,0 +1,56 @@
+{
+  "detected": true,
+  "loci": [
+    {
+      "contig": "ref|NW_027104403.1|",
+      "start": 87252,
+      "end": 100334,
+      "n_hsps": 3,
+      "total_bits": 240.4,
+      "best_pident": 72.152,
+      "best_qcov": 0.112,
+      "strand": "+"
+    }
+  ],
+  "hsps": [
+    {
+      "qseqid": "O95352",
+      "contig": "ref|NW_027104403.1|",
+      "pident": 72.152,
+      "alen": 79,
+      "evalue": 5.48e-27,
+      "bits": 121.0,
+      "qstart": 297,
+      "qend": 375,
+      "sstart": 98638,
+      "send": 98874,
+      "qcov": 0.112
+    },
+    {
+      "qseqid": "O95352",
+      "contig": "ref|NW_027104403.1|",
+      "pident": 69.811,
+      "alen": 53,
+      "evalue": 6.97e-09,
+      "bits": 63.2,
+      "qstart": 376,
+      "qend": 428,
+      "sstart": 100176,
+      "send": 100334,
+      "qcov": 0.075
+    },
+    {
+      "qseqid": "O95352",
+      "contig": "ref|NW_027104403.1|",
+      "pident": 51.111,
+      "alen": 45,
+      "evalue": 8.1e-07,
+      "bits": 56.2,
+      "qstart": 9,
+      "qend": 53,
+      "sstart": 87252,
+      "send": 87386,
+      "qcov": 0.064
+    }
+  ]
+}

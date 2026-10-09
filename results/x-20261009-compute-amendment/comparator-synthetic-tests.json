@@ -1,0 +1,1090 @@
+{
+  "status": "10 synthetic fixtures only; no genome/rebuild/alignment",
+  "comparator_sha256": "38f155e729a86724636f72805fb87ce1a219372c58c902536f5cefe10523a695",
+  "cases": [
+    {
+      "case": "in-window",
+      "result": {
+        "status": "PASS",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "PASS",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "74169faf786f99d371ea51a27e17426303b7995bad50cf837a44c5bc56e45a7a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "extra-file",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [
+          "rebuilt exact-file-set:extra/missing component"
+        ],
+        "locked_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "PASS",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "74169faf786f99d371ea51a27e17426303b7995bad50cf837a44c5bc56e45a7a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "symlink",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [
+          "rebuilt exact-file-set:nonregular component clytia.nhr"
+        ],
+        "locked_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "PASS",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "74169faf786f99d371ea51a27e17426303b7995bad50cf837a44c5bc56e45a7a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "directory",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "status": "FAIL",
+            "error": "[Errno 21] Is a directory: '/tmp/njs-ext-tests-e16d3q90/new/clytia.nhr'"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [
+          "rebuilt exact-file-set:nonregular component clytia.nhr"
+        ],
+        "locked_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "PASS",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "74169faf786f99d371ea51a27e17426303b7995bad50cf837a44c5bc56e45a7a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "before-lock",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "FAIL",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "1d2b799ccdc67b3bfdd7a8a5a5568e627e7dd2cc484252ab01764b8bde1d2d04",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T16:57:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": false,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T16:57:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "after-completion",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "FAIL",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "a8244d2f07f76c3991990f68134b7365553cd7bc4464bdf97cc0ce1aa1a68901",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:11:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": false,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:11:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "extra-key",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "FAIL",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "8a483f0b11541a09c2159d79bab2aee5ef95c428c2eddb47f5efab44df15b620",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ],
+            "extra": 1
+          },
+          "diff_fields": [
+            "extra",
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "invalid-time",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "FAIL",
+          "error": "Invalid isoformat string: 'wrong'"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "changed-path",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "./makeblastdb",
+            "-in",
+            "reference.fna",
+            "-dbtype",
+            "nucl",
+            "-parse_seqids",
+            "-blastdb_version",
+            "4",
+            "-out",
+            "clytia"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "FAIL",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "643333bfa3eb290298167124cfc765790f43c99e1563735f9a3315da0ecb2d9a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "other",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "dbname",
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    },
+    {
+      "case": "wrong-argv",
+      "result": {
+        "status": "HOLD",
+        "components": [
+          {
+            "component": "clytia.nhr",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nin",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nog",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsd",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsi",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          },
+          {
+            "component": "clytia.nsq",
+            "sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "locked_sha256": "51caecaf899d3667180c2835710c5b42b0d6db985011aa4ceea4e4d887ede586",
+            "status": "PASS"
+          }
+        ],
+        "errors": [
+          "build argv/exit/stderr mismatch"
+        ],
+        "locked_file_set": "PASS",
+        "rebuilt_file_set": "PASS",
+        "build_receipt": {
+          "argv": [
+            "wrong"
+          ],
+          "exit": 0,
+          "stderr": "",
+          "stdout": "New DB title:  reference.fna\nSequence type: Nucleotide\nadded 1396 sequences"
+        },
+        "njs": {
+          "status": "PASS",
+          "locked_raw_sha256": "48f7887e3e44030e4001192476084d31ba68a95a98631f2c6648567ec7a46dac",
+          "rebuilt_raw_sha256": "74169faf786f99d371ea51a27e17426303b7995bad50cf837a44c5bc56e45a7a",
+          "locked_parsed": {
+            "last-updated": "2026-10-09T16:58:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "rebuilt_parsed": {
+            "last-updated": "2026-10-09T17:00:00",
+            "dbname": "clytia",
+            "number-of-letters": 420978673,
+            "files": [
+              "clytia.nhr",
+              "clytia.nin",
+              "clytia.nog",
+              "clytia.nsd",
+              "clytia.nsi",
+              "clytia.nsq"
+            ]
+          },
+          "diff_fields": [
+            "last-updated"
+          ],
+          "timestamp_window_pass": true,
+          "lower_iso": "2026-10-09T16:58:00+05:30",
+          "rebuild_completion_iso": "2026-10-09T17:10:00+05:30",
+          "last_updated_iso": "2026-10-09T17:00:00+05:30"
+        },
+        "makeblastdb_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+        "reference_receipt": {
+          "fresh_download_verified": true,
+          "compressed_md5": "m-reference.fna.gz",
+          "compressed_sha256": "s-reference.fna.gz",
+          "decompressed_md5": "m-reference.fna",
+          "decompressed_sha256": "s-reference.fna",
+          "bases": 420978673,
+          "scaffolds": 1396
+        }
+      }
+    }
+  ]
+}

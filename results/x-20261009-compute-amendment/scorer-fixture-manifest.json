@@ -1,0 +1,27 @@
+{
+  "status": "Pinned historical original recorded locus output matches independently recomputed pinned scorer exactly; no new alignment",
+  "fixture_sha256": "21789ef822e25f2497b8778c3b5090e54b1ba9c8e98e6ebddee5d4d25c91649f",
+  "expected_canonical_json_sha256": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419",
+  "scorer_sha256": "03e920bd782b70642fd14544a49ff718f1c7058d1d6c852a42f1c544297cc18f",
+  "canonical": "ASCII JSON sorted keys, comma/colon separators, no trailing newline",
+  "historical_record": {
+    "recorded_outcome_file": "historical-CONTROL_ATG7.recorded.json",
+    "original_full_outcome_sha256": "3f6f27ca3cbcc6993de17633946f3976f13dafa998eeb878fe7c1917d384bea0",
+    "recorded_loci_equal_expected": true
+  },
+  "fixture_summary": {
+    "hsp_count": 3,
+    "locus_count": 1,
+    "strong_count": 1,
+    "best": {
+      "contig": "ref|NW_027104403.1|",
+      "start": 87252,
+      "end": 100334,
+      "n_hsps": 3,
+      "total_bits": 240.4,
+      "best_pident": 72.152,
+      "best_qcov": 0.112,
+      "strand": "+"
+    }
+  }
+}

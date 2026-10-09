@@ -1,5 +1,6 @@
 {
-  "status": "proposed-enrollment-evidence, no alignment or release",
+  "status": "certified-record correction; compute/reference gates outstanding",
+  "original_enrollment_commit": "08e2523d9044fd8637372b45720c1bac19ece13f",
   "files": [
     {
       "path": "candidate-evidence/BAG3-A0A9W9Y8E5.json",
@@ -142,6 +143,11 @@
       "sha256": "9d96d439c4d9e62e6ff5c0bd4907cf0169db128978f2767acfe961dfeeeb3d13"
     },
     {
+      "path": "certified-compute-query-schedule.json",
+      "bytes": 40012,
+      "sha256": "2460f4296f0494de9480418b164af2ca3b234cf2373cafe2f0deac2f540685d6"
+    },
+    {
       "path": "discovery-query-status.json",
       "bytes": 8942,
       "sha256": "c3278345a079b921872623fa32ffca94111764f36b047b96f5822e26955834ad"
@@ -248,8 +254,8 @@
     },
     {
       "path": "enrollment-manifest-proposed.json",
-      "bytes": 37488,
-      "sha256": "c81db4d8246248c176db3286fb628025720732dc422ffbb97c86427ac3136d7d"
+      "bytes": 39422,
+      "sha256": "cf880a3181791055af7e0d6afe979fbaf097003666fb726a61bd0445b21ce88a"
     },
     {
       "path": "historical-A0ABN8NKE4.json",
@@ -288,8 +294,8 @@
     },
     {
       "path": "proposed-query-fastas/NOT-RELEASED.txt",
-      "bytes": 115,
-      "sha256": "277739efd5c7b0aff58d89f25cf67babd72533729bbb6f628eb71c1c48c634fa"
+      "bytes": 192,
+      "sha256": "4d2c64f68c9ae9c1dded19f65efd3119fb84a66866a527f581f4db2b26409072"
     },
     {
       "path": "proposed-query-fastas/PRKN-A0A2B4T1R3.faa",
@@ -300,6 +306,21 @@
       "path": "proposed-query-fastas/STUB1-T2M3P7.faa",
       "bytes": 313,
       "sha256": "aefd314888ca397d9f1b8abb355399d980d2015ac2b462c6fc6675e052ba7829"
+    },
+    {
+      "path": "released-query-fastas/PRKN-A0A2B4T1R3.faa",
+      "bytes": 523,
+      "sha256": "952264cedd0f11c2dfb1defc4428945a0bf076310dbd97f6e04cc15ecf82af9c"
+    },
+    {
+      "path": "released-query-fastas/RELEASE-CONDITIONS.txt",
+      "bytes": 220,
+      "sha256": "e998131e189e7f8c3c8ea64244561c129ccc290625b9007cc8a093d7ad82cd0c"
+    },
+    {
+      "path": "released-query-fastas/STUB1-T2M3P7.faa",
+      "bytes": 329,
+      "sha256": "f54b8d3f9dc8445d57885b6c6ec2e7d0f9aa4ecf9d69b0b654b32f0bbfea3b9a"
     },
     {
       "path": "seen-recovered-KAJ7372972.1.faa",

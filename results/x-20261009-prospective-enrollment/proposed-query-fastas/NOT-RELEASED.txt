@@ -1,1 +1,1 @@
-Evidence-only proposed queries. No alignment permitted, gate A-E review and compute/reference release outstanding.
+Historical proposal files retained as enrollment evidence. Certified eligibility/release file set is ../released-query-fastas/. Execution/reference gates still apply; no alignment result yet.

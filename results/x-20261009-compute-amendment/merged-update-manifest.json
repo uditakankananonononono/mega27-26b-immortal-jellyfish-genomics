@@ -1,0 +1,86 @@
+{
+  "status": "complete merged scientific update, unsigned,no execution",
+  "local_commit": "10f2bb752152bac67e8a791a7f603dacfc33c0b1",
+  "files": [
+    {
+      "path": "results/x-20261009-compute-amendment/comparator-synthetic-tests.json",
+      "bytes": 39775,
+      "sha256": "e6c11fc7187d2117fe214d9b1dbd307b1b6c720a74bb2d9319ba523492a1441e"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/compare_db_v4_19.py",
+      "bytes": 5064,
+      "sha256": "38f155e729a86724636f72805fb87ce1a219372c58c902536f5cefe10523a695"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/historical-CONTROL_ATG7.expected.json",
+      "bytes": 331,
+      "sha256": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/historical-CONTROL_ATG7.recorded.json",
+      "bytes": 1079,
+      "sha256": "43d860573a61a62308d38964c1d1f9674a538eddcb42c4f0be67304dd4708670"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/historical-CONTROL_ATG7.tsv",
+      "bytes": 223,
+      "sha256": "21789ef822e25f2497b8778c3b5090e54b1ba9c8e98e6ebddee5d4d25c91649f"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/original-loci.py",
+      "bytes": 1740,
+      "sha256": "03e920bd782b70642fd14544a49ff718f1c7058d1d6c852a42f1c544297cc18f"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/original-x_map.py",
+      "bytes": 5620,
+      "sha256": "56c67e97fd12d467e42b874f45a3ee8af625c7eeec0bc47198d6635ce9ddb096"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/scorer-fixture-manifest.json",
+      "bytes": 1065,
+      "sha256": "ff890fad5cc1746e8e07d81559326eb9d7294065c0bbabf5580037f0474483c0"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/v4.19-draft.md",
+      "bytes": 13665,
+      "sha256": "1a17d39cf5bb1293500d093a2cbfe76b68b68ff95b2eb2dc493bf69b0ef9e99b"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/certified-compute-query-schedule.json",
+      "bytes": 40012,
+      "sha256": "2460f4296f0494de9480418b164af2ca3b234cf2373cafe2f0deac2f540685d6"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/enrollment-manifest-proposed.json",
+      "bytes": 39422,
+      "sha256": "cf880a3181791055af7e0d6afe979fbaf097003666fb726a61bd0445b21ce88a"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/evidence-manifest.json",
+      "bytes": 11527,
+      "sha256": "4148c662f25aa0482149db166ee9726fa8d95a8c63f5ff75ca8153bac3bf554d"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/proposed-query-fastas/NOT-RELEASED.txt",
+      "bytes": 192,
+      "sha256": "4d2c64f68c9ae9c1dded19f65efd3119fb84a66866a527f581f4db2b26409072"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/released-query-fastas/PRKN-A0A2B4T1R3.faa",
+      "bytes": 523,
+      "sha256": "952264cedd0f11c2dfb1defc4428945a0bf076310dbd97f6e04cc15ecf82af9c"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/released-query-fastas/RELEASE-CONDITIONS.txt",
+      "bytes": 220,
+      "sha256": "e998131e189e7f8c3c8ea64244561c129ccc290625b9007cc8a093d7ad82cd0c"
+    },
+    {
+      "path": "results/x-20261009-prospective-enrollment/released-query-fastas/STUB1-T2M3P7.faa",
+      "bytes": 329,
+      "sha256": "f54b8d3f9dc8445d57885b6c6ec2e7d0f9aa4ecf9d69b0b654b32f0bbfea3b9a"
+    }
+  ]
+}

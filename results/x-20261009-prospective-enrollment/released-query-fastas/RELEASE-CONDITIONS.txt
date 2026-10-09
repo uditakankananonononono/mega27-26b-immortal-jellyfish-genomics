@@ -1,0 +1,1 @@
+Two eligibility-certified queries. Execution only after signed compute amendment and use-time reference verification. No alignment result yet. N2/M2 descriptive-only. Excluded ambiguous candidates permanently unaligned.

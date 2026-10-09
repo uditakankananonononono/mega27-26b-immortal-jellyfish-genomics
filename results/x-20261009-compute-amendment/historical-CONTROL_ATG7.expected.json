@@ -1,0 +1,1 @@
+{"best":{"best_pident":72.152,"best_qcov":0.112,"contig":"ref|NW_027104403.1|","end":100334,"n_hsps":3,"start":87252,"strand":"+","total_bits":240.4},"loci":[{"best_pident":72.152,"best_qcov":0.112,"contig":"ref|NW_027104403.1|","end":100334,"n_hsps":3,"start":87252,"strand":"+","total_bits":240.4}],"n_strong":1,"query":"O95352"}
