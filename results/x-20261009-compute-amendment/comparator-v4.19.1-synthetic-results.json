@@ -1,0 +1,153 @@
+{
+  "status": "20 synthetic contracts only, production frozen hash never changed",
+  "synthetic_testing": "Loaded module copy overrides __file__ and expected lock hash only to use tiny synthetic fixtures; production source constants unchanged. Mutated lock fails frozen hash before structural validation. No real DB/rebuild/alignment.",
+  "production_comparator_sha256": "0c4e33f03be10fc71fd6dacb47903efe43f6b179f2cd0babf125eff0c6cd429a",
+  "cases": [
+    {
+      "case": "valid",
+      "expected": "PASS",
+      "actual": "PASS",
+      "errors": []
+    },
+    {
+      "case": "wrong-old-njs",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "frozen inputs:old njs hash mismatch before parse"
+      ]
+    },
+    {
+      "case": "lock-missing",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "frozen inputs:lock byte hash not frozen"
+      ]
+    },
+    {
+      "case": "lock-duplicate",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "frozen inputs:lock byte hash not frozen"
+      ]
+    },
+    {
+      "case": "component-changed",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "extra-file",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "rebuilt exact-file-set:extra/missing component"
+      ]
+    },
+    {
+      "case": "symlink",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "rebuilt exact-file-set:nonregular component clytia.nhr"
+      ]
+    },
+    {
+      "case": "directory",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "rebuilt exact-file-set:nonregular component clytia.nhr"
+      ]
+    },
+    {
+      "case": "missing-file",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "rebuilt exact-file-set:extra/missing component"
+      ]
+    },
+    {
+      "case": "before-window",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "after-window",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "invalid-time",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "extra-json-key",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "changed-path",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": []
+    },
+    {
+      "case": "wrong-argv",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "build argv/exit/stderr mismatch"
+      ]
+    },
+    {
+      "case": "nonzero-build",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "build argv/exit/stderr mismatch"
+      ]
+    },
+    {
+      "case": "bad-stdout",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "build stdout title/type/count mismatch"
+      ]
+    },
+    {
+      "case": "bad-ref",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "fresh reference receipt mismatch"
+      ]
+    },
+    {
+      "case": "stderr",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "build argv/exit/stderr mismatch"
+      ]
+    },
+    {
+      "case": "binary-mismatch",
+      "expected": "HOLD",
+      "actual": "HOLD",
+      "errors": [
+        "binary:"
+      ]
+    }
+  ]
+}
