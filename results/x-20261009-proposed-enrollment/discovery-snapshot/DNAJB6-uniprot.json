@@ -1,0 +1,67 @@
+{
+  "label": "DNAJB6",
+  "provider": "uniprot",
+  "query": "taxonomy_id:6073 AND gene_exact:DNAJB6",
+  "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ADNAJB6&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+  "started_utc": "2026-10-09T11:52:45.568430+00:00",
+  "retry": false,
+  "count": 1,
+  "status": "snapshot",
+  "response": {
+    "results": [
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "T2MIR3",
+        "uniProtkbId": "T2MIR3_HYDVU",
+        "entryAudit": {
+          "entryVersion": 26
+        },
+        "organism": {
+          "scientificName": "Hydra vulgaris",
+          "commonName": "Hydra",
+          "synonyms": [
+            "Hydra attenuata"
+          ],
+          "taxonId": 6087,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG71812.1"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Hydrozoa",
+            "Hydroidolina",
+            "Anthoathecata",
+            "Aplanulata",
+            "Hydridae",
+            "Hydra"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "CDG71812.1"
+                }
+              ],
+              "value": "DNAJB6"
+            }
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI0001926419"
+        }
+      }
+    ]
+  },
+  "response_sha256": "d7850378864facad8971f90c95e84629516f2fe39f4c41e6b033f9bdd9a12dc7",
+  "completed_utc": "2026-10-09T11:52:46.344865+00:00"
+}

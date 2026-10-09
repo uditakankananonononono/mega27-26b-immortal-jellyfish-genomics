@@ -1,0 +1,997 @@
+{
+  "label": "NBR1",
+  "priority": 1,
+  "accession": "A0A2B4S6E7",
+  "url": "https://rest.uniprot.org/uniprotkb/A0A2B4S6E7.json",
+  "retrieved_utc": "2026-10-09T11:53:15.961354+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2B4S6E7",
+    "uniProtkbId": "A0A2B4S6E7_STYPI",
+    "entryAudit": {
+      "firstPublicDate": "2017-12-20",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2017-12-20",
+      "entryVersion": 25,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+      "scientificName": "Stylophora pistillata",
+      "commonName": "Smooth cauliflower coral",
+      "taxonId": 50429,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "PFX24102.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000225706"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Anthozoa",
+        "Hexacorallia",
+        "Scleractinia",
+        "Vacatina",
+        "Pocilloporidae",
+        "Stylophora"
+      ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX24102.1"
+              }
+            ],
+            "value": "Next to BRCA1 gene 1 protein"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX24102.1"
+            }
+          ],
+          "value": "Nbr1"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX24102.1"
+              }
+            ],
+            "value": "AWC38_SpisGene11327"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004419"
+                }
+              ],
+              "value": "Cytoplasmic vesicle, autophagosome",
+              "id": "SL-0023"
+            }
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX24102.1"
+              }
+            ],
+            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 4,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 82,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "PB1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS51745"
+          }
+        ]
+      },
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 428,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 480,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "ZZ-type",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS50135"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 325,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 374,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 508,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 560,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 939,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 962,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 979,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 1042,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 1127,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 1148,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 327,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 338,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 349,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 371,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 508,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 543,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Basic and acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 551,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 560,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Basic and acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 941,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 959,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 992,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 1008,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 1017,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 1031,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023329"
+          }
+        ],
+        "id": "KW-0968",
+        "category": "Cellular component",
+        "name": "Cytoplasmic vesicle"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022723"
+          }
+        ],
+        "id": "KW-0479",
+        "category": "Ligand",
+        "name": "Metal-binding"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ],
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022833"
+          }
+        ],
+        "id": "KW-0862",
+        "category": "Ligand",
+        "name": "Zinc"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022771"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00228"
+          }
+        ],
+        "id": "KW-0863",
+        "category": "Domain",
+        "name": "Zinc-finger"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "CI-207N7Q8GD9SO3",
+          "citationType": "journal article",
+          "authors": [
+            "Voolstra C.R.",
+            "Li Y.",
+            "Liew Y.J.",
+            "Baumgarten S.",
+            "Zoccola D.",
+            "Flot J.-F.",
+            "Tambutte S.",
+            "Allemand D.",
+            "Aranda M."
+          ],
+          "title": "Comparative analysis of the genomes of Stylophora pistillata and Acropora digitifera provides evidence for extensive differences between species of corals.",
+          "publicationDate": "2017",
+          "journal": "bioRxiv",
+          "firstPage": "0",
+          "lastPage": "0",
+          "volume": "0"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "LSMT01000186",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "PFX24102.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "Genomic_DNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "A0A2B4S6E7",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "STRING",
+        "id": "50429.A0A2B4S6E7",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "2122982at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "Proteomes",
+        "id": "UP000225706",
+        "properties": [
+          {
+            "key": "Component",
+            "value": "Unassembled WGS sequence"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005776",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:autophagosome"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0008270",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:zinc ion binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:InterPro"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd14947",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "NBR1_like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd14319",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "UBA_NBR1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd02340",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZZ_NBR1_like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "2.60.40.10:FF:000199",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "next to BRCA1 gene 1 protein-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "3.30.60.90",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "1.10.8.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNA helicase RuvA subunit, C-terminal domain"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.60.40.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Immunoglobulins"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "3.10.20.90",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Phosphatidylinositol 3-kinase Catalytic Subunit, Chain A, domain 1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR013783",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ig-like_fold"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR032350",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Nbr1_FW"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR053793",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PB1-like"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000270",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PB1_dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR009060",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "UBA-like_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000433",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf_ZZ"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043145",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf_ZZ_sf"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR20930",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "OVARIAN CARCINOMA ANTIGEN CA125-RELATED"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR20930:SF0",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PROTEIN ILRUN"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF16158",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "N_BRCA1_IG"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00564",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PB1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00569",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZZ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00666",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PB1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00291",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZnF_ZZ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF54277",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "CAD & PB1 domains"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF57850",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING/U-box"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF46934",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "UBA-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS51745",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PB1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS01357",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZF_ZZ_1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50135",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZF_ZZ_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MTDRVKVKARFNGIARRFEISSPTSWEELTFQIKELFDVQDFMLKYIDDENELVTLGTHEELEEALKVTHKTGLFRLVVDSASDQQTTAPRIESFRDLLVESEEDTPVLQAQKRKLISNTTTPSELPSAFKTAKMDDGDLSETGIIGNSSFQEVENDFQCKTADKEQLPTEGNEIVNDRDEREVVDDTVESAGVLQNPSSTGPPTYERIADEATADHYIPLIELMQPVPSNPSQDASSFSGKLKKAPKKQKTKACYLQLAENISVELATMNEKLHKRLRSSLDVLKNKEHVPMEGLGDFEEDSYVFVGQQEDRNATAGAVDVENKELLSSPNEYSENQTKAEEEGEGNASPSPDVLSTSPSASGNNSNQSSVDHEKMAEVIQHVVQESVPQIVEATIKNLQQLHLGSPSPSSSPMQTCGMLLGGKVVHKGIVCASCGQAVCGIRYKCCFCKDYDLCEDCEGKEGIHDPNHFFAKLRNHVPGIGRKNGEMVPVLKKFVYKMTIKEEYKKEKKEEKRKEKDEKRERKKEKMIMKASRKDEKEKRDLKRRTKKEWRQMRHERDSATIKERMGNCLNAEFIADASIPDGTIIKTGRKFLKRWFVKNKGRKWNAKTVLQCLEGNILVATGENKVAVPFLKPDEDGELMVPFIAPSAPGQYESKWQLCHHSIPFGPLFWCQIVVEEGEVECEMLLNQETPTETEASKYPSYDSTTLVNSAFPERDTSPLRKFVEDIVPQGLMAEEPDEASGSDVYLSSTEDNAEFETIRIPLESVIVSSQAAQASELEWDTSGCGLDAELCDRAEIEELVASAVEDATSDVESVATDMSDEFMVVPVPPCFDPDAPLTADPSPVTVSVTEYKQMTESQQGTFSFTLSDQPTLKTELKSVPGTSFFIDPRSVSTDDTSMETISRTTVEEDNNVFEPLNDSNLQLLDSPVSEAGLESPLITTEESSGELSCEPTQPESPIITEPVNISEHANILEPVSTPAPEPAAHDEDQSDDNEDDNNDNDDDRTEAAVVPEVTSQPIAAQPVSSSDEPAPVALQPEPSSPVVMVPATVPTSEVTVVQRVRENSTSSDFASSVVSDVLSTAIDAAASAGRAVFTTVENFLTGVPKPEATATYKPVEGCEVSVNRPSEAEPSSNEAPAVHEVTWPPGRSPSTCHECLMEMGFCDRRLNEQLLKKYNYNVAKVVTELLSVTDNEWSTRRH",
+      "length": 1202,
+      "molWeight": 132920,
+      "crc64": "A2ACF05E174188C0",
+      "md5": "80EEACBE6705D958AE2CDF0ED9C381F8"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "SUBCELLULAR LOCATION": 1,
+        "CAUTION": 1
+      },
+      "countByFeatureType": {
+        "Domain": 2,
+        "Region": 5,
+        "Compositional bias": 7
+      },
+      "uniParcId": "UPI000C0064C9"
+    }
+  },
+  "status": "primary-record-fetched"
+}

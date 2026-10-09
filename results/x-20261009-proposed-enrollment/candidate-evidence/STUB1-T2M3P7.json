@@ -1,0 +1,768 @@
+{
+  "label": "STUB1",
+  "priority": 1,
+  "accession": "T2M3P7",
+  "url": "https://rest.uniprot.org/uniprotkb/T2M3P7.json",
+  "retrieved_utc": "2026-10-09T11:53:20.638638+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "T2M3P7",
+    "uniProtkbId": "T2M3P7_HYDVU",
+    "entryAudit": {
+      "firstPublicDate": "2013-11-13",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2013-11-13",
+      "entryVersion": 53,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+      "scientificName": "Hydra vulgaris",
+      "commonName": "Hydra",
+      "synonyms": [
+        "Hydra attenuata"
+      ],
+      "taxonId": 6087,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CDG66582.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Hydrozoa",
+        "Hydroidolina",
+        "Anthoathecata",
+        "Aplanulata",
+        "Hydridae",
+        "Hydra"
+      ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00044534"
+            }
+          ],
+          "value": "E3 ubiquitin-protein ligase CHIP"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00012483"
+              }
+            ],
+            "value": "2.3.2.27"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00044543"
+              }
+            ],
+            "value": "RING-type E3 ubiquitin transferase CHIP"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG66582.1"
+            }
+          ],
+          "value": "STUB1"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine + [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.",
+          "ecNumber": "2.3.2.27",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00000900"
+            }
+          ]
+        }
+      }
+    ],
+    "features": [
+      {
+        "type": "Repeat",
+        "location": {
+          "start": {
+            "value": 37,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 70,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "TPR",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00339"
+          }
+        ]
+      },
+      {
+        "type": "Repeat",
+        "location": {
+          "start": {
+            "value": 71,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 104,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "TPR",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00339"
+          }
+        ]
+      },
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 193,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 267,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "U-box",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS51698"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022737"
+          }
+        ],
+        "id": "KW-0677",
+        "category": "Domain",
+        "name": "Repeat"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022803"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00339"
+          }
+        ],
+        "id": "KW-0802",
+        "category": "Domain",
+        "name": "TPR repeat"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022679"
+          }
+        ],
+        "id": "KW-0808",
+        "category": "Molecular function",
+        "name": "Transferase"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022786"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01034"
+          }
+        ],
+        "id": "KW-0833",
+        "category": "Biological process",
+        "name": "Ubl conjugation pathway"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "24065732",
+          "citationType": "journal article",
+          "authors": [
+            "Wenger Y.",
+            "Galliot B."
+          ],
+          "citationCrossReferences": [
+            {
+              "database": "PubMed",
+              "id": "24065732"
+            },
+            {
+              "database": "DOI",
+              "id": "10.1093/gbe/evt142"
+            }
+          ],
+          "title": "Punctuated emergences of genetic and phenotypic innovations in eumetazoan, bilaterian, euteleostome, and hominidae ancestors.",
+          "publicationDate": "2013",
+          "journal": "Genome Biol. Evol.",
+          "firstPage": "1949",
+          "lastPage": "1968",
+          "volume": "5"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG66582.1"
+              }
+            ],
+            "value": "Whole animals",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG66582.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "HAAD01000350",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "CDG66582.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "mRNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "T2M3P7",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "KEGG",
+        "id": "hmg:100210298",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OMA",
+        "id": "WAGVEHD",
+        "properties": [
+          {
+            "key": "Fingerprint",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "629492at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0030018",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:Z disc"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0051087",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:protein-folding chaperone binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0061630",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:ubiquitin protein ligase activity"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-EC"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0071218",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:cellular response to misfolded protein"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0045862",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:positive regulation of proteolysis"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0043161",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:proteasome-mediated ubiquitin-dependent protein catabolic process"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000209",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:protein polyubiquitination"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0006515",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:protein quality control for misfolded or incompletely synthesized proteins"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd16654",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING-Ubox_CHIP"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "3.30.40.10:FF:000124",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "STIP1 homology and U box-containing protein 1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "6.10.140.2020",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "1.25.40.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tetratricopeptide repeat domain"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "3.30.40.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Zinc/RING finger domain, C3HC4 (zinc finger)"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR045202",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "CHIP_RING-Ubox"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR041312",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "CHIP_TPR_N"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR011990",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TPR-like_helical_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR019734",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TPR_rpt"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003613",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ubox_domain"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR013083",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf_RING/FYVE/PHD"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR46803",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "E3 UBIQUITIN-PROTEIN LIGASE CHIP"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR46803:SF2",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "E3 UBIQUITIN-PROTEIN LIGASE CHIP"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF12895",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ANAPC3"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF18391",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "CHIP_TPR_N"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF04564",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "U-box"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00028",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TPR"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00504",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ubox"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF57850",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING/U-box"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF48452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TPR-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50005",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TPR"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS51698",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "U_BOX"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MSALDLKEQGNRLFAARSYDDAIGCYTKAIIKDPSAGSYYTNRALCYLKLKKWKLAIADSQHAIDIDPKNVKAHFFIGQAYMENNSFDEAITNFQIAYDLAKEQKLNFGDDIASSLRAAKKKRWSLLEEKRIQEEIELQSYLQRLILEEKERKLQTVVEGSENASLIEADTKKRLLELNSLFAQVDERRQKRDVPDQLCGKISFEIMKDPVITPSGITYDRKDIEEHLQRVGHFDPVTRAPLNVNQLIPNLAMKEVVEEFLEKNEWAEYY",
+      "length": 270,
+      "molWeight": 31228,
+      "crc64": "1671F868F679FE4C",
+      "md5": "BC7B2BE5CAFD356F920E3D58C1554785"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "CATALYTIC ACTIVITY": 1
+      },
+      "countByFeatureType": {
+        "Repeat": 2,
+        "Domain": 1
+      },
+      "uniParcId": "UPI0002B4A638"
+    }
+  },
+  "status": "primary-record-fetched"
+}

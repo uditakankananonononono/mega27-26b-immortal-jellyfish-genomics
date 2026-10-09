@@ -1,0 +1,80 @@
+{
+  "label": "BAG3",
+  "provider": "uniprot",
+  "query": "taxonomy_id:6073 AND gene_exact:BAG3",
+  "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ABAG3&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+  "started_utc": "2026-10-09T11:52:43.821418+00:00",
+  "retry": false,
+  "count": 1,
+  "status": "snapshot",
+  "response": {
+    "results": [
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A9W9Y8E5",
+        "uniProtkbId": "A0A9W9Y8E5_9CNID",
+        "entryAudit": {
+          "entryVersion": 8
+        },
+        "organism": {
+          "scientificName": "Desmophyllum pertusum",
+          "taxonId": 174260,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "KAJ7323407.1"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP001163046"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Anthozoa",
+            "Hexacorallia",
+            "Scleractinia",
+            "Vacatina",
+            "Caryophylliidae",
+            "Desmophyllum"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "KAJ7323407.1"
+                }
+              ],
+              "value": "BAG3"
+            },
+            "orfNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "KAJ7323407.1"
+                  }
+                ],
+                "value": "OS493_031882"
+              }
+            ]
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI0024D0318D"
+        }
+      }
+    ]
+  },
+  "response_sha256": "4b5c72320fd230b0aea44039a26934b65dfc5321747444112df8349b727e30fc",
+  "completed_utc": "2026-10-09T11:52:44.528024+00:00"
+}

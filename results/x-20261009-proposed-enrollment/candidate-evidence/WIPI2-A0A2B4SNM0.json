@@ -1,0 +1,615 @@
+{
+  "label": "WIPI2",
+  "priority": 1,
+  "accession": "A0A2B4SNM0",
+  "url": "https://rest.uniprot.org/uniprotkb/A0A2B4SNM0.json",
+  "retrieved_utc": "2026-10-09T11:53:22.177617+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2B4SNM0",
+    "uniProtkbId": "A0A2B4SNM0_STYPI",
+    "entryAudit": {
+      "firstPublicDate": "2017-12-20",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2017-12-20",
+      "entryVersion": 32,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+      "scientificName": "Stylophora pistillata",
+      "commonName": "Smooth cauliflower coral",
+      "taxonId": 50429,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "PFX30122.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000225706"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Anthozoa",
+        "Hexacorallia",
+        "Scleractinia",
+        "Vacatina",
+        "Pocilloporidae",
+        "Stylophora"
+      ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX30122.1"
+              }
+            ],
+            "value": "WD repeat domain phosphoinositide-interacting protein 2"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX30122.1"
+            }
+          ],
+          "value": "WIPI2"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX30122.1"
+              }
+            ],
+            "value": "AWC38_SpisGene5061"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004184"
+                }
+              ],
+              "value": "Endomembrane system",
+              "id": "SL-0147"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004184"
+                }
+              ],
+              "value": "Peripheral membrane protein",
+              "id": "SL-9903"
+            }
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00025740"
+              }
+            ],
+            "value": "Belongs to the WD repeat PROPPIN family"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX30122.1"
+              }
+            ],
+            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 360,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 442,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 382,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 392,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Basic and acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 393,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 404,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023006"
+          }
+        ],
+        "id": "KW-0072",
+        "category": "Biological process",
+        "name": "Autophagy"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023121"
+          }
+        ],
+        "id": "KW-0446",
+        "category": "Ligand",
+        "name": "Lipid-binding"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023136"
+          }
+        ],
+        "id": "KW-0472",
+        "category": "Cellular component",
+        "name": "Membrane"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ],
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022737"
+          }
+        ],
+        "id": "KW-0677",
+        "category": "Domain",
+        "name": "Repeat"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022574"
+          }
+        ],
+        "id": "KW-0853",
+        "category": "Domain",
+        "name": "WD repeat"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "CI-207N7Q8GD9SO3",
+          "citationType": "journal article",
+          "authors": [
+            "Voolstra C.R.",
+            "Li Y.",
+            "Liew Y.J.",
+            "Baumgarten S.",
+            "Zoccola D.",
+            "Flot J.-F.",
+            "Tambutte S.",
+            "Allemand D.",
+            "Aranda M."
+          ],
+          "title": "Comparative analysis of the genomes of Stylophora pistillata and Acropora digitifera provides evidence for extensive differences between species of corals.",
+          "publicationDate": "2017",
+          "journal": "bioRxiv",
+          "firstPage": "0",
+          "lastPage": "0",
+          "volume": "0"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "LSMT01000055",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "PFX30122.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "Genomic_DNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "A0A2B4SNM0",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "STRING",
+        "id": "50429.A0A2B4SNM0",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "1667587at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "Proteomes",
+        "id": "UP000225706",
+        "properties": [
+          {
+            "key": "Component",
+            "value": "Unassembled WGS sequence"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005776",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:autophagosome"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0012505",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:endomembrane system"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000407",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:phagophore assembly site"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0032266",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:phosphatidylinositol-3-phosphate binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0034497",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:protein localization to phagophore assembly site"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0006950",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:response to stress"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "2.130.10.10:FF:000145",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD repeat domain phosphoinositide-interacting protein 2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.130.10.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "YVTN repeat-like/Quinoprotein amine dehydrogenase"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR048720",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PROPPIN"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR015943",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD40/YVTN_repeat-like_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036322",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD40_repeat_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR001680",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD40_rpt"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR11227",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD-REPEAT PROTEIN INTERACTING WITH PHOSPHOINOSIDES WIPI -RELATED"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF21032",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PROPPIN"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00320",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD40"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF50978",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WD40 repeat-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MNLAAYGGDPTGNLLCVNFNQDCSSLAVGSKAGYKLFSLNSVEKLEEIYDYAETEDICIVERLFSSSLVAIVSLSAPRKLKVCHFKKGTEICNYSYPNTILAVRLNRVRLLVVLEESLYIHNIRDMKVLHTIRDTPPNPSGLCALSVNSDNCYLAYPGSNQIGEVQIFDCVNLRAVTMVPAHDSPVAAMAFNSAGTKLSTASEKGTVIRVFAIPDGIKLYEFRRGVKRCVTINSLAFSHDSLFLCASSNTETVHIFKLEAPKKEPTDEAGGLMGYFGKALSPSSYLPVHVAEVFNQERAFASVRLPQAGLRNVCAIAMIGKLPRLLVSSADGYLYIYNIDPEDGGDCTLLKQHRLIGQTEGLEKPSTEEESASTEPSPSPTNKEEESQDSRARASSQNSQNSPTAGVCDPTQAIAAFGDLQGPGNLRLDDETEYPPLTVHNE",
+      "length": 442,
+      "molWeight": 48085,
+      "crc64": "C2F8D986BA446A73",
+      "md5": "AB94D542DB17640CC8021D60963875C7"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "SUBCELLULAR LOCATION": 1,
+        "SIMILARITY": 1,
+        "CAUTION": 1
+      },
+      "countByFeatureType": {
+        "Region": 1,
+        "Compositional bias": 2
+      },
+      "uniParcId": "UPI000C007A54"
+    }
+  },
+  "status": "primary-record-fetched"
+}

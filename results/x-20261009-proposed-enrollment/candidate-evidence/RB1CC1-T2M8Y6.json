@@ -1,0 +1,406 @@
+{
+  "label": "RB1CC1",
+  "priority": 1,
+  "accession": "T2M8Y6",
+  "url": "https://rest.uniprot.org/uniprotkb/T2M8Y6.json",
+  "retrieved_utc": "2026-10-09T11:53:19.099434+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "T2M8Y6",
+    "uniProtkbId": "T2M8Y6_HYDVU",
+    "entryAudit": {
+      "firstPublicDate": "2013-11-13",
+      "lastAnnotationUpdateDate": "2025-10-08",
+      "lastSequenceUpdateDate": "2013-11-13",
+      "entryVersion": 21,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 2.0,
+    "organism": {
+      "scientificName": "Hydra vulgaris",
+      "commonName": "Hydra",
+      "synonyms": [
+        "Hydra attenuata"
+      ],
+      "taxonId": 6087,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CDG68511.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Hydrozoa",
+        "Hydroidolina",
+        "Anthoathecata",
+        "Aplanulata",
+        "Hydridae",
+        "Hydra"
+      ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG68511.1"
+              }
+            ],
+            "value": "RB1-inducible coiled-coil protein 1"
+          }
+        }
+      ],
+      "flag": "Fragment"
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG68511.1"
+            }
+          ],
+          "value": "RB1CC1"
+        }
+      }
+    ],
+    "features": [
+      {
+        "type": "Non-terminal residue",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 1,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG68511.1"
+          }
+        ]
+      },
+      {
+        "type": "Non-terminal residue",
+        "location": {
+          "start": {
+            "value": 232,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 232,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG68511.1"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "24065732",
+          "citationType": "journal article",
+          "authors": [
+            "Wenger Y.",
+            "Galliot B."
+          ],
+          "citationCrossReferences": [
+            {
+              "database": "PubMed",
+              "id": "24065732"
+            },
+            {
+              "database": "DOI",
+              "id": "10.1093/gbe/evt142"
+            }
+          ],
+          "title": "Punctuated emergences of genetic and phenotypic innovations in eumetazoan, bilaterian, euteleostome, and hominidae ancestors.",
+          "publicationDate": "2013",
+          "journal": "Genome Biol. Evol.",
+          "firstPage": "1949",
+          "lastPage": "1968",
+          "volume": "5"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG68511.1"
+              }
+            ],
+            "value": "Whole animals",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG68511.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "HAAD01002279",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "CDG68511.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "mRNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "T2M8Y6",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "447953at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:1990316",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:Atg1/ULK1 kinase complex"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0034045",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:phagophore assembly site membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0060090",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:molecular adaptor activity"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0019901",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:protein kinase binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000045",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:autophagosome assembly"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:InterPro"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000422",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:autophagy of mitochondrion"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0061723",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:glycophagy"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0034727",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:piecemeal microautophagy of the nucleus"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0061709",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:reticulophagy"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0034517",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:ribophagy"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR040040",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ATG11"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR13222",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RB1-INDUCIBLE COILED-COIL"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR13222:SF1",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RB1-INDUCIBLE COILED-COIL PROTEIN 1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "SKVLIWLEKLPLLPCLTSKSEKRSLLEWINTYDQQSSLENLLRQCQESIKQLNFEVYEKVVDDAQQILESAQNPNMKEIRGLADRLVNLQQRLHLANQLKQDQSDMAQGFQQNKMRAEHLGDSSVLPDLCSSHQKQLHVLIKNHCHLREIRNLCARAKDELSVNLHTRLKWVMTIEKQICSLNSKIVIYHDFLRKIKKRMDIFEQVYDAPKLYVLSVIEVVRRRHFSKQFCE",
+      "length": 232,
+      "molWeight": 27375,
+      "crc64": "F6FF0874AD509F28",
+      "md5": "9325C8CD1161C567CE1230D599BF2701"
+    },
+    "extraAttributes": {
+      "countByFeatureType": {
+        "Non-terminal residue": 2
+      },
+      "uniParcId": "UPI0003B25077"
+    }
+  },
+  "status": "primary-record-fetched"
+}

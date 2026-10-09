@@ -1,0 +1,53 @@
+{
+  "label": "WIPI2",
+  "provider": "ncbi",
+  "query": "Cnidaria[Organism] AND WIPI2[Gene Name] AND srcdb_refseq[PROP]",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+WIPI2%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+  "started_utc": "2026-10-09T11:52:59.855316+00:00",
+  "retry": false,
+  "count": 0,
+  "status": "snapshot",
+  "response": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [
+        {
+          "from": "Cnidaria[Organism]",
+          "to": "\"Cnidaria\"[Organism]"
+        }
+      ],
+      "translationstack": [
+        {
+          "term": "\"Cnidaria\"[Organism]",
+          "field": "Organism",
+          "count": "1500343",
+          "explode": "Y"
+        },
+        {
+          "term": "WIPI2[Gene Name]",
+          "field": "Gene Name",
+          "count": "2852",
+          "explode": "N"
+        },
+        "AND",
+        {
+          "term": "srcdb_refseq[PROP]",
+          "field": "PROP",
+          "count": "504818604",
+          "explode": "N"
+        },
+        "AND"
+      ],
+      "querytranslation": "\"Cnidaria\"[Organism] AND WIPI2[Gene Name] AND srcdb_refseq[PROP]"
+    }
+  },
+  "response_sha256": "beeb94a8cdc0da9e5112cf781ad844df7bbd95b6b347f8c4a2d1c2c702a66527",
+  "completed_utc": "2026-10-09T11:53:00.092907+00:00"
+}

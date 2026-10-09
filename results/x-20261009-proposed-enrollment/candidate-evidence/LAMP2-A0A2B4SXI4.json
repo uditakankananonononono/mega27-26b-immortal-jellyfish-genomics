@@ -1,0 +1,891 @@
+{
+  "label": "LAMP2",
+  "priority": 1,
+  "accession": "A0A2B4SXI4",
+  "url": "https://rest.uniprot.org/uniprotkb/A0A2B4SXI4.json",
+  "retrieved_utc": "2026-10-09T11:53:15.180683+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A2B4SXI4",
+    "uniProtkbId": "A0A2B4SXI4_STYPI",
+    "entryAudit": {
+      "firstPublicDate": "2017-12-20",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2017-12-20",
+      "entryVersion": 24,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+      "scientificName": "Stylophora pistillata",
+      "commonName": "Smooth cauliflower coral",
+      "taxonId": 50429,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "PFX34036.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000225706"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Anthozoa",
+        "Hexacorallia",
+        "Scleractinia",
+        "Vacatina",
+        "Pocilloporidae",
+        "Stylophora"
+      ]
+    },
+    "proteinExistence": "3: Inferred from homology",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00074379"
+            }
+          ],
+          "value": "Lysosome-associated membrane glycoprotein 5"
+        }
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00076257"
+              }
+            ],
+            "value": "Lysosome-associated membrane protein 5"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX34036.1"
+            }
+          ],
+          "value": "LAMP2"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX34036.1"
+              }
+            ],
+            "value": "AWC38_SpisGene1057"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00053950"
+              }
+            ],
+            "value": "Plays a role in short-term synaptic plasticity in a subset of GABAergic neurons in the brain"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004279"
+                }
+              ],
+              "value": "Cell projection, dendrite",
+              "id": "SL-0283"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00060492"
+                }
+              ],
+              "value": "Cell projection, growth cone membrane",
+              "id": "SL-0289"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00060492"
+                }
+              ],
+              "value": "Single-pass type I membrane protein",
+              "id": "SL-9905"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00029428"
+                }
+              ],
+              "value": "Cytoplasmic vesicle, secretory vesicle, synaptic vesicle membrane",
+              "id": "SL-0260"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00029428"
+                }
+              ],
+              "value": "Single-pass type I membrane protein",
+              "id": "SL-9905"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004158"
+                }
+              ],
+              "value": "Early endosome membrane",
+              "id": "SL-0093"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004158"
+                }
+              ],
+              "value": "Single-pass type I membrane protein",
+              "id": "SL-9905"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004151"
+                }
+              ],
+              "value": "Endoplasmic reticulum-Golgi intermediate compartment membrane",
+              "id": "SL-0099"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004151"
+                }
+              ],
+              "value": "Single-pass type I membrane protein",
+              "id": "SL-9905"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "PROSITE-ProRule",
+                  "id": "PRU00740"
+                }
+              ],
+              "value": "Membrane",
+              "id": "SL-0162"
+            },
+            "topology": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "PROSITE-ProRule",
+                  "id": "PRU00740"
+                }
+              ],
+              "value": "Single-pass type I membrane protein",
+              "id": "SL-9905"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004172"
+                }
+              ],
+              "value": "Recycling endosome",
+              "id": "SL-0232"
+            }
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00009644"
+              },
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PROSITE-ProRule",
+                "id": "PRU00740"
+              }
+            ],
+            "value": "Belongs to the LAMP family"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PROSITE-ProRule",
+                "id": "PRU00740"
+              }
+            ],
+            "value": "Lacks conserved residue(s) required for the propagation of feature annotation"
+          }
+        ],
+        "commentType": "CAUTION"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "PFX34036.1"
+              }
+            ],
+            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Transmembrane",
+        "location": {
+          "start": {
+            "value": 12,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 34,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Helical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "Phobius"
+          }
+        ]
+      },
+      {
+        "type": "Transmembrane",
+        "location": {
+          "start": {
+            "value": 79,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 102,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Helical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "Phobius"
+          }
+        ]
+      },
+      {
+        "type": "Transmembrane",
+        "location": {
+          "start": {
+            "value": 446,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 468,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Helical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "Phobius"
+          }
+        ]
+      },
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 244,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 416,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Lysosome-associated membrane glycoprotein 2-like luminal",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "Pfam",
+            "id": "PF01299"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023273"
+          }
+        ],
+        "id": "KW-0966",
+        "category": "Cellular component",
+        "name": "Cell projection"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023329"
+          }
+        ],
+        "id": "KW-0968",
+        "category": "Cellular component",
+        "name": "Cytoplasmic vesicle"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022753"
+          }
+        ],
+        "id": "KW-0967",
+        "category": "Cellular component",
+        "name": "Endosome"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023180"
+          }
+        ],
+        "id": "KW-0325",
+        "category": "PTM",
+        "name": "Glycoprotein"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023136"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00740"
+          }
+        ],
+        "id": "KW-0472",
+        "category": "Cellular component",
+        "name": "Membrane"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ],
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022729"
+          }
+        ],
+        "id": "KW-0732",
+        "category": "Domain",
+        "name": "Signal"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023018"
+          }
+        ],
+        "id": "KW-0770",
+        "category": "Cellular component",
+        "name": "Synapse"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022692"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00740"
+          }
+        ],
+        "id": "KW-0812",
+        "category": "Domain",
+        "name": "Transmembrane"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022989"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "Phobius"
+          }
+        ],
+        "id": "KW-1133",
+        "category": "Domain",
+        "name": "Transmembrane helix"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "CI-207N7Q8GD9SO3",
+          "citationType": "journal article",
+          "authors": [
+            "Voolstra C.R.",
+            "Li Y.",
+            "Liew Y.J.",
+            "Baumgarten S.",
+            "Zoccola D.",
+            "Flot J.-F.",
+            "Tambutte S.",
+            "Allemand D.",
+            "Aranda M."
+          ],
+          "title": "Comparative analysis of the genomes of Stylophora pistillata and Acropora digitifera provides evidence for extensive differences between species of corals.",
+          "publicationDate": "2017",
+          "journal": "bioRxiv",
+          "firstPage": "0",
+          "lastPage": "0",
+          "volume": "0"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP000225706"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "LSMT01000007",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "PFX34036.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "Genomic_DNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "A0A2B4SXI4",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "STRING",
+        "id": "50429.A0A2B4SXI4",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "10037042at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "Proteomes",
+        "id": "UP000225706",
+        "properties": [
+          {
+            "key": "Component",
+            "value": "Unassembled WGS sequence"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0030425",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:dendrite"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0031901",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:early endosome membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0033116",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:endoplasmic reticulum-Golgi intermediate compartment membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0032584",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:growth cone membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0031902",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:late endosome membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005765",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:lysosomal membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0055037",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:recycling endosome"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0030672",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:synaptic vesicle membrane"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0072594",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:establishment of protein localization to organelle"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd12087",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TM_EGFR-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.40.160.110",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR048528",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Lamp2-like_luminal"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002000",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Lysosome-assoc_membr_glycop"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR11506",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR11506:SF35",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "LYSOSOME-ASSOCIATED MEMBRANE GLYCOPROTEIN 5"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF01299",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Lamp2-like_luminal"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS51407",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "LAMP_3"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MWPVGKHLSMRLMDALLIFVWMFLLNGGLNHIIFLRLLSWFGGLCGVGLNLRLHTYPLLRSASWYRGAASLNASSSEEISDSLFLIASGMFLTMLVLCQWIFVGATHNLASASNHVQSSIFTPTIEIKTSIPSPSKTVKHGNQTVIPSYNKTVRPHNMTVTPSFNRTVTPHNITVAPSFNGTVTPHNMTVIPSLNRTVVPHNMTVTPSHMTNTVLNSSVMPPSTGSITPTPVSTVLQSSSVHPIPTFLPPAPGNFTLKDNGTVCLFAYMAAKFDVAISSKKLTFELPTKANSTGECDTSSKDHPYIKLSWSTHSQDCSFTMHFKKFIKDTGNAGTQYWAATNVTFSLKVNNSNTVFQSDKEKFNALSAGIGDAYACPSAPAINLTAKKSSVEITLTDFKFQPFGVKNGHFGNVTNCVFTPTTTASSTTAKSSHPPKTTKQPESHTVAIAVGCSLAGLALVAVIGYLILRRRSRNNQAGYRKL",
+      "length": 482,
+      "molWeight": 52274,
+      "crc64": "A698CB7E4FF43A48",
+      "md5": "E4F36AD1B6233A4033EDBC18AABC9C08"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "FUNCTION": 1,
+        "SUBCELLULAR LOCATION": 1,
+        "SIMILARITY": 1,
+        "CAUTION": 2
+      },
+      "countByFeatureType": {
+        "Transmembrane": 3,
+        "Domain": 1
+      },
+      "uniParcId": "UPI000C015516"
+    }
+  },
+  "status": "primary-record-fetched"
+}

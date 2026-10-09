@@ -1,0 +1,61 @@
+{
+  "label": "PRKN",
+  "provider": "ncbi",
+  "query": "Cnidaria[Organism] AND (PRKN[Gene Name] OR PARK2[Gene Name]) AND srcdb_refseq[PROP]",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+%28PRKN%5BGene+Name%5D+OR+PARK2%5BGene+Name%5D%29+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+  "started_utc": "2026-10-09T11:52:53.304438+00:00",
+  "retry": false,
+  "count": 0,
+  "status": "snapshot",
+  "response": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [
+        {
+          "from": "Cnidaria[Organism]",
+          "to": "\"Cnidaria\"[Organism]"
+        }
+      ],
+      "translationstack": [
+        {
+          "term": "\"Cnidaria\"[Organism]",
+          "field": "Organism",
+          "count": "1500343",
+          "explode": "Y"
+        },
+        {
+          "term": "PRKN[Gene Name]",
+          "field": "Gene Name",
+          "count": "2246",
+          "explode": "N"
+        },
+        {
+          "term": "PARK2[Gene Name]",
+          "field": "Gene Name",
+          "count": "252",
+          "explode": "N"
+        },
+        "OR",
+        "GROUP",
+        "AND",
+        {
+          "term": "srcdb_refseq[PROP]",
+          "field": "PROP",
+          "count": "504818604",
+          "explode": "N"
+        },
+        "AND"
+      ],
+      "querytranslation": "\"Cnidaria\"[Organism] AND (PRKN[Gene Name] OR PARK2[Gene Name]) AND srcdb_refseq[PROP]"
+    }
+  },
+  "response_sha256": "f0de82efc841d902fbf73efbd4d4e398dae9d4921f94d53f51494b3a510c9fba",
+  "completed_utc": "2026-10-09T11:52:53.536026+00:00"
+}

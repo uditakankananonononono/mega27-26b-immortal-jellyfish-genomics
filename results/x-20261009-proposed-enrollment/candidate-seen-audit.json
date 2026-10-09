@@ -1,0 +1,184 @@
+[
+  {
+    "label": "BAG3",
+    "accession": "A0A9W9Y8E5",
+    "primary_accession": "KAJ7323407.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "join(MU827815.1:472668..472823,MU827815.1:473727..475094)"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "DNAJB6",
+    "accession": "T2MIR3",
+    "primary_accession": "CDG71812.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "HAAD01005580.1:28..756"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "LAMP2",
+    "accession": "A0A2B4SXI4",
+    "primary_accession": "PFX34036.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "join(LSMT01000007.1:195339..195624,LSMT01000007.1:198276..198829,LSMT01000007.1:205414..205624,LSMT01000007.1:206376..206561,LSMT01000007.1:207355..207566)"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "NBR1",
+    "accession": "A0A2B4S6E7",
+    "primary_accession": "PFX24102.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "join(LSMT01000186.1:429068..429163,LSMT01000186.1:429264..429326,LSMT01000186.1:429543..429561,LSMT01000186.1:430202..430224,LSMT01000186.1:431969..432091,LSMT01000186.1:432814..433420,LSMT01000186.1:433911..434140,LSMT01000186.1:434360..434474,LSMT01000186.1:435388..435454,LSMT01000186.1:436478..436798,LSMT01000186.1:437844..437958,LSMT01000186.1:438931..438987,LSMT01000186.1:439834..439967,LSMT01000186.1:440321..440442,LSMT01000186.1:440855..441190,LSMT01000186.1:441701..442683,LSMT01000186.1:443255..443452)"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "NBR1",
+    "accession": "A0A9X0A2V9",
+    "primary_accession": "KAJ7390609.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "join(MU825414.1:1037272..1037362,MU825414.1:1037448..1037514,MU825414.1:1038237..1038560,MU825414.1:1039640..1039754,MU825414.1:1040320..1040376,MU825414.1:1040763..1040996)"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "PRKN",
+    "accession": "A0A2B4T1R3",
+    "primary_accession": "PFX34565.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "complement(join(LSMT01000003.1:1705082..1705188,LSMT01000003.1:1705719..1705836,LSMT01000003.1:1706556..1706648,LSMT01000003.1:1706911..1707045,LSMT01000003.1:1708103..1708164,LSMT01000003.1:1712678..1712823,LSMT01000003.1:1713853..1713968,LSMT01000003.1:1714481..1714564,LSMT01000003.1:1715521..1715639,LSMT01000003.1:1715876..1716032,LSMT01000003.1:1717282..1717509,LSMT01000003.1:1718429..1718449))"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "PRKN",
+    "accession": "T2MIZ5",
+    "primary_accession": "CDG71910.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "HAAD01005678.1:73..1395"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "RB1CC1",
+    "accession": "T2M8Y6",
+    "primary_accession": "CDG68511.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "HAAD01002279.1:<1..>696"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "STUB1",
+    "accession": "A0A2B4RTM4",
+    "primary_accession": "PFX19668.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "complement(join(LSMT01000349.1:13127..13255,LSMT01000349.1:16043..16099,LSMT01000349.1:16492..16555,LSMT01000349.1:17231..17319,LSMT01000349.1:17826..17902,LSMT01000349.1:19329..19527,LSMT01000349.1:20593..20610))"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "STUB1",
+    "accession": "T2M3P7",
+    "primary_accession": "CDG66582.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "HAAD01000350.1:141..953"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "TBK1",
+    "accession": "A0A2B4SKC0",
+    "primary_accession": "PFX29320.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "complement(join(LSMT01000067.1:209211..209361,LSMT01000067.1:209730..209831,LSMT01000067.1:211028..211119,LSMT01000067.1:212229..212287,LSMT01000067.1:214685..214754,LSMT01000067.1:215145..215274,LSMT01000067.1:215886..215950,LSMT01000067.1:216871..216985,LSMT01000067.1:218449..218559,LSMT01000067.1:219613..219707,LSMT01000067.1:220206..220268,LSMT01000067.1:220699..220789,LSMT01000067.1:221543..221633,LSMT01000067.1:222643..222772,LSMT01000067.1:225164..225304,LSMT01000067.1:225411..225503))"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "WIPI2",
+    "accession": "A0A2B4SNM0",
+    "primary_accession": "PFX30122.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "join(LSMT01000055.1:80837..80907,LSMT01000055.1:81027..81109,LSMT01000055.1:82695..82798,LSMT01000055.1:83521..83586,LSMT01000055.1:83900..83956,LSMT01000055.1:84484..84523,LSMT01000055.1:84759..84820,LSMT01000055.1:85193..85228,LSMT01000055.1:85795..85887,LSMT01000055.1:86195..86265,LSMT01000055.1:86374..86481,LSMT01000055.1:87110..87185,LSMT01000055.1:87374..87431,LSMT01000055.1:87927..87954,LSMT01000055.1:88090..88197,LSMT01000055.1:88694..88733,LSMT01000055.1:89579..89806)"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  },
+  {
+    "label": "WIPI2",
+    "accession": "T2M354",
+    "primary_accession": "CDG66345.1",
+    "sequence_seen": false,
+    "header_alias_seen": [],
+    "coded_by": [
+      "HAAD01000113.1:41..1288"
+    ],
+    "same_contig_historical_models": [],
+    "primary_sequence_matches_uniprot": true,
+    "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+    "current_D": "PASS-proposed-to-blind-review"
+  }
+]

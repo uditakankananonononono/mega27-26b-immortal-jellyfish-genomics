@@ -1,0 +1,637 @@
+{
+  "label": "NBR1",
+  "priority": 1,
+  "accession": "A0A9X0A2V9",
+  "url": "https://rest.uniprot.org/uniprotkb/A0A9X0A2V9.json",
+  "retrieved_utc": "2026-10-09T11:53:16.756232+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A9X0A2V9",
+    "uniProtkbId": "A0A9X0A2V9_9CNID",
+    "entryAudit": {
+      "firstPublicDate": "2023-11-08",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2023-11-08",
+      "entryVersion": 11,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+      "scientificName": "Desmophyllum pertusum",
+      "taxonId": 174260,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "KAJ7390609.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP001163046"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Anthozoa",
+        "Hexacorallia",
+        "Scleractinia",
+        "Vacatina",
+        "Caryophylliidae",
+        "Desmophyllum"
+      ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7390609.1"
+              }
+            ],
+            "value": "Next to BRCA1 protein 1 protein"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "KAJ7390609.1"
+            }
+          ],
+          "value": "NBR1"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7390609.1"
+              }
+            ],
+            "value": "OS493_023998"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7390609.1"
+              }
+            ],
+            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 33,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 85,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "ZZ-type",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS50135"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 27,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 109,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 150,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022723"
+          }
+        ],
+        "id": "KW-0479",
+        "category": "Ligand",
+        "name": "Metal-binding"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP001163046"
+          }
+        ],
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022833"
+          }
+        ],
+        "id": "KW-0862",
+        "category": "Ligand",
+        "name": "Zinc"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022771"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU00228"
+          }
+        ],
+        "id": "KW-0863",
+        "category": "Domain",
+        "name": "Zinc-finger"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "CI-55Q6TIA7IACE1",
+          "citationType": "submission",
+          "authors": [
+            "Herrera S.",
+            "Cordes E."
+          ],
+          "title": "Genome assembly of the deep-sea coral Lophelia pertusa.",
+          "publicationDate": "JAN-2023",
+          "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7390609.1"
+              }
+            ],
+            "value": "USNM1676648",
+            "type": "STRAIN"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7390609.1"
+              }
+            ],
+            "value": "Polyp",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "KAJ7390609.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "MU825414",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "KAJ7390609.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "Genomic_DNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "A0A9X0A2V9",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "2122982at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "Proteomes",
+        "id": "UP001163046",
+        "properties": [
+          {
+            "key": "Component",
+            "value": "Unassembled WGS sequence"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0070013",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:intracellular organelle lumen"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000407",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:phagophore assembly site"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0043130",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:ubiquitin binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0008270",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:zinc ion binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:InterPro"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0016236",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:macroautophagy"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:TreeGrafter"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd14947",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "NBR1_like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd02340",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZZ_NBR1_like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "3.30.60.90:FF:000007",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Next to BRCA1 gene 1 protein"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "3.30.60.90",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.60.40.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Immunoglobulins"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR013783",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ig-like_fold"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR032350",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Nbr1_FW"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000433",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf_ZZ"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043145",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf_ZZ_sf"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR20930:SF2",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "NEXT TO BRCA1 GENE 1 PROTEIN"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR20930",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "OVARIAN CARCINOMA ANTIGEN CA125-RELATED"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF16158",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "N_BRCA1_IG"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00569",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZZ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00291",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZnF_ZZ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF57850",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING/U-box"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS01357",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZF_ZZ_1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50135",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ZF_ZZ_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MKNLQGLHIGDPSASSSHVPMPGKSTDSKQVVHKGIVCTGCSQAVSGIRYKCCFCTDYDLCEDCEGKEGIHDPSHFFAKLRHHVPGIGRKNGEMVPVLKKFVYRMALREESKNERKEDKKKGKDERKEKKKESKKLARAAKKDEKEKRELKRKTRIELRQMRHERDSATALERLQNCLNAEFVADASIPDGTVLKGGQKFLKRWIVKNKGRRWNVRTVLQCVEGNILVASGENKVEVPFLKPDEEGELSVPFIAPSAPGHYERYVLSGFHQNLAFFVYGQGTFVTETNVSCSHVL",
+      "length": 295,
+      "molWeight": 33370,
+      "crc64": "92C48634DA9A699A",
+      "md5": "5EF1D45819CB43806E044E77221A55C0"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "CAUTION": 1
+      },
+      "countByFeatureType": {
+        "Domain": 1,
+        "Region": 2
+      },
+      "uniParcId": "UPI0024CF5784"
+    }
+  },
+  "status": "primary-record-fetched"
+}

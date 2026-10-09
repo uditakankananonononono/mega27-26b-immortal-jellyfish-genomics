@@ -1,0 +1,81 @@
+{
+  "label": "TBK1",
+  "provider": "uniprot",
+  "query": "taxonomy_id:6073 AND gene_exact:TBK1",
+  "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ATBK1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+  "started_utc": "2026-10-09T11:52:57.234094+00:00",
+  "retry": false,
+  "count": 1,
+  "status": "snapshot",
+  "response": {
+    "results": [
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A2B4SKC0",
+        "uniProtkbId": "A0A2B4SKC0_STYPI",
+        "entryAudit": {
+          "entryVersion": 21
+        },
+        "organism": {
+          "scientificName": "Stylophora pistillata",
+          "commonName": "Smooth cauliflower coral",
+          "taxonId": 50429,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX29320.1"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000225706"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Anthozoa",
+            "Hexacorallia",
+            "Scleractinia",
+            "Vacatina",
+            "Pocilloporidae",
+            "Stylophora"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "PFX29320.1"
+                }
+              ],
+              "value": "TBK1"
+            },
+            "orfNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "PFX29320.1"
+                  }
+                ],
+                "value": "AWC38_SpisGene5900"
+              }
+            ]
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI000C016266"
+        }
+      }
+    ]
+  },
+  "response_sha256": "76dfe43b6b0cc190ce63d49856ee51d86551c4da3ed7da61c3f75459eb18575e",
+  "completed_utc": "2026-10-09T11:52:57.905813+00:00"
+}

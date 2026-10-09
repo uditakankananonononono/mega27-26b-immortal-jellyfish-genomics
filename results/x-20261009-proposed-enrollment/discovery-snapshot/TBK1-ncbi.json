@@ -1,0 +1,53 @@
+{
+  "label": "TBK1",
+  "provider": "ncbi",
+  "query": "Cnidaria[Organism] AND TBK1[Gene Name] AND srcdb_refseq[PROP]",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+TBK1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+  "started_utc": "2026-10-09T11:52:58.266864+00:00",
+  "retry": false,
+  "count": 0,
+  "status": "snapshot",
+  "response": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [
+        {
+          "from": "Cnidaria[Organism]",
+          "to": "\"Cnidaria\"[Organism]"
+        }
+      ],
+      "translationstack": [
+        {
+          "term": "\"Cnidaria\"[Organism]",
+          "field": "Organism",
+          "count": "1500343",
+          "explode": "Y"
+        },
+        {
+          "term": "TBK1[Gene Name]",
+          "field": "Gene Name",
+          "count": "2632",
+          "explode": "N"
+        },
+        "AND",
+        {
+          "term": "srcdb_refseq[PROP]",
+          "field": "PROP",
+          "count": "504818604",
+          "explode": "N"
+        },
+        "AND"
+      ],
+      "querytranslation": "\"Cnidaria\"[Organism] AND TBK1[Gene Name] AND srcdb_refseq[PROP]"
+    }
+  },
+  "response_sha256": "f41ec1ee8b21cf90fa88a54952116aa13a30be32b7ba11d64c93996b996170bd",
+  "completed_utc": "2026-10-09T11:52:58.366280+00:00"
+}

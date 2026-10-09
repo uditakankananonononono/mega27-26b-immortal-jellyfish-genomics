@@ -1,0 +1,1167 @@
+{
+  "label": "PRKN",
+  "priority": 1,
+  "accession": "T2MIZ5",
+  "url": "https://rest.uniprot.org/uniprotkb/T2MIZ5.json",
+  "retrieved_utc": "2026-10-09T11:53:18.315249+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "T2MIZ5",
+    "uniProtkbId": "T2MIZ5_HYDVU",
+    "entryAudit": {
+      "firstPublicDate": "2013-11-13",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2013-11-13",
+      "entryVersion": 57,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 3.0,
+    "organism": {
+      "scientificName": "Hydra vulgaris",
+      "commonName": "Hydra",
+      "synonyms": [
+        "Hydra attenuata"
+      ],
+      "taxonId": 6087,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CDG71910.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Hydrozoa",
+        "Hydroidolina",
+        "Anthoathecata",
+        "Aplanulata",
+        "Hydridae",
+        "Hydra"
+      ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00029536"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "PIRNR",
+              "id": "PIRNR037880"
+            }
+          ],
+          "value": "E3 ubiquitin-protein ligase parkin"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00012251"
+              },
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PIRNR",
+                "id": "PIRNR037880"
+              }
+            ],
+            "value": "2.3.2.31"
+          }
+        ]
+      }
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG71910.1"
+            }
+          ],
+          "value": "PARK2"
+        }
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PIRNR",
+                "id": "PIRNR037880"
+              }
+            ],
+            "value": "Functions within a multiprotein E3 ubiquitin ligase complex, catalyzing the covalent attachment of ubiquitin moieties onto substrate proteins"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "[E2 ubiquitin-conjugating enzyme]-S-ubiquitinyl-L-cysteine + [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-cysteine + [acceptor protein]-N(6)-ubiquitinyl-L-lysine.",
+          "ecNumber": "2.3.2.31",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00001798"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "PIRNR",
+              "id": "PIRNR037880"
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00004906"
+              },
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PIRNR",
+                "id": "PIRNR037880"
+              }
+            ],
+            "value": "Protein modification; protein ubiquitination"
+          }
+        ],
+        "commentType": "PATHWAY"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PIRNR",
+                "id": "PIRNR037880"
+              }
+            ],
+            "value": "Forms an E3 ubiquitin ligase complex"
+          }
+        ],
+        "commentType": "SUBUNIT"
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004514"
+                }
+              ],
+              "value": "Cytoplasm, cytosol",
+              "id": "SL-0091"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "ARBA",
+                  "id": "ARBA00004173"
+                },
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "source": "PIRNR",
+                  "id": "PIRNR037880"
+                }
+              ],
+              "value": "Mitochondrion",
+              "id": "SL-0173"
+            }
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00029442"
+              },
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PIRNR",
+                "id": "PIRNR037880"
+              }
+            ],
+            "value": "Belongs to the RBR family. Parkin subfamily"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "PROSITE-ProRule",
+                "id": "PRU00214"
+              }
+            ],
+            "value": "Lacks conserved residue(s) required for the propagation of feature annotation"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 6,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 80,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Ubiquitin-like",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS50053"
+          }
+        ]
+      },
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 205,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 439,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "RING-type",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS51873"
+          }
+        ]
+      },
+      {
+        "type": "Zinc finger",
+        "location": {
+          "start": {
+            "value": 287,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 350,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "IBR-type",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01221"
+          }
+        ]
+      },
+      {
+        "type": "Zinc finger",
+        "location": {
+          "start": {
+            "value": 394,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 423,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "RING-type ; atypical",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01221"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 205,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 439,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "TRIAD supradomain",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01221"
+          }
+        ]
+      },
+      {
+        "type": "Active site",
+        "location": {
+          "start": {
+            "value": 407,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 407,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRSR",
+            "id": "PIRSR037880-1"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01221"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023006"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0072",
+        "category": "Biological process",
+        "name": "Autophagy"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022490"
+          }
+        ],
+        "id": "KW-0963",
+        "category": "Cellular component",
+        "name": "Cytoplasm"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022723"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0479",
+        "category": "Ligand",
+        "name": "Metal-binding"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023128"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0496",
+        "category": "Cellular component",
+        "name": "Mitochondrion"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022553"
+          }
+        ],
+        "id": "KW-0597",
+        "category": "PTM",
+        "name": "Phosphoprotein"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022737"
+          }
+        ],
+        "id": "KW-0677",
+        "category": "Domain",
+        "name": "Repeat"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022679"
+          }
+        ],
+        "id": "KW-0808",
+        "category": "Molecular function",
+        "name": "Transferase"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022843"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0832",
+        "category": "PTM",
+        "name": "Ubl conjugation"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022786"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0833",
+        "category": "Biological process",
+        "name": "Ubl conjugation pathway"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022833"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PIRNR",
+            "id": "PIRNR037880"
+          }
+        ],
+        "id": "KW-0862",
+        "category": "Ligand",
+        "name": "Zinc"
+      },
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00022771"
+          },
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "PROSITE-ProRule",
+            "id": "PRU01221"
+          }
+        ],
+        "id": "KW-0863",
+        "category": "Domain",
+        "name": "Zinc-finger"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "24065732",
+          "citationType": "journal article",
+          "authors": [
+            "Wenger Y.",
+            "Galliot B."
+          ],
+          "citationCrossReferences": [
+            {
+              "database": "PubMed",
+              "id": "24065732"
+            },
+            {
+              "database": "DOI",
+              "id": "10.1093/gbe/evt142"
+            }
+          ],
+          "title": "Punctuated emergences of genetic and phenotypic innovations in eumetazoan, bilaterian, euteleostome, and hominidae ancestors.",
+          "publicationDate": "2013",
+          "journal": "Genome Biol. Evol.",
+          "firstPage": "1949",
+          "lastPage": "1968",
+          "volume": "5"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG71910.1"
+              }
+            ],
+            "value": "Whole animals",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG71910.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "HAAD01005678",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "CDG71910.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "mRNA"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "6018516at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "UniPathway",
+        "id": "UPA00143",
+        "properties": [
+          {
+            "key": "RectionId",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005829",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:cytosol"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005739",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:mitochondrion"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-SubCell"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0000151",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:ubiquitin ligase complex"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-UniRule"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0061630",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:ubiquitin protein ligase activity"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-EC"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0008270",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:zinc ion binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:InterPro"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0006914",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:autophagy"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-UniRule"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0016567",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "P:protein ubiquitination"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-UniRule"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd20340",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "BRcat_RBR_parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd20357",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Rcat_RBR_parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd16627",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING-HC_RBR_parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd21382",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING0_parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "2.20.25.20:FF:000008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "E3 ubiquitin-protein ligase parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "1.20.120.1750",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.20.25.20",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "3.10.20.90",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Phosphatidylinositol 3-kinase Catalytic Subunit, Chain A, domain 1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR047534",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "BRcat_RBR_parkin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR031127",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "E3_UB_ligase_RBR"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002867",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "IBR_dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003977",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Parkin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR054694",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Parkin-like_IBR"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR041565",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Parkin_Znf-RING"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR047536",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Rcat_RBR_parkin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR047535",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING-HC_RBR_parkin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR044066",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TRIAD_supradom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000626",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ubiquitin-like_dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR029071",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ubiquitin-like_domsf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR041170",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Znf-RING_14"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR11685",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RBR FAMILY RING FINGER AND IBR DOMAIN-CONTAINING"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF22605",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "IBR_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00240",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ubiquitin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF17976",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "zf-RING_12"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF17978",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "zf-RING_14"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PIRSF",
+        "id": "PIRSF037880",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Parkin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PRINTS",
+        "id": "PR01475",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "PARKIN"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00647",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "IBR"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00213",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "UBQ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF57850",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "RING/U-box"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF54236",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Ubiquitin-like"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS51873",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "TRIAD"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50053",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "UBIQUITIN_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MSTRTIQLFVQIENKTVQISAEESWSILQLKQHLYLYSNTPTEDLRVIFAGTELANSVLLKNCHFACGTTVHAIVVKSKSNSFAPVVPTNFIGPTPQGIATNHNDQIDETKRSRFYLFCKNCNAVKXGKLRVRCKKCKDEAFELSKGPDSWIDILTVNXITGLCNSQNDCDGNIAEFYFKCENHERSLNDSENVIALPLLRTNTQSVPCLACTDISGVVLVFPCEEKHVICIDCFSLYCETSLNTRHFILKENIGYTLPCPGLEEACNKCFIEEIHHFIIAGKTQYERYKNFAAEDFVLQNGGLLCPGKDCGNGIFLEHDQRKIVCFKSRGGCGFAFCRNCLLAYHDGECISSIDNLTTKSCYTYEISQANAMHAKWRDEAKCRDTIAQTTKPCPRCRSRTEKSGGCNHMQCARCNLQWCWLCLVEWGRNCESDHWFRAS",
+      "length": 440,
+      "molWeight": 49744,
+      "crc64": "B2C0018D37FF5B2A",
+      "md5": "6F2527BFB7B477FED59712773EAA7218"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "FUNCTION": 1,
+        "CATALYTIC ACTIVITY": 1,
+        "PATHWAY": 1,
+        "SUBUNIT": 1,
+        "SUBCELLULAR LOCATION": 1,
+        "SIMILARITY": 1,
+        "CAUTION": 1
+      },
+      "countByFeatureType": {
+        "Domain": 2,
+        "Zinc finger": 2,
+        "Region": 1,
+        "Active site": 1
+      },
+      "uniParcId": "UPI0003B246C9"
+    }
+  },
+  "status": "primary-record-fetched"
+}

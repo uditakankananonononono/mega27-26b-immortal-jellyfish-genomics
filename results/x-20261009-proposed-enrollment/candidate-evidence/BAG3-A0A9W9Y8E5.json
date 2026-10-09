@@ -1,0 +1,759 @@
+{
+  "label": "BAG3",
+  "priority": 1,
+  "accession": "A0A9W9Y8E5",
+  "url": "https://rest.uniprot.org/uniprotkb/A0A9W9Y8E5.json",
+  "retrieved_utc": "2026-10-09T11:53:13.636467+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "A0A9W9Y8E5",
+    "uniProtkbId": "A0A9W9Y8E5_9CNID",
+    "entryAudit": {
+      "firstPublicDate": "2023-11-08",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2023-11-08",
+      "entryVersion": 8,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+      "scientificName": "Desmophyllum pertusum",
+      "taxonId": 174260,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "KAJ7323407.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP001163046"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Anthozoa",
+        "Hexacorallia",
+        "Scleractinia",
+        "Vacatina",
+        "Caryophylliidae",
+        "Desmophyllum"
+      ]
+    },
+    "proteinExistence": "4: Predicted",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7323407.1"
+              }
+            ],
+            "value": "Negative regulation of protein targeting to mitochondrion"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "KAJ7323407.1"
+            }
+          ],
+          "value": "BAG3"
+        },
+        "orfNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7323407.1"
+              }
+            ],
+            "value": "OS493_031882"
+          }
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7323407.1"
+              }
+            ],
+            "value": "The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data"
+          }
+        ],
+        "commentType": "CAUTION"
+      }
+    ],
+    "features": [
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 12,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 46,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "WW",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS50020"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 507,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 31,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 46,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Basic and acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 62,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 76,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 86,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 111,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 117,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 132,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 133,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 145,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Low complexity",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 149,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 161,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 169,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 180,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 181,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 192,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Low complexity",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 211,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 220,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 227,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 242,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 249,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 286,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 296,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 307,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Low complexity",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 308,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 317,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 337,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 346,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Pro residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 365,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 380,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Low complexity",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 405,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 416,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Low complexity",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 429,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 485,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Polar residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Proteomes",
+            "id": "UP001163046"
+          }
+        ],
+        "id": "KW-1185",
+        "category": "Technical term",
+        "name": "Reference proteome"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "CI-55Q6TIA7IACE1",
+          "citationType": "submission",
+          "authors": [
+            "Herrera S.",
+            "Cordes E."
+          ],
+          "title": "Genome assembly of the deep-sea coral Lophelia pertusa.",
+          "publicationDate": "JAN-2023",
+          "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7323407.1"
+              }
+            ],
+            "value": "USNM1676648",
+            "type": "STRAIN"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "KAJ7323407.1"
+              }
+            ],
+            "value": "Polyp",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "KAJ7323407.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "MU827815",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "KAJ7323407.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "Genomic_DNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "A0A9W9Y8E5",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "333905at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "Proteomes",
+        "id": "UP001163046",
+        "properties": [
+          {
+            "key": "Component",
+            "value": "Unassembled WGS sequence"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd00201",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "2.20.70.10",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "-"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR001202",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW_dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036020",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00397",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00456",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF51045",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW domain"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS01159",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW_DOMAIN_1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50020",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "WW_DOMAIN_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MEMYQGCTPGFPPLPQGWEMKVDPGSGRPFFIDHKTRTTSWEDPRTQQKLYSTPGGHVANHSPAQVYQMQSSNPGQPYQMPPSPGQVYQSPGQPYQMSPGQPNQMLSGQPTQMPPGQLNQMSPGQPNQMPSVQSNQMQLAQQNQMPPGQLNQMPPGQQNQIPPGRQLYSAPSSYESQQVIPSQPSQTSGSPSRHPYQTSLPSPGQAAYQMAPQNTSQAYQTVPPGNPVSTPSGIHQGMSTSKPGVLYQTPASGQQYQVPASNPGQAYQTSSSNPELAYQLPSSNPGQLHADPRSRPGQPMQIQMPPQHTSQAYSTPASAAGGQPYQVSSQMPTHPYQVPPQSPSQGPPQHTGQTFQAGQAGYQRYQTPGQPQAYQGQQMQHPDKPYQMDNAQNKMPIPAALGATSPHHQQQQQHVVPPSPVPQSPGISPGNQHPYQANYYSSPHVQSMPGNRTSQNQGNVPSPVVGQSYQTLQSNMAQGYPQTTDGRAPPYTSPAPPQATNWVPAIC",
+      "length": 507,
+      "molWeight": 54777,
+      "crc64": "38C3967A7218425C",
+      "md5": "30DEA39A6519250B602927274E9D7384"
+    },
+    "extraAttributes": {
+      "countByCommentType": {
+        "CAUTION": 1
+      },
+      "countByFeatureType": {
+        "Domain": 1,
+        "Region": 1,
+        "Compositional bias": 17
+      },
+      "uniParcId": "UPI0024D0318D"
+    }
+  },
+  "status": "primary-record-fetched"
+}

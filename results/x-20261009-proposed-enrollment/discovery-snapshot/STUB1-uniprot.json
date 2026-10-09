@@ -1,0 +1,132 @@
+{
+  "label": "STUB1",
+  "provider": "uniprot",
+  "query": "taxonomy_id:6073 AND gene_exact:STUB1",
+  "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ASTUB1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+  "started_utc": "2026-10-09T11:52:55.552347+00:00",
+  "retry": false,
+  "count": 2,
+  "status": "snapshot",
+  "response": {
+    "results": [
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A2B4RTM4",
+        "uniProtkbId": "A0A2B4RTM4_STYPI",
+        "entryAudit": {
+          "entryVersion": 23
+        },
+        "organism": {
+          "scientificName": "Stylophora pistillata",
+          "commonName": "Smooth cauliflower coral",
+          "taxonId": 50429,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX19668.1"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000225706"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Anthozoa",
+            "Hexacorallia",
+            "Scleractinia",
+            "Vacatina",
+            "Pocilloporidae",
+            "Stylophora"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "PFX19668.1"
+                }
+              ],
+              "value": "STUB1"
+            },
+            "orfNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "PFX19668.1"
+                  }
+                ],
+                "value": "AWC38_SpisGene15898"
+              }
+            ]
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI000C018E09"
+        }
+      },
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "T2M3P7",
+        "uniProtkbId": "T2M3P7_HYDVU",
+        "entryAudit": {
+          "entryVersion": 53
+        },
+        "organism": {
+          "scientificName": "Hydra vulgaris",
+          "commonName": "Hydra",
+          "synonyms": [
+            "Hydra attenuata"
+          ],
+          "taxonId": 6087,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG66582.1"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Hydrozoa",
+            "Hydroidolina",
+            "Anthoathecata",
+            "Aplanulata",
+            "Hydridae",
+            "Hydra"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "CDG66582.1"
+                }
+              ],
+              "value": "STUB1"
+            }
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI0002B4A638"
+        }
+      }
+    ]
+  },
+  "response_sha256": "7c9ae116a4a0b14673d7d480b18df3fede951a6683af58cc553707b78954575c",
+  "completed_utc": "2026-10-09T11:52:56.277905+00:00"
+}

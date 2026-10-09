@@ -1,0 +1,53 @@
+{
+  "label": "RB1CC1",
+  "provider": "ncbi",
+  "query": "Cnidaria[Organism] AND RB1CC1[Gene Name] AND srcdb_refseq[PROP]",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+RB1CC1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+  "started_utc": "2026-10-09T11:52:54.956953+00:00",
+  "retry": false,
+  "count": 0,
+  "status": "snapshot",
+  "response": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [
+        {
+          "from": "Cnidaria[Organism]",
+          "to": "\"Cnidaria\"[Organism]"
+        }
+      ],
+      "translationstack": [
+        {
+          "term": "\"Cnidaria\"[Organism]",
+          "field": "Organism",
+          "count": "1500343",
+          "explode": "Y"
+        },
+        {
+          "term": "RB1CC1[Gene Name]",
+          "field": "Gene Name",
+          "count": "3411",
+          "explode": "N"
+        },
+        "AND",
+        {
+          "term": "srcdb_refseq[PROP]",
+          "field": "PROP",
+          "count": "504818604",
+          "explode": "N"
+        },
+        "AND"
+      ],
+      "querytranslation": "\"Cnidaria\"[Organism] AND RB1CC1[Gene Name] AND srcdb_refseq[PROP]"
+    }
+  },
+  "response_sha256": "45d712b36a490906a5a564e269cbc1131751a12184d398dd415f9f73136aa9bf",
+  "completed_utc": "2026-10-09T11:52:55.191153+00:00"
+}

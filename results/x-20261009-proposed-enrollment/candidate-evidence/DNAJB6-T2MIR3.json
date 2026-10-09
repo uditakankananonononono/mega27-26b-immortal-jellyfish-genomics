@@ -1,0 +1,482 @@
+{
+  "label": "DNAJB6",
+  "priority": 1,
+  "accession": "T2MIR3",
+  "url": "https://rest.uniprot.org/uniprotkb/T2MIR3.json",
+  "retrieved_utc": "2026-10-09T11:53:14.415378+00:00",
+  "response": {
+    "entryType": "UniProtKB unreviewed (TrEMBL)",
+    "primaryAccession": "T2MIR3",
+    "uniProtkbId": "T2MIR3_HYDVU",
+    "entryAudit": {
+      "firstPublicDate": "2013-11-13",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2013-11-13",
+      "entryVersion": 26,
+      "sequenceVersion": 1
+    },
+    "annotationScore": 1.0,
+    "organism": {
+      "scientificName": "Hydra vulgaris",
+      "commonName": "Hydra",
+      "synonyms": [
+        "Hydra attenuata"
+      ],
+      "taxonId": 6087,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "CDG71812.1"
+        }
+      ],
+      "lineage": [
+        "Eukaryota",
+        "Metazoa",
+        "Cnidaria",
+        "Hydrozoa",
+        "Hydroidolina",
+        "Anthoathecata",
+        "Aplanulata",
+        "Hydridae",
+        "Hydra"
+      ]
+    },
+    "proteinExistence": "2: Evidence at transcript level",
+    "proteinDescription": {
+      "submissionNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG71812.1"
+              }
+            ],
+            "value": "DnaJ homolog subfamily B member 6"
+          }
+        }
+      ]
+    },
+    "genes": [
+      {
+        "geneName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "CDG71812.1"
+            }
+          ],
+          "value": "DNAJB6"
+        }
+      }
+    ],
+    "features": [
+      {
+        "type": "Domain",
+        "location": {
+          "start": {
+            "value": 4,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 70,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "J",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "PROSITE",
+            "id": "PS50076"
+          }
+        ]
+      },
+      {
+        "type": "Region",
+        "location": {
+          "start": {
+            "value": 219,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 242,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Disordered",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      },
+      {
+        "type": "Compositional bias",
+        "location": {
+          "start": {
+            "value": 228,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 242,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Basic and acidic residues",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "SAM",
+            "id": "MobiDB-lite"
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000256",
+            "source": "ARBA",
+            "id": "ARBA00023186"
+          }
+        ],
+        "id": "KW-0143",
+        "category": "Molecular function",
+        "name": "Chaperone"
+      }
+    ],
+    "references": [
+      {
+        "referenceNumber": 1,
+        "citation": {
+          "id": "24065732",
+          "citationType": "journal article",
+          "authors": [
+            "Wenger Y.",
+            "Galliot B."
+          ],
+          "citationCrossReferences": [
+            {
+              "database": "PubMed",
+              "id": "24065732"
+            },
+            {
+              "database": "DOI",
+              "id": "10.1093/gbe/evt142"
+            }
+          ],
+          "title": "Punctuated emergences of genetic and phenotypic innovations in eumetazoan, bilaterian, euteleostome, and hominidae ancestors.",
+          "publicationDate": "2013",
+          "journal": "Genome Biol. Evol.",
+          "firstPage": "1949",
+          "lastPage": "1968",
+          "volume": "5"
+        },
+        "referencePositions": [
+          "NUCLEOTIDE SEQUENCE"
+        ],
+        "referenceComments": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "source": "EMBL",
+                "id": "CDG71812.1"
+              }
+            ],
+            "value": "Whole animals",
+            "type": "TISSUE"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "EMBL",
+            "id": "CDG71812.1"
+          }
+        ]
+      }
+    ],
+    "uniProtKBCrossReferences": [
+      {
+        "database": "EMBL",
+        "id": "HAAD01005580",
+        "properties": [
+          {
+            "key": "ProteinId",
+            "value": "CDG71812.1"
+          },
+          {
+            "key": "Status",
+            "value": "-"
+          },
+          {
+            "key": "MoleculeType",
+            "value": "mRNA"
+          }
+        ]
+      },
+      {
+        "database": "AlphaFoldDB",
+        "id": "T2MIR3",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "OrthoDB",
+        "id": "10250354at2759",
+        "properties": [
+          {
+            "key": "Description",
+            "value": "-"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0005737",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "C:cytoplasm"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:UniProtKB-ARBA"
+          }
+        ]
+      },
+      {
+        "database": "GO",
+        "id": "GO:0030544",
+        "properties": [
+          {
+            "key": "GoTerm",
+            "value": "F:Hsp70 protein binding"
+          },
+          {
+            "key": "GoEvidenceType",
+            "value": "IEA:InterPro"
+          }
+        ]
+      },
+      {
+        "database": "CDD",
+        "id": "cd06257",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "FunFam",
+        "id": "1.10.287.110:FF:000021",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ (Hsp40) homolog, subfamily B, member 2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Gene3D",
+        "id": "1.10.287.110",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ domain"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR001623",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ_domain"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018253",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ_domain_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043183",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNJB2/6-like"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036869",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "J_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR45168:SF3",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNAJ HEAT SHOCK PROTEIN FAMILY (HSP40) MEMBER B2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PANTHER",
+        "id": "PTHR45168",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNAJ HOMOLOG SUBFAMILY B MEMBER 2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00226",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PRINTS",
+        "id": "PR00625",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "JDOMAIN"
+          }
+        ]
+      },
+      {
+        "database": "SMART",
+        "id": "SM00271",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DnaJ"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "SUPFAM",
+        "id": "SSF46565",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Chaperone J-domain"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS00636",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNAJ_1"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "PROSITE",
+        "id": "PS50076",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "DNAJ_2"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "sequence": {
+      "value": "MPDDYYSILGVGKSATDNDIKKAYRKLALKWHPDKNPDKKAEAEEMFKKISEAYEVLSDKEKRNVYDVYGKDGLKAGGGGHYQEPSFNGFSGASFSFRHAEDIFREFFEHDPFGDDILADFFGRRHHSAGGGRSSRGAGADLFSRDPFSTRSNLGGFGGFGGSFSSSSFGSGGASFKSTSTSTKIVNGRSVTTKKTIENGKETVEVYENNKLVKKTVDGVPQLTNGGQEDRKMLDGPHKKKK",
+      "length": 242,
+      "molWeight": 26510,
+      "crc64": "FEBD58CCCC710850",
+      "md5": "686700BF06064CEC9A74481CDA32453C"
+    },
+    "extraAttributes": {
+      "countByFeatureType": {
+        "Domain": 1,
+        "Region": 1,
+        "Compositional bias": 1
+      },
+      "uniParcId": "UPI0001926419"
+    }
+  },
+  "status": "primary-record-fetched"
+}

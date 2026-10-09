@@ -1,0 +1,767 @@
+{
+  "status": "PROPOSED candidates/evidence only, no gate signature, no alignment release",
+  "freeze_commit": "0d4d0e642250be0ce3b18dd6625df30e1d5fabea",
+  "freeze_tree": "022832cf2d630a109a594efa0c620deeee329a42",
+  "provider_queries": 20,
+  "candidate_reviews": 13,
+  "primary_proposed_N": 2,
+  "matched_proposed_M": 2,
+  "interpretation": "N<5 andM<5. Tiny cohort and insufficient background, descriptive-only if eventually released; no biological absence/recovery.",
+  "rows": [
+    {
+      "label": "BAG3",
+      "accession": "A0A9W9Y8E5",
+      "primary_accession": "KAJ7323407.1",
+      "taxon": 174260,
+      "sequence_version": 1,
+      "sequence_sha256": "fe80f3db92e2d4743b98c70e253d992cdd5e7195952b942927b541637b46b566",
+      "sequence_length": 507,
+      "checks": {
+        "A": {
+          "status": "FAIL",
+          "reason": "Original product is pathway phrase negative regulation of protein targeting to mitochondrion, prohibited byA despite gene BAG3."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "Only WW support, BAG family architecture not supported."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "No BAG3 paralog-discriminating primary evidence."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "BAG3",
+            "accession": "A0A9W9Y8E5",
+            "primary_accession": "KAJ7323407.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "join(MU827815.1:472668..472823,MU827815.1:473727..475094)"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A9W9Y8E5.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "DNAJB6",
+      "accession": "T2MIR3",
+      "primary_accession": "CDG71812.1",
+      "taxon": 6087,
+      "sequence_version": 1,
+      "sequence_sha256": "279ce53dcab10e8a6015a8af0996b974031638b409863834f9812a370b2398dd",
+      "sequence_length": 242,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalCDG71812.1 names DNAJB6 product/gene, Hydra6087."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "Primary evidence only generic DnaJ domain, complete DNAJB6-specific architecture unresolved."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "Transferred exact name plus shared DnaJ domain cannot distinguish close DNAJB paralogs."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "DNAJB6",
+            "accession": "T2MIR3",
+            "primary_accession": "CDG71812.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "HAAD01005580.1:28..756"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/T2MIR3.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "LAMP2",
+      "accession": "A0A2B4SXI4",
+      "primary_accession": "PFX34036.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "ba5a080e5241a306a9346df2c281de1e6ab335a84b527fac1fe5c5b3661131ba",
+      "sequence_length": 482,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX34036.1 gene/product LAMP2, Stylophora50429; original overrides transferred name forA."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "Lamp-family domain only, completeness/exact architecture not certified; current UniProt transferred LAMP5 conflicts."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "LAMP2 versus LAMP5/family assignment unresolved by independent evidence."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "LAMP2",
+            "accession": "A0A2B4SXI4",
+            "primary_accession": "PFX34036.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "join(LSMT01000007.1:195339..195624,LSMT01000007.1:198276..198829,LSMT01000007.1:205414..205624,LSMT01000007.1:206376..206561,LSMT01000007.1:207355..207566)"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4SXI4.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "NBR1",
+      "accession": "A0A2B4S6E7",
+      "primary_accession": "PFX24102.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "5ca289e2d9fab1703f8068a4c8fe770cf399fbab23e0267fcbdf203e4cc3f971",
+      "sequence_length": 1202,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX24102.1 Nbr1/Next to BRCA1 protein."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "1202aa primary model has repeated PB1 sites and ribonuclease-E domain call plus partial UBA annotation; repeated/conflicting-model concern unresolved, protocolB fails."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "Naming transferred fromP97432; NBR1-like/UBA primary calls do not resolve conflicting model."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "NBR1",
+            "accession": "A0A2B4S6E7",
+            "primary_accession": "PFX24102.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "join(LSMT01000186.1:429068..429163,LSMT01000186.1:429264..429326,LSMT01000186.1:429543..429561,LSMT01000186.1:430202..430224,LSMT01000186.1:431969..432091,LSMT01000186.1:432814..433420,LSMT01000186.1:433911..434140,LSMT01000186.1:434360..434474,LSMT01000186.1:435388..435454,LSMT01000186.1:436478..436798,LSMT01000186.1:437844..437958,LSMT01000186.1:438931..438987,LSMT01000186.1:439834..439967,LSMT01000186.1:440321..440442,LSMT01000186.1:440855..441190,LSMT01000186.1:441701..442683,LSMT01000186.1:443255..443452)"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4S6E7.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "NBR1",
+      "accession": "A0A9X0A2V9",
+      "primary_accession": "KAJ7390609.1",
+      "taxon": 174260,
+      "sequence_version": 1,
+      "sequence_sha256": "b09022debb48c53f456c5d6f39c53d9111ee2c8ed0e613cfd4fe2cdf24879932",
+      "sequence_length": 295,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalKAJ7390609.1 NBR1 exact product/gene."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "295aa architecture onlyZZ/NBR1-like, lacks supported full PB1+UBA architecture."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "No complete discriminating primary architecture beyond shared family support."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "NBR1",
+            "accession": "A0A9X0A2V9",
+            "primary_accession": "KAJ7390609.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "join(MU825414.1:1037272..1037362,MU825414.1:1037448..1037514,MU825414.1:1038237..1038560,MU825414.1:1039640..1039754,MU825414.1:1040320..1040376,MU825414.1:1040763..1040996)"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank2<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A9X0A2V9.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "PRKN",
+      "accession": "A0A2B4T1R3",
+      "primary_accession": "PFX34565.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "f30232813d91270ce384d06409db55ed54b94ff2cb501ba23d5f708e1f11c7c7",
+      "sequence_length": 461,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX34565.1 PARK2/parkin, explicit frozenPRKN alias, Stylophora50429."
+        },
+        "B": {
+          "status": "PASS",
+          "reason": "PrimaryUbl1_park_like/RING0_parkin/RING14/BRcat_RBR_parkin/Rcat_RBR_parkin across461aa, no fragment/ambiguous residues."
+        },
+        "C": {
+          "status": "PASS",
+          "reason": "Independent primary CDD parkin-specific RING0, BRcat and Rcat assignments, beyond transferredO60260 name; supports operational parkin-family assignment, not orthology."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "PRKN",
+            "accession": "A0A2B4T1R3",
+            "primary_accession": "PFX34565.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "complement(join(LSMT01000003.1:1705082..1705188,LSMT01000003.1:1705719..1705836,LSMT01000003.1:1706556..1706648,LSMT01000003.1:1706911..1707045,LSMT01000003.1:1708103..1708164,LSMT01000003.1:1712678..1712823,LSMT01000003.1:1713853..1713968,LSMT01000003.1:1714481..1714564,LSMT01000003.1:1715521..1715639,LSMT01000003.1:1715876..1716032,LSMT01000003.1:1717282..1717509,LSMT01000003.1:1718429..1718449))"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": true,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4T1R3.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "PRKN",
+      "accession": "T2MIZ5",
+      "primary_accession": "CDG71910.1",
+      "taxon": 6087,
+      "sequence_version": 1,
+      "sequence_sha256": "8d55055c9ac6317a7d8c9267e3a5c6f46801d79da1c663739a13e59a66e0cc76",
+      "sequence_length": 440,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalCDG71910.1 PARK2/parkin, Hydra6087."
+        },
+        "B": {
+          "status": "PASS",
+          "reason": "Primary parkinUbl/RING0/BRcat/Rcat support440aa no ambiguity/fragment."
+        },
+        "C": {
+          "status": "PASS",
+          "reason": "Primary parkin-specific domain calls distinct from genericRBR; operational family only."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "PRKN",
+            "accession": "T2MIZ5",
+            "primary_accession": "CDG71910.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "HAAD01005678.1:73..1395"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "FAIL",
+          "reason": "Prior first all-pass accession for this label already selected. One per label; retained only as disclosed unused evidence, never alignment."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/T2MIZ5.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "RB1CC1",
+      "accession": "T2M8Y6",
+      "primary_accession": "CDG68511.1",
+      "taxon": 6087,
+      "sequence_version": 1,
+      "sequence_sha256": "89105c82cac030b4c1187b10cc194c60ebdc06ad2178243aeeae987eb2c6db2b",
+      "sequence_length": 232,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalCDG68511.1 RB1CC1 product/gene, Hydra6087."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "Explicitpartial product, UniProtFragment, coded_by<1..>696."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "Fragment cannot certify exact complete RB1CC1 assignment."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "RB1CC1",
+            "accession": "T2M8Y6",
+            "primary_accession": "CDG68511.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "HAAD01002279.1:<1..>696"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/T2M8Y6.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "STUB1",
+      "accession": "A0A2B4RTM4",
+      "primary_accession": "PFX19668.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "5fcdcba305af6228f6dffd844e7ee4203590396a42259a610e355ef6dafa508b",
+      "sequence_length": 210,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX19668.1 STUB1 product/gene, Stylophora50429."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "210aa modelTPR/CHIP_TPR but RING call rather than supported CHIPU-box; full architecture unresolved."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "SharedTPR plus conflictedRING/U-box support does not certify fullCHIP."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "STUB1",
+            "accession": "A0A2B4RTM4",
+            "primary_accession": "PFX19668.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "complement(join(LSMT01000349.1:13127..13255,LSMT01000349.1:16043..16099,LSMT01000349.1:16492..16555,LSMT01000349.1:17231..17319,LSMT01000349.1:17826..17902,LSMT01000349.1:19329..19527,LSMT01000349.1:20593..20610))"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4RTM4.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "STUB1",
+      "accession": "T2M3P7",
+      "primary_accession": "CDG66582.1",
+      "taxon": 6087,
+      "sequence_version": 1,
+      "sequence_sha256": "0092ac3dfb73eaca18ae4dba639c58581ffeb387b4dbfba5a7ad940a2e0b6d0a",
+      "sequence_length": 270,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalCDG66582.1 STUB1/CHIP product/gene, Hydra6087."
+        },
+        "B": {
+          "status": "PASS",
+          "reason": "270aa primaryTPR repeats/CHIP_TPR_N andC-terminalRING-Ubox_CHIP194..264, no fragment/ambiguous residue."
+        },
+        "C": {
+          "status": "PASS",
+          "reason": "PrimaryCHIP-specificTPR+CHIPU-box architecture, independently of transferredUniProt name; operational CHIP-family only."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "STUB1",
+            "accession": "T2M3P7",
+            "primary_accession": "CDG66582.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "HAAD01000350.1:141..953"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank2<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": true,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/T2M3P7.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "TBK1",
+      "accession": "A0A2B4SKC0",
+      "primary_accession": "PFX29320.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "a3481ca971b45a791e816e1fd2cffd779b6948b11d25e60eaa9898255de0d9e3",
+      "sequence_length": 532,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX29320.1 exactTBK1 product/gene."
+        },
+        "B": {
+          "status": "FAIL",
+          "reason": "532aa kinase+noncanonical kinaseULD only; fullTBK1 scaffold/completeness unresolved."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "PrimaryULD explicitly shared noncanonical kinase family, transferredQ9UHD2 naming does not distinguish close paralogs."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "TBK1",
+            "accession": "A0A2B4SKC0",
+            "primary_accession": "PFX29320.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "complement(join(LSMT01000067.1:209211..209361,LSMT01000067.1:209730..209831,LSMT01000067.1:211028..211119,LSMT01000067.1:212229..212287,LSMT01000067.1:214685..214754,LSMT01000067.1:215145..215274,LSMT01000067.1:215886..215950,LSMT01000067.1:216871..216985,LSMT01000067.1:218449..218559,LSMT01000067.1:219613..219707,LSMT01000067.1:220206..220268,LSMT01000067.1:220699..220789,LSMT01000067.1:221543..221633,LSMT01000067.1:222643..222772,LSMT01000067.1:225164..225304,LSMT01000067.1:225411..225503))"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4SKC0.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "WIPI2",
+      "accession": "A0A2B4SNM0",
+      "primary_accession": "PFX30122.1",
+      "taxon": 50429,
+      "sequence_version": 1,
+      "sequence_sha256": "404766e4bfaedb546d22eb2edd812600d43e03f2a0bdb7460815f833aeb33770",
+      "sequence_length": 442,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalPFX30122.1 exactWIPI2 product/gene."
+        },
+        "B": {
+          "status": "PASS",
+          "reason": "442aaPROPPIN/WD40 family supported, no fragment/ambiguous residue; family only."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "SharedPROPPIN/WD40 and transferred naming do not discriminateWIPI2 from closeWIPI paralogs."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "WIPI2",
+            "accession": "A0A2B4SNM0",
+            "primary_accession": "PFX30122.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "join(LSMT01000055.1:80837..80907,LSMT01000055.1:81027..81109,LSMT01000055.1:82695..82798,LSMT01000055.1:83521..83586,LSMT01000055.1:83900..83956,LSMT01000055.1:84484..84523,LSMT01000055.1:84759..84820,LSMT01000055.1:85193..85228,LSMT01000055.1:85795..85887,LSMT01000055.1:86195..86265,LSMT01000055.1:86374..86481,LSMT01000055.1:87110..87185,LSMT01000055.1:87374..87431,LSMT01000055.1:87927..87954,LSMT01000055.1:88090..88197,LSMT01000055.1:88694..88733,LSMT01000055.1:89579..89806)"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank1<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/A0A2B4SNM0.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    },
+    {
+      "label": "WIPI2",
+      "accession": "T2M354",
+      "primary_accession": "CDG66345.1",
+      "taxon": 6087,
+      "sequence_version": 1,
+      "sequence_sha256": "b333438f38a2dd132bdc66ad27a41112bc04cd62405535d82687c800fe4b08cd",
+      "sequence_length": 415,
+      "checks": {
+        "A": {
+          "status": "PASS",
+          "reason": "OriginalCDG66345.1 exactWIPI2 product/gene."
+        },
+        "B": {
+          "status": "PASS",
+          "reason": "415aaPROPPIN/WD40 family supported,no fragment/ambiguity."
+        },
+        "C": {
+          "status": "FAIL",
+          "reason": "SharedWD40/PROPPIN and transferred naming insufficient forWIPI2 exact paralog."
+        },
+        "D": {
+          "status": "PASS",
+          "reason": "No exact sequence in conservative1237 local historical records or89 refreshed primary records; no accession/secondary/primary protein alias in historicalheaders; genomic model coded_bycontig no match to89 original models. Scope is documented available historical files+ledger, not exhaustive universe of model revisions.",
+          "audit": {
+            "label": "WIPI2",
+            "accession": "T2M354",
+            "primary_accession": "CDG66345.1",
+            "sequence_seen": false,
+            "header_alias_seen": [],
+            "coded_by": [
+              "HAAD01000113.1:41..1288"
+            ],
+            "same_contig_historical_models": [],
+            "primary_sequence_matches_uniprot": true,
+            "lineage_status": "no matched historical source model contig or alias; primary versioned crosswalk reconciled",
+            "current_D": "PASS-proposed-to-blind-review"
+          }
+        },
+        "E": {
+          "status": "PASS",
+          "reason": "UnreviewedUniProt priority1, ASCII accession sorted metadata before review, rank2<=20; source count<=100, no forbidden retry."
+        }
+      },
+      "lane_proposed_selected": false,
+      "eligibility": "PENDING INDEPENDENT BLIND REVIEW, no certification",
+      "source_urls": [
+        "https://rest.uniprot.org/uniprotkb/T2M354.json",
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text"
+      ]
+    }
+  ],
+  "cluster": {
+    "edges": [],
+    "components": [
+      [
+        "PRKN"
+      ],
+      [
+        "STUB1"
+      ]
+    ],
+    "retained": [
+      "PRKN",
+      "STUB1"
+    ]
+  },
+  "control_matching": [
+    {
+      "label": "PRKN",
+      "null": "A0A0C2IVW0"
+    },
+    {
+      "label": "STUB1",
+      "null": "A0A0C2IUB3"
+    }
+  ],
+  "retained_queries": [
+    {
+      "label": "PRKN",
+      "accession": "A0A2B4T1R3",
+      "sequence": "MTISWLKFPTDWHIDNRMATARRRERFTIFVRFNSNTNIPVTIDLQWTVLRLKQEIATSQGVEASELRIIFAGRELKDDLQLKDAEIPHQSVIHAIRGGRWSARPSRPGKIMPLAKVKLSTVGEDEERAATSTDGAPSQRQTQYFVYCKTCKEVTPGKLRVCCSLCKEGAIVLQQDPSSWEDVMRSGRIRGSCKKSGCEGSIAEFYFKCAQHTAAEGDRCVALTLIRSNTRDIPCLACADNRDPVLVFPCADGHAVCLECFAIYSTTKLNDRQFVHSETYGYTLPCPGSSGSCDSALIPEAHHFRVLQDDQYDRYQRFGTEEYVLKMGGVLCPGRGCGMGLLPEPNMRRIKCEHCQFEFCRECKEPFQRGHSCNQSNPNATTNARASNYQVNLENARRARWEAEARQVIEQISKKCPGCKTNTEKNGGCNHMTCSRCRFEWCWICLIRWNPDCQGSHWFRT"
+    },
+    {
+      "label": "STUB1",
+      "accession": "T2M3P7",
+      "sequence": "MSALDLKEQGNRLFAARSYDDAIGCYTKAIIKDPSAGSYYTNRALCYLKLKKWKLAIADSQHAIDIDPKNVKAHFFIGQAYMENNSFDEAITNFQIAYDLAKEQKLNFGDDIASSLRAAKKKRWSLLEEKRIQEEIELQSYLQRLILEEKERKLQTVVEGSENASLIEADTKKRLLELNSLFAQVDERRQKRDVPDQLCGKISFEIMKDPVITPSGITYDRKDIEEHLQRVGHFDPVTRAPLNVNQLIPNLAMKEVVEEFLEKNEWAEYY"
+    }
+  ],
+  "source_query_status": "discovery-query-status.json",
+  "seen_audit_scope": "Historical89 original primary records and conservative all available local FASTA inventory. This is evidence for reviewer, not blanket proof of unknown model revisions; unresolved lineage must failD.",
+  "gate_status": "pending independent A-E review of all candidate evidence, mechanical D/E recomputation",
+  "fixed_panel_dispositions": [
+    {
+      "label": "BAG3",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 1
+    },
+    {
+      "label": "DNAJB6",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 1
+    },
+    {
+      "label": "HSPB8",
+      "status": "empty-both-providers",
+      "candidate_count": 0
+    },
+    {
+      "label": "LAMP2",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 1
+    },
+    {
+      "label": "NBR1",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 2
+    },
+    {
+      "label": "PRKN",
+      "status": "proposed-first-passer-pending-blind-review",
+      "candidate_count": 2
+    },
+    {
+      "label": "RB1CC1",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 1
+    },
+    {
+      "label": "STUB1",
+      "status": "proposed-first-passer-pending-blind-review",
+      "candidate_count": 2
+    },
+    {
+      "label": "TBK1",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 1
+    },
+    {
+      "label": "WIPI2",
+      "status": "all-candidates-fail-proposed-AE",
+      "candidate_count": 2
+    }
+  ]
+}

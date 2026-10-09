@@ -1,0 +1,80 @@
+[
+  {
+    "accession": "KAJ7323407.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.038737+00:00",
+    "sha256": "3c4b682c748042a286c6d7a26ab7d2914222169a7b0d9ad8608539e35ac46d8b"
+  },
+  {
+    "accession": "CDG71812.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.039274+00:00",
+    "sha256": "773368ccc24dfed457835ca4d83b155b3bd0085ce8779df13f1bfc0b9cb0f19d"
+  },
+  {
+    "accession": "PFX34036.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.039557+00:00",
+    "sha256": "e2bfa78f60e2a6b21f8f69ed6a4b9f63fa8c1f4756021c3884ce045f0ace3605"
+  },
+  {
+    "accession": "PFX24102.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.039854+00:00",
+    "sha256": "913a83b70ca7670b862decc882a90e88b401cb0bee8c221e60b4d8a98f588cce"
+  },
+  {
+    "accession": "KAJ7390609.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.040087+00:00",
+    "sha256": "ada65cee2e38183c39a299e4f43d8dc8da1ddf77db53324c3f8c3d76f768f03f"
+  },
+  {
+    "accession": "PFX34565.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.040264+00:00",
+    "sha256": "4c307a4964ddd481dcb53dfb98f8c61b7f9986c4aaf12b88be428c2991dc9cf5"
+  },
+  {
+    "accession": "CDG71910.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.040531+00:00",
+    "sha256": "32e7fdf5a54ce51612e20d558319668d520818717cbb3018a9fee6ac84680ee7"
+  },
+  {
+    "accession": "CDG68511.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.040704+00:00",
+    "sha256": "9c5eba8e55c00372f25a4cb07c4d4716b4ff1ee6bbab76b7b328060ac7526b9a"
+  },
+  {
+    "accession": "PFX19668.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.040820+00:00",
+    "sha256": "469ca727f993c940147b477ae1d6edd1e9f3eee99c3ce8325f0b498220b4a435"
+  },
+  {
+    "accession": "CDG66582.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.041033+00:00",
+    "sha256": "0588e2034f2ee54a3873010045f0e04f9e856a443fdc5b2370792d52e02f1563"
+  },
+  {
+    "accession": "PFX29320.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.041318+00:00",
+    "sha256": "a9c365d05ea536024e92ddc96b79768746e0d118861fdf0e454fda0cfef1fe47"
+  },
+  {
+    "accession": "PFX30122.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.041603+00:00",
+    "sha256": "e3379cc05b6feb3f98736e844c5660c73aa0c2d08dd0a54c9db23de4679d0b3a"
+  },
+  {
+    "accession": "CDG66345.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KAJ7323407.1%2CCDG71812.1%2CPFX34036.1%2CPFX24102.1%2CKAJ7390609.1%2CPFX34565.1%2CCDG71910.1%2CCDG68511.1%2CPFX19668.1%2CCDG66582.1%2CPFX29320.1%2CPFX30122.1%2CCDG66345.1&rettype=gp&retmode=text",
+    "retrieved_utc": "2026-10-09T11:53:36.041891+00:00",
+    "sha256": "dc4b1e17875a2ac36153ed973f9fc4f91473361ff349d91caa16cac676a54c7e"
+  }
+]

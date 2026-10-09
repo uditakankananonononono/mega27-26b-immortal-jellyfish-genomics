@@ -1,0 +1,2326 @@
+[
+  {
+    "pool_accession": "A0A0C2IBH2",
+    "primary_accession": "KII62673.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(JWZT01004899.1:137168..138517)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-1C chain"
+  },
+  {
+    "pool_accession": "A0A0C2IUB3",
+    "primary_accession": "KII60442.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(JWZT01005619.1:64754..64989,JWZT01005619.1:65010..65042,JWZT01005619.1:65064..65205,JWZT01005619.1:65228..65335,JWZT01005619.1:65356..65464,JWZT01005619.1:65486..65510,JWZT01005619.1:65538..65626,JWZT01005619.1:65648..65730))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR004000",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043129",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ATPase_NBD"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00022",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "actin"
+  },
+  {
+    "pool_accession": "A0A0C2IVW0",
+    "primary_accession": "KII60987.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(JWZT01005390.1:513788..513851,JWZT01005390.1:513874..513932,JWZT01005390.1:513956..514064,JWZT01005390.1:514086..514202,JWZT01005390.1:514226..515081,JWZT01005390.1:515102..515285))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR000941",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036849",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase-like_C_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR029017",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase-like_N"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020810",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020809",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020811",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_N"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00113",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03952",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_N"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Enolase"
+  },
+  {
+    "pool_accession": "A0A0C2IX04",
+    "primary_accession": "KII69874.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "JWZT01002262.1:10498..11628"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR004000",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020902",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin/actin-like_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR004001",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043129",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ATPase_NBD"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00022",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Actin, cytoplasmic 1"
+  },
+  {
+    "pool_accession": "A0A0C2IX80",
+    "primary_accession": "KII61497.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(JWZT01005339.1:1080368..1081498)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR004000",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020902",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin/actin-like_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR004001",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR043129",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "ATPase_NBD"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00022",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Actin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Actin-3"
+  },
+  {
+    "pool_accession": "A0A0C2M2Q1",
+    "primary_accession": "KII61360.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(JWZT01005339.1:202437..203351,JWZT01005339.1:203375..203608,JWZT01005339.1:203632..203784,JWZT01005339.1:204039..204044))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-4A chain"
+  },
+  {
+    "pool_accession": "A0A0C2M3X2",
+    "primary_accession": "KII61730.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(JWZT01005265.1:30864..31052,JWZT01005265.1:31181..32323,JWZT01005265.1:32344..32505)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR016142",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synth-like_lrg_a-sub"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR016143",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synth-like_sm_a-sub"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002020",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synthase"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR019810",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synthase_AS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036969",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synthase_sf"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00285",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Citrate_synt"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Citrate synthase, mitochondrial"
+  },
+  {
+    "pool_accession": "A0A0C2MRB1",
+    "primary_accession": "KII64252.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(JWZT01004360.1:125074..126414)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-2 chain"
+  },
+  {
+    "pool_accession": "A0A0C2N5F6",
+    "primary_accession": "KII69107.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(JWZT01002592.1:147792..148559,JWZT01002592.1:148581..148825,JWZT01002592.1:148846..148956,JWZT01002592.1:148979..149087,JWZT01002592.1:149161..149217))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-2 chain"
+  },
+  {
+    "pool_accession": "A0A0C2NI64",
+    "primary_accession": "KII73697.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "JWZT01000702.1:62799..63851"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR020831",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld/Erythrose_P_DH"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020830",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_AS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020829",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_cat"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020828",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_NAD(P)-bd"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR006424",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Glyceraldehyde-3-P_DH_1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036291",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "NAD(P)-bd_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF02800",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Gp_dh_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00044",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Gp_dh_N"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Glyceraldehyde-3-phosphate dehydrogenase,                      testis-specific"
+  },
+  {
+    "pool_accession": "A0A169Q0T5",
+    "primary_accession": "BAU88502.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "LC093050.1:97..1107"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR020831",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld/Erythrose_P_DH"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020830",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_AS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020829",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_cat"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020828",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "GlycerAld_3-P_DH_NAD(P)-bd"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR006424",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Glyceraldehyde-3-P_DH_1"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036291",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "NAD(P)-bd_dom_sf"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF02800",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Gp_dh_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00044",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Gp_dh_N"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "glyceraldehyde 3-phosphate dehydrogenase"
+  },
+  {
+    "pool_accession": "A0A2B4RJH1",
+    "primary_accession": "PFX18544.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(LSMT01000405.1:153570..153674,LSMT01000405.1:154015..154509,LSMT01000405.1:154990..155447,LSMT01000405.1:155573..155683,LSMT01000405.1:155788..155896,LSMT01000405.1:156005..156061))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-4B chain"
+  },
+  {
+    "pool_accession": "A0A2B4RNK5",
+    "primary_accession": "PFX20014.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(LSMT01000334.1:281666..281668,LSMT01000334.1:282011..282233,LSMT01000334.1:283410..283598,LSMT01000334.1:284594..284742,LSMT01000334.1:285237..285629,LSMT01000334.1:286311..286409,LSMT01000334.1:286766..287065)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-2 chain"
+  },
+  {
+    "pool_accession": "A0A2B4RPF6",
+    "primary_accession": "PFX18208.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(LSMT01000424.1:226908..226910,LSMT01000424.1:227215..227434,LSMT01000424.1:228342..228490,LSMT01000424.1:229628..230599)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-1 chain"
+  },
+  {
+    "pool_accession": "A0A2B4RRK2",
+    "primary_accession": "PFX18987.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(LSMT01000382.1:82456..82557,LSMT01000382.1:83212..83428,LSMT01000382.1:83964..84241,LSMT01000382.1:84983..85195,LSMT01000382.1:86352..86596,LSMT01000382.1:87482..87592,LSMT01000382.1:87774..87882,LSMT01000382.1:88418..88474))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-4 chain"
+  },
+  {
+    "pool_accession": "A0A2B4RUA5",
+    "primary_accession": "PFX20389.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(LSMT01000319.1:82998..83000,LSMT01000319.1:83250..83472,LSMT01000319.1:84015..84163,LSMT01000319.1:84252..84644,LSMT01000319.1:84745..85032,LSMT01000319.1:85167..85466)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-1A chain"
+  },
+  {
+    "pool_accession": "A0A2B4RVA0",
+    "primary_accession": "PFX20480.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(LSMT01000315.1:39041..39340,LSMT01000315.1:40016..40303,LSMT01000315.1:40698..41090,LSMT01000315.1:41508..41656,LSMT01000315.1:48095..48317,LSMT01000315.1:48689..48691))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR002452",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Alpha_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin alpha-1C chain"
+  },
+  {
+    "pool_accession": "A0A2B4RZN2",
+    "primary_accession": "PFX23914.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(LSMT01000192.1:50954..51010,LSMT01000192.1:51993..52101,LSMT01000192.1:52892..53002,LSMT01000192.1:53617..53861,LSMT01000192.1:54923..55135,LSMT01000192.1:55672..55949,LSMT01000192.1:56380..56596,LSMT01000192.1:57372..57488)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-4 chain"
+  },
+  {
+    "pool_accession": "A0A2B4S5S2",
+    "primary_accession": "PFX23872.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "complement(join(LSMT01000194.1:225952..226018,LSMT01000194.1:226836..226894,LSMT01000194.1:227390..227498,LSMT01000194.1:228083..228169,LSMT01000194.1:229056..229085,LSMT01000194.1:229651..229735,LSMT01000194.1:230138..230192,LSMT01000194.1:231173..231237,LSMT01000194.1:232232..232312,LSMT01000194.1:233051..233107,LSMT01000194.1:233567..233656,LSMT01000194.1:234291..234432,LSMT01000194.1:235017..235084,LSMT01000194.1:235598..235667,LSMT01000194.1:235779..235837,LSMT01000194.1:236217..236312,LSMT01000194.1:238029..238116))"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR000941",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036849",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase-like_C_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR029017",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase-like_N"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020810",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020809",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR020811",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_N"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00113",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03952",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Enolase_N"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Alpha-enolase"
+  },
+  {
+    "pool_accession": "A0A2B4S642",
+    "primary_accession": "PFX23992.1",
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=KII62673.1%2CKII60442.1%2CKII60987.1%2CKII69874.1%2CKII61497.1%2CKII61360.1%2CKII61730.1%2CKII64252.1%2CKII69107.1%2CKII73697.1%2CBAU88502.1%2CPFX18544.1%2CPFX20014.1%2CPFX18208.1%2CPFX18987.1%2CPFX20389.1%2CPFX20480.1%2CPFX23914.1%2CPFX23872.1%2CPFX23992.1&rettype=gp&retmode=text",
+    "coded_by": [
+      "join(LSMT01000190.1:244880..244936,LSMT01000190.1:246568..246676,LSMT01000190.1:247064..247174,LSMT01000190.1:247473..247930,LSMT01000190.1:248523..249017,LSMT01000190.1:251056..251190)"
+    ],
+    "primary_sequence_equal": true,
+    "historical_sequence_seen": false,
+    "shared_historical_source_contig_models": [],
+    "D": "PASS-proposed",
+    "family_domains": [
+      {
+        "database": "InterPro",
+        "id": "IPR013838",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta-tubulin_BS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR002453",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Beta_tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR008280",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tub_FtsZ_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR000217",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR037103",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ-like_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR018316",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_2-layer-sand-dom"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR036525",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin/FtsZ_GTPase_sf"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR023123",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR017975",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_CS"
+          }
+        ]
+      },
+      {
+        "database": "InterPro",
+        "id": "IPR003008",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_FtsZ_GTPase"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF00091",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "database": "Pfam",
+        "id": "PF03953",
+        "properties": [
+          {
+            "key": "EntryName",
+            "value": "Tubulin_C"
+          },
+          {
+            "key": "MatchStatus",
+            "value": "1"
+          }
+        ]
+      }
+    ],
+    "primary_product": "Tubulin beta-2 chain"
+  }
+]

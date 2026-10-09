@@ -1,0 +1,202 @@
+[
+  {
+    "label": "BAG3",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+BAG3%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:44.889007+00:00",
+    "completed_utc": "2026-10-09T11:52:45.207455+00:00",
+    "error": null
+  },
+  {
+    "label": "BAG3",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 1,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ABAG3&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:43.821418+00:00",
+    "completed_utc": "2026-10-09T11:52:44.528024+00:00",
+    "error": null
+  },
+  {
+    "label": "DNAJB6",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+DNAJB6%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:46.705892+00:00",
+    "completed_utc": "2026-10-09T11:52:46.933285+00:00",
+    "error": null
+  },
+  {
+    "label": "DNAJB6",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 1,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ADNAJB6&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:45.568430+00:00",
+    "completed_utc": "2026-10-09T11:52:46.344865+00:00",
+    "error": null
+  },
+  {
+    "label": "HSPB8",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+HSPB8%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:48.313755+00:00",
+    "completed_utc": "2026-10-09T11:52:48.550243+00:00",
+    "error": null
+  },
+  {
+    "label": "HSPB8",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3AHSPB8&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:47.294259+00:00",
+    "completed_utc": "2026-10-09T11:52:47.952475+00:00",
+    "error": null
+  },
+  {
+    "label": "LAMP2",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+LAMP2%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:49.953575+00:00",
+    "completed_utc": "2026-10-09T11:52:50.194076+00:00",
+    "error": null
+  },
+  {
+    "label": "LAMP2",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 1,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ALAMP2&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:48.911226+00:00",
+    "completed_utc": "2026-10-09T11:52:49.592383+00:00",
+    "error": null
+  },
+  {
+    "label": "NBR1",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+NBR1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:51.628299+00:00",
+    "completed_utc": "2026-10-09T11:52:51.786082+00:00",
+    "error": null
+  },
+  {
+    "label": "NBR1",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 2,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ANBR1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:50.555245+00:00",
+    "completed_utc": "2026-10-09T11:52:51.267216+00:00",
+    "error": null
+  },
+  {
+    "label": "PRKN",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+%28PRKN%5BGene+Name%5D+OR+PARK2%5BGene+Name%5D%29+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:53.304438+00:00",
+    "completed_utc": "2026-10-09T11:52:53.536026+00:00",
+    "error": null
+  },
+  {
+    "label": "PRKN",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 2,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+%28gene_exact%3APRKN+OR+gene_exact%3APARK2%29&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:52.147096+00:00",
+    "completed_utc": "2026-10-09T11:52:52.943396+00:00",
+    "error": null
+  },
+  {
+    "label": "RB1CC1",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+RB1CC1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:54.956953+00:00",
+    "completed_utc": "2026-10-09T11:52:55.191153+00:00",
+    "error": null
+  },
+  {
+    "label": "RB1CC1",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 1,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ARB1CC1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:53.897073+00:00",
+    "completed_utc": "2026-10-09T11:52:54.595828+00:00",
+    "error": null
+  },
+  {
+    "label": "STUB1",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+STUB1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:56.639021+00:00",
+    "completed_utc": "2026-10-09T11:52:56.872837+00:00",
+    "error": null
+  },
+  {
+    "label": "STUB1",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 2,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ASTUB1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:55.552347+00:00",
+    "completed_utc": "2026-10-09T11:52:56.277905+00:00",
+    "error": null
+  },
+  {
+    "label": "TBK1",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+TBK1%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:58.266864+00:00",
+    "completed_utc": "2026-10-09T11:52:58.366280+00:00",
+    "error": null
+  },
+  {
+    "label": "TBK1",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 1,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ATBK1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:57.234094+00:00",
+    "completed_utc": "2026-10-09T11:52:57.905813+00:00",
+    "error": null
+  },
+  {
+    "label": "WIPI2",
+    "provider": "ncbi",
+    "status": "snapshot",
+    "count": 0,
+    "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=protein&term=Cnidaria%5BOrganism%5D+AND+WIPI2%5BGene+Name%5D+AND+srcdb_refseq%5BPROP%5D&retmode=json&retmax=100",
+    "started_utc": "2026-10-09T11:52:59.855316+00:00",
+    "completed_utc": "2026-10-09T11:53:00.092907+00:00",
+    "error": null
+  },
+  {
+    "label": "WIPI2",
+    "provider": "uniprot",
+    "status": "snapshot",
+    "count": 2,
+    "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3AWIPI2&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+    "started_utc": "2026-10-09T11:52:58.727274+00:00",
+    "completed_utc": "2026-10-09T11:52:59.494215+00:00",
+    "error": null
+  }
+]

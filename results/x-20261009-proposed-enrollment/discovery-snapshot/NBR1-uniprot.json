@@ -1,0 +1,145 @@
+{
+  "label": "NBR1",
+  "provider": "uniprot",
+  "query": "taxonomy_id:6073 AND gene_exact:NBR1",
+  "source_url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+gene_exact%3ANBR1&format=json&size=100&sort=accession+asc&fields=accession%2Cid%2Creviewed%2Cgene_names%2Corganism_name%2Corganism_id%2Cversion",
+  "started_utc": "2026-10-09T11:52:50.555245+00:00",
+  "retry": false,
+  "count": 2,
+  "status": "snapshot",
+  "response": {
+    "results": [
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A2B4S6E7",
+        "uniProtkbId": "A0A2B4S6E7_STYPI",
+        "entryAudit": {
+          "entryVersion": 25
+        },
+        "organism": {
+          "scientificName": "Stylophora pistillata",
+          "commonName": "Smooth cauliflower coral",
+          "taxonId": 50429,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "PFX24102.1"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000225706"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Anthozoa",
+            "Hexacorallia",
+            "Scleractinia",
+            "Vacatina",
+            "Pocilloporidae",
+            "Stylophora"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "PFX24102.1"
+                }
+              ],
+              "value": "Nbr1"
+            },
+            "orfNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "PFX24102.1"
+                  }
+                ],
+                "value": "AWC38_SpisGene11327"
+              }
+            ]
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI000C0064C9"
+        }
+      },
+      {
+        "entryType": "UniProtKB unreviewed (TrEMBL)",
+        "primaryAccession": "A0A9X0A2V9",
+        "uniProtkbId": "A0A9X0A2V9_9CNID",
+        "entryAudit": {
+          "entryVersion": 11
+        },
+        "organism": {
+          "scientificName": "Desmophyllum pertusum",
+          "taxonId": 174260,
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "KAJ7390609.1"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP001163046"
+            }
+          ],
+          "lineage": [
+            "Eukaryota",
+            "Metazoa",
+            "Cnidaria",
+            "Anthozoa",
+            "Hexacorallia",
+            "Scleractinia",
+            "Vacatina",
+            "Caryophylliidae",
+            "Desmophyllum"
+          ]
+        },
+        "genes": [
+          {
+            "geneName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "source": "EMBL",
+                  "id": "KAJ7390609.1"
+                }
+              ],
+              "value": "NBR1"
+            },
+            "orfNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000313",
+                    "source": "EMBL",
+                    "id": "KAJ7390609.1"
+                  }
+                ],
+                "value": "OS493_023998"
+              }
+            ]
+          }
+        ],
+        "extraAttributes": {
+          "uniParcId": "UPI0024CF5784"
+        }
+      }
+    ]
+  },
+  "response_sha256": "9244839275e8f98cf65b386bb89ed1c8efb6b5e9bfc71e6e914a89be8cd3fc6b",
+  "completed_utc": "2026-10-09T11:52:51.267216+00:00"
+}
