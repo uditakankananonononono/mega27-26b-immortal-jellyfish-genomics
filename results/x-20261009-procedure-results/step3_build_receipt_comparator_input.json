@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "./makeblastdb",
+    "-in",
+    "reference.fna",
+    "-dbtype",
+    "nucl",
+    "-parse_seqids",
+    "-blastdb_version",
+    "4",
+    "-out",
+    "clytia"
+  ],
+  "exit": 0,
+  "stderr": "",
+  "stdout": "\n\nBuilding a new DB, current time: 10/09/2026 17:51:02\nNew DB name:   <execution-path>\nNew DB title:  reference.fna\nSequence type: Nucleotide\nKeep MBits: T\nMaximum file size: 3000000000B\nAdding sequences from FASTA; added 1396 sequences in 4.0035 seconds.\n\n\n",
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

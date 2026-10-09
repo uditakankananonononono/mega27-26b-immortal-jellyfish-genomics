@@ -1,0 +1,59 @@
+{
+  "completion_iso": "2026-10-09T17:51:06.806290+05:30",
+  "db_files": {
+    "clytia.nhr": "1ee15c8e54541f5034923655bbe9c212fcd4f2395de411755ced84e6112977ee",
+    "clytia.nin": "16a4c16c3ef659ca11c5991c151fa864722be00c6a39ba69438b8147944260e5",
+    "clytia.njs": "00a9142d0125f8307727e25173d16a527385d656d3597c13968d2452c64dd0cc",
+    "clytia.nog": "e63469e20a6464dd3ff3759edd75625662800689decc70ee81ae4e03f076454e",
+    "clytia.nsd": "07b6d417b48c1b3a8279184405533a061759259aaa425ab9a93b5e4e9cb63eb4",
+    "clytia.nsi": "1b379dae63b2fd1925d27b90c700ac74262fd4735615c84a8dfe5e971443b2d1",
+    "clytia.nsq": "cbe0887f691ba05ed495c79837feb0e786e51e078d5f0684d9d9099adb271209"
+  },
+  "runner_receipt": {
+    "argv": [
+      "./makeblastdb",
+      "-in",
+      "reference.fna",
+      "-dbtype",
+      "nucl",
+      "-parse_seqids",
+      "-blastdb_version",
+      "4",
+      "-out",
+      "clytia"
+    ],
+    "child_cpu_s": 4.001,
+    "clean": true,
+    "end_utc": "2026-10-09T12:21:06.806048+00:00",
+    "enforcement": "hard: setsid+killpg, RLIMIT_CPU hard, RLIMIT_AS hard, streaming byte caps, RSS sampling",
+    "exit_code": 0,
+    "limits": {
+      "agg_cpu_s": 14400.0,
+      "agg_output_bytes": 536870912,
+      "agg_wall_s": 7200.0,
+      "as_bytes": 1073741824,
+      "cpu_s": 240,
+      "rss_bytes": 1073741824,
+      "rss_sample_s": 0.05,
+      "scratch_bytes": 2147483648,
+      "stderr_bytes": 1048576,
+      "stdout_bytes": 10485760,
+      "threads": 2,
+      "wall_s": 120.0
+    },
+    "max_rss_ru_bytes": 37974016,
+    "peak_rss_sampled_bytes": 37974016,
+    "peak_threads_sampled": 2,
+    "signal": null,
+    "start_utc": "2026-10-09T12:21:02.578477+00:00",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 277,
+    "stdout_sha256": "24a90b0ce1eb7e4ae710d2dc9a552406b868f45600965fc546fb1ae5cb17e693",
+    "stop_reason": null,
+    "tag": "makeblastdb",
+    "thread_rule": "kill if live threads of process group > num_threads(2) + 4 at any sample",
+    "wall_monotonic_s": 4.227
+  },
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

@@ -1,0 +1,25 @@
+{
+  "contig_sample": [
+    "ref|NW_027103237.1|",
+    "ref|NW_027103238.1|",
+    "ref|NW_027103239.1|"
+  ],
+  "derived_from": "reference.fna headers (verified step 1), lock pins, runner OUTFMT constant",
+  "n_known_contigs": 1396,
+  "template": [
+    "<execution-path>",
+    "-query",
+    "<QUERY>",
+    "-db",
+    "<DB>",
+    "-evalue",
+    "1e-5",
+    "-max_target_seqs",
+    "20",
+    "-num_threads",
+    "2",
+    "-outfmt",
+    "6 qseqid sseqid pident length evalue bitscore qstart qend sstart send qlen"
+  ],
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

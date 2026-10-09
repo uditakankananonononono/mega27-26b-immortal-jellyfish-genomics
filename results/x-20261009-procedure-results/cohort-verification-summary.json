@@ -1,0 +1,63 @@
+{
+  "completed": 204,
+  "wall_sum_s": 508.75599999999986,
+  "cpu_sum_s": 912.682,
+  "max_ru_maxrss_bytes": 160366592,
+  "max_threads": 3,
+  "first_utc": "2026-10-09T12:30:18.275099+00:00",
+  "last_utc": "2026-10-09T12:38:53.604068+00:00",
+  "schedule_file_sha256": "2460f4296f0494de9480418b164af2ca3b234cf2373cafe2f0deac2f540685d6",
+  "query_sequence_hash_matches": 204,
+  "raw_output_hash_matches": 408,
+  "locus_canonical_hash_matches": 204,
+  "counts": [
+    [
+      "cohort_000_target_PRKN",
+      1,
+      {
+        "contig": "ref|NW_027104534.1|",
+        "start": 164330,
+        "end": 169009,
+        "n_hsps": 3,
+        "total_bits": 186.4,
+        "best_pident": 70.588,
+        "best_qcov": 0.106,
+        "strand": "+"
+      }
+    ],
+    [
+      "cohort_001_target_STUB1",
+      1,
+      {
+        "contig": "ref|NW_027104477.1|",
+        "start": 473473,
+        "end": 479280,
+        "n_hsps": 4,
+        "total_bits": 310.5,
+        "best_pident": 86.667,
+        "best_qcov": 0.241,
+        "strand": "-"
+      }
+    ],
+    [
+      "cohort_002_real-control_PRKN",
+      1,
+      {
+        "contig": "ref|NW_027103721.1|",
+        "start": 1791732,
+        "end": 1810393,
+        "n_hsps": 6,
+        "total_bits": 550.6,
+        "best_pident": 87.5,
+        "best_qcov": 0.219,
+        "strand": "-"
+      }
+    ],
+    [
+      "cohort_003_real-control_STUB1",
+      0,
+      null
+    ]
+  ],
+  "scrambles_detected": 0
+}

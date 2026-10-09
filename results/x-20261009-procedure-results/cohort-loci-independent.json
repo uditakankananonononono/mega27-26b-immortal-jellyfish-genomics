@@ -1,0 +1,2346 @@
+[
+  {
+    "tag": "cohort_000_target_PRKN",
+    "kind": "target",
+    "query": "A0A2B4T1R3",
+    "result": {
+      "query": "A0A2B4T1R3",
+      "loci": [
+        {
+          "contig": "ref|NW_027104534.1|",
+          "start": 164330,
+          "end": 169009,
+          "n_hsps": 3,
+          "total_bits": 186.4,
+          "best_pident": 70.588,
+          "best_qcov": 0.106,
+          "strand": "+"
+        },
+        {
+          "contig": "ref|NW_027104226.1|",
+          "start": 6509,
+          "end": 7117,
+          "n_hsps": 1,
+          "total_bits": 69.7,
+          "best_pident": 26.291,
+          "best_qcov": 0.43,
+          "strand": "-"
+        },
+        {
+          "contig": "ref|NW_027104433.1|",
+          "start": 1905546,
+          "end": 1906106,
+          "n_hsps": 1,
+          "total_bits": 55.5,
+          "best_pident": 24.299,
+          "best_qcov": 0.449,
+          "strand": "-"
+        }
+      ],
+      "n_strong": 1,
+      "best": {
+        "contig": "ref|NW_027104534.1|",
+        "start": 164330,
+        "end": 169009,
+        "n_hsps": 3,
+        "total_bits": 186.4,
+        "best_pident": 70.588,
+        "best_qcov": 0.106,
+        "strand": "+"
+      }
+    }
+  },
+  {
+    "tag": "cohort_001_target_STUB1",
+    "kind": "target",
+    "query": "T2M3P7",
+    "result": {
+      "query": "T2M3P7",
+      "loci": [
+        {
+          "contig": "ref|NW_027104477.1|",
+          "start": 473473,
+          "end": 479280,
+          "n_hsps": 4,
+          "total_bits": 310.5,
+          "best_pident": 86.667,
+          "best_qcov": 0.241,
+          "strand": "-"
+        },
+        {
+          "contig": "ref|NW_027103744.1|",
+          "start": 944436,
+          "end": 944732,
+          "n_hsps": 1,
+          "total_bits": 51.2,
+          "best_pident": 33.945,
+          "best_qcov": 0.381,
+          "strand": "+"
+        },
+        {
+          "contig": "ref|NW_027103979.1|",
+          "start": 1487398,
+          "end": 1487616,
+          "n_hsps": 1,
+          "total_bits": 51.2,
+          "best_pident": 38.356,
+          "best_qcov": 0.256,
+          "strand": "-"
+        }
+      ],
+      "n_strong": 1,
+      "best": {
+        "contig": "ref|NW_027104477.1|",
+        "start": 473473,
+        "end": 479280,
+        "n_hsps": 4,
+        "total_bits": 310.5,
+        "best_pident": 86.667,
+        "best_qcov": 0.241,
+        "strand": "-"
+      }
+    }
+  },
+  {
+    "tag": "cohort_002_real-control_PRKN",
+    "kind": "real-control",
+    "query": "A0A0C2IVW0",
+    "result": {
+      "query": "A0A0C2IVW0",
+      "loci": [
+        {
+          "contig": "ref|NW_027103721.1|",
+          "start": 1791732,
+          "end": 1810393,
+          "n_hsps": 6,
+          "total_bits": 550.6,
+          "best_pident": 87.5,
+          "best_qcov": 0.219,
+          "strand": "-"
+        }
+      ],
+      "n_strong": 1,
+      "best": {
+        "contig": "ref|NW_027103721.1|",
+        "start": 1791732,
+        "end": 1810393,
+        "n_hsps": 6,
+        "total_bits": 550.6,
+        "best_pident": 87.5,
+        "best_qcov": 0.219,
+        "strand": "-"
+      }
+    }
+  },
+  {
+    "tag": "cohort_003_real-control_STUB1",
+    "kind": "real-control",
+    "query": "A0A0C2IUB3",
+    "result": {
+      "query": "A0A0C2IUB3",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_004_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_0",
+    "result": {
+      "query": "scr_PRKN_0",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_005_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_1",
+    "result": {
+      "query": "scr_PRKN_1",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_006_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_2",
+    "result": {
+      "query": "scr_PRKN_2",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_007_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_3",
+    "result": {
+      "query": "scr_PRKN_3",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_008_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_4",
+    "result": {
+      "query": "scr_PRKN_4",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_009_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_5",
+    "result": {
+      "query": "scr_PRKN_5",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_010_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_6",
+    "result": {
+      "query": "scr_PRKN_6",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_011_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_7",
+    "result": {
+      "query": "scr_PRKN_7",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_012_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_8",
+    "result": {
+      "query": "scr_PRKN_8",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_013_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_9",
+    "result": {
+      "query": "scr_PRKN_9",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_014_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_10",
+    "result": {
+      "query": "scr_PRKN_10",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_015_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_11",
+    "result": {
+      "query": "scr_PRKN_11",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_016_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_12",
+    "result": {
+      "query": "scr_PRKN_12",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_017_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_13",
+    "result": {
+      "query": "scr_PRKN_13",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_018_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_14",
+    "result": {
+      "query": "scr_PRKN_14",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_019_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_15",
+    "result": {
+      "query": "scr_PRKN_15",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_020_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_16",
+    "result": {
+      "query": "scr_PRKN_16",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_021_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_17",
+    "result": {
+      "query": "scr_PRKN_17",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_022_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_18",
+    "result": {
+      "query": "scr_PRKN_18",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_023_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_19",
+    "result": {
+      "query": "scr_PRKN_19",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_024_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_20",
+    "result": {
+      "query": "scr_PRKN_20",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_025_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_21",
+    "result": {
+      "query": "scr_PRKN_21",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_026_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_22",
+    "result": {
+      "query": "scr_PRKN_22",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_027_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_23",
+    "result": {
+      "query": "scr_PRKN_23",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_028_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_24",
+    "result": {
+      "query": "scr_PRKN_24",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_029_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_25",
+    "result": {
+      "query": "scr_PRKN_25",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_030_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_26",
+    "result": {
+      "query": "scr_PRKN_26",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_031_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_27",
+    "result": {
+      "query": "scr_PRKN_27",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_032_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_28",
+    "result": {
+      "query": "scr_PRKN_28",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_033_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_29",
+    "result": {
+      "query": "scr_PRKN_29",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_034_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_30",
+    "result": {
+      "query": "scr_PRKN_30",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_035_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_31",
+    "result": {
+      "query": "scr_PRKN_31",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_036_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_32",
+    "result": {
+      "query": "scr_PRKN_32",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_037_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_33",
+    "result": {
+      "query": "scr_PRKN_33",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_038_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_34",
+    "result": {
+      "query": "scr_PRKN_34",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_039_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_35",
+    "result": {
+      "query": "scr_PRKN_35",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_040_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_36",
+    "result": {
+      "query": "scr_PRKN_36",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_041_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_37",
+    "result": {
+      "query": "scr_PRKN_37",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_042_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_38",
+    "result": {
+      "query": "scr_PRKN_38",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_043_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_39",
+    "result": {
+      "query": "scr_PRKN_39",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_044_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_40",
+    "result": {
+      "query": "scr_PRKN_40",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_045_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_41",
+    "result": {
+      "query": "scr_PRKN_41",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_046_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_42",
+    "result": {
+      "query": "scr_PRKN_42",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_047_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_43",
+    "result": {
+      "query": "scr_PRKN_43",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_048_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_44",
+    "result": {
+      "query": "scr_PRKN_44",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_049_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_45",
+    "result": {
+      "query": "scr_PRKN_45",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_050_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_46",
+    "result": {
+      "query": "scr_PRKN_46",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_051_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_47",
+    "result": {
+      "query": "scr_PRKN_47",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_052_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_48",
+    "result": {
+      "query": "scr_PRKN_48",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_053_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_49",
+    "result": {
+      "query": "scr_PRKN_49",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_054_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_50",
+    "result": {
+      "query": "scr_PRKN_50",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_055_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_51",
+    "result": {
+      "query": "scr_PRKN_51",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_056_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_52",
+    "result": {
+      "query": "scr_PRKN_52",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_057_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_53",
+    "result": {
+      "query": "scr_PRKN_53",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_058_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_54",
+    "result": {
+      "query": "scr_PRKN_54",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_059_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_55",
+    "result": {
+      "query": "scr_PRKN_55",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_060_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_56",
+    "result": {
+      "query": "scr_PRKN_56",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_061_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_57",
+    "result": {
+      "query": "scr_PRKN_57",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_062_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_58",
+    "result": {
+      "query": "scr_PRKN_58",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_063_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_59",
+    "result": {
+      "query": "scr_PRKN_59",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_064_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_60",
+    "result": {
+      "query": "scr_PRKN_60",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_065_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_61",
+    "result": {
+      "query": "scr_PRKN_61",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_066_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_62",
+    "result": {
+      "query": "scr_PRKN_62",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_067_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_63",
+    "result": {
+      "query": "scr_PRKN_63",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_068_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_64",
+    "result": {
+      "query": "scr_PRKN_64",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_069_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_65",
+    "result": {
+      "query": "scr_PRKN_65",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_070_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_66",
+    "result": {
+      "query": "scr_PRKN_66",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_071_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_67",
+    "result": {
+      "query": "scr_PRKN_67",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_072_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_68",
+    "result": {
+      "query": "scr_PRKN_68",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_073_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_69",
+    "result": {
+      "query": "scr_PRKN_69",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_074_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_70",
+    "result": {
+      "query": "scr_PRKN_70",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_075_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_71",
+    "result": {
+      "query": "scr_PRKN_71",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_076_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_72",
+    "result": {
+      "query": "scr_PRKN_72",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_077_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_73",
+    "result": {
+      "query": "scr_PRKN_73",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_078_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_74",
+    "result": {
+      "query": "scr_PRKN_74",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_079_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_75",
+    "result": {
+      "query": "scr_PRKN_75",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_080_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_76",
+    "result": {
+      "query": "scr_PRKN_76",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_081_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_77",
+    "result": {
+      "query": "scr_PRKN_77",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_082_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_78",
+    "result": {
+      "query": "scr_PRKN_78",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_083_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_79",
+    "result": {
+      "query": "scr_PRKN_79",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_084_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_80",
+    "result": {
+      "query": "scr_PRKN_80",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_085_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_81",
+    "result": {
+      "query": "scr_PRKN_81",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_086_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_82",
+    "result": {
+      "query": "scr_PRKN_82",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_087_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_83",
+    "result": {
+      "query": "scr_PRKN_83",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_088_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_84",
+    "result": {
+      "query": "scr_PRKN_84",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_089_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_85",
+    "result": {
+      "query": "scr_PRKN_85",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_090_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_86",
+    "result": {
+      "query": "scr_PRKN_86",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_091_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_87",
+    "result": {
+      "query": "scr_PRKN_87",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_092_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_88",
+    "result": {
+      "query": "scr_PRKN_88",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_093_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_89",
+    "result": {
+      "query": "scr_PRKN_89",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_094_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_90",
+    "result": {
+      "query": "scr_PRKN_90",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_095_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_91",
+    "result": {
+      "query": "scr_PRKN_91",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_096_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_92",
+    "result": {
+      "query": "scr_PRKN_92",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_097_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_93",
+    "result": {
+      "query": "scr_PRKN_93",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_098_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_94",
+    "result": {
+      "query": "scr_PRKN_94",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_099_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_95",
+    "result": {
+      "query": "scr_PRKN_95",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_100_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_96",
+    "result": {
+      "query": "scr_PRKN_96",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_101_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_97",
+    "result": {
+      "query": "scr_PRKN_97",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_102_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_98",
+    "result": {
+      "query": "scr_PRKN_98",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_103_scramble_PRKN",
+    "kind": "scramble",
+    "query": "scr_PRKN_99",
+    "result": {
+      "query": "scr_PRKN_99",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_104_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_0",
+    "result": {
+      "query": "scr_STUB1_0",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_105_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_1",
+    "result": {
+      "query": "scr_STUB1_1",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_106_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_2",
+    "result": {
+      "query": "scr_STUB1_2",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_107_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_3",
+    "result": {
+      "query": "scr_STUB1_3",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_108_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_4",
+    "result": {
+      "query": "scr_STUB1_4",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_109_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_5",
+    "result": {
+      "query": "scr_STUB1_5",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_110_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_6",
+    "result": {
+      "query": "scr_STUB1_6",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_111_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_7",
+    "result": {
+      "query": "scr_STUB1_7",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_112_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_8",
+    "result": {
+      "query": "scr_STUB1_8",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_113_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_9",
+    "result": {
+      "query": "scr_STUB1_9",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_114_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_10",
+    "result": {
+      "query": "scr_STUB1_10",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_115_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_11",
+    "result": {
+      "query": "scr_STUB1_11",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_116_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_12",
+    "result": {
+      "query": "scr_STUB1_12",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_117_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_13",
+    "result": {
+      "query": "scr_STUB1_13",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_118_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_14",
+    "result": {
+      "query": "scr_STUB1_14",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_119_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_15",
+    "result": {
+      "query": "scr_STUB1_15",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_120_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_16",
+    "result": {
+      "query": "scr_STUB1_16",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_121_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_17",
+    "result": {
+      "query": "scr_STUB1_17",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_122_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_18",
+    "result": {
+      "query": "scr_STUB1_18",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_123_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_19",
+    "result": {
+      "query": "scr_STUB1_19",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_124_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_20",
+    "result": {
+      "query": "scr_STUB1_20",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_125_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_21",
+    "result": {
+      "query": "scr_STUB1_21",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_126_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_22",
+    "result": {
+      "query": "scr_STUB1_22",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_127_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_23",
+    "result": {
+      "query": "scr_STUB1_23",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_128_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_24",
+    "result": {
+      "query": "scr_STUB1_24",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_129_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_25",
+    "result": {
+      "query": "scr_STUB1_25",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_130_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_26",
+    "result": {
+      "query": "scr_STUB1_26",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_131_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_27",
+    "result": {
+      "query": "scr_STUB1_27",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_132_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_28",
+    "result": {
+      "query": "scr_STUB1_28",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_133_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_29",
+    "result": {
+      "query": "scr_STUB1_29",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_134_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_30",
+    "result": {
+      "query": "scr_STUB1_30",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_135_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_31",
+    "result": {
+      "query": "scr_STUB1_31",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_136_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_32",
+    "result": {
+      "query": "scr_STUB1_32",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_137_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_33",
+    "result": {
+      "query": "scr_STUB1_33",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_138_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_34",
+    "result": {
+      "query": "scr_STUB1_34",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_139_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_35",
+    "result": {
+      "query": "scr_STUB1_35",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_140_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_36",
+    "result": {
+      "query": "scr_STUB1_36",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_141_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_37",
+    "result": {
+      "query": "scr_STUB1_37",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_142_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_38",
+    "result": {
+      "query": "scr_STUB1_38",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_143_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_39",
+    "result": {
+      "query": "scr_STUB1_39",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_144_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_40",
+    "result": {
+      "query": "scr_STUB1_40",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_145_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_41",
+    "result": {
+      "query": "scr_STUB1_41",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_146_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_42",
+    "result": {
+      "query": "scr_STUB1_42",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_147_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_43",
+    "result": {
+      "query": "scr_STUB1_43",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_148_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_44",
+    "result": {
+      "query": "scr_STUB1_44",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_149_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_45",
+    "result": {
+      "query": "scr_STUB1_45",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_150_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_46",
+    "result": {
+      "query": "scr_STUB1_46",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_151_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_47",
+    "result": {
+      "query": "scr_STUB1_47",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_152_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_48",
+    "result": {
+      "query": "scr_STUB1_48",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_153_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_49",
+    "result": {
+      "query": "scr_STUB1_49",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_154_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_50",
+    "result": {
+      "query": "scr_STUB1_50",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_155_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_51",
+    "result": {
+      "query": "scr_STUB1_51",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_156_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_52",
+    "result": {
+      "query": "scr_STUB1_52",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_157_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_53",
+    "result": {
+      "query": "scr_STUB1_53",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_158_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_54",
+    "result": {
+      "query": "scr_STUB1_54",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_159_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_55",
+    "result": {
+      "query": "scr_STUB1_55",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_160_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_56",
+    "result": {
+      "query": "scr_STUB1_56",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_161_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_57",
+    "result": {
+      "query": "scr_STUB1_57",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_162_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_58",
+    "result": {
+      "query": "scr_STUB1_58",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_163_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_59",
+    "result": {
+      "query": "scr_STUB1_59",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_164_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_60",
+    "result": {
+      "query": "scr_STUB1_60",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_165_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_61",
+    "result": {
+      "query": "scr_STUB1_61",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_166_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_62",
+    "result": {
+      "query": "scr_STUB1_62",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_167_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_63",
+    "result": {
+      "query": "scr_STUB1_63",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_168_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_64",
+    "result": {
+      "query": "scr_STUB1_64",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_169_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_65",
+    "result": {
+      "query": "scr_STUB1_65",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_170_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_66",
+    "result": {
+      "query": "scr_STUB1_66",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_171_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_67",
+    "result": {
+      "query": "scr_STUB1_67",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_172_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_68",
+    "result": {
+      "query": "scr_STUB1_68",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_173_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_69",
+    "result": {
+      "query": "scr_STUB1_69",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_174_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_70",
+    "result": {
+      "query": "scr_STUB1_70",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_175_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_71",
+    "result": {
+      "query": "scr_STUB1_71",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_176_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_72",
+    "result": {
+      "query": "scr_STUB1_72",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_177_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_73",
+    "result": {
+      "query": "scr_STUB1_73",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_178_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_74",
+    "result": {
+      "query": "scr_STUB1_74",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_179_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_75",
+    "result": {
+      "query": "scr_STUB1_75",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_180_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_76",
+    "result": {
+      "query": "scr_STUB1_76",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_181_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_77",
+    "result": {
+      "query": "scr_STUB1_77",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_182_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_78",
+    "result": {
+      "query": "scr_STUB1_78",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_183_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_79",
+    "result": {
+      "query": "scr_STUB1_79",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_184_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_80",
+    "result": {
+      "query": "scr_STUB1_80",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_185_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_81",
+    "result": {
+      "query": "scr_STUB1_81",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_186_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_82",
+    "result": {
+      "query": "scr_STUB1_82",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_187_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_83",
+    "result": {
+      "query": "scr_STUB1_83",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_188_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_84",
+    "result": {
+      "query": "scr_STUB1_84",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_189_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_85",
+    "result": {
+      "query": "scr_STUB1_85",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_190_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_86",
+    "result": {
+      "query": "scr_STUB1_86",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_191_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_87",
+    "result": {
+      "query": "scr_STUB1_87",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_192_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_88",
+    "result": {
+      "query": "scr_STUB1_88",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_193_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_89",
+    "result": {
+      "query": "scr_STUB1_89",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_194_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_90",
+    "result": {
+      "query": "scr_STUB1_90",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_195_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_91",
+    "result": {
+      "query": "scr_STUB1_91",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_196_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_92",
+    "result": {
+      "query": "scr_STUB1_92",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_197_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_93",
+    "result": {
+      "query": "scr_STUB1_93",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_198_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_94",
+    "result": {
+      "query": "scr_STUB1_94",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_199_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_95",
+    "result": {
+      "query": "scr_STUB1_95",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_200_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_96",
+    "result": {
+      "query": "scr_STUB1_96",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_201_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_97",
+    "result": {
+      "query": "scr_STUB1_97",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_202_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_98",
+    "result": {
+      "query": "scr_STUB1_98",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  },
+  {
+    "tag": "cohort_203_scramble_STUB1",
+    "kind": "scramble",
+    "query": "scr_STUB1_99",
+    "result": {
+      "query": "scr_STUB1_99",
+      "loci": [],
+      "n_strong": 0,
+      "best": null
+    }
+  }
+]

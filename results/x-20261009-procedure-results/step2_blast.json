@@ -1,0 +1,57 @@
+{
+  "archive_pin": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b",
+  "archive_sha256": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b",
+  "binaries": {
+    "makeblastdb": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce",
+    "tblastn": "fea14b77d4452a524a003196824f414812126bd3fb64d950feec8bacccf4976c"
+  },
+  "download": {
+    "argv": [
+      "curl",
+      "-sS",
+      "-L",
+      "-o",
+      "<execution-path>",
+      "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-x64-linux.tar.gz"
+    ],
+    "child_cpu_s": 0.753,
+    "clean": true,
+    "end_utc": "2026-10-09T12:20:49.401913+00:00",
+    "enforcement": "hard: setsid+killpg, RLIMIT_CPU hard, RLIMIT_AS hard, streaming byte caps, RSS sampling",
+    "exit_code": 0,
+    "limits": {
+      "agg_cpu_s": 14400.0,
+      "agg_output_bytes": 536870912,
+      "agg_wall_s": 7200.0,
+      "as_bytes": 1073741824,
+      "cpu_s": 240,
+      "rss_bytes": 1073741824,
+      "rss_sample_s": 0.05,
+      "scratch_bytes": 2147483648,
+      "stderr_bytes": 1048576,
+      "stdout_bytes": 10485760,
+      "threads": 2,
+      "wall_s": 300.0
+    },
+    "max_rss_ru_bytes": 13770752,
+    "peak_rss_sampled_bytes": 13320192,
+    "peak_threads_sampled": 1,
+    "signal": null,
+    "start_utc": "2026-10-09T12:20:44.657284+00:00",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stop_reason": null,
+    "tag": "dl_blast",
+    "thread_rule": "kill if live threads of process group > num_threads(2) + 4 at any sample",
+    "wall_monotonic_s": 4.745
+  },
+  "lock_pins": {
+    "makeblastdb": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce",
+    "tblastn": "fea14b77d4452a524a003196824f414812126bd3fb64d950feec8bacccf4976c"
+  },
+  "ok": true,
+  "utc": "2026-10-09T12:20:55.364348+00:00",
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

@@ -1,0 +1,68 @@
+{
+  "comp_status": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "comparator_output_sha256": "a706d361a1f3a342a47f3d92fc5e16625acfb9069d479a6efc0b8ea0834efb6d",
+  "errors": [],
+  "njs_diff": [
+    "last-updated"
+  ],
+  "runner_receipt": {
+    "argv": [
+      "/usr/bin/python3",
+      "<scientific-source-path>",
+      "--lock",
+      "<scientific-source-path>",
+      "--rebuilt-db-dir",
+      "<execution-path>",
+      "--rebuild-completion",
+      "2026-10-09T17:51:06.806290+05:30",
+      "--makeblastdb-binary",
+      "<execution-path>",
+      "--fresh-reference-receipt",
+      "<execution-path>",
+      "--build-receipt",
+      "<execution-path>",
+      "--output",
+      "<execution-path>"
+    ],
+    "child_cpu_s": 0.317,
+    "clean": true,
+    "end_utc": "2026-10-09T12:27:57.277241+00:00",
+    "enforcement": "hard: setsid+killpg, RLIMIT_CPU hard, RLIMIT_AS hard, streaming byte caps, RSS sampling",
+    "exit_code": 0,
+    "limits": {
+      "agg_cpu_s": 14400.0,
+      "agg_output_bytes": 536870912,
+      "agg_wall_s": 7200.0,
+      "as_bytes": 1073741824,
+      "cpu_s": 240,
+      "rss_bytes": 1073741824,
+      "rss_sample_s": 0.05,
+      "scratch_bytes": 2147483648,
+      "stderr_bytes": 1048576,
+      "stdout_bytes": 10485760,
+      "threads": 2,
+      "wall_s": 120.0
+    },
+    "max_rss_ru_bytes": 121311232,
+    "peak_rss_sampled_bytes": 121311232,
+    "peak_threads_sampled": 1,
+    "signal": null,
+    "start_utc": "2026-10-09T12:27:56.944785+00:00",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 5,
+    "stdout_sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431",
+    "stop_reason": null,
+    "tag": "comparator",
+    "thread_rule": "kill if live threads of process group > num_threads(2) + 4 at any sample",
+    "wall_monotonic_s": 0.332
+  },
+  "status": "PASS",
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

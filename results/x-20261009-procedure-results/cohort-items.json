@@ -1,0 +1,1634 @@
+[
+  {
+    "tag": "cohort_000_target_PRKN",
+    "qseqid": "A0A2B4T1R3",
+    "fasta": "q000_A0A2B4T1R3.faa",
+    "fasta_sha256": "3939acaecf629dfbe60dc3faab68159c48e175b286384a3bb998fd007769ef86",
+    "seq_sha256": "f30232813d91270ce384d06409db55ed54b94ff2cb501ba23d5f708e1f11c7c7",
+    "kind": "target"
+  },
+  {
+    "tag": "cohort_001_target_STUB1",
+    "qseqid": "T2M3P7",
+    "fasta": "q001_T2M3P7.faa",
+    "fasta_sha256": "c492ba0370204fc67a297c308eb8beb87a796fb6e4b2c76f9f4685cb32976cbf",
+    "seq_sha256": "0092ac3dfb73eaca18ae4dba639c58581ffeb387b4dbfba5a7ad940a2e0b6d0a",
+    "kind": "target"
+  },
+  {
+    "tag": "cohort_002_real-control_PRKN",
+    "qseqid": "A0A0C2IVW0",
+    "fasta": "q002_A0A0C2IVW0.faa",
+    "fasta_sha256": "f43856bfe986979c1ad2bea16952133b039a94f3a51d920679895c188425ccf9",
+    "seq_sha256": "fd5710d4d44ea4aae9f0f1cf06dd53a709820c93e063878eaf0ba728b51754e9",
+    "kind": "real-control"
+  },
+  {
+    "tag": "cohort_003_real-control_STUB1",
+    "qseqid": "A0A0C2IUB3",
+    "fasta": "q003_A0A0C2IUB3.faa",
+    "fasta_sha256": "28fc4dfe0ab762371eaae67adc7e7904005bc73547b1fb7bab6077125e285d0e",
+    "seq_sha256": "518cb0030e07833c8d5971da8b2d2d476d5dea65f2484ca2bcbb5d1d3ae28c71",
+    "kind": "real-control"
+  },
+  {
+    "tag": "cohort_004_scramble_PRKN",
+    "qseqid": "scr_PRKN_0",
+    "fasta": "q004_scr_PRKN_0.faa",
+    "fasta_sha256": "094c01e2bbe590077f3bfdf2fb272a3e050a13b3ee02e4eb9f8700af90777f33",
+    "seq_sha256": "b1ad3ff33dc22644b7fded4ade786bf2e5196702b0f6c06ee3a0c1a45123743d",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_005_scramble_PRKN",
+    "qseqid": "scr_PRKN_1",
+    "fasta": "q005_scr_PRKN_1.faa",
+    "fasta_sha256": "9cdd0702b9e93e2355fcdf86bd29594f955a055d283754b66c4a86372cf9419a",
+    "seq_sha256": "6c231a37176bde287f692a14348dab967605b68afdb4840a665c7b9ef7a68f4b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_006_scramble_PRKN",
+    "qseqid": "scr_PRKN_2",
+    "fasta": "q006_scr_PRKN_2.faa",
+    "fasta_sha256": "bd99dadc07b7a1d0b576d23c97538a24becc948c22135db4be2dae41fd36ae1c",
+    "seq_sha256": "080e5335ec92ad853d0778368bcb7eddcc52b359542cbc316274814c4e4b670a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_007_scramble_PRKN",
+    "qseqid": "scr_PRKN_3",
+    "fasta": "q007_scr_PRKN_3.faa",
+    "fasta_sha256": "a708b346ac8c1925707bc58fdc0dfd1caeda20ee890199c56f8b86fadc8618ae",
+    "seq_sha256": "5c409b3b42c0b15e8a8adff1fd278981d7b42fe93f7fbf8d3af06f8e88856fb5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_008_scramble_PRKN",
+    "qseqid": "scr_PRKN_4",
+    "fasta": "q008_scr_PRKN_4.faa",
+    "fasta_sha256": "89346e034aabb1b6dbd02efa48fe4b535d76d326b6877f6daa0a293b9843d846",
+    "seq_sha256": "9062f7c4c02be7024b403ad9c32fc861d9c3fefeaa48772a5114505d5eb12c7f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_009_scramble_PRKN",
+    "qseqid": "scr_PRKN_5",
+    "fasta": "q009_scr_PRKN_5.faa",
+    "fasta_sha256": "d7accc9f02e830ad2eedc5326ab9457820670282597b66861d894634c3ab4bed",
+    "seq_sha256": "8388bbbe8c3d36c2d34c67aea6f8b8635310e0ba6a5b25d71bd7c3d86617357a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_010_scramble_PRKN",
+    "qseqid": "scr_PRKN_6",
+    "fasta": "q010_scr_PRKN_6.faa",
+    "fasta_sha256": "e2b68b547bd86cb3680411b95e98da3bda491034cba7b20f6c579625d28868f4",
+    "seq_sha256": "7997368574542e0eb17d2a08288e5670e6b5f2f09118634b642eeb34e5a09bc1",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_011_scramble_PRKN",
+    "qseqid": "scr_PRKN_7",
+    "fasta": "q011_scr_PRKN_7.faa",
+    "fasta_sha256": "246657eab70b6c27b4cce314ed4222d5ba2da994e90a18f268262eb9ec74c6e9",
+    "seq_sha256": "38bc3d6fd45d18606b741abd053a1b6f8355ed94ef7e3908ec2cdc7f896657c5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_012_scramble_PRKN",
+    "qseqid": "scr_PRKN_8",
+    "fasta": "q012_scr_PRKN_8.faa",
+    "fasta_sha256": "b67f09b18ed1c99d3274dd4d90851254569fe452d432615871cf22c4f0253355",
+    "seq_sha256": "32313fc299a52fb6f1347dac4a33f6033c169580e035c96fd801b4e81dffaf17",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_013_scramble_PRKN",
+    "qseqid": "scr_PRKN_9",
+    "fasta": "q013_scr_PRKN_9.faa",
+    "fasta_sha256": "5495604f8a50d7634ba7330ef7302d54d90d408f6968414315626600f6a1cf40",
+    "seq_sha256": "4909b103827c36d181eb1b4e396b7f24c7feae0ffb562e310178a192fef76ed2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_014_scramble_PRKN",
+    "qseqid": "scr_PRKN_10",
+    "fasta": "q014_scr_PRKN_10.faa",
+    "fasta_sha256": "59b3fc5a21529c592d03d1a4a3a3fd3cbc18be39f5880bea7d7392921723f23e",
+    "seq_sha256": "2b46dc31e8b307d412da336c00cf6fce858ae2f83b422badf1c564f48b68369b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_015_scramble_PRKN",
+    "qseqid": "scr_PRKN_11",
+    "fasta": "q015_scr_PRKN_11.faa",
+    "fasta_sha256": "49e64ef2032fe3b6c2726f16e2724b197585ad2bdc069565878ab380a587cfe3",
+    "seq_sha256": "f5190c61bbd149e887d338039f338123369d851315fce5bbedda3674a0e56006",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_016_scramble_PRKN",
+    "qseqid": "scr_PRKN_12",
+    "fasta": "q016_scr_PRKN_12.faa",
+    "fasta_sha256": "7ef387b50df4ec0a7747c2e75582f53ca096ba89f04acb75deca0d445d914499",
+    "seq_sha256": "b3a8e41310d5cbff611c39618f2a485b7da8ae04708e9b050023b491e1c8c54c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_017_scramble_PRKN",
+    "qseqid": "scr_PRKN_13",
+    "fasta": "q017_scr_PRKN_13.faa",
+    "fasta_sha256": "79d8ee702a87a3e264a690fad479bb44e7b8fc5d5aff8160d9cb08214b26e139",
+    "seq_sha256": "f7dfb533e54e6764af0c408b94ecabc627eeef79faa696cf1736549a31cda218",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_018_scramble_PRKN",
+    "qseqid": "scr_PRKN_14",
+    "fasta": "q018_scr_PRKN_14.faa",
+    "fasta_sha256": "91ed4766aae676a31d8169dbee0e2d80777d1d9eb6be8a62c010b14dd85286a7",
+    "seq_sha256": "2c49e70fc3eed87eff09e55185683a9827db72205293728e9937992ab2902ee6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_019_scramble_PRKN",
+    "qseqid": "scr_PRKN_15",
+    "fasta": "q019_scr_PRKN_15.faa",
+    "fasta_sha256": "6b3257656abc7be7096c4711928d72317c6f4a67df0bdeec0cb1cf707109239d",
+    "seq_sha256": "821584f0d8fecc891fb73f39627863927fe25beb3d01b393af8a9598617340a7",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_020_scramble_PRKN",
+    "qseqid": "scr_PRKN_16",
+    "fasta": "q020_scr_PRKN_16.faa",
+    "fasta_sha256": "ff6bd1e8446a76ee5217c7af41726957d0dd38e2f72620dee3f5c647c17d6592",
+    "seq_sha256": "2d2f9eac5de310aadd0119e8b4f10672b85fc3da679e1bd937166057d81b3cca",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_021_scramble_PRKN",
+    "qseqid": "scr_PRKN_17",
+    "fasta": "q021_scr_PRKN_17.faa",
+    "fasta_sha256": "b411cde39638b09cc8178328d43fc6d3af636114cd3ef60d323bd79794515f90",
+    "seq_sha256": "3309b40bfb51ea2f228d3cd7fa06d480e366e0dbb8cc074852be4171cec8f03f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_022_scramble_PRKN",
+    "qseqid": "scr_PRKN_18",
+    "fasta": "q022_scr_PRKN_18.faa",
+    "fasta_sha256": "8d3d14c347a98c50328dfdbf0147a172035e83b4c0ad4dd263df51664daddc29",
+    "seq_sha256": "c54012696fdc54790ca1206826003d30d99ece3beda30beb6755294e52a9ab76",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_023_scramble_PRKN",
+    "qseqid": "scr_PRKN_19",
+    "fasta": "q023_scr_PRKN_19.faa",
+    "fasta_sha256": "55229df8806e1ec2d26177fa89d9f628ee023b15447463a97b1491b22cd9a5a8",
+    "seq_sha256": "8b8224e4e5d90382a8d4f6201001f7812eddd9f2f988e78f3d5b908ee4f4e97f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_024_scramble_PRKN",
+    "qseqid": "scr_PRKN_20",
+    "fasta": "q024_scr_PRKN_20.faa",
+    "fasta_sha256": "0896c67335f791c078bcd880371480aa155cd7150c67954c6d26341e6b2b75f7",
+    "seq_sha256": "e5b5ebd594322133db6464c18293e98be59e80fc2789377d566fe40adbad7a41",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_025_scramble_PRKN",
+    "qseqid": "scr_PRKN_21",
+    "fasta": "q025_scr_PRKN_21.faa",
+    "fasta_sha256": "fa696612fdcef3fd9353e819041ee62fb543ca1ea9a6588a19fc80fdd19e8d7d",
+    "seq_sha256": "a928b12d7b38bb1f166ca495d5ea7a5e707f082070ec8b068d6b389bf33e2661",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_026_scramble_PRKN",
+    "qseqid": "scr_PRKN_22",
+    "fasta": "q026_scr_PRKN_22.faa",
+    "fasta_sha256": "b48b0ca4ed3c97ef47cba6d7f29167b4858f180960cdb98d06bead38d6aa8718",
+    "seq_sha256": "fc6b52d44c8a0fa3fb9720ed5b5404d2d6c6993ce9f56f8cfee90175bd18abd4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_027_scramble_PRKN",
+    "qseqid": "scr_PRKN_23",
+    "fasta": "q027_scr_PRKN_23.faa",
+    "fasta_sha256": "dfbc207b74a342418fdeeeff4f12afe15aa695b947147b321e6cae2a29e6508c",
+    "seq_sha256": "dc3d944ef08812e2d695ccb5482c216a313c76f7568801dc707407b857d95e79",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_028_scramble_PRKN",
+    "qseqid": "scr_PRKN_24",
+    "fasta": "q028_scr_PRKN_24.faa",
+    "fasta_sha256": "f8f47cd1e42fc5d023b725e26c6d089f6f5b47336510797a4fa0dd8b24020eff",
+    "seq_sha256": "2bfafdf52c8bb378d54146986106dc81d02370b9708710b69ca8aa55d823f3e7",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_029_scramble_PRKN",
+    "qseqid": "scr_PRKN_25",
+    "fasta": "q029_scr_PRKN_25.faa",
+    "fasta_sha256": "f46dc96fdaf8203531dfd1f3bcd58ac191fd5d9a1b6966ea5586caa7d54cf181",
+    "seq_sha256": "f0f309ed5e429b88c801ad16f85d38fc97913bdef7ad95dd2c4017bebe61f7ac",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_030_scramble_PRKN",
+    "qseqid": "scr_PRKN_26",
+    "fasta": "q030_scr_PRKN_26.faa",
+    "fasta_sha256": "6691b9b3595f734d519afecb205ad53d4c72b7bd0afa63f41389df231e4396b3",
+    "seq_sha256": "43d61ef948d1d8ab4ceab7386559450f1d892ef4597a1ecb65300dae8a91e73b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_031_scramble_PRKN",
+    "qseqid": "scr_PRKN_27",
+    "fasta": "q031_scr_PRKN_27.faa",
+    "fasta_sha256": "6f1490e714566d6d19f2ac030977271b93773ca8fe61a744a123cf720171a3b6",
+    "seq_sha256": "a0b30efbfabcf770f65a49da65fa14522ea091f4493d0d0ad083068746801cbb",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_032_scramble_PRKN",
+    "qseqid": "scr_PRKN_28",
+    "fasta": "q032_scr_PRKN_28.faa",
+    "fasta_sha256": "813aa1d033e17b1645e2708c6e946ffd3b64a60ca20815515cd82591a614ac52",
+    "seq_sha256": "8e02c86ca3d08e9f6df8984fd64a530de62c81088e8ef731f65c06c4f92b8838",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_033_scramble_PRKN",
+    "qseqid": "scr_PRKN_29",
+    "fasta": "q033_scr_PRKN_29.faa",
+    "fasta_sha256": "79b728475724091fae495dffe3b7aa49a3061530bb7b54009bf7a862654a0c2a",
+    "seq_sha256": "56b9fa75597c66e4657eaa2a053f3e70cfce75fd58a9ab06b358cad58b906b3b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_034_scramble_PRKN",
+    "qseqid": "scr_PRKN_30",
+    "fasta": "q034_scr_PRKN_30.faa",
+    "fasta_sha256": "cd9d6117c90db43149ff60dd633aa19b8d6ce762edbd7c2033bc401684749c4a",
+    "seq_sha256": "ba5127bb549785cf33d510bd0ad2d087c63e548498fa49165532664c773b3671",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_035_scramble_PRKN",
+    "qseqid": "scr_PRKN_31",
+    "fasta": "q035_scr_PRKN_31.faa",
+    "fasta_sha256": "cf588cfc23f2a158e5aab578233ba103f72476c96287dd213382823b8715460d",
+    "seq_sha256": "d9d13e064913229b348680bbc5a6847b68e046b011a96474f365ef702f0b43fe",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_036_scramble_PRKN",
+    "qseqid": "scr_PRKN_32",
+    "fasta": "q036_scr_PRKN_32.faa",
+    "fasta_sha256": "e66ad8f3599a8b94d4522eda0067938b64e5edaf73f7d98e2ff037d0af8db8d8",
+    "seq_sha256": "d4f9bd0d514ef7d636a352564b9e8b38c91d5e7f64b6ab0432748f912b1e25ce",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_037_scramble_PRKN",
+    "qseqid": "scr_PRKN_33",
+    "fasta": "q037_scr_PRKN_33.faa",
+    "fasta_sha256": "e8980546d6f3bd2157472eaf6cab2d239200210368d4cf9ce500a785297e04f9",
+    "seq_sha256": "237129f4dc26652d9ee6bde4557fa8c67589fa8d0c4008bcebf2313110472b24",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_038_scramble_PRKN",
+    "qseqid": "scr_PRKN_34",
+    "fasta": "q038_scr_PRKN_34.faa",
+    "fasta_sha256": "139fe5aaf8184b52363e4db7fdbe7298b82c2dbb51eab39ff6bc1dfa5720cfec",
+    "seq_sha256": "b5449003d16e2a05c79df3be3d7422a0b0a3e3bf259e1c9a918a5f6f5b90d464",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_039_scramble_PRKN",
+    "qseqid": "scr_PRKN_35",
+    "fasta": "q039_scr_PRKN_35.faa",
+    "fasta_sha256": "8f2e28425477a35fa97225d25ae073e0b876610c46ec549ec83debf25666cdde",
+    "seq_sha256": "3dba5ce304249cd8af2683ea1676fd4aac33efd36a8a2f07857241b4aa0f1aa4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_040_scramble_PRKN",
+    "qseqid": "scr_PRKN_36",
+    "fasta": "q040_scr_PRKN_36.faa",
+    "fasta_sha256": "6c1995436b327f4e8fa276975a2899365d733c4763fba5636f67588ae160ab05",
+    "seq_sha256": "09b72ddf6e90ebe2b40f08e95bea3c3aff9c07c2a875a0f73bd3af2f2cd71fb4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_041_scramble_PRKN",
+    "qseqid": "scr_PRKN_37",
+    "fasta": "q041_scr_PRKN_37.faa",
+    "fasta_sha256": "e4357907e098852b6433b5768d590ebd2df1c8d4a574b82523f806849b7f3c88",
+    "seq_sha256": "685e5a8b71e8566d2fc88ac7dc5a9ea2c47513c71311afc7b079b6c12883261b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_042_scramble_PRKN",
+    "qseqid": "scr_PRKN_38",
+    "fasta": "q042_scr_PRKN_38.faa",
+    "fasta_sha256": "d43159d66bfeaba7f66fac0cc0af43f25c2a0338cb93b9c13328f199b4c6ea7a",
+    "seq_sha256": "6b9f92927de3e14178c9e23fcd2fc1955f4d10c0bcdc0ddfaa987e991f91f982",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_043_scramble_PRKN",
+    "qseqid": "scr_PRKN_39",
+    "fasta": "q043_scr_PRKN_39.faa",
+    "fasta_sha256": "195515def439444ec05c737c1ba682590b586d8e01de4963c75122aa1b00dfe2",
+    "seq_sha256": "8d0b37508e24dba658d23c25e9da914404308ea559d2ebb01c6a53a28c90928c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_044_scramble_PRKN",
+    "qseqid": "scr_PRKN_40",
+    "fasta": "q044_scr_PRKN_40.faa",
+    "fasta_sha256": "1616778577353bbac1c083c0c56e209ef6a8deba5fc1c3ea2b3c23d7b026664e",
+    "seq_sha256": "91eee7cb88f77cca5a7bd384dff79cba361d3e7da5b092ee3d6c465e858b13cc",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_045_scramble_PRKN",
+    "qseqid": "scr_PRKN_41",
+    "fasta": "q045_scr_PRKN_41.faa",
+    "fasta_sha256": "53d4c4d93666c098c08280eae462ac1b0c73a8f3eac7672f0dacb96f7523f1c6",
+    "seq_sha256": "680bdc9840afe783f3bbcb6c0dbcd6405cd3cdbfdf64956fdd5c4808e2b9b0fc",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_046_scramble_PRKN",
+    "qseqid": "scr_PRKN_42",
+    "fasta": "q046_scr_PRKN_42.faa",
+    "fasta_sha256": "3e5fc7189c44d4d79b7accd27038d8db0d1738a9157c0fb3f5f491590c11139c",
+    "seq_sha256": "b438b516bf05fb3a7d2f8511a5bde63239c7235736a4eeb5fcd4e6fa123d0188",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_047_scramble_PRKN",
+    "qseqid": "scr_PRKN_43",
+    "fasta": "q047_scr_PRKN_43.faa",
+    "fasta_sha256": "2f214afe02ad568d313178bb00f28e0d40dbb1b6eee4e550e749290b02471699",
+    "seq_sha256": "73536cc0b07a6230473d5aaa888f2f0e2a950103c7a075b01857e735747c4dda",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_048_scramble_PRKN",
+    "qseqid": "scr_PRKN_44",
+    "fasta": "q048_scr_PRKN_44.faa",
+    "fasta_sha256": "93512356dce372c927f90ae646e9eb0a21b93b76fd763250f4d080a53f099a5a",
+    "seq_sha256": "bb0903634abb51548bb8b07e4dc4590d80176a16d550ad6bc97e71218eec8258",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_049_scramble_PRKN",
+    "qseqid": "scr_PRKN_45",
+    "fasta": "q049_scr_PRKN_45.faa",
+    "fasta_sha256": "1d02b6246fcb360c2b3cbdd781d88561855a757becc51bd3cd7e16bf3638bf3e",
+    "seq_sha256": "3e0b3e9372b4eec5f2440bc66cd195232571703344c99f28c32501691117e7da",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_050_scramble_PRKN",
+    "qseqid": "scr_PRKN_46",
+    "fasta": "q050_scr_PRKN_46.faa",
+    "fasta_sha256": "dca5304adab2b608c237f6c5231a97b8f4d260769445ecb04e8f76c172bacd59",
+    "seq_sha256": "711f574d478641c6f379c0c3de3cb44a7358904ea0a6c60a26344744199009a2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_051_scramble_PRKN",
+    "qseqid": "scr_PRKN_47",
+    "fasta": "q051_scr_PRKN_47.faa",
+    "fasta_sha256": "791fda7ddb0cadd05e0fe4f5a17e8e1df323f277c4d3ab830665d0d0bc8a875b",
+    "seq_sha256": "01204da2b2636c3dd040f3cf44c29e26cceee62a244aa6dbb1ce7f53702226eb",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_052_scramble_PRKN",
+    "qseqid": "scr_PRKN_48",
+    "fasta": "q052_scr_PRKN_48.faa",
+    "fasta_sha256": "3dea3db07b0ff4fb7224f052b5a2edeb04afb1a115ab62407d7fffa5b7e086a8",
+    "seq_sha256": "924c50efb8f00d6a5ca4955af76c4f5a6a24ff247840c79f90f492b5eda0a1e5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_053_scramble_PRKN",
+    "qseqid": "scr_PRKN_49",
+    "fasta": "q053_scr_PRKN_49.faa",
+    "fasta_sha256": "c8b0856e1b41b63d5cb0384cf8b1951a3e9463d3f1909488342b499b46113f7f",
+    "seq_sha256": "024532dc231a33cf09f3a141c75882dd4b356c1e14b3071d5ddc18ffe9e08261",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_054_scramble_PRKN",
+    "qseqid": "scr_PRKN_50",
+    "fasta": "q054_scr_PRKN_50.faa",
+    "fasta_sha256": "aca9f73a56a67b56b47f056380f2b985271f1d33465b054284ca4e7b6d9a3d54",
+    "seq_sha256": "d592f5350fdeff90b5d8a92e8eac96bd9a2959892daff97c89c435e650e1d7b4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_055_scramble_PRKN",
+    "qseqid": "scr_PRKN_51",
+    "fasta": "q055_scr_PRKN_51.faa",
+    "fasta_sha256": "32e49285b90e062bcf0ea862f62fe8101ec6c387928219fbeed97e0b938dc8f1",
+    "seq_sha256": "2fbc93c01828921fd364c92e8262dab8903e5feaecd0a07a218bb3fe876cbd9f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_056_scramble_PRKN",
+    "qseqid": "scr_PRKN_52",
+    "fasta": "q056_scr_PRKN_52.faa",
+    "fasta_sha256": "3f8bdea3a5bfc3124d2e689a449ad25661589956dea52f3f8e682cc98aa0b8af",
+    "seq_sha256": "6e91cd2a04f8b4f294c8383951d97055d82eb717a1e9b788ac7afb7979e80244",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_057_scramble_PRKN",
+    "qseqid": "scr_PRKN_53",
+    "fasta": "q057_scr_PRKN_53.faa",
+    "fasta_sha256": "deeedffe339a31485a69d198d3779c6f0063befbf39c2c668f3b2dde4ce00402",
+    "seq_sha256": "17418ba4437a4f167849c33276fa34c1df3c98534cf77de0b3162ef0a418df2c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_058_scramble_PRKN",
+    "qseqid": "scr_PRKN_54",
+    "fasta": "q058_scr_PRKN_54.faa",
+    "fasta_sha256": "2beebca7c6c60af7a82138c49982a58f3e49711b481ca702f214f3b9e2ee1dd0",
+    "seq_sha256": "dbcb063a2c42c4dde53119ee1d26fc6d12aaeb154513f14358c82ce2d834ea52",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_059_scramble_PRKN",
+    "qseqid": "scr_PRKN_55",
+    "fasta": "q059_scr_PRKN_55.faa",
+    "fasta_sha256": "1010ca1bc6e9f3183d986efc6d08986f10aeb969a782a59519bfabf7dca057c6",
+    "seq_sha256": "c65a606c6c29e7ceb9dfc819b9c579d38ee7c2c073e9f3d53927f2fb234d5b12",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_060_scramble_PRKN",
+    "qseqid": "scr_PRKN_56",
+    "fasta": "q060_scr_PRKN_56.faa",
+    "fasta_sha256": "8a6070c79faee303a5111d75ba9563a02d224cb4c25645132dc3ac96800d233c",
+    "seq_sha256": "8d18e9ca4d2ddb9d0ac2b795c1e32daddece80d4cd460a31f793a7d79b478024",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_061_scramble_PRKN",
+    "qseqid": "scr_PRKN_57",
+    "fasta": "q061_scr_PRKN_57.faa",
+    "fasta_sha256": "2974bb66d93b66b7071a3ce0e9408a083e95b6b2b40ac364692b7ecd6c11fb3d",
+    "seq_sha256": "ac46f63c0a01b44e592dae294e91f2f0bca391af1b7e09ca7edf9aa30d483cc0",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_062_scramble_PRKN",
+    "qseqid": "scr_PRKN_58",
+    "fasta": "q062_scr_PRKN_58.faa",
+    "fasta_sha256": "7fb0d9824ae33d218fbac30ca926e8b0b5e9bb77ab70c795687c044846601c07",
+    "seq_sha256": "9b811f7ce3b3e6c07ea35801ee2360b2c2781e3b405a9be204bf9def6c38c649",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_063_scramble_PRKN",
+    "qseqid": "scr_PRKN_59",
+    "fasta": "q063_scr_PRKN_59.faa",
+    "fasta_sha256": "50bb97adaa8689063955611381b3ad6dc221e51feb1cf97297fa9c4a716558d8",
+    "seq_sha256": "afa75c79ead75a812e1d3f636d6ccc02ef96c86c91d145fe1cb339181668d04e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_064_scramble_PRKN",
+    "qseqid": "scr_PRKN_60",
+    "fasta": "q064_scr_PRKN_60.faa",
+    "fasta_sha256": "76dfc278fea871ffacff028fe1a769e2c60a5945908e8790b4df0163509822b9",
+    "seq_sha256": "8fc0c53f2d9d84d61eacd498e5c7b13dddba645a7296bbf3d28cec2bae1ab6f5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_065_scramble_PRKN",
+    "qseqid": "scr_PRKN_61",
+    "fasta": "q065_scr_PRKN_61.faa",
+    "fasta_sha256": "7364daa4d36584042ded132a0326c08e8bc3a979b10e75a13b300bd0fbb6ee92",
+    "seq_sha256": "ccbb83322de3b90e7f32135d77ac9b42c35e001148cac78123bb3c2425473187",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_066_scramble_PRKN",
+    "qseqid": "scr_PRKN_62",
+    "fasta": "q066_scr_PRKN_62.faa",
+    "fasta_sha256": "2ac16ef35080abd3ffbef66eeab952356e67b9cf87c36a12024df1934f8f0012",
+    "seq_sha256": "bc8a433f6d06de8c7fcc54f377f9b646c4f659731e9e91aef33c3283edd3fae0",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_067_scramble_PRKN",
+    "qseqid": "scr_PRKN_63",
+    "fasta": "q067_scr_PRKN_63.faa",
+    "fasta_sha256": "643dc11e1b2e113d7b0faff1444238337d3445ade50e5b24ae18eb92043b0adc",
+    "seq_sha256": "0633812ebe0277820ce042207c4367e6518f7ba7ca44550d3bbb7567d6de4de8",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_068_scramble_PRKN",
+    "qseqid": "scr_PRKN_64",
+    "fasta": "q068_scr_PRKN_64.faa",
+    "fasta_sha256": "8a2f293d54fa91d286859bc06a7500b6b0707c2327dc896eaefc2cbc36febd47",
+    "seq_sha256": "276690cc07d44e68266f49b2a30a89a288e7b1b9e3666917b5f9036792ae134c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_069_scramble_PRKN",
+    "qseqid": "scr_PRKN_65",
+    "fasta": "q069_scr_PRKN_65.faa",
+    "fasta_sha256": "ee70403eecd48dcb1243884a468f3bc45412af6106c29d94e8589b17671b18e8",
+    "seq_sha256": "8af1754041068f0c2060d9990bc8bf84e2e1230b07be641724d3b54b6ff31589",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_070_scramble_PRKN",
+    "qseqid": "scr_PRKN_66",
+    "fasta": "q070_scr_PRKN_66.faa",
+    "fasta_sha256": "be282852783ff275f87ec520be82e26d02efad91fe2598a057f907dcac4d1b4a",
+    "seq_sha256": "808ede2b3a45dd4555bf117a115462109d8f960ea571656975de8a57faa9aac3",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_071_scramble_PRKN",
+    "qseqid": "scr_PRKN_67",
+    "fasta": "q071_scr_PRKN_67.faa",
+    "fasta_sha256": "38599b6bd412a4fd943f498a95c6bab2bcfb94d74d9bdb4c4518fe34846f4152",
+    "seq_sha256": "f5416e99bf7120ce3c73c43cef3c235e5848520cf5b0c40d10223f1f16f82936",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_072_scramble_PRKN",
+    "qseqid": "scr_PRKN_68",
+    "fasta": "q072_scr_PRKN_68.faa",
+    "fasta_sha256": "72574c8078baebc0434efdf0e4febf448a14e63436f7a02cbe74d2ebfc563dcb",
+    "seq_sha256": "735a557b4c338dcd274b8f07665d6e0c1788659098fb13fc0df742a12d70e70f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_073_scramble_PRKN",
+    "qseqid": "scr_PRKN_69",
+    "fasta": "q073_scr_PRKN_69.faa",
+    "fasta_sha256": "1cd7cf39faada6e67abdbe94d4c69304022e7b4f3b350a332def45fa3020e370",
+    "seq_sha256": "38e089b07d17c82bf3583677effb2201ee73ce683224f89c22104799e1f87ce6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_074_scramble_PRKN",
+    "qseqid": "scr_PRKN_70",
+    "fasta": "q074_scr_PRKN_70.faa",
+    "fasta_sha256": "3f97ee8121b15e0194d4c18d98bf0556b4c357f4e6b246aa57a0092306148d47",
+    "seq_sha256": "fd39b08eb9cb2fc7a8dfc2f10a93c5a0292913a830ad177ab78878ea52e991e2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_075_scramble_PRKN",
+    "qseqid": "scr_PRKN_71",
+    "fasta": "q075_scr_PRKN_71.faa",
+    "fasta_sha256": "db29ccc2737a8bcd525741739985fcc35adb1da1fed04eac72ff636703efb612",
+    "seq_sha256": "3ac31b1d626f07ef939fb62a06be5e1b30b60c2e3ee7e1cf876e6a0fac4df7fc",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_076_scramble_PRKN",
+    "qseqid": "scr_PRKN_72",
+    "fasta": "q076_scr_PRKN_72.faa",
+    "fasta_sha256": "a4a0f7a711e94eb89c41c008947877f00592468b99ff5a83856f2db9d8b643a5",
+    "seq_sha256": "d95b4ed739fedeca1e53bcd21ed167ffa9e5854cc8c206679cd3a0b897538f1c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_077_scramble_PRKN",
+    "qseqid": "scr_PRKN_73",
+    "fasta": "q077_scr_PRKN_73.faa",
+    "fasta_sha256": "ed22b7c364e7c51a71ebcb84d787396f74f0b0099f906f114c9f97c58f853e5a",
+    "seq_sha256": "2948143dc8e760d4d091640bd777d9b2e0156200d6853f0c7ccfbbdcb784132c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_078_scramble_PRKN",
+    "qseqid": "scr_PRKN_74",
+    "fasta": "q078_scr_PRKN_74.faa",
+    "fasta_sha256": "dd1270fa7e3126909b8a50c2757cc3b00ebf051f7124c0032e392bbd44daef4e",
+    "seq_sha256": "1a490f8d24e39f952ed0a19c414cfcca8083747ac9c11ef94cbce1ff62fadb60",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_079_scramble_PRKN",
+    "qseqid": "scr_PRKN_75",
+    "fasta": "q079_scr_PRKN_75.faa",
+    "fasta_sha256": "acdf9919944ad5d5c463da0db15841639eea27828524f8fe3e00d09e7114d5d2",
+    "seq_sha256": "ab07caf9095cd801af838ccf0d898d256de34d20b4fe092390c935eaa7074984",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_080_scramble_PRKN",
+    "qseqid": "scr_PRKN_76",
+    "fasta": "q080_scr_PRKN_76.faa",
+    "fasta_sha256": "e60f95545d7f5bc0075d9842c9ef16467bd4a737cee23d3d4ddc492d69abd6ed",
+    "seq_sha256": "a160a69a4972e34e9e443816271acf15e08e002e5ffcb8a3634ae5cd38b3edd6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_081_scramble_PRKN",
+    "qseqid": "scr_PRKN_77",
+    "fasta": "q081_scr_PRKN_77.faa",
+    "fasta_sha256": "f3a5f3fcb2af66c8ae7157d7c5628600b1650b480ae0e22be0c213d24f637fd4",
+    "seq_sha256": "f1a231196c1aeb99bf5b97c13c81ce0dbfb968205a3f1a6e90d689c042c7ed79",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_082_scramble_PRKN",
+    "qseqid": "scr_PRKN_78",
+    "fasta": "q082_scr_PRKN_78.faa",
+    "fasta_sha256": "13c9f793366dd67332a0b82d0bd234c1a062142f473fc1ca83ee3438c15887b7",
+    "seq_sha256": "7c77ad5ac1cc019088f6946a000bad5f406006df01d7935c7c6f3009b0530ec6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_083_scramble_PRKN",
+    "qseqid": "scr_PRKN_79",
+    "fasta": "q083_scr_PRKN_79.faa",
+    "fasta_sha256": "f0a2a507ffae3fa55d598efa52b24e73f64c1f8da1856d6ae43e61a473763a7b",
+    "seq_sha256": "75fd0b2d0162814501aecf4addb2f9df3fc8fe680922504efb4f5083d007be41",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_084_scramble_PRKN",
+    "qseqid": "scr_PRKN_80",
+    "fasta": "q084_scr_PRKN_80.faa",
+    "fasta_sha256": "db84b2b61be8126b7a43b0ac9f57cbd011b19fbcbe337084bfbb00455d7918a9",
+    "seq_sha256": "c5a2f93a1e43b374efae87cedb5c1b050e9b7ec4cff08af3026205868e3faf27",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_085_scramble_PRKN",
+    "qseqid": "scr_PRKN_81",
+    "fasta": "q085_scr_PRKN_81.faa",
+    "fasta_sha256": "fc260f1c93ce247eee213b62d078868b1296b34eafd40595c6abeff4b2164e03",
+    "seq_sha256": "78e9a9f2f572aaea0d8477057ee9ce893fede2f04b09bee5a22fd9617f45ca89",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_086_scramble_PRKN",
+    "qseqid": "scr_PRKN_82",
+    "fasta": "q086_scr_PRKN_82.faa",
+    "fasta_sha256": "dbac507de74253ef6c6403832c7579d3fa00d3f37bd1ec4818312d3286ee82d0",
+    "seq_sha256": "4116dc84bda60e3ff9f578c25a82bd9abe505294a2f31d5c3cdde44dead6dc7b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_087_scramble_PRKN",
+    "qseqid": "scr_PRKN_83",
+    "fasta": "q087_scr_PRKN_83.faa",
+    "fasta_sha256": "f169752bab5ad2f2d4a6bb0b4a196fa87449585d49ae75da1d2d7fb80e874622",
+    "seq_sha256": "41b4fa3cf8094661d2b51e12a214fa4c1bc8c5b061ddd7a0125c668a8a8a0101",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_088_scramble_PRKN",
+    "qseqid": "scr_PRKN_84",
+    "fasta": "q088_scr_PRKN_84.faa",
+    "fasta_sha256": "69e15c1e34a6bf18b08ac2b8af8690e553f676762ebaa31f3d99e414c89efba2",
+    "seq_sha256": "894fbdda4db339b1f00611ab62dd901190160f2d47760796396b3bf341bad0e4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_089_scramble_PRKN",
+    "qseqid": "scr_PRKN_85",
+    "fasta": "q089_scr_PRKN_85.faa",
+    "fasta_sha256": "6a46d619678126616b4acdeae8eb725b1d1cfddba52626a81dddfe74249d1757",
+    "seq_sha256": "8e7027b92b8da55aa21797ad256a56b24841670eeb017a72d711ad6c7728501f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_090_scramble_PRKN",
+    "qseqid": "scr_PRKN_86",
+    "fasta": "q090_scr_PRKN_86.faa",
+    "fasta_sha256": "1ccb626cc6f77c934010737958169fc0e766f28dd14f650495a722a31ac5a136",
+    "seq_sha256": "901d8cb6382a44b14fb17a2a31694e0dd2efe726ff263a101100320836ffee4a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_091_scramble_PRKN",
+    "qseqid": "scr_PRKN_87",
+    "fasta": "q091_scr_PRKN_87.faa",
+    "fasta_sha256": "85b4fdfd99cd534683f61acab915ec43a0813ac625be51054f4e294d361d973a",
+    "seq_sha256": "f0c3b21d625a919e1cac1204406dff1ce2aeb8c2d6e7059b1cfb6ab5aed7f301",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_092_scramble_PRKN",
+    "qseqid": "scr_PRKN_88",
+    "fasta": "q092_scr_PRKN_88.faa",
+    "fasta_sha256": "8f362ca709591aa7ba778015a3dc378512e23a09473033af86d136e78f3b0cc2",
+    "seq_sha256": "4a38d38992b69e11076ced37fb670d3389758f0bc37c9a3b6163caa41327975b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_093_scramble_PRKN",
+    "qseqid": "scr_PRKN_89",
+    "fasta": "q093_scr_PRKN_89.faa",
+    "fasta_sha256": "17a9bda5a83d017c287323b03efae818233987d80aa2d42ac4bf5eb82ccf6430",
+    "seq_sha256": "336a671dabd37431850eb7e1cb190f571220307336728277ac269655077c8f2d",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_094_scramble_PRKN",
+    "qseqid": "scr_PRKN_90",
+    "fasta": "q094_scr_PRKN_90.faa",
+    "fasta_sha256": "2347704bb4532536e9d987b81b97341a7b988aa4898c0c21c7304b4afe2a574c",
+    "seq_sha256": "79932d392ea0a62ef9d1b1ab485902671b9997fbd6a657f3e2f04419bc5f75f4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_095_scramble_PRKN",
+    "qseqid": "scr_PRKN_91",
+    "fasta": "q095_scr_PRKN_91.faa",
+    "fasta_sha256": "d6708cc2ea0929511981567386772f7a37b800793b25cedb484f9c4e18876350",
+    "seq_sha256": "ba6483e57f48f390a584d2082bdfe45189c23532685a4afc2a14b17a5b70948a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_096_scramble_PRKN",
+    "qseqid": "scr_PRKN_92",
+    "fasta": "q096_scr_PRKN_92.faa",
+    "fasta_sha256": "71557e042560b522f1f53d66c151e81ce66e5d6cfb6798531400028a092b1da6",
+    "seq_sha256": "9a2200a13e9cb116b8e976dd1d198d98794e5fc7786561d77c51c307cc354291",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_097_scramble_PRKN",
+    "qseqid": "scr_PRKN_93",
+    "fasta": "q097_scr_PRKN_93.faa",
+    "fasta_sha256": "6ea7f798b4ecabb31c815fe3daa12177e35bd3a2ff84b2c83b401d416048127c",
+    "seq_sha256": "9c73b48b70130bafb70ee989994a9a6f5d4fdb586b58b297a583b0f70f24c1bf",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_098_scramble_PRKN",
+    "qseqid": "scr_PRKN_94",
+    "fasta": "q098_scr_PRKN_94.faa",
+    "fasta_sha256": "f695b6803a15937c77a32d6f3f903bcbe4afbe367bda05d41a1c1a2f9a09f82e",
+    "seq_sha256": "386ac4a261725411e2021248af1fe65653f971733a4369f28984a53ab9d65b91",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_099_scramble_PRKN",
+    "qseqid": "scr_PRKN_95",
+    "fasta": "q099_scr_PRKN_95.faa",
+    "fasta_sha256": "63df12066e489bc403b31ba45497ba3516ed22d7eeaa74f348c27689fc2e20dd",
+    "seq_sha256": "63f4cf452ff512768dba6e1d5b7c28aa2da9ff19aca3cd401b7475a221fd15b9",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_100_scramble_PRKN",
+    "qseqid": "scr_PRKN_96",
+    "fasta": "q100_scr_PRKN_96.faa",
+    "fasta_sha256": "0ce9c8abb0c6f93b5d29c7b4301c20944e739bc0dbcb3482ea1e72e57a44cb69",
+    "seq_sha256": "44d3308c1e5f05099d8d5f4fa666bfd48a5807a18646018b74f7af60c454b6d5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_101_scramble_PRKN",
+    "qseqid": "scr_PRKN_97",
+    "fasta": "q101_scr_PRKN_97.faa",
+    "fasta_sha256": "0b5acbab14079e72856162c1c3d19346b0a36e8827ddd572b44552baf29c7a4b",
+    "seq_sha256": "ab4424c0b6afa6172fe75ab85d83955d8cb93fecadbc6b04081190d9b80b074a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_102_scramble_PRKN",
+    "qseqid": "scr_PRKN_98",
+    "fasta": "q102_scr_PRKN_98.faa",
+    "fasta_sha256": "00e9ece54eddba95777b5d23d39377e4eed7b18dbeb1e5104ed2b46833a426ea",
+    "seq_sha256": "4bd7ee3346162d82e3dc1feab9a41e665e9280c28fd9d8966070ab7566b51115",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_103_scramble_PRKN",
+    "qseqid": "scr_PRKN_99",
+    "fasta": "q103_scr_PRKN_99.faa",
+    "fasta_sha256": "0d0f51295f578cb747a318ee8b9d5a0c80e051c6288c96871bbcf21ea657e5e7",
+    "seq_sha256": "95757f2b4c4aa8cbb10573fdf194b9e6cd7c37581e237c7b02d6c8afd627ec53",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_104_scramble_STUB1",
+    "qseqid": "scr_STUB1_0",
+    "fasta": "q104_scr_STUB1_0.faa",
+    "fasta_sha256": "d6442d1991eda75eace2a654c0834fd7df84d820fcbc2154fbc7db94bae5cbdb",
+    "seq_sha256": "0f9d5808a13b937f7beb9e398dae9cf62cf2227cb34a87b1348aa4890a0d8a53",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_105_scramble_STUB1",
+    "qseqid": "scr_STUB1_1",
+    "fasta": "q105_scr_STUB1_1.faa",
+    "fasta_sha256": "a92a984c979b2b42fe1221a9a84572dfd05a3bc54b27b2546a56afa75592a7f2",
+    "seq_sha256": "0cbadb54c0665addb6e7e743ceb76da055b0ea9ee4d8e462d64a557f17743a26",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_106_scramble_STUB1",
+    "qseqid": "scr_STUB1_2",
+    "fasta": "q106_scr_STUB1_2.faa",
+    "fasta_sha256": "68fa19f481e334d122c0cc71d2a5371084b61cd1ef8f31331058e79f721d7034",
+    "seq_sha256": "67032b06ac53b26eda30b99cebd23bfa3606ab7edff2506ab0a8a698567a3bc4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_107_scramble_STUB1",
+    "qseqid": "scr_STUB1_3",
+    "fasta": "q107_scr_STUB1_3.faa",
+    "fasta_sha256": "16de66f0a5c97324f97017d38eca3c27135a1751038a720a71b8456e04bc975d",
+    "seq_sha256": "5a72d0f8ca352afeaff90329ff5df383bd1de5244ae7d609b19af280c0865628",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_108_scramble_STUB1",
+    "qseqid": "scr_STUB1_4",
+    "fasta": "q108_scr_STUB1_4.faa",
+    "fasta_sha256": "237c7e4c7ee778ed8bdece46d4ba8469561e51563ed4b686a1a3c41c1f63adda",
+    "seq_sha256": "7edd26eb5796ea92efacf06b73f86be39d6f7e9deaa1692e5baab91b6bb7b235",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_109_scramble_STUB1",
+    "qseqid": "scr_STUB1_5",
+    "fasta": "q109_scr_STUB1_5.faa",
+    "fasta_sha256": "450dd7e8fa4d609800ef0257b9f3c565883b60f7bba73928b35081df178a715d",
+    "seq_sha256": "08810fecb24b72b3578af6a2a995bdd8c1118a836160b882ce77dfa53cc851ae",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_110_scramble_STUB1",
+    "qseqid": "scr_STUB1_6",
+    "fasta": "q110_scr_STUB1_6.faa",
+    "fasta_sha256": "0bced0551ef388a2a747a97923cee1064b4c59e9e549a09aea6e7c0ffbda326b",
+    "seq_sha256": "56e7d7bcb4e87c5dafede706b2e923ec7a7fe6ecd87e183cfcbe3825721599a9",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_111_scramble_STUB1",
+    "qseqid": "scr_STUB1_7",
+    "fasta": "q111_scr_STUB1_7.faa",
+    "fasta_sha256": "fc55e2bc1a122c1ed168ddd6bd35ec03265ab0492bf740f8a2607f3ce711b3d2",
+    "seq_sha256": "a6ed775f8b76e5fe856c0817bd8a9ac2e06fa6c418012c416ee4a39ee904bf13",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_112_scramble_STUB1",
+    "qseqid": "scr_STUB1_8",
+    "fasta": "q112_scr_STUB1_8.faa",
+    "fasta_sha256": "595b49c27ccca50a1fe06432d50533990129a4c19cc3b920d0b70365e872b53f",
+    "seq_sha256": "da860203bcbf2ad7a5fc16f39972d2b5d151440669cc6f04a672a071038bccaf",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_113_scramble_STUB1",
+    "qseqid": "scr_STUB1_9",
+    "fasta": "q113_scr_STUB1_9.faa",
+    "fasta_sha256": "02e0ee6b9cd09c1d3ea967e28a3a191ad5ee53c5e6474783cba77c93c223d651",
+    "seq_sha256": "52b6de8f22d0fd4e9ea172a47f2069c89cbf506cb3edd961cdac2ca56a1fdc86",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_114_scramble_STUB1",
+    "qseqid": "scr_STUB1_10",
+    "fasta": "q114_scr_STUB1_10.faa",
+    "fasta_sha256": "d0f3eba7092fdeee1ef9d1ff99c0262aade1128cb72a74d319dcaa12dc439347",
+    "seq_sha256": "5ca726dd9a7a4b5c5b960f3b230c9f78a1390f1a02e7721faf9874fc2de81de3",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_115_scramble_STUB1",
+    "qseqid": "scr_STUB1_11",
+    "fasta": "q115_scr_STUB1_11.faa",
+    "fasta_sha256": "db3a67ca6bfe68fba9f2a6e3b43d70649cb620cff9f0bb56bbad270de41324ce",
+    "seq_sha256": "8a96baa49f836ff6bc9fccf0f114bfe886b36d25d5b02f6cac2094c0eaea94a2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_116_scramble_STUB1",
+    "qseqid": "scr_STUB1_12",
+    "fasta": "q116_scr_STUB1_12.faa",
+    "fasta_sha256": "87281f497f16b43655e2dfcba4cf5d29b291c2738c6e38854e3f6f7f22d29d06",
+    "seq_sha256": "391bd101c1dceb7532fc52abfb33dc4085bb064552079eb4918fa30cec7da8e5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_117_scramble_STUB1",
+    "qseqid": "scr_STUB1_13",
+    "fasta": "q117_scr_STUB1_13.faa",
+    "fasta_sha256": "38f42a325c2768da604cff18ebe6749074c8a1f47ecc243497d3d5b80b50f81d",
+    "seq_sha256": "66b94b8d7ba85da6a78714082424bd822d4653adaa874ce6e9c387617b96dd21",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_118_scramble_STUB1",
+    "qseqid": "scr_STUB1_14",
+    "fasta": "q118_scr_STUB1_14.faa",
+    "fasta_sha256": "d18f941ea8e3f2103764301f469be112e90668ad45797309c22dc28a618b27f8",
+    "seq_sha256": "9581f465b4eb0b5e2921eaee65bb032628b6e504660c9995184a22bfdf733135",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_119_scramble_STUB1",
+    "qseqid": "scr_STUB1_15",
+    "fasta": "q119_scr_STUB1_15.faa",
+    "fasta_sha256": "d4ecb7eaa28d6cbe337444cfe58dc1e30ed9b9f403bbf31918d06cd437db74b8",
+    "seq_sha256": "96f2682b8d510340003feefb935864729af2476688110da420ae38414b092a74",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_120_scramble_STUB1",
+    "qseqid": "scr_STUB1_16",
+    "fasta": "q120_scr_STUB1_16.faa",
+    "fasta_sha256": "102953cf73d9c8dda7d21a852a8e1ba114376e38b2502ae45e3109ffe479a3a7",
+    "seq_sha256": "f6848a91acc35951fff95360853830ace0c7fb881bc0498310ad2fe878478c10",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_121_scramble_STUB1",
+    "qseqid": "scr_STUB1_17",
+    "fasta": "q121_scr_STUB1_17.faa",
+    "fasta_sha256": "227db3c6be155b4a4a0b93c1a80a4b8be767217427cc1fe7c8bcd85c16a05abe",
+    "seq_sha256": "20a9f10a0bb32187c9ecdd7b5bab2a1332f21571ad1fbb87c8645460c6d62233",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_122_scramble_STUB1",
+    "qseqid": "scr_STUB1_18",
+    "fasta": "q122_scr_STUB1_18.faa",
+    "fasta_sha256": "5c43a8e881c76a46e6fab839c1935bd22becd0db9b0d7839ba92e0def11b80de",
+    "seq_sha256": "c0d85ac89a535a4ab3f45e27acee57026212850293155407e59f329953bf169b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_123_scramble_STUB1",
+    "qseqid": "scr_STUB1_19",
+    "fasta": "q123_scr_STUB1_19.faa",
+    "fasta_sha256": "f52e8293b3748eb50077b0307ec344463011f00e226aaddb4c4a8b019de9660d",
+    "seq_sha256": "04d3f04d76699980d36a0727e12654cff122c90d62cdd20e306a05ee475e4abb",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_124_scramble_STUB1",
+    "qseqid": "scr_STUB1_20",
+    "fasta": "q124_scr_STUB1_20.faa",
+    "fasta_sha256": "d9af63b0038627b3ae7f041c0cd95f7f8837fca74e59348939ac52505a9bc6c8",
+    "seq_sha256": "556d672cabba2db2620a1cafe29643edd39bbb39b673915ba1a06adb9d6f1705",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_125_scramble_STUB1",
+    "qseqid": "scr_STUB1_21",
+    "fasta": "q125_scr_STUB1_21.faa",
+    "fasta_sha256": "3bdc08581dfcbc5b2d75c2da37e2013114075dcf54089198eb7e2659bbd6c0a5",
+    "seq_sha256": "79c6a99bef6a48db6985f8d95a729e0c1ad9b3802e5f3769f78f84ef7d7a9873",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_126_scramble_STUB1",
+    "qseqid": "scr_STUB1_22",
+    "fasta": "q126_scr_STUB1_22.faa",
+    "fasta_sha256": "2a034b1a813c87a50574cef6ee2881559b6901e8aaa102befdc5a2dd2ea91be2",
+    "seq_sha256": "e686215b24137aee433214893859dfa121e47bb24f73abc9fdb18a83a945dcd6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_127_scramble_STUB1",
+    "qseqid": "scr_STUB1_23",
+    "fasta": "q127_scr_STUB1_23.faa",
+    "fasta_sha256": "d4b35393d045073be6be4ca079bd19fdec12cbc3662df948d478b597857604d3",
+    "seq_sha256": "d78b2fa84ade100c0e29fed85f5ae39573f391469de3fee83b1acd4a135ee50a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_128_scramble_STUB1",
+    "qseqid": "scr_STUB1_24",
+    "fasta": "q128_scr_STUB1_24.faa",
+    "fasta_sha256": "490cc6269ce564b53ea749ca76b670e39e803453fa7021f4b13b4d40142777cb",
+    "seq_sha256": "ec44abe42bf60ccb9c9f434728858ad1054e6a6689caceb3f981c5f9db0909fa",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_129_scramble_STUB1",
+    "qseqid": "scr_STUB1_25",
+    "fasta": "q129_scr_STUB1_25.faa",
+    "fasta_sha256": "f24ff72b28d5fab788efc9b3398ad921d5f705dde6bc934a13f7761a68023ca5",
+    "seq_sha256": "865898e086104c15a4dafcaee8d4f5c8d9955b1031a8421b07eb43aaa48a3104",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_130_scramble_STUB1",
+    "qseqid": "scr_STUB1_26",
+    "fasta": "q130_scr_STUB1_26.faa",
+    "fasta_sha256": "1c1a86e280a82fba4b10467edbaed18920227b782550665ac234cc2a192db586",
+    "seq_sha256": "275adfc6850853d3051b3f4ed5b537af0c88255b4fee1c139aadbe2c1ea22e1b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_131_scramble_STUB1",
+    "qseqid": "scr_STUB1_27",
+    "fasta": "q131_scr_STUB1_27.faa",
+    "fasta_sha256": "360382c68b4a3656366e4e5a4f8a1c176f4c59fa2a37eb1065b5b57122752216",
+    "seq_sha256": "ed42724145fbcb68f6ee5c6ae02bfa576162e7a1aee9cd50a8153580a0bc891c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_132_scramble_STUB1",
+    "qseqid": "scr_STUB1_28",
+    "fasta": "q132_scr_STUB1_28.faa",
+    "fasta_sha256": "74f71b290d6e266373f1e056505ee26428445148c24291d474b9ebe51232205f",
+    "seq_sha256": "98f40dfae2dfca244a035cbb1bb518d99cab6c9fda77598591cfa0dc2010ae90",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_133_scramble_STUB1",
+    "qseqid": "scr_STUB1_29",
+    "fasta": "q133_scr_STUB1_29.faa",
+    "fasta_sha256": "2000f5658ce23773c2cad5a0674139ef7fb7c4166add96ea9fdd364eecd04bd7",
+    "seq_sha256": "b6c6dd0330271d94b31daa08046c8bd3b15582ba83f029fb17fa4bbb792e04bd",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_134_scramble_STUB1",
+    "qseqid": "scr_STUB1_30",
+    "fasta": "q134_scr_STUB1_30.faa",
+    "fasta_sha256": "2259ea8af20d59b6b94645309347e9635610c57e66d6b687d67e5cc96f91ac04",
+    "seq_sha256": "0fe972415ab4a2fa1c6a4b9a77cba6c1c7b43190794ed99be76fddbebedcd8e7",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_135_scramble_STUB1",
+    "qseqid": "scr_STUB1_31",
+    "fasta": "q135_scr_STUB1_31.faa",
+    "fasta_sha256": "4c883234fe859fc407fa6624f2bf18b8889e08f6394f988187c7aeeba9d853d9",
+    "seq_sha256": "85f3ba8e2704de035ca69ba35f173138c92a194fdf0b7e0f2c15cc720744a29a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_136_scramble_STUB1",
+    "qseqid": "scr_STUB1_32",
+    "fasta": "q136_scr_STUB1_32.faa",
+    "fasta_sha256": "776120ba6440e354e47fe617acb78b0b8262a71a42e160204980ac27d47a2d23",
+    "seq_sha256": "32800121dbce2d28797de0d09707900b4cac1645644f0633e26a503ede9958e1",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_137_scramble_STUB1",
+    "qseqid": "scr_STUB1_33",
+    "fasta": "q137_scr_STUB1_33.faa",
+    "fasta_sha256": "81cb49393931fee9dfd294e5c22d7fa5311f945ecd01c4073dbf4eac20a2f34b",
+    "seq_sha256": "5d981b8441e2b1e7e67396e226291919b2fb3a274181053946b2a70ef33bee6e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_138_scramble_STUB1",
+    "qseqid": "scr_STUB1_34",
+    "fasta": "q138_scr_STUB1_34.faa",
+    "fasta_sha256": "4167cdd6ffe25ed6d5d0e66db7ee6b5fc8c19cbcf0aaaf1f5f50d78f15af0b14",
+    "seq_sha256": "ce202de87d83618d14b19aedbf02cf123ac0308b1de978d409ceca48b92303d4",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_139_scramble_STUB1",
+    "qseqid": "scr_STUB1_35",
+    "fasta": "q139_scr_STUB1_35.faa",
+    "fasta_sha256": "cb2d331b865a7896e28b0d69b99bf0b0b1ddf5d6210befe960d80f1f1e52705e",
+    "seq_sha256": "0eb8b6edf32d3bbe5974597b5ed01c9337c3c5f42e5e12174952aa8b7132ac85",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_140_scramble_STUB1",
+    "qseqid": "scr_STUB1_36",
+    "fasta": "q140_scr_STUB1_36.faa",
+    "fasta_sha256": "03804d6e9ca13c908bfb88f9d7d8f9cb49091f5156982aa54687e61542e27c8b",
+    "seq_sha256": "a61b3308068d24aa444d2f08b3d0d7d0be38d6e6bf0b6167c0507f6ee2de8718",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_141_scramble_STUB1",
+    "qseqid": "scr_STUB1_37",
+    "fasta": "q141_scr_STUB1_37.faa",
+    "fasta_sha256": "3ca2a35d16856159e65480f367e653c518cf8e31d1e1163ba5ca9da5feee0967",
+    "seq_sha256": "cdf3ff968c6db8b30d629d426a9c846040869d378787c1ed9443fe36bcc2ee70",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_142_scramble_STUB1",
+    "qseqid": "scr_STUB1_38",
+    "fasta": "q142_scr_STUB1_38.faa",
+    "fasta_sha256": "36ed4a84e453c4a332f6503f1d0eb9282d112764873e1584ff17f71733fa2fd5",
+    "seq_sha256": "0eba5504bdb683ce14a4e828c546c15c8e968376006307bcb6e7686610a592b2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_143_scramble_STUB1",
+    "qseqid": "scr_STUB1_39",
+    "fasta": "q143_scr_STUB1_39.faa",
+    "fasta_sha256": "beeb4ab1c44374cb3c93480e9ed46a6ff391a098c6a9879534c51e7163ca80ce",
+    "seq_sha256": "d63b701f26d688ff8cc654d29124cdd2f74a369dbe8e63a7da817866b6176860",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_144_scramble_STUB1",
+    "qseqid": "scr_STUB1_40",
+    "fasta": "q144_scr_STUB1_40.faa",
+    "fasta_sha256": "21ec139a8e8a117cd433f43c196de03cf1310a04101433cf2d4cd9ec55305563",
+    "seq_sha256": "fe0b7e0164eb0e130ca16746bff610f5cfa8808d780e9d04f29f977f61fbf537",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_145_scramble_STUB1",
+    "qseqid": "scr_STUB1_41",
+    "fasta": "q145_scr_STUB1_41.faa",
+    "fasta_sha256": "d2e8d18f808b8798ac95857e8ca293e589f5c9a4e009393c6cc65bd3725988e3",
+    "seq_sha256": "9ead60b1fa446b30cfd1c6574534424cb4afc7f4bd15a482184e10cbde1fdc82",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_146_scramble_STUB1",
+    "qseqid": "scr_STUB1_42",
+    "fasta": "q146_scr_STUB1_42.faa",
+    "fasta_sha256": "f91667134fb23b2ecb253526c08b4c452e84a17b6b68b473507a57fdf2fed2e5",
+    "seq_sha256": "38b87cb684d64fb5bcbb7ff2781feb6fe0d0f3cfc358cd3f3fe2148daddf4b6a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_147_scramble_STUB1",
+    "qseqid": "scr_STUB1_43",
+    "fasta": "q147_scr_STUB1_43.faa",
+    "fasta_sha256": "266bd2bd28af03133700ddfb5aaab51030b6e8394e2d472858bf2165c27c2753",
+    "seq_sha256": "5a8ba8191db4f5349183eff22244b7a20b42479ae23fc0f9ed493679eec5c60e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_148_scramble_STUB1",
+    "qseqid": "scr_STUB1_44",
+    "fasta": "q148_scr_STUB1_44.faa",
+    "fasta_sha256": "5321975ca6b732c9f8a33f00e5fed30fd2d8c2c32b90ff4d9f840b9d2cb531c1",
+    "seq_sha256": "2b9018b2a365b455a8dfaabc3c386ee39698ae64d0abb7e18256f00f17c26240",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_149_scramble_STUB1",
+    "qseqid": "scr_STUB1_45",
+    "fasta": "q149_scr_STUB1_45.faa",
+    "fasta_sha256": "81737670b75fc7661ee80dda872a55f64896407f10e5c1b0bdcdc1de1ab1ea8b",
+    "seq_sha256": "3d6284a4ded8994b35c6e46b917f926734c5e9c7ff5fec7ce5246df10ca8a4f6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_150_scramble_STUB1",
+    "qseqid": "scr_STUB1_46",
+    "fasta": "q150_scr_STUB1_46.faa",
+    "fasta_sha256": "e7d5fa6e166bc5c44bbdf1492220b78dab3470e11ddfa85e574d04955593da0b",
+    "seq_sha256": "fbaf108f2cec2d9eeb92f1b8fbfba0dd0aeb0a2ecd085fdfe6e9cf38d04623a9",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_151_scramble_STUB1",
+    "qseqid": "scr_STUB1_47",
+    "fasta": "q151_scr_STUB1_47.faa",
+    "fasta_sha256": "f6b27d07d5722ef7d520676479831b40a6c62fcdd6a3cc04cccde9966efcdf0c",
+    "seq_sha256": "0622f00ccee849039ed19ac20e912e10470c2c42d045c4200c743cc12a8cce88",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_152_scramble_STUB1",
+    "qseqid": "scr_STUB1_48",
+    "fasta": "q152_scr_STUB1_48.faa",
+    "fasta_sha256": "d69830878679cc4db25c42043dfeb91d72f026872e852bd7f439a1ea9fa6c4b3",
+    "seq_sha256": "dd7a5de92daa3a4bc1bd39f56e565c826cb22078f4bd2fb027e04dc6ebbef1d9",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_153_scramble_STUB1",
+    "qseqid": "scr_STUB1_49",
+    "fasta": "q153_scr_STUB1_49.faa",
+    "fasta_sha256": "82264755e6e46b2a4e8a3f9033894e911fcd255a83cd75d1e162183a195e01c3",
+    "seq_sha256": "3ad7aef4387056e58b4fe23f3cb2255c084ab543a0a78e025f27637c56e1478c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_154_scramble_STUB1",
+    "qseqid": "scr_STUB1_50",
+    "fasta": "q154_scr_STUB1_50.faa",
+    "fasta_sha256": "0238a7480184442c8f61662e829a26bbf1fb5b3c95c06b7ea7cb518fc6ebd664",
+    "seq_sha256": "fed1397d60c46051d5073c12557594a075e1b5171cc3c542cf91593845d785bf",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_155_scramble_STUB1",
+    "qseqid": "scr_STUB1_51",
+    "fasta": "q155_scr_STUB1_51.faa",
+    "fasta_sha256": "5a79fe9d3f1fc12c1ad4b779f46a7665ad1babac2be230d290f602b392fe3c3d",
+    "seq_sha256": "bf38c2366740b22d771e52fd85c0531def44d4c8ef5cd16555a079bc8dd4f23d",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_156_scramble_STUB1",
+    "qseqid": "scr_STUB1_52",
+    "fasta": "q156_scr_STUB1_52.faa",
+    "fasta_sha256": "6bed23edddaafbf7ebf820e6eea713ff1b8bdc8b06b5e60500fe4c628322e204",
+    "seq_sha256": "2c185eec15605a961356abe3c545e0222c6d81dab22c16569f315a8a82865746",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_157_scramble_STUB1",
+    "qseqid": "scr_STUB1_53",
+    "fasta": "q157_scr_STUB1_53.faa",
+    "fasta_sha256": "12f305f3b8006a3f23649bc1ee5e222c6f0b337cfd467bf929bf7bc3b3dd3cbf",
+    "seq_sha256": "e82a8d3c7c0c4c1289c2ef5ce66bc7ddc31a62313e21a4dfdd7f8089803a0bb6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_158_scramble_STUB1",
+    "qseqid": "scr_STUB1_54",
+    "fasta": "q158_scr_STUB1_54.faa",
+    "fasta_sha256": "e2af49f9cff27db826c7049a2fc082a0c4d71bf31f86b8066be3c338bceb079c",
+    "seq_sha256": "ecf5675410e2dc09d4c45aaed6cbd13de1edebeeafd6b1b32cc5a328012d7f15",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_159_scramble_STUB1",
+    "qseqid": "scr_STUB1_55",
+    "fasta": "q159_scr_STUB1_55.faa",
+    "fasta_sha256": "04634a0994d93bcde1611903620c056c94002bb0cfc3dcbbcc062ca5c0627283",
+    "seq_sha256": "ebeb61fb555a725a99f85e1efa712e0d7467da3685e9836ffc1d59ab488ea981",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_160_scramble_STUB1",
+    "qseqid": "scr_STUB1_56",
+    "fasta": "q160_scr_STUB1_56.faa",
+    "fasta_sha256": "f424cd2bd94b91fa1d043f7cf6e61792d2dcbfb09a646abbbfa4a9aab35d8378",
+    "seq_sha256": "0bb0150013bd1107aae5bee284ebc2b36baf9d68209aa9657a0c2c8d6e9ddf32",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_161_scramble_STUB1",
+    "qseqid": "scr_STUB1_57",
+    "fasta": "q161_scr_STUB1_57.faa",
+    "fasta_sha256": "3e9c1ca117c8ebc95876b6cfb74c5a766ce3e4f9dc098be97b38a54e0954b59c",
+    "seq_sha256": "d1df173ad2b2749a3649dbaa91b0c8f72b296bf94cd4b1ed102ceb55645d0151",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_162_scramble_STUB1",
+    "qseqid": "scr_STUB1_58",
+    "fasta": "q162_scr_STUB1_58.faa",
+    "fasta_sha256": "caad917e8cb2d0fec5bdea22d3d559622dcbe90254722c3236308ef4ec23e184",
+    "seq_sha256": "96fc2f6002fb9f3b0625fb4a16195af9b57abc69e8f38db6df56d9933fb608fd",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_163_scramble_STUB1",
+    "qseqid": "scr_STUB1_59",
+    "fasta": "q163_scr_STUB1_59.faa",
+    "fasta_sha256": "531e7011fc2ebbd8ea288f0fef94d9542cc2d88bf82b10b2f76226e247516db9",
+    "seq_sha256": "f313c161900a6fb424b0d3f184cf964e360ded4e4d649cbbd2afc27979f1e36c",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_164_scramble_STUB1",
+    "qseqid": "scr_STUB1_60",
+    "fasta": "q164_scr_STUB1_60.faa",
+    "fasta_sha256": "3d1745add66b9b3d1e74b03c98670bdfb91734395ce1ad829be3f4759b36b5bb",
+    "seq_sha256": "d17c54ebef797d58c109ac699d0680688d87d72797596fa5bdbd6a515a88e308",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_165_scramble_STUB1",
+    "qseqid": "scr_STUB1_61",
+    "fasta": "q165_scr_STUB1_61.faa",
+    "fasta_sha256": "16c679ac75e95fd40c077c980150d5432f7b7e55d374161cb12f4bbee27e0925",
+    "seq_sha256": "94236e61827306faea76fafedd141b2fe32ec508e8000b882e2476e229dc3725",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_166_scramble_STUB1",
+    "qseqid": "scr_STUB1_62",
+    "fasta": "q166_scr_STUB1_62.faa",
+    "fasta_sha256": "b8891207af076d63019a7757c46fdb74bb073c29a4f5e2a95a0df1f94b47fbef",
+    "seq_sha256": "784e3613da9fa8c955ce2e279dbb71030bbdc85fb7f7e8ad4423e93fd7d07a34",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_167_scramble_STUB1",
+    "qseqid": "scr_STUB1_63",
+    "fasta": "q167_scr_STUB1_63.faa",
+    "fasta_sha256": "c041a1d7604a8735a9c806efffdf76e3da1a855b7a571a3d0608b3ba1c4b256e",
+    "seq_sha256": "c7783d2f7a355f467bc309637704643dc4905969bcc78e37c58d1e7bcfc38aeb",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_168_scramble_STUB1",
+    "qseqid": "scr_STUB1_64",
+    "fasta": "q168_scr_STUB1_64.faa",
+    "fasta_sha256": "d4b20f37a48c2e9382fc4efb2887af0e194b5705d5974e779767db7a1c2e32f3",
+    "seq_sha256": "a34c88160f4eb1e67c3bcde87e8bfe3e116d1a92053632ac243f355dae442a01",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_169_scramble_STUB1",
+    "qseqid": "scr_STUB1_65",
+    "fasta": "q169_scr_STUB1_65.faa",
+    "fasta_sha256": "900ffc3d9fa5533f535e92c8d0b5015d0c96f1637536efbaee976a3128f35b7e",
+    "seq_sha256": "542c3e00b493efb5ca2df1b86ff048abf6d7d1f2a65b0c6f0dab5180caa6b170",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_170_scramble_STUB1",
+    "qseqid": "scr_STUB1_66",
+    "fasta": "q170_scr_STUB1_66.faa",
+    "fasta_sha256": "da82a2a2da890a74d33ba596686bffdc43df6dd96f79b3562c5feb177c1017bc",
+    "seq_sha256": "d5cab81cc1d4f344920ed1a65d07290e8c23fea11a281070b5594f3c3a61704e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_171_scramble_STUB1",
+    "qseqid": "scr_STUB1_67",
+    "fasta": "q171_scr_STUB1_67.faa",
+    "fasta_sha256": "efc3b242bded0c7b776f2713908ce3c62abfeb08f060b51c6691f4172f2f4928",
+    "seq_sha256": "a16412cde87fc997392b673d8822f3832b1099d2ebdb57511b4e529c77af9025",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_172_scramble_STUB1",
+    "qseqid": "scr_STUB1_68",
+    "fasta": "q172_scr_STUB1_68.faa",
+    "fasta_sha256": "93fe160b5363a044cd2d79fe0dd44149fb182ee4c8ca49cdc472b3eebf0b40b8",
+    "seq_sha256": "0da2c6fb7233d4fa0844956b248483994fddaeaa13f8cd7e6cf6fcd7c55cafba",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_173_scramble_STUB1",
+    "qseqid": "scr_STUB1_69",
+    "fasta": "q173_scr_STUB1_69.faa",
+    "fasta_sha256": "a4fe8fddf79b3a0a87336d5050491ce6d5af743b7f65a4450e9973af14984b09",
+    "seq_sha256": "ab5bfe6a2bea686e1e1672e263eb3cb65591b22c6559a4764669b3aae04fd91b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_174_scramble_STUB1",
+    "qseqid": "scr_STUB1_70",
+    "fasta": "q174_scr_STUB1_70.faa",
+    "fasta_sha256": "1439de378c30af455c4d9328f5a6d33827d9e754c4bdaf17af5ab0b809bb8f3f",
+    "seq_sha256": "02153eaed1bfbd51f2296df9e9cbd999c7e89cb74cad56bcb4247c1b9d705d80",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_175_scramble_STUB1",
+    "qseqid": "scr_STUB1_71",
+    "fasta": "q175_scr_STUB1_71.faa",
+    "fasta_sha256": "a413cef54df49ffeef5c45b02d9ebeee138c4434b888b483bb89ef104c1492ec",
+    "seq_sha256": "d6d580c98f62449a8a9ddd51ea4de81de22a2f7da69e59a75db1316ececd3220",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_176_scramble_STUB1",
+    "qseqid": "scr_STUB1_72",
+    "fasta": "q176_scr_STUB1_72.faa",
+    "fasta_sha256": "20c5c177ac0a6d54f23ff27b311ebbc37124229c448fbd91941410cea1176dc2",
+    "seq_sha256": "9e3fd6e28dbefd188af0c0fb9c87701ca59d6ce7a6e1ec2e1ecab59ccf3d00d5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_177_scramble_STUB1",
+    "qseqid": "scr_STUB1_73",
+    "fasta": "q177_scr_STUB1_73.faa",
+    "fasta_sha256": "ab00d5a4de45a8d00c59243aca6e26949d5b8e005f463f0c366f00a04058dd87",
+    "seq_sha256": "013f6df371301776c3f0cc2f1a03cbbfe99f6ed5e76fdba89c3b9007914d5613",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_178_scramble_STUB1",
+    "qseqid": "scr_STUB1_74",
+    "fasta": "q178_scr_STUB1_74.faa",
+    "fasta_sha256": "c52e8bacd53db3a162e34e773706c1595388c64db0b596f166642a0bccf709f1",
+    "seq_sha256": "4b0d092147210c13523f0da211b27700720afeb7b7cd7462ae6d458e58a084ec",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_179_scramble_STUB1",
+    "qseqid": "scr_STUB1_75",
+    "fasta": "q179_scr_STUB1_75.faa",
+    "fasta_sha256": "e1c973b9bb6f84a3556780f8b8521013af72cd602622d56536facea2b33a324a",
+    "seq_sha256": "b7b72e98392550edc793866d8740bc2e1c5796b34e07ae220af3dfee250d866a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_180_scramble_STUB1",
+    "qseqid": "scr_STUB1_76",
+    "fasta": "q180_scr_STUB1_76.faa",
+    "fasta_sha256": "f74deaf10cea2652c4a5fc5bae146a497ff43b100bc860442b60484d5915b49a",
+    "seq_sha256": "3aaf6f43561b0295dfb9868c2522825e38113d529ead18f53532400ee064cfd2",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_181_scramble_STUB1",
+    "qseqid": "scr_STUB1_77",
+    "fasta": "q181_scr_STUB1_77.faa",
+    "fasta_sha256": "d4fe6fdd9354b8058c10286dc05763a1bd8cd61ebf4b59e86d49d99a9385b0a0",
+    "seq_sha256": "4c803eff15e1561d4e04e3cb016c06ef252e1b8db944e67a51601245ee7f2631",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_182_scramble_STUB1",
+    "qseqid": "scr_STUB1_78",
+    "fasta": "q182_scr_STUB1_78.faa",
+    "fasta_sha256": "b0257c1071eaded3f69c13d4a2d9b8d0b2e3c238239ebb0f76c86668837173cc",
+    "seq_sha256": "166a32712a4e0808458ced98373361ae4e0e2acec7b1fa63d45ff6b3e8b554ac",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_183_scramble_STUB1",
+    "qseqid": "scr_STUB1_79",
+    "fasta": "q183_scr_STUB1_79.faa",
+    "fasta_sha256": "eeb11c9bb5d0376e3c0a2ab8e2975937e8879ba196c7fad882f99e14e6ac4c4e",
+    "seq_sha256": "37c9e3295e5ce44df1ac70e1797ecafdcceee5acf6987ae7bc4c57c667ebc467",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_184_scramble_STUB1",
+    "qseqid": "scr_STUB1_80",
+    "fasta": "q184_scr_STUB1_80.faa",
+    "fasta_sha256": "7645a39c964ac965de90e4e8c1e15dd3a8dfebcb8bf068d4c8e274fc64207c94",
+    "seq_sha256": "681579fbc9ec96772826b5d029d1673f5fcafa6b96a0d0c14d0634d9c9c2a9e3",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_185_scramble_STUB1",
+    "qseqid": "scr_STUB1_81",
+    "fasta": "q185_scr_STUB1_81.faa",
+    "fasta_sha256": "a995235eb1e858694a9da3e3f9048565b93d67141749c30a94ca8d700998a4eb",
+    "seq_sha256": "030020f56f743db51efc5fdfae9666dffdfcb68c8ebb3227a09822d400a99033",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_186_scramble_STUB1",
+    "qseqid": "scr_STUB1_82",
+    "fasta": "q186_scr_STUB1_82.faa",
+    "fasta_sha256": "990f01f5320e8dd3fd922b2d73fa0bd7535544a5078eb4f6b20c70cadaae4941",
+    "seq_sha256": "838af44237ae869fcd5c6367bbe210e3475092f32f8b72899dc2f11b7bb4577f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_187_scramble_STUB1",
+    "qseqid": "scr_STUB1_83",
+    "fasta": "q187_scr_STUB1_83.faa",
+    "fasta_sha256": "e99837935a4ffbf29bcaa4be773fb149b33126e307def7cb5d1228b321ba2ab4",
+    "seq_sha256": "2228b3945c039ab9d9b7a4ca62c42490c0ba418ceb6f5f08f02ece070aa9bbfe",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_188_scramble_STUB1",
+    "qseqid": "scr_STUB1_84",
+    "fasta": "q188_scr_STUB1_84.faa",
+    "fasta_sha256": "c644c6da6c489c5be60267701a3daca06973e95f00429ea730837d2de5f39d0c",
+    "seq_sha256": "1e3b1d61f83604cfd374860f176ddaf99170c53b97b4800f74d51a8e9562852d",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_189_scramble_STUB1",
+    "qseqid": "scr_STUB1_85",
+    "fasta": "q189_scr_STUB1_85.faa",
+    "fasta_sha256": "be6d1ced1d1bd437308c7df9560570d7029835db17e92bf81dff62af0e90a5ed",
+    "seq_sha256": "e3214a46ac2ecfa7073cd43ecdd4925e5e685545a1a6c8dd0c1a44cd4a946ae8",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_190_scramble_STUB1",
+    "qseqid": "scr_STUB1_86",
+    "fasta": "q190_scr_STUB1_86.faa",
+    "fasta_sha256": "a20fd1b0ff9c88f3c555d6a000ed5a193a236bf722cc141dd554bc33412f276c",
+    "seq_sha256": "2f19e65651dce6cdaa48128665f405fe702692dcebac8f7fa4468094669ee87f",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_191_scramble_STUB1",
+    "qseqid": "scr_STUB1_87",
+    "fasta": "q191_scr_STUB1_87.faa",
+    "fasta_sha256": "614ee2804988835b469c0edfe70bf071598fa1f98559293c625466a23f11a74d",
+    "seq_sha256": "6ecaa7374fbcd2c7739b66e52bf95869eec48b7b45a5861fa95f15ca239252e5",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_192_scramble_STUB1",
+    "qseqid": "scr_STUB1_88",
+    "fasta": "q192_scr_STUB1_88.faa",
+    "fasta_sha256": "0ee44db2ae243e24b92628ee3639ad5da331d78e8aa1078b31af220865b80a38",
+    "seq_sha256": "d732241f250216ac8dc6861449a8c156249f1ceadb391fa8f87acba6b330d16b",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_193_scramble_STUB1",
+    "qseqid": "scr_STUB1_89",
+    "fasta": "q193_scr_STUB1_89.faa",
+    "fasta_sha256": "0ba604b28d6a9c8e86e13f1d3a387002629d7576bc5f0fb28d27adef8493bcd5",
+    "seq_sha256": "3a2f216eb5d9aaeafb658873d887c6494c910ce27e437994d6527a3d2958aaf3",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_194_scramble_STUB1",
+    "qseqid": "scr_STUB1_90",
+    "fasta": "q194_scr_STUB1_90.faa",
+    "fasta_sha256": "59d29b21fe286310cf61906af980b31dbd21c29672ea4fc731b162caa5657fd1",
+    "seq_sha256": "76a1038f1cc559a7fb5074e4e34ac8a10142a785f384882bb9d11a60564d2acb",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_195_scramble_STUB1",
+    "qseqid": "scr_STUB1_91",
+    "fasta": "q195_scr_STUB1_91.faa",
+    "fasta_sha256": "782f2f3c4eb37e3036444239e011ab35f86fb0908753cdd230c6884780316e03",
+    "seq_sha256": "928a9c1fe09f1023b5d7544f8d0e6ba4b7420b2d950f43a39de809714c02ab28",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_196_scramble_STUB1",
+    "qseqid": "scr_STUB1_92",
+    "fasta": "q196_scr_STUB1_92.faa",
+    "fasta_sha256": "29b6e593cc1a7cceb19741cc240fdcac8a0671589d306c1fa97f4d6df1d5dca5",
+    "seq_sha256": "3b2051636ce4a7e780152b251e27562c299561efbd6cf0b5ead5e87be33de7e6",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_197_scramble_STUB1",
+    "qseqid": "scr_STUB1_93",
+    "fasta": "q197_scr_STUB1_93.faa",
+    "fasta_sha256": "7489acf95c1dc9583154ec1b369a483b0e69fcb3ca53716aa15b9c39a55f2bb8",
+    "seq_sha256": "2090a83ff9394aa3408d078f78fc0389f1d9da80affcdc753378a7b654b84a5e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_198_scramble_STUB1",
+    "qseqid": "scr_STUB1_94",
+    "fasta": "q198_scr_STUB1_94.faa",
+    "fasta_sha256": "a34d73d391254b84c9be266f788af8162958666401fde75a63637337ee697c3e",
+    "seq_sha256": "a1fc73a0eabb028309bf071c87078743ba15542539b2f48af5fff4be5d751b2e",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_199_scramble_STUB1",
+    "qseqid": "scr_STUB1_95",
+    "fasta": "q199_scr_STUB1_95.faa",
+    "fasta_sha256": "21c238e1bb14c3075557615d5349335cde90f9cc541dfd4cfe5b1ecbe52b78ef",
+    "seq_sha256": "cf099611c00084f3a24519b14ad53327a0a279dcd09eaecc8f9bb3c98fd7952a",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_200_scramble_STUB1",
+    "qseqid": "scr_STUB1_96",
+    "fasta": "q200_scr_STUB1_96.faa",
+    "fasta_sha256": "7681cdd39587ae58b62c737fa373a202eebd042b1cac700d1fc3f1d1bb568b14",
+    "seq_sha256": "aef62b3a017cc935680f1e6c87ae591980bc844ebcad3a41c2fa5494f289d38d",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_201_scramble_STUB1",
+    "qseqid": "scr_STUB1_97",
+    "fasta": "q201_scr_STUB1_97.faa",
+    "fasta_sha256": "ca0c3211d665377347bcd5c05d4d86b45f65f7a0da4ed76f2eec24c0ca3ee48b",
+    "seq_sha256": "50cd89135da0dc1f59d2fbbbb8031ccb7afbb0de1dac799008f9005cf9ac6e82",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_202_scramble_STUB1",
+    "qseqid": "scr_STUB1_98",
+    "fasta": "q202_scr_STUB1_98.faa",
+    "fasta_sha256": "92780b51c7efcba0d7cf7c9c35cbf187f5fbf3a1e0b1adf354536b8794a9f108",
+    "seq_sha256": "0573fba6ace5250e0de1bf271586e424da049288cb3d2b267e05f709b8d05cb8",
+    "kind": "scramble"
+  },
+  {
+    "tag": "cohort_203_scramble_STUB1",
+    "qseqid": "scr_STUB1_99",
+    "fasta": "q203_scr_STUB1_99.faa",
+    "fasta_sha256": "cab49728a17f5938f48d50fb83506465ecc920984fbdcd3ee7b5758e329e1a22",
+    "seq_sha256": "a75fd3bf3eb9f3858c0666b9897047443b10dbfe25587211907ece623fb6ab79",
+    "kind": "scramble"
+  }
+]

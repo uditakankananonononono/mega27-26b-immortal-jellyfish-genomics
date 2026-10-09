@@ -1,0 +1,68 @@
+{
+  "bases": 420978673,
+  "compressed_bytes": 131843275,
+  "compressed_md5": "71fa45857c56b16017a4949c56a8c980",
+  "compressed_sha256": "2bd91e33f49d5b6953a7d8ac9262ab3805d15d826e6c9d3508a35f51e5f6b732",
+  "decompress_count_hash_wall_s": 7.81,
+  "decompressed_bytes": 426442613,
+  "decompressed_md5": "e8a22393e68e62c7d00712bd8c1f74e5",
+  "decompressed_sha256": "0072d105681e78b1818f81d44eec66603ef1ed6d8362a862e630342416986ab4",
+  "download": {
+    "argv": [
+      "curl",
+      "-sS",
+      "-L",
+      "--max-filesize",
+      "132000000",
+      "-D",
+      "<execution-path>",
+      "-o",
+      "<execution-path>",
+      "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/728/285/GCF_902728285.1_Clytia_hemisphaerica_genome_assembly/GCF_902728285.1_Clytia_hemisphaerica_genome_assembly_genomic.fna.gz"
+    ],
+    "child_cpu_s": 0.353,
+    "clean": true,
+    "end_utc": "2026-10-09T12:20:29.471827+00:00",
+    "enforcement": "hard: setsid+killpg, RLIMIT_CPU hard, RLIMIT_AS hard, streaming byte caps, RSS sampling",
+    "exit_code": 0,
+    "headers": "HTTP/1.1 200 OK\nDate: Fri, 09 Oct 2026 12:20:27 GMT\nServer: Apache\nLast-Modified: Sat, 03 Aug 2024 01:34:10 GMT\nAccept-Ranges: bytes\nContent-Length: 131843275\nCache-Control: public, max-age=86400\nExpires: Fri, 16 Oct 2026 12:20:27 GMT\nStrict-Transport-Security: max-age=31536000; includeSubDomains; preload\nAccess-Control-Allow-Origin: *\nAccess-Control-Allow-Methods: GET,POST,PUT,OPTIONS\nAccess-Control-Allow-Headers: RANGE, Cache-control, If-None-Match, Content-Type\nAccess-Control-Expose-Headers: Content-Length, Content-Range, Content-Type\nContent-Type: application/x-gzip\n\n",
+    "limits": {
+      "agg_cpu_s": 14400.0,
+      "agg_output_bytes": 536870912,
+      "agg_wall_s": 7200.0,
+      "as_bytes": 1073741824,
+      "cpu_s": 240,
+      "rss_bytes": 1073741824,
+      "rss_sample_s": 0.05,
+      "scratch_bytes": 2147483648,
+      "stderr_bytes": 1048576,
+      "stdout_bytes": 10485760,
+      "threads": 2,
+      "wall_s": 120.0
+    },
+    "max_rss_ru_bytes": 13709312,
+    "peak_rss_sampled_bytes": 13316096,
+    "peak_threads_sampled": 1,
+    "retrieval_utc_start": "2026-10-09T12:20:27.104712+00:00",
+    "signal": null,
+    "start_utc": "2026-10-09T12:20:27.104815+00:00",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stop_reason": null,
+    "tag": "dl_ref",
+    "thread_rule": "kill if live threads of process group > num_threads(2) + 4 at any sample",
+    "wall_monotonic_s": 2.367
+  },
+  "fresh_download_verified": true,
+  "ncbi_checksum_line": [
+    "71fa45857c56b16017a4949c56a8c980  ./GCF_902728285.1_Clytia_hemisphaerica_genome_assembly_genomic.fna.gz"
+  ],
+  "ncbi_published_gzip_md5": [
+    "71fa45857c56b16017a4949c56a8c980"
+  ],
+  "scaffolds": 1396,
+  "utc": "2026-10-09T12:20:37.957180+00:00",
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

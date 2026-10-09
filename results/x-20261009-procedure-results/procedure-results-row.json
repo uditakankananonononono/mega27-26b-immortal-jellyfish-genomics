@@ -1,0 +1,243 @@
+{
+  "status": "Final scientific publication row, wording review pending. Ledger review applies to the ledger only.",
+  "public_version_witness": {
+    "commit": "e11e2615e37a7ed9580f3896e688788ff18c3bdb",
+    "tree": "5982ea14affe2468bb82d1998e18f9063aaa545b"
+  },
+  "scientific_participant": {
+    "label": "Executor E1 (automated in-silico pipeline runner, Route B)",
+    "enrolled_query_labels": [
+      "PRKN",
+      "STUB1"
+    ],
+    "N": 2,
+    "M": 2,
+    "note": "In-silico sequence queries, not human participants."
+  },
+  "execution_window_utc": {
+    "procedure_start": "2026-10-09T12:20:27.104815+00:00",
+    "procedure_end": "2026-10-09T12:28:08.045036+00:00",
+    "smoke_start": "2026-10-09T12:28:04.224838+00:00",
+    "smoke_end": "2026-10-09T12:28:08.045036+00:00",
+    "scope": "The procedure window includes both comparator runs through smoke completion. The separate cohort window is 12:30:18.275099Z to 12:38:53.604068Z. The full window runs from reference fetch to cohort completion. All times are 2026-10-09 UTC.",
+    "cohort_start": "2026-10-09T12:30:18.275099+00:00",
+    "cohort_end": "2026-10-09T12:38:53.604068+00:00",
+    "full_run_end": "2026-10-09T12:38:53.604068+00:00"
+  },
+  "version_chain": [
+    "v4.19: signed compute specification and comparator",
+    "v4.19.1: Route B record-pinned comparator interface",
+    "v4.19.2: two documented build-time timestamp exceptions"
+  ],
+  "enrolled_N": 2,
+  "matched_M": 2,
+  "targets": [
+    "PRKN A0A2B4T1R3",
+    "STUB1 T2M3P7"
+  ],
+  "interpretation": "Two targets and two matched real controls form a tiny, descriptive-only cohort. No biological, orthology, lifespan, sensitivity, copy-number or statistical claim.",
+  "comparator": {
+    "reported_status": "PASS",
+    "receipt_verified": true,
+    "claim": "Determinism of the rebuilt DB versus recorded hashes, except the .njs last-updated and .nin creation-date stamps. Not byte-for-byte reproduction.",
+    "nin_diff_offsets": [
+      42,
+      45
+    ]
+  },
+  "smoke": {
+    "reported_status": "PASS",
+    "reported_strong_loci": 1,
+    "reported_best_bits": 240.4,
+    "expected_canonical_sha256": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419",
+    "receipt_verified": true,
+    "claim": "Procedure check on one already-seen human ATG7 sequence, not sensitivity validation for the targets.",
+    "wall_s": 3.82,
+    "cpu_s": 7.118,
+    "peak_live_threads": 3,
+    "thread_rule": "Runner decision: kill if live threads of the whole process group exceed num_threads (2) + 4 = 6, sampled every 0.05 s. Observed peak: 3. The auxiliary allowance of 4 is a reviewed runner choice, not an amendment number.",
+    "reviewed_runner_sha256": "1a59c9b2e58217c02670ca052859f5b6fe839ad2d9b956bc04caafee1084688f",
+    "ru_maxrss_bytes": 158179328
+  },
+  "cohort": {
+    "status": "204 cohort queries completed, 0 aborted, plus the separate smoke.",
+    "D": null,
+    "denominator_N": 2,
+    "matched_M": 2,
+    "D_null_reason": "Two target detection counts are disclosed, but no primary endpoint interpretation is issued: N=2/M=2 is tiny and descriptive only, and the real-background stop fired. Raw target detection count 2 of 2 is arithmetic only.",
+    "complete": true,
+    "scheduled_total_including_smoke": 205,
+    "scheduled_cohort": 204,
+    "smoke_completed": 1,
+    "cohort_completed": 204,
+    "total_completed_including_smoke": 205,
+    "per_query_sequence_hash_check": "Preparation verification: all 204 sequence SHA256 values match the frozen schedule file 2460f4296f0494de9480418b164af2ca3b234cf2373cafe2f0deac2f540685d6. Input FASTA file hashes match the item manifest. The preparation checked all 408 stdout/stderr hashes and recomputed all 204 canonical locus outputs and their hashes. Query FASTA files themselves were not in the bundle.",
+    "target_counts": [
+      {
+        "label": "PRKN",
+        "strong_loci": 1
+      },
+      {
+        "label": "STUB1",
+        "strong_loci": 1
+      }
+    ],
+    "real_controls": [
+      {
+        "matched_target": "PRKN",
+        "accession": "A0A0C2IVW0",
+        "strong_loci": 1
+      },
+      {
+        "matched_target": "STUB1",
+        "accession": "A0A0C2IUB3",
+        "strong_loci": 0
+      }
+    ],
+    "scrambles": [
+      {
+        "label": "PRKN",
+        "detected": 0,
+        "completed": 100
+      },
+      {
+        "label": "STUB1",
+        "detected": 0,
+        "completed": 100
+      }
+    ],
+    "real_background_detected": 1,
+    "real_background_denominator": 2,
+    "real_background_fraction": 0.5,
+    "real_background_stop": "1/2 = 50% > 10%: target yield is NOT interpretable against this background. Mapping of conserved housekeeping controls is not a false-positive estimate.",
+    "endpoint_interpretation": "None. No biological, orthology, lifespan, sensitivity, copy-number or statistical claim.",
+    "overlapping_best_target_loci": [],
+    "best_target_overlap_components": [
+      [
+        "PRKN"
+      ],
+      [
+        "STUB1"
+      ]
+    ],
+    "overlap_merged_detected_components": 2,
+    "overlap_denominator_N": 2,
+    "resource_summary": {
+      "completed": 204,
+      "wall_sum_s": 508.75599999999986,
+      "cpu_sum_s": 912.682,
+      "max_ru_maxrss_bytes": 160366592,
+      "max_threads": 3,
+      "first_utc": "2026-10-09T12:30:18.275099+00:00",
+      "last_utc": "2026-10-09T12:38:53.604068+00:00",
+      "schedule_file_sha256": "2460f4296f0494de9480418b164af2ca3b234cf2373cafe2f0deac2f540685d6",
+      "query_sequence_hash_matches": 204,
+      "raw_output_hash_matches": 408,
+      "locus_canonical_hash_matches": 204,
+      "counts": [
+        [
+          "cohort_000_target_PRKN",
+          1,
+          {
+            "contig": "ref|NW_027104534.1|",
+            "start": 164330,
+            "end": 169009,
+            "n_hsps": 3,
+            "total_bits": 186.4,
+            "best_pident": 70.588,
+            "best_qcov": 0.106,
+            "strand": "+"
+          }
+        ],
+        [
+          "cohort_001_target_STUB1",
+          1,
+          {
+            "contig": "ref|NW_027104477.1|",
+            "start": 473473,
+            "end": 479280,
+            "n_hsps": 4,
+            "total_bits": 310.5,
+            "best_pident": 86.667,
+            "best_qcov": 0.241,
+            "strand": "-"
+          }
+        ],
+        [
+          "cohort_002_real-control_PRKN",
+          1,
+          {
+            "contig": "ref|NW_027103721.1|",
+            "start": 1791732,
+            "end": 1810393,
+            "n_hsps": 6,
+            "total_bits": 550.6,
+            "best_pident": 87.5,
+            "best_qcov": 0.219,
+            "strand": "-"
+          }
+        ],
+        [
+          "cohort_003_real-control_STUB1",
+          0,
+          null
+        ]
+      ],
+      "scrambles_detected": 0
+    },
+    "receipt_review": "Gate ledger review: rows, hashes, order, whole-output HSP line counts and resource ceilings checked. Preparation scoring review: all 204 canonical locus outputs recomputed from raw HSP rows and matched. Final row wording review remains separate and pending.",
+    "strong_threshold": "Frozen jellyfish/loci.py: same-contig HSP groups merge when the gap is at most 50,000 bp. Summed HSP bits are rounded to one decimal; total_bits >= 100 qualifies as strong. Overlapping HSP scores may be summed. This is not a gene or copy-number call.",
+    "scramble_interpretation": "0/200 is a null-sanity count only, NOT a false-positive rate.",
+    "controls_interpretation": "Real control A0A0C2IVW0: 1 strong locus. Real control A0A0C2IUB3: 0 strong loci. These are one observation each, not a statistical or biological claim.",
+    "verification_limits": "The gate did not rerun BLAST or rerun the scorer over raw outputs. Query FASTA files were not in the bundle: their file hashes rely on build-time assertions and the item/ledger chain, not a fresh byte check. Preparation compared all 204 sequence hashes to the frozen schedule and reproduced all 204 canonical locus outputs from raw HSP rows. Host and environment values are executor-reported.",
+    "HSP_count_basis": [
+      {
+        "query": "PRKN target",
+        "whole_output_HSP_rows": 5,
+        "best_strong_locus_HSP_rows": 3
+      },
+      {
+        "query": "STUB1 target",
+        "whole_output_HSP_rows": 6,
+        "best_strong_locus_HSP_rows": 4
+      },
+      {
+        "query": "A0A0C2IVW0 real control",
+        "whole_output_HSP_rows": 6,
+        "best_strong_locus_HSP_rows": 6
+      },
+      {
+        "query": "A0A0C2IUB3 real control",
+        "whole_output_HSP_rows": 0,
+        "best_strong_locus_HSP_rows": 0
+      }
+    ]
+  },
+  "public_artifact_pins": {
+    "v4.19-draft.md": "1a17d39cf5bb1293500d093a2cbfe76b68b68ff95b2eb2dc493bf69b0ef9e99b",
+    "v4.19.1-draft.md": "959343161430b5a7af2532f18df79269e907e4a3d9d7599185551a3108370cef",
+    "v4.19.2-draft.md": "302105646465c8485220570c2d09abc50d67259c22e32627a9de0bb8a98963ec",
+    "compare_db_v4_19_2.py": "edd3bc5e7a6075ea2646ca20af330c91d35bb762d1c985f0f913df869943613c",
+    "reference-lock-v4.19.1.json": "ef052d846a3eacd6b2d5a1bbda5ad6e93f1ed40f984718c37c8a6a72b9d49372",
+    "locked-original-clytia.nin": "577bd5b2b6a503fbddf781ab199df46fed2ca3ca7c87a0ad79bed8e690398de1",
+    "locked-original-clytia.njs": "6df95662c9192054f983066a16acc5bb80e74c4bb0a61a4f94ae3c121ee5d156",
+    "scorer-fixture-manifest.json": "ff890fad5cc1746e8e07d81559326eb9d7294065c0bbabf5580037f0474483c0",
+    "historical-CONTROL_ATG7.expected.json": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419"
+  },
+  "audit_manifest": "procedure-audit-manifest.json",
+  "software_download_budget_note": "The software archive download used a 300 s wall limit, versus the 120 s reference download limit. Actual software download time was 4.745 s. This was software preparation, separate from the smoke caps.",
+  "runner_source_review": "The gate reviewer reviewed the runner source, required changes, and cleared hash 1a59c9b2e58217c02670ca052859f5b6fe839ad2d9b956bc04caafee1084688f. The preparation author did not re-read the runner source.",
+  "deviations": [
+    {
+      "status": "HOLD before smoke",
+      "version": "v4.19.1",
+      "component": "clytia.nin",
+      "cause": "Two differing creation-date bytes at offsets 42 and 45. The exact recorded component hash failed.",
+      "rebuilt_nin_sha256": "16a4c16c3ef659ca11c5991c151fa864722be00c6a39ba69438b8147944260e5",
+      "amendment": "v4.19.2 was written after the observed comparator HOLD, an explicit post-hoc procedure deviation, and before comparison resumed or smoke ran. The fixed 27-byte date mask, time window and cross-consistency were reviewed and signed. No query, threshold or endpoint changed.",
+      "evidence": "v4.19.1-HOLD-comparator-output.json"
+    }
+  ],
+  "receipt_verification_attribution": "The preparation author checked scientific values and hashes against the supplied receipts. The gate reviewed the unsanitized comparator and smoke receipts and the actual rebuilt .nin byte diff. Public copies are sanitized, their hashes differ from the originals, and the crosswalk is private. child_proc_limits, the proof of real-child resource limits, is private only.",
+  "provenance_limit": "Provenance ends at frozen recorded hashes plus two documented build-time stamps (.njs last-updated and .nin creation date), validated by their time window and cross-consistency. This is not byte-for-byte reproduction of the original DB. Reference DB bytes are not privately preserved outside temporary preparation storage."
+}

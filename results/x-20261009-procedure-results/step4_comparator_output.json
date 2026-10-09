@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "components": [
+    {
+      "component": "clytia.nhr",
+      "sha256": "1ee15c8e54541f5034923655bbe9c212fcd4f2395de411755ced84e6112977ee",
+      "locked_sha256": "1ee15c8e54541f5034923655bbe9c212fcd4f2395de411755ced84e6112977ee",
+      "status": "PASS"
+    },
+    {
+      "component": "clytia.nog",
+      "sha256": "e63469e20a6464dd3ff3759edd75625662800689decc70ee81ae4e03f076454e",
+      "locked_sha256": "e63469e20a6464dd3ff3759edd75625662800689decc70ee81ae4e03f076454e",
+      "status": "PASS"
+    },
+    {
+      "component": "clytia.nsd",
+      "sha256": "07b6d417b48c1b3a8279184405533a061759259aaa425ab9a93b5e4e9cb63eb4",
+      "locked_sha256": "07b6d417b48c1b3a8279184405533a061759259aaa425ab9a93b5e4e9cb63eb4",
+      "status": "PASS"
+    },
+    {
+      "component": "clytia.nsi",
+      "sha256": "1b379dae63b2fd1925d27b90c700ac74262fd4735615c84a8dfe5e971443b2d1",
+      "locked_sha256": "1b379dae63b2fd1925d27b90c700ac74262fd4735615c84a8dfe5e971443b2d1",
+      "status": "PASS"
+    },
+    {
+      "component": "clytia.nsq",
+      "sha256": "cbe0887f691ba05ed495c79837feb0e786e51e078d5f0684d9d9099adb271209",
+      "locked_sha256": "cbe0887f691ba05ed495c79837feb0e786e51e078d5f0684d9d9099adb271209",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "rebuilt_file_set": "PASS",
+  "build_receipt": {
+    "argv": [
+      "./makeblastdb",
+      "-in",
+      "reference.fna",
+      "-dbtype",
+      "nucl",
+      "-parse_seqids",
+      "-blastdb_version",
+      "4",
+      "-out",
+      "clytia"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "stdout": "\n\nBuilding a new DB, current time: 10/09/2026 17:51:02\nNew DB name:   <execution-path>\nNew DB title:  reference.fna\nSequence type: Nucleotide\nKeep MBits: T\nMaximum file size: 3000000000B\nAdding sequences from FASTA; added 1396 sequences in 4.0035 seconds.\n\n\n"
+  },
+  "njs": {
+    "status": "PASS",
+    "locked_raw_sha256": "6df95662c9192054f983066a16acc5bb80e74c4bb0a61a4f94ae3c121ee5d156",
+    "rebuilt_raw_sha256": "00a9142d0125f8307727e25173d16a527385d656d3597c13968d2452c64dd0cc",
+    "locked_parsed": {
+      "version": "1.2",
+      "dbname": "clytia",
+      "dbtype": "Nucleotide",
+      "db-version": 4,
+      "description": "reference.fna",
+      "number-of-letters": 420978673,
+      "number-of-sequences": 1396,
+      "last-updated": "2026-10-09T16:58:00",
+      "number-of-volumes": 1,
+      "bytes-total": 105613877,
+      "bytes-to-cache": 105292438,
+      "files": [
+        "clytia.nhr",
+        "clytia.nin",
+        "clytia.nog",
+        "clytia.nsd",
+        "clytia.nsi",
+        "clytia.nsq"
+      ]
+    },
+    "rebuilt_parsed": {
+      "version": "1.2",
+      "dbname": "clytia",
+      "dbtype": "Nucleotide",
+      "db-version": 4,
+      "description": "reference.fna",
+      "number-of-letters": 420978673,
+      "number-of-sequences": 1396,
+      "last-updated": "2026-10-09T17:51:00",
+      "number-of-volumes": 1,
+      "bytes-total": 105613877,
+      "bytes-to-cache": 105292438,
+      "files": [
+        "clytia.nhr",
+        "clytia.nin",
+        "clytia.nog",
+        "clytia.nsd",
+        "clytia.nsi",
+        "clytia.nsq"
+      ]
+    },
+    "diff_fields": [
+      "last-updated"
+    ],
+    "timestamp_window_pass": true,
+    "lower_iso": "2026-10-09T16:58:00+05:30",
+    "rebuild_completion_iso": "2026-10-09T17:51:06.806290+05:30",
+    "last_updated_iso": "2026-10-09T17:51:00+05:30"
+  },
+  "nin_evidence": {
+    "original_sha256": "577bd5b2b6a503fbddf781ab199df46fed2ca3ca7c87a0ad79bed8e690398de1",
+    "rebuilt_sha256": "16a4c16c3ef659ca11c5991c151fa864722be00c6a39ba69438b8147944260e5",
+    "diff_offsets": [
+      42,
+      45
+    ],
+    "original_length": 16836,
+    "rebuilt_length": 16836
+  },
+  "nin": {
+    "status": "PASS",
+    "original_sha256": "577bd5b2b6a503fbddf781ab199df46fed2ca3ca7c87a0ad79bed8e690398de1",
+    "rebuilt_sha256": "16a4c16c3ef659ca11c5991c151fa864722be00c6a39ba69438b8147944260e5",
+    "diff_offsets": [
+      42,
+      45
+    ],
+    "mask_offset": 29,
+    "mask_length": 27,
+    "prefix_offset": 25,
+    "original_decoded": "Oct 9, 2026  4:58 PM\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "rebuilt_decoded": "Oct 9, 2026  5:51 PM\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+    "original_iso": "2026-10-09T16:58:00+05:30",
+    "rebuilt_iso": "2026-10-09T17:51:00+05:30",
+    "outside_mask_equal_bytes": 16809,
+    "njs_cross_consistency_pass": true
+  },
+  "makeblastdb_sha256": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce",
+  "reference_receipt": {
+    "fresh_download_verified": true,
+    "compressed_md5": "71fa45857c56b16017a4949c56a8c980",
+    "compressed_sha256": "2bd91e33f49d5b6953a7d8ac9262ab3805d15d826e6c9d3508a35f51e5f6b732",
+    "decompressed_md5": "e8a22393e68e62c7d00712bd8c1f74e5",
+    "decompressed_sha256": "0072d105681e78b1818f81d44eec66603ef1ed6d8362a862e630342416986ab4",
+    "bases": 420978673,
+    "scaffolds": 1396
+  },
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}

@@ -1,0 +1,92 @@
+{
+  "cohort_result": {
+    "aborted": null,
+    "completed": 1
+  },
+  "ledger_row": {
+    "argv": [
+      "<execution-path>",
+      "-query",
+      "<scientific-source-path>",
+      "-db",
+      "<execution-path>",
+      "-evalue",
+      "1e-5",
+      "-max_target_seqs",
+      "20",
+      "-num_threads",
+      "2",
+      "-outfmt",
+      "6 qseqid sseqid pident length evalue bitscore qstart qend sstart send qlen"
+    ],
+    "child_cpu_s": 7.118,
+    "clean": true,
+    "end_utc": "2026-10-09T12:28:08.045036+00:00",
+    "enforcement": "hard: setsid+killpg, RLIMIT_CPU hard, RLIMIT_AS hard, streaming byte caps, RSS sampling",
+    "exit_code": 0,
+    "input_sha256": "441751c0e256663dff2ba572b8d5f10707791e9cda8e6606bd2bb02480723e96",
+    "limits": {
+      "agg_cpu_s": 14400.0,
+      "agg_output_bytes": 536870912,
+      "agg_wall_s": 7200.0,
+      "as_bytes": 1073741824,
+      "cpu_s": 240,
+      "rss_bytes": 1073741824,
+      "rss_sample_s": 0.05,
+      "scratch_bytes": 2147483648,
+      "stderr_bytes": 1048576,
+      "stdout_bytes": 10485760,
+      "threads": 2,
+      "wall_s": 120.0
+    },
+    "locus_json_sha256": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419",
+    "max_rss_ru_bytes": 158179328,
+    "n_hsps": 3,
+    "n_strong": 1,
+    "peak_rss_sampled_bytes": 152100864,
+    "peak_threads_sampled": 3,
+    "runner_sha256": "1a59c9b2e58217c02670ca052859f5b6fe839ad2d9b956bc04caafee1084688f",
+    "scorer_sha256": "03e920bd782b70642fd14544a49ff718f1c7058d1d6c852a42f1c544297cc18f",
+    "signal": null,
+    "start_utc": "2026-10-09T12:28:04.224838+00:00",
+    "status": "PASS",
+    "stderr_bytes": 0,
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 223,
+    "stdout_sha256": "21789ef822e25f2497b8778c3b5090e54b1ba9c8e98e6ebddee5d4d25c91649f",
+    "stop_reason": null,
+    "tag": "smoke_ATG7",
+    "tblastn_sha256": "fea14b77d4452a524a003196824f414812126bd3fb64d950feec8bacccf4976c",
+    "thread_rule": "kill if live threads of process group > num_threads(2) + 4 at any sample",
+    "wall_monotonic_s": 3.82
+  },
+  "locus_json": {
+    "best": {
+      "best_pident": 72.152,
+      "best_qcov": 0.112,
+      "contig": "ref|NW_027104403.1|",
+      "end": 100334,
+      "n_hsps": 3,
+      "start": 87252,
+      "strand": "+",
+      "total_bits": 240.4
+    },
+    "loci": [
+      {
+        "best_pident": 72.152,
+        "best_qcov": 0.112,
+        "contig": "ref|NW_027104403.1|",
+        "end": 100334,
+        "n_hsps": 3,
+        "start": 87252,
+        "strand": "+",
+        "total_bits": 240.4
+      }
+    ],
+    "n_strong": 1,
+    "query": "O95352"
+  },
+  "matches_historical_fixture_canonical_sha": true,
+  "qualifies_ge100bit": true,
+  "_publication_note": "Scientific sanitized copy. Operational environment and host identifiers are omitted; absolute execution paths are redacted. Original receipts are privately retained. Scientific values are unchanged."
+}
