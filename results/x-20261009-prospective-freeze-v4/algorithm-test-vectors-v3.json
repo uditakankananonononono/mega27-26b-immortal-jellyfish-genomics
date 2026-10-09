@@ -1,0 +1,317 @@
+{
+  "canonical": "ASCII JSON sorted keys, separators comma/colon, no newline",
+  "status": "Independent protocol-text implementation matched all3 expected outputs/canonical hashes before freeze; implementation supplied here also3/3.",
+  "tests": [
+    {
+      "input": {
+        "records": [
+          {
+            "label": "A",
+            "accession": "0",
+            "sequence": "ACDEFGHIKL"
+          },
+          {
+            "label": "B",
+            "accession": "1",
+            "sequence": "ACDEFGHIKL"
+          },
+          {
+            "label": "C",
+            "accession": "2",
+            "sequence": "YYYYYYYYYY"
+          }
+        ],
+        "index": 0,
+        "pool": [
+          {
+            "accession": "null1",
+            "sequence": "AAAAAAAAAA"
+          },
+          {
+            "accession": "null2",
+            "sequence": "CCCCCCCCCC"
+          }
+        ],
+        "loci": [
+          {
+            "label": "A",
+            "contig": "one",
+            "start": 10,
+            "end": 20
+          },
+          {
+            "label": "B",
+            "contig": "one",
+            "start": 20,
+            "end": 30
+          },
+          {
+            "label": "C",
+            "contig": "two",
+            "start": 29,
+            "end": 40
+          }
+        ]
+      },
+      "expected_output": {
+        "cluster": {
+          "edges": [
+            [
+              "A",
+              "B"
+            ]
+          ],
+          "components": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "C"
+            ]
+          ],
+          "retained": [
+            "A",
+            "C"
+          ]
+        },
+        "scrambles": [
+          "HDGCIEKALF",
+          "HDGCIEKALF",
+          "YYYYYYYYYY"
+        ],
+        "real_matches": [
+          {
+            "label": "A",
+            "null": "null1"
+          },
+          {
+            "label": "B",
+            "null": "null2"
+          },
+          {
+            "label": "C",
+            "null": null
+          }
+        ],
+        "overlap": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "C"
+          ]
+        ]
+      },
+      "expected_canonical_json_sha256": "a886c71fdf8a01f0c71719ee94ca097588d58394193e7852a7d44d5cc0d94b67"
+    },
+    {
+      "input": {
+        "records": [
+          {
+            "label": "A",
+            "accession": "0",
+            "sequence": "ACDEFGHIKL"
+          },
+          {
+            "label": "B",
+            "accession": "1",
+            "sequence": "ACDEFGHIKM"
+          },
+          {
+            "label": "C",
+            "accession": "2",
+            "sequence": "ACDEFGHINM"
+          }
+        ],
+        "index": 7,
+        "pool": [
+          {
+            "accession": "null1",
+            "sequence": "AAAAAAAAAA"
+          },
+          {
+            "accession": "null2",
+            "sequence": "CCCCCCCCCC"
+          }
+        ],
+        "loci": [
+          {
+            "label": "A",
+            "contig": "one",
+            "start": 10,
+            "end": 20
+          },
+          {
+            "label": "B",
+            "contig": "one",
+            "start": 21,
+            "end": 30
+          },
+          {
+            "label": "C",
+            "contig": "one",
+            "start": 29,
+            "end": 40
+          }
+        ]
+      },
+      "expected_output": {
+        "cluster": {
+          "edges": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "B",
+              "C"
+            ]
+          ],
+          "components": [
+            [
+              "A",
+              "B",
+              "C"
+            ]
+          ],
+          "retained": [
+            "A"
+          ]
+        },
+        "scrambles": [
+          "GELCFADHKI",
+          "CAEGHIFDKM",
+          "ENMHAICDGF"
+        ],
+        "real_matches": [
+          {
+            "label": "A",
+            "null": "null1"
+          },
+          {
+            "label": "B",
+            "null": "null2"
+          },
+          {
+            "label": "C",
+            "null": null
+          }
+        ],
+        "overlap": [
+          [
+            "A"
+          ],
+          [
+            "B",
+            "C"
+          ]
+        ]
+      },
+      "expected_canonical_json_sha256": "3a762a27ed83e51ee6334571827bcdffaeaf49671fa54e72503c6b854e25a4e9"
+    },
+    {
+      "input": {
+        "records": [
+          {
+            "label": "A",
+            "accession": "0",
+            "sequence": "ACDEFGHIKL"
+          },
+          {
+            "label": "B",
+            "accession": "1",
+            "sequence": "ACDEFGHI"
+          },
+          {
+            "label": "C",
+            "accession": "2",
+            "sequence": "MNPQRSTVWY"
+          }
+        ],
+        "index": 99,
+        "pool": [
+          {
+            "accession": "null1",
+            "sequence": "AAAAAAAAAA"
+          },
+          {
+            "accession": "null2",
+            "sequence": "CCCCCCCC"
+          }
+        ],
+        "loci": [
+          {
+            "label": "A",
+            "contig": "one",
+            "start": 10,
+            "end": 20
+          },
+          {
+            "label": "B",
+            "contig": "one",
+            "start": 18,
+            "end": 30
+          },
+          {
+            "label": "C",
+            "contig": "one",
+            "start": 29,
+            "end": 40
+          }
+        ]
+      },
+      "expected_output": {
+        "cluster": {
+          "edges": [
+            [
+              "A",
+              "B"
+            ]
+          ],
+          "components": [
+            [
+              "A",
+              "B"
+            ],
+            [
+              "C"
+            ]
+          ],
+          "retained": [
+            "A",
+            "C"
+          ]
+        },
+        "scrambles": [
+          "KEAGFDICHL",
+          "HFADECGI",
+          "SWNTQVPYRM"
+        ],
+        "real_matches": [
+          {
+            "label": "A",
+            "null": "null1"
+          },
+          {
+            "label": "B",
+            "null": "null2"
+          },
+          {
+            "label": "C",
+            "null": null
+          }
+        ],
+        "overlap": [
+          [
+            "A",
+            "B",
+            "C"
+          ]
+        ]
+      },
+      "expected_canonical_json_sha256": "0898e05cc5e376fbe6cbc3fa02fec8c90a297d35a0859211dc1d602ee42cc4c0"
+    }
+  ]
+}

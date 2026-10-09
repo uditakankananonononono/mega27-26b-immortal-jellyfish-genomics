@@ -1,0 +1,66 @@
+{
+  "status": "v4-proposed-not-frozen",
+  "targets": [
+    "BAG3",
+    "DNAJB6",
+    "HSPB8",
+    "LAMP2",
+    "NBR1",
+    "PRKN",
+    "RB1CC1",
+    "STUB1",
+    "TBK1",
+    "WIPI2"
+  ],
+  "rationale": "See target-rationale-v3.json and preserved reviewed-human sources. PRKN canonical label, PARK2 explicit alias; not outcome-selected.",
+  "sources": [
+    "UniProtKB reviewed",
+    "UniProtKB unreviewed",
+    "NCBI RefSeq Protein"
+  ],
+  "queries": {
+    "BAG3": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:BAG3",
+      "ncbi": "Cnidaria[Organism] AND BAG3[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "DNAJB6": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:DNAJB6",
+      "ncbi": "Cnidaria[Organism] AND DNAJB6[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "HSPB8": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:HSPB8",
+      "ncbi": "Cnidaria[Organism] AND HSPB8[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "LAMP2": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:LAMP2",
+      "ncbi": "Cnidaria[Organism] AND LAMP2[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "NBR1": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:NBR1",
+      "ncbi": "Cnidaria[Organism] AND NBR1[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "RB1CC1": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:RB1CC1",
+      "ncbi": "Cnidaria[Organism] AND RB1CC1[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "STUB1": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:STUB1",
+      "ncbi": "Cnidaria[Organism] AND STUB1[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "TBK1": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:TBK1",
+      "ncbi": "Cnidaria[Organism] AND TBK1[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "WIPI2": {
+      "uniprot": "taxonomy_id:6073 AND gene_exact:WIPI2",
+      "ncbi": "Cnidaria[Organism] AND WIPI2[Gene Name] AND srcdb_refseq[PROP]"
+    },
+    "PRKN": {
+      "uniprot": "taxonomy_id:6073 AND (gene_exact:PRKN OR gene_exact:PARK2)",
+      "ncbi": "Cnidaria[Organism] AND (PRKN[Gene Name] OR PARK2[Gene Name]) AND srcdb_refseq[PROP]"
+    }
+  },
+  "record_window": "All records available at one discovery session snapshot after freeze; no publication-date exclusion. Record UTC retrieval time; no later requery.",
+  "stopping_rule": "One query per provider/label (20 total), snapshot count<=100/provider. >100 total returns from either provider voids label as overflow before reviews. No narrowing/paging rescue or transport retry. Metadata fetch all<=100, deduplicate versioned accessions/provider aliases. Sort metadata by reviewed UniProt first, unreviewed UniProt second, RefSeq third, then accession ASCII, sequence version ascending. Cap primary accession reviews to first20 sorted records/label, fixed before opening sequence/domain evidence. First all-A-E passer is provisionally chosen; no candidate21 if first20 fail. Operational failures permanent. Finish every label, disclose unused reviewed records and cap failures.",
+  "enrollment": "Exactly one provisional query per label (max10), then lexical-label global90%identity/80%coverage cheap duplicate clustering. Connected components, retain lexical first(label,accession) from each; no replacement after exclusion. Not genomic-locus independence. Controls assigned afterward deterministically from fixed pre-discovery pool. Real-control matching is applied ONLY to retained enrolled query sequences with their actual lengths; unmatched labels stay in primary count. Minimum matchedM5 is an unpowered descriptive reporting threshold."
+}

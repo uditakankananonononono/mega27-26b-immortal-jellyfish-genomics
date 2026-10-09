@@ -1,0 +1,96 @@
+{
+  "status": "prepared-source-witness-not-frozen-private-reference-preservation-incomplete",
+  "reference": "GCF_902728285.1",
+  "bases": 420978673,
+  "scaffolds": 1396,
+  "blast_version": "tblastn: 2.17.0+\n Package: blast 2.17.0, build Jul  1 2025 08:59:18\n",
+  "database_version": 4,
+  "files": [
+    {
+      "file": "blast.tar.gz",
+      "bytes": 296006458,
+      "sha256": "3888112d8207831aa47371d93583c601f058f88b5db22dc782438b039a3a411b"
+    },
+    {
+      "file": "clytia.nhr",
+      "bytes": 263844,
+      "sha256": "1ee15c8e54541f5034923655bbe9c212fcd4f2395de411755ced84e6112977ee"
+    },
+    {
+      "file": "clytia.nin",
+      "bytes": 16836,
+      "sha256": "577bd5b2b6a503fbddf781ab199df46fed2ca3ca7c87a0ad79bed8e690398de1"
+    },
+    {
+      "file": "clytia.njs",
+      "bytes": 440,
+      "sha256": "6df95662c9192054f983066a16acc5bb80e74c4bb0a61a4f94ae3c121ee5d156"
+    },
+    {
+      "file": "clytia.nog",
+      "bytes": 5616,
+      "sha256": "e63469e20a6464dd3ff3759edd75625662800689decc70ee81ae4e03f076454e"
+    },
+    {
+      "file": "clytia.nsd",
+      "bytes": 50828,
+      "sha256": "07b6d417b48c1b3a8279184405533a061759259aaa425ab9a93b5e4e9cb63eb4"
+    },
+    {
+      "file": "clytia.nsi",
+      "bytes": 1151,
+      "sha256": "1b379dae63b2fd1925d27b90c700ac74262fd4735615c84a8dfe5e971443b2d1"
+    },
+    {
+      "file": "clytia.nsq",
+      "bytes": 105275602,
+      "sha256": "cbe0887f691ba05ed495c79837feb0e786e51e078d5f0684d9d9099adb271209"
+    },
+    {
+      "file": "makeblastdb",
+      "bytes": 26516464,
+      "sha256": "c1ffdcf6f15d1d8d75377cc9f37afa42bc9fa06678903bad77c2641e60778fce"
+    },
+    {
+      "file": "reference.fna",
+      "bytes": 426442613,
+      "sha256": "0072d105681e78b1818f81d44eec66603ef1ed6d8362a862e630342416986ab4",
+      "md5": "e8a22393e68e62c7d00712bd8c1f74e5"
+    },
+    {
+      "file": "reference.fna.gz",
+      "bytes": 131843275,
+      "sha256": "2bd91e33f49d5b6953a7d8ac9262ab3805d15d826e6c9d3508a35f51e5f6b732",
+      "md5": "71fa45857c56b16017a4949c56a8c980"
+    },
+    {
+      "file": "tblastn",
+      "bytes": 36085856,
+      "sha256": "fea14b77d4452a524a003196824f414812126bd3fb64d950feec8bacccf4976c"
+    }
+  ],
+  "continuity": "Fresh reference/DB preparation; original DB bytes and hashes unrecoverable. No claim of hash equality or difference to unknown originals.",
+  "makeblastdb_wall_seconds": 8.303871270000002,
+  "build_exit": 0,
+  "build_stderr_empty": true,
+  "children_cpu_seconds": 5.078051,
+  "children_max_rss_kib": 304312,
+  "no_alignment_executed": true,
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/728/285/GCF_902728285.1_Clytia_hemisphaerica_genome_assembly/GCF_902728285.1_Clytia_hemisphaerica_genome_assembly_genomic.fna.gz",
+  "retrieval_utc_window": [
+    "2026-10-09T11:28:13Z",
+    "2026-10-09T11:28:16.283952+00:00"
+  ],
+  "retrieval_time_precision": "bounded by archived download command and workspace file completion; exact HTTP completion not separately logged",
+  "published_checksum_url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/728/285/GCF_902728285.1_Clytia_hemisphaerica_genome_assembly/md5checksums.txt",
+  "ncbi_published_gzip_md5": "71fa45857c56b16017a4949c56a8c980",
+  "private_preservation": "blocked by owner Drive quota, not done; no reference-byte copy exists outside temporary preparation storage",
+  "source_witness": "Versioned NCBI source with published MD5, verified against downloaded compressed bytes. Provenance only, not private preservation. Reproducibility depends on retention of exact NCBI file.",
+  "release_gate": "At alignment use, re-download exact version and verify compressed MD5/SHA256, decompressed MD5/SHA256 and counts. HOLD on retrieval failure or mismatch, no substitution. Or preserve verified bytes elsewhere owner chooses.",
+  "makeblastdb_command": "./makeblastdb -in reference.fna -dbtype nucl -parse_seqids -blastdb_version 4 -out clytia",
+  "makeblastdb_cwd": "reference-preparation directory containing reference.fna",
+  "makeblastdb_title": "reference.fna (implicit default, no -title argument)",
+  "build_stdout": "\n\nBuilding a new DB, current time: 10/09/2026 16:58:51\nNew DB name:   <preparation-directory>/clytia\nNew DB title:  reference.fna\nSequence type: Nucleotide\nKeep MBits: T\nMaximum file size: 3000000000B\nAdding sequences from FASTA; added 1396 sequences in 5.05535 seconds.\n\n\n",
+  "build_stderr": "",
+  "build_stdout_path_redaction": "Only absolute preparation path redacted in public record. Build text otherwise unchanged; full private build record retained."
+}

@@ -1,0 +1,6 @@
+{
+  "url": "https://rest.uniprot.org/uniprotkb/search?query=taxonomy_id%3A6073+AND+reviewed%3Atrue+AND+%28gene%3AACT+OR+gene%3ATUB+OR+gene%3AGAPDH+OR+gene%3AENO+OR+gene%3ALDH+OR+gene%3AALDO+OR+gene%3APGK+OR+gene%3AIDH+OR+gene%3AMDH+OR+gene%3ACS%29&format=json&size=100",
+  "response": {
+    "results": []
+  }
+}

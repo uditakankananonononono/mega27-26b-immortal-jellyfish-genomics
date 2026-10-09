@@ -1,0 +1,177 @@
+{
+  "status": "Human proxy feasibility ONLY, not prospective candidates, no scores. Actual enrolled-query matching feasibility is deferred to enrollment before alignment.",
+  "basis": "Exact reviewed-human source sequences in v3-sources; fixed20 pool unchanged.",
+  "individually_matchable": 6,
+  "human_proxy_full_panel_assignment": [
+    {
+      "label": "BAG3",
+      "null": "A0A0C2M3X2"
+    },
+    {
+      "label": "DNAJB6",
+      "null": "A0A169Q0T5"
+    },
+    {
+      "label": "HSPB8",
+      "null": null
+    },
+    {
+      "label": "LAMP2",
+      "null": "A0A0C2N5F6"
+    },
+    {
+      "label": "NBR1",
+      "null": null
+    },
+    {
+      "label": "PRKN",
+      "null": "A0A0C2IVW0"
+    },
+    {
+      "label": "RB1CC1",
+      "null": null
+    },
+    {
+      "label": "STUB1",
+      "null": "A0A0C2IUB3"
+    },
+    {
+      "label": "TBK1",
+      "null": null
+    },
+    {
+      "label": "WIPI2",
+      "null": "A0A2B4S642"
+    }
+  ],
+  "human_proxy_M": 6,
+  "operational_minimum_M": 5,
+  "no_power_claim": true,
+  "per_label": [
+    {
+      "label": "BAG3",
+      "human_proxy_length": 575,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IVW0",
+        "A0A0C2M3X2"
+      ]
+    },
+    {
+      "label": "DNAJB6",
+      "human_proxy_length": 326,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IUB3",
+        "A0A0C2IX04",
+        "A0A0C2IX80",
+        "A0A0C2NI64",
+        "A0A169Q0T5"
+      ]
+    },
+    {
+      "label": "HSPB8",
+      "human_proxy_length": 196,
+      "eligible_fixed_pool_accessions": []
+    },
+    {
+      "label": "LAMP2",
+      "human_proxy_length": 410,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IBH2",
+        "A0A0C2IVW0",
+        "A0A0C2IX04",
+        "A0A0C2IX80",
+        "A0A0C2M2Q1",
+        "A0A0C2M3X2",
+        "A0A0C2MRB1",
+        "A0A0C2N5F6",
+        "A0A0C2NI64",
+        "A0A169Q0T5",
+        "A0A2B4RJH1",
+        "A0A2B4RNK5",
+        "A0A2B4RPF6",
+        "A0A2B4RRK2",
+        "A0A2B4RUA5",
+        "A0A2B4RVA0",
+        "A0A2B4RZN2",
+        "A0A2B4S5S2",
+        "A0A2B4S642"
+      ]
+    },
+    {
+      "label": "NBR1",
+      "human_proxy_length": 966,
+      "eligible_fixed_pool_accessions": []
+    },
+    {
+      "label": "PRKN",
+      "human_proxy_length": 465,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IBH2",
+        "A0A0C2IVW0",
+        "A0A0C2IX04",
+        "A0A0C2IX80",
+        "A0A0C2M2Q1",
+        "A0A0C2M3X2",
+        "A0A0C2MRB1",
+        "A0A0C2N5F6",
+        "A0A2B4RJH1",
+        "A0A2B4RNK5",
+        "A0A2B4RPF6",
+        "A0A2B4RRK2",
+        "A0A2B4RUA5",
+        "A0A2B4RVA0",
+        "A0A2B4RZN2",
+        "A0A2B4S5S2",
+        "A0A2B4S642"
+      ]
+    },
+    {
+      "label": "RB1CC1",
+      "human_proxy_length": 1594,
+      "eligible_fixed_pool_accessions": []
+    },
+    {
+      "label": "STUB1",
+      "human_proxy_length": 303,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IUB3",
+        "A0A0C2IX04",
+        "A0A0C2IX80",
+        "A0A0C2NI64",
+        "A0A169Q0T5"
+      ]
+    },
+    {
+      "label": "TBK1",
+      "human_proxy_length": 729,
+      "eligible_fixed_pool_accessions": []
+    },
+    {
+      "label": "WIPI2",
+      "human_proxy_length": 454,
+      "eligible_fixed_pool_accessions": [
+        "A0A0C2IBH2",
+        "A0A0C2IVW0",
+        "A0A0C2IX04",
+        "A0A0C2IX80",
+        "A0A0C2M2Q1",
+        "A0A0C2M3X2",
+        "A0A0C2MRB1",
+        "A0A0C2N5F6",
+        "A0A2B4RJH1",
+        "A0A2B4RNK5",
+        "A0A2B4RPF6",
+        "A0A2B4RRK2",
+        "A0A2B4RUA5",
+        "A0A2B4RVA0",
+        "A0A2B4RZN2",
+        "A0A2B4S5S2",
+        "A0A2B4S642"
+      ]
+    }
+  ],
+  "full_pool_length_min_max": [
+    274,
+    497
+  ]
+}

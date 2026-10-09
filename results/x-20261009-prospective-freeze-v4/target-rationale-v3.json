@@ -1,0 +1,1788 @@
+{
+  "selection": "Author-selected finite hypothesis panel based on curated human proteostasis/autophagy/neurology functions. Not a random panel or exhaustive gene set. None of the ten labels was selected using any prior Clytia/other-genome alignment hit data. Rationale is panel inclusion only, never a predicted cnidarian ortholog or lifespan/disease mechanism claim. Curated source reads occurred before discovery.",
+  "targets": [
+    {
+      "label": "BAG3",
+      "accession": "O95817",
+      "entry_version": 230,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ABAG3&format=json&size=5",
+      "panel_reason": "Chaperone adapter and chaperone-assisted autophagy/protein quality control.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10597216"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24318877"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26159920"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27474739"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27884606"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30559338"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9873016"
+                }
+              ],
+              "value": "Co-chaperone and adapter protein that connects different classes of molecular chaperones including heat shock proteins 70 (HSP70s), e.g. HSPA1A/HSP70 or HSPA8/HSC70, and small heat shock proteins (sHSPs), e.g. HSPB8 (PubMed:27884606, PubMed:30559338). Acts as a nucleotide-exchange factor (NEF) promoting the release of ADP from HSP70s, thereby triggering client protein release (PubMed:27884606, PubMed:30559338). Nucleotide release is mediated via BAG3 binding to the nucleotide-binding domain (NBD) of HSP70s, whereas client release is mediated via binding to the substrate-binding domain (SBD) (PubMed:27474739, PubMed:9873016). Has anti-apoptotic activity (PubMed:10597216). Plays a role in the HSF1 nucleocytoplasmic transport (PubMed:26159920)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Myopathy, myofibrillar, 6",
+            "diseaseAccession": "DI-02541",
+            "acronym": "MFM6",
+            "description": "A form of myofibrillar myopathy, a group of chronic neuromuscular disorders characterized at ultrastructural level by disintegration of the sarcomeric Z disk and myofibrils, and replacement of the normal myofibrillar markings by small dense granules, or larger hyaline masses, or amorphous material. MFM6 is characterized by early-onset of severe, progressive, diffuse muscle weakness associated with cardiomyopathy, severe respiratory insufficiency during adolescence, and a rigid spine in some patients.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "612954"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19085932"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20605452"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21361913"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21898660"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22734908"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25208129"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30559338"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32859500"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Cardiomyopathy, dilated, 1HH",
+            "diseaseAccession": "DI-03042",
+            "acronym": "CMD1HH",
+            "description": "A disorder characterized by ventricular dilation and impaired systolic function, resulting in congestive heart failure and arrhythmia. Patients are at risk of premature death.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "613881"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21353195"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21459883"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21898660"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Neuronopathy, distal hereditary motor, autosomal dominant 15",
+            "diseaseAccession": "DI-06998",
+            "acronym": "HMND15",
+            "description": "A form of distal hereditary motor neuronopathy, a heterogeneous group of neuromuscular disorders caused by selective degeneration of motor neurons in the anterior horn of the spinal cord, without sensory deficit in the posterior horn. The overall clinical picture consists of a classical distal muscular atrophy syndrome in the legs without clinical sensory loss. Weakness and atrophy may expand to the proximal muscles of the lower limbs and/or to the distal upper limbs. HMND15 is an adult-onset, autosomal dominant form with incomplete penetrance. HMND15 affected individuals exhibit a slowly progressive and symmetric distal weakness and atrophy of lower limb muscles, along with absent Achille reflexes. Sensory deficits are not present.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "621094"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "37907725"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Charcot-Marie-Tooth disease, axonal, type 2JJ",
+            "diseaseAccession": "DI-06999",
+            "acronym": "CMT2JJ",
+            "description": "An autosomal dominant, axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy. CMT2JJ is characterized by adult onset of distal sensory impairment and distal muscle weakness and atrophy predominantly affecting the lower limbs.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "621095"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "28754666"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "31853710"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/BAG3-human.json"
+    },
+    {
+      "label": "DNAJB6",
+      "accession": "O75190",
+      "entry_version": 224,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ADNAJB6&format=json&size=5",
+      "panel_reason": "HSP40 co-chaperone with aggregation-suppression function and curated myopathy association.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10954706"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11896048"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20159555"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22366786"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28233300"
+                }
+              ],
+              "value": "Has a stimulatory effect on the ATPase activity of HSP70 in a dose-dependent and time-dependent manner and hence acts as a co-chaperone of HSP70 (PubMed:10954706, PubMed:28233300). Plays an indispensable role in the organization of KRT8/KRT18 filaments (PubMed:10954706). Acts as an endogenous molecular chaperone for neuronal proteins including huntingtin (PubMed:11896048, PubMed:22366786). Suppresses aggregation and toxicity of polyglutamine-containing, aggregation-prone proteins (PubMed:20159555, PubMed:22366786). Also reduces cellular toxicity and caspase-3 activity (PubMed:11896048)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20159555"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22366786"
+                }
+              ],
+              "value": "Isoform B but not isoform A inhibits huntingtin aggregation"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Isoform B"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Muscular dystrophy, limb-girdle, autosomal dominant 1",
+            "diseaseAccession": "DI-03434",
+            "acronym": "LGMDD1",
+            "description": "An autosomal dominant myopathy characterized by adult onset of proximal muscle weakness, beginning in the hip girdle region and later progressing to the shoulder girdle region.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "603511"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22334415"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22366786"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "22366786"
+                  }
+                ],
+                "value": "The disease is caused by variants affecting the gene represented in this entry. There is evidence that LGMDD1 is caused by dysfunction of isoform B (PubMed:22366786)"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/DNAJB6-human.json"
+    },
+    {
+      "label": "HSPB8",
+      "accession": "Q9UJY1",
+      "entry_version": 216,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3AHSPB8&format=json&size=5",
+      "panel_reason": "Small heat-shock chaperone associated with protein quality control and motor-neuropathy annotations.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9JK92"
+                }
+              ],
+              "value": "Involved in the chaperone-assisted selective autophagy (CASA), a crucial process for protein quality control, particularly in mechanical strained cells and tissues such as muscle. Displays temperature-dependent chaperone activity"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Neuronopathy, distal hereditary motor, autosomal dominant 2",
+            "diseaseAccession": "DI-00400",
+            "acronym": "HMND2",
+            "description": "A form of distal hereditary motor neuronopathy, a heterogeneous group of neuromuscular disorders caused by selective degeneration of motor neurons in the anterior horn of the spinal cord, without sensory deficit in the posterior horn. The overall clinical picture consists of a classical distal muscular atrophy syndrome in the legs without clinical sensory loss. The disease starts with weakness and wasting of distal muscles of the anterior tibial and peroneal compartments of the legs. Later on, weakness and atrophy may expand to the proximal muscles of the lower limbs and/or to the distal upper limbs.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "158590"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15122253"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "28144995"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "29029362"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Charcot-Marie-Tooth disease, axonal, type 2L",
+            "diseaseAccession": "DI-00284",
+            "acronym": "CMT2L",
+            "description": "An autosomal dominant, axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "608673"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15565283"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "23796487"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Myopathy, myofibrillar, 13, with rimmed vacuoles",
+            "diseaseAccession": "DI-06995",
+            "acronym": "MFM13",
+            "description": "A form of myofibrillar myopathy, a group of chronic neuromuscular disorders characterized at ultrastructural level by disintegration of the sarcomeric Z disk and myofibrils, and replacement of the normal myofibrillar markings by small dense granules, or larger hyaline masses, or amorphous material. MFM13 is an autosomal dominant form characterized by progressive distal and proximal muscle weakness, muscle atrophy, and unsteady gait and walking difficulties. Symptoms usually begin in adulthood, although earlier disease onset has been reported in some cases. Muscle biopsy shows myofibrillar changes and rimmed vacuoles. Some patients have features of a peripheral motor or sensorimotor neuropathy.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "621078"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "26718575"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "28501893"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "31403083"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32165108"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "33744911"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "39548192"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/HSPB8-human.json"
+    },
+    {
+      "label": "LAMP2",
+      "accession": "P13473",
+      "entry_version": 242,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ALAMP2&format=json&size=5",
+      "panel_reason": "Lysosomal membrane protein with autophagy/lysosomal degradation roles.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P17046"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11082038"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15894275"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18644871"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20518820"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24880125"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27628032"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "36586411"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "37390818"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8662539"
+                }
+              ],
+              "value": "Lysosomal membrane glycoprotein which plays an important role in lysosome biogenesis, lysosomal pH regulation and autophagy (PubMed:11082038, PubMed:18644871, PubMed:24880125, PubMed:27628032, PubMed:36586411, PubMed:37390818, PubMed:8662539). Acts as an important regulator of lysosomal lumen pH regulation by acting as a direct inhibitor of the proton channel TMEM175, facilitating lysosomal acidification for optimal hydrolase activity (PubMed:37390818). Plays an important role in chaperone-mediated autophagy, a process that mediates lysosomal degradation of proteins in response to various stresses and as part of the normal turnover of proteins with a long biological half-live (PubMed:11082038, PubMed:18644871, PubMed:24880125, PubMed:27628032, PubMed:36586411, PubMed:8662539). Functions by binding target proteins, such as GAPDH, GPX4, NLRP3 and MLLT11, and targeting them for lysosomal degradation (PubMed:11082038, PubMed:18644871, PubMed:24880125, PubMed:36586411, PubMed:8662539). In the chaperone-mediated autophagy, acts downstream of chaperones, such as HSPA8/HSC70, which recognize and bind substrate proteins and mediate their recruitment to lysosomes, where target proteins bind LAMP2 (PubMed:36586411). Plays a role in lysosomal protein degradation in response to starvation (By similarity). Required for the fusion of autophagosomes with lysosomes during autophagy (PubMed:27628032). Cells that lack LAMP2 express normal levels of VAMP8, but fail to accumulate STX17 on autophagosomes, which is the most likely explanation for the lack of fusion between autophagosomes and lysosomes (PubMed:27628032). Required for normal degradation of the contents of autophagosomes (PubMed:27628032). Required for efficient MHC class II-mediated presentation of exogenous antigens via its function in lysosomal protein degradation; antigenic peptides generated by proteases in the endosomal/lysosomal compartment are captured by nascent MHC II subunits (PubMed:15894275, PubMed:20518820). Is not required for efficient MHC class II-mediated presentation of endogenous antigens (PubMed:20518820)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26856698"
+                }
+              ],
+              "value": "Modulates chaperone-mediated autophagy. Decreases presentation of endogenous antigens by MHCII. Does not play a role in the presentation of exogenous and membrane-derived antigens by MHCII"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Isoform LAMP-2C"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32295904"
+                }
+              ],
+              "value": "(Microbial infection) Supports the FURIN-mediated cleavage of mumps virus fusion protein F by interacting with both FURIN and the unprocessed form but not the processed form of the viral protein F"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Danon disease",
+            "diseaseAccession": "DI-00385",
+            "acronym": "DAND",
+            "description": "DAND is a lysosomal glycogen storage disease characterized by the clinical triad of cardiomyopathy, vacuolar myopathy and intellectual disability. It is often associated with an accumulation of glycogen in muscle and lysosomes.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "300257"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15673802"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15907287"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/LAMP2-human.json"
+    },
+    {
+      "label": "NBR1",
+      "accession": "Q14596",
+      "entry_version": 229,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ANBR1&format=json&size=5",
+      "panel_reason": "Selective autophagy cargo receptor for ubiquitinated proteins.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P97432"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19250911"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24692539"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24879152"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "33577621"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "34471133"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "35914352"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "38169523"
+                }
+              ],
+              "value": "Ubiquitin-binding autophagy adapter that participates in different processes including host defense or intracellular homeostasis (PubMed:24692539, PubMed:33577621). Possesses a double function during the selective autophagy by acting as a shuttle bringing ubiquitinated proteins to autophagosomes and also by participating in the formation of protein aggregates (PubMed:24879152, PubMed:34471133, PubMed:38169523). Plays a role in the regulation of the innate immune response by modulating type I interferon production and targeting ubiquitinated IRF3 for autophagic degradation (PubMed:35914352). In response to oxidative stress, promotes an increase in SQSTM1 levels, phosphorylation, and body formation by preventing its autophagic degradation (By similarity). In turn, activates the KEAP1-NRF2/NFE2L2 antioxidant pathway (By similarity). Also plays non-autophagy role by mediating the shuttle of IL-12 to late endosome for subsequent secretion (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "source_file": "v3-sources/NBR1-human.json"
+    },
+    {
+      "label": "PRKN",
+      "accession": "O60260",
+      "entry_version": 238,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3APRKN&format=json&size=5",
+      "panel_reason": "Ubiquitin ligase linked to mitochondrial quality control and Parkinson disease annotations.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10888878"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10973942"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11431533"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11439185"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11590439"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12150907"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12628165"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12719539"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15105460"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15728840"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16135753"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17846173"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18541373"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18957282"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19029340"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19229105"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19801972"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19966284"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20889974"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21376232"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21532592"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21753002"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22082830"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22396657"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23620051"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23685073"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23754282"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23933751"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24660806"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24751536"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24784582"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24896179"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "25474007"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "25527291"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "25621951"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27534820"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "29311685"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32047033"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "33499712"
+                }
+              ],
+              "value": "Functions within a multiprotein E3 ubiquitin ligase complex, catalyzing the covalent attachment of ubiquitin moieties onto substrate proteins (PubMed:10888878, PubMed:10973942, PubMed:11431533, PubMed:12150907, PubMed:12628165, PubMed:15105460, PubMed:16135753, PubMed:21376232, PubMed:21532592, PubMed:22396657, PubMed:23620051, PubMed:23754282, PubMed:24660806, PubMed:24751536, PubMed:29311685, PubMed:32047033). Substrates include SYT11 and VDAC1 (PubMed:29311685, PubMed:32047033). Other substrates are BCL2, CCNE1, GPR37, RHOT1/MIRO1, MFN1, MFN2, STUB1, SNCAIP, SEPTIN5, TOMM20, USP30, ZNF746, MIRO1 and AIMP2 (PubMed:10888878, PubMed:10973942, PubMed:11431533, PubMed:12150907, PubMed:12628165, PubMed:15105460, PubMed:16135753, PubMed:21376232, PubMed:21532592, PubMed:22396657, PubMed:23620051, PubMed:23754282, PubMed:24660806, PubMed:24751536). Mediates monoubiquitination as well as 'Lys-6', 'Lys-11', 'Lys-48'-linked and 'Lys-63'-linked polyubiquitination of substrates depending on the context (PubMed:19229105, PubMed:20889974, PubMed:25474007, PubMed:25621951, PubMed:32047033). Participates in the removal and/or detoxification of abnormally folded or damaged protein by mediating 'Lys-63'-linked polyubiquitination of misfolded proteins such as PARK7: 'Lys-63'-linked polyubiquitinated misfolded proteins are then recognized by HDAC6, leading to their recruitment to aggresomes, followed by degradation (PubMed:17846173, PubMed:19229105). Mediates 'Lys-63'-linked polyubiquitination of a 22 kDa O-linked glycosylated isoform of SNCAIP, possibly playing a role in Lewy-body formation (PubMed:11431533, PubMed:11590439, PubMed:15105460, PubMed:15728840, PubMed:19229105). Mediates monoubiquitination of BCL2, thereby acting as a positive regulator of autophagy (PubMed:20889974). Protects against mitochondrial dysfunction during cellular stress, by acting downstream of PINK1 to coordinate mitochondrial quality control mechanisms that remove and replace dysfunctional mitochondrial components (PubMed:11439185, PubMed:18957282, PubMed:19029340, PubMed:19966284, PubMed:21376232, PubMed:22082830, PubMed:22396657, PubMed:23620051, PubMed:23933751, PubMed:24660806, PubMed:24784582, PubMed:24896179, PubMed:25474007, PubMed:25527291, PubMed:32047033). Depending on the severity of mitochondrial damage and/or dysfunction, activity ranges from preventing apoptosis and stimulating mitochondrial biogenesis to regulating mitochondrial dynamics and eliminating severely damaged mitochondria via mitophagy (PubMed:11439185, PubMed:19029340, PubMed:19801972, PubMed:19966284, PubMed:21376232, PubMed:22082830, PubMed:22396657, PubMed:23620051, PubMed:23685073, PubMed:23933751, PubMed:24896179, PubMed:25527291, PubMed:32047033, PubMed:33499712). Activation and recruitment onto the outer membrane of damaged/dysfunctional mitochondria (OMM) requires PINK1-mediated phosphorylation of both PRKN and ubiquitin (PubMed:24660806, PubMed:24784582, PubMed:25474007, PubMed:25527291). After mitochondrial damage, functions with PINK1 to mediate the decision between mitophagy or preventing apoptosis by inducing either the poly- or monoubiquitination of VDAC1, respectively; polyubiquitination of VDAC1 promotes mitophagy, while monoubiquitination of VDAC1 decreases mitochondrial calcium influx which ultimately inhibits apoptosis (PubMed:27534820, PubMed:32047033). When cellular stress results in irreversible mitochondrial damage, promotes the autophagic degradation of dysfunctional depolarized mitochondria (mitophagy) by promoting the ubiquitination of mitochondrial proteins such as TOMM20, RHOT1/MIRO1, MFN1 and USP30 (PubMed:19029340, PubMed:19966284, PubMed:21753002, PubMed:22396657, PubMed:23620051, PubMed:23685073, PubMed:23933751, PubMed:24896179, PubMed:25527291). Preferentially assembles 'Lys-6'-, 'Lys-11'- and 'Lys-63'-linked polyubiquitin chains, leading to mitophagy (PubMed:25621951, PubMed:32047033). The PINK1-PRKN pathway also promotes fission of damaged mitochondria by PINK1-mediated phosphorylation which promotes the PRKN-dependent degradation of mitochondrial proteins involved in fission such as MFN2 (PubMed:23620051). This prevents the refusion of unhealthy mitochondria with the mitochondrial network or initiates mitochondrial fragmentation facilitating their later engulfment by autophagosomes (PubMed:23620051). Regulates motility of damaged mitochondria via the ubiquitination and subsequent degradation of MIRO1 and MIRO2; in motor neurons, this likely inhibits mitochondrial intracellular anterograde transport along the axons which probably increases the chance of the mitochondria undergoing mitophagy in the soma (PubMed:22396657). Involved in mitochondrial biogenesis via the 'Lys-48'-linked polyubiquitination of transcriptional repressor ZNF746/PARIS which leads to its subsequent proteasomal degradation and allows activation of the transcription factor PPARGC1A (PubMed:21376232). Limits the production of reactive oxygen species (ROS) (PubMed:18541373). Regulates cyclin-E during neuronal apoptosis (PubMed:12628165). In collaboration with CHPF isoform 2, may enhance cell viability and protect cells from oxidative stress (PubMed:22082830). Independently of its ubiquitin ligase activity, protects from apoptosis by the transcriptional repression of p53/TP53 (PubMed:19801972). May protect neurons against alpha synuclein toxicity, proteasomal dysfunction, GPR37 accumulation, and kainate-induced excitotoxicity (PubMed:11439185). May play a role in controlling neurotransmitter trafficking at the presynaptic terminal and in calcium-dependent exocytosis. May represent a tumor suppressor gene (PubMed:12719539)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Parkinson disease",
+            "diseaseAccession": "DI-02134",
+            "acronym": "PARK",
+            "description": "A complex neurodegenerative disorder characterized by bradykinesia, resting tremor, muscular rigidity and postural instability. Additional features are characteristic postural abnormalities, dysautonomia, dystonic cramps, and dementia. The pathology of Parkinson disease involves the loss of dopaminergic neurons in the substantia nigra and the presence of Lewy bodies (intraneuronal accumulations of aggregated proteins), in surviving neurons in various areas of the brain. The disease is progressive and usually manifests after the age of 50 years, although early-onset cases (before 50 years) are known. The majority of the cases are sporadic suggesting a multifactorial etiology based on environmental and genetic factors. However, some patients present with a positive family history for the disease. Familial forms of the disease usually begin at earlier ages and are associated with atypical clinical features.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "168600"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12629236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12730996"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19966284"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "29311685"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "Disease susceptibility may be associated with variants affecting the gene represented in this entry. Heterozygous mutations act as susceptibility alleles for late-onset Parkinson disease (PubMed:12629236, PubMed:12730996)"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Parkinson disease 2",
+            "diseaseAccession": "DI-01238",
+            "acronym": "PARK2",
+            "description": "An autosomal recessive form of Parkinson disease, a complex neurodegenerative disorder characterized by bradykinesia, resting tremor, muscular rigidity and postural instability. PARK2 differs from classic forms of Parkinson disease by early DOPA-induced dyskinesia, diurnal fluctuation of the symptoms, sleep benefit, dystonia and hyper-reflexia. Dementia is absent. Pathologically, patients show loss of dopaminergic neurons in the substantia nigra, similar to that seen in classic Parkinson disease; however, Lewy bodies (intraneuronal accumulations of aggregated proteins) are absent. Disease onset is usually before age 40 years.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "600116"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10072423"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10824074"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10888878"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10939576"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11163284"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11179010"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11431533"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11487568"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11590439"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11971093"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12056932"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12112109"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12114481"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12116199"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12362318"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12397156"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12629236"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12730996"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12925569"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15584030"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17360614"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19229105"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19801972"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20404107"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20889486"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20889974"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21376232"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22396657"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22956510"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "23770917"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32047033"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9560156"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9731209"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "note": {
+            "texts": [
+              {
+                "value": "Defects in PRKN may be involved in the development and/or progression of ovarian cancer"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/PRKN-human.json"
+    },
+    {
+      "label": "RB1CC1",
+      "accession": "Q8TDY2",
+      "entry_version": 185,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ARB1CC1&format=json&size=5",
+      "panel_reason": "FIP200, autophagy initiation scaffold.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9ESK9"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10769033"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12095676"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12163359"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12221124"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "14533007"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21775823"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23392225"
+                }
+              ],
+              "value": "Involved in autophagy (PubMed:21775823). Regulates early events but also late events of autophagosome formation through direct interaction with Atg16L1 (PubMed:23392225). Required for the formation of the autophagosome-like double-membrane structure that surrounds the Salmonella-containing vacuole (SCV) during S.typhimurium infection and subsequent xenophagy (By similarity). Involved in repair of DNA damage caused by ionizing radiation, which subsequently improves cell survival by decreasing apoptosis (By similarity). Inhibits PTK2/FAK1 and PTK2B/PYK2 kinase activity, affecting their downstream signaling pathways (PubMed:10769033, PubMed:12221124). Plays a role as a modulator of TGF-beta-signaling by restricting substrate specificity of RNF111 (By similarity). Functions as a DNA-binding transcription factor (PubMed:12095676). Is a potent regulator of the RB1 pathway through induction of RB1 expression (PubMed:14533007). Plays a crucial role in muscular differentiation (PubMed:12163359). Plays an indispensable role in fetal hematopoiesis and in the regulation of neuronal homeostasis (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "source_file": "v3-sources/RB1CC1-human.json"
+    },
+    {
+      "label": "STUB1",
+      "accession": "Q9UNE7",
+      "entry_version": 219,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ASTUB1&format=json&size=5",
+      "panel_reason": "CHIP, chaperone-associated ubiquitin ligase linking folding to degradation.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "A6HD62"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9WUD1"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10330192"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11146632"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11557750"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15466472"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17369820"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19103148"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19483080"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19567782"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19713937"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20724525"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23973223"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23990462"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24043303"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24613385"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26265139"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26634371"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27708256"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28813410"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "29883609"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30980393"
+                }
+              ],
+              "value": "E3 ubiquitin-protein ligase which targets misfolded chaperone substrates towards proteasomal degradation (PubMed:10330192, PubMed:11146632, PubMed:11557750, PubMed:23990462, PubMed:26265139). Plays a role in the maintenance of mitochondrial morphology and promotes mitophagic removal of dysfunctional mitochondria; thereby acts as a protector against apoptosis in response to cellular stress (By similarity). Negatively regulates vascular smooth muscle contraction, via degradation of the transcriptional activator MYOCD and subsequent loss of transcription of genes involved in vascular smooth muscle contraction (By similarity). Promotes survival and proliferation of cardiac smooth muscle cells via ubiquitination and degradation of FOXO1, resulting in subsequent repression of FOXO1-mediated transcription of pro-apoptotic genes (PubMed:19483080). Ubiquitinates ICER-type isoforms of CREM and targets them for proteasomal degradation, thereby acts as a positive effector of MAPK/ERK-mediated inhibition of apoptosis in cardiomyocytes (PubMed:20724525). Inhibits lipopolysaccharide-induced apoptosis and hypertrophy in cardiomyocytes, via ubiquitination and subsequent proteasomal degradation of NFATC3 (PubMed:30980393). Collaborates with ATXN3 in the degradation of misfolded chaperone substrates: ATXN3 restricting the length of ubiquitin chain attached to STUB1/CHIP substrates and preventing further chain extension (PubMed:10330192, PubMed:11146632, PubMed:11557750, PubMed:23990462). Ubiquitinates NOS1 in concert with Hsp70 and Hsp40 (PubMed:15466472). Modulates the activity of several chaperone complexes, including Hsp70, Hsc70 and Hsp90 (PubMed:10330192, PubMed:11146632, PubMed:15466472). Ubiquitinates CHRNA3 targeting it for endoplasmic reticulum-associated degradation in cortical neurons, as part of the STUB1-VCP-UBXN2A complex (PubMed:26265139). Ubiquitinates and promotes ESR1 proteasomal degradation in response to age-related circulating estradiol (17-beta-estradiol/E2) decline, thereby promotes neuronal apoptosis in response to ischemic reperfusion injury (By similarity). Mediates transfer of non-canonical short ubiquitin chains to HSPA8 that have no effect on HSPA8 degradation (PubMed:11557750, PubMed:23990462). Mediates polyubiquitination of DNA polymerase beta (POLB) at 'Lys-41', 'Lys-61' and 'Lys-81', thereby playing a role in base-excision repair: catalyzes polyubiquitination by amplifying the HUWE1/ARF-BP1-dependent monoubiquitination and leading to POLB-degradation by the proteasome (PubMed:19713937). Mediates polyubiquitination of CYP3A4 (PubMed:19103148). Ubiquitinates EPHA2 and may regulate the receptor stability and activity through proteasomal degradation (PubMed:19567782). Acts as a co-chaperone for HSPA1A and HSPA1B chaperone proteins and promotes ubiquitin-mediated protein degradation (PubMed:27708256). Negatively regulates the suppressive function of regulatory T-cells (Treg) during inflammation by mediating the ubiquitination and degradation of FOXP3 in a HSPA1A/B-dependent manner (PubMed:23973223). Catalyzes monoubiquitination of SIRT6, preventing its degradation by the proteasome (PubMed:24043303). Likely mediates polyubiquitination and down-regulates plasma membrane expression of PD-L1/CD274, an immune inhibitory ligand critical for immune tolerance to self and antitumor immunity (PubMed:28813410). Negatively regulates TGF-beta signaling by modulating the basal level of SMAD3 via ubiquitin-mediated degradation (PubMed:24613385). Plays a role in the degradation of TP53 (PubMed:26634371). Mediates ubiquitination of RIPK3 leading to its subsequent proteasome-dependent degradation (PubMed:29883609). May regulate myosin assembly in striated muscles together with UBE4B and VCP/p97 by targeting myosin chaperone UNC45B for proteasomal degradation (PubMed:17369820). Ubiquitinates PPARG in macrophages playing a role in M2 macrophages polarization and angiogenesis (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Spinocerebellar ataxia, autosomal recessive, 16",
+            "diseaseAccession": "DI-04081",
+            "acronym": "SCAR16",
+            "description": "A form of spinocerebellar ataxia, a clinically and genetically heterogeneous group of cerebellar disorders. Patients show progressive incoordination of gait and often poor coordination of hands, speech and eye movements, due to degeneration of the cerebellum with variable involvement of the brainstem and spinal cord. SCAR16 is characterized by truncal and limb ataxia resulting in gait instability. Additionally, patients may show dysarthria, nystagmus, spasticity of the lower limbs, and mild peripheral sensory neuropathy.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "615768"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24113144"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24312598"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24719489"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24742043"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25258038"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Spinocerebellar ataxia 48",
+            "diseaseAccession": "DI-05368",
+            "acronym": "SCA48",
+            "description": "A form of spinocerebellar ataxia, a clinically and genetically heterogeneous group of cerebellar disorders. Patients show progressive incoordination of gait and often poor coordination of hands, speech and eye movements, due to degeneration of the cerebellum with variable involvement of the brainstem and spinal cord. SCA48 is an autosomal dominant neurodegenerative disease characterized by onset in mid-adulthood of progressive cognitive decline and gait ataxia, and vermian and hemispheric cerebellar atrophy.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "618093"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30381368"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/STUB1-human.json"
+    },
+    {
+      "label": "TBK1",
+      "accession": "Q9UHD2",
+      "entry_version": 217,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3ATBK1&format=json&size=5",
+      "panel_reason": "Kinase implicated in selective autophagy and curated ALS-related annotations.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "Q9WUN2"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10581243"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10783893"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11839743"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12692549"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12702806"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "14703513"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15367631"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15485837"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15489227"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16155125"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18583960"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21138416"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21270402"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21464307"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21617041"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21931631"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22851595"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23453971"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23453972"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23746807"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "25636800"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26611359"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27103069"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27135603"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "29150432"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30842653"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31530866"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "31709703"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32298923"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32972995"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "34363755"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "37926288"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "38917796"
+                }
+              ],
+              "value": "Serine/threonine kinase that plays an essential role in regulating inflammatory responses to foreign agents (PubMed:10581243, PubMed:11839743, PubMed:12692549, PubMed:12702806, PubMed:14703513, PubMed:15367631, PubMed:15485837, PubMed:18583960, PubMed:21138416, PubMed:23453971, PubMed:23453972, PubMed:23746807, PubMed:25636800, PubMed:26611359, PubMed:32404352, PubMed:34363755, PubMed:32298923). Following activation of toll-like receptors by viral or bacterial components, associates with TRAF3 and TANK and phosphorylates interferon regulatory factors (IRFs) IRF3 and IRF7 as well as DDX3X (PubMed:12692549, PubMed:12702806, PubMed:14703513, PubMed:15367631, PubMed:18583960, PubMed:25636800). This activity allows subsequent homodimerization and nuclear translocation of the IRFs leading to transcriptional activation of pro-inflammatory and antiviral genes including IFNA and IFNB (PubMed:12702806, PubMed:15367631, PubMed:25636800, PubMed:32972995). In order to establish such an antiviral state, TBK1 form several different complexes whose composition depends on the type of cell and cellular stimuli (PubMed:23453971, PubMed:23453972, PubMed:23746807). Plays a key role in IRF3 activation: acts by first phosphorylating innate adapter proteins MAVS, STING1 and TICAM1 on their pLxIS motif, leading to recruitment of IRF3, thereby licensing IRF3 for phosphorylation by TBK1 (PubMed:25636800, PubMed:30842653, PubMed:37926288, PubMed:38917796). Phosphorylated IRF3 dissociates from the adapter proteins, dimerizes, and then enters the nucleus to induce expression of interferons (PubMed:25636800). Thus, several scaffolding molecules including FADD, TRADD, MAVS, AZI2, TANK or TBKBP1/SINTBAD can be recruited to the TBK1-containing-complexes (PubMed:21931631). Under particular conditions, functions as a NF-kappa-B effector by phosphorylating NF-kappa-B inhibitor alpha/NFKBIA, IKBKB or RELA to translocate NF-Kappa-B to the nucleus (PubMed:10783893, PubMed:15489227). Restricts bacterial proliferation by phosphorylating the autophagy receptor OPTN/Optineurin on 'Ser-177', thus enhancing LC3 binding affinity and antibacterial autophagy (PubMed:21617041). Phosphorylates SMCR8 component of the C9orf72-SMCR8 complex, promoting autophagosome maturation (PubMed:27103069). Phosphorylates ATG8 proteins MAP1LC3C and GABARAPL2, thereby preventing their delipidation and premature removal from nascent autophagosomes (PubMed:31709703). Seems to play a role in energy balance regulation by sustaining a state of chronic, low-grade inflammation in obesity, which leads to a negative impact on insulin sensitivity (By similarity). Attenuates retroviral budding by phosphorylating the endosomal sorting complex required for transport-I (ESCRT-I) subunit VPS37C (PubMed:21270402). Phosphorylates Borna disease virus (BDV) P protein (PubMed:16155125). Plays an essential role in the TLR3- and IFN-dependent control of herpes virus HSV-1 and HSV-2 infections in the central nervous system (PubMed:22851595). Acts both as a positive and negative regulator of the mTORC1 complex, depending on the context: activates mTORC1 in response to growth factors by catalyzing phosphorylation of MTOR, while it limits the mTORC1 complex by promoting phosphorylation of RPTOR (PubMed:29150432, PubMed:31530866). Acts as a positive regulator of the mTORC2 complex by mediating phosphorylation of MTOR, leading to increased phosphorylation and activation of AKT1 (By similarity). Phosphorylates and activates AKT1 (PubMed:21464307). Involved in the regulation of TNF-induced RIPK1-mediated cell death, probably acting via CYLD phosphorylation that in turn controls RIPK1 ubiquitination status (PubMed:34363755). Also participates in the differentiation of T follicular regulatory cells together with the receptor ICOS (PubMed:27135603)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Glaucoma 1, open angle, P",
+            "diseaseAccession": "DI-03709",
+            "acronym": "GLC1P",
+            "description": "A form of primary open angle glaucoma (POAG). POAG is characterized by a specific pattern of optic nerve and visual field defects. The angle of the anterior chamber of the eye is open, and usually the intraocular pressure is increased. However, glaucoma can occur at any intraocular pressure. The disease is generally asymptomatic until the late stages, by which time significant and irreversible optic nerve damage has already taken place. GLC1P is characterized by early onset, thin central corneas and low intraocular pressure.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "177700"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21447600"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22306015"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "source": "PubMed",
+                    "id": "21447600"
+                  }
+                ],
+                "value": "The disease may be caused by variants affecting the gene represented in this entry. A copy number variation on chromosome 12q14 consisting of a 300 kb duplication that includes TBK1, XPOT, RASSF3 and GNS has been found in individuals affected by glaucoma. TBK1 is the most likely candidate for the disorder (PubMed:21447600)"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Frontotemporal dementia and/or amyotrophic lateral sclerosis 4",
+            "diseaseAccession": "DI-04472",
+            "acronym": "FTDALS4",
+            "description": "A neurodegenerative disorder characterized by frontotemporal dementia and/or amyotrophic lateral sclerosis in affected individuals. There is high intrafamilial variation. Frontotemporal dementia is characterized by frontal and temporal lobe atrophy associated with neuronal loss, gliosis, and dementia. Patients exhibit progressive changes in social, behavioral, and/or language function. Amyotrophic lateral sclerosis is characterized by the death of motor neurons in the brain, brainstem, and spinal cord, resulting in fatal paralysis.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "616439"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25803835"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25943890"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Encephalopathy, acute, infection-induced, 8, herpes-specific",
+            "diseaseAccession": "DI-05212",
+            "acronym": "IIAE8",
+            "description": "A rare, often fatal complication of herpes simplex infection, caused by virus spreading in the central nervous system. Disease manifestations include low-grade fever, severe headache, nausea, vomiting, and lethargy. Neurological features include confusion, acute memory disturbances, disorientation, behavioral changes, hemiparesis and seizures.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "617900"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22851595"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "26513235"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "Disease susceptibility is associated with variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Autoinflammation with arthritis and vasculitis",
+            "diseaseAccession": "DI-06922",
+            "acronym": "AIARV",
+            "description": "An autosomal recessive disorder characterized by onset of chronic and systemic autoinflammation in infancy or early childhood. Affected individuals have recurrent fever, erythematous skin rashes, vasculitis, oral aphthous lesions, and polyarthritis. Additional variable features are poor overall growth, microcytic anemia, mild intellectual disability, and seizures.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "620880"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "32447396"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "34363755"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/TBK1-human.json"
+    },
+    {
+      "label": "WIPI2",
+      "accession": "Q9Y4P8",
+      "entry_version": 199,
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=reviewed%3Atrue+AND+organism_id%3A9606+AND+gene_exact%3AWIPI2&format=json&size=5",
+      "panel_reason": "Phosphoinositide-binding autophagy protein involved in autophagosome formation.",
+      "curated_evidence": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20505359"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28561066"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28890335"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30968111"
+                }
+              ],
+              "value": "Component of the autophagy machinery that controls the major intracellular degradation process by which cytoplasmic materials are packaged into autophagosomes and delivered to lysosomes for degradation (PubMed:20505359, PubMed:28561066). Involved in an early step of the formation of preautophagosomal structures (PubMed:20505359, PubMed:28561066). Binds and is activated by phosphatidylinositol 3-phosphate (PtdIns3P) forming on membranes of the endoplasmic reticulum upon activation of the upstream ULK1 and PI3 kinases (PubMed:28561066). Mediates ER-isolation membranes contacts by interacting with the ULK1:RB1CC1 complex and PtdIns3P (PubMed:28890335). Once activated, WIPI2 recruits at phagophore assembly sites the ATG12-ATG5-ATG16L1 complex that directly controls the elongation of the nascent autophagosomal membrane (PubMed:20505359, PubMed:28561066)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24954904"
+                }
+              ],
+              "value": "Recruits the ATG12-ATG5-ATG16L1 complex to omegasomes and preautophagosomal structures, resulting in ATG8 family proteins lipidation and starvation-induced autophagy. Isoform 4 is also required for autophagic clearance of pathogenic bacteria. Isoform 4 binds the membrane surrounding Salmonella and recruits the ATG12-5-16L1 complex, initiating LC3 conjugation, autophagosomal membrane formation, and engulfment of Salmonella"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 4"
+        },
+        {
+          "commentType": "DISEASE",
+          "disease": {
+            "diseaseId": "Intellectual developmental disorder with short stature and variable skeletal anomalies",
+            "diseaseAccession": "DI-05577",
+            "acronym": "IDDSSA",
+            "description": "An autosomal recessive disorder characterized by severe intellectual disability, speech and language impairment, developmental delay, and cardiac, thyroid and skeletal abnormalities. Skeletal features include short stature, camptodactyly, fifth finger clinodactyly, thumb hypoplasia, overlapping toes, and kyphosis or lumbar vertebral abnormalities.",
+            "diseaseCrossReference": {
+              "database": "MIM",
+              "id": "618453"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30968111"
+              }
+            ]
+          },
+          "note": {
+            "texts": [
+              {
+                "value": "The disease is caused by variants affecting the gene represented in this entry"
+              }
+            ]
+          }
+        }
+      ],
+      "source_file": "v3-sources/WIPI2-human.json"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "v4-proposed-not-frozen",
+  "positive_control": {
+    "accession": "O95352",
+    "file": "data/xpanel_fixed/human_ATG7.faa",
+    "file_sha256": "441751c0e256663dff2ba572b8d5f10707791e9cda8e6606bd2bb02480723e96",
+    "sequence_length": 703,
+    "sequence_sha256_uppercase_no_whitespace_no_newline": "ccd3b700438395641f9f68412808ef4731d2fe653fa3bd33856f42c1f43f156a",
+    "interpretation": "Procedure check of one already-seen sequence, not sensitivity validation for targets. Separate smoke release in later compute amendment before cohort release; max merged locus bit score>=100 required; failure halts entire cohort with no rerun/recalibration."
+  },
+  "real_protein_pool": "real-null-fixed-pool.json, closed snapshot20 records. No expansion after target discovery.",
+  "matching": "Closed v3 pool remains unchanged and fixed before discovery. Match actual retained enrolled cnidarian query lengths, not human rationale protein lengths or reference-locus lengths. Exclude target-family and all seen accession/alias/isoform/model/sequence duplicates before matching. Retained enrolled label ASCII order; one unused eligible control with length ratio0.8..1.25 inclusive; absolute length distance then accession ASCII. No match stays primary D/N with explicit unmatched status. Matching and complete feasibility manifest frozen before ANY alignment; no pool expansion or post-score re-match.",
+  "real_stop": "M>0 and detected/M>0.10 strictly gives target yield NOT INTERPRETABLE against matched housekeeping background. Exactly10% does not trigger. M<5 insufficient comparator regardless of rate. Conserved-family high mapping may explain stop unrelated to targets. Low rate never validates unmatched targets.",
+  "scrambles": "100 deterministic length/composition-matched Fisher-Yates scrambles per retained target, sanity only. Generator in prospective_algorithms_v3.py; SHA256 word stream H:index:counter ASCII, index0..99, counter0+, big-endian64 words and rejection modulo to avoid bias. Scramble hits flags low-bar sanity failure, never excludes target rows or changes primary denominator.",
+  "primary_endpoint": "D/N retained enrolled target label detection, unchanged by match status. Minimum N5 operational only, no power rationale; every N is descriptive, not confirmatory. N0=undefined0/0. N<5 tiny-cohort description. Matched subset Dmatched/M and Mdetected/M secondary only.",
+  "caps": "10 targets+10 real-protein controls+1000 scrambles+1 positive=1021 maximum alignment queries. No alignment authorized by this spec. Later compute amendment pins numeric ceilings and procedure smoke.",
+  "secondary": "Matched real background detection Mdetect/M; scramble sanity rates; overlapping best-locus connected-components yield; screened fixed10 denominator. None changes enrollment/primary denominator.",
+  "matched_minimum": "M>=5 operational threshold, no power rationale, allows matched-subset background description only. M<5/M0 insufficient comparator; primary D/N still disclosed. Unmatched target does NOT kill entire cohort. No biological/statistical/qualified conclusion at any M or N.",
+  "pool_bias": "20 records274-497aa from6 highly conserved housekeeping families, fixed biased first100 snapshot, not representative null distribution. Many human proxy lengths unmatched; actual enrolled query lengths must be tested when available, no discovery in this stage.",
+  "seen_audit": "NOT DONE, exact-accession empty only; full alias/lineage/isoform/sequence audit mandatory before enrollment."
+}
