@@ -1,0 +1,51 @@
+{
+  "status": "v4.19.2DRAFT, HOLD no execution",
+  "commit": "6065ed1c6759293f86a2dd2110677bb25306d8a2",
+  "files": [
+    {
+      "path": "results/x-20261009-compute-amendment/v4.19.2-draft.md",
+      "bytes": 20966,
+      "sha256": "302105646465c8485220570c2d09abc50d67259c22e32627a9de0bb8a98963ec"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/compare_db_v4_19_2.py",
+      "bytes": 9655,
+      "sha256": "edd3bc5e7a6075ea2646ca20af330c91d35bb762d1c985f0f913df869943613c"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/locked-original-clytia.nin",
+      "bytes": 16836,
+      "sha256": "577bd5b2b6a503fbddf781ab199df46fed2ca3ca7c87a0ad79bed8e690398de1"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/locked-original-clytia.njs",
+      "bytes": 440,
+      "sha256": "6df95662c9192054f983066a16acc5bb80e74c4bb0a61a4f94ae3c121ee5d156"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/reference-lock-v4.19.1.json",
+      "bytes": 4566,
+      "sha256": "ef052d846a3eacd6b2d5a1bbda5ad6e93f1ed40f984718c37c8a6a72b9d49372"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/test_compare_v4_19_2.py",
+      "bytes": 5653,
+      "sha256": "70ff60bd29def52c63305902d675d1ae2c46b4fc4ff36799fdae486750399bcf"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/comparator-v4.19.2-synthetic-results.json",
+      "bytes": 4555,
+      "sha256": "adb980393708d5da4f28e5f57be2031889ac5646718a61038d9c24964e4347a7"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/scorer-fixture-manifest.json",
+      "bytes": 1065,
+      "sha256": "ff890fad5cc1746e8e07d81559326eb9d7294065c0bbabf5580037f0474483c0"
+    },
+    {
+      "path": "results/x-20261009-compute-amendment/historical-CONTROL_ATG7.expected.json",
+      "bytes": 331,
+      "sha256": "532a224ca54f21e26a9265710d8ee2136c9b91989840e050c1f933ad646ab419"
+    }
+  ]
+}
