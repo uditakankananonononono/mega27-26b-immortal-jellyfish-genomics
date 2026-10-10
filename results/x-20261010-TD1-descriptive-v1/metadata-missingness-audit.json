@@ -1,0 +1,155 @@
+{
+  "workbook_sha256": "4d66ba83b3ec03c8dffdf92c1823001cb6bef4c06cd64fadf559ecf4b4429f5b",
+  "gene_rows": 23314,
+  "unique_gene_ids": 23314,
+  "duplicate_ids": 0,
+  "sample_columns": 34,
+  "expected_cells": 792676,
+  "cell_status_counts": {
+    "valid_nonnegative_numeric": 792676
+  },
+  "headers_match_crosswalk_set": true,
+  "header_duplicates": 0,
+  "headers": {
+    "G": "0h-1",
+    "H": "0h-2",
+    "I": "0h-3",
+    "J": "0h-4",
+    "K": "3h-1",
+    "L": "3h-2",
+    "M": "3h-3",
+    "N": "3h-4",
+    "O": "6h-1",
+    "P": "6h-2",
+    "Q": "6h-3",
+    "R": "6h-4",
+    "S": "9h-1",
+    "T": "9h-2",
+    "U": "9h-3",
+    "V": "9h-4",
+    "W": "16h-1",
+    "X": "16h-2",
+    "Y": "16h-3",
+    "Z": "20h-1",
+    "AA": "20h-2",
+    "AB": "20h-3",
+    "AC": "24h-1",
+    "AD": "24h-2",
+    "AE": "24h-3",
+    "AF": "33h-1",
+    "AG": "33h-2",
+    "AH": "33h-4",
+    "AI": "51h-1c",
+    "AJ": "51h-1s",
+    "AK": "51h-2c",
+    "AL": "51h-2s",
+    "AM": "51h-3c",
+    "AN": "51h-3s"
+  },
+  "per_column_status": {
+    "0h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "0h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "0h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "0h-4": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "3h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "3h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "3h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "3h-4": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "6h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "6h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "6h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "6h-4": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "9h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "9h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "9h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "9h-4": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "16h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "16h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "16h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "20h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "20h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "20h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "24h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "24h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "24h-3": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "33h-1": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "33h-2": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "33h-4": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-1c": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-1s": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-2c": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-2s": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-3c": {
+      "valid_nonnegative_numeric": 23314
+    },
+    "51h-3s": {
+      "valid_nonnegative_numeric": 23314
+    }
+  },
+  "gene_id_order_sha256": "0c18805043209c4dc6fc860af93c03eace910dd2f3d6b024ad1fb08d40f6b908",
+  "scope_heading": "TD-1 within-line descriptive TPM reproduction; wound+fasting confounded; 0h post-cut; c/s anatomy unverified; no causal or independent-validation inference"
+}

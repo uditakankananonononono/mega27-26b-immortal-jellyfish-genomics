@@ -1,0 +1,41 @@
+{
+  "design_version": "v1",
+  "scope_heading": "TD-1 within-line descriptive TPM reproduction; wound+fasting confounded; 0h post-cut; c/s anatomy unverified; no causal or independent-validation inference",
+  "workbook_sha256": "4d66ba83b3ec03c8dffdf92c1823001cb6bef4c06cd64fadf559ecf4b4429f5b",
+  "gene_id_order_sha256": "0c18805043209c4dc6fc860af93c03eace910dd2f3d6b024ad1fb08d40f6b908",
+  "unique_genes": 23314,
+  "sample_columns": 34,
+  "valid_cells": 792676,
+  "header_order_verified": true,
+  "crosswalk_set_verified": true,
+  "group_count": 10,
+  "terminal_pairs": 3,
+  "all_output_rows_readback_checked": true,
+  "arithmetic": "Python binary64, repr serialization; no imputation or renormalization",
+  "outputs": [
+    {
+      "file": "TD1-within-line-wound-fasting-confounded-group-TPM.tsv",
+      "bytes": 53046831,
+      "sha256": "7e2f21f83c8696bf4e707691e058cd98fe697ec02c155d0bb218bcb4e76611bc",
+      "data_rows": 233140
+    },
+    {
+      "file": "TD1-within-line-wound-fasting-confounded-51h-paired-TPM-differences.tsv",
+      "bytes": 14485839,
+      "sha256": "e801f610cbcb13f9fbe4ae8cd38f577f79f412bf9459291da0c4357f14822a11",
+      "data_rows": 69942
+    }
+  ],
+  "not_run": [
+    "ratios",
+    "pseudocounts",
+    "models",
+    "p-values",
+    "FDR",
+    "ranking",
+    "enrichment",
+    "alignment",
+    "S10 download",
+    "causal interpretation"
+  ]
+}
